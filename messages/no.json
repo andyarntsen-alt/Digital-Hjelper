@@ -1,0 +1,964 @@
+{
+  "common": {
+    "back": "Tilbake",
+    "backToHome": "Tilbake til forsiden",
+    "search": "Søk",
+    "searchPlaceholder": "Søk etter veiledninger...",
+    "readMore": "Les mer",
+    "startGuide": "Start guide",
+    "minutes": "min",
+    "easy": "Enkel",
+    "medium": "Middels",
+    "difficult": "Vanskelig",
+    "showMore": "Vis mer",
+    "showLess": "Vis mindre",
+    "close": "Lukk",
+    "open": "Åpne",
+    "menu": "Meny",
+    "skipToContent": "Hopp til hovedinnhold",
+    "loading": "Laster...",
+    "error": "Noe gikk galt",
+    "tryAgain": "Prøv igjen",
+    "favorites": "Favoritter",
+    "addToFavorites": "Legg til i favoritter",
+    "removeFromFavorites": "Fjern fra favoritter"
+  },
+  "header": {
+    "siteName": "LettDigital",
+    "tagline": "Enkel veiledning for alle",
+    "nav": "NAV",
+    "skatt": "Skatteetaten",
+    "helse": "Helsenorge",
+    "sikkerhet": "Sikkerhet",
+    "bank": "Bank",
+    "digital": "Digitale verktøy",
+    "ordbok": "Ordbok",
+    "faq": "FAQ",
+    "about": "Om oss",
+    "language": "Språk"
+  },
+  "footer": {
+    "about": "Om LettDigital",
+    "aboutText": "Vi hjelper deg å forstå og bruke offentlige digitale tjenester.",
+    "quickLinks": "Hurtiglenker",
+    "contact": "Kontakt",
+    "email": "kontakt@lettdigital.no",
+    "copyright": "LettDigital. Laget for alle."
+  },
+  "accessibility": {
+    "title": "Tilgjengelighet",
+    "fontSize": "Tekststørrelse",
+    "normalSize": "Normal",
+    "largeSize": "Stor",
+    "extraLargeSize": "Ekstra stor",
+    "highContrast": "Høy kontrast",
+    "on": "På",
+    "off": "Av"
+  },
+  "home": {
+    "heroTitle": "Trenger du hjelp med",
+    "heroTitleBreak": "digitale offentlige tjenester?",
+    "heroSubtitle": "Vi forklarer NAV, Skatteetaten og Helsenorge på en enkel måte. Steg-for-steg, med store bokstaver og klart språk.",
+    "seeGuides": "Se våre veiledninger",
+    "dictionary": "Ordbok",
+    "quickLinks": "Hurtiglenker",
+    "faqLink": "Vanlige spørsmål",
+    "favoritesLink": "Mine favoritter",
+    "whoWeHelp": "Hvem hjelper vi?",
+    "elderly": "Eldre og pensjonister",
+    "elderlyDesc": "Som synes digitale tjenester er vanskelige å forstå",
+    "newToNorway": "Nye i Norge",
+    "newToNorwayDesc": "Som trenger hjelp med språk og systemer",
+    "helpers": "Pårørende og hjelpere",
+    "helpersDesc": "Som hjelper andre med digitale tjenester",
+    "chooseService": "Velg tjeneste",
+    "chooseServiceDesc": "Klikk på den tjenesten du trenger hjelp med, så viser vi deg steg-for-steg hva du skal gjøre.",
+    "whyUseUs": "Hvorfor bruke LettDigital?",
+    "simpleLanguage": "Enkelt språk",
+    "simpleLanguageDesc": "Vi forklarer alt med vanlige ord, uten vanskelig byråkratspråk.",
+    "largeFonts": "Store bokstaver",
+    "largeFontsDesc": "Du kan justere tekststørrelsen så det er lett å lese.",
+    "stepByStep": "Steg-for-steg",
+    "stepByStepDesc": "Følg enkle steg og kryss av når du er ferdig.",
+    "free": "Helt gratis",
+    "freeDesc": "Vår tjeneste koster ingenting å bruke.",
+    "ctaTitle": "Klar til å komme i gang?",
+    "ctaSubtitle": "Velg tjenesten du trenger hjelp med, så guider vi deg gjennom prosessen."
+  },
+  "services": {
+    "nav": {
+      "title": "NAV",
+      "shortDesc": "Dagpenger, sykepenger og stønad",
+      "description": "Søke om dagpenger, sykepenger, foreldrepenger, uføretrygd og andre stønader.",
+      "hubTitle": "NAV-veiledninger",
+      "hubSubtitle": "Hjelp til å bruke nav.no",
+      "didYouKnow": "Visste du?",
+      "didYouKnowText": "NAV er Norges største offentlige etat og administrerer over en tredjedel av statsbudsjettet. De hjelper deg med alt fra arbeidsledighet til pensjon.",
+      "selectGuide": "Velg hva du trenger hjelp med",
+      "needMoreHelp": "Trenger du mer hjelp?",
+      "needMoreHelpText": "Hvis du ikke finner det du leter etter, kan du kontakte NAV direkte:",
+      "phone": "Telefon",
+      "phoneHours": "hverdager 09:00-15:00",
+      "chat": "Chat",
+      "chatAvailable": "Tilgjengelig på nav.no",
+      "office": "NAV-kontor",
+      "findOffice": "Finn ditt lokale kontor på nav.no"
+    },
+    "skatt": {
+      "title": "Skatteetaten",
+      "shortDesc": "Skattemelding og fradrag",
+      "description": "Levere skattemelding, sjekke fradrag, finne skatteoppgjør og andre skattespørsmål.",
+      "hubTitle": "Skatteetaten-veiledninger",
+      "hubSubtitle": "Hjelp til skatt og avgifter",
+      "didYouKnow": "Viktig!",
+      "didYouKnowText": "De fleste får skattemeldingen klar i mars/april. Du har frist til 30. april med å kontrollere og eventuelt endre den.",
+      "selectGuide": "Velg hva du trenger hjelp med",
+      "importantDates": "Viktige datoer for skatt",
+      "datesMarch": "Mars",
+      "datesMarchTitle": "Skattemeldingen kommer",
+      "datesMarchDesc": "Du får skattemeldingen din tilgjengelig på skatteetaten.no",
+      "datesApril": "30. april",
+      "datesAprilTitle": "Frist for skattemeldingen",
+      "datesAprilDesc": "Siste dag for å kontrollere og levere endringer",
+      "datesJune": "Juni",
+      "datesJuneTitle": "Skatteoppgjøret kommer",
+      "datesJuneDesc": "Du ser om du får penger tilbake eller må betale restskatt",
+      "needMoreHelp": "Trenger du mer hjelp?",
+      "needMoreHelpText": "Hvis du ikke finner det du leter etter, kan du kontakte Skatteetaten:",
+      "phone": "Telefon",
+      "phoneNumber": "800 80 000",
+      "phoneHours": "gratis, hverdager 08:00-15:30",
+      "chat": "Chat",
+      "chatAvailable": "Tilgjengelig på skatteetaten.no"
+    },
+    "helse": {
+      "title": "Helsenorge",
+      "shortDesc": "Legetime og resepter",
+      "description": "Bestille legetime, se resepter, bytte fastlege og lese journalen din.",
+      "hubTitle": "Helsenorge-veiledninger",
+      "hubSubtitle": "Hjelp til å bruke helsenorge.no",
+      "didYouKnow": "Visste du?",
+      "didYouKnowText": "På Helsenorge kan du gjøre mange ting selv, som å bestille legetime, fornye resepter og lese journalen din - alt uten å ringe.",
+      "selectGuide": "Velg hva du trenger hjelp med",
+      "whatYouCanDo": "Hva kan du gjøre på Helsenorge?",
+      "needMoreHelp": "Trenger du mer hjelp?",
+      "needMoreHelpText": "Hvis du har spørsmål om helsetjenester:",
+      "phone": "Telefon",
+      "phoneNumber": "23 32 70 00",
+      "phoneHours": "Helse- og omsorgsdepartementets sentralbord",
+      "emergency": "Nødnummer",
+      "emergencyNumber": "113",
+      "emergencyDesc": "Ved akutt sykdom eller skade",
+      "legevakt": "Legevakten",
+      "legevaktNumber": "116 117",
+      "legevaktDesc": "Ved behov for øyeblikkelig hjelp som ikke er akutt",
+      "poisonControl": "Giftinformasjon",
+      "poisonControlNumber": "22 58 00 00",
+      "poisonControlDesc": "Ved forgiftning eller mistanke om forgiftning",
+      "ambulance": "Ambulanse",
+      "ambulanceDesc": "Ved akutt, livstruende sykdom eller skade",
+      "importantNumbers": "Viktige telefonnummer",
+      "emergencyNotice": "NB! Ved akutt sykdom eller skade, ring alltid 113 (ambulanse) eller 116 117 (legevakt). Helsenorge er for ikke-akutte henvendelser.",
+      "canDoTitle": "Dette kan du gjøre på Helsenorge",
+      "canDoBooking": "Bestille legetime",
+      "canDoBookingDesc": "Book time hos fastlegen døgnet rundt",
+      "canDoPrescriptions": "Se resepter",
+      "canDoPrescriptionsDesc": "Oversikt over alle dine aktive resepter",
+      "canDoMessage": "Sende melding til lege",
+      "canDoMessageDesc": "Kommuniser trygt med helsetjenesten",
+      "canDoJournal": "Lese journalen din",
+      "canDoJournalDesc": "Se hva som er skrevet om deg",
+      "canDoChangeGP": "Bytte fastlege",
+      "canDoChangeGPDesc": "Finn og bytt til ny lege enkelt",
+      "canDoVaccines": "Se vaksinasjoner",
+      "canDoVaccinesDesc": "Oversikt over alle vaksiner du har tatt"
+    },
+    "sikkerhet": {
+      "title": "Digital sikkerhet",
+      "shortDesc": "Beskytt deg på nett",
+      "description": "Lær å beskytte deg mot svindel, phishing og andre digitale trusler."
+    },
+    "bank": {
+      "title": "Bank og økonomi",
+      "shortDesc": "Nettbank og betaling",
+      "description": "Bruke nettbank, betale regninger og få hjelp med personlig økonomi."
+    },
+    "digital": {
+      "title": "Digitale verktøy",
+      "shortDesc": "E-post og Digipost",
+      "description": "Sette opp e-post, bruke digital postkasse og andre digitale verktøy."
+    }
+  },
+  "guides": {
+    "nav": {
+      "loggInn": {
+        "title": "Logge inn på NAV",
+        "description": "Lær hvordan du logger inn på nav.no med BankID eller MinID",
+        "longDescription": "Lær hvordan du logger inn på nav.no slik at du kan se dine saker, søke om ytelser og sende meldinger.",
+        "backToGuides": "Tilbake til NAV-veiledninger",
+        "time": "Ca. 5 minutter",
+        "difficulty": "Enkel",
+        "beforeYouStart": "Før du starter",
+        "beforeYouStartText": "Du trenger BankID (på mobil eller kodebrikke) eller MinID for å logge inn. Hvis du ikke har dette, må du først skaffe deg en av disse.",
+        "stepsTitle": "Slik logger du inn på NAV",
+        "problemsTitle": "Problemer med innlogging?",
+        "problemsText": "Hvis du har problemer med å logge inn, kan du prøve følgende:",
+        "problemsList": [
+          "Sjekk at du har skrevet riktig fødselsnummer",
+          "Prøv å oppdatere nettsiden (trykk F5 eller Ctrl+R)",
+          "Tøm nettleserens hurtigminne (cache)",
+          "Prøv en annen nettleser",
+          "Ring NAV på 55 55 33 33 for hjelp"
+        ],
+        "steps": [
+          {
+            "title": "Gå til nav.no",
+            "description": "Åpne nettleseren din (for eksempel Google Chrome, Safari eller Edge). Skriv inn \"nav.no\" i adressefeltet øverst og trykk Enter.",
+            "tip": "Du kan også søke etter \"NAV\" på Google og klikke på det første resultatet."
+          },
+          {
+            "title": "Finn \"Logg inn\"-knappen",
+            "description": "På forsiden av nav.no ser du en blå knapp øverst til høyre som sier \"Logg inn\". Klikk på denne knappen.",
+            "tip": "Knappen kan også hete \"Min side\" eller \"Ditt NAV\"."
+          },
+          {
+            "title": "Velg innloggingsmetode",
+            "description": "Du får nå valget mellom flere måter å logge inn på. De vanligste er BankID på mobil, BankID med kodebrikke, eller MinID. Velg den du har tilgang til.",
+            "warning": "Hvis du ikke har BankID eller MinID, må du kontakte banken din eller besøke et NAV-kontor for å få hjelp."
+          },
+          {
+            "title": "Hvis du velger BankID på mobil",
+            "description": "Skriv inn fødselsnummeret ditt (11 siffer) og telefonnummeret ditt. Du vil få en melding på mobilen din. Åpne BankID-appen og bekreft innloggingen med fingeravtrykk eller kode.",
+            "tip": "Sørg for at BankID-appen er installert på telefonen din før du starter."
+          },
+          {
+            "title": "Hvis du velger BankID med kodebrikke",
+            "description": "Skriv inn fødselsnummeret ditt. Slå på kodebrikken og skriv inn koden som står på skjermen. Deretter skriver du inn din personlige kode på kodebrikken og taster inn den nye koden som vises.",
+            "warning": "Kodebrikken må ha batteri. Hvis skjermen er tom, trenger den nytt batteri eller du må kontakte banken."
+          },
+          {
+            "title": "Du er nå logget inn!",
+            "description": "Gratulerer! Du er nå logget inn på NAV. Du kan se din innboks, dine søknader, og sende meldinger til NAV. Menyen på venstre side viser alle tjenestene du har tilgang til.",
+            "tip": "Husk å logge ut når du er ferdig, spesielt hvis du bruker en felles datamaskin."
+          }
+        ]
+      },
+      "dagpenger": {
+        "title": "Søke om dagpenger",
+        "description": "Steg-for-steg guide for å søke dagpenger hvis du har mistet jobben",
+        "longDescription": "Dagpenger er penger du kan få fra NAV hvis du har mistet jobben eller blitt permittert. Her viser vi deg steg-for-steg hvordan du søker.",
+        "backToGuides": "Tilbake til NAV-veiledninger",
+        "time": "Ca. 20 minutter",
+        "difficulty": "Middels",
+        "whoCanGet": "Hvem kan få dagpenger?",
+        "whoCanGetIntro": "For å få dagpenger må du vanligvis:",
+        "requirements": [
+          "Ha tjent minst 186 042 kroner siste 12 måneder, eller 372 084 kroner siste 36 måneder (2024-satser)",
+          "Ha fått redusert arbeidstiden din med minst 50%",
+          "Være registrert som arbeidssøker og aktivt søke jobb",
+          "Bo i Norge og ha rett til å jobbe her"
+        ],
+        "documentsTitle": "Ha disse dokumentene klare",
+        "documents": [
+          "Oppsigelse eller permitteringsvarsel fra arbeidsgiveren din",
+          "Arbeidsavtale (hvis du har den tilgjengelig)",
+          "Kontonummer der du vil ha pengene utbetalt",
+          "BankID eller MinID for innlogging"
+        ],
+        "stepsTitle": "Slik søker du om dagpenger",
+        "importantTitle": "Viktig å huske!",
+        "importantMeldekort": "Meldekort hver 14. dag",
+        "importantMeldekortText": "Du må sende meldekort hver 14. dag for å fortsette å få dagpenger. Dette gjør du på nav.no.",
+        "importantJobsearch": "Jobbsøking",
+        "importantJobsearchText": "Du må aktivt søke jobber og dokumentere dette. NAV kan be deg vise jobbsøknadene dine.",
+        "importantAmount": "Hvor mye får du?",
+        "importantAmountText": "Dagpenger er ca. 62,4% av tidligere inntekt, opp til 6G (ca. 744 000 kr). Pengene utbetales vanligvis etterskuddsvis.",
+        "steps": [
+          {
+            "title": "Registrer deg som arbeidssøker først",
+            "description": "Før du kan søke om dagpenger, må du registrere deg som arbeidssøker hos NAV. Gå til nav.no, logg inn, og velg \"Registrer deg som arbeidssøker\". Fyll ut informasjon om din utdanning og arbeidserfaring.",
+            "tip": "Du kan registrere deg som arbeidssøker samme dag som du søker dagpenger.",
+            "warning": "Du må registrere deg som arbeidssøker FØR du søker dagpenger, ellers vil søknaden bli avvist."
+          },
+          {
+            "title": "Logg inn på nav.no",
+            "description": "Gå til nav.no og logg inn med BankID eller MinID. Klikk på \"Logg inn\" øverst til høyre på siden.",
+            "tip": "Se vår guide \"Logge inn på NAV\" hvis du trenger hjelp med innlogging."
+          },
+          {
+            "title": "Finn dagpenger-søknaden",
+            "description": "Etter innlogging, gå til \"Ditt NAV\" eller \"Mine tjenester\". Klikk deretter på \"Søknader\" eller søk etter \"dagpenger\" i søkefeltet. Velg \"Søknad om dagpenger\".",
+            "tip": "Du kan også skrive \"dagpenger\" i søkefeltet på nav.no for å finne søknaden direkte."
+          },
+          {
+            "title": "Fyll ut personlig informasjon",
+            "description": "Søknaden starter med å vise din personlige informasjon (navn, adresse, etc.). Sjekk at dette er riktig. Hvis noe er feil, må du endre det i Folkeregisteret før du fortsetter.",
+            "warning": "Kontroller at kontonummeret ditt er riktig! Det er hit pengene blir utbetalt."
+          },
+          {
+            "title": "Oppgi grunnen til at du søker",
+            "description": "Velg hvorfor du søker dagpenger: har du mistet jobben, er permittert, eller har redusert arbeidstid? Svar ærlig på alle spørsmål.",
+            "tip": "Hvis du er usikker på hva du skal svare, kan du velge \"Vet ikke\" og forklare situasjonen i kommentarfeltet."
+          },
+          {
+            "title": "Last opp dokumentasjon",
+            "description": "Du må laste opp dokumenter som bekrefter situasjonen din. Dette kan være oppsigelse, permitteringsvarsel, eller arbeidsavtale. Klikk på \"Last opp fil\" og velg dokumentet fra datamaskinen din.",
+            "warning": "Godkjente filformater er PDF, JPG og PNG. Maks filstørrelse er vanligvis 10 MB.",
+            "tip": "Ta bilde av papirdokumenter med mobilen og last opp bildet hvis du ikke har skanner."
+          },
+          {
+            "title": "Oppgi tidligere inntekt",
+            "description": "NAV henter automatisk informasjon om din tidligere inntekt fra Skatteetaten. Sjekk at dette ser riktig ut. Hvis du har hatt inntekt som ikke vises, må du legge det til manuelt.",
+            "tip": "Dagpenger beregnes ut fra inntekten din de siste 12 eller 36 månedene, avhengig av hva som gir høyest beløp."
+          },
+          {
+            "title": "Svar på tilleggsspørsmål",
+            "description": "Søknaden kan inneholde flere spørsmål om din situasjon, som om du har andre inntekter, går på skole, eller har helseproblemer som påvirker jobbsøking. Svar ærlig på alt."
+          },
+          {
+            "title": "Les gjennom og send inn",
+            "description": "Før du sender, får du en oppsummering av søknaden. Les gjennom alt nøye. Hvis noe er feil, gå tilbake og rett det opp. Når alt er riktig, klikk på \"Send inn søknad\".",
+            "warning": "Etter innsending kan du ikke endre søknaden. Du må i så fall kontakte NAV."
+          },
+          {
+            "title": "Bekreftelse og videre",
+            "description": "Du får en bekreftelse på skjermen og på e-post/SMS om at søknaden er mottatt. NAV behandler søknaden vanligvis innen 4 uker. Husk å sende meldekort hver 14. dag!",
+            "tip": "Du kan følge status på søknaden under \"Mine saker\" på nav.no."
+          }
+        ]
+      },
+      "sykepenger": {
+        "title": "Søke om sykepenger",
+        "description": "Hvordan sende inn sykemelding og søke om sykepenger",
+        "longDescription": "Sykepenger erstatter inntekten din når du er syk og ikke kan jobbe. Her viser vi deg hvordan du søker steg-for-steg.",
+        "backToGuides": "Tilbake til NAV-veiledninger",
+        "time": "Ca. 15 minutter",
+        "difficulty": "Middels",
+        "whoCanGet": "Hvem kan få sykepenger?",
+        "requirements": [
+          "Du har vært i jobb i minst 4 uker før du ble syk",
+          "Du tjener minst 59 310 kr i året (halvparten av grunnbeløpet)",
+          "Du har sykemelding fra lege",
+          "Du har tapt inntekt på grunn av sykdom"
+        ],
+        "importantToKnow": "Viktig å vite om sykepenger",
+        "employerPeriod": "Arbeidsgiverperioden (dag 1-16)",
+        "employerPeriodText": "De første 16 dagene betaler arbeidsgiveren din sykepenger. Du trenger ikke søke NAV.",
+        "navPeriod": "NAV-perioden (fra dag 17)",
+        "navPeriodText": "Fra dag 17 overtar NAV. Da må du sende inn søknad.",
+        "howMuch": "Hvor mye får du?",
+        "howMuchText": "Du får 100% av inntekten din, opp til 6G (ca. 744 000 kr). Arbeidsgiveren kan dekke mer.",
+        "howLong": "Hvor lenge?",
+        "howLongText": "Du kan få sykepenger i opptil 52 uker (1 år). Etter det kan du ha rett på AAP.",
+        "stepsTitle": "Slik søker du om sykepenger",
+        "gradedTitle": "Hva er gradert sykemelding?",
+        "gradedIntro": "Gradert sykemelding betyr at du jobber noe, men ikke fullt. For eksempel:",
+        "graded50": "50% sykemeldt: Du jobber halv dag og får sykepenger for resten",
+        "graded80": "80% sykemeldt: Du jobber én dag i uka og får sykepenger for 4 dager",
+        "gradedBenefit": "Gradert sykemelding er ofte bra fordi du holder kontakten med jobben og kommer raskere tilbake.",
+        "steps": [
+          {
+            "title": "Få sykemelding fra legen",
+            "description": "Først må du få en sykemelding fra legen din. Legen sender sykemeldingen elektronisk til NAV og arbeidsgiveren din. Du trenger ikke gjøre noe med selve sykemeldingen.",
+            "tip": "Du kan bli sykemeldt av fastlege, legevakt, eller spesialist. Tannlege og kiropraktor kan også sykmelde i noen tilfeller."
+          },
+          {
+            "title": "Logg inn på nav.no",
+            "description": "Gå til nav.no og logg inn med BankID eller MinID. Klikk på \"Logg inn\" øverst til høyre.",
+            "tip": "Sykemeldingen din dukker vanligvis opp på nav.no innen 1-2 dager etter legebesøket."
+          },
+          {
+            "title": "Finn sykemeldingen din",
+            "description": "Etter innlogging, gå til \"Ditt sykefravær\" eller se etter en varsling om ny sykemelding på forsiden. Klikk på sykemeldingen for å åpne den."
+          },
+          {
+            "title": "Send inn sykemeldingen til arbeidsgiver",
+            "description": "Du må bekrefte sykemeldingen og sende den til arbeidsgiveren din. Velg riktig arbeidsgiver fra listen (hvis du har flere jobber) og klikk \"Send\".",
+            "warning": "Du må sende sykemeldingen innen 3 måneder, ellers kan du miste retten til sykepenger."
+          },
+          {
+            "title": "Fyll ut søknad om sykepenger (etter 16 dager)",
+            "description": "De første 16 dagene betaler arbeidsgiveren din sykepenger. Etter det må du søke NAV. Du får beskjed på nav.no når det er tid for å søke. Fyll ut søknaden med informasjon om arbeid og inntekt.",
+            "tip": "NAV henter mye informasjon automatisk. Du trenger bare å bekrefte at det stemmer."
+          },
+          {
+            "title": "Svar på spørsmål om aktivitet",
+            "description": "I søknaden blir du spurt om du har jobbet noe i sykeperioden, om du har vært på reise, og om du har fått annen inntekt. Svar ærlig på alle spørsmålene.",
+            "warning": "Hvis du har jobbet noe, må du oppgi timene. Dette påvirker hvor mye sykepenger du får."
+          },
+          {
+            "title": "Send inn søknaden",
+            "description": "Når du har fylt ut alt, klikk på \"Send inn søknad\". Du får bekreftelse på at søknaden er mottatt."
+          },
+          {
+            "title": "Vent på svar",
+            "description": "NAV behandler søknaden din, vanligvis innen 4 uker. Du kan se status på søknaden under \"Mine saker\" på nav.no. Pengene utbetales etterskuddsvis.",
+            "tip": "Sykepenger utbetales vanligvis den 25. i måneden for forrige måned."
+          }
+        ]
+      },
+      "foreldrepenger": {
+        "title": "Søke om foreldrepenger",
+        "description": "Alt du trenger å vite om foreldrepenger og hvordan du søker",
+        "longDescription": "Foreldrepenger gir deg inntekt når du er hjemme med barn. Her forklarer vi alt du trenger å vite for å søke.",
+        "backToGuides": "Tilbake til NAV-veiledninger",
+        "time": "Ca. 25 minutter",
+        "difficulty": "Middels",
+        "overview": "Foreldrepenger på 1-2-3",
+        "weeksWithFull": "uker med 100% lønn",
+        "weeksWithReduced": "eller 59 uker med 80%",
+        "weeksFather": "uker til far/medmor",
+        "fatherQuota": "(fedrekvoten)",
+        "weeksMother": "uker til mor",
+        "motherQuota": "(mødrekvoten)",
+        "remainingWeeks": "De resterende ukene kan deles fritt mellom foreldrene.",
+        "whoCanGet": "Hvem kan få foreldrepenger?",
+        "youHaveRight": "Du har rett til foreldrepenger hvis:",
+        "rightConditions": [
+          "Du har hatt inntekt i minst 6 av de siste 10 månedene",
+          "Du tjener minst 59 310 kr i året (0,5G)",
+          "Inntekten kommer fra jobb, frilansarbeid eller selvstendig næring"
+        ],
+        "noRightTitle": "Har du ikke rett til foreldrepenger?",
+        "noRightText": "Da kan du ha rett til engangsstønad (ca. 92 000 kr) i stedet. Søk om dette på samme måte på nav.no.",
+        "stepsTitle": "Slik søker du om foreldrepenger",
+        "importantDates": "Viktige datoer å huske",
+        "date4WeeksBefore": "Tidligst du kan søke om foreldrepenger",
+        "date3WeeksBefore": "Mor starter permisjon (obligatorisk)",
+        "dateTermin": "Forventet fødselsdato",
+        "date6WeeksAfter": "Mor må ta permisjon (obligatorisk)",
+        "calculatorTitle": "Bruk NAVs foreldrepengekalkulator!",
+        "calculatorText": "På nav.no kan du bruke en kalkulator som viser nøyaktig hva du kan få i foreldrepenger. Søk etter \"foreldrepengekalkulator\" på nav.no.",
+        "steps": [
+          {
+            "title": "Sjekk at du har rett til foreldrepenger",
+            "description": "Du må ha jobbet og hatt inntekt i minst 6 av de siste 10 månedene før permisjonen starter. Du må også tjene minst 59 310 kr i året.",
+            "tip": "Usikker? Bruk kalkulatoren på nav.no for å se hva du kan få."
+          },
+          {
+            "title": "Logg inn på nav.no",
+            "description": "Gå til nav.no og logg inn med BankID. Klikk på \"Logg inn\" øverst til høyre."
+          },
+          {
+            "title": "Finn søknad om foreldrepenger",
+            "description": "Søk etter \"foreldrepenger\" i søkefeltet, eller gå til \"Familie og barn\" og velg \"Søknad om foreldrepenger\". Du kan søke tidligst 4 uker før termindato.",
+            "warning": "Søk senest dagen før permisjonen starter for å ikke tape penger!"
+          },
+          {
+            "title": "Fyll ut informasjon om deg selv",
+            "description": "Bekreft personopplysningene dine: navn, adresse og kontonummer. Sjekk at kontonummeret er riktig - det er dit pengene kommer."
+          },
+          {
+            "title": "Oppgi informasjon om barnet",
+            "description": "Fyll inn termindato eller fødselsdato. Hvis barnet er født, oppgi også barnets navn og fødselsnummer. Ved adopsjon, oppgi omsorgsovertakelsesdato."
+          },
+          {
+            "title": "Velg dekningsgrad",
+            "description": "Du kan velge mellom 100% dekning i 49 uker eller 80% dekning i 59 uker. Totalbeløpet er likt, men fordelingen er annerledes.",
+            "tip": "100% gir høyere månedlig utbetaling men kortere permisjon. 80% gir lavere månedlig men lengre permisjon."
+          },
+          {
+            "title": "Planlegg permisjonen",
+            "description": "Fordel ukene mellom mor og far/medmor. Husk at noen uker er forbeholdt mor (3 uker før fødsel) og noen er forbeholdt far (fedrekvote på 15 uker).",
+            "warning": "Fedrekvoten må brukes, ellers går den tapt! Den kan ikke overføres til mor."
+          },
+          {
+            "title": "Last opp dokumentasjon",
+            "description": "Du kan bli bedt om å laste opp terminbekreftelse fra lege/jordmor, eller dokumentasjon på arbeidsinntekt hvis NAV ikke har denne.",
+            "tip": "Terminbekreftelse får du ved første svangerskapskontroll, vanligvis rundt uke 8."
+          },
+          {
+            "title": "Send inn søknaden",
+            "description": "Se over alle opplysningene. Når alt er riktig, klikk \"Send inn søknad\". Du får bekreftelse på e-post.",
+            "tip": "Behandlingstiden er vanligvis 4-6 uker. Søk i god tid!"
+          }
+        ]
+      },
+      "arbeidsledig": {
+        "title": "Melde deg arbeidsledig",
+        "description": "Registrer deg som arbeidssøker hos NAV",
+        "longDescription": "Når du mister jobben, må du registrere deg som arbeidssøker hos NAV. Dette er første steg for å få dagpenger og hjelp til å finne ny jobb.",
+        "backToGuides": "Tilbake til NAV-veiledninger",
+        "time": "Ca. 10 minutter",
+        "difficulty": "Enkel",
+        "whyRegister": "Hvorfor må du registrere deg?",
+        "whyReasons": [
+          {
+            "icon": "money",
+            "title": "Få dagpenger",
+            "text": "Du må være registrert for å kunne søke om dagpenger"
+          },
+          {
+            "icon": "search",
+            "title": "Finne jobber",
+            "text": "Arbeidsgivere kan finne deg på arbeidsplassen.nav.no"
+          },
+          {
+            "icon": "education",
+            "title": "Få kurs og tiltak",
+            "text": "NAV kan tilby deg kurs, praksisplass eller annen hjelp"
+          },
+          {
+            "icon": "support",
+            "title": "Få oppfølging",
+            "text": "Du får en veileder som hjelper deg i jobbsøket"
+          }
+        ],
+        "warningTitle": "Registrer deg så fort som mulig!",
+        "warningText": "Dagpenger regnes fra den dagen du registrerer deg. Hvis du venter, kan du tape penger. Registrer deg helst første dag uten jobb.",
+        "prepareTitle": "Ha dette klart før du starter",
+        "prepareItems": [
+          "BankID eller MinID for innlogging",
+          "Oversikt over tidligere jobber (arbeidsgiver, periode, stilling)",
+          "Informasjon om utdanningen din",
+          "CV (fint å ha, men ikke påkrevd)"
+        ],
+        "stepsTitle": "Slik registrerer du deg som arbeidssøker",
+        "afterTitle": "Hva skjer etter registrering?",
+        "afterSteps": [
+          {
+            "title": "Du blir synlig for arbeidsgivere",
+            "text": "CV-en din kan ses av bedrifter som søker ansatte"
+          },
+          {
+            "title": "NAV vurderer din situasjon",
+            "text": "Du får beskjed om hvilken oppfølging du trenger"
+          },
+          {
+            "title": "Du kan søke om dagpenger",
+            "text": "Hvis du har rett til dagpenger, kan du søke med en gang"
+          },
+          {
+            "title": "Hold profilen oppdatert",
+            "text": "Oppdater CV-en jevnlig og søk aktivt på jobber"
+          }
+        ],
+        "steps": [
+          {
+            "title": "Gå til nav.no",
+            "description": "Åpne nettleseren og gå til nav.no. Klikk på \"Logg inn\" øverst til høyre og logg inn med BankID eller MinID."
+          },
+          {
+            "title": "Finn \"Registrer deg som arbeidssøker\"",
+            "description": "Etter innlogging, se etter \"Arbeid\" i menyen eller søk etter \"registrer arbeidssøker\". Klikk på \"Registrer deg som arbeidssøker\".",
+            "tip": "Du kan også gå direkte til arbeidsplassen.nav.no."
+          },
+          {
+            "title": "Bekreft personopplysninger",
+            "description": "Sjekk at navn, adresse og kontaktinformasjon er riktig. Hvis noe er feil, må du endre det i Folkeregisteret eller kontakte NAV."
+          },
+          {
+            "title": "Oppgi utdanning",
+            "description": "Fyll inn din høyeste fullførte utdanning. Velg nivå (grunnskole, videregående, fagbrev, høyskole osv.) og beskriv hva slags utdanning du har.",
+            "tip": "Jo mer detaljert du er, jo bedre kan NAV hjelpe deg med å finne passende jobber."
+          },
+          {
+            "title": "Legg til arbeidserfaring",
+            "description": "List opp jobbene du har hatt. For hver jobb, oppgi arbeidsgiver, stilling, og hvor lenge du jobbet der. Start med den nyeste jobben.",
+            "tip": "Ta med alle jobber, også deltidsjobber og sommerjobber. Alt teller!"
+          },
+          {
+            "title": "Oppgi kompetanse og ferdigheter",
+            "description": "Legg til ferdigheter du har: språk, datakunnskaper, sertifikater, førerkort osv. Dette hjelper arbeidsgivere å finne deg."
+          },
+          {
+            "title": "Velg hva slags jobb du søker",
+            "description": "Velg yrkeskategorier og bransjer du er interessert i. Du kan velge flere. Oppgi også hvor du er villig til å jobbe geografisk.",
+            "tip": "Vær åpen for ulike muligheter - det øker sjansene for å finne jobb raskt."
+          },
+          {
+            "title": "Bekreft at du er reell arbeidssøker",
+            "description": "Du må bekrefte at du er villig til å ta arbeid, delta på tiltak og møter, og aktivt søke jobb. Kryss av for at du oppfyller kravene.",
+            "warning": "Hvis du ikke oppfyller aktivitetskravene, kan du miste retten til dagpenger."
+          },
+          {
+            "title": "Fullfør registreringen",
+            "description": "Se over alle opplysningene. Klikk \"Fullfør registrering\" når alt er riktig. Du er nå registrert som arbeidssøker!"
+          },
+          {
+            "title": "Søk om dagpenger (hvis aktuelt)",
+            "description": "Etter registrering får du spørsmål om du vil søke dagpenger. Hvis du har rett til dagpenger, klikk \"Søk nå\" for å starte søknaden.",
+            "tip": "Se vår guide \"Søke om dagpenger\" for detaljert hjelp med dagpengesøknaden."
+          }
+        ]
+      },
+      "meldekort": {
+        "title": "Sende meldekort",
+        "description": "Hvordan fylle ut og sende meldekort hver 14. dag",
+        "longDescription": "Meldekortet er en rapport du sender til NAV hver 14. dag for å få utbetalt dagpenger. Det tar bare noen minutter!",
+        "backToGuides": "Tilbake til NAV-veiledninger",
+        "time": "Ca. 5 minutter",
+        "difficulty": "Enkel",
+        "deadlineTitle": "Viktig om frister!",
+        "deadlineText": "Du må sende meldekortet i tide for å få utbetaling. Sender du for sent, kan du miste penger. Fristen er mandag kl. 23:00 etter at 14-dagersperioden er over.",
+        "calendarTitle": "Slik fungerer meldekort-kalenderen",
+        "calendarSteps": [
+          {
+            "label": "Uke 1-2",
+            "text": "Du jobber/søker jobb og følger med på aktiviteten din",
+            "color": "blue"
+          },
+          {
+            "label": "Mandag",
+            "text": "Meldekortet blir tilgjengelig (etter at perioden er over)",
+            "color": "green"
+          },
+          {
+            "label": "Innen 7 dager",
+            "text": "Du må sende meldekortet",
+            "color": "yellow"
+          },
+          {
+            "label": "Utbetaling",
+            "text": "Vanligvis 2-3 virkedager etter at du har sendt",
+            "color": "purple"
+          }
+        ],
+        "stepsTitle": "Slik fyller du ut meldekortet",
+        "faqTitle": "Vanlige spørsmål om meldekort",
+        "faq": [
+          {
+            "question": "Hva skjer hvis jeg glemmer å sende meldekort?",
+            "answer": "Du får ikke utbetaling for den perioden. Send meldekortet så fort du husker det - du kan fortsatt sende inntil 8 dager for sent, men du får trekk i utbetalingen."
+          },
+          {
+            "question": "Må jeg sende meldekort når jeg er syk?",
+            "answer": "Ja, du må fortsatt sende meldekort. Marker at du var syk de aktuelle dagene."
+          },
+          {
+            "question": "Kan jeg endre et meldekort jeg har sendt?",
+            "answer": "Nei, men du kan kontakte NAV hvis du har gjort en feil. Ring 55 55 33 33."
+          },
+          {
+            "question": "Jeg har fått jobb - må jeg fortsatt sende meldekort?",
+            "answer": "Ja, send meldekort for perioden frem til du begynte i jobb. Oppgi timene du har jobbet."
+          }
+        ],
+        "steps": [
+          {
+            "title": "Logg inn på nav.no",
+            "description": "Gå til nav.no og logg inn med BankID eller MinID. Du kan også bruke NAV-appen på mobilen.",
+            "tip": "Last ned NAV-appen for å få påminnelser om meldekort!"
+          },
+          {
+            "title": "Finn meldekortet",
+            "description": "Etter innlogging, se etter \"Meldekort\" på forsiden eller i menyen. Klikk på \"Send meldekort\" eller \"Nytt meldekort\".",
+            "warning": "Meldekortet blir tilgjengelig den dagen du kan sende det, ikke før."
+          },
+          {
+            "title": "Sjekk at perioden er riktig",
+            "description": "Meldekortet gjelder for de siste 14 dagene. Sjekk at datoene øverst på kortet stemmer med perioden du skal rapportere for."
+          },
+          {
+            "title": "Svar på spørsmål om jobb",
+            "description": "Du blir spurt om du har jobbet i perioden. Svar \"Ja\" eller \"Nei\" for hver uke. Hvis du har jobbet, må du oppgi hvor mange timer.",
+            "tip": "Vær nøyaktig med timene. Dette påvirker hvor mye du får utbetalt.",
+            "warning": "Å oppgi feil timer kan føre til at du må betale tilbake penger."
+          },
+          {
+            "title": "Svar på spørsmål om sykdom",
+            "description": "Hvis du har vært syk og ikke kunne jobbe eller søke jobb, marker dette. Har du vært syk mer enn 3 dager, kan du ha rett på sykepenger."
+          },
+          {
+            "title": "Svar på spørsmål om ferie/fravær",
+            "description": "Har du hatt ferie, vært i utlandet, eller hatt annet fravær? Oppgi dette for de aktuelle dagene. Du får ikke dagpenger for feriedager."
+          },
+          {
+            "title": "Svar på spørsmål om kurs/utdanning",
+            "description": "Hvis du har gått på kurs eller tatt utdanning, oppgi dette. Noen kurs gir rett til dagpenger, andre ikke."
+          },
+          {
+            "title": "Bekreft at du er arbeidssøker",
+            "description": "Du må bekrefte at du fortsatt søker jobb og er villig til å ta arbeid. Kryss av for at du oppfyller kravene."
+          },
+          {
+            "title": "Kontroller og send",
+            "description": "Se over alle svarene dine. Hvis alt er riktig, klikk på \"Send meldekort\". Du får bekreftelse på at meldekortet er sendt.",
+            "tip": "Ta skjermbilde av bekreftelsen for egen dokumentasjon."
+          }
+        ]
+      }
+    },
+    "skatt": {
+      "skattemelding": {
+        "title": "Sjekke skattemeldingen",
+        "description": "Hvordan finne og kontrollere skattemeldingen din",
+        "longDescription": "Skattemeldingen viser hva du har tjent og hva du har betalt i skatt. Her lærer du hvordan du sjekker at alt er riktig.",
+        "backToGuides": "Tilbake til Skatteetaten-veiledninger",
+        "time": "Ca. 10 minutter",
+        "difficulty": "Enkel",
+        "whatIsTitle": "Hva er skattemeldingen?",
+        "whatIsText1": "Skattemeldingen (tidligere kalt selvangivelsen) er en oversikt over alle inntektene og fradragene dine for det forrige året. Skatteetaten fyller ut det meste automatisk basert på informasjon fra arbeidsgivere, banker og andre.",
+        "whatIsText2": "Din jobb er å sjekke at alt er riktig og legge til eventuelle fradrag som mangler.",
+        "stepsTitle": "Slik sjekker du skattemeldingen",
+        "commonErrorsTitle": "Vanlige feil å se etter",
+        "commonErrors": [
+          {
+            "title": "Manglende inntekt",
+            "text": "Har du hatt ekstrajobb eller solgt noe som ikke er med?"
+          },
+          {
+            "title": "Feil arbeidsreise",
+            "text": "Er avstanden til jobb riktig beregnet?"
+          },
+          {
+            "title": "Manglende lån",
+            "text": "Er alle lånene dine med, så du får rentefradraget?"
+          },
+          {
+            "title": "Feil boligverdi",
+            "text": "Stemmer boligverdien med markedsprisen?"
+          }
+        ],
+        "deadlineTitle": "Husk fristen!",
+        "deadlineText": "Fristen for å sjekke og levere skattemeldingen er 30. april. Hvis du ikke gjør endringer, blir den automatisk godkjent med de forhåndsutfylte opplysningene.",
+        "steps": [
+          {
+            "title": "Gå til skatteetaten.no",
+            "description": "Åpne nettleseren din og skriv inn \"skatteetaten.no\" i adressefeltet. Trykk Enter for å gå til siden.",
+            "tip": "Du kan også søke etter \"Skatteetaten\" på Google."
+          },
+          {
+            "title": "Logg inn med BankID",
+            "description": "Klikk på \"Logg inn\" øverst til høyre. Velg BankID (på mobil eller kodebrikke) og følg instruksjonene for å logge inn.",
+            "warning": "Du må ha BankID for å se skattemeldingen din. MinID fungerer ikke her."
+          },
+          {
+            "title": "Finn skattemeldingen",
+            "description": "Etter innlogging kommer du til \"Min side\". Klikk på \"Skattemelding\" i menyen, eller se etter en boks som sier \"Din skattemelding for [årstall]\".",
+            "tip": "Skattemeldingen blir vanligvis tilgjengelig i mars."
+          },
+          {
+            "title": "Se gjennom inntektene dine",
+            "description": "Skattemeldingen viser alle inntekter Skatteetaten har registrert på deg: lønn, pensjon, renter, utbytte osv. Sjekk at tallene stemmer med det du har tjent.",
+            "warning": "Hvis noe mangler eller er feil, må du legge det til eller endre det. Du er selv ansvarlig for at skattemeldingen er riktig."
+          },
+          {
+            "title": "Sjekk fradragene",
+            "description": "Se over fradragene som er ført opp. Dette kan være renteutgifter på lån, fagforeningskontingent, reiseutgifter til jobb, osv. Noen fradrag legges til automatisk, andre må du føre opp selv.",
+            "tip": "Mange glemmer fradrag! Sjekk vår guide om fradrag for å se hva du kan trekke fra."
+          },
+          {
+            "title": "Se beregnet skatt",
+            "description": "Nederst i skattemeldingen ser du en beregning av skatten din. Her ser du om du har betalt for mye eller for lite skatt gjennom året.",
+            "tip": "Grønt tall = du får penger tilbake. Rødt tall = du må betale restskatt."
+          },
+          {
+            "title": "Gjør endringer hvis nødvendig",
+            "description": "Hvis noe er feil eller mangler, klikk på \"Endre\" ved det aktuelle punktet. Fyll inn riktig informasjon og lagre. Du kan gjøre så mange endringer du vil før fristen."
+          },
+          {
+            "title": "Lever skattemeldingen",
+            "description": "Hvis alt er riktig, klikk på \"Lever\" eller \"Send inn\" nederst på siden. Du får en bekreftelse på at skattemeldingen er levert. Hvis du ikke gjør endringer, blir den automatisk levert ved fristen.",
+            "tip": "Du får kvittering på e-post eller i innboksen din på Altinn."
+          }
+        ]
+      },
+      "fradrag": {
+        "title": "Legge til fradrag",
+        "description": "Slik legger du inn fradrag i skattemeldingen",
+        "longDescription": "Fradrag reduserer skatten din. Mange glemmer fradrag de har krav på! Her viser vi deg alle fradragene og hvordan du legger dem til.",
+        "backToGuides": "Tilbake til Skatteetaten-veiledninger",
+        "time": "Ca. 15 minutter",
+        "difficulty": "Middels",
+        "whatIsTitle": "Hva er fradrag?",
+        "whatIsText": "Fradrag er utgifter som trekkes fra inntekten din før skatten beregnes. Jo flere fradrag du har, jo mindre skatt betaler du.",
+        "exampleTitle": "Eksempel:",
+        "exampleText": "Hvis du tjener 500 000 kr og har 50 000 kr i fradrag, betaler du skatt av 450 000 kr i stedet. Med en skatteprosent på 22% sparer du ca. 11 000 kr i skatt!",
+        "stepsTitle": "Slik legger du til fradrag",
+        "allDeductionsTitle": "Alle fradrag du kan ha rett på",
+        "allDeductionsText": "Gå gjennom listen og sjekk om noe gjelder deg!",
+        "tipTitle": "Tips: Ta vare på kvitteringer!",
+        "tipText": "Skatteetaten kan be om dokumentasjon på fradragene dine i opptil 10 år. Ta bilde av kvitteringer og lagre dem digitalt.",
+        "deductionCategories": [
+          {
+            "category": "Jobb og reise",
+            "items": [
+              { "name": "Reise til jobb", "description": "Hvis du har mer enn 37 km én vei til jobb, kan du få fradrag", "amount": "Ca. 1,76 kr per km over 37 km" },
+              { "name": "Fagforeningskontingent", "description": "Medlemskap i fagforening gir automatisk fradrag", "amount": "Opp til ca. 7 700 kr" },
+              { "name": "Hjemmekontor", "description": "Hvis du jobber hjemmefra fast, kan du få fradrag", "amount": "Ca. 2 050 kr per år (standardfradrag)" },
+              { "name": "Verktøy og utstyr", "description": "Utstyr du må ha til jobben som arbeidsgiver ikke dekker", "amount": "Faktiske utgifter" }
+            ]
+          },
+          {
+            "category": "Bolig og lån",
+            "items": [
+              { "name": "Renteutgifter", "description": "Renter på boliglån, billån, studielån osv.", "amount": "Alle renter du har betalt" },
+              { "name": "BSU (Boligsparing for ungdom)", "description": "Sparing til bolig for de under 34 år", "amount": "20% av innskudd, maks 5 500 kr" },
+              { "name": "Vedlikehold av utleiebolig", "description": "Utgifter til vedlikehold hvis du leier ut", "amount": "Faktiske utgifter" }
+            ]
+          },
+          {
+            "category": "Gaver og donasjoner",
+            "items": [
+              { "name": "Gaver til frivillige organisasjoner", "description": "Gaver til godkjente organisasjoner (Røde Kors, Leger Uten Grenser osv.)", "amount": "500-25 000 kr per år" }
+            ]
+          },
+          {
+            "category": "Familie",
+            "items": [
+              { "name": "Foreldrefradrag", "description": "Utgifter til barnehage, SFO, dagmamma", "amount": "Opp til 25 000 kr for ett barn, +15 000 per barn til" },
+              { "name": "Særfradrag for enslig forsørger", "description": "Hvis du bor alene med barn", "amount": "Automatisk hvis du kvalifiserer" }
+            ]
+          },
+          {
+            "category": "Helse",
+            "items": [
+              { "name": "Særfradrag for store sykdomsutgifter", "description": "Utgifter over 9 180 kr til sykdom som ikke dekkes", "amount": "Utgifter over grensen" }
+            ]
+          },
+          {
+            "category": "Utdanning",
+            "items": [
+              { "name": "Renter på studielån", "description": "Renter du betaler på studielånet", "amount": "Alle renter (fylles ofte ut automatisk)" }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "title": "Logg inn på skatteetaten.no",
+            "description": "Gå til skatteetaten.no og logg inn med BankID. Gå til skattemeldingen din."
+          },
+          {
+            "title": "Finn \"Fradrag\" eller \"Endre\"",
+            "description": "I skattemeldingen ser du en oversikt over alle poster. Finn seksjonen for fradrag, eller klikk på \"Endre\" ved den posten du vil legge til fradrag for."
+          },
+          {
+            "title": "Velg type fradrag",
+            "description": "Velg hva slags fradrag du vil legge til fra listen. De vanligste er reiseutgifter, renteutgifter, fagforeningskontingent og gaver til frivillige organisasjoner.",
+            "tip": "Se listen under for alle fradrag du kan ha rett på!"
+          },
+          {
+            "title": "Fyll inn beløpet",
+            "description": "Skriv inn beløpet du krever i fradrag. Du må kunne dokumentere beløpet hvis Skatteetaten ber om det.",
+            "warning": "Ikke gjett på beløpet! Du må ha kvitteringer eller annen dokumentasjon."
+          },
+          {
+            "title": "Lagre endringen",
+            "description": "Klikk \"Lagre\" eller \"Legg til\" for å lagre fradraget. Du ser med en gang hvordan det påvirker skatten din."
+          },
+          {
+            "title": "Gjenta for andre fradrag",
+            "description": "Gå gjennom listen under og sjekk om du har andre fradrag du har glemt. Legg til alle du har rett på."
+          },
+          {
+            "title": "Se den nye skatteberegningen",
+            "description": "Etter at du har lagt til alle fradrag, ser du nederst på siden hvor mye du sparer i skatt, eller om du får mer tilbake.",
+            "tip": "Grønt tall = mer penger tilbake. Rødt tall = du må betale mer."
+          }
+        ]
+      },
+      "skattekort": {
+        "title": "Endre skattekort",
+        "description": "Hvordan endre skattekortet ditt"
+      },
+      "skatteoppgjoer": {
+        "title": "Se skatteoppgjøret",
+        "description": "Finne og forstå skatteoppgjøret ditt"
+      },
+      "skatteattest": {
+        "title": "Bestille skatteattest",
+        "description": "Hvordan bestille skatteattest"
+      }
+    },
+    "helse": {
+      "bestilleTime": {
+        "title": "Bestille legetime",
+        "description": "Hvordan bestille time hos fastlegen din"
+      },
+      "resepter": {
+        "title": "Se og fornye resepter",
+        "description": "Sjekke reseptene dine og be om fornyelse"
+      },
+      "bytteFastlege": {
+        "title": "Bytte fastlege",
+        "description": "Slik bytter du til en ny fastlege"
+      },
+      "journal": {
+        "title": "Lese pasientjournalen",
+        "description": "Finne og lese din egen pasientjournal"
+      },
+      "melding": {
+        "title": "Sende melding til legen",
+        "description": "Kontakte fastlegen din digitalt"
+      }
+    }
+  },
+  "ordbok": {
+    "title": "Ordbok",
+    "subtitle": "Her forklarer vi vanskelige ord og uttrykk du møter på offentlige nettsider.",
+    "searchLabel": "Søk etter ord",
+    "searchPlaceholder": "Skriv et ord du lurer på...",
+    "category": "Kategori",
+    "allCategories": "Alle kategorier",
+    "all": "Alle",
+    "noResults": "Ingen ord funnet for",
+    "tryAnother": "Prøv et annet søkeord",
+    "missingWord": "Savner du et ord?",
+    "missingWordText": "Send oss en e-post på kontakt@lettdigital.no hvis det er et ord du ønsker forklart, så legger vi det til!"
+  },
+  "faq": {
+    "title": "Vanlige spørsmål",
+    "subtitle": "Her finner du svar på de vanligste spørsmålene om offentlige digitale tjenester.",
+    "categories": {
+      "all": "Alle",
+      "nav": "NAV",
+      "skatt": "Skatt",
+      "helse": "Helse",
+      "digital": "Digital"
+    },
+    "noAnswer": "Fant du ikke svar på spørsmålet ditt?",
+    "contactAgencies": "Du kan kontakte etatene direkte for mer hjelp:",
+    "weekdays": "Hverdager"
+  },
+  "favorites": {
+    "title": "Mine favoritter",
+    "subtitle": "Her finner du veiledningene du har lagret som favoritter.",
+    "empty": "Du har ingen favoritter ennå",
+    "emptyText": "Klikk på stjernen i veiledningene for å lagre dem her for rask tilgang.",
+    "browseGuides": "Se alle veiledninger",
+    "addedOn": "Lagt til",
+    "tipTitle": "Tips!",
+    "tipText": "Favorittene dine lagres på denne enheten. Hvis du bruker en annen enhet eller sletter nettleserdata, forsvinner de."
+  },
+  "about": {
+    "title": "Om LettDigital",
+    "mission": "Vår misjon",
+    "missionIntro": "Over 600 000 nordmenn sliter med å bruke digitale offentlige tjenester. 180 000 har ikke engang BankID. Disse menneskene risikerer å falle utenfor viktige tjenester som NAV, Skatteetaten og Helsenorge.",
+    "missionText": "LettDigital ble laget for å gjøre det enklere for alle å forstå og bruke disse tjenestene. Vi forklarer kompliserte prosesser med enkle ord, store bokstaver og steg-for-steg veiledninger.",
+    "whoAreWe": "Hvem er vi?",
+    "whoAreWeText1": "LettDigital er et uavhengig prosjekt som ønsker å hjelpe de som faller utenfor i det digitale samfunnet. Vi er ikke tilknyttet NAV, Skatteetaten eller Helsenorge, men vi har stor respekt for arbeidet disse etatene gjør.",
+    "whoAreWeText2": "Vår informasjon er basert på offisiell informasjon fra de aktuelle etatene, men vi anbefaler alltid å sjekke de offisielle nettsidene for den nyeste informasjonen.",
+    "accessibility": "Tilgjengelighet",
+    "accessibilityIntro": "Vi har designet LettDigital med tanke på alle brukere:",
+    "accessibilityFeatures": {
+      "fontSize": "Justerbar tekststørrelse - Gjør teksten større med knappen nede til høyre",
+      "contrast": "Høy kontrast-modus - For bedre lesbarhet",
+      "simpleLanguage": "Enkelt språk - Vi unngår vanskelige ord og faguttrykk",
+      "keyboard": "Tastaturnavigasjon - Alle funksjoner kan brukes uten mus",
+      "screenReader": "Skjermleser-vennlig - Kompatibel med hjelpemidler"
+    },
+    "contactUs": "Kontakt oss",
+    "contactText": "Har du spørsmål, forslag til forbedringer, eller har du funnet en feil? Vi setter stor pris på tilbakemeldinger!",
+    "importantInfo": "Viktig informasjon",
+    "importantInfoText": "LettDigital gir generell veiledning og er ikke en offisiell tjeneste. For bindende informasjon om dine rettigheter og plikter, sjekk alltid de offisielle nettsidene: nav.no, skatteetaten.no og helsenorge.no. Ved tvil, ta kontakt med den aktuelle etaten direkte."
+  },
+  "stepGuide": {
+    "progress": "Din fremdrift",
+    "tip": "Tips!",
+    "warning": "Viktig!",
+    "completed": "Fullført",
+    "markCompleteAndContinue": "Marker som fullført og gå videre",
+    "markComplete": "Marker som fullført",
+    "congratulations": "Gratulerer!",
+    "allStepsComplete": "Du har fullført alle stegene i denne veiledningen.",
+    "beforeYouStart": "Før du starter",
+    "youNeed": "Du trenger",
+    "problems": "Problemer?"
+  },
+  "search": {
+    "placeholder": "Søk etter veiledninger... (f.eks. dagpenger, resept, skatt)",
+    "noResults": "Ingen resultater for",
+    "tryOther": "Prøv andre søkeord eller se våre kategorier"
+  }
+}

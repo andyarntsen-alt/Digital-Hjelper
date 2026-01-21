@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-size-base: 1.25rem;
+  --font-size-lg: 1.5rem;
+  --font-size-xl: 2rem;
+  --font-size-xxl: 2.5rem;
+}
+
+html {
+  font-size: var(--font-size-base);
+}
+
+html.large-text {
+  font-size: 1.5rem;
+}
+
+html.extra-large-text {
+  font-size: 1.75rem;
+}
+
+html.high-contrast {
+  filter: contrast(1.2);
+}
+
+html.high-contrast body {
+  background: #000 !important;
+  color: #fff !important;
+}
+
+html.high-contrast .card {
+  background: #1a1a1a !important;
+  border: 2px solid #fff !important;
+}
+
+@layer base {
+  body {
+    @apply text-gray-800 leading-relaxed;
+  }
+
+  h1, h2, h3 {
+    @apply font-bold leading-tight;
+  }
+
+  a {
+    @apply text-nav-blue underline hover:text-nav-dark focus:outline-none focus:ring-4 focus:ring-yellow-400;
+  }
+
+  button {
+    @apply focus:outline-none focus:ring-4 focus:ring-yellow-400;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-nav-blue text-white px-8 py-4 rounded-lg text-lg font-semibold
+           hover:bg-nav-dark transition-colors duration-200
+           focus:outline-none focus:ring-4 focus:ring-yellow-400;
+  }
+
+  .btn-secondary {
+    @apply bg-white text-nav-blue border-2 border-nav-blue px-8 py-4 rounded-lg text-lg font-semibold
+           hover:bg-blue-50 transition-colors duration-200
+           focus:outline-none focus:ring-4 focus:ring-yellow-400;
+  }
+
+  .card {
+    @apply bg-white rounded-xl shadow-lg p-6 md:p-8 border border-gray-200;
+  }
+
+  .service-card {
+    @apply card hover:shadow-xl transition-shadow duration-200 cursor-pointer;
+  }
+
+  .step-card {
+    @apply bg-blue-50 rounded-xl p-6 border-l-4 border-nav-blue;
+  }
+
+  .warning-box {
+    @apply bg-yellow-50 border-l-4 border-yellow-500 p-4 rounded-r-lg;
+  }
+
+  .tip-box {
+    @apply bg-green-50 border-l-4 border-green-500 p-4 rounded-r-lg;
+  }
+}
+
+/* Ekstra god fokus-synlighet for tilgjengelighet */
+*:focus {
+  outline: 3px solid #fbbf24;
+  outline-offset: 2px;
+}
+
+/* Skip link for tastaturnavigasjon */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 8px 16px;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
+}

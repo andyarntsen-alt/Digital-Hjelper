@@ -1,0 +1,600 @@
+{
+  "common": {
+    "back": "Dib u noqo",
+    "backToHome": "Ku laabo bogga hore",
+    "search": "Raadi",
+    "searchPlaceholder": "Raadi hagayaasha...",
+    "readMore": "Akhri wax badan",
+    "startGuide": "Bilow hagaha",
+    "minutes": "daqiiqo",
+    "easy": "Fudud",
+    "medium": "Dhexdhexaad",
+    "difficult": "Adag",
+    "showMore": "Tus wax badan",
+    "showLess": "Tus wax yar",
+    "close": "Xir",
+    "open": "Fur",
+    "menu": "Liiska",
+    "skipToContent": "U bood waxa muhiimka ah",
+    "loading": "Waa la soo dejinayaa...",
+    "error": "Wax baa qaldamay",
+    "tryAgain": "Isku day mar kale",
+    "favorites": "Kuwa aan jeclaahay",
+    "addToFavorites": "Ku dar kuwa jeclaahay",
+    "removeFromFavorites": "Ka saar kuwa jeclaahay"
+  },
+  "header": {
+    "siteName": "LettDigital",
+    "tagline": "Hage fudud oo qof walba",
+    "nav": "NAV",
+    "skatt": "Hey'adda Canshuurta",
+    "helse": "Caafimaadka Norway",
+    "sikkerhet": "Amniga",
+    "bank": "Bangiga",
+    "digital": "Qalabka Dhijitaalka",
+    "ordbok": "Qaamuuska",
+    "faq": "Su'aalaha Badanaa",
+    "about": "Nagu saabsan",
+    "language": "Luuqadda"
+  },
+  "footer": {
+    "about": "Ku saabsan LettDigital",
+    "aboutText": "Waxaan kaa caawineynaa inaad fahanto oo aad isticmaasho adeegyada dhijitaalka ee dadweynaha.",
+    "quickLinks": "Xiriiriyaha Degdega ah",
+    "contact": "La xiriir",
+    "email": "kontakt@lettdigital.no",
+    "copyright": "LettDigital. Loo sameeyay qof walba."
+  },
+  "accessibility": {
+    "title": "Helitaanka",
+    "fontSize": "Cabbirka qoraalka",
+    "normalSize": "Caadi",
+    "largeSize": "Weyn",
+    "extraLargeSize": "Aad u weyn",
+    "highContrast": "Kala duwanaansho sare",
+    "on": "Fur",
+    "off": "Xir"
+  },
+  "home": {
+    "heroTitle": "Ma u baahan tahay caawin",
+    "heroTitleBreak": "adeegyada dhijitaalka ee dawladda?",
+    "heroSubtitle": "Waxaan ku sharaxaynaa NAV, Hey'adda Canshuurta iyo Caafimaadka Norway si fudud. Tallaabo tallaabo, oo leh qoraal weyn iyo luuqad cad.",
+    "seeGuides": "Arag hagayaasheena",
+    "dictionary": "Qaamuuska",
+    "quickLinks": "Xiriiriyaha Degdega ah",
+    "faqLink": "Su'aalaha badanaa la isweydiiyo",
+    "favoritesLink": "Kuwa aan jeclaahay",
+    "whoWeHelp": "Yaan caawinnaa?",
+    "elderly": "Waayeelka iyo hawlgabka",
+    "elderlyDesc": "Kuwaas oo u arka adeegyada dhijitaalka inay adag yihiin in la fahmo",
+    "newToNorway": "Cusub Norway",
+    "newToNorwayDesc": "Kuwaas oo u baahan caawin luuqadda iyo nidaamyada",
+    "helpers": "Qoyska iyo caawiyayaasha",
+    "helpersDesc": "Kuwaas oo ka caawiya dadka kale adeegyada dhijitaalka",
+    "chooseService": "Dooro adeegga",
+    "chooseServiceDesc": "Guji adeegga aad u baahan tahay caawin, waxaanan ku tusin doonaa tallaabo tallaabo waxa aad sameyso.",
+    "whyUseUs": "Maxaa LettDigital loo isticmaalaa?",
+    "simpleLanguage": "Luuqad fudud",
+    "simpleLanguageDesc": "Wax walba waxaan ku sharaxaynaa erayo caadi ah, oo aan lahayn luuqad dawladeed adag.",
+    "largeFonts": "Qoraal weyn",
+    "largeFontsDesc": "Waxaad hagaajin kartaa cabbirka qoraalka si ay u fududaato akhrinta.",
+    "stepByStep": "Tallaabo tallaabo",
+    "stepByStepDesc": "Raac tallaabooyinka fudud oo calaamadee markaad dhamaystid.",
+    "free": "Bilaash oo dhan",
+    "freeDesc": "Adeeggeena wax lacag ah ma qaado.",
+    "ctaTitle": "Diyaar ma u tahay inaad bilowdo?",
+    "ctaSubtitle": "Dooro adeegga aad u baahan tahay caawin, waxaanan ku hagi doonaa habka."
+  },
+  "services": {
+    "nav": {
+      "title": "NAV",
+      "shortDesc": "Kaalmada shaqo la'aanta iyo taageerada",
+      "description": "Codso kaalmada shaqo la'aanta, lacagta xanuunka, kaalmada waalidnimada, kaalmada naafada iyo taageerooyin kale.",
+      "hubTitle": "Hagayaasha NAV",
+      "hubSubtitle": "Caawin isticmaalka nav.no",
+      "didYouKnow": "Ma ogtahay?",
+      "didYouKnowText": "NAV waa hay'adda dawladda ee ugu weyn Norway waxayna maamusaa in ka badan saddex meelood meel miisaaniyada dawladda. Waxay kaa caawiyaan wax kasta oo laga bilaabo shaqo la'aanta ilaa howlgabka.",
+      "selectGuide": "Dooro waxa aad u baahan tahay caawin",
+      "needMoreHelp": "Ma u baahan tahay caawin dheeraad ah?",
+      "needMoreHelpText": "Haddii aadan helin waxa aad raadinayso, waxaad si toos ah ula xiriiri kartaa NAV:",
+      "phone": "Telefoonka",
+      "phoneHours": "maalmaha shaqada 09:00-15:00",
+      "chat": "Wada hadal",
+      "chatAvailable": "Waa la heli karaa nav.no",
+      "office": "Xafiiska NAV",
+      "findOffice": "Ka hel xafiiskaaga maxalliga ah nav.no"
+    },
+    "skatt": {
+      "title": "Hey'adda Canshuurta",
+      "shortDesc": "Warbixinta canshuurta iyo dhimista",
+      "description": "Gudbi warbixinta canshuurta, hubi dhimista, hel xisaabinta canshuurta iyo su'aalaha canshuurta kale.",
+      "hubTitle": "Hagayaasha Hey'adda Canshuurta",
+      "hubSubtitle": "Caawin isticmaalka skatteetaten.no",
+      "didYouKnow": "Muhiim!",
+      "didYouKnowText": "Dadka intooda badan waxay helaan warbixinta canshuurta Maarso/Abriil. Waxaad leedahay ilaa 30-ka Abriil si aad u hubiso oo aad u sameyso isbeddello.",
+      "selectGuide": "Dooro waxa aad u baahan tahay caawin",
+      "importantDates": "Taariikhaha muhiimka ah ee canshuurta",
+      "datesMarch": "Maarso",
+      "datesMarchTitle": "Warbixinta canshuurta ayaa diyaar",
+      "datesMarchDesc": "Warbixintaada canshuurta waxay diyaar ku noqon doontaa skatteetaten.no",
+      "datesApril": "30 Abriil",
+      "datesAprilTitle": "Wakhtiga ugu dambeeya warbixinta",
+      "datesAprilDesc": "Maalinta ugu dambeysa ee la hubiyo lana gudbiyo isbeddelada",
+      "datesJune": "Juun",
+      "datesJuneTitle": "Xisaabinta canshuurta ayaa imaneysa",
+      "datesJuneDesc": "Waxaad arkaysaa haddii aad lacag dib u helayso ama aad bixineyso canshuur dheeraad ah",
+      "needMoreHelp": "Ma u baahan tahay caawin dheeraad ah?",
+      "needMoreHelpText": "Haddii aadan helin waxa aad raadinayso, la xiriir Hey'adda Canshuurta:",
+      "phone": "Telefoonka",
+      "phoneNumber": "800 80 000",
+      "phoneHours": "bilaash, maalmaha shaqada 08:00-15:30",
+      "chat": "Wada hadal",
+      "chatAvailable": "Waa la heli karaa skatteetaten.no"
+    },
+    "helse": {
+      "title": "Caafimaadka Norway",
+      "shortDesc": "Ballamaha dhakhtarka iyo dawooyinka",
+      "description": "Samee ballan dhakhtar, arag dawooyinka, beddel dhakhtarkaaga caadiga ah oo akhri diiwaankaaga caafimaad.",
+      "hubTitle": "Hagayaasha Caafimaadka Norway",
+      "hubSubtitle": "Caawin isticmaalka helsenorge.no",
+      "didYouKnow": "Ma ogtahay?",
+      "didYouKnowText": "Helsenorge waxaad ku samayn kartaa wax badan adiga, sida ballan dhakhtar, cusbooneysinta dawooyinka, iyo akhrinta diiwaankaaga caafimaad - oo dhan oo la'aantii wac.",
+      "selectGuide": "Dooro waxa aad u baahan tahay caawin",
+      "emergencyNotice": "FIIRO GAAR AH! Xanuun ama dhaawac degdeg ah, had iyo jeer wac 113 (ambulaanka) ama 116 117 (caawin degdeg). Helsenorge waxaa loogu talagalay su'aalaha aan degdega ahayn.",
+      "importantNumbers": "Lambarada telefoonka ee muhiimka ah",
+      "ambulance": "Ambulaanka",
+      "ambulanceDesc": "Xanuun ama dhaawac naf halis ah oo degdeg ah",
+      "emergencyNumber": "113",
+      "legevakt": "Caawin degdeg",
+      "legevaktNumber": "116 117",
+      "legevaktDesc": "Markaad u baahan tahay caawin degdeg oo aan degdeg ahayn",
+      "poisonControl": "Xakameynta Sunta",
+      "poisonControlNumber": "22 58 00 00",
+      "poisonControlDesc": "Sunta ama sunta la shakiyay",
+      "canDoTitle": "Waxa aad ku samayn karto Helsenorge",
+      "canDoBooking": "Samee ballan dhakhtar",
+      "canDoBookingDesc": "Samee ballan dhakhtarkaaga caadiga ah 24 saac",
+      "canDoPrescriptions": "Arag dawooyinka",
+      "canDoPrescriptionsDesc": "Liiska dhammaan dawooyinkaaga firfircoon",
+      "canDoMessage": "U dir fariin dhakhtarka",
+      "canDoMessageDesc": "La xiriir si badbaado leh adeegyada caafimaadka",
+      "canDoJournal": "Akhri diiwaankaaga caafimaad",
+      "canDoJournalDesc": "Arag waxa lagaaga qoray",
+      "canDoChangeGP": "Beddel dhakhtarka caadiga ah",
+      "canDoChangeGPDesc": "Hel oo u beddel dhakhtar cusub si fudud",
+      "canDoVaccines": "Arag tallaalka",
+      "canDoVaccinesDesc": "Liiska dhammaan tallaalka aad heshay"
+    },
+    "sikkerhet": {
+      "title": "Amniga Dhijitaalka",
+      "shortDesc": "Iska ilaali internetka",
+      "description": "Baro sida aad uga ilaaliso khiyaanada, phishing iyo halisaha dhijitaalka kale."
+    },
+    "bank": {
+      "title": "Bangiga iyo Maaliyadda",
+      "shortDesc": "Bangiga internetka iyo bixinta",
+      "description": "Isticmaal bangiga internetka, bixi biilasha oo hel caawin dhaqaalaha shakhsiyeed."
+    },
+    "digital": {
+      "title": "Qalabka Dhijitaalka",
+      "shortDesc": "Iimaylka iyo Digipost",
+      "description": "Samee iimaylka, isticmaal sanduuqa boostada dhijitaalka iyo qalabka dhijitaalka kale."
+    }
+  },
+  "guides": {
+    "nav": {
+      "loggInn": {
+        "title": "Gal NAV",
+        "description": "Baro sida loo galo nav.no oo la isticmaalo BankID ama MinID",
+        "longDescription": "Baro sida loo galo nav.no si aad u aragto kiisaskaaga, u codsato dheefaha oo u dirto fariimo.",
+        "backToGuides": "Ku laabo hagayaasha NAV",
+        "time": "Qiyaastii 5 daqiiqo",
+        "difficulty": "Fudud",
+        "beforeYouStart": "Ka hor intaadan bilaabin",
+        "beforeYouStartText": "Waxaad u baahan tahay BankID (telefoonka ama qalabka koodhka) ama MinID si aad u gasho. Haddii aadan haysan, waa inaad marka hore mid ka heshaa.",
+        "stepsTitle": "Sida loo galo NAV",
+        "problemsTitle": "Dhibaatooyin galitaanka?",
+        "problemsText": "Haddii aad dhibaato ku qabto galitaanka, waxaad isku dayi kartaa kuwan soo socda:",
+        "problemsList": [
+          "Hubi inaad si sax ah u gelisay lambarka aqoonsiga",
+          "Isku day inaad cusbooneysiiso bogga (riix F5 ama Ctrl+R)",
+          "Nadiifi kaydka browserkaaga",
+          "Isku day browser kale",
+          "Wac NAV 55 55 33 33 si aad caawin u hesho"
+        ],
+        "steps": [
+          {
+            "title": "Tag nav.no",
+            "description": "Fur browserkaaga (tusaale Google Chrome, Safari ama Edge). Ku qor \"nav.no\" xariiqda ciwaanka ee sare oo riix Enter.",
+            "tip": "Waxaad sidoo kale ka raadin kartaa \"NAV\" Google oo gujisaa natiijada koowaad."
+          },
+          {
+            "title": "Ka hel badhanka \"Logg inn\"",
+            "description": "Bogga hore ee nav.no waxaad arki doontaa badhan buluug ah oo ku yaal geeska midig ee sare oo leh \"Logg inn\". Guji badhankaan.",
+            "tip": "Badhanka wuxuu sidoo kale la odhan karaa \"Min side\" ama \"Ditt NAV\"."
+          },
+          {
+            "title": "Dooro habka galitaanka",
+            "description": "Hadda waxaad heshaa doorasho u dhaxaysa dhowr hab oo aad ku geli karto. Kuwa ugu caadisan waa BankID telefoonka, BankID qalabka koodhka, ama MinID. Dooro midka aad gelitaan u leedahay.",
+            "warning": "Haddii aadan haysan BankID ama MinID, waa inaad la xiriirtaa bangigaaga ama aad booqataa xafiiska NAV si aad caawin u hesho."
+          },
+          {
+            "title": "Haddii aad doorato BankID telefoonka",
+            "description": "Geli lambarka aqoonsigaaga (11 lambar) iyo lambarka telefoonkaaga. Waxaad heli doontaa fariin telefoonkaaga. Fur app-ka BankID oo xaqiiji galitaanka adigoo isticmaalaya faraha ama koodhka.",
+            "tip": "Hubi in app-ka BankID lagu rakibay telefoonkaaga ka hor intaadan bilaabin."
+          },
+          {
+            "title": "Haddii aad doorato BankID qalabka koodhka",
+            "description": "Geli lambarka aqoonsigaaga. Shid qalabka koodhka oo geli koodhka ku muuqda shaashada. Ka dib geli koodhkaaga shakhsiga ah qalabka koodhka oo geli koodhka cusub ee soo muuqda.",
+            "warning": "Qalabka koodhku wuxuu u baahan yahay batari. Haddii shaashadu madhan tahay, wuxuu u baahan yahay batari cusub ama waa inaad la xiriirtaa bangigaaga."
+          },
+          {
+            "title": "Hadda waad gashay!",
+            "description": "Hambalyo! Hadda waad gashay NAV. Waxaad arki kartaa sanduuqaaga, codsigaaga, oo u diri kartaa fariimo NAV. Liiska geeska bidix wuxuu muujinayaa dhammaan adeegyada aad gelitaan u leedahay.",
+            "tip": "Xusuusnow inaad ka baxdo markaad dhamaysato, gaar ahaan haddii aad isticmaalayso kombuyuutar wadaag ah."
+          }
+        ]
+      },
+      "dagpenger": {
+        "title": "Codso kaalmada shaqo la'aanta",
+        "description": "Hage tallaabo tallaabo ah si loo codsado kaalmada shaqo la'aanta haddii aad lumisay shaqadaada",
+        "longDescription": "Kaalmada shaqo la'aanta (dagpenger) waa lacag aad ka heli karto NAV haddii aad lumisay shaqadaada ama lagaa joojiyay. Halkan waxaan kugu tusin doonaa tallaabo tallaabo sida loo codsado.",
+        "backToGuides": "Ku laabo hagayaasha NAV",
+        "time": "Qiyaastii 20 daqiiqo",
+        "difficulty": "Dhexdhexaad",
+        "whoCanGet": "Yaa heli kara kaalmada shaqo la'aanta?",
+        "whoCanGetIntro": "Si aad u hesho kaalmada shaqo la'aanta waa inaad caadi ahaan:",
+        "requirements": [
+          "Ka shaqeysay ugu yaraan 186,042 NOK 12-kii bilood ee ugu dambeeyay, ama 372,084 NOK 36-dii bilood ee ugu dambeeyay (qiimaha 2024)",
+          "Saacadaha shaqadaada lagu dhimay ugu yaraan 50%",
+          "Tahay diiwaan gashan oo shaqo raadiye ah oo si firfircoon shaqo u raadinayso",
+          "Ku noolaatid Norway oo aad xaq u leedahay inaad halkan ka shaqeyso"
+        ],
+        "documentsTitle": "Diyaari dukumeentiyadan",
+        "documents": [
+          "Warqadda joojinta ama ogeysiinta joojinta shaqada ee loo shaqeeyaha",
+          "Heshiiska shaqada (haddii aad hayso)",
+          "Lambarka akoonka bangiga ee aad rabto lacagta lagugu siiyo",
+          "BankID ama MinID galitaanka"
+        ],
+        "stepsTitle": "Sida loo codsado kaalmada shaqo la'aanta",
+        "importantTitle": "Muhiim in la xusuusto!",
+        "importantMeldekort": "Foomka xaalada shaqada 14-kii maalmood",
+        "importantMeldekortText": "Waa inaad gudbisaa foomka xaalada shaqada 14-kii maalmood si aad u sii hesho kaalmada. Tan ka samee nav.no.",
+        "importantJobsearch": "Raadinta shaqada",
+        "importantJobsearchText": "Waa inaad si firfircoon shaqo u raadinaysaa oo aad diiwaangelin. NAV waxay ku weydiin karaan inaad tusiso codsigaaga shaqada.",
+        "importantAmount": "Intee ayaad heli doontaa?",
+        "importantAmountText": "Kaalmada shaqo la'aanta waa qiyaastii 62.4% dakhliga hore, ilaa 6G (qiyaastii 744,000 NOK). Lacagta waxaa caadi ahaan la bixiyaa dambe.",
+        "steps": [
+          {
+            "title": "Marka hore iska diiwaan geli shaqo raadiye",
+            "description": "Ka hor intaadan codsanin kaalmada shaqo la'aanta, waa inaad iska diiwaan gelisaa shaqo raadiye NAV. Tag nav.no, gal, oo dooro \"Iska diiwaan geli shaqo raadiye\". Buuxi macluumaadka waxbarashadaada iyo khibradda shaqada.",
+            "tip": "Waxaad iska diiwaan gelin kartaa shaqo raadiye maalinta la mid ah ee aad codsaneyso kaalmada.",
+            "warning": "Waa inaad iska diiwaan gelisaa shaqo raadiye KA HOR codsiga kaalmada shaqo la'aanta, haddii kale codsigaaga waa la diidi doonaa."
+          },
+          {
+            "title": "Gal nav.no",
+            "description": "Tag nav.no oo ku gal BankID ama MinID. Guji \"Gal\" geeska midig ee sare ee bogga.",
+            "tip": "Arag hagaheena \"Gal NAV\" haddii aad u baahan tahay caawin galitaanka."
+          },
+          {
+            "title": "Ka hel codsiga kaalmada shaqo la'aanta",
+            "description": "Ka dib markii aad gasho, tag \"Ditt NAV\" ama \"Adeegyadeyda\". Ka dib guji \"Codsiyada\" ama ka raadi \"dagpenger\" goobta raadinta. Dooro \"Codsiga kaalmada shaqo la'aanta\".",
+            "tip": "Waxaad sidoo kale ku qori kartaa \"dagpenger\" goobta raadinta nav.no si aad si toos ah u hesho codsiga."
+          },
+          {
+            "title": "Buuxi macluumaadka shakhsiga",
+            "description": "Codsiga wuxuu ku bilaabmayaa muujinta macluumaadkaaga shakhsiga (magaca, cinwaanka, iwm). Hubi in tani sax tahay. Haddii wax khaldan yihiin, waa inaad ka beddeshaa Diiwaanka Dadweynaha ka hor intaadan sii wadin.",
+            "warning": "Hubi in lambarka akoonkaaga bangiga sax yahay! Halkaas ayaa lacagta lagu siin doonaa."
+          },
+          {
+            "title": "Sheeg sababta codsigaaga",
+            "description": "Dooro sababta aad u codsaneyso kaalmada shaqo la'aanta: ma lumisay shaqadaadii, miyaa lagaa joojiyay, mise saacadaha shaqadaada ayaa la dhimay? Si daacad ah uga jawaab dhammaan su'aalaha.",
+            "tip": "Haddii aadan hubin waxa aad ku jawaabto, waxaad dooran kartaa \"Ma aqaan\" oo ku sharaxdo xaaladaada qeybta faallooyinka."
+          },
+          {
+            "title": "Soo rar dukumeentiga",
+            "description": "Waa inaad soo rartaa dukumeentiyo xaqiijinaya xaaladaada. Tani waxay noqon kartaa warqadda joojinta, ogeysiinta joojinta shaqada, ama heshiiska shaqada. Guji \"Soo rar fayl\" oo ka dooro dukumeentiga kombuyuutarkaaga.",
+            "warning": "Qaababka faylka la aqbalo waa PDF, JPG iyo PNG. Cabbirka faylka ugu badan waa caadi ahaan 10 MB.",
+            "tip": "Ka sawir dukumeentiyada warqadda ah telefoonkaaga oo soo rar sawirka haddii aadan haysan scanner."
+          },
+          {
+            "title": "Geli dakhliga hore",
+            "description": "NAV ayaa si toos ah u soo qaadanaya macluumaadka dakhligaaga hore ee Hey'adda Canshuurta. Hubi in tani sax u eg tahay. Haddii aad lahayd dakhli aan soo muuqanin, waa inaad gacanta ku dartaa.",
+            "tip": "Kaalmada shaqo la'aanta waxaa lagu xisaabiyaa dakhligaaga 12-kii ama 36-dii bilood ee ugu dambeeyay, iyadoo ku xiran midka bixiya qaddarka ugu sarreeya."
+          },
+          {
+            "title": "Ka jawaab su'aalaha dheeraadka ah",
+            "description": "Codsiga wuxuu ka kooban yahay su'aalo badan oo ku saabsan xaaladaada, sida haddii aad leedahay dakhli kale, aad dugsiga dhigatid, ama aad qabto dhibaatooyiin caafimaad oo saameeya raadinta shaqada. Dhammaan si daacad ah uga jawaab."
+          },
+          {
+            "title": "Dib u eeg oo gudbi",
+            "description": "Ka hor gudbinta, waxaad helaysaa soo koobid codsiga. Dhammaan si taxadar leh u akhri. Haddii wax khaldan yihiin, dib ugu noqo oo saxo. Marka wax walba sax yihiin, guji \"Gudbi codsiga\".",
+            "warning": "Ka dib gudbinta, ma beddeli kartid codsiga. Waxaad u baahan doontaa inaad la xiriirto NAV."
+          },
+          {
+            "title": "Xaqiijinta iyo tallaabooyinka xiga",
+            "description": "Waxaad helaysaa xaqiijin shaashada iyo iimayl/SMS ah in codsiga la helay. NAV caadi ahaan waxay baadhi codsiyada 4 toddobaad gudahooda. Xusuusnow inaad gudbiso foomka xaalada shaqada 14-kii maalmood!",
+            "tip": "Waxaad la socon kartaa xaalada codsigaaga \"Kiisaskeeyga\" nav.no."
+          }
+        ]
+      },
+      "sykepenger": {
+        "title": "Codso lacagta xanuunka",
+        "description": "Sida loo gudbiyo fasaxa xanuunka oo loo codsado lacagta xanuunka",
+        "longDescription": "Lacagta xanuunka waxay beddelaysaa dakhligaaga markaad jirantahay oo aadan shaqeyn karin. Halkan waxaan kugu tusin doonaa tallaabo tallaabo sida loo codsado.",
+        "backToGuides": "Ku laabo hagayaasha NAV",
+        "time": "Qiyaastii 15 daqiiqo",
+        "difficulty": "Dhexdhexaad",
+        "whoCanGet": "Yaa heli kara lacagta xanuunka?",
+        "requirements": [
+          "Shaqo ku jirtay ugu yaraan 4 toddobaad ka hor intaadan jiranin",
+          "Waxaad ka shaqeysaa ugu yaraan 59,310 NOK sanadkii (badh kiisadda aasaasiga)",
+          "Waxaad leedahay warqad xanuun oo dhakhtar",
+          "Waxaad lumisay dakhli sababtoo ah xanuun"
+        ],
+        "importantToKnow": "Muhiim in la ogaado lacagta xanuunka",
+        "employerPeriod": "Wakhtiga loo shaqeeyaha (maalmaha 1-16)",
+        "employerPeriodText": "16-ka maalmood ee ugu horeeya, loo shaqeeyahaaga ayaa bixiya lacagta xanuunka. Uma baahna inaad NAV codsato.",
+        "navPeriod": "Wakhtiga NAV (maalinta 17 ka dib)",
+        "navPeriodText": "Maalinta 17 ka dib, NAV ayaa la wareegta. Ka dib waa inaad codsad.",
+        "howMuch": "Intee ayaad heli doontaa?",
+        "howMuchText": "Waxaad helaysaa 100% dakhligaaga, ilaa 6G (qiyaastii 744,000 NOK). Loo shaqeeyahaagu wuxuu daboolaan karaa wax ka badan.",
+        "howLong": "Intee in le'eg?",
+        "howLongText": "Waxaad heli kartaa lacagta xanuunka ilaa 52 toddobaad (1 sano). Ka dib, waxaa laga yaabaa inaad xaq u leedahay AAP.",
+        "stepsTitle": "Sida loo codsado lacagta xanuunka",
+        "gradedTitle": "Waa maxay fasaxa xanuunka qayb ahaan?",
+        "gradedIntro": "Fasaxa xanuunka qayb ahaan macnaheedu waa inaad shaqeyso qaar, laakiin maaha waqti buuxa. Tusaale:",
+        "graded50": "50% fasax xanuun: Waxaad shaqeysaa badh maalin oo waxaad helaysaa lacagta xanuunka inta kale",
+        "graded80": "80% fasax xanuun: Waxaad shaqeysaa hal maalin toddobaadkii oo waxaad helaysaa lacagta xanuunka 4 maalmood",
+        "gradedBenefit": "Fasaxa xanuunka qayb ahaan waa wanaagsan badanaa sababtoo ah waxaad la xiriirtaa shaqadaada oo si dhakhso ah u soo noqotaa.",
+        "steps": [
+          {
+            "title": "Ka hel warqad xanuun dhakhtarka",
+            "description": "Marka hore, waxaad u baahan tahay inaad ka hesho warqad xanuun dhakhtarkaaga. Dhakhtarku wuxuu u diraa warqadda xanuunka si elektaroonig ah NAV iyo loo shaqeeyahaaga. Uma baahna inaad wax ku sameyso warqadda xanuunka lafteeda.",
+            "tip": "Warqadda xanuunka waxay kuu soo diri karaan dhakhtarkaaga caadiga ah, caawin degdeg, ama takhasuus. Dhakhtarada ilkaha iyo kiropraktoraduna warqado xanuun ayay soo diri karaan qaar ka mid ah kiisaska."
+          },
+          {
+            "title": "Gal nav.no",
+            "description": "Tag nav.no oo ku gal BankID ama MinID. Guji \"Gal\" geeska midig ee sare.",
+            "tip": "Warqaddaada xanuunka caadi ahaan waxay ka soo muuqataa nav.no 1-2 maalmood gudahooda ka dib booqashada dhakhtarka."
+          },
+          {
+            "title": "Ka hel warqaddaada xanuunka",
+            "description": "Ka dib markii aad gasho, tag \"Ditt sykefravær\" (Fasaxaaga xanuunka) ama raadi ogeysiis warqad xanuun cusub oo ku taal bogga hore. Guji warqadda xanuunka si aad u furto."
+          },
+          {
+            "title": "U dir warqadda xanuunka loo shaqeeyahaaga",
+            "description": "Waa inaad xaqiijisaa warqadda xanuunka oo aad u dirtaa loo shaqeeyahaaga. Ka dooro loo shaqeeyaha saxda ah liiska (haddii aad leedahay shaqooyin badan) oo guji \"Dir\".",
+            "warning": "Waa inaad soo gudbisaa warqadda xanuunka 3 bilood gudahooda, haddii kale waxaa laga yaabaa inaad lumiso xaqa lacagta xanuunka."
+          },
+          {
+            "title": "Buuxi codsiga lacagta xanuunka (16 maalmood ka dib)",
+            "description": "16-ka maalmood ee ugu horeeya, loo shaqeeyahaaga ayaa bixiya lacagta xanuunka. Ka dib, waa inaad NAV codsataa. Waxaad heli doontaa ogeysiis nav.no markaad wakhti u leedahay inaad codsato. Buuxi codsiga oo ku dar macluumaadka shaqada iyo dakhliga.",
+            "tip": "NAV wuxuu si toos ah u soo qaadanayaa macluumaad badan. Waxaad u baahan tahay oo keliya inaad xaqiijiso inay sax yihiin."
+          },
+          {
+            "title": "Ka jawaab su'aalaha hawlaha",
+            "description": "Codsiga, waxaa lagu weydiinayaa haddii aad shaqeysay muddada xanuunka, haddii aad safartay, iyo haddii aad heshay dakhli kale. Ka jawaab su'aalaha oo dhan si daacad ah.",
+            "warning": "Haddii aad shaqeysay, waa inaad sheegta saacadaha. Tani waxay saamayn ku leedahay lacagta xanuunka ee aad helayso."
+          },
+          {
+            "title": "Gudbi codsiga",
+            "description": "Markaad wax walba buuxiso, guji \"Gudbi codsiga\". Waxaad heli doontaa xaqiijin in codsiga la helay."
+          },
+          {
+            "title": "Sug jawaabta",
+            "description": "NAV waxay baadhi codsigaaga, caadi ahaan 4 toddobaad gudahooda. Waxaad arki kartaa xaalada codsigaaga \"Kiisaskeeyga\" nav.no. Lacagta waxaa la bixiyaa dambe.",
+            "tip": "Lacagta xanuunka caadi ahaan waxaa la bixiyaa 25-ka bishii bishii hore."
+          }
+        ]
+      },
+      "foreldrepenger": {
+        "title": "Codso kaalmada waalidnimada",
+        "description": "Wax kasta oo aad u baahan tahay inaad ogaato kaalmada waalidnimada iyo sida loo codsado",
+        "longDescription": "Kaalmada waalidnimada waxay ku siinaysaa dakhli markaad guriga la joogto ilmahaaga. Halkan waxaan ku sharaxaynaa wax kasta oo aad u baahan tahay inaad ogaato si aad u codsato.",
+        "backToGuides": "Ku laabo hagayaasha NAV",
+        "time": "Qiyaastii 25 daqiiqo",
+        "difficulty": "Dhexdhexaad",
+        "overview": "Kaalmada waalidnimada soo kooban",
+        "weeksWithFull": "toddobaad oo leh 100% mushaar",
+        "weeksWithReduced": "ama 59 toddobaad oo leh 80%",
+        "weeksFather": "toddobaad oo aabaha/hooyo kale",
+        "fatherQuota": "(qeybta aabaha)",
+        "weeksMother": "toddobaad oo hooyada",
+        "motherQuota": "(qeybta hooyada)",
+        "remainingWeeks": "Toddobaadyada soo haray waxaa si xor ah loo qaybsan karaa waalidiinta dhexdooda.",
+        "whoCanGet": "Yaa heli kara kaalmada waalidnimada?",
+        "youHaveRight": "Waxaad xaq u leedahay kaalmada waalidnimada haddii:",
+        "rightConditions": [
+          "Dakhli aad lahayd ugu yaraan 6 ka mid ah 10-ka bilood ee ugu dambeeyay",
+          "Waxaad ka shaqeysaa ugu yaraan 59,310 NOK sanadkii (0.5G)",
+          "Dakhligu wuxuu ka yimaadaa shaqo, shaqo xor ah, ama shaqo gaar"
+        ],
+        "noRightTitle": "Xaq uma lihid kaalmada waalidnimada?",
+        "noRightText": "Markaas waxaa laga yaabaa inaad xaq u leedahay lacag hal mar ah (qiyaastii 92,000 NOK) beddelkiisa. Tan ka codso si isku mid ah nav.no.",
+        "stepsTitle": "Sida loo codsado kaalmada waalidnimada",
+        "importantDates": "Taariikhaha muhiimka ah ee la xusuusto",
+        "date4WeeksBefore": "Ugu horreyn ee aad codsan karto kaalmada waalidnimada",
+        "date3WeeksBefore": "Hooyada waxay bilaabaysaa fasaxa (qasab)",
+        "dateTermin": "Taariikhda la filayo ee dhalashada",
+        "date6WeeksAfter": "Hooyada waa inay qaadataa fasax (qasab)",
+        "calculatorTitle": "Isticmaal xisaabiyaha kaalmada waalidnimada ee NAV!",
+        "calculatorText": "Nav.no waxaad isticmaali kartaa xisaabiye ku tusinaya sida saxda ah waxa aad heli karto kaalmada waalidnimada. Ka raadi \"foreldrepengekalkulator\" nav.no.",
+        "steps": [
+          {
+            "title": "Hubi inaad xaq u leedahay kaalmada waalidnimada",
+            "description": "Waa inaad shaqeysay oo aad lahayd dakhli ugu yaraan 6 ka mid ah 10-ka bilood ee ugu dambeeyay ka hor inta aan fasaxa bilaabin. Waa inaad sidoo kale ka shaqeysaa ugu yaraan 59,310 NOK sanadkii.",
+            "tip": "Ma hubtid? Isticmaal xisaabiyaha nav.no si aad u aragto waxa aad heli karto."
+          },
+          {
+            "title": "Gal nav.no",
+            "description": "Tag nav.no oo ku gal BankID. Guji \"Gal\" geeska midig ee sare."
+          },
+          {
+            "title": "Ka hel codsiga kaalmada waalidnimada",
+            "description": "Ka raadi \"foreldrepenger\" goobta raadinta, ama tag \"Qoyska iyo carruurta\" oo dooro \"Codsiga kaalmada waalidnimada\". Waxaad codsan kartaa ugu horreyn 4 toddobaad ka hor taariikhda dhalashada.",
+            "warning": "Codso ugu danbayn maalinta ka horeysa fasaxa si aadan lacag u lumin!"
+          },
+          {
+            "title": "Buuxi macluumaadka naftaada",
+            "description": "Xaqiiji macluumaadkaaga shakhsiga: magaca, cinwaanka, iyo lambarka akoonka bangiga. Hubi in lambarka akoonku sax yahay - halkaas ayaa lacagta tagaysa."
+          },
+          {
+            "title": "Bixi macluumaadka ilmaha",
+            "description": "Geli taariikhda la filayo ee dhalashada ama taariikhda dhalashada. Haddii ilmuhu dhashay, sidoo kale bixi magaca ilmaha iyo lambarka aqoonsiga. Korriinka, bixi taariikhda wareejinta daryeelka."
+          },
+          {
+            "title": "Dooro heerka daboolida",
+            "description": "Waxaad ka dooran kartaa 100% daboolid 49 toddobaad ama 80% daboolid 59 toddobaad. Wadarta guud waa isku mid, laakiin qaybinta way kala duwan tahay.",
+            "tip": "100% waxay siisaa lacago bil bil ah oo sare laakiin fasax gaaban. 80% waxay siisaa lacago bil bil ah oo hooseeya laakiin fasax dheer."
+          },
+          {
+            "title": "Qorshe fasaxa",
+            "description": "U qaybi toddobaadyada hooyada iyo aabaha/hooyada kale. Xusuusnow in toddobaadyo qaar loo kaydsaday hooyada (3 toddobaad ka hor dhalashada) iyo qaar loo kaydsaday aabaha (qeybta aabaha 15 toddobaad).",
+            "warning": "Qeybta aabaha waa in la isticmaalaa, haddii kale way lumaysaa! Looma wareeji karo hooyada."
+          },
+          {
+            "title": "Soo rar dukumeentiyada",
+            "description": "Waxaa laga yaabaa in lagaa codsado inaad soo rarto xaqiijinta taariikhda dhalashada oo ka timid dhakhtarka/umuliisada, ama dukumeentiyada dakhliga shaqada haddii NAV aan haysan.",
+            "tip": "Xaqiijinta taariikhda dhalashada waxaad helaysaa baaritaanka uurka ee kowaad, caadi ahaan qiyaastii toddobaadka 8-aad."
+          },
+          {
+            "title": "Gudbi codsiga",
+            "description": "Dib u eeg macluumaadka oo dhan. Marka wax walba sax yihiin, guji \"Gudbi codsiga\". Waxaad heli doontaa xaqiijin iimayl ahaan.",
+            "tip": "Wakhtiga baadhistu waa caadi ahaan 4-6 toddobaad. Codso wakhti hore!"
+          }
+        ]
+      },
+      "arbeidsledig": {
+        "title": "Iska diiwaan geli shaqo la'aan",
+        "description": "Iska diiwaan geli shaqo raadiye NAV"
+      },
+      "meldekort": {
+        "title": "Gudbi foomka xaalada shaqada",
+        "description": "Sida loo buuxiyo oo loo gudbiyo foomka xaalada shaqada 14-kii maalmood"
+      }
+    },
+    "skatt": {
+      "skattemelding": {
+        "title": "Hubi warbixinta canshuurta",
+        "description": "Sida loo helo oo loo hubiyo warbixintaada canshuurta"
+      },
+      "fradrag": {
+        "title": "Ku dar dhimista",
+        "description": "Sida dhimista loogu daro warbixinta canshuurta"
+      },
+      "skattekort": {
+        "title": "Beddel kaadhka canshuurta",
+        "description": "Sida loo beddelo kaadhkaaga canshuurta"
+      },
+      "skatteoppgjoer": {
+        "title": "Arag xisaabinta canshuurta",
+        "description": "Hel oo fahom xisaabintaada canshuurta"
+      },
+      "skatteattest": {
+        "title": "Dalbo shahaadada canshuurta",
+        "description": "Sida loo dalbo shahaadada canshuurta"
+      }
+    },
+    "helse": {
+      "bestilleTime": {
+        "title": "Samee ballan dhakhtar",
+        "description": "Sida loo sameeyo ballan dhakhtarkaaga caadiga ah"
+      },
+      "resepter": {
+        "title": "Arag oo cusbooneysii dawooyinka",
+        "description": "Hubi dawooyinkaaga oo codso cusbooneysiin"
+      },
+      "bytteFastlege": {
+        "title": "Beddel dhakhtarka caadiga ah",
+        "description": "Sida loo beddelo dhakhtar cusub oo caadi ah"
+      },
+      "journal": {
+        "title": "Akhri diiwaanka bukaanka",
+        "description": "Hel oo akhri diiwaankaaga bukaanka"
+      },
+      "melding": {
+        "title": "U dir fariin dhakhtarka",
+        "description": "La xiriir dhakhtarkaaga caadiga ah si dhijitaal ah"
+      }
+    }
+  },
+  "ordbok": {
+    "title": "Qaamuuska",
+    "subtitle": "Halkan waxaan ku sharaxaynaa erayada adag iyo odhaahyada aad ka hesho websaydhyada dawladda.",
+    "searchLabel": "Raadi erayo",
+    "searchPlaceholder": "Qor eray aad ka yaabayso...",
+    "category": "Qaybta",
+    "allCategories": "Dhammaan qaybaha",
+    "all": "Dhammaan",
+    "noResults": "Erayo lama helin",
+    "tryAnother": "Isku day raadin kale",
+    "missingWord": "Ma maqan yahay eray?",
+    "missingWordText": "Noo soo dir iimaylka kontakt@lettdigital.no haddii ay jirto eray aad jeclaan lahayd in la sharaxo, waanan ku dari doonaa!"
+  },
+  "faq": {
+    "title": "Su'aalaha Badanaa La Isweydiiyo",
+    "subtitle": "Halkan waxaad ka heli doontaa jawaabaha su'aalaha ugu badan ee ku saabsan adeegyada dhijitaalka ee dawladda.",
+    "categories": {
+      "all": "Dhammaan",
+      "nav": "NAV",
+      "skatt": "Canshuurta",
+      "helse": "Caafimaadka",
+      "digital": "Dhijitaalka"
+    },
+    "noAnswer": "Ma helin jawaab su'aashaada?",
+    "contactAgencies": "Waxaad si toos ah ula xiriiri kartaa hay'adaha si aad u hesho caawin dheeraad ah:",
+    "weekdays": "Maalmaha shaqada"
+  },
+  "favorites": {
+    "title": "Kuwa aan jeclaahay",
+    "subtitle": "Halkan waxaad ka heli doontaa hagayaashii aad u keydisay sida kuwa jeclaahay.",
+    "empty": "Weli ma lihid kuwa jeclaahay",
+    "emptyText": "Guji xiddigta ku taal hagaha si aad halkan ugu keydsato.",
+    "browseGuides": "Fiiri dhammaan hagayaasha",
+    "addedOn": "La daray",
+    "tipTitle": "Talo!",
+    "tipText": "Kuwa aad jeceshahay waxaa lagu keydinayaa qalabkan. Haddii aad isticmaasho qalabka kale ama aad tirtirto xogta browserka, way lumayaan."
+  },
+  "about": {
+    "title": "Ku saabsan LettDigital",
+    "mission": "Hadafkeena",
+    "missionIntro": "In ka badan 600,000 oo Norwayji ah ayaa dhibaato u qaba isticmaalka adeegyada dhijitaalka ee dawladda. 180,000 ma hayaan xitaa BankID. Dadkan waxay khatar ugu jiraan in laga saaro adeegyo muhiim ah sida NAV, Xafiiska Canshuuraha, iyo Helsenorge.",
+    "missionText": "LettDigital waxaa loo sameeyay si ay ugu fududaato qof walba in uu fahmo oo isticmaalo adeegyadan. Waxaan ku sharaxnaa habab adag oo erayyo fudud, xarfaha waaweyn, iyo hagayo tallaabo-tallaabo.",
+    "whoAreWe": "Waa kuma?",
+    "whoAreWeText1": "LettDigital waa mashruuc madax-bannaan oo raba in uu caawiyo kuwa ka baxsan bulshada dhijitaalka. Kuma xirna NAV, Xafiiska Canshuuraha, ama Helsenorge, laakiin waxaan u qabnaa ixtiraam weyn shaqada ay hay'adahani qabtaan.",
+    "whoAreWeText2": "Macluumaadkeena wuxuu ku salaysan yahay macluumaadka rasmiga ah ee hay'adaha khuseeya, laakiin waxaan had iyo jeer ku talineynaa in la hubiyo bogagga rasmiga ah si loo helo macluumaadka ugu dambeeyay.",
+    "accessibility": "Heli karo",
+    "accessibilityIntro": "Waxaan u naqshadeynay LettDigital adoo tixgelinaya dhammaan isticmaalayaasha:",
+    "accessibilityFeatures": {
+      "fontSize": "Cabbirka qoraalka la hagaajin karo - Ka dhig qoraalka in uu weyn yahay badhanka ku yaal xagga midig ee hoose",
+      "contrast": "Habka isbarbardhigga sare - Si fiican loo akhriyi karo",
+      "simpleLanguage": "Luqad fudud - Waxaan ka fogaanaynaa erayyo adag iyo luqadda xirfadlayaasha",
+      "keyboard": "Marista keyboard-ka - Dhammaan hawlaha waxaa loo isticmaali karaa la'aanta mouse-ka",
+      "screenReader": "U saaxiib akhristaha shaashada - Waafaqsan aaladaha caawinta"
+    },
+    "contactUs": "Nala soo xiriir",
+    "contactText": "Ma qabtaa su'aalo, talooyinka hagaajinta, ama ma heshay qalad? Aad ayaan u qiimeynaa jawaab-celinta!",
+    "importantInfo": "Macluumaad muhiim ah",
+    "importantInfoText": "LettDigital wuxuu bixiyaa hage guud oo maahan adeeg rasmi ah. Si aad u hesho macluumaad xiran oo ku saabsan xuquuqdaada iyo waajibaadkaaga, had iyo jeer hubi bogagga rasmiga ah: nav.no, skatteetaten.no, iyo helsenorge.no. Marka shakiga jiro, si toos ah ula xiriir hay'adda khuseeya."
+  },
+  "stepGuide": {
+    "progress": "Horumarkaaga",
+    "tip": "Talo!",
+    "warning": "Muhiim!",
+    "completed": "Dhameystay",
+    "markCompleteAndContinue": "Calaamadee dhamaystay oo sii wad",
+    "markComplete": "Calaamadee dhamaystay",
+    "congratulations": "Hambalyo!",
+    "allStepsComplete": "Waxaad dhammaysay dhammaan tallaabooyinka hagahan.",
+    "beforeYouStart": "Ka hor intaadan bilaabin",
+    "youNeed": "Waxaad u baahan tahay",
+    "problems": "Dhibaatooyin?"
+  },
+  "search": {
+    "placeholder": "Raadi hagayaasha... (tusaale, shaqo la'aan, warshadda, cashuur)",
+    "noResults": "Natiijo la'aan",
+    "tryOther": "Isku day erayo kale oo raadi ama arag qaybahayaga"
+  }
+}

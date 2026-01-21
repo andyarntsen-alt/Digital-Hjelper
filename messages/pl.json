@@ -1,0 +1,600 @@
+{
+  "common": {
+    "back": "Wstecz",
+    "backToHome": "Powrót do strony głównej",
+    "search": "Szukaj",
+    "searchPlaceholder": "Szukaj przewodników...",
+    "readMore": "Czytaj więcej",
+    "startGuide": "Rozpocznij przewodnik",
+    "minutes": "min",
+    "easy": "Łatwy",
+    "medium": "Średni",
+    "difficult": "Trudny",
+    "showMore": "Pokaż więcej",
+    "showLess": "Pokaż mniej",
+    "close": "Zamknij",
+    "open": "Otwórz",
+    "menu": "Menu",
+    "skipToContent": "Przejdź do głównej treści",
+    "loading": "Ładowanie...",
+    "error": "Coś poszło nie tak",
+    "tryAgain": "Spróbuj ponownie",
+    "favorites": "Ulubione",
+    "addToFavorites": "Dodaj do ulubionych",
+    "removeFromFavorites": "Usuń z ulubionych"
+  },
+  "header": {
+    "siteName": "LettDigital",
+    "tagline": "Prosty przewodnik dla wszystkich",
+    "nav": "NAV",
+    "skatt": "Urząd Skarbowy",
+    "helse": "Zdrowie Norwegia",
+    "sikkerhet": "Bezpieczeństwo",
+    "bank": "Bank",
+    "digital": "Narzędzia cyfrowe",
+    "ordbok": "Słownik",
+    "faq": "FAQ",
+    "about": "O nas",
+    "language": "Język"
+  },
+  "footer": {
+    "about": "O LettDigital",
+    "aboutText": "Pomagamy zrozumieć i korzystać z publicznych usług cyfrowych.",
+    "quickLinks": "Szybkie linki",
+    "contact": "Kontakt",
+    "email": "kontakt@lettdigital.no",
+    "copyright": "LettDigital. Stworzony dla wszystkich."
+  },
+  "accessibility": {
+    "title": "Dostępność",
+    "fontSize": "Rozmiar czcionki",
+    "normalSize": "Normalny",
+    "largeSize": "Duży",
+    "extraLargeSize": "Bardzo duży",
+    "highContrast": "Wysoki kontrast",
+    "on": "Włączony",
+    "off": "Wyłączony"
+  },
+  "home": {
+    "heroTitle": "Potrzebujesz pomocy z",
+    "heroTitleBreak": "cyfrowymi usługami publicznymi?",
+    "heroSubtitle": "Wyjaśniamy NAV, Urząd Skarbowy i Zdrowie Norwegia w prosty sposób. Krok po kroku, z dużą czcionką i prostym językiem.",
+    "seeGuides": "Zobacz nasze przewodniki",
+    "dictionary": "Słownik",
+    "quickLinks": "Szybkie linki",
+    "faqLink": "Często zadawane pytania",
+    "favoritesLink": "Moje ulubione",
+    "whoWeHelp": "Komu pomagamy?",
+    "elderly": "Osoby starsze i emeryci",
+    "elderlyDesc": "Którzy uważają usługi cyfrowe za trudne do zrozumienia",
+    "newToNorway": "Nowi w Norwegii",
+    "newToNorwayDesc": "Którzy potrzebują pomocy z językiem i systemami",
+    "helpers": "Rodzina i pomocnicy",
+    "helpersDesc": "Którzy pomagają innym z usługami cyfrowymi",
+    "chooseService": "Wybierz usługę",
+    "chooseServiceDesc": "Kliknij usługę, z którą potrzebujesz pomocy, a pokażemy ci krok po kroku, co robić.",
+    "whyUseUs": "Dlaczego warto korzystać z LettDigital?",
+    "simpleLanguage": "Prosty język",
+    "simpleLanguageDesc": "Wyjaśniamy wszystko zwykłymi słowami, bez trudnego języka urzędowego.",
+    "largeFonts": "Duża czcionka",
+    "largeFontsDesc": "Możesz dostosować rozmiar czcionki, aby łatwo było czytać.",
+    "stepByStep": "Krok po kroku",
+    "stepByStepDesc": "Postępuj zgodnie z prostymi krokami i odznaczaj, gdy skończysz.",
+    "free": "Całkowicie bezpłatne",
+    "freeDesc": "Nasza usługa jest bezpłatna.",
+    "ctaTitle": "Gotowy, aby zacząć?",
+    "ctaSubtitle": "Wybierz usługę, z którą potrzebujesz pomocy, a przeprowadzimy cię przez proces."
+  },
+  "services": {
+    "nav": {
+      "title": "NAV",
+      "shortDesc": "Zasiłki i wsparcie",
+      "description": "Złóż wniosek o zasiłek dla bezrobotnych, zasiłek chorobowy, zasiłek rodzicielski, rentę inwalidzką i inne świadczenia.",
+      "hubTitle": "Przewodniki NAV",
+      "hubSubtitle": "Pomoc w korzystaniu z nav.no",
+      "didYouKnow": "Czy wiesz?",
+      "didYouKnowText": "NAV jest największą agencją publiczną w Norwegii i zarządza ponad jedną trzecią budżetu państwa. Pomagają ci we wszystkim, od bezrobocia po emeryturę.",
+      "selectGuide": "Wybierz, w czym potrzebujesz pomocy",
+      "needMoreHelp": "Potrzebujesz więcej pomocy?",
+      "needMoreHelpText": "Jeśli nie możesz znaleźć tego, czego szukasz, możesz skontaktować się bezpośrednio z NAV:",
+      "phone": "Telefon",
+      "phoneHours": "dni robocze 09:00-15:00",
+      "chat": "Czat",
+      "chatAvailable": "Dostępny na nav.no",
+      "office": "Biuro NAV",
+      "findOffice": "Znajdź swoje lokalne biuro na nav.no"
+    },
+    "skatt": {
+      "title": "Urząd Skarbowy",
+      "shortDesc": "Zeznanie podatkowe i odliczenia",
+      "description": "Złóż zeznanie podatkowe, sprawdź odliczenia, znajdź rozliczenie podatkowe i inne kwestie podatkowe.",
+      "hubTitle": "Przewodniki Urzędu Skarbowego",
+      "hubSubtitle": "Pomoc z podatkami i opłatami",
+      "didYouKnow": "Ważne!",
+      "didYouKnowText": "Większość osób otrzymuje zeznanie podatkowe w marcu/kwietniu. Masz czas do 30 kwietnia na sprawdzenie i wprowadzenie zmian.",
+      "selectGuide": "Wybierz, w czym potrzebujesz pomocy",
+      "importantDates": "Ważne daty podatkowe",
+      "datesMarch": "Marzec",
+      "datesMarchTitle": "Zeznanie podatkowe jest dostępne",
+      "datesMarchDesc": "Twoje zeznanie podatkowe jest dostępne na skatteetaten.no",
+      "datesApril": "30 kwietnia",
+      "datesAprilTitle": "Termin zeznania podatkowego",
+      "datesAprilDesc": "Ostatni dzień na sprawdzenie i złożenie zmian",
+      "datesJune": "Czerwiec",
+      "datesJuneTitle": "Rozliczenie podatkowe",
+      "datesJuneDesc": "Dowiesz się, czy otrzymasz zwrot czy musisz dopłacić",
+      "needMoreHelp": "Potrzebujesz więcej pomocy?",
+      "needMoreHelpText": "Jeśli nie możesz znaleźć tego, czego szukasz, skontaktuj się z Urzędem Skarbowym:",
+      "phone": "Telefon",
+      "phoneNumber": "800 80 000",
+      "phoneHours": "bezpłatnie, dni robocze 08:00-15:30",
+      "chat": "Czat",
+      "chatAvailable": "Dostępny na skatteetaten.no"
+    },
+    "helse": {
+      "title": "Zdrowie Norwegia",
+      "shortDesc": "Wizyty lekarskie i recepty",
+      "description": "Umów wizytę u lekarza, sprawdź recepty, zmień lekarza pierwszego kontaktu i przeczytaj swoją dokumentację medyczną.",
+      "hubTitle": "Przewodniki Zdrowie Norwegia",
+      "hubSubtitle": "Pomoc w korzystaniu z helsenorge.no",
+      "didYouKnow": "Czy wiesz?",
+      "didYouKnowText": "Na Helsenorge możesz samodzielnie zrobić wiele rzeczy, jak umówienie wizyty, odnowienie recept i przeczytanie dokumentacji medycznej - wszystko bez dzwonienia.",
+      "selectGuide": "Wybierz, w czym potrzebujesz pomocy",
+      "emergencyNotice": "UWAGA! W przypadku nagłej choroby lub urazu zawsze dzwoń 113 (pogotowie) lub 116 117 (dyżur lekarski). Helsenorge służy do spraw nieurgentowych.",
+      "importantNumbers": "Ważne numery telefonów",
+      "ambulance": "Pogotowie",
+      "ambulanceDesc": "W przypadku ostrej, zagrażającej życiu choroby lub urazu",
+      "emergencyNumber": "113",
+      "legevakt": "Dyżur lekarski",
+      "legevaktNumber": "116 117",
+      "legevaktDesc": "Gdy potrzebujesz natychmiastowej pomocy, która nie jest nagła",
+      "poisonControl": "Informacja toksykologiczna",
+      "poisonControlNumber": "22 58 00 00",
+      "poisonControlDesc": "W przypadku zatrucia lub podejrzenia zatrucia",
+      "canDoTitle": "Co możesz zrobić na Helsenorge",
+      "canDoBooking": "Umów wizytę u lekarza",
+      "canDoBookingDesc": "Zarezerwuj wizytę u lekarza przez całą dobę",
+      "canDoPrescriptions": "Zobacz recepty",
+      "canDoPrescriptionsDesc": "Przegląd wszystkich aktywnych recept",
+      "canDoMessage": "Wyślij wiadomość do lekarza",
+      "canDoMessageDesc": "Bezpieczna komunikacja ze służbą zdrowia",
+      "canDoJournal": "Przeczytaj dokumentację medyczną",
+      "canDoJournalDesc": "Zobacz, co zostało o tobie napisane",
+      "canDoChangeGP": "Zmień lekarza pierwszego kontaktu",
+      "canDoChangeGPDesc": "Znajdź i zmień lekarza łatwo",
+      "canDoVaccines": "Zobacz szczepienia",
+      "canDoVaccinesDesc": "Przegląd wszystkich otrzymanych szczepień"
+    },
+    "sikkerhet": {
+      "title": "Bezpieczeństwo cyfrowe",
+      "shortDesc": "Chroń się online",
+      "description": "Naucz się chronić przed oszustwami, phishingiem i innymi zagrożeniami cyfrowymi."
+    },
+    "bank": {
+      "title": "Bankowość i finanse",
+      "shortDesc": "Bankowość internetowa i płatności",
+      "description": "Korzystaj z bankowości internetowej, płać rachunki i uzyskaj pomoc z finansami osobistymi."
+    },
+    "digital": {
+      "title": "Narzędzia cyfrowe",
+      "shortDesc": "E-mail i Digipost",
+      "description": "Skonfiguruj e-mail, korzystaj z cyfrowej skrzynki pocztowej i innych narzędzi cyfrowych."
+    }
+  },
+  "guides": {
+    "nav": {
+      "loggInn": {
+        "title": "Zaloguj się do NAV",
+        "description": "Dowiedz się, jak zalogować się na nav.no za pomocą BankID lub MinID",
+        "longDescription": "Dowiedz się, jak zalogować się na nav.no, aby zobaczyć swoje sprawy, złożyć wnioski o świadczenia i wysyłać wiadomości.",
+        "backToGuides": "Powrót do przewodników NAV",
+        "time": "Około 5 minut",
+        "difficulty": "Łatwy",
+        "beforeYouStart": "Zanim zaczniesz",
+        "beforeYouStartText": "Potrzebujesz BankID (na telefonie lub urządzeniu z kodem) lub MinID, aby się zalogować. Jeśli tego nie masz, musisz najpierw je uzyskać.",
+        "stepsTitle": "Jak zalogować się do NAV",
+        "problemsTitle": "Problemy z logowaniem?",
+        "problemsText": "Jeśli masz problemy z logowaniem, możesz spróbować następujących rzeczy:",
+        "problemsList": [
+          "Sprawdź, czy wpisałeś prawidłowy numer PESEL",
+          "Spróbuj odświeżyć stronę (naciśnij F5 lub Ctrl+R)",
+          "Wyczyść pamięć podręczną przeglądarki",
+          "Spróbuj innej przeglądarki",
+          "Zadzwoń do NAV pod numer 55 55 33 33 po pomoc"
+        ],
+        "steps": [
+          {
+            "title": "Przejdź do nav.no",
+            "description": "Otwórz przeglądarkę (na przykład Google Chrome, Safari lub Edge). Wpisz \"nav.no\" w pasku adresu u góry i naciśnij Enter.",
+            "tip": "Możesz też wyszukać \"NAV\" w Google i kliknąć pierwszy wynik."
+          },
+          {
+            "title": "Znajdź przycisk \"Logg inn\"",
+            "description": "Na stronie głównej nav.no zobaczysz niebieski przycisk w prawym górnym rogu z napisem \"Logg inn\". Kliknij ten przycisk.",
+            "tip": "Przycisk może też nazywać się \"Min side\" lub \"Ditt NAV\"."
+          },
+          {
+            "title": "Wybierz metodę logowania",
+            "description": "Masz teraz wybór między kilkoma sposobami logowania. Najczęstsze to BankID na telefonie, BankID z urządzeniem kodowym lub MinID. Wybierz tę, do której masz dostęp.",
+            "warning": "Jeśli nie masz BankID ani MinID, musisz skontaktować się z bankiem lub odwiedzić biuro NAV po pomoc."
+          },
+          {
+            "title": "Jeśli wybierzesz BankID na telefonie",
+            "description": "Wprowadź swój numer identyfikacyjny (11 cyfr) i numer telefonu. Otrzymasz wiadomość na telefon. Otwórz aplikację BankID i potwierdź logowanie odciskiem palca lub kodem.",
+            "tip": "Upewnij się, że aplikacja BankID jest zainstalowana na telefonie przed rozpoczęciem."
+          },
+          {
+            "title": "Jeśli wybierzesz BankID z urządzeniem kodowym",
+            "description": "Wprowadź swój numer identyfikacyjny. Włącz urządzenie kodowe i wprowadź kod pokazany na ekranie. Następnie wprowadź swój osobisty kod na urządzeniu kodowym i wpisz nowy kod, który się pojawi.",
+            "warning": "Urządzenie kodowe potrzebuje baterii. Jeśli ekran jest pusty, potrzebuje nowej baterii lub musisz skontaktować się z bankiem."
+          },
+          {
+            "title": "Jesteś teraz zalogowany!",
+            "description": "Gratulacje! Jesteś teraz zalogowany do NAV. Możesz zobaczyć swoją skrzynkę odbiorczą, swoje wnioski i wysyłać wiadomości do NAV. Menu po lewej stronie pokazuje wszystkie usługi, do których masz dostęp.",
+            "tip": "Pamiętaj, aby się wylogować, gdy skończysz, szczególnie jeśli korzystasz ze wspólnego komputera."
+          }
+        ]
+      },
+      "dagpenger": {
+        "title": "Złóż wniosek o zasiłek dla bezrobotnych",
+        "description": "Przewodnik krok po kroku, jak złożyć wniosek o zasiłek dla bezrobotnych, jeśli straciłeś pracę",
+        "longDescription": "Zasiłek dla bezrobotnych (dagpenger) to pieniądze, które możesz otrzymać od NAV, jeśli straciłeś pracę lub zostałeś zwolniony. Tutaj pokazujemy krok po kroku, jak złożyć wniosek.",
+        "backToGuides": "Powrót do przewodników NAV",
+        "time": "Około 20 minut",
+        "difficulty": "Średni",
+        "whoCanGet": "Kto może otrzymać zasiłek dla bezrobotnych?",
+        "whoCanGetIntro": "Aby otrzymać zasiłek dla bezrobotnych, musisz zwykle:",
+        "requirements": [
+          "Zarobić co najmniej 186 042 NOK w ciągu ostatnich 12 miesięcy lub 372 084 NOK w ciągu ostatnich 36 miesięcy (stawki 2024)",
+          "Mieć skrócony czas pracy o co najmniej 50%",
+          "Być zarejestrowanym jako osoba poszukująca pracy i aktywnie szukać pracy",
+          "Mieszkać w Norwegii i mieć prawo do pracy tutaj"
+        ],
+        "documentsTitle": "Przygotuj te dokumenty",
+        "documents": [
+          "Wypowiedzenie lub zawiadomienie o zwolnieniu od pracodawcy",
+          "Umowę o pracę (jeśli ją masz)",
+          "Numer konta bankowego, na które chcesz otrzymywać płatności",
+          "BankID lub MinID do logowania"
+        ],
+        "stepsTitle": "Jak złożyć wniosek o zasiłek dla bezrobotnych",
+        "importantTitle": "Ważne do zapamiętania!",
+        "importantMeldekort": "Formularz statusu zatrudnienia co 14 dni",
+        "importantMeldekortText": "Musisz składać formularz statusu zatrudnienia co 14 dni, aby nadal otrzymywać zasiłek. Zrób to na nav.no.",
+        "importantJobsearch": "Poszukiwanie pracy",
+        "importantJobsearchText": "Musisz aktywnie szukać pracy i to dokumentować. NAV może poprosić cię o pokazanie twoich aplikacji o pracę.",
+        "importantAmount": "Ile otrzymasz?",
+        "importantAmountText": "Zasiłek dla bezrobotnych wynosi około 62,4% poprzedniego dochodu, do 6G (ok. 744 000 NOK). Pieniądze są zwykle wypłacane z dołu.",
+        "steps": [
+          {
+            "title": "Najpierw zarejestruj się jako osoba poszukująca pracy",
+            "description": "Zanim będziesz mógł złożyć wniosek o zasiłek dla bezrobotnych, musisz zarejestrować się jako osoba poszukująca pracy w NAV. Przejdź do nav.no, zaloguj się i wybierz \"Zarejestruj się jako osoba poszukująca pracy\". Wypełnij informacje o swoim wykształceniu i doświadczeniu zawodowym.",
+            "tip": "Możesz zarejestrować się jako osoba poszukująca pracy tego samego dnia, w którym składasz wniosek o zasiłek.",
+            "warning": "Musisz zarejestrować się jako osoba poszukująca pracy PRZED złożeniem wniosku o zasiłek, w przeciwnym razie twój wniosek zostanie odrzucony."
+          },
+          {
+            "title": "Zaloguj się na nav.no",
+            "description": "Przejdź do nav.no i zaloguj się za pomocą BankID lub MinID. Kliknij \"Zaloguj się\" w prawym górnym rogu strony.",
+            "tip": "Zobacz nasz przewodnik \"Zaloguj się do NAV\", jeśli potrzebujesz pomocy z logowaniem."
+          },
+          {
+            "title": "Znajdź wniosek o zasiłek dla bezrobotnych",
+            "description": "Po zalogowaniu przejdź do \"Ditt NAV\" lub \"Moje usługi\". Następnie kliknij \"Wnioski\" lub wyszukaj \"dagpenger\" w polu wyszukiwania. Wybierz \"Wniosek o zasiłek dla bezrobotnych\".",
+            "tip": "Możesz też wpisać \"dagpenger\" w polu wyszukiwania na nav.no, aby znaleźć wniosek bezpośrednio."
+          },
+          {
+            "title": "Wypełnij dane osobowe",
+            "description": "Wniosek zaczyna się od pokazania twoich danych osobowych (imię, adres itp.). Sprawdź, czy są poprawne. Jeśli coś jest błędne, musisz to zmienić w Rejestrze Ludności przed kontynuowaniem.",
+            "warning": "Sprawdź, czy twój numer konta bankowego jest poprawny! Tam będą wpłacane pieniądze."
+          },
+          {
+            "title": "Podaj powód złożenia wniosku",
+            "description": "Wybierz, dlaczego składasz wniosek o zasiłek: czy straciłeś pracę, zostałeś zwolniony, czy masz skrócony czas pracy? Odpowiadaj uczciwie na wszystkie pytania.",
+            "tip": "Jeśli nie jesteś pewien, co odpowiedzieć, możesz wybrać \"Nie wiem\" i wyjaśnić swoją sytuację w polu komentarza."
+          },
+          {
+            "title": "Prześlij dokumentację",
+            "description": "Musisz przesłać dokumenty potwierdzające twoją sytuację. Może to być wypowiedzenie, zawiadomienie o zwolnieniu lub umowa o pracę. Kliknij \"Prześlij plik\" i wybierz dokument z komputera.",
+            "warning": "Akceptowane formaty plików to PDF, JPG i PNG. Maksymalny rozmiar pliku to zazwyczaj 10 MB.",
+            "tip": "Zrób zdjęcie papierowych dokumentów telefonem i prześlij obraz, jeśli nie masz skanera."
+          },
+          {
+            "title": "Podaj poprzedni dochód",
+            "description": "NAV automatycznie pobiera informacje o twoim poprzednim dochodzie z Urzędu Skarbowego. Sprawdź, czy wygląda to poprawnie. Jeśli miałeś dochód, który się nie wyświetla, musisz go dodać ręcznie.",
+            "tip": "Zasiłek dla bezrobotnych jest obliczany na podstawie twojego dochodu z ostatnich 12 lub 36 miesięcy, w zależności od tego, co daje wyższą kwotę."
+          },
+          {
+            "title": "Odpowiedz na dodatkowe pytania",
+            "description": "Wniosek może zawierać więcej pytań o twoją sytuację, na przykład czy masz inne dochody, chodzisz do szkoły, czy masz problemy zdrowotne wpływające na poszukiwanie pracy. Odpowiadaj uczciwie na wszystko."
+          },
+          {
+            "title": "Przejrzyj i wyślij",
+            "description": "Przed wysłaniem otrzymasz podsumowanie wniosku. Przeczytaj wszystko uważnie. Jeśli coś jest błędne, wróć i popraw to. Gdy wszystko jest poprawne, kliknij \"Wyślij wniosek\".",
+            "warning": "Po wysłaniu nie możesz zmienić wniosku. Musiałbyś skontaktować się z NAV."
+          },
+          {
+            "title": "Potwierdzenie i kolejne kroki",
+            "description": "Otrzymasz potwierdzenie na ekranie oraz przez e-mail/SMS, że wniosek został przyjęty. NAV zwykle rozpatruje wnioski w ciągu 4 tygodni. Pamiętaj o wysyłaniu formularza statusu zatrudnienia co 14 dni!",
+            "tip": "Możesz śledzić status swojego wniosku w \"Moje sprawy\" na nav.no."
+          }
+        ]
+      },
+      "sykepenger": {
+        "title": "Złóż wniosek o zasiłek chorobowy",
+        "description": "Jak złożyć zwolnienie lekarskie i ubiegać się o zasiłek chorobowy",
+        "longDescription": "Zasiłek chorobowy zastępuje twój dochód, gdy jesteś chory i nie możesz pracować. Tutaj pokazujemy krok po kroku, jak złożyć wniosek.",
+        "backToGuides": "Powrót do przewodników NAV",
+        "time": "Około 15 minut",
+        "difficulty": "Średni",
+        "whoCanGet": "Kto może otrzymać zasiłek chorobowy?",
+        "requirements": [
+          "Byłeś zatrudniony przez co najmniej 4 tygodnie przed zachorowaniem",
+          "Zarabiasz co najmniej 59 310 NOK rocznie (połowa kwoty bazowej)",
+          "Masz zwolnienie lekarskie od lekarza",
+          "Straciłeś dochód z powodu choroby"
+        ],
+        "importantToKnow": "Ważne informacje o zasiłku chorobowym",
+        "employerPeriod": "Okres pracodawcy (dni 1-16)",
+        "employerPeriodText": "Przez pierwsze 16 dni pracodawca płaci zasiłek chorobowy. Nie musisz składać wniosku do NAV.",
+        "navPeriod": "Okres NAV (od dnia 17)",
+        "navPeriodText": "Od dnia 17 przejmuje NAV. Wtedy musisz złożyć wniosek.",
+        "howMuch": "Ile otrzymasz?",
+        "howMuchText": "Otrzymujesz 100% swojego dochodu, do 6G (ok. 744 000 NOK). Pracodawca może pokryć więcej.",
+        "howLong": "Jak długo?",
+        "howLongText": "Możesz otrzymywać zasiłek chorobowy przez maksymalnie 52 tygodnie (1 rok). Po tym możesz mieć prawo do AAP.",
+        "stepsTitle": "Jak złożyć wniosek o zasiłek chorobowy",
+        "gradedTitle": "Czym jest częściowe zwolnienie lekarskie?",
+        "gradedIntro": "Częściowe zwolnienie lekarskie oznacza, że pracujesz trochę, ale nie na pełen etat. Na przykład:",
+        "graded50": "50% zwolnienie: Pracujesz pół dnia i otrzymujesz zasiłek chorobowy za resztę",
+        "graded80": "80% zwolnienie: Pracujesz jeden dzień w tygodniu i otrzymujesz zasiłek za 4 dni",
+        "gradedBenefit": "Częściowe zwolnienie jest często korzystne, ponieważ utrzymujesz kontakt z pracą i szybciej wracasz.",
+        "steps": [
+          {
+            "title": "Uzyskaj zwolnienie lekarskie od lekarza",
+            "description": "Najpierw musisz uzyskać zwolnienie lekarskie od swojego lekarza. Lekarz wysyła zwolnienie elektronicznie do NAV i twojego pracodawcy. Nie musisz nic robić ze zwolnieniem.",
+            "tip": "Zwolnienie może wystawić lekarz pierwszego kontaktu, dyżur lekarski lub specjalista. Dentyści i chiropraktycy również mogą wystawiać zwolnienia w niektórych przypadkach."
+          },
+          {
+            "title": "Zaloguj się na nav.no",
+            "description": "Przejdź do nav.no i zaloguj się za pomocą BankID lub MinID. Kliknij \"Zaloguj się\" w prawym górnym rogu.",
+            "tip": "Twoje zwolnienie zazwyczaj pojawia się na nav.no w ciągu 1-2 dni po wizycie u lekarza."
+          },
+          {
+            "title": "Znajdź swoje zwolnienie lekarskie",
+            "description": "Po zalogowaniu przejdź do \"Ditt sykefravær\" (Twoje zwolnienie chorobowe) lub poszukaj powiadomienia o nowym zwolnieniu na stronie głównej. Kliknij zwolnienie, aby je otworzyć."
+          },
+          {
+            "title": "Wyślij zwolnienie do pracodawcy",
+            "description": "Musisz potwierdzić zwolnienie i wysłać je do pracodawcy. Wybierz odpowiedniego pracodawcę z listy (jeśli masz kilka prac) i kliknij \"Wyślij\".",
+            "warning": "Musisz wysłać zwolnienie w ciągu 3 miesięcy, w przeciwnym razie możesz stracić prawo do zasiłku chorobowego."
+          },
+          {
+            "title": "Wypełnij wniosek o zasiłek chorobowy (po 16 dniach)",
+            "description": "Przez pierwsze 16 dni pracodawca płaci zasiłek chorobowy. Po tym musisz złożyć wniosek do NAV. Otrzymasz powiadomienie na nav.no, kiedy będzie czas na złożenie wniosku. Wypełnij wniosek informacjami o pracy i dochodach.",
+            "tip": "NAV pobiera wiele informacji automatycznie. Musisz tylko potwierdzić, że są poprawne."
+          },
+          {
+            "title": "Odpowiedz na pytania o aktywność",
+            "description": "We wniosku zostaniesz zapytany, czy pracowałeś w okresie choroby, czy podróżowałeś i czy otrzymałeś inny dochód. Odpowiadaj uczciwie na wszystkie pytania.",
+            "warning": "Jeśli pracowałeś, musisz zgłosić godziny. To wpływa na wysokość zasiłku chorobowego."
+          },
+          {
+            "title": "Wyślij wniosek",
+            "description": "Gdy wypełnisz wszystko, kliknij \"Wyślij wniosek\". Otrzymasz potwierdzenie, że wniosek został przyjęty."
+          },
+          {
+            "title": "Czekaj na odpowiedź",
+            "description": "NAV rozpatruje twój wniosek, zwykle w ciągu 4 tygodni. Możesz zobaczyć status wniosku w \"Moje sprawy\" na nav.no. Pieniądze są wypłacane z dołu.",
+            "tip": "Zasiłek chorobowy jest zwykle wypłacany 25. dnia miesiąca za poprzedni miesiąc."
+          }
+        ]
+      },
+      "foreldrepenger": {
+        "title": "Złóż wniosek o zasiłek rodzicielski",
+        "description": "Wszystko, co musisz wiedzieć o zasiłku rodzicielskim i jak się o niego ubiegać",
+        "longDescription": "Zasiłek rodzicielski zapewnia ci dochód, gdy jesteś w domu z dzieckiem. Tutaj wyjaśniamy wszystko, co musisz wiedzieć, aby złożyć wniosek.",
+        "backToGuides": "Powrót do przewodników NAV",
+        "time": "Około 25 minut",
+        "difficulty": "Średni",
+        "overview": "Zasiłek rodzicielski w pigułce",
+        "weeksWithFull": "tygodni ze 100% wynagrodzeniem",
+        "weeksWithReduced": "lub 59 tygodni z 80%",
+        "weeksFather": "tygodni dla ojca/współmatki",
+        "fatherQuota": "(kwota ojcowska)",
+        "weeksMother": "tygodni dla matki",
+        "motherQuota": "(kwota macierzyńska)",
+        "remainingWeeks": "Pozostałe tygodnie można dowolnie dzielić między rodzicami.",
+        "whoCanGet": "Kto może otrzymać zasiłek rodzicielski?",
+        "youHaveRight": "Masz prawo do zasiłku rodzicielskiego, jeśli:",
+        "rightConditions": [
+          "Miałeś dochód przez co najmniej 6 z ostatnich 10 miesięcy",
+          "Zarabiasz co najmniej 59 310 NOK rocznie (0,5G)",
+          "Dochód pochodzi z pracy, freelance lub samozatrudnienia"
+        ],
+        "noRightTitle": "Nie masz prawa do zasiłku rodzicielskiego?",
+        "noRightText": "Wtedy możesz mieć prawo do jednorazowego świadczenia (ok. 92 000 NOK). Złóż o nie wniosek w ten sam sposób na nav.no.",
+        "stepsTitle": "Jak złożyć wniosek o zasiłek rodzicielski",
+        "importantDates": "Ważne daty do zapamiętania",
+        "date4WeeksBefore": "Najwcześniej możesz złożyć wniosek o zasiłek rodzicielski",
+        "date3WeeksBefore": "Matka rozpoczyna urlop (obowiązkowo)",
+        "dateTermin": "Przewidywana data porodu",
+        "date6WeeksAfter": "Matka musi wziąć urlop (obowiązkowo)",
+        "calculatorTitle": "Użyj kalkulatora zasiłku rodzicielskiego NAV!",
+        "calculatorText": "Na nav.no możesz użyć kalkulatora, który pokazuje dokładnie, ile możesz otrzymać zasiłku rodzicielskiego. Wyszukaj \"foreldrepengekalkulator\" na nav.no.",
+        "steps": [
+          {
+            "title": "Sprawdź, czy masz prawo do zasiłku rodzicielskiego",
+            "description": "Musisz pracować i mieć dochód przez co najmniej 6 z ostatnich 10 miesięcy przed rozpoczęciem urlopu. Musisz też zarabiać co najmniej 59 310 NOK rocznie.",
+            "tip": "Nie jesteś pewien? Użyj kalkulatora na nav.no, aby zobaczyć, co możesz otrzymać."
+          },
+          {
+            "title": "Zaloguj się na nav.no",
+            "description": "Przejdź do nav.no i zaloguj się za pomocą BankID. Kliknij \"Zaloguj się\" w prawym górnym rogu."
+          },
+          {
+            "title": "Znajdź wniosek o zasiłek rodzicielski",
+            "description": "Wyszukaj \"foreldrepenger\" w polu wyszukiwania lub przejdź do \"Rodzina i dzieci\" i wybierz \"Wniosek o zasiłek rodzicielski\". Możesz złożyć wniosek najwcześniej 4 tygodnie przed terminem porodu.",
+            "warning": "Złóż wniosek najpóźniej dzień przed rozpoczęciem urlopu, aby nie stracić pieniędzy!"
+          },
+          {
+            "title": "Wypełnij informacje o sobie",
+            "description": "Potwierdź swoje dane osobowe: imię, adres i numer konta bankowego. Sprawdź, czy numer konta jest poprawny - tam trafią pieniądze."
+          },
+          {
+            "title": "Podaj informacje o dziecku",
+            "description": "Wpisz termin porodu lub datę urodzenia. Jeśli dziecko się urodziło, podaj również imię dziecka i numer identyfikacyjny. W przypadku adopcji podaj datę przejęcia opieki."
+          },
+          {
+            "title": "Wybierz poziom pokrycia",
+            "description": "Możesz wybrać między 100% pokryciem przez 49 tygodni lub 80% pokryciem przez 59 tygodni. Całkowita kwota jest taka sama, ale rozkład jest inny.",
+            "tip": "100% daje wyższe miesięczne wypłaty, ale krótszy urlop. 80% daje niższe miesięczne wypłaty, ale dłuższy urlop."
+          },
+          {
+            "title": "Zaplanuj urlop",
+            "description": "Podziel tygodnie między matkę i ojca/współmatkę. Pamiętaj, że niektóre tygodnie są zarezerwowane dla matki (3 tygodnie przed porodem), a niektóre dla ojca (kwota ojcowska 15 tygodni).",
+            "warning": "Kwota ojcowska musi być wykorzystana, w przeciwnym razie przepada! Nie można jej przenieść na matkę."
+          },
+          {
+            "title": "Prześlij dokumentację",
+            "description": "Możesz zostać poproszony o przesłanie potwierdzenia terminu porodu od lekarza/położnej lub dokumentacji dochodów z pracy, jeśli NAV jej nie ma.",
+            "tip": "Potwierdzenie terminu porodu otrzymujesz przy pierwszej kontroli prenatalnej, zwykle około 8 tygodnia."
+          },
+          {
+            "title": "Wyślij wniosek",
+            "description": "Przejrzyj wszystkie informacje. Gdy wszystko jest poprawne, kliknij \"Wyślij wniosek\". Otrzymasz potwierdzenie e-mailem.",
+            "tip": "Czas przetwarzania wynosi zwykle 4-6 tygodni. Złóż wniosek z wyprzedzeniem!"
+          }
+        ]
+      },
+      "arbeidsledig": {
+        "title": "Zarejestruj się jako bezrobotny",
+        "description": "Zarejestruj się jako osoba poszukująca pracy w NAV"
+      },
+      "meldekort": {
+        "title": "Wyślij formularz statusu zatrudnienia",
+        "description": "Jak wypełnić i wysłać formularz statusu zatrudnienia co 14 dni"
+      }
+    },
+    "skatt": {
+      "skattemelding": {
+        "title": "Sprawdź zeznanie podatkowe",
+        "description": "Jak znaleźć i sprawdzić swoje zeznanie podatkowe"
+      },
+      "fradrag": {
+        "title": "Dodaj odliczenia",
+        "description": "Jak dodać odliczenia do zeznania podatkowego"
+      },
+      "skattekort": {
+        "title": "Zmień kartę podatkową",
+        "description": "Jak zmienić swoją kartę podatkową"
+      },
+      "skatteoppgjoer": {
+        "title": "Zobacz rozliczenie podatkowe",
+        "description": "Znajdź i zrozum swoje rozliczenie podatkowe"
+      },
+      "skatteattest": {
+        "title": "Zamów zaświadczenie podatkowe",
+        "description": "Jak zamówić zaświadczenie podatkowe"
+      }
+    },
+    "helse": {
+      "bestilleTime": {
+        "title": "Umów wizytę u lekarza",
+        "description": "Jak umówić wizytę u lekarza pierwszego kontaktu"
+      },
+      "resepter": {
+        "title": "Zobacz i odnów recepty",
+        "description": "Sprawdź swoje recepty i poproś o odnowienie"
+      },
+      "bytteFastlege": {
+        "title": "Zmień lekarza pierwszego kontaktu",
+        "description": "Jak zmienić lekarza pierwszego kontaktu"
+      },
+      "journal": {
+        "title": "Przeczytaj dokumentację medyczną",
+        "description": "Znajdź i przeczytaj swoją dokumentację medyczną"
+      },
+      "melding": {
+        "title": "Wyślij wiadomość do lekarza",
+        "description": "Skontaktuj się z lekarzem pierwszego kontaktu cyfrowo"
+      }
+    }
+  },
+  "ordbok": {
+    "title": "Słownik",
+    "subtitle": "Tutaj wyjaśniamy trudne słowa i wyrażenia, które spotykasz na stronach publicznych.",
+    "searchLabel": "Szukaj słów",
+    "searchPlaceholder": "Wpisz słowo, o które się zastanawiasz...",
+    "category": "Kategoria",
+    "allCategories": "Wszystkie kategorie",
+    "all": "Wszystkie",
+    "noResults": "Nie znaleziono słów dla",
+    "tryAnother": "Spróbuj innego wyszukiwania",
+    "missingWord": "Brakuje słowa?",
+    "missingWordText": "Wyślij nam e-mail na kontakt@lettdigital.no, jeśli jest słowo, które chciałbyś wyjaśnić, a my je dodamy!"
+  },
+  "faq": {
+    "title": "Często zadawane pytania",
+    "subtitle": "Tutaj znajdziesz odpowiedzi na najczęstsze pytania dotyczące publicznych usług cyfrowych.",
+    "categories": {
+      "all": "Wszystkie",
+      "nav": "NAV",
+      "skatt": "Podatki",
+      "helse": "Zdrowie",
+      "digital": "Cyfrowe"
+    },
+    "noAnswer": "Nie znalazłeś odpowiedzi na swoje pytanie?",
+    "contactAgencies": "Możesz skontaktować się bezpośrednio z urzędami, aby uzyskać więcej pomocy:",
+    "weekdays": "Dni robocze"
+  },
+  "favorites": {
+    "title": "Moje ulubione",
+    "subtitle": "Tutaj znajdziesz przewodniki, które zapisałeś jako ulubione.",
+    "empty": "Nie masz jeszcze ulubionych",
+    "emptyText": "Kliknij gwiazdkę przy przewodniku, aby zapisać go tutaj.",
+    "browseGuides": "Przeglądaj wszystkie przewodniki",
+    "addedOn": "Dodano",
+    "tipTitle": "Wskazówka!",
+    "tipText": "Twoje ulubione są zapisane na tym urządzeniu. Jeśli użyjesz innego urządzenia lub usuniesz dane przeglądarki, znikną."
+  },
+  "about": {
+    "title": "O LettDigital",
+    "mission": "Nasza misja",
+    "missionIntro": "Ponad 600 000 Norwegów ma trudności z korzystaniem z cyfrowych usług publicznych. 180 000 nie ma nawet BankID. Te osoby ryzykują wykluczenie z ważnych usług takich jak NAV, Urząd Skarbowy i Helsenorge.",
+    "missionText": "LettDigital powstał, aby ułatwić wszystkim zrozumienie i korzystanie z tych usług. Wyjaśniamy skomplikowane procesy prostymi słowami, dużymi literami i przewodnikami krok po kroku.",
+    "whoAreWe": "Kim jesteśmy?",
+    "whoAreWeText1": "LettDigital to niezależny projekt, który chce pomóc tym, którzy wypadają poza cyfrowe społeczeństwo. Nie jesteśmy powiązani z NAV, Urzędem Skarbowym ani Helsenorge, ale mamy wielki szacunek dla pracy tych agencji.",
+    "whoAreWeText2": "Nasze informacje są oparte na oficjalnych informacjach z odpowiednich agencji, ale zawsze zalecamy sprawdzanie oficjalnych stron internetowych w celu uzyskania najnowszych informacji.",
+    "accessibility": "Dostępność",
+    "accessibilityIntro": "Zaprojektowaliśmy LettDigital z myślą o wszystkich użytkownikach:",
+    "accessibilityFeatures": {
+      "fontSize": "Regulowany rozmiar tekstu - Powiększ tekst za pomocą przycisku w prawym dolnym rogu",
+      "contrast": "Tryb wysokiego kontrastu - Dla lepszej czytelności",
+      "simpleLanguage": "Prosty język - Unikamy trudnych słów i żargonu",
+      "keyboard": "Nawigacja klawiaturą - Wszystkie funkcje można używać bez myszy",
+      "screenReader": "Przyjazny dla czytników ekranu - Kompatybilny z urządzeniami pomocniczymi"
+    },
+    "contactUs": "Skontaktuj się z nami",
+    "contactText": "Masz pytania, sugestie dotyczące ulepszeń lub znalazłeś błąd? Bardzo doceniamy opinie!",
+    "importantInfo": "Ważna informacja",
+    "importantInfoText": "LettDigital zapewnia ogólne wskazówki i nie jest oficjalną usługą. Aby uzyskać wiążące informacje o swoich prawach i obowiązkach, zawsze sprawdzaj oficjalne strony internetowe: nav.no, skatteetaten.no i helsenorge.no. W razie wątpliwości skontaktuj się bezpośrednio z odpowiednią agencją."
+  },
+  "stepGuide": {
+    "progress": "Twój postęp",
+    "tip": "Wskazówka!",
+    "warning": "Ważne!",
+    "completed": "Ukończone",
+    "markCompleteAndContinue": "Oznacz jako ukończone i kontynuuj",
+    "markComplete": "Oznacz jako ukończone",
+    "congratulations": "Gratulacje!",
+    "allStepsComplete": "Ukończyłeś wszystkie kroki w tym przewodniku.",
+    "beforeYouStart": "Zanim zaczniesz",
+    "youNeed": "Potrzebujesz",
+    "problems": "Problemy?"
+  },
+  "search": {
+    "placeholder": "Szukaj przewodników... (np. bezrobocie, recepta, podatek)",
+    "noResults": "Brak wyników dla",
+    "tryOther": "Spróbuj innych słów kluczowych lub zobacz nasze kategorie"
+  }
+}

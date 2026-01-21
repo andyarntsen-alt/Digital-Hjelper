@@ -1,0 +1,876 @@
+{
+  "common": {
+    "back": "Back",
+    "backToHome": "Back to homepage",
+    "search": "Search",
+    "searchPlaceholder": "Search for guides...",
+    "readMore": "Read more",
+    "startGuide": "Start guide",
+    "minutes": "min",
+    "easy": "Easy",
+    "medium": "Medium",
+    "difficult": "Difficult",
+    "showMore": "Show more",
+    "showLess": "Show less",
+    "close": "Close",
+    "open": "Open",
+    "menu": "Menu",
+    "skipToContent": "Skip to main content",
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "tryAgain": "Try again",
+    "favorites": "Favorites",
+    "addToFavorites": "Add to favorites",
+    "removeFromFavorites": "Remove from favorites",
+    "comingSoon": "Coming soon",
+    "comingSoonText": "This guide is not yet available in English. We are working on translating all our guides. In the meantime, you can use the Norwegian version or come back later."
+  },
+  "header": {
+    "siteName": "LettDigital",
+    "tagline": "Simple guidance for everyone",
+    "nav": "NAV",
+    "skatt": "Tax Office",
+    "helse": "Health Norway",
+    "sikkerhet": "Security",
+    "bank": "Banking",
+    "digital": "Digital Tools",
+    "ordbok": "Dictionary",
+    "faq": "FAQ",
+    "about": "About us",
+    "language": "Language"
+  },
+  "footer": {
+    "about": "About LettDigital",
+    "aboutText": "We help you understand and use public digital services.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "email": "kontakt@lettdigital.no",
+    "copyright": "LettDigital. Made for everyone."
+  },
+  "accessibility": {
+    "title": "Accessibility",
+    "fontSize": "Font size",
+    "normalSize": "Normal",
+    "largeSize": "Large",
+    "extraLargeSize": "Extra large",
+    "highContrast": "High contrast",
+    "on": "On",
+    "off": "Off"
+  },
+  "home": {
+    "heroTitle": "Do you need help with",
+    "heroTitleBreak": "digital public services?",
+    "heroSubtitle": "We explain NAV, the Tax Office and Health Norway in a simple way. Step-by-step, with large fonts and clear language.",
+    "seeGuides": "See our guides",
+    "dictionary": "Dictionary",
+    "quickLinks": "Quick Links",
+    "faqLink": "Frequently asked questions",
+    "favoritesLink": "My favorites",
+    "whoWeHelp": "Who do we help?",
+    "elderly": "Elderly and pensioners",
+    "elderlyDesc": "Who find digital services difficult to understand",
+    "newToNorway": "New to Norway",
+    "newToNorwayDesc": "Who need help with language and systems",
+    "helpers": "Family and helpers",
+    "helpersDesc": "Who help others with digital services",
+    "chooseService": "Choose service",
+    "chooseServiceDesc": "Click on the service you need help with, and we'll show you step-by-step what to do.",
+    "whyUseUs": "Why use LettDigital?",
+    "simpleLanguage": "Simple language",
+    "simpleLanguageDesc": "We explain everything with common words, without difficult bureaucratic language.",
+    "largeFonts": "Large fonts",
+    "largeFontsDesc": "You can adjust the font size to make it easy to read.",
+    "stepByStep": "Step-by-step",
+    "stepByStepDesc": "Follow simple steps and check off when you're done.",
+    "free": "Completely free",
+    "freeDesc": "Our service costs nothing to use.",
+    "ctaTitle": "Ready to get started?",
+    "ctaSubtitle": "Choose the service you need help with, and we'll guide you through the process."
+  },
+  "services": {
+    "nav": {
+      "title": "NAV",
+      "shortDesc": "Unemployment benefits and support",
+      "description": "Apply for unemployment benefits, sick pay, parental benefits, disability benefits and other support.",
+      "hubTitle": "NAV Guides",
+      "hubSubtitle": "Help using nav.no",
+      "didYouKnow": "Did you know?",
+      "didYouKnowText": "NAV is Norway's largest public agency and administers over a third of the state budget. They help you with everything from unemployment to pension.",
+      "selectGuide": "Choose what you need help with",
+      "needMoreHelp": "Need more help?",
+      "needMoreHelpText": "If you can't find what you're looking for, you can contact NAV directly:",
+      "phone": "Phone",
+      "phoneHours": "weekdays 09:00-15:00",
+      "chat": "Chat",
+      "chatAvailable": "Available at nav.no",
+      "office": "NAV office",
+      "findOffice": "Find your local office at nav.no"
+    },
+    "skatt": {
+      "title": "Tax Office",
+      "shortDesc": "Tax return and deductions",
+      "description": "Submit tax return, check deductions, find tax settlement and other tax questions.",
+      "hubTitle": "Tax Office Guides",
+      "hubSubtitle": "Help with taxes and fees",
+      "didYouKnow": "Important!",
+      "didYouKnowText": "Most people receive their tax return in March/April. You have until April 30th to check and make any changes.",
+      "selectGuide": "Choose what you need help with",
+      "importantDates": "Important tax dates",
+      "datesMarch": "March",
+      "datesMarchTitle": "Tax return arrives",
+      "datesMarchDesc": "Your tax return becomes available at skatteetaten.no",
+      "datesApril": "April 30",
+      "datesAprilTitle": "Tax return deadline",
+      "datesAprilDesc": "Last day to check and submit changes",
+      "datesJune": "June",
+      "datesJuneTitle": "Tax settlement arrives",
+      "datesJuneDesc": "You see if you get money back or need to pay residual tax",
+      "needMoreHelp": "Need more help?",
+      "needMoreHelpText": "If you can't find what you're looking for, you can contact the Tax Office:",
+      "phone": "Phone",
+      "phoneNumber": "800 80 000",
+      "phoneHours": "free, weekdays 08:00-15:30",
+      "chat": "Chat",
+      "chatAvailable": "Available at skatteetaten.no"
+    },
+    "helse": {
+      "title": "Health Norway",
+      "shortDesc": "Doctor appointments and prescriptions",
+      "description": "Book doctor's appointment, view prescriptions, change GP and read your medical records.",
+      "hubTitle": "Health Norway Guides",
+      "hubSubtitle": "Help using helsenorge.no",
+      "didYouKnow": "Did you know?",
+      "didYouKnowText": "On Helsenorge you can do many things yourself, like booking doctor's appointments, renewing prescriptions, and reading your medical records - all without calling.",
+      "selectGuide": "Choose what you need help with",
+      "whatYouCanDo": "What can you do on Helsenorge?",
+      "needMoreHelp": "Need more help?",
+      "needMoreHelpText": "If you have questions about health services:",
+      "phone": "Phone",
+      "phoneNumber": "23 32 70 00",
+      "phoneHours": "Ministry of Health and Care Services switchboard",
+      "emergency": "Emergency",
+      "emergencyNumber": "113",
+      "emergencyDesc": "For acute illness or injury",
+      "legevakt": "Emergency room",
+      "legevaktNumber": "116 117",
+      "legevaktDesc": "When you need immediate help that is not acute",
+      "poisonControl": "Poison Control",
+      "poisonControlNumber": "22 58 00 00",
+      "poisonControlDesc": "For poisoning or suspected poisoning",
+      "ambulance": "Ambulance",
+      "ambulanceDesc": "For acute, life-threatening illness or injury",
+      "importantNumbers": "Important phone numbers",
+      "emergencyNotice": "NB! For acute illness or injury, always call 113 (ambulance) or 116 117 (emergency room). Helsenorge is for non-acute inquiries.",
+      "canDoTitle": "What you can do on Helsenorge",
+      "canDoBooking": "Book doctor's appointment",
+      "canDoBookingDesc": "Book an appointment with your GP around the clock",
+      "canDoPrescriptions": "View prescriptions",
+      "canDoPrescriptionsDesc": "Overview of all your active prescriptions",
+      "canDoMessage": "Send message to doctor",
+      "canDoMessageDesc": "Communicate safely with health services",
+      "canDoJournal": "Read your medical records",
+      "canDoJournalDesc": "See what has been written about you",
+      "canDoChangeGP": "Change GP",
+      "canDoChangeGPDesc": "Find and change to a new doctor easily",
+      "canDoVaccines": "View vaccinations",
+      "canDoVaccinesDesc": "Overview of all vaccines you have received"
+    },
+    "sikkerhet": {
+      "title": "Digital Security",
+      "shortDesc": "Protect yourself online",
+      "description": "Learn to protect yourself from scams, phishing and other digital threats."
+    },
+    "bank": {
+      "title": "Banking and Finance",
+      "shortDesc": "Online banking and payments",
+      "description": "Use online banking, pay bills and get help with personal finances."
+    },
+    "digital": {
+      "title": "Digital Tools",
+      "shortDesc": "Email and Digipost",
+      "description": "Set up email, use digital mailbox and other digital tools."
+    }
+  },
+  "guides": {
+    "nav": {
+      "loggInn": {
+        "title": "Log in to NAV",
+        "description": "Learn how to log in to nav.no with BankID or MinID",
+        "longDescription": "Learn how to log in to nav.no so you can view your cases, apply for benefits and send messages.",
+        "backToGuides": "Back to NAV guides",
+        "time": "About 5 minutes",
+        "difficulty": "Easy",
+        "beforeYouStart": "Before you start",
+        "beforeYouStartText": "You need BankID (on mobile or code device) or MinID to log in. If you don't have this, you need to get one of these first.",
+        "stepsTitle": "How to log in to NAV",
+        "problemsTitle": "Problems logging in?",
+        "problemsText": "If you have problems logging in, you can try the following:",
+        "problemsList": [
+          "Check that you entered the correct national ID number",
+          "Try refreshing the page (press F5 or Ctrl+R)",
+          "Clear your browser's cache",
+          "Try a different browser",
+          "Call NAV at 55 55 33 33 for help"
+        ],
+        "steps": [
+          {
+            "title": "Go to nav.no",
+            "description": "Open your browser (for example Google Chrome, Safari or Edge). Type \"nav.no\" in the address bar at the top and press Enter.",
+            "tip": "You can also search for \"NAV\" on Google and click the first result."
+          },
+          {
+            "title": "Find the \"Log in\" button",
+            "description": "On the front page of nav.no you will see a blue button in the top right that says \"Logg inn\". Click this button.",
+            "tip": "The button may also be called \"Min side\" or \"Ditt NAV\"."
+          },
+          {
+            "title": "Choose login method",
+            "description": "You now get the choice between several ways to log in. The most common are BankID on mobile, BankID with code device, or MinID. Choose the one you have access to.",
+            "warning": "If you don't have BankID or MinID, you need to contact your bank or visit a NAV office for help."
+          },
+          {
+            "title": "If you choose BankID on mobile",
+            "description": "Enter your national ID number (11 digits) and your phone number. You will receive a message on your phone. Open the BankID app and confirm the login with fingerprint or code.",
+            "tip": "Make sure the BankID app is installed on your phone before you start."
+          },
+          {
+            "title": "If you choose BankID with code device",
+            "description": "Enter your national ID number. Turn on the code device and enter the code shown on the screen. Then enter your personal code on the code device and type in the new code that appears.",
+            "warning": "The code device needs battery. If the screen is empty, it needs a new battery or you need to contact your bank."
+          },
+          {
+            "title": "You are now logged in!",
+            "description": "Congratulations! You are now logged in to NAV. You can see your inbox, your applications, and send messages to NAV. The menu on the left side shows all the services you have access to.",
+            "tip": "Remember to log out when you are done, especially if you are using a shared computer."
+          }
+        ]
+      },
+      "dagpenger": {
+        "title": "Apply for unemployment benefits",
+        "description": "Step-by-step guide to apply for unemployment benefits if you've lost your job",
+        "longDescription": "Unemployment benefits (dagpenger) are money you can receive from NAV if you have lost your job or been laid off. Here we show you step-by-step how to apply.",
+        "backToGuides": "Back to NAV guides",
+        "time": "About 20 minutes",
+        "difficulty": "Medium",
+        "whoCanGet": "Who can get unemployment benefits?",
+        "whoCanGetIntro": "To receive unemployment benefits you usually must:",
+        "requirements": [
+          "Have earned at least NOK 186,042 in the last 12 months, or NOK 372,084 in the last 36 months (2024 rates)",
+          "Have had your working hours reduced by at least 50%",
+          "Be registered as a job seeker and actively looking for work",
+          "Live in Norway and have the right to work here"
+        ],
+        "documentsTitle": "Have these documents ready",
+        "documents": [
+          "Termination letter or layoff notice from your employer",
+          "Employment contract (if you have it available)",
+          "Bank account number where you want payment",
+          "BankID or MinID for login"
+        ],
+        "stepsTitle": "How to apply for unemployment benefits",
+        "importantTitle": "Important to remember!",
+        "importantMeldekort": "Employment status form every 14 days",
+        "importantMeldekortText": "You must submit an employment status form every 14 days to continue receiving unemployment benefits. Do this at nav.no.",
+        "importantJobsearch": "Job searching",
+        "importantJobsearchText": "You must actively search for jobs and document this. NAV may ask you to show your job applications.",
+        "importantAmount": "How much will you get?",
+        "importantAmountText": "Unemployment benefits are about 62.4% of previous income, up to 6G (approx. NOK 744,000). Money is usually paid in arrears.",
+        "steps": [
+          {
+            "title": "Register as a job seeker first",
+            "description": "Before you can apply for unemployment benefits, you must register as a job seeker with NAV. Go to nav.no, log in, and select \"Register as a job seeker\". Fill in information about your education and work experience.",
+            "tip": "You can register as a job seeker the same day you apply for unemployment benefits.",
+            "warning": "You must register as a job seeker BEFORE applying for unemployment benefits, otherwise your application will be rejected."
+          },
+          {
+            "title": "Log in to nav.no",
+            "description": "Go to nav.no and log in with BankID or MinID. Click \"Log in\" in the top right corner of the page.",
+            "tip": "See our guide \"Log in to NAV\" if you need help logging in."
+          },
+          {
+            "title": "Find the unemployment benefits application",
+            "description": "After logging in, go to \"Ditt NAV\" or \"My services\". Then click on \"Applications\" or search for \"dagpenger\" in the search field. Select \"Application for unemployment benefits\".",
+            "tip": "You can also type \"dagpenger\" in the search field on nav.no to find the application directly."
+          },
+          {
+            "title": "Fill in personal information",
+            "description": "The application starts by showing your personal information (name, address, etc.). Check that this is correct. If something is wrong, you must change it in the Population Register before continuing.",
+            "warning": "Check that your bank account number is correct! This is where the money will be paid."
+          },
+          {
+            "title": "State the reason for your application",
+            "description": "Select why you are applying for unemployment benefits: have you lost your job, been laid off, or had reduced working hours? Answer all questions honestly.",
+            "tip": "If you are unsure what to answer, you can select \"Don't know\" and explain your situation in the comments field."
+          },
+          {
+            "title": "Upload documentation",
+            "description": "You must upload documents that confirm your situation. This can be a termination letter, layoff notice, or employment contract. Click \"Upload file\" and select the document from your computer.",
+            "warning": "Accepted file formats are PDF, JPG and PNG. Maximum file size is usually 10 MB.",
+            "tip": "Take a photo of paper documents with your phone and upload the image if you don't have a scanner."
+          },
+          {
+            "title": "Enter previous income",
+            "description": "NAV automatically retrieves information about your previous income from the Tax Office. Check that this looks correct. If you have had income that is not showing, you must add it manually.",
+            "tip": "Unemployment benefits are calculated from your income over the last 12 or 36 months, depending on which gives the highest amount."
+          },
+          {
+            "title": "Answer additional questions",
+            "description": "The application may contain more questions about your situation, such as whether you have other income, are in school, or have health problems that affect job searching. Answer everything honestly."
+          },
+          {
+            "title": "Review and submit",
+            "description": "Before submitting, you get a summary of the application. Read through everything carefully. If something is wrong, go back and correct it. When everything is correct, click \"Submit application\".",
+            "warning": "After submission, you cannot change the application. You would need to contact NAV."
+          },
+          {
+            "title": "Confirmation and next steps",
+            "description": "You will receive confirmation on screen and by email/SMS that the application has been received. NAV usually processes applications within 4 weeks. Remember to submit the employment status form every 14 days!",
+            "tip": "You can track the status of your application under \"My cases\" at nav.no."
+          }
+        ]
+      },
+      "sykepenger": {
+        "title": "Apply for sick pay",
+        "description": "How to submit sick leave and apply for sick pay",
+        "longDescription": "Sick pay replaces your income when you are ill and cannot work. Here we show you step-by-step how to apply.",
+        "backToGuides": "Back to NAV guides",
+        "time": "About 15 minutes",
+        "difficulty": "Medium",
+        "whoCanGet": "Who can get sick pay?",
+        "requirements": [
+          "You have been employed for at least 4 weeks before you became ill",
+          "You earn at least NOK 59,310 per year (half of the base amount)",
+          "You have a sick note from a doctor",
+          "You have lost income due to illness"
+        ],
+        "importantToKnow": "Important to know about sick pay",
+        "employerPeriod": "Employer period (days 1-16)",
+        "employerPeriodText": "The first 16 days, your employer pays sick pay. You don't need to apply to NAV.",
+        "navPeriod": "NAV period (from day 17)",
+        "navPeriodText": "From day 17, NAV takes over. Then you must submit an application.",
+        "howMuch": "How much will you get?",
+        "howMuchText": "You get 100% of your income, up to 6G (approx. NOK 744,000). Your employer may cover more.",
+        "howLong": "How long?",
+        "howLongText": "You can receive sick pay for up to 52 weeks (1 year). After that, you may be entitled to AAP.",
+        "stepsTitle": "How to apply for sick pay",
+        "gradedTitle": "What is graded sick leave?",
+        "gradedIntro": "Graded sick leave means you work some, but not full time. For example:",
+        "graded50": "50% sick leave: You work half a day and receive sick pay for the rest",
+        "graded80": "80% sick leave: You work one day a week and receive sick pay for 4 days",
+        "gradedBenefit": "Graded sick leave is often good because you maintain contact with your job and return faster.",
+        "steps": [
+          {
+            "title": "Get a sick note from the doctor",
+            "description": "First, you need to get a sick note from your doctor. The doctor sends the sick note electronically to NAV and your employer. You don't need to do anything with the sick note itself.",
+            "tip": "You can be issued a sick note by your GP, emergency room, or specialist. Dentists and chiropractors can also issue sick notes in some cases."
+          },
+          {
+            "title": "Log in to nav.no",
+            "description": "Go to nav.no and log in with BankID or MinID. Click \"Log in\" in the top right corner.",
+            "tip": "Your sick note usually appears on nav.no within 1-2 days after the doctor's visit."
+          },
+          {
+            "title": "Find your sick note",
+            "description": "After logging in, go to \"Ditt sykefravær\" (Your sick leave) or look for a notification about a new sick note on the front page. Click on the sick note to open it."
+          },
+          {
+            "title": "Submit the sick note to your employer",
+            "description": "You must confirm the sick note and send it to your employer. Select the correct employer from the list (if you have multiple jobs) and click \"Send\".",
+            "warning": "You must submit the sick note within 3 months, otherwise you may lose the right to sick pay."
+          },
+          {
+            "title": "Fill out application for sick pay (after 16 days)",
+            "description": "The first 16 days, your employer pays sick pay. After that, you must apply to NAV. You will be notified on nav.no when it's time to apply. Fill out the application with information about work and income.",
+            "tip": "NAV retrieves a lot of information automatically. You just need to confirm that it's correct."
+          },
+          {
+            "title": "Answer questions about activity",
+            "description": "In the application, you will be asked if you have worked during the sick period, if you have traveled, and if you have received other income. Answer all questions honestly.",
+            "warning": "If you have worked, you must report the hours. This affects how much sick pay you receive."
+          },
+          {
+            "title": "Submit the application",
+            "description": "When you have filled out everything, click \"Submit application\". You will receive confirmation that the application has been received."
+          },
+          {
+            "title": "Wait for response",
+            "description": "NAV processes your application, usually within 4 weeks. You can see the status of your application under \"My cases\" on nav.no. The money is paid in arrears.",
+            "tip": "Sick pay is usually paid on the 25th of the month for the previous month."
+          }
+        ]
+      },
+      "foreldrepenger": {
+        "title": "Apply for parental benefits",
+        "description": "Everything you need to know about parental benefits and how to apply",
+        "longDescription": "Parental benefits give you income when you are home with your child. Here we explain everything you need to know to apply.",
+        "backToGuides": "Back to NAV guides",
+        "time": "About 25 minutes",
+        "difficulty": "Medium",
+        "overview": "Parental benefits in a nutshell",
+        "weeksWithFull": "weeks with 100% pay",
+        "weeksWithReduced": "or 59 weeks with 80%",
+        "weeksFather": "weeks for father/co-mother",
+        "fatherQuota": "(paternity quota)",
+        "weeksMother": "weeks for mother",
+        "motherQuota": "(maternity quota)",
+        "remainingWeeks": "The remaining weeks can be shared freely between the parents.",
+        "whoCanGet": "Who can get parental benefits?",
+        "youHaveRight": "You have the right to parental benefits if:",
+        "rightConditions": [
+          "You have had income for at least 6 of the last 10 months",
+          "You earn at least NOK 59,310 per year (0.5G)",
+          "The income comes from employment, freelance work, or self-employment"
+        ],
+        "noRightTitle": "Don't have the right to parental benefits?",
+        "noRightText": "Then you may be entitled to a lump sum grant (approx. NOK 92,000) instead. Apply for this the same way on nav.no.",
+        "stepsTitle": "How to apply for parental benefits",
+        "importantDates": "Important dates to remember",
+        "date4WeeksBefore": "Earliest you can apply for parental benefits",
+        "date3WeeksBefore": "Mother starts leave (mandatory)",
+        "dateTermin": "Expected due date",
+        "date6WeeksAfter": "Mother must take leave (mandatory)",
+        "calculatorTitle": "Use NAV's parental benefit calculator!",
+        "calculatorText": "On nav.no you can use a calculator that shows exactly what you can get in parental benefits. Search for \"foreldrepengekalkulator\" on nav.no.",
+        "steps": [
+          {
+            "title": "Check that you are entitled to parental benefits",
+            "description": "You must have worked and had income for at least 6 of the last 10 months before the leave starts. You must also earn at least NOK 59,310 per year.",
+            "tip": "Unsure? Use the calculator on nav.no to see what you can get."
+          },
+          {
+            "title": "Log in to nav.no",
+            "description": "Go to nav.no and log in with BankID. Click \"Log in\" in the top right corner."
+          },
+          {
+            "title": "Find the parental benefits application",
+            "description": "Search for \"foreldrepenger\" in the search field, or go to \"Family and children\" and select \"Application for parental benefits\". You can apply at the earliest 4 weeks before the due date.",
+            "warning": "Apply at the latest the day before the leave starts so you don't lose money!"
+          },
+          {
+            "title": "Fill in information about yourself",
+            "description": "Confirm your personal information: name, address, and bank account number. Check that the account number is correct - that's where the money will go."
+          },
+          {
+            "title": "Provide information about the child",
+            "description": "Enter the due date or birth date. If the child is born, also provide the child's name and national ID number. For adoption, provide the date of care transfer."
+          },
+          {
+            "title": "Choose coverage level",
+            "description": "You can choose between 100% coverage for 49 weeks or 80% coverage for 59 weeks. The total amount is the same, but the distribution is different.",
+            "tip": "100% gives higher monthly payments but shorter leave. 80% gives lower monthly payments but longer leave."
+          },
+          {
+            "title": "Plan the leave",
+            "description": "Distribute the weeks between mother and father/co-mother. Remember that some weeks are reserved for mother (3 weeks before birth) and some are reserved for father (paternity quota of 15 weeks).",
+            "warning": "The paternity quota must be used, otherwise it is lost! It cannot be transferred to the mother."
+          },
+          {
+            "title": "Upload documentation",
+            "description": "You may be asked to upload confirmation of due date from doctor/midwife, or documentation of work income if NAV doesn't have this.",
+            "tip": "You get the due date confirmation at the first prenatal check-up, usually around week 8."
+          },
+          {
+            "title": "Submit the application",
+            "description": "Review all the information. When everything is correct, click \"Submit application\". You will receive confirmation by email.",
+            "tip": "Processing time is usually 4-6 weeks. Apply well in advance!"
+          }
+        ]
+      },
+      "arbeidsledig": {
+        "title": "Register as unemployed",
+        "description": "Register as a job seeker at NAV",
+        "longDescription": "When you lose your job, you must register as a job seeker at NAV. This is the first step to receive unemployment benefits and help finding a new job.",
+        "backToGuides": "Back to NAV guides",
+        "time": "About 10 minutes",
+        "difficulty": "Easy",
+        "whyRegister": "Why must you register?",
+        "whyReasons": [
+          {
+            "icon": "money",
+            "title": "Get unemployment benefits",
+            "text": "You must be registered to apply for unemployment benefits"
+          },
+          {
+            "icon": "search",
+            "title": "Find jobs",
+            "text": "Employers can find you on arbeidsplassen.nav.no"
+          },
+          {
+            "icon": "education",
+            "title": "Get courses and programs",
+            "text": "NAV can offer you courses, internships or other help"
+          },
+          {
+            "icon": "support",
+            "title": "Get follow-up",
+            "text": "You get an advisor who helps you with job searching"
+          }
+        ],
+        "warningTitle": "Register as soon as possible!",
+        "warningText": "Unemployment benefits are calculated from the day you register. If you wait, you may lose money. Register preferably on your first day without a job.",
+        "prepareTitle": "Have this ready before you start",
+        "prepareItems": [
+          "BankID or MinID for login",
+          "Overview of previous jobs (employer, period, position)",
+          "Information about your education",
+          "CV (nice to have, but not required)"
+        ],
+        "stepsTitle": "How to register as a job seeker",
+        "afterTitle": "What happens after registration?",
+        "afterSteps": [
+          {
+            "title": "You become visible to employers",
+            "text": "Your CV can be seen by companies looking for employees"
+          },
+          {
+            "title": "NAV assesses your situation",
+            "text": "You will be informed about what follow-up you need"
+          },
+          {
+            "title": "You can apply for unemployment benefits",
+            "text": "If you are entitled to benefits, you can apply immediately"
+          },
+          {
+            "title": "Keep your profile updated",
+            "text": "Update your CV regularly and actively apply for jobs"
+          }
+        ],
+        "steps": [
+          {
+            "title": "Go to nav.no",
+            "description": "Open your browser and go to nav.no. Click \"Log in\" in the top right corner and log in with BankID or MinID."
+          },
+          {
+            "title": "Find \"Register as job seeker\"",
+            "description": "After logging in, look for \"Work\" in the menu or search for \"register job seeker\". Click on \"Register as job seeker\".",
+            "tip": "You can also go directly to arbeidsplassen.nav.no."
+          },
+          {
+            "title": "Confirm personal information",
+            "description": "Check that your name, address and contact information are correct. If something is wrong, you must change it in the National Registry or contact NAV."
+          },
+          {
+            "title": "Enter your education",
+            "description": "Fill in your highest completed education. Select level (primary school, high school, trade certificate, college, etc.) and describe what kind of education you have.",
+            "tip": "The more detailed you are, the better NAV can help you find suitable jobs."
+          },
+          {
+            "title": "Add work experience",
+            "description": "List the jobs you have had. For each job, provide employer, position, and how long you worked there. Start with the most recent job.",
+            "tip": "Include all jobs, including part-time and summer jobs. Everything counts!"
+          },
+          {
+            "title": "Enter skills and competencies",
+            "description": "Add skills you have: languages, computer skills, certificates, driver's license, etc. This helps employers find you."
+          },
+          {
+            "title": "Choose what kind of job you're looking for",
+            "description": "Select job categories and industries you are interested in. You can choose several. Also specify where you are willing to work geographically.",
+            "tip": "Be open to different opportunities - it increases your chances of finding a job quickly."
+          },
+          {
+            "title": "Confirm that you are a genuine job seeker",
+            "description": "You must confirm that you are willing to work, participate in programs and meetings, and actively seek employment. Check the boxes to confirm you meet the requirements.",
+            "warning": "If you do not meet the activity requirements, you may lose your right to unemployment benefits."
+          },
+          {
+            "title": "Complete the registration",
+            "description": "Review all the information. Click \"Complete registration\" when everything is correct. You are now registered as a job seeker!"
+          },
+          {
+            "title": "Apply for unemployment benefits (if applicable)",
+            "description": "After registration, you will be asked if you want to apply for unemployment benefits. If you are entitled to benefits, click \"Apply now\" to start the application.",
+            "tip": "See our guide \"Apply for unemployment benefits\" for detailed help with the application."
+          }
+        ]
+      },
+      "meldekort": {
+        "title": "Submit employment status form",
+        "description": "How to fill out and submit your employment status form every 14 days",
+        "longDescription": "The employment status form (meldekort) is a report you send to NAV every 14 days to receive unemployment benefits. It only takes a few minutes!",
+        "backToGuides": "Back to NAV guides",
+        "time": "About 5 minutes",
+        "difficulty": "Easy",
+        "deadlineTitle": "Important about deadlines!",
+        "deadlineText": "You must submit the form on time to receive payment. If you submit late, you may lose money. The deadline is Monday at 11:00 PM after the 14-day period ends.",
+        "calendarTitle": "How the form calendar works",
+        "calendarSteps": [
+          {
+            "label": "Week 1-2",
+            "text": "You work/search for jobs and track your activity",
+            "color": "blue"
+          },
+          {
+            "label": "Monday",
+            "text": "The form becomes available (after the period ends)",
+            "color": "green"
+          },
+          {
+            "label": "Within 7 days",
+            "text": "You must submit the form",
+            "color": "yellow"
+          },
+          {
+            "label": "Payment",
+            "text": "Usually 2-3 business days after you submit",
+            "color": "purple"
+          }
+        ],
+        "stepsTitle": "How to fill out the form",
+        "faqTitle": "Common questions about the employment form",
+        "faq": [
+          {
+            "question": "What happens if I forget to submit the form?",
+            "answer": "You won't receive payment for that period. Submit the form as soon as you remember - you can still submit up to 8 days late, but you will get a deduction in your payment."
+          },
+          {
+            "question": "Do I need to submit the form when I'm sick?",
+            "answer": "Yes, you still need to submit the form. Mark that you were sick on the relevant days."
+          },
+          {
+            "question": "Can I change a form I've already submitted?",
+            "answer": "No, but you can contact NAV if you made a mistake. Call 55 55 33 33."
+          },
+          {
+            "question": "I got a job - do I still need to submit the form?",
+            "answer": "Yes, submit the form for the period until you started your job. Enter the hours you worked."
+          }
+        ],
+        "steps": [
+          {
+            "title": "Log in to nav.no",
+            "description": "Go to nav.no and log in with BankID or MinID. You can also use the NAV app on your phone.",
+            "tip": "Download the NAV app to get reminders about the form!"
+          },
+          {
+            "title": "Find the form",
+            "description": "After logging in, look for \"Meldekort\" on the front page or in the menu. Click on \"Send meldekort\" or \"New meldekort\".",
+            "warning": "The form becomes available on the day you can submit it, not before."
+          },
+          {
+            "title": "Check that the period is correct",
+            "description": "The form covers the last 14 days. Check that the dates at the top of the form match the period you are reporting for."
+          },
+          {
+            "title": "Answer questions about work",
+            "description": "You will be asked if you worked during the period. Answer \"Yes\" or \"No\" for each week. If you worked, you must enter how many hours.",
+            "tip": "Be accurate with the hours. This affects how much you get paid.",
+            "warning": "Entering incorrect hours can result in having to pay back money."
+          },
+          {
+            "title": "Answer questions about illness",
+            "description": "If you were sick and couldn't work or search for jobs, mark this. If you were sick for more than 3 days, you may be entitled to sickness benefits."
+          },
+          {
+            "title": "Answer questions about vacation/absence",
+            "description": "Did you take vacation, travel abroad, or have other absences? Enter this for the relevant days. You do not receive unemployment benefits for vacation days."
+          },
+          {
+            "title": "Answer questions about courses/education",
+            "description": "If you attended courses or took education, enter this. Some courses qualify for unemployment benefits, others do not."
+          },
+          {
+            "title": "Confirm that you are a job seeker",
+            "description": "You must confirm that you are still looking for work and willing to take a job. Check the boxes to confirm you meet the requirements."
+          },
+          {
+            "title": "Review and submit",
+            "description": "Review all your answers. If everything is correct, click \"Send meldekort\". You will receive confirmation that the form has been submitted.",
+            "tip": "Take a screenshot of the confirmation for your own documentation."
+          }
+        ]
+      }
+    },
+    "skatt": {
+      "skattemelding": {
+        "title": "Check tax return",
+        "description": "How to find and check your tax return",
+        "longDescription": "The tax return shows what you have earned and what you have paid in taxes. Here you learn how to check that everything is correct.",
+        "backToGuides": "Back to Tax Office guides",
+        "time": "About 10 minutes",
+        "difficulty": "Easy",
+        "whatIsTitle": "What is the tax return?",
+        "whatIsText1": "The tax return (previously called \"selvangivelsen\") is an overview of all your income and deductions for the previous year. The Tax Office fills in most of it automatically based on information from employers, banks and others.",
+        "whatIsText2": "Your job is to check that everything is correct and add any missing deductions.",
+        "stepsTitle": "How to check your tax return",
+        "commonErrorsTitle": "Common errors to look for",
+        "commonErrors": [
+          {
+            "title": "Missing income",
+            "text": "Did you have a side job or sell something that isn't included?"
+          },
+          {
+            "title": "Wrong work commute",
+            "text": "Is the distance to work calculated correctly?"
+          },
+          {
+            "title": "Missing loans",
+            "text": "Are all your loans included so you get the interest deduction?"
+          },
+          {
+            "title": "Wrong property value",
+            "text": "Does the property value match the market price?"
+          }
+        ],
+        "deadlineTitle": "Remember the deadline!",
+        "deadlineText": "The deadline to check and submit the tax return is April 30th. If you don't make changes, it will be automatically approved with the pre-filled information.",
+        "steps": [
+          {
+            "title": "Go to skatteetaten.no",
+            "description": "Open your browser and type \"skatteetaten.no\" in the address bar. Press Enter to go to the page.",
+            "tip": "You can also search for \"Skatteetaten\" on Google."
+          },
+          {
+            "title": "Log in with BankID",
+            "description": "Click \"Log in\" in the top right corner. Select BankID (mobile or code device) and follow the instructions to log in.",
+            "warning": "You need BankID to view your tax return. MinID does not work here."
+          },
+          {
+            "title": "Find the tax return",
+            "description": "After logging in, you will arrive at \"My page\". Click on \"Tax return\" in the menu, or look for a box that says \"Your tax return for [year]\".",
+            "tip": "The tax return usually becomes available in March."
+          },
+          {
+            "title": "Review your income",
+            "description": "The tax return shows all income the Tax Office has registered for you: salary, pension, interest, dividends, etc. Check that the numbers match what you have earned.",
+            "warning": "If something is missing or wrong, you must add or change it. You are responsible for ensuring the tax return is correct."
+          },
+          {
+            "title": "Check the deductions",
+            "description": "Review the deductions listed. This can be interest expenses on loans, union fees, commuting expenses, etc. Some deductions are added automatically, others you must enter yourself.",
+            "tip": "Many people forget deductions! Check our guide about deductions to see what you can deduct."
+          },
+          {
+            "title": "View calculated tax",
+            "description": "At the bottom of the tax return, you will see a calculation of your tax. Here you can see if you have paid too much or too little tax during the year.",
+            "tip": "Green number = you get money back. Red number = you have to pay additional tax."
+          },
+          {
+            "title": "Make changes if necessary",
+            "description": "If something is wrong or missing, click \"Edit\" next to the relevant item. Fill in the correct information and save. You can make as many changes as you want before the deadline."
+          },
+          {
+            "title": "Submit the tax return",
+            "description": "If everything is correct, click \"Submit\" or \"Send\" at the bottom of the page. You will receive confirmation that the tax return has been submitted. If you don't make changes, it will be automatically submitted at the deadline.",
+            "tip": "You will receive a receipt by email or in your inbox on Altinn."
+          }
+        ]
+      },
+      "fradrag": {
+        "title": "Add deductions",
+        "description": "How to add deductions to your tax return"
+      },
+      "skattekort": {
+        "title": "Change tax card",
+        "description": "How to change your tax card"
+      },
+      "skatteoppgjoer": {
+        "title": "View tax settlement",
+        "description": "Find and understand your tax settlement"
+      },
+      "skatteattest": {
+        "title": "Order tax certificate",
+        "description": "How to order a tax certificate"
+      }
+    },
+    "helse": {
+      "bestilleTime": {
+        "title": "Book doctor's appointment",
+        "description": "How to book an appointment with your GP"
+      },
+      "resepter": {
+        "title": "View and renew prescriptions",
+        "description": "Check your prescriptions and request renewal"
+      },
+      "bytteFastlege": {
+        "title": "Change GP",
+        "description": "How to change to a new GP"
+      },
+      "journal": {
+        "title": "Read patient records",
+        "description": "Find and read your own patient records"
+      },
+      "melding": {
+        "title": "Send message to doctor",
+        "description": "Contact your GP digitally"
+      }
+    }
+  },
+  "ordbok": {
+    "title": "Dictionary",
+    "subtitle": "Here we explain difficult words and expressions you encounter on public websites.",
+    "searchLabel": "Search for words",
+    "searchPlaceholder": "Type a word you're wondering about...",
+    "category": "Category",
+    "allCategories": "All categories",
+    "all": "All",
+    "noResults": "No words found for",
+    "tryAnother": "Try another search term",
+    "missingWord": "Missing a word?",
+    "missingWordText": "Send us an email at kontakt@lettdigital.no if there's a word you'd like explained, and we'll add it!"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Here you'll find answers to the most common questions about public digital services.",
+    "categories": {
+      "all": "All",
+      "nav": "NAV",
+      "skatt": "Tax",
+      "helse": "Health",
+      "digital": "Digital"
+    },
+    "noAnswer": "Didn't find an answer to your question?",
+    "contactAgencies": "You can contact the agencies directly for more help:",
+    "weekdays": "Weekdays"
+  },
+  "favorites": {
+    "title": "My Favorites",
+    "subtitle": "Here you'll find the guides you've saved as favorites.",
+    "empty": "You have no favorites yet",
+    "emptyText": "Click the star on a guide to save it here for quick access.",
+    "browseGuides": "Browse all guides",
+    "addedOn": "Added",
+    "tipTitle": "Tip!",
+    "tipText": "Your favorites are saved on this device. If you use a different device or delete browser data, they will disappear."
+  },
+  "about": {
+    "title": "About LettDigital",
+    "mission": "Our mission",
+    "missionIntro": "Over 600,000 Norwegians struggle to use digital public services. 180,000 don't even have BankID. These people risk being excluded from important services like NAV, the Tax Office, and Health Norway.",
+    "missionText": "LettDigital was created to make it easier for everyone to understand and use these services. We explain complicated processes with simple words, large fonts, and step-by-step guides.",
+    "whoAreWe": "Who are we?",
+    "whoAreWeText1": "LettDigital is an independent project that wants to help those who fall outside the digital society. We are not affiliated with NAV, the Tax Office, or Health Norway, but we have great respect for the work these agencies do.",
+    "whoAreWeText2": "Our information is based on official information from the relevant agencies, but we always recommend checking the official websites for the latest information.",
+    "accessibility": "Accessibility",
+    "accessibilityIntro": "We have designed LettDigital with all users in mind:",
+    "accessibilityFeatures": {
+      "fontSize": "Adjustable text size - Make the text larger with the button in the bottom right",
+      "contrast": "High contrast mode - For better readability",
+      "simpleLanguage": "Simple language - We avoid difficult words and jargon",
+      "keyboard": "Keyboard navigation - All functions can be used without a mouse",
+      "screenReader": "Screen reader friendly - Compatible with assistive devices"
+    },
+    "contactUs": "Contact us",
+    "contactText": "Do you have questions, suggestions for improvements, or have you found an error? We greatly appreciate feedback!",
+    "importantInfo": "Important information",
+    "importantInfoText": "LettDigital provides general guidance and is not an official service. For binding information about your rights and obligations, always check the official websites: nav.no, skatteetaten.no, and helsenorge.no. When in doubt, contact the relevant agency directly."
+  },
+  "stepGuide": {
+    "progress": "Your progress",
+    "tip": "Tip!",
+    "warning": "Important!",
+    "completed": "Completed",
+    "markCompleteAndContinue": "Mark as complete and continue",
+    "markComplete": "Mark as complete",
+    "congratulations": "Congratulations!",
+    "allStepsComplete": "You have completed all the steps in this guide.",
+    "beforeYouStart": "Before you start",
+    "youNeed": "You need",
+    "problems": "Problems?"
+  },
+  "search": {
+    "placeholder": "Search for guides... (e.g., unemployment, prescription, tax)",
+    "noResults": "No results for",
+    "tryOther": "Try other search terms or see our categories"
+  }
+}
