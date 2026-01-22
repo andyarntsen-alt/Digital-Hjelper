@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { Link } from '@/i18n/navigation';
 import { useTranslations } from 'next-intl';
 
@@ -208,15 +208,59 @@ const faqListe: FAQItem[] = [
 
 export default function FAQPage() {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
-  const [selectedKategori, setSelectedKategori] = useState<string | null>(null);
+  const [searchQuery, setSearchQuery] = useState('');
   const t = useTranslations('faq');
   const tCommon = useTranslations('common');
 
-  const kategorier = Array.from(new Set(faqListe.map(f => f.kategori)));
+  // Fast rekkefølge på kategorier
+  const kategoriRekkefølge = ['NAV', 'Pensjon', 'Skatt', 'Helse', 'Digital', 'Sikkerhet', 'Teknologi'];
+  const kategorier = kategoriRekkefølge.filter(k =>
+    faqListe.some(f => f.kategori === k)
+  );
 
-  const filtrerteFAQ = selectedKategori
-    ? faqListe.filter(f => f.kategori === selectedKategori)
-    : faqListe;
+  // Filtrer basert på søk
+  const filtrerteFAQ = useMemo(() => {
+    if (!searchQuery) return faqListe;
+    const query = searchQuery.toLowerCase();
+    return faqListe.filter(f =>
+      f.sporsmal.toLowerCase().includes(query) ||
+      f.svar.toLowerCase().includes(query)
+    );
+  }, [searchQuery]);
+
+  // Grupper FAQ per kategori
+  const gruppertPerKategori = useMemo(() => {
+    return kategorier.reduce((acc, kategori) => {
+      acc[kategori] = filtrerteFAQ.filter(f => f.kategori === kategori);
+      return acc;
+    }, {} as Record<string, FAQItem[]>);
+  }, [filtrerteFAQ, kategorier]);
+
+  const getKategoriFarge = (kategori: string) => {
+    switch (kategori) {
+      case 'NAV': return 'bg-nav-blue';
+      case 'Skatt': return 'bg-skatt-green';
+      case 'Helse': return 'bg-helse-red';
+      case 'Digital': return 'bg-purple-600';
+      case 'Pensjon': return 'bg-orange-500';
+      case 'Sikkerhet': return 'bg-amber-600';
+      case 'Teknologi': return 'bg-teal-600';
+      default: return 'bg-gray-600';
+    }
+  };
+
+  const getKategoriBadgeFarge = (kategori: string) => {
+    switch (kategori) {
+      case 'NAV': return 'bg-blue-100 text-nav-blue';
+      case 'Skatt': return 'bg-green-100 text-skatt-green';
+      case 'Helse': return 'bg-red-100 text-helse-red';
+      case 'Digital': return 'bg-purple-100 text-purple-700';
+      case 'Pensjon': return 'bg-orange-100 text-orange-700';
+      case 'Sikkerhet': return 'bg-amber-100 text-amber-700';
+      case 'Teknologi': return 'bg-teal-100 text-teal-700';
+      default: return 'bg-gray-100 text-gray-700';
+    }
+  };
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
@@ -228,91 +272,110 @@ export default function FAQPage() {
       </Link>
 
       <h1 className="text-4xl font-bold text-gray-800 mb-4">❓ {t('title')}</h1>
-      <p className="text-xl text-gray-600 mb-8">
+      <p className="text-xl text-gray-600 mb-6">
         {t('subtitle')}
       </p>
 
-      {/* Kategori-filter */}
-      <div className="flex flex-wrap gap-2 mb-8">
-        <button
-          onClick={() => setSelectedKategori(null)}
-          className={`px-4 py-2 rounded-full font-medium transition-colors ${
-            selectedKategori === null
-              ? 'bg-nav-blue text-white'
-              : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-          }`}
-        >
-          {t('categories.all')}
-        </button>
-        {kategorier.map(k => (
-          <button
-            key={k}
-            onClick={() => setSelectedKategori(k)}
-            className={`px-4 py-2 rounded-full font-medium transition-colors ${
-              selectedKategori === k
-                ? k === 'NAV' ? 'bg-nav-blue text-white'
-                : k === 'Skatt' ? 'bg-skatt-green text-white'
-                : k === 'Helse' ? 'bg-helse-red text-white'
-                : k === 'Digital' ? 'bg-purple-600 text-white'
-                : k === 'Pensjon' ? 'bg-orange-500 text-white'
-                : k === 'Sikkerhet' ? 'bg-amber-600 text-white'
-                : k === 'Teknologi' ? 'bg-teal-600 text-white'
-                : 'bg-gray-600 text-white'
-                : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-            }`}
-          >
-            {k}
-          </button>
-        ))}
+      {/* Søkefelt */}
+      <div className="card mb-6">
+        <label htmlFor="faq-search" className="block text-sm font-medium text-gray-700 mb-1">
+          Søk i spørsmål
+        </label>
+        <input
+          id="faq-search"
+          type="text"
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          placeholder="Skriv for å søke... (f.eks. pensjon, passord, svindel)"
+          className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-nav-blue focus:ring-2 focus:ring-blue-100 outline-none"
+        />
       </div>
 
-      {/* FAQ-liste */}
-      <div className="space-y-4">
-        {filtrerteFAQ.map((faq, index) => {
-          const globalIndex = faqListe.indexOf(faq);
-          return (
-            <div key={index} className="card">
-              <button
-                onClick={() => setActiveIndex(activeIndex === globalIndex ? null : globalIndex)}
-                className="w-full flex items-start justify-between text-left"
-                aria-expanded={activeIndex === globalIndex}
+      {/* Sticky kategori-navigasjon */}
+      <div className="sticky top-0 bg-white py-3 border-b border-gray-200 z-10 -mx-4 px-4 mb-6">
+        <div className="flex flex-wrap gap-2 justify-center">
+          {kategorier.map(kategori => {
+            const antall = gruppertPerKategori[kategori]?.length || 0;
+            if (antall === 0) return null;
+            return (
+              <a
+                key={kategori}
+                href={`#faq-${kategori}`}
+                className={`px-4 py-2 rounded-full font-medium transition-colors hover:opacity-80 text-white ${getKategoriFarge(kategori)}`}
+                onClick={(e) => {
+                  e.preventDefault();
+                  document.getElementById(`faq-${kategori}`)?.scrollIntoView({ behavior: 'smooth' });
+                }}
               >
-                <div className="flex items-start gap-3 pr-4">
-                  <span className={`px-2 py-0.5 rounded text-xs font-medium mt-1 ${
-                    faq.kategori === 'NAV' ? 'bg-blue-100 text-nav-blue'
-                    : faq.kategori === 'Skatt' ? 'bg-green-100 text-skatt-green'
-                    : faq.kategori === 'Helse' ? 'bg-red-100 text-helse-red'
-                    : faq.kategori === 'Digital' ? 'bg-purple-100 text-purple-700'
-                    : faq.kategori === 'Pensjon' ? 'bg-orange-100 text-orange-700'
-                    : faq.kategori === 'Sikkerhet' ? 'bg-amber-100 text-amber-700'
-                    : faq.kategori === 'Teknologi' ? 'bg-teal-100 text-teal-700'
-                    : 'bg-gray-100 text-gray-700'
-                  }`}>
-                    {faq.kategori}
-                  </span>
-                  <h2 className="text-lg font-semibold text-gray-800">{faq.sporsmal}</h2>
-                </div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className={`h-6 w-6 text-gray-400 transition-transform flex-shrink-0 ${
-                    activeIndex === globalIndex ? 'rotate-180' : ''
-                  }`}
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
-              </button>
-              {activeIndex === globalIndex && (
-                <div className="mt-4 pl-16 pr-4">
-                  <p className="text-gray-700 leading-relaxed">{faq.svar}</p>
-                </div>
-              )}
-            </div>
+                {kategori} ({antall})
+              </a>
+            );
+          })}
+        </div>
+        <p className="text-center text-sm text-gray-500 mt-2">
+          Klikk på en kategori for å hoppe dit ({filtrerteFAQ.length} spørsmål)
+        </p>
+      </div>
+
+      {/* FAQ gruppert per kategori */}
+      <div className="space-y-2">
+        {kategorier.map(kategori => {
+          const sporsmalIKategori = gruppertPerKategori[kategori];
+          if (!sporsmalIKategori || sporsmalIKategori.length === 0) return null;
+
+          return (
+            <section key={kategori}>
+              <h2
+                id={`faq-${kategori}`}
+                className="text-2xl font-bold text-gray-700 border-b-2 border-gray-200 py-3 mt-8 mb-4 scroll-mt-28 flex items-center gap-3"
+              >
+                <span className={`w-4 h-4 rounded-full ${getKategoriFarge(kategori)}`}></span>
+                {kategori}
+                <span className="text-gray-400 font-normal text-lg">({sporsmalIKategori.length})</span>
+              </h2>
+              <div className="space-y-3">
+                {sporsmalIKategori.map((faq, index) => {
+                  const globalIndex = faqListe.indexOf(faq);
+                  return (
+                    <div key={index} className="card">
+                      <button
+                        onClick={() => setActiveIndex(activeIndex === globalIndex ? null : globalIndex)}
+                        className="w-full flex items-start justify-between text-left"
+                        aria-expanded={activeIndex === globalIndex}
+                      >
+                        <h3 className="text-lg font-semibold text-gray-800 pr-4">{faq.sporsmal}</h3>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className={`h-6 w-6 text-gray-400 transition-transform flex-shrink-0 ${
+                            activeIndex === globalIndex ? 'rotate-180' : ''
+                          }`}
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                        </svg>
+                      </button>
+                      {activeIndex === globalIndex && (
+                        <div className="mt-4 pt-4 border-t border-gray-100">
+                          <p className="text-gray-700 leading-relaxed">{faq.svar}</p>
+                        </div>
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
+            </section>
           );
         })}
       </div>
+
+      {filtrerteFAQ.length === 0 && searchQuery && (
+        <div className="text-center py-12">
+          <p className="text-gray-600 text-lg">Ingen spørsmål funnet for &quot;{searchQuery}&quot;</p>
+          <p className="text-gray-500 mt-2">Prøv et annet søkeord</p>
+        </div>
+      )}
 
       {/* Fant du ikke svar? */}
       <div className="mt-12 card bg-blue-50">

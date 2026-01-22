@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { Link } from '@/i18n/navigation';
 import { useTranslations } from 'next-intl';
 
@@ -130,6 +130,40 @@ export default function OrdbokPage() {
     return matcherSok && matcherKategori;
   });
 
+  // Sorter alfabetisk og grupper per bokstav
+  const gruppertPerBokstav = useMemo(() => {
+    const sortert = [...filtrerteOrd].sort((a, b) =>
+      a.ord.localeCompare(b.ord, 'no')
+    );
+    return sortert.reduce((acc, ord) => {
+      const bokstav = ord.ord[0].toUpperCase();
+      if (!acc[bokstav]) acc[bokstav] = [];
+      acc[bokstav].push(ord);
+      return acc;
+    }, {} as Record<string, OrdDefinisjon[]>);
+  }, [filtrerteOrd]);
+
+  const tilgjengeligeBokstaver = Object.keys(gruppertPerBokstav).sort((a, b) =>
+    a.localeCompare(b, 'no')
+  );
+
+  const getKategoriBadgeFarge = (kategori: string) => {
+    switch (kategori) {
+      case 'NAV': return 'bg-blue-100 text-nav-blue';
+      case 'Skatt': return 'bg-green-100 text-skatt-green';
+      case 'Helse': return 'bg-red-100 text-helse-red';
+      case 'Digital': return 'bg-purple-100 text-purple-700';
+      case 'Bank': return 'bg-orange-100 text-orange-700';
+      case 'Sikkerhet': return 'bg-rose-100 text-rose-700';
+      case 'Bolig': return 'bg-teal-100 text-teal-700';
+      case 'Utdanning': return 'bg-indigo-100 text-indigo-700';
+      case 'ID': return 'bg-cyan-100 text-cyan-700';
+      case 'Pensjon': return 'bg-amber-100 text-amber-700';
+      case 'Teknologi': return 'bg-sky-100 text-sky-700';
+      default: return 'bg-gray-100 text-gray-700';
+    }
+  };
+
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
       <Link href="/" className="text-nav-blue hover:underline mb-6 inline-flex items-center gap-2">
@@ -179,77 +213,85 @@ export default function OrdbokPage() {
         </div>
       </div>
 
-      {/* Kategori-knapper */}
-      <div className="flex flex-wrap gap-2 mb-8">
+      {/* Kategori-filter (kompakt) */}
+      <div className="flex flex-wrap gap-2 mb-6">
         <button
           onClick={() => setSelectedKategori(null)}
-          className={`px-4 py-2 rounded-full font-medium transition-colors ${
+          className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
             selectedKategori === null
               ? 'bg-nav-blue text-white'
               : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
           }`}
         >
-          {t('all')} ({ordliste.length})
+          Alle ({ordliste.length})
         </button>
-        {kategorier.map(k => {
-          const getKategoriFarge = (kategori: string, isSelected: boolean) => {
-            if (!isSelected) return 'bg-gray-100 text-gray-700 hover:bg-gray-200';
-            switch (kategori) {
-              case 'NAV': return 'bg-nav-blue text-white';
-              case 'Skatt': return 'bg-skatt-green text-white';
-              case 'Helse': return 'bg-helse-red text-white';
-              case 'Digital': return 'bg-purple-600 text-white';
-              case 'Bank': return 'bg-orange-500 text-white';
-              case 'Sikkerhet': return 'bg-rose-600 text-white';
-              case 'Bolig': return 'bg-teal-600 text-white';
-              case 'Utdanning': return 'bg-indigo-600 text-white';
-              case 'ID': return 'bg-cyan-600 text-white';
-              case 'Pensjon': return 'bg-amber-600 text-white';
-              case 'Teknologi': return 'bg-sky-600 text-white';
-              default: return 'bg-gray-600 text-white';
-            }
-          };
-          return (
-            <button
-              key={k}
-              onClick={() => setSelectedKategori(k)}
-              className={`px-4 py-2 rounded-full font-medium transition-colors ${getKategoriFarge(k, selectedKategori === k)}`}
-            >
-              {k} ({ordliste.filter(o => o.kategori === k).length})
-            </button>
-          );
-        })}
+        {kategorier.map(k => (
+          <button
+            key={k}
+            onClick={() => setSelectedKategori(k)}
+            className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
+              selectedKategori === k
+                ? 'bg-gray-800 text-white'
+                : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+            }`}
+          >
+            {k}
+          </button>
+        ))}
       </div>
 
-      {/* Ordliste */}
-      <div className="space-y-4">
-        {filtrerteOrd.map((ord, index) => (
-          <div key={index} className="card">
-            <div className="flex items-start justify-between mb-2">
-              <h2 className="text-xl font-bold text-gray-800">{ord.ord}</h2>
-              <span className={`px-3 py-1 rounded-full text-sm font-medium ${
-                ord.kategori === 'NAV' ? 'bg-blue-100 text-nav-blue'
-                : ord.kategori === 'Skatt' ? 'bg-green-100 text-skatt-green'
-                : ord.kategori === 'Helse' ? 'bg-red-100 text-helse-red'
-                : ord.kategori === 'Digital' ? 'bg-purple-100 text-purple-700'
-                : ord.kategori === 'Bank' ? 'bg-orange-100 text-orange-700'
-                : ord.kategori === 'Sikkerhet' ? 'bg-rose-100 text-rose-700'
-                : ord.kategori === 'Bolig' ? 'bg-teal-100 text-teal-700'
-                : ord.kategori === 'Utdanning' ? 'bg-indigo-100 text-indigo-700'
-                : ord.kategori === 'ID' ? 'bg-cyan-100 text-cyan-700'
-                : ord.kategori === 'Pensjon' ? 'bg-amber-100 text-amber-700'
-                : ord.kategori === 'Teknologi' ? 'bg-sky-100 text-sky-700'
-                : 'bg-gray-100 text-gray-700'
-              }`}>
-                {ord.kategori}
-              </span>
+      {/* Alfabetisk navigasjon (sticky) */}
+      {tilgjengeligeBokstaver.length > 0 && (
+        <div className="sticky top-0 bg-white py-3 border-b border-gray-200 z-10 -mx-4 px-4 mb-6">
+          <div className="flex flex-wrap gap-1.5 justify-center">
+            {tilgjengeligeBokstaver.map(bokstav => (
+              <a
+                key={bokstav}
+                href={`#bokstav-${bokstav}`}
+                className="w-9 h-9 flex items-center justify-center rounded-lg bg-gray-100 hover:bg-nav-blue hover:text-white font-semibold text-gray-700 transition-colors"
+                onClick={(e) => {
+                  e.preventDefault();
+                  document.getElementById(`bokstav-${bokstav}`)?.scrollIntoView({ behavior: 'smooth' });
+                }}
+              >
+                {bokstav}
+              </a>
+            ))}
+          </div>
+          <p className="text-center text-sm text-gray-500 mt-2">
+            Klikk på en bokstav for å hoppe dit ({filtrerteOrd.length} ord)
+          </p>
+        </div>
+      )}
+
+      {/* Ordliste gruppert per bokstav */}
+      <div className="space-y-2">
+        {tilgjengeligeBokstaver.map(bokstav => (
+          <div key={bokstav}>
+            <h2
+              id={`bokstav-${bokstav}`}
+              className="text-3xl font-bold text-gray-300 border-b-2 border-gray-200 py-3 mt-6 mb-4 scroll-mt-28"
+            >
+              {bokstav}
+            </h2>
+            <div className="space-y-3">
+              {gruppertPerBokstav[bokstav].map((ord, index) => (
+                <div key={index} className="card">
+                  <div className="flex items-start justify-between mb-2">
+                    <h3 className="text-xl font-bold text-gray-800">{ord.ord}</h3>
+                    <span className={`px-3 py-1 rounded-full text-sm font-medium flex-shrink-0 ml-2 ${getKategoriBadgeFarge(ord.kategori)}`}>
+                      {ord.kategori}
+                    </span>
+                  </div>
+                  <p className="text-gray-700 text-lg mb-2">{ord.forklaring}</p>
+                  {ord.eksempel && (
+                    <p className="text-gray-500 italic bg-gray-50 p-3 rounded-lg">
+                      💡 {ord.eksempel}
+                    </p>
+                  )}
+                </div>
+              ))}
             </div>
-            <p className="text-gray-700 text-lg mb-2">{ord.forklaring}</p>
-            {ord.eksempel && (
-              <p className="text-gray-500 italic bg-gray-50 p-3 rounded-lg">
-                💡 {ord.eksempel}
-              </p>
-            )}
           </div>
         ))}
       </div>
