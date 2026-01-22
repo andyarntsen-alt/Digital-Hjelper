@@ -1,5 +1,9 @@
+'use client';
+
+import Breadcrumbs from '@/components/Breadcrumbs';
+import PrintButton from '@/components/PrintButton';
 import StepGuide from '@/components/StepGuide';
-import { Link } from '@/i18n/navigation';
+import { useTranslations } from 'next-intl';
 
 const skatteattestSteps = [
   {
@@ -37,14 +41,16 @@ const skatteattestSteps = [
 ];
 
 export default function SkatteattestPage() {
+  const tNav = useTranslations('header');
+
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
-      <Link href="/skatt" className="text-skatt-green hover:underline mb-6 inline-flex items-center gap-2">
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-        </svg>
-        Tilbake til Skatteetaten-veiledninger
-      </Link>
+      <Breadcrumbs
+        items={[
+          { label: tNav('skatt'), href: '/skatt' },
+          { label: 'Bestille skatteattest' }
+        ]}
+      />
 
       <div className="mb-8">
         <div className="flex items-center gap-2 text-gray-500 mb-2">
@@ -55,7 +61,10 @@ export default function SkatteattestPage() {
           <span className="mx-2">•</span>
           <span className="bg-green-100 text-green-700 px-2 py-0.5 rounded-full text-sm">Enkel</span>
         </div>
-        <h1 className="text-4xl font-bold text-gray-800 mb-4">Bestille skatteattest</h1>
+        <div className="flex flex-wrap items-start justify-between gap-4">
+          <h1 className="text-4xl font-bold text-gray-800">Bestille skatteattest</h1>
+          <PrintButton />
+        </div>
         <p className="text-xl text-gray-600">
           Lær hvordan du bestiller skatteattest på nett. Du får den med en gang, helt gratis.
         </p>

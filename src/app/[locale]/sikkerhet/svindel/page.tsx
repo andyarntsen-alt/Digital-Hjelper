@@ -1,8 +1,10 @@
 'use client';
 
+import Breadcrumbs from '@/components/Breadcrumbs';
 import FavoriteButton from '@/components/FavoriteButton';
+import PrintButton from '@/components/PrintButton';
 import StepGuide from '@/components/StepGuide';
-import { Link } from '@/i18n/navigation';
+import { useTranslations } from 'next-intl';
 import { useState } from 'react';
 
 const svindelSteps = [
@@ -135,6 +137,7 @@ const sjekklisteItems = [
 ];
 
 export default function SvindelPage() {
+  const tNav = useTranslations('header');
   const [expandedType, setExpandedType] = useState<number | null>(null);
   const [sjekklisteAnswers, setSjekklisteAnswers] = useState<boolean[]>(new Array(sjekklisteItems.length).fill(false));
 
@@ -142,12 +145,12 @@ export default function SvindelPage() {
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
-      <Link href="/sikkerhet" className="text-purple-600 hover:underline mb-6 inline-flex items-center gap-2">
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-        </svg>
-        Tilbake til Digital sikkerhet
-      </Link>
+      <Breadcrumbs
+        items={[
+          { label: tNav('sikkerhet'), href: '/sikkerhet' },
+          { label: 'Unngå svindel' }
+        ]}
+      />
 
       <div className="mb-8">
         <div className="flex items-center gap-2 text-gray-500 mb-2">
@@ -160,7 +163,10 @@ export default function SvindelPage() {
         </div>
         <div className="flex flex-wrap items-start justify-between gap-4">
           <h1 className="text-4xl font-bold text-gray-800">Unngå svindel</h1>
-          <FavoriteButton guideId="sikkerhet-svindel" title="Unngå svindel" />
+          <div className="flex items-center gap-2">
+            <PrintButton />
+            <FavoriteButton guideId="sikkerhet-svindel" title="Unngå svindel" />
+          </div>
         </div>
         <p className="text-xl text-gray-600 mt-4">
           Lær å gjenkjenne og unngå svindelforsøk på telefon, SMS og e-post. Spesielt viktig for eldre.
