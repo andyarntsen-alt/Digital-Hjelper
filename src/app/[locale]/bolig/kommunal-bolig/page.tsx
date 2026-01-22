@@ -1,11 +1,13 @@
 'use client';
 
+import Breadcrumbs from '@/components/Breadcrumbs';
+import PrintButton from '@/components/PrintButton';
 import StepGuide from '@/components/StepGuide';
-import { Link } from '@/i18n/navigation';
 import { useTranslations } from 'next-intl';
 
 export default function KommunalBoligPage() {
   const t = useTranslations('guides.bolig.kommunalBolig');
+  const tNav = useTranslations('header');
 
   const stepsRaw = t.raw('steps') as { title: string; description: string; tip?: string; warning?: string }[];
   const steps = stepsRaw.map(step => ({
@@ -20,12 +22,12 @@ export default function KommunalBoligPage() {
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
-      <Link href="/bolig" className="text-teal-600 hover:underline mb-6 inline-flex items-center gap-2">
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-        </svg>
-        {t('backToGuides')}
-      </Link>
+      <Breadcrumbs
+        items={[
+          { label: tNav('bolig'), href: '/bolig' },
+          { label: t('title') }
+        ]}
+      />
 
       <div className="mb-8">
         <div className="flex items-center gap-2 text-gray-500 mb-2">
@@ -36,7 +38,10 @@ export default function KommunalBoligPage() {
           <span className="mx-2">•</span>
           <span className="bg-yellow-100 text-yellow-700 px-2 py-0.5 rounded-full text-sm">{t('difficulty')}</span>
         </div>
-        <h1 className="text-4xl font-bold text-gray-800 mb-4">{t('title')}</h1>
+        <div className="flex flex-wrap items-start justify-between gap-4">
+          <h1 className="text-4xl font-bold text-gray-800">{t('title')}</h1>
+          <PrintButton />
+        </div>
         <p className="text-xl text-gray-600">{t('longDescription')}</p>
       </div>
 
