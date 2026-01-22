@@ -105,7 +105,7 @@ export default function StepGuide({ title, steps }: StepGuideProps) {
 
             {currentStep === index && (
               <div className="px-4 pb-4">
-                <div className="ml-14">
+                <div className="ml-0 md:ml-14">
                   <p className="text-gray-700 leading-relaxed mb-4 text-lg">
                     {step.description}
                   </p>

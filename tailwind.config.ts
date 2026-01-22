@@ -6,6 +6,11 @@ const config: Config = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  safelist: [
+    'high-contrast',
+    'large-text',
+    'extra-large-text',
+  ],
   theme: {
     extend: {
       colors: {

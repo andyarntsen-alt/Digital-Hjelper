@@ -32,10 +32,14 @@
     "sikkerhet": "Sikkerhet",
     "bank": "Bank",
     "digital": "Digitale verktøy",
+    "bolig": "Bolig",
+    "utdanning": "Utdanning",
+    "id": "ID og pass",
     "ordbok": "Ordbok",
     "faq": "FAQ",
     "about": "Om oss",
-    "language": "Språk"
+    "language": "Språk",
+    "more": "Mer"
   },
   "footer": {
     "about": "Om LettDigital",
@@ -58,12 +62,16 @@
   "home": {
     "heroTitle": "Trenger du hjelp med",
     "heroTitleBreak": "digitale offentlige tjenester?",
-    "heroSubtitle": "Vi forklarer NAV, Skatteetaten og Helsenorge på en enkel måte. Steg-for-steg, med store bokstaver og klart språk.",
+    "heroSubtitle": "Vi forklarer NAV, Skatteetaten, Helsenorge og andre offentlige nettsider på en enkel måte. Steg-for-steg, med klart språk.",
     "seeGuides": "Se våre veiledninger",
     "dictionary": "Ordbok",
     "quickLinks": "Hurtiglenker",
     "faqLink": "Vanlige spørsmål",
     "favoritesLink": "Mine favoritter",
+    "whatIsTitle": "Hva er LettDigital?",
+    "whatIsText": "LettDigital er en gratis, uavhengig nettside som hjelper deg å bruke offentlige digitale tjenester i Norge. Vi forklarer vanskelige ting på en enkel måte, slik at alle kan mestre det digitale.",
+    "disclaimerTitle": "Viktig å vite",
+    "disclaimerText": "LettDigital er ikke en del av NAV, Skatteetaten, Helsenorge eller andre offentlige etater. Vi er en uavhengig hjelpetjeneste som forklarer hvordan tjenestene fungerer. All offisiell informasjon finner du på etatenes egne nettsider. Våre guider er veiledende og erstatter ikke offisiell informasjon.",
     "whoWeHelp": "Hvem hjelper vi?",
     "elderly": "Eldre og pensjonister",
     "elderlyDesc": "Som synes digitale tjenester er vanskelige å forstå",
@@ -187,6 +195,21 @@
       "title": "Digitale verktøy",
       "shortDesc": "E-post og Digipost",
       "description": "Sette opp e-post, bruke digital postkasse og andre digitale verktøy."
+    },
+    "bolig": {
+      "title": "Bolig og boligstøtte",
+      "shortDesc": "Bostøtte og startlån",
+      "description": "Søke bostøtte, startlån fra Husbanken og kommunal bolig."
+    },
+    "utdanning": {
+      "title": "Utdanning og Lånekassen",
+      "shortDesc": "Studielån og stipend",
+      "description": "Søke studielån, stipend og håndtere tilbakebetaling hos Lånekassen."
+    },
+    "id": {
+      "title": "ID og dokumenter",
+      "shortDesc": "Pass og førerkort",
+      "description": "Bestille pass, fornye førerkort og få nasjonalt ID-kort."
     }
   },
   "guides": {
@@ -859,6 +882,65 @@
       "skatteattest": {
         "title": "Bestille skatteattest",
         "description": "Hvordan bestille skatteattest"
+      },
+      "loggInn": {
+        "title": "Logge inn på Skatteetaten",
+        "description": "Lær hvordan du logger inn på skatteetaten.no",
+        "longDescription": "Lær hvordan du logger inn på Skatteetaten for å se skattemeldingen din, skatteoppgjøret og endre skattekort.",
+        "backToGuides": "Tilbake til Skatteetaten-veiledninger",
+        "time": "Ca. 5 minutter",
+        "difficulty": "Enkel",
+        "beforeYouStart": "Før du starter",
+        "beforeYouStartText": "Du trenger BankID for å logge inn på Skatteetaten. MinID gir begrenset tilgang til noen tjenester.",
+        "stepsTitle": "Slik logger du inn på Skatteetaten",
+        "servicesTitle": "Hva kan du gjøre når du er logget inn?",
+        "services": [
+          "Se og levere skattemeldingen",
+          "Se skatteoppgjøret og eventuell restskatt",
+          "Endre skattekort",
+          "Bestille skatteattest",
+          "Se oversikt over formue og gjeld"
+        ],
+        "problemsTitle": "Problemer med innlogging?",
+        "problemsText": "Hvis du har problemer med å logge inn:",
+        "problemsList": [
+          "Sjekk at BankID-appen er oppdatert",
+          "Prøv å oppdatere nettsiden",
+          "Prøv en annen nettleser",
+          "Ring Skatteetaten på 800 80 000 for hjelp"
+        ],
+        "steps": [
+          {
+            "title": "Gå til skatteetaten.no",
+            "description": "Åpne nettleseren din og skriv inn \"skatteetaten.no\" i adressefeltet. Trykk Enter.",
+            "tip": "Du kan også søke etter \"Skatteetaten\" på Google."
+          },
+          {
+            "title": "Finn \"Logg inn\"-knappen",
+            "description": "Se etter \"Logg inn\" eller \"Min side\" øverst til høyre på siden. Klikk på knappen.",
+            "tip": "Knappen er vanligvis grønn eller blå."
+          },
+          {
+            "title": "Velg BankID",
+            "description": "Du får valget mellom BankID på mobil eller BankID med kodebrikke. Velg den du bruker.",
+            "warning": "Skatteetaten krever BankID for full tilgang. MinID gir begrenset tilgang."
+          },
+          {
+            "title": "BankID på mobil",
+            "description": "Skriv inn fødselsnummeret ditt (11 siffer). Du får en melding på mobilen - åpne BankID-appen og godkjenn innloggingen.",
+            "tip": "Sjekk at BankID-appen er installert og oppdatert."
+          },
+          {
+            "title": "BankID med kodebrikke",
+            "description": "Skriv inn fødselsnummeret ditt. Slå på kodebrikken og skriv inn koden på skjermen. Tast inn din personlige kode på brikken og bruk den nye koden som vises.",
+            "warning": "Hvis kodebrikken er tom for batteri, kontakt banken din."
+          },
+          {
+            "title": "Du er logget inn!",
+            "description": "Nå er du på \"Min side\" hos Skatteetaten. Her kan du se skattemeldingen, skatteoppgjøret, og endre skattekort.",
+            "tip": "Husk å logge ut når du er ferdig, spesielt på delt datamaskin."
+          }
+        ]
       }
     },
     "helse": {
@@ -881,6 +963,1360 @@
       "melding": {
         "title": "Sende melding til legen",
         "description": "Kontakte fastlegen din digitalt"
+      },
+      "loggInn": {
+        "title": "Logge inn på Helsenorge",
+        "description": "Lær hvordan du logger inn på helsenorge.no",
+        "longDescription": "Lær hvordan du logger inn på Helsenorge for å se resepter, bestille legetime og lese journal.",
+        "backToGuides": "Tilbake til Helsenorge-veiledninger",
+        "time": "Ca. 5 minutter",
+        "difficulty": "Enkel",
+        "beforeYouStart": "Før du starter",
+        "beforeYouStartText": "Du trenger BankID eller MinID for å logge inn på Helsenorge. BankID gir tilgang til flest tjenester.",
+        "stepsTitle": "Slik logger du inn på Helsenorge",
+        "servicesTitle": "Hva kan du gjøre når du er logget inn?",
+        "services": [
+          "Se og fornye resepter",
+          "Bestille time hos fastlegen",
+          "Lese pasientjournalen din",
+          "Se vaksinasjoner og prøvesvar",
+          "Sende melding til fastlegen",
+          "Bytte fastlege"
+        ],
+        "problemsTitle": "Problemer med innlogging?",
+        "problemsText": "Hvis du har problemer med å logge inn:",
+        "problemsList": [
+          "Sjekk at BankID-appen er oppdatert",
+          "Prøv å oppdatere nettsiden",
+          "Prøv en annen nettleser",
+          "Ring Helsenorge på 23 32 70 00 for hjelp"
+        ],
+        "steps": [
+          {
+            "title": "Gå til helsenorge.no",
+            "description": "Åpne nettleseren din og skriv inn \"helsenorge.no\" i adressefeltet. Trykk Enter.",
+            "tip": "Du kan også søke etter \"Helsenorge\" på Google."
+          },
+          {
+            "title": "Finn \"Logg inn\"-knappen",
+            "description": "Se etter \"Logg inn\" øverst til høyre på siden. Klikk på knappen.",
+            "tip": "Knappen er vanligvis rød eller mørk."
+          },
+          {
+            "title": "Velg innloggingsmetode",
+            "description": "Du kan velge mellom BankID på mobil, BankID med kodebrikke, eller MinID. BankID gir tilgang til alle tjenester.",
+            "warning": "MinID gir begrenset tilgang på Helsenorge. BankID anbefales."
+          },
+          {
+            "title": "BankID på mobil",
+            "description": "Skriv inn fødselsnummeret ditt (11 siffer). Du får en melding på mobilen - åpne BankID-appen og godkjenn innloggingen.",
+            "tip": "Sjekk at BankID-appen er installert og oppdatert."
+          },
+          {
+            "title": "BankID med kodebrikke",
+            "description": "Skriv inn fødselsnummeret ditt. Slå på kodebrikken og skriv inn koden på skjermen. Tast inn din personlige kode på brikken og bruk den nye koden som vises.",
+            "warning": "Hvis kodebrikken er tom for batteri, kontakt banken din."
+          },
+          {
+            "title": "Du er logget inn!",
+            "description": "Nå er du på \"Min helse\" hos Helsenorge. Her kan du se resepter, bestille legetime, og lese journal.",
+            "tip": "Husk å logge ut når du er ferdig, spesielt på delt datamaskin."
+          }
+        ]
+      }
+    },
+    "sikkerhet": {
+      "bankid": {
+        "title": "Sikker bruk av BankID",
+        "description": "Lær å bruke BankID trygt og unngå svindel",
+        "longDescription": "BankID er din digitale identitet. Her lærer du hvordan du bruker den trygt og beskytter deg mot svindlere.",
+        "backToGuides": "Tilbake til Digital sikkerhet",
+        "time": "Ca. 10 minutter",
+        "difficulty": "Enkel",
+        "whatIsTitle": "Hva er BankID?",
+        "whatIsText1": "BankID er en elektronisk legitimasjon som bekrefter hvem du er på internett. Det er som et digitalt pass som lar deg logge inn på offentlige tjenester, nettbanken og signere dokumenter.",
+        "whatIsText2": "BankID utstedes av banken din og er koblet til ditt personnummer. Når du bruker BankID, bekrefter du at det virkelig er deg som logger inn eller signerer.",
+        "typesTitle": "Ulike typer BankID",
+        "typeMobile": "BankID på mobil",
+        "typeMobileDesc": "Den vanligste typen. Du får en melding på telefonen og godkjenner med fingeravtrykk, ansikt eller kode.",
+        "typeCodeDevice": "BankID med kodebrikke",
+        "typeCodeDeviceDesc": "En liten brikke som viser engangskoder. Brukes sammen med et personlig passord.",
+        "typeBiometric": "BankID med biometri",
+        "typeBiometricDesc": "Bruker fingeravtrykk eller ansiktsgjenkjenning direkte i nettleseren.",
+        "stepsTitle": "Slik bruker du BankID trygt",
+        "steps": [
+          {
+            "title": "Les alltid hva du godkjenner",
+            "description": "Når du får en BankID-forespørsel på mobilen, les ALLTID teksten som viser hva du godkjenner. Det står hvem som ber om godkjenning og hva det gjelder.",
+            "warning": "Godkjenn ALDRI en BankID-forespørsel du ikke selv har startet!"
+          },
+          {
+            "title": "Sjekk at nettsiden er ekte",
+            "description": "Før du bruker BankID, se på adresselinjen i nettleseren. Ekte nettsider har et hengelås-ikon og adressen starter med https://. Dobbeltsjekk at domenet er riktig (f.eks. nav.no, ikke nav-login.com).",
+            "tip": "Skriv alltid adressen selv i stedet for å klikke på lenker i e-post eller SMS."
+          },
+          {
+            "title": "Aldri del kodene dine",
+            "description": "BankID-koder, passord og personlig kode skal du ALDRI dele med noen. Banken, politiet eller NAV vil aldri be deg om disse opplysningene.",
+            "warning": "Ingen har lov til å be om dine BankID-koder. Hvis noen gjør det, er det ALLTID svindel!"
+          },
+          {
+            "title": "Bruk en sikker kode",
+            "description": "Velg en personlig kode som er vanskelig å gjette. Ikke bruk fødselsdato, 1234 eller andre enkle kombinasjoner. Koden skal bare du vite.",
+            "tip": "En god kode kan være fire tilfeldige tall du lærer deg utenat."
+          },
+          {
+            "title": "Hold appen oppdatert",
+            "description": "Sørg for at BankID-appen alltid er oppdatert til siste versjon. Oppdateringer inneholder viktige sikkerhetsforbedringer.",
+            "tip": "Slå på automatiske oppdateringer i App Store eller Google Play."
+          },
+          {
+            "title": "Logg ut etter bruk",
+            "description": "Når du er ferdig med å bruke en tjeneste, logg alltid ut. Dette er spesielt viktig hvis du bruker en felles datamaskin eller andres telefon."
+          },
+          {
+            "title": "Vær oppmerksom på uventede forespørsler",
+            "description": "Hvis du plutselig får en BankID-forespørsel uten at du har startet noe selv, er det sannsynligvis et svindelforsøk. Avvis forespørselen og kontakt banken din.",
+            "warning": "Ring banken din umiddelbart hvis du har godkjent noe du ikke burde!"
+          }
+        ],
+        "warningTitle": "Varseltegn på BankID-svindel",
+        "warningText": "Vær på vakt hvis du opplever noe av dette:",
+        "warningSigns": [
+          "Noen ringer og sier de er fra banken og trenger BankID-godkjenning",
+          "Du får en BankID-forespørsel du ikke selv har startet",
+          "Noen ber deg installere programmer som AnyDesk eller TeamViewer",
+          "Du blir bedt om å oppgi koder på telefon",
+          "Det haster veldig og du får ikke tid til å tenke"
+        ],
+        "neverShareTitle": "Del ALDRI disse med noen",
+        "neverShare": [
+          "Din personlige BankID-kode",
+          "Engangskoder fra kodebrikken",
+          "Passord til BankID-appen",
+          "Personnummeret ditt sammen med koder",
+          "Tilgang til telefonen din under en BankID-prosess"
+        ],
+        "ifSuspiciousTitle": "Hva gjør du hvis du mistenker svindel?",
+        "ifSuspiciousText": "Hvis du tror du har blitt utsatt for svindelforsøk, gjør følgende:",
+        "ifSuspicious1": "Avvis alle BankID-forespørsler du ikke har startet selv",
+        "ifSuspicious2": "Ring banken din umiddelbart på nummeret bak på bankkortet",
+        "ifSuspicious3": "Endre passord og koder hvis du har delt noe",
+        "ifSuspicious4": "Anmeld forholdet til politiet på politiet.no"
+      },
+      "phishing": {
+        "title": "Gjenkjenne phishing",
+        "description": "Lær å oppdage falske e-poster og meldinger",
+        "longDescription": "Phishing er svindelforsøk som prøver å lure deg til å gi fra deg personlig informasjon. Her lærer du å gjenkjenne og unngå dem.",
+        "backToGuides": "Tilbake til Digital sikkerhet",
+        "time": "Ca. 10 minutter",
+        "difficulty": "Enkel",
+        "whatIsTitle": "Hva er phishing?",
+        "whatIsText1": "Phishing er når svindlere sender falske e-poster, SMS-er eller meldinger som later som de kommer fra en pålitelig avsender, som banken din, NAV eller Posten.",
+        "whatIsText2": "Målet er å lure deg til å klikke på en lenke, laste ned en fil, eller oppgi personlig informasjon som passord og bankopplysninger.",
+        "examplesTitle": "Eksempler på phishing-meldinger",
+        "examplePostTitle": "Falsk pakkemelding",
+        "examplePostText": "\"Din pakke venter. Betal 29 kr frakt her: [lenke]\"",
+        "examplePostWarning": "Posten sender aldri SMS om betaling via lenker!",
+        "exampleBankTitle": "Falsk bankmelding",
+        "exampleBankText": "\"Viktig: Din konto vil bli sperret. Bekreft opplysningene dine her: [lenke]\"",
+        "exampleBankWarning": "Banken truer aldri med å sperre kontoen via e-post!",
+        "exampleNavTitle": "Falsk NAV-melding",
+        "exampleNavText": "\"Du har penger til gode fra NAV. Logg inn for å motta: [lenke]\"",
+        "exampleNavWarning": "NAV sender aldri lenker for utbetaling på e-post!",
+        "stepsTitle": "Slik gjenkjenner du phishing",
+        "steps": [
+          {
+            "title": "Sjekk avsenderadressen nøye",
+            "description": "Se på hele e-postadressen, ikke bare navnet. Ekte e-post fra NAV kommer fra @nav.no, ikke @nav-support.com eller lignende. Svindlere bruker adresser som ligner, men ikke er helt riktige.",
+            "tip": "Hold musepekeren over avsendernavnet for å se den faktiske e-postadressen."
+          },
+          {
+            "title": "Se etter skrivefeil og dårlig språk",
+            "description": "Phishing-meldinger har ofte skrivefeil, rare formuleringer eller dårlig grammatikk. Ekte meldinger fra offentlige etater er skrevet med korrekt norsk.",
+            "tip": "Les meldingen høyt - høres det unaturlig ut? Da er det trolig svindel."
+          },
+          {
+            "title": "Vær skeptisk til lenker",
+            "description": "Ikke klikk på lenker i e-poster eller SMS-er du ikke forventet. Hold musepekeren over lenken for å se hvor den faktisk går. Svindlere bruker adresser som ligner ekte nettsider.",
+            "warning": "Gå heller direkte til nettsiden ved å skrive adressen selv i nettleseren."
+          },
+          {
+            "title": "Reager ikke på hastverk",
+            "description": "Phishing-meldinger prøver ofte å stresse deg: \"Handle NÅ!\", \"Kontoen din blir sperret om 24 timer!\". Ekte avsendere gir deg alltid tid til å tenke.",
+            "tip": "Jo mer det haster, jo større grunn til å være mistenksom."
+          },
+          {
+            "title": "Sjekk om du forventet meldingen",
+            "description": "Spurte du aldri NAV om noe? Venter du ikke på pakke? Da er meldingen sannsynligvis falsk. Tenk etter om det gir mening at du får denne meldingen.",
+            "warning": "Svindlere sender millioner av meldinger - noen ganger treffer de tilfeldigvis riktig timing."
+          },
+          {
+            "title": "Ikke last ned vedlegg",
+            "description": "Åpne aldri vedlegg fra ukjente avsendere. De kan inneholde virus eller skadelig programvare. Vær også forsiktig med vedlegg fra kjente avsendere hvis meldingen virker merkelig.",
+            "warning": "Spesielt farlige er .exe, .zip og .docm filer."
+          },
+          {
+            "title": "Verifiser via offisielle kanaler",
+            "description": "Er du usikker om en melding er ekte? Kontakt avsenderen direkte via offisielle kanaler. Finn telefonnummeret på deres offisielle nettside, ikke i e-posten du mottok.",
+            "tip": "Ring NAV på 55 55 33 33 eller banken på nummeret bak på kortet ditt."
+          }
+        ],
+        "warningSignsTitle": "Røde flagg som avslører phishing",
+        "warningSigns": [
+          "Generisk hilsen som \"Kjære kunde\" i stedet for navnet ditt",
+          "Avsenderadresse som ikke matcher selskapet",
+          "Lenker som går til andre domener enn forventet",
+          "Krav om å handle raskt eller miste noe",
+          "Forespørsel om personlig informasjon, passord eller koder",
+          "Dårlig formatering, rare fonter eller merkelig layout",
+          "Vedlegg du ikke forventet"
+        ],
+        "ifClickedTitle": "Hva gjør du hvis du har klikket?",
+        "ifClickedText": "Ikke panikk, men handle raskt:",
+        "ifClicked1": "Ikke skriv inn noen opplysninger - lukk siden umiddelbart",
+        "ifClicked2": "Skann datamaskinen med antivirusprogrammet",
+        "ifClicked3": "Endre passordene dine hvis du har oppgitt noen",
+        "ifClicked4": "Kontakt banken din hvis det gjelder bankopplysninger",
+        "ifClicked5": "Rapporter svindelen til politiet og Nettvett.no"
+      },
+      "passord": {
+        "title": "Lage gode passord",
+        "description": "Slik lager du sterke passord som beskytter deg",
+        "longDescription": "Gode passord er din første forsvarslinje mot hackere. Her lærer du å lage passord som er både sikre og lette å huske.",
+        "backToGuides": "Tilbake til Digital sikkerhet",
+        "time": "Ca. 10 minutter",
+        "difficulty": "Enkel",
+        "whyImportantTitle": "Hvorfor er sterke passord viktig?",
+        "whyImportantText1": "Et svakt passord kan knekkes på sekunder. Hackere bruker programmer som prøver millioner av kombinasjoner automatisk. Hvis passordet ditt er \"123456\" eller \"passord\", er du ikke beskyttet i det hele tatt.",
+        "whyImportantText2": "Med et sterkt passord tar det år å knekke kontoen din, og hackere går videre til enklere mål.",
+        "badPasswordsTitle": "De verste passordene",
+        "badPasswords": ["123456", "passord", "qwerty", "111111", "navn+fødselsår", "abc123", "iloveyou"],
+        "badPasswordsWarning": "Hvis du bruker noen av disse, bytt dem UMIDDELBART!",
+        "stepsTitle": "Slik lager du gode passord",
+        "steps": [
+          {
+            "title": "Bruk minst 12 tegn",
+            "description": "Jo lengre passord, jo sikrere. Et passord på 12 tegn er mye vanskeligere å knekke enn et på 8. Målet er minst 12 tegn, helst flere.",
+            "tip": "En setning er lettere å huske enn tilfeldige tegn: \"MinKattHeterLars2024!\" er 20 tegn og lett å huske."
+          },
+          {
+            "title": "Bland store og små bokstaver, tall og tegn",
+            "description": "Et godt passord inneholder både store og små bokstaver, minst ett tall, og minst ett spesialtegn (!@#$%&). Dette gjør det mye vanskeligere å gjette.",
+            "tip": "Bytt ut bokstaver med tall eller tegn: \"Sommer\" blir \"S0mm3r!\" (men ikke bruk bare vanlige bytter)."
+          },
+          {
+            "title": "Bruk en passordsetning",
+            "description": "I stedet for ett ord, bruk en hel setning. \"KaffeErBestOm7Morgen!\" er 21 tegn, inneholder alt som trengs, og er lett å huske.",
+            "tip": "Velg en setning som gir mening for deg, men som andre ikke kan gjette."
+          },
+          {
+            "title": "Aldri gjenbruk passord",
+            "description": "Bruk et unikt passord for hver tjeneste. Hvis én side blir hacket og du bruker samme passord overalt, får hackere tilgang til alt.",
+            "warning": "Nettbank, e-post og offentlige tjenester MÅ ha forskjellige passord!"
+          },
+          {
+            "title": "Bruk en passordbehandler",
+            "description": "En passordbehandler lagrer alle passordene dine trygt, så du bare trenger å huske ett hovedpassord. Programmer som Bitwarden, 1Password eller LastPass gjør dette enkelt.",
+            "tip": "Passordbehandlere kan også lage tilfeldige, sterke passord for deg."
+          },
+          {
+            "title": "Aktiver to-faktor autentisering",
+            "description": "To-faktor (2FA) betyr at du trenger både passord OG en kode fra telefonen for å logge inn. Selv om noen stjeler passordet, kommer de ikke inn uten telefonen din.",
+            "tip": "Slå på 2FA på alle tjenester som tilbyr det, spesielt nettbank og e-post."
+          },
+          {
+            "title": "Bytt passord hvis det kan være kompromittert",
+            "description": "Hvis en tjeneste du bruker har blitt hacket, eller du mistenker at noen har sett passordet ditt, bytt det umiddelbart. Sjekk haveibeenpwned.com for å se om e-posten din har vært i en datalekkasje."
+          }
+        ],
+        "tipsTitle": "Ekstra tips for passord-sikkerhet",
+        "tips": [
+          "Skriv aldri ned passord på lapper ved datamaskinen",
+          "Del aldri passord med andre, heller ikke familie",
+          "Logg alltid ut av delte datamaskiner",
+          "Vær forsiktig med å lagre passord i nettleseren på andres enheter",
+          "Oppdater passordene dine minst en gang i året"
+        ],
+        "toolsTitle": "Nyttige verktøy",
+        "toolPasswordManager": "Passordbehandler",
+        "toolPasswordManagerDesc": "Bitwarden (gratis), 1Password eller LastPass lagrer passordene dine trygt.",
+        "toolHaveIBeenPwned": "Have I Been Pwned",
+        "toolHaveIBeenPwnedDesc": "Sjekk om e-posten din har vært i en datalekkasje på haveibeenpwned.com",
+        "toolPasswordGenerator": "Passordgenerator",
+        "toolPasswordGeneratorDesc": "De fleste passordbehandlere har innebygd generator for sterke passord."
+      }
+    },
+    "bank": {
+      "nettbank": {
+        "title": "Komme i gang med nettbank",
+        "description": "Lær å bruke nettbanken din trygt og enkelt",
+        "longDescription": "Nettbank gjør at du kan betale regninger og sjekke kontoen din hjemmefra. Her lærer du det grunnleggende.",
+        "backToGuides": "Tilbake til Bank og økonomi",
+        "time": "Ca. 15 minutter",
+        "difficulty": "Enkel",
+        "whatIsTitle": "Hva er nettbank?",
+        "whatIsText1": "Nettbank er bankens tjeneste på internett. Der kan du se hvor mye penger du har, betale regninger, overføre penger mellom kontoer, og mye mer - uten å besøke banken fysisk.",
+        "whatIsText2": "Alle norske banker tilbyr nettbank, og det er trygt å bruke så lenge du følger enkle sikkerhetsregler.",
+        "beforeYouStartTitle": "Før du starter",
+        "beforeYouStartItems": [
+          "Du trenger BankID (på mobil eller kodebrikke)",
+          "Du må ha en bankkonto",
+          "Du trenger internett på datamaskin, nettbrett eller mobil"
+        ],
+        "stepsTitle": "Slik kommer du i gang med nettbank",
+        "steps": [
+          {
+            "title": "Finn bankens nettside",
+            "description": "Åpne nettleseren og skriv inn bankens adresse. For eksempel dnb.no, nordea.no, sparebank1.no, eller sbanken.no. Ikke klikk på lenker i e-post - skriv alltid adressen selv.",
+            "tip": "Lagre bankens nettside som favoritt/bokmerke så du enkelt finner den igjen."
+          },
+          {
+            "title": "Klikk på \"Logg inn\" eller \"Nettbank\"",
+            "description": "På bankens forside finner du en knapp for å logge inn. Den heter ofte \"Logg inn\", \"Nettbank\" eller \"Min side\". Klikk på denne.",
+            "tip": "Knappen er vanligvis øverst til høyre på siden."
+          },
+          {
+            "title": "Velg innloggingsmetode",
+            "description": "Du kan logge inn med BankID på mobil eller BankID med kodebrikke. Velg den metoden du har tilgang til.",
+            "warning": "Hvis du ikke har BankID, må du kontakte banken din for å få det."
+          },
+          {
+            "title": "Logg inn med BankID på mobil",
+            "description": "Skriv inn fødselsnummeret ditt og telefonnummeret. Du får en melding på mobilen. Åpne BankID-appen og godkjenn med fingeravtrykk, ansikt eller kode.",
+            "tip": "Sørg for at BankID-appen er oppdatert til siste versjon."
+          },
+          {
+            "title": "Bli kjent med oversikten",
+            "description": "Etter innlogging ser du en oversikt over kontoene dine. Her ser du saldo (hvor mye penger du har) på hver konto. Klikk på en konto for å se bevegelser (inn- og utbetalinger).",
+            "tip": "De fleste nettbanker viser også ventende betalinger og kommende regninger."
+          },
+          {
+            "title": "Utforsk menyen",
+            "description": "I menyen finner du tjenester som \"Betal\", \"Overfør\", \"Kort\", \"Lån\" og \"Innstillinger\". Ta deg tid til å se gjennom hva som finnes.",
+            "tip": "Mange banker har en \"Hjelp\" eller \"Kundeservice\" knapp hvis du står fast."
+          },
+          {
+            "title": "Husk å logge ut",
+            "description": "Når du er ferdig, klikk på \"Logg ut\" øverst til høyre. Dette er spesielt viktig hvis du bruker en felles datamaskin.",
+            "warning": "Lukk alltid nettleservinduet etter at du har logget ut."
+          }
+        ],
+        "securityTitle": "Sikkerhetstips for nettbank",
+        "securityTips": [
+          "Logg aldri inn via lenker i e-post eller SMS",
+          "Bruk bare nettbank på ditt eget utstyr, ikke på offentlige datamaskiner",
+          "Logg alltid ut når du er ferdig",
+          "Sjekk at adressen starter med https:// og har hengelås-ikon",
+          "Del aldri BankID-koder med noen"
+        ],
+        "helpTitle": "Trenger du hjelp?",
+        "helpText": "Alle banker har kundeservice som kan hjelpe deg. Ring bankens telefonnummer (står på baksiden av bankkortet) eller besøk en filial."
+      },
+      "betaling": {
+        "title": "Betale regninger",
+        "description": "Slik betaler du regninger i nettbanken",
+        "longDescription": "Å betale regninger i nettbanken er raskt og enkelt. Her viser vi deg steg-for-steg hvordan du gjør det.",
+        "backToGuides": "Tilbake til Bank og økonomi",
+        "time": "Ca. 10 minutter",
+        "difficulty": "Enkel",
+        "whatYouNeedTitle": "Dette trenger du",
+        "whatYouNeed": [
+          "Regningen du skal betale (papir eller digital)",
+          "Tilgang til nettbanken",
+          "Nok penger på kontoen"
+        ],
+        "importantTermsTitle": "Viktige begreper på regningen",
+        "termKID": "KID-nummer",
+        "termKIDDesc": "En lang tallrekke som identifiserer betalingen din. VIKTIG å taste riktig!",
+        "termKonto": "Kontonummer",
+        "termKontoDesc": "Mottakerens bankkonto (11 siffer)",
+        "termBelop": "Beløp",
+        "termBelopDesc": "Summen du skal betale",
+        "termFrist": "Forfallsdato",
+        "termFristDesc": "Siste dag regningen må betales",
+        "stepsTitle": "Slik betaler du en regning",
+        "steps": [
+          {
+            "title": "Logg inn i nettbanken",
+            "description": "Gå til bankens nettside og logg inn med BankID som vanlig."
+          },
+          {
+            "title": "Finn \"Betal\" eller \"Ny betaling\"",
+            "description": "I menyen finner du \"Betal\", \"Betaling\" eller \"Ny betaling\". Klikk på dette for å starte en ny betaling.",
+            "tip": "Noen banker har en stor \"Betal\"-knapp på forsiden."
+          },
+          {
+            "title": "Velg konto å betale fra",
+            "description": "Velg hvilken konto pengene skal trekkes fra. Sjekk at du har nok penger på kontoen.",
+            "warning": "Hvis du ikke har nok penger, vil betalingen ikke gå gjennom."
+          },
+          {
+            "title": "Skriv inn kontonummer",
+            "description": "Tast inn mottakerens kontonummer (11 siffer). Du finner dette på regningen, ofte merket \"Til konto\" eller \"Kontonummer\".",
+            "tip": "Noen regninger har strekkode - da kan du bruke bankens app til å skanne den automatisk."
+          },
+          {
+            "title": "Skriv inn KID-nummer",
+            "description": "Tast inn KID-nummeret nøyaktig slik det står på regningen. Dette er viktig for at mottakeren skal vite hva betalingen gjelder.",
+            "warning": "Feil KID kan føre til at betalingen ikke blir registrert riktig!"
+          },
+          {
+            "title": "Skriv inn beløpet",
+            "description": "Tast inn beløpet du skal betale. Sjekk at det stemmer med regningen.",
+            "tip": "Bruk komma for øre (f.eks. 1234,50). Noen banker bruker punktum."
+          },
+          {
+            "title": "Velg betalingsdato",
+            "description": "Velg når betalingen skal skje. Du kan betale med en gang eller sette en fremtidig dato. Husk at forfallsdatoen er siste frist.",
+            "tip": "Betal gjerne noen dager før forfall så du er sikker på at den kommer frem i tide."
+          },
+          {
+            "title": "Kontroller og godkjenn",
+            "description": "Se over alle opplysningene: kontonummer, KID, beløp og dato. Når alt er riktig, klikk \"Betal\" eller \"Godkjenn\".",
+            "warning": "Dobbeltsjekk KID og beløp før du godkjenner!"
+          },
+          {
+            "title": "Bekreftelse",
+            "description": "Du får en bekreftelse på at betalingen er registrert. Betalingen vil bli trukket fra kontoen din på valgt dato.",
+            "tip": "Lagre kvitteringen eller ta skjermbilde for egen dokumentasjon."
+          }
+        ],
+        "avtaleGiroTitle": "Sett opp AvtaleGiro",
+        "avtaleGiroText": "For regninger som kommer jevnlig (strøm, forsikring, osv.) kan du sette opp AvtaleGiro. Da betales regningen automatisk hver gang. Du finner dette under \"AvtaleGiro\" eller \"Faste betalinger\" i nettbanken.",
+        "efakturaTitle": "Hva er eFaktura?",
+        "efakturaText": "eFaktura betyr at regningen kommer rett inn i nettbanken din digitalt. Du slipper å taste inn KID og kontonummer - bare godkjenn beløpet. Slå på eFaktura under \"Innstillinger\" i nettbanken."
+      },
+      "vipps": {
+        "title": "Bruke Vipps",
+        "description": "Lær å sende penger og betale med Vipps",
+        "longDescription": "Vipps gjør det enkelt å sende penger til venner, betale i butikker og dele regninger. Her lærer du alt du trenger.",
+        "backToGuides": "Tilbake til Bank og økonomi",
+        "time": "Ca. 15 minutter",
+        "difficulty": "Enkel",
+        "whatIsTitle": "Hva er Vipps?",
+        "whatIsText1": "Vipps er en norsk betalingsapp som lar deg sende penger til andre, betale i butikker, og mye mer - alt fra mobilen din.",
+        "whatIsText2": "Over 4 millioner nordmenn bruker Vipps. Det er trygt fordi det er koblet til BankID og bankkontoen din.",
+        "whatYouNeedTitle": "Dette trenger du",
+        "whatYouNeed": [
+          "Smarttelefon (iPhone eller Android)",
+          "BankID på mobil",
+          "Norsk bankkonto",
+          "Norsk mobilnummer"
+        ],
+        "stepsTitle": "Slik kommer du i gang med Vipps",
+        "steps": [
+          {
+            "title": "Last ned Vipps-appen",
+            "description": "Åpne App Store (iPhone) eller Google Play (Android). Søk etter \"Vipps\" og trykk \"Installer\" eller \"Hent\".",
+            "tip": "Pass på at du laster ned den ekte Vipps-appen med det oransje logoen."
+          },
+          {
+            "title": "Åpne appen og start registrering",
+            "description": "Åpne Vipps og trykk \"Kom i gang\" eller \"Registrer deg\". Du blir bedt om å skrive inn mobilnummeret ditt.",
+            "tip": "Bruk det samme nummeret som er registrert i BankID."
+          },
+          {
+            "title": "Bekreft med BankID",
+            "description": "Du må bekrefte identiteten din med BankID. Følg instruksjonene - du blir sendt til BankID-appen for å godkjenne.",
+            "warning": "Hvis BankID ikke fungerer, sjekk at appen er oppdatert."
+          },
+          {
+            "title": "Koble til bankkonto",
+            "description": "Vipps henter automatisk bankkontoene dine. Velg hvilken konto du vil bruke som standard for Vipps-betalinger.",
+            "tip": "Du kan endre konto senere under \"Innstillinger\" i appen."
+          },
+          {
+            "title": "Legg til betalingskort (valgfritt)",
+            "description": "Du kan også legge til et betalingskort for å bruke Vipps i butikker. Trykk på \"Kort\" og \"Legg til kort\". Fyll inn kortinformasjonen.",
+            "tip": "Kortet må støtte kontaktløs betaling."
+          },
+          {
+            "title": "Sende penger til noen",
+            "description": "For å sende penger: Trykk på \"Søk\" eller \"+\" knappen, skriv inn navn eller nummer, skriv beløpet, og trykk \"Send\". Mottakeren trenger også Vipps.",
+            "tip": "Du kan legge til en melding til betalingen, f.eks. \"Takk for middagen!\""
+          },
+          {
+            "title": "Betale i butikk",
+            "description": "I butikker som tar Vipps: Åpne appen, trykk \"Betal\", og hold telefonen mot betalingsterminalen. Godkjenn med fingeravtrykk eller kode.",
+            "tip": "Se etter Vipps-logoen ved kassen for å vite om butikken tar Vipps."
+          },
+          {
+            "title": "Dele regninger",
+            "description": "Har du lagt ut for noe? Trykk \"Regninger\" i appen, skriv inn totalbeløp og velg hvem som skal dele. Vipps sender automatisk forespørsel til alle.",
+            "tip": "Perfekt for å dele regning etter restaurant eller felles innkjøp."
+          }
+        ],
+        "featuresTitle": "Mer du kan gjøre med Vipps",
+        "featureInvoice": "Vipps Faktura",
+        "featureInvoiceDesc": "Motta og betal fakturaer direkte i appen",
+        "featureRecurring": "Faste betalinger",
+        "featureRecurringDesc": "Sett opp gjentakende betalinger til f.eks. treningssenter",
+        "featureOnline": "Netthandel",
+        "featureOnlineDesc": "Betal enkelt i nettbutikker som tilbyr Vipps",
+        "securityTitle": "Sikkerhet i Vipps",
+        "securityText": "Vipps er trygt fordi alle betalinger godkjennes med fingeravtrykk, ansikt eller PIN-kode. Ingen kan sende penger fra kontoen din uten din godkjenning."
+      },
+      "gjeld": {
+        "title": "Få hjelp med gjeld",
+        "description": "Her finner du hjelp hvis du sliter med å betale regninger",
+        "longDescription": "Alle kan havne i en vanskelig økonomisk situasjon. Her finner du informasjon om hvor du kan få hjelp.",
+        "backToGuides": "Tilbake til Bank og økonomi",
+        "time": "Ca. 10 minutter",
+        "difficulty": "Enkel",
+        "importantTitle": "Det viktigste først",
+        "importantText": "Hvis du sliter med å betale regninger, er det viktig å handle raskt. Jo før du tar grep, jo lettere er det å finne en løsning. Du er ikke alene - mange har vært i samme situasjon og fått hjelp.",
+        "signsTitle": "Varseltegn på gjeldsproblemer",
+        "signs": [
+          "Du betaler bare minimumsbeløpet på kredittkort",
+          "Du bruker kredittkort til daglige utgifter som mat",
+          "Du tar opp nye lån for å betale gamle",
+          "Du får inkassovarsel",
+          "Du unngår å åpne post og regninger"
+        ],
+        "stepsTitle": "Første steg hvis du sliter",
+        "steps": [
+          {
+            "title": "Få oversikt over økonomien",
+            "description": "Skriv ned alle inntekter (lønn, trygd, osv.) og alle utgifter (husleie, mat, lån, osv.). Dette gir deg oversikt over situasjonen.",
+            "tip": "Bruk nettbankens oversikt over transaksjoner for å se hva du faktisk bruker penger på."
+          },
+          {
+            "title": "Prioriter regningene",
+            "description": "Noen regninger er viktigere enn andre. Betal først: husleie/boliglån, strøm, mat, og eventuelle barnebidrag. Forbrukslån og kredittkort kan vente.",
+            "warning": "Hvis du ikke betaler husleie, risikerer du å miste boligen."
+          },
+          {
+            "title": "Kontakt kreditorene dine",
+            "description": "Ring de du skylder penger og forklar situasjonen. De fleste vil heller lage en betalingsplan enn å sende saken til inkasso. Be om betalingsutsettelse eller avdragsordning.",
+            "tip": "Mange kreditorene har egne ordninger for de som sliter. Spør om lavere rente eller lengre nedbetalingstid."
+          },
+          {
+            "title": "Søk profesjonell hjelp",
+            "description": "Gjeldsrådgivere kan hjelpe deg å forhandle med kreditorene og lage en plan. Dette er gratis hos kommunen og NAV.",
+            "tip": "Du trenger ikke å ha bestemt deg for noe før du tar kontakt - de hjelper deg å se mulighetene."
+          },
+          {
+            "title": "Vurder refinansiering",
+            "description": "Hvis du har mange små lån, kan det lønne seg å samle dem til ett lån med lavere rente. Snakk med banken din om mulighetene.",
+            "warning": "Vær forsiktig med \"samlelån\" med høy rente fra ukjente selskaper."
+          },
+          {
+            "title": "Søk økonomisk sosialhjelp hvis nødvendig",
+            "description": "Hvis du ikke har penger til mat og nødvendige utgifter, kan du søke om sosialhjelp fra NAV. Dette er en midlertidig hjelp mens du får orden på økonomien.",
+            "tip": "Sosialhjelp er en rettighet for de som trenger det - ikke vær redd for å søke."
+          }
+        ],
+        "helpTitle": "Hvor kan du få gratis hjelp?",
+        "helpNAV": "NAV gjeldsrådgivning",
+        "helpNAVDesc": "Ring NAV på 55 55 33 33 og be om å snakke med en gjeldsrådgiver, eller besøk ditt lokale NAV-kontor.",
+        "helpKommune": "Kommunens gjeldsrådgiver",
+        "helpKommuneDesc": "De fleste kommuner har gratis gjeldsrådgivning. Ring kommunens servicekontor for å få kontaktinformasjon.",
+        "helpOkonomirad": "Økonomiråd.no",
+        "helpOkonomiradDesc": "Forbrukerrådets nettside med budsjettverktøy og råd om økonomi.",
+        "helpGjeldsofre": "Gjeldsofre.no",
+        "helpGjeldsofferDesc": "Frivillig organisasjon som gir gratis råd og støtte til personer med gjeldsproblemer.",
+        "avoidTitle": "Dette bør du UNNGÅ",
+        "avoidItems": [
+          "Å ta opp nye lån for å betale gamle (gjeldsspiralen)",
+          "Å ignorere post og regninger",
+          "Å si ja til \"kjappe lån\" med høy rente",
+          "Å vente for lenge med å søke hjelp"
+        ]
+      }
+    },
+    "digital": {
+      "epost": {
+        "title": "Sette opp e-post",
+        "description": "Lær å opprette og bruke e-post",
+        "longDescription": "E-post er grunnleggende for å kommunisere digitalt. Her lærer du å opprette en e-postkonto og bruke den.",
+        "backToGuides": "Tilbake til Digitale verktøy",
+        "time": "Ca. 15 minutter",
+        "difficulty": "Enkel",
+        "whatIsTitle": "Hva er e-post?",
+        "whatIsText1": "E-post (elektronisk post) er digital post du sender og mottar via internett. Det er gratis, raskt, og du kan sende til hvem som helst i verden.",
+        "whatIsText2": "For å bruke e-post trenger du en e-postadresse. Denne fungerer som din digitale adresse, f.eks. navn@gmail.com.",
+        "providersTitle": "Populære e-posttjenester",
+        "providerGmail": "Gmail (Google)",
+        "providerGmailDesc": "Mest populær, gratis, fungerer på alle enheter",
+        "providerOutlook": "Outlook (Microsoft)",
+        "providerOutlookDesc": "Gratis, god integrasjon med Windows",
+        "providerYahoo": "Yahoo Mail",
+        "providerYahooDesc": "Gratis, har eksistert lenge",
+        "stepsTitle": "Slik oppretter du Gmail-konto",
+        "steps": [
+          {
+            "title": "Gå til Gmail",
+            "description": "Åpne nettleseren og gå til gmail.com. Klikk på \"Opprett konto\" eller \"Create account\"."
+          },
+          {
+            "title": "Fyll inn personlig informasjon",
+            "description": "Skriv inn fornavn og etternavn. Dette vises når du sender e-post.",
+            "tip": "Bruk ditt ekte navn så folk kjenner deg igjen."
+          },
+          {
+            "title": "Velg e-postadresse",
+            "description": "Velg din e-postadresse. Den må være unik. Prøv fornavn.etternavn@gmail.com eller legg til tall hvis adressen er opptatt.",
+            "warning": "Adressen kan ikke endres senere, så velg med omhu!"
+          },
+          {
+            "title": "Lag et sterkt passord",
+            "description": "Lag et passord med minst 8 tegn, helst 12. Bruk både store og små bokstaver, tall og tegn. Bekreft passordet ved å skrive det på nytt.",
+            "tip": "Se vår guide om passord for tips til å lage et sikkert passord."
+          },
+          {
+            "title": "Legg til telefonnummer (anbefalt)",
+            "description": "Legg til mobilnummeret ditt for å kunne gjenopprette kontoen hvis du glemmer passordet. Du kan også bruke det for ekstra sikkerhet.",
+            "tip": "Dette er valgfritt, men sterkt anbefalt."
+          },
+          {
+            "title": "Godta vilkårene",
+            "description": "Les gjennom og godta Googles vilkår og personvernerklæring ved å klikke \"Godta\" eller \"I agree\"."
+          },
+          {
+            "title": "E-posten din er klar!",
+            "description": "Gratulerer! Du har nå en e-postadresse. Du kommer til innboksen din der nye e-poster vil dukke opp.",
+            "tip": "Lagre e-postadressen og passordet et trygt sted."
+          }
+        ],
+        "usingEmailTitle": "Slik bruker du e-post",
+        "sendTitle": "Sende e-post",
+        "sendSteps": [
+          "Klikk \"Skriv\" eller \"Compose\"",
+          "Skriv mottakerens e-postadresse i \"Til\"-feltet",
+          "Skriv et emne/overskrift",
+          "Skriv meldingen din",
+          "Klikk \"Send\""
+        ],
+        "replyTitle": "Svare på e-post",
+        "replySteps": [
+          "Åpne e-posten du vil svare på",
+          "Klikk \"Svar\" eller \"Reply\"",
+          "Skriv svaret ditt",
+          "Klikk \"Send\""
+        ],
+        "attachmentTitle": "Legge ved filer",
+        "attachmentSteps": [
+          "Start en ny e-post eller svar",
+          "Klikk på binders-ikonet",
+          "Velg filen fra datamaskinen",
+          "Vent til filen er lastet opp",
+          "Send e-posten som vanlig"
+        ],
+        "spamTitle": "Hva er søppelpost (spam)?",
+        "spamText": "Søppelpost er uønsket e-post, ofte reklame eller svindelforsøk. Gmail og andre tjenester filtrerer det meste automatisk til en \"Spam\"-mappe. Sjekk aldri lenker i mistenkelige e-poster."
+      },
+      "digipost": {
+        "title": "Bruke Digipost",
+        "description": "Motta digital post fra offentlige og private avsendere",
+        "longDescription": "Digipost er din digitale postkasse der du mottar post fra det offentlige og bedrifter. Trygt, enkelt og miljøvennlig.",
+        "backToGuides": "Tilbake til Digitale verktøy",
+        "time": "Ca. 10 minutter",
+        "difficulty": "Enkel",
+        "whatIsTitle": "Hva er Digipost?",
+        "whatIsText1": "Digipost er en sikker digital postkasse der du mottar brev fra offentlige etater (som Skatteetaten og NAV) og private bedrifter (som banken og forsikringsselskapet).",
+        "whatIsText2": "I stedet for papirpost får du alt digitalt, og det lagres trygt i flere år.",
+        "benefitsTitle": "Fordeler med Digipost",
+        "benefits": [
+          "All post samlet på ett sted",
+          "Trygg lagring i flere år",
+          "Lett å finne igjen gamle brev",
+          "Miljøvennlig - sparer papir",
+          "Får varsel når ny post kommer"
+        ],
+        "stepsTitle": "Slik oppretter du Digipost",
+        "steps": [
+          {
+            "title": "Gå til digipost.no",
+            "description": "Åpne nettleseren og gå til digipost.no. Klikk på \"Registrer deg\" eller \"Opprett konto\"."
+          },
+          {
+            "title": "Logg inn med BankID",
+            "description": "Du registrerer deg med BankID. Velg BankID på mobil eller kodebrikke og følg instruksjonene.",
+            "warning": "Du må ha BankID for å bruke Digipost."
+          },
+          {
+            "title": "Bekreft opplysninger",
+            "description": "Digipost henter navn og adresse automatisk fra Folkeregisteret. Sjekk at opplysningene stemmer.",
+            "tip": "Legg til e-postadresse og mobilnummer for å få varsel om ny post."
+          },
+          {
+            "title": "Velg hvem som skal sende deg post",
+            "description": "Du kan velge hvilke avsendere som skal sende deg digital post. Offentlige etater er automatisk aktivert. Du kan også legge til banker, forsikringsselskaper osv.",
+            "tip": "Du kan endre dette når som helst under \"Innstillinger\"."
+          },
+          {
+            "title": "Utforsk postkassen",
+            "description": "I postkassen ser du all mottatt post. Du kan lage mapper for å organisere, og søke etter gamle brev.",
+            "tip": "Post fra det offentlige ligger ofte under \"Det offentlige\" eller i egne mapper."
+          },
+          {
+            "title": "Last ned appen (valgfritt)",
+            "description": "Du kan også bruke Digipost på mobilen. Last ned appen fra App Store eller Google Play.",
+            "tip": "Med appen får du push-varsler når ny post kommer."
+          }
+        ],
+        "tipsTitle": "Tips for Digipost",
+        "tips": [
+          "Sjekk Digipost jevnlig - viktig post kan komme der",
+          "Bruk søkefunksjonen for å finne gamle brev",
+          "Opprett mapper for å holde orden",
+          "Last ned viktige dokumenter som sikkerhetskopi"
+        ]
+      },
+      "altinn": {
+        "title": "Bruke Altinn",
+        "description": "Sende skjemaer og kommunisere med det offentlige",
+        "longDescription": "Altinn er portalen der du sender skjemaer til det offentlige og finner informasjon om dine rettigheter og plikter.",
+        "backToGuides": "Tilbake til Digitale verktøy",
+        "time": "Ca. 10 minutter",
+        "difficulty": "Middels",
+        "whatIsTitle": "Hva er Altinn?",
+        "whatIsText1": "Altinn er det offentliges felles portal for digital kommunikasjon. Her kan du sende inn skjemaer, sjekke status på saker, og finne informasjon fra over 70 offentlige etater.",
+        "whatIsText2": "Du bruker Altinn for ting som skattemelding, førerkort, byggesøknad og mye mer.",
+        "commonUsesTitle": "Dette bruker du Altinn til",
+        "commonUses": [
+          "Sende og sjekke skattemeldingen",
+          "Registrere firma eller enkeltmannsforetak",
+          "Søke om byggetillatelse",
+          "Melde flytting",
+          "Sende a-melding (for arbeidsgivere)"
+        ],
+        "stepsTitle": "Slik bruker du Altinn",
+        "steps": [
+          {
+            "title": "Gå til altinn.no",
+            "description": "Åpne nettleseren og gå til altinn.no."
+          },
+          {
+            "title": "Logg inn",
+            "description": "Klikk \"Logg inn\" øverst til høyre. Velg BankID, MinID eller annen innloggingsmetode. Følg instruksjonene for å logge inn.",
+            "tip": "BankID gir tilgang til flest tjenester."
+          },
+          {
+            "title": "Utforsk \"Min profil\"",
+            "description": "Etter innlogging ser du \"Min profil\" eller \"Ditt dashbord\". Her ser du meldinger, skjemaer og status på innsendte saker.",
+            "tip": "Sjekk \"Innboks\" for meldinger fra det offentlige."
+          },
+          {
+            "title": "Finn et skjema",
+            "description": "For å finne et skjema, bruk søkefeltet eller klikk på \"Skjema og tjenester\". Skriv inn hva du leter etter, f.eks. \"skattemelding\" eller \"flyttemelding\".",
+            "tip": "Populære skjemaer ligger ofte på forsiden."
+          },
+          {
+            "title": "Fyll ut skjemaet",
+            "description": "Åpne skjemaet og fyll ut alle feltene. Mange skjemaer har forhåndsutfylt informasjon. Sjekk at alt stemmer.",
+            "warning": "Lagre underveis hvis skjemaet er langt - du kan fortsette senere."
+          },
+          {
+            "title": "Send inn",
+            "description": "Når skjemaet er ferdig utfylt, klikk \"Send inn\" eller \"Lever\". Du må kanskje signere med BankID.",
+            "tip": "Du får kvittering som bekreftelse. Ta vare på denne."
+          },
+          {
+            "title": "Følg med på status",
+            "description": "I \"Mine saker\" eller \"Innboks\" kan du se status på det du har sendt inn. Du får også melding når saken er behandlet."
+          }
+        ],
+        "tipsTitle": "Nyttige tips for Altinn",
+        "tips": [
+          "Sjekk innboksen jevnlig for viktige meldinger",
+          "Bruk arkivet for å finne tidligere innsendte skjemaer",
+          "Du kan gi andre fullmakt til å handle på dine vegne",
+          "Mange kommunale tjenester krever Altinn-innlogging"
+        ]
+      },
+      "minside": {
+        "title": "MinSide og offentlige tjenester",
+        "description": "En oversikt over de viktigste offentlige nettjenestene",
+        "longDescription": "Det finnes flere \"Min side\"-tjenester hos ulike offentlige etater. Her får du oversikt over de viktigste.",
+        "backToGuides": "Tilbake til Digitale verktøy",
+        "time": "Ca. 10 minutter",
+        "difficulty": "Enkel",
+        "introTitle": "Hva er \"Min side\"?",
+        "introText": "\"Min side\" eller \"Min profil\" er det du ser når du logger inn hos offentlige etater. Der finner du din personlige informasjon, søknader, vedtak og meldinger.",
+        "servicesTitle": "De viktigste tjenestene",
+        "serviceNAV": "Min side NAV",
+        "serviceNAVDesc": "Søknader, vedtak, meldekort, sykepenger",
+        "serviceNAVUrl": "nav.no",
+        "serviceSkatt": "Min side Skatteetaten",
+        "serviceSkattDesc": "Skattemelding, skatteoppgjør, skattekort",
+        "serviceSkattUrl": "skatteetaten.no",
+        "serviceHelse": "Helsenorge",
+        "serviceHelseDesc": "Resepter, legetime, journal, fastlege",
+        "serviceHelseUrl": "helsenorge.no",
+        "serviceAltinn": "Altinn",
+        "serviceAltinnDesc": "Skjemaer, firma, meldinger fra det offentlige",
+        "serviceAltinnUrl": "altinn.no",
+        "serviceDigipost": "Digipost/e-Boks",
+        "serviceDigipostDesc": "Digital postkasse for offentlig og privat post",
+        "serviceDigipostUrl": "digipost.no",
+        "stepsTitle": "Slik logger du inn på offentlige tjenester",
+        "steps": [
+          {
+            "title": "Gå til tjenestens nettside",
+            "description": "Skriv adressen direkte i nettleseren, f.eks. nav.no, skatteetaten.no eller helsenorge.no.",
+            "warning": "Klikk aldri på lenker i e-post for å logge inn - gå alltid direkte til nettsiden."
+          },
+          {
+            "title": "Finn \"Logg inn\"",
+            "description": "Se etter \"Logg inn\", \"Min side\" eller lignende. Knappen er vanligvis øverst til høyre på siden."
+          },
+          {
+            "title": "Velg innloggingsmetode",
+            "description": "Du får velge mellom ulike innloggingsmetoder. De vanligste er BankID på mobil, BankID med kodebrikke, eller MinID.",
+            "tip": "BankID gir tilgang til flest tjenester. MinID fungerer på noen."
+          },
+          {
+            "title": "Bekreft identiteten din",
+            "description": "Følg instruksjonene for valgt innloggingsmetode. Med BankID på mobil får du en melding du må godkjenne.",
+            "warning": "Les alltid hva du godkjenner før du bekrefter!"
+          },
+          {
+            "title": "Du er inne!",
+            "description": "Etter innlogging er du på \"Min side\" der du finner din personlige informasjon og tjenester.",
+            "tip": "Husk å logge ut når du er ferdig."
+          }
+        ],
+        "tipsTitle": "Generelle tips",
+        "tips": [
+          "Bruk samme innloggingsmetode overalt for enkelhet",
+          "Sjekk innboksen jevnlig - viktige meldinger kommer dit",
+          "Oppdater kontaktinformasjonen din hvis den endres",
+          "Logg alltid ut når du bruker delt datamaskin"
+        ]
+      }
+    },
+    "bolig": {
+      "bostotte": {
+        "title": "Søke bostøtte",
+        "description": "Få økonomisk støtte til å betale husleie eller boutgifter",
+        "longDescription": "Bostøtte er en statlig støtteordning for deg med lave inntekter og høye boutgifter. Både leietakere og boligeiere kan søke.",
+        "backToGuides": "Tilbake til Bolig",
+        "time": "Ca. 20 minutter",
+        "difficulty": "Middels",
+        "whatIsTitle": "Hva er bostøtte?",
+        "whatIsText1": "Bostøtte er penger fra Husbanken som skal hjelpe deg å betale for boligen din. Det er behovsprøvd, som betyr at inntekten og boutgiftene dine avgjør om du får støtte.",
+        "whatIsText2": "Du kan få bostøtte enten du leier eller eier boligen din. Støtten utbetales hver måned direkte til kontoen din.",
+        "requirementsTitle": "Hvem kan få bostøtte?",
+        "requirements": [
+          "Du må bo i boligen du søker støtte for",
+          "Boligen må være godkjent for helårsbruk",
+          "Du må ha lovlig opphold i Norge",
+          "Inntekten din må være under en viss grense",
+          "Boutgiftene dine må være over en viss grense"
+        ],
+        "stepsTitle": "Slik søker du bostøtte",
+        "steps": [
+          {
+            "title": "Gå til husbanken.no",
+            "description": "Åpne nettleseren og skriv husbanken.no i adressefeltet. Trykk Enter.",
+            "tip": "Du kan også søke på Google etter \"Husbanken bostøtte\"."
+          },
+          {
+            "title": "Finn søknadsskjemaet",
+            "description": "På forsiden finner du \"Bostøtte\" i menyen. Klikk på \"Søk bostøtte\" eller \"Logg inn og søk\".",
+            "tip": "Søknadsknappen er vanligvis godt synlig på forsiden."
+          },
+          {
+            "title": "Logg inn med BankID",
+            "description": "Du må logge inn for å søke. Bruk BankID på mobil eller kodebrikke. Følg instruksjonene på skjermen.",
+            "warning": "Har du ikke BankID? Du kan få hjelp på kommunens servicetorg."
+          },
+          {
+            "title": "Fyll ut søknaden",
+            "description": "Søknadsskjemaet henter automatisk informasjon om deg. Sjekk at alt stemmer. Fyll inn boutgiftene dine (husleie, felleskostnader osv.).",
+            "tip": "Ha husleiekontrakten eller dokumentasjon på boutgifter klar."
+          },
+          {
+            "title": "Dokumenter boutgiftene",
+            "description": "Last opp husleiekontrakt eller annen dokumentasjon på boutgiftene dine. Ta bilde med mobilen hvis du ikke har scanner.",
+            "warning": "Uten dokumentasjon kan søknaden bli avslått."
+          },
+          {
+            "title": "Send inn søknaden",
+            "description": "Gå gjennom søknaden og sjekk at alt er riktig. Klikk \"Send inn\" når du er ferdig.",
+            "tip": "Du får bekreftelse på e-post eller i digital postkasse."
+          },
+          {
+            "title": "Vent på svar",
+            "description": "Husbanken behandler søknaden din. Svar kommer vanligvis innen noen uker. Du kan følge med på status i søknadsportalen.",
+            "tip": "Bostøtte søkes hver måned, men du trenger ikke sende ny søknad - den fornyes automatisk."
+          }
+        ],
+        "tipsTitle": "Nyttige tips",
+        "tips": [
+          "Søk så tidlig som mulig i måneden - fristen er den 25. hver måned",
+          "Du får svar rundt den 10. i måneden etter",
+          "Meld fra om endringer i inntekt eller boutgifter",
+          "Du kan søke tilbake i tid hvis du glemte å søke",
+          "Kommunen kan hjelpe deg med søknaden hvis du trenger det"
+        ]
+      },
+      "startlan": {
+        "title": "Søke startlån",
+        "description": "Lån fra kommunen for de som ikke får lån i vanlig bank",
+        "longDescription": "Startlån er et lån fra kommunen til personer som har problemer med å få lån i vanlig bank. Det kan brukes til å kjøpe bolig eller refinansiere dyr gjeld.",
+        "backToGuides": "Tilbake til Bolig",
+        "time": "Ca. 25 minutter",
+        "difficulty": "Middels",
+        "whatIsTitle": "Hva er startlån?",
+        "whatIsText1": "Startlån er et lån fra kommunen din som finansieres av Husbanken. Det er ment for deg som har stabil inntekt, men ikke får lån i vanlig bank.",
+        "whatIsText2": "Startlånet kan dekke hele eller deler av kjøpesummen for en bolig. Renten er gunstig og du kan få lang nedbetalingstid.",
+        "requirementsTitle": "Hvem kan få startlån?",
+        "requirements": [
+          "Du må ha langvarige problemer med å få lån i vanlig bank",
+          "Du må ha evne til å betjene lånet over tid",
+          "Du må ha behov for bolig (førstegangskjøpere, barnefamilier, enslige forsørgere)",
+          "Du må kunne dokumentere inntekten din",
+          "Du må ha prøvd å få lån i vanlig bank først"
+        ],
+        "stepsTitle": "Slik søker du startlån",
+        "steps": [
+          {
+            "title": "Undersøk om du kan få lån i bank",
+            "description": "Kontakt en bank og spør om de kan gi deg boliglån. Hvis de sier nei, be om en skriftlig bekreftelse på avslaget.",
+            "tip": "Avslaget fra banken er viktig dokumentasjon i søknaden din."
+          },
+          {
+            "title": "Finn kommunens søknadsskjema",
+            "description": "Gå til din kommunes nettside og søk etter \"startlån\". De fleste kommuner har elektronisk søknadsskjema.",
+            "tip": "Mange kommuner bruker husbanken.no eller altinn.no for søknader."
+          },
+          {
+            "title": "Logg inn og start søknaden",
+            "description": "Logg inn med BankID. Fyll ut informasjon om deg selv, din økonomi og hvilken type bolig du søker lån til.",
+            "warning": "Vær ærlig om økonomien din - kommunen sjekker opplysningene."
+          },
+          {
+            "title": "Dokumenter økonomien din",
+            "description": "Last opp siste lønnsslipp, skattemelding, avslag fra bank, og eventuell dokumentasjon på gjeld.",
+            "tip": "Jo bedre dokumentasjon, jo raskere behandling."
+          },
+          {
+            "title": "Beskriv boligbehovet",
+            "description": "Forklar hvorfor du trenger bolig og hvilken type bolig du ser etter. Hvis du har funnet en bolig, legg ved informasjon om den.",
+            "tip": "Kommunen vurderer om boligen er egnet for deg og din økonomi."
+          },
+          {
+            "title": "Send inn søknaden",
+            "description": "Gå gjennom all informasjonen og klikk \"Send inn\". Du får bekreftelse på at søknaden er mottatt.",
+            "tip": "Ta vare på kvitteringen og eventuelle referansenummer."
+          },
+          {
+            "title": "Vent på svar",
+            "description": "Kommunen behandler søknaden din. Dette kan ta flere uker. De kan kontakte deg for mer informasjon.",
+            "warning": "Behandlingstiden varierer fra kommune til kommune."
+          }
+        ],
+        "tipsTitle": "Nyttige tips",
+        "tips": [
+          "Start prosessen tidlig - behandlingstiden kan være lang",
+          "Vær realistisk om hva du har råd til",
+          "Du kan få startlån sammen med tilskudd i noen tilfeller",
+          "Kommunen kan hjelpe deg med å finne egnet bolig",
+          "Du kan søke om betalingsutsettelse hvis økonomien endrer seg"
+        ]
+      },
+      "kommunalBolig": {
+        "title": "Søke kommunal bolig",
+        "description": "Leie bolig fra kommunen hvis du ikke klarer å skaffe bolig selv",
+        "longDescription": "Kommunal bolig er et tilbud til personer som ikke klarer å skaffe seg bolig på egen hånd. Kommunen eier boligene og leier dem ut til redusert pris.",
+        "backToGuides": "Tilbake til Bolig",
+        "time": "Ca. 20 minutter",
+        "difficulty": "Middels",
+        "whatIsTitle": "Hva er kommunal bolig?",
+        "whatIsText1": "Kommunale boliger er boliger som kommunen eier og leier ut til personer som trenger hjelp til å skaffe bolig. Husleien er ofte lavere enn på det private markedet.",
+        "whatIsText2": "Det er begrenset antall kommunale boliger, så det kan være venteliste. Kommunen prioriterer de som har størst behov.",
+        "requirementsTitle": "Hvem kan få kommunal bolig?",
+        "requirements": [
+          "Du må være uten bolig eller stå i fare for å miste boligen din",
+          "Du må ha prøvd å skaffe bolig selv uten å lykkes",
+          "Du må ha lovlig opphold i Norge",
+          "Du må som regel ha bodd i kommunen en viss tid",
+          "Økonomiske, sosiale eller helsemessige forhold gjør det vanskelig å skaffe bolig"
+        ],
+        "stepsTitle": "Slik søker du kommunal bolig",
+        "steps": [
+          {
+            "title": "Finn kommunens søknadsskjema",
+            "description": "Gå til din kommunes nettside. Søk etter \"kommunal bolig\" eller \"bolig\". Finn søknadsskjemaet.",
+            "tip": "Du kan også ringe kommunens servicetorg for hjelp."
+          },
+          {
+            "title": "Samle dokumentasjon",
+            "description": "Du trenger dokumentasjon på inntekt, eventuell gjeld, og hvorfor du trenger kommunal bolig. Samle dette før du starter søknaden.",
+            "tip": "Legeerklæring eller uttalelse fra NAV kan styrke søknaden."
+          },
+          {
+            "title": "Fyll ut søknaden",
+            "description": "Fyll ut alle feltene i søknadsskjemaet. Beskriv situasjonen din så godt du kan.",
+            "warning": "Ufullstendig søknad kan forsinke behandlingen."
+          },
+          {
+            "title": "Beskriv boligbehovet",
+            "description": "Forklar hva slags bolig du trenger (antall rom, beliggenhet, tilgjengelighet). Beskriv eventuelle spesielle behov.",
+            "tip": "Hvis du har barn, oppgi alder og eventuelt samvær."
+          },
+          {
+            "title": "Last opp dokumentasjon",
+            "description": "Last opp alle dokumentene som støtter søknaden din. Jo mer dokumentasjon, jo lettere er det for kommunen å vurdere søknaden.",
+            "warning": "Manglende dokumentasjon kan føre til avslag."
+          },
+          {
+            "title": "Send inn søknaden",
+            "description": "Kontroller at alt er fylt ut og send inn søknaden. Du får bekreftelse på at den er mottatt.",
+            "tip": "Noter deg datoen du sendte inn søknaden."
+          },
+          {
+            "title": "Vent på svar",
+            "description": "Kommunen behandler søknaden. Behandlingstiden varierer. Du kan bli innkalt til samtale.",
+            "tip": "Du kan kontakte kommunen for å høre om status på søknaden."
+          }
+        ],
+        "tipsTitle": "Nyttige tips",
+        "tips": [
+          "Søk så tidlig som mulig - det kan være lang ventetid",
+          "Hold kommunen oppdatert hvis situasjonen din endrer seg",
+          "Du kan klage på avslag til kommunens klagenemnd",
+          "NAV kan hjelpe med midlertidig bolig mens du venter",
+          "Du kan søke bostøtte for å få hjelp til husleien"
+        ]
+      }
+    },
+    "utdanning": {
+      "studielan": {
+        "title": "Søke studielån",
+        "description": "Lån og stipend fra Lånekassen til utdanning",
+        "longDescription": "Lånekassen gir lån og stipend til studenter. Her lærer du hvordan du søker og hva du trenger.",
+        "backToGuides": "Tilbake til Utdanning",
+        "time": "Ca. 20 minutter",
+        "difficulty": "Middels",
+        "whatIsTitle": "Hva er studielån?",
+        "whatIsText1": "Studielån er penger du låner fra Lånekassen for å dekke utgifter mens du studerer. Du betaler tilbake etter at du er ferdig med utdanningen.",
+        "whatIsText2": "Deler av lånet kan bli omgjort til stipend hvis du fullfører utdanningen og ikke tjener over en viss grense.",
+        "requirementsTitle": "Hvem kan få studielån?",
+        "requirements": [
+          "Du må være tatt opp på en godkjent utdanning",
+          "Du må være registrert som student",
+          "Du må ta studiepoeng/være aktiv student",
+          "Du må ha gyldig oppholdstillatelse i Norge (hvis ikke norsk statsborger)"
+        ],
+        "stepsTitle": "Slik søker du studielån",
+        "steps": [
+          {
+            "title": "Gå til lanekassen.no",
+            "description": "Åpne nettleseren og skriv lanekassen.no. Klikk på \"Logg inn\" øverst til høyre.",
+            "tip": "Du kan også søke på Google etter \"Lånekassen søk lån\"."
+          },
+          {
+            "title": "Logg inn med BankID",
+            "description": "Velg BankID på mobil eller kodebrikke. Følg instruksjonene for å logge inn.",
+            "warning": "Har du ikke BankID? Du kan bestille det på banken din."
+          },
+          {
+            "title": "Finn søknadsskjemaet",
+            "description": "Etter innlogging, klikk på \"Søk om lån og stipend\" eller \"Søknad\". Velg riktig studieår.",
+            "tip": "Søknaden åpner vanligvis i midten av mars for høstsemesteret."
+          },
+          {
+            "title": "Velg utdanning",
+            "description": "Søk opp skolen og utdanningen din. Systemet viser hva du kan få i lån og stipend basert på utdanningen.",
+            "tip": "Hvis utdanningen ikke dukker opp, sjekk at du har valgt riktig studieår."
+          },
+          {
+            "title": "Fyll ut personopplysninger",
+            "description": "Sjekk at kontaktinformasjonen din stemmer. Oppgi kontonummer for utbetaling.",
+            "warning": "Feil kontonummer betyr forsinket utbetaling!"
+          },
+          {
+            "title": "Velg hvor mye du vil låne",
+            "description": "Du kan velge å låne hele beløpet eller mindre. Sjekk hva som kan bli stipend.",
+            "tip": "Lån bare det du trenger - du skal betale det tilbake senere."
+          },
+          {
+            "title": "Send inn søknaden",
+            "description": "Gå gjennom søknaden og klikk \"Send inn\". Du får bekreftelse på e-post.",
+            "tip": "Du kan følge status i \"Min side\" på Lånekassen."
+          }
+        ],
+        "tipsTitle": "Nyttige tips",
+        "tips": [
+          "Søk i god tid før semesterstart",
+          "Meld fra om endringer (f.eks. avbrutt studie, jobb ved siden av)",
+          "Sjekk frister for omgjøring til stipend",
+          "Du kan søke om reisestøtte hvis du studerer langt hjemmefra",
+          "Bor du sammen med andre studenter kan du dele boutgifter"
+        ]
+      },
+      "stipend": {
+        "title": "Søke stipend",
+        "description": "Få deler av lånet omgjort til stipend",
+        "longDescription": "Lånekassen kan gjøre om deler av lånet ditt til stipend. Her lærer du hvordan det fungerer.",
+        "backToGuides": "Tilbake til Utdanning",
+        "time": "Ca. 15 minutter",
+        "difficulty": "Enkel",
+        "whatIsTitle": "Hva er stipend?",
+        "whatIsText1": "Stipend er penger du får som du ikke trenger å betale tilbake. Lånekassen gir først lån, som kan bli stipend hvis du oppfyller kravene.",
+        "whatIsText2": "Omgjøring til stipend skjer automatisk hvis du fullfører studiepoeng og ikke tjener for mye.",
+        "requirementsTitle": "Krav for å få stipend",
+        "requirements": [
+          "Du må fullføre studiepoengene du har fått støtte til",
+          "Du må ikke tjene over inntektsgrensen",
+          "Du må ikke ha for mye formue",
+          "Utdanningen må være godkjent av Lånekassen"
+        ],
+        "stepsTitle": "Slik fungerer stipend",
+        "steps": [
+          {
+            "title": "Søk lån som vanlig",
+            "description": "Du søker først om lån og stipend. Pengene utbetales som lån i første omgang.",
+            "tip": "Det er samme søknad for lån og stipend."
+          },
+          {
+            "title": "Fullfør studiepoengene",
+            "description": "Ta eksamen og bestå fagene du har fått støtte til. Lånekassen sjekker automatisk med skolen.",
+            "warning": "Hvis du ikke består, forblir lånet et lån."
+          },
+          {
+            "title": "Hold deg under inntektsgrensen",
+            "description": "Du kan jobbe ved siden av studiene, men ikke tjene over grensen. Sjekk gjeldende grenser på lanekassen.no.",
+            "tip": "Grensen er ca. 200 000 kr per år (sjekk oppdatert beløp)."
+          },
+          {
+            "title": "Omgjøring skjer automatisk",
+            "description": "Når Lånekassen har fått resultatene dine, omgjør de automatisk lånet til stipend.",
+            "tip": "Du kan se status på \"Min side\" hos Lånekassen."
+          },
+          {
+            "title": "Sjekk resultatet",
+            "description": "Logg inn på lanekassen.no og se hvor mye som er omgjort. Du får også melding i innboksen.",
+            "warning": "Hvis noe er feil, ta kontakt med Lånekassen så snart som mulig."
+          }
+        ],
+        "tipsTitle": "Nyttige tips",
+        "tips": [
+          "Omgjøring skjer året etter at du har tatt eksamen",
+          "Tjener du for mye ett år, kan du søke om unntak ved spesielle forhold",
+          "Bostipend kan du få uansett inntekt hvis du bor borte fra foreldrene",
+          "Fullfører du på normert tid, kan du få sluttlån omgjort til stipend"
+        ]
+      },
+      "tilbakebetaling": {
+        "title": "Tilbakebetaling av studielån",
+        "description": "Betale tilbake studielån og søke om utsettelse",
+        "longDescription": "Når du er ferdig med utdanningen, skal lånet betales tilbake. Her lærer du hvordan det fungerer og hva du kan gjøre hvis du sliter.",
+        "backToGuides": "Tilbake til Utdanning",
+        "time": "Ca. 15 minutter",
+        "difficulty": "Middels",
+        "whatIsTitle": "Slik fungerer tilbakebetaling",
+        "whatIsText1": "Du begynner å betale tilbake studielånet ca. 7 måneder etter at du er ferdig med utdanningen. Du får brev fra Lånekassen med betalingsplan.",
+        "whatIsText2": "Lånet betales vanligvis over 20 år med faste månedlige beløp. Du kan velge å betale raskere eller søke om utsettelse.",
+        "optionsTitle": "Dine muligheter",
+        "options": [
+          "Automatisk betaling (AvtaleGiro) - enklest",
+          "Manuell betaling via nettbank",
+          "Søk om betalingsutsettelse hvis du sliter",
+          "Søk om rentefritak ved lav inntekt"
+        ],
+        "stepsTitle": "Slik betaler du tilbake",
+        "steps": [
+          {
+            "title": "Vent på faktura",
+            "description": "Ca. 7 måneder etter endt utdanning får du første faktura. Den kommer i Digipost eller som brev.",
+            "tip": "Sjekk at Lånekassen har riktig adresse og e-post."
+          },
+          {
+            "title": "Sett opp AvtaleGiro",
+            "description": "Logg inn på lanekassen.no og velg \"Betaling\". Sett opp AvtaleGiro for automatisk betaling.",
+            "tip": "Med AvtaleGiro slipper du å huske å betale hver måned."
+          },
+          {
+            "title": "Sjekk betalingsplanen",
+            "description": "Se hvor mye du skal betale og hvor lenge. Du kan endre nedbetalingstiden hvis du ønsker.",
+            "warning": "Lengre nedbetalingstid = mer i renter totalt."
+          },
+          {
+            "title": "Betal i tide",
+            "description": "Betal fakturaen innen forfall. Hvis du ikke betaler, påløper forsinkelsesrenter og gebyrer.",
+            "warning": "Manglende betaling kan føre til inkasso."
+          },
+          {
+            "title": "Søk utsettelse hvis nødvendig",
+            "description": "Har du dårlig råd? Logg inn og søk om betalingsutsettelse. Du kan få inntil 36 måneder utsettelse.",
+            "tip": "Søk FØR forfallsdatoen for å unngå gebyrer."
+          }
+        ],
+        "tipsTitle": "Nyttige tips",
+        "tips": [
+          "Du kan få rentefritak hvis du tjener under en viss grense",
+          "Ved arbeidsledighet eller sykdom kan du søke om utsettelse",
+          "Du kan betale ned ekstra når du har råd",
+          "Lånekassen sender påminnelser før forfall - sjekk innboksen",
+          "Ta kontakt med Lånekassen tidlig hvis du sliter med betalingen"
+        ]
+      }
+    },
+    "id": {
+      "pass": {
+        "title": "Bestille pass",
+        "description": "Slik bestiller du nytt eller fornyer passet ditt",
+        "longDescription": "Pass er et viktig ID-dokument. Her lærer du hvordan du bestiller nytt pass eller fornyer det gamle.",
+        "backToGuides": "Tilbake til ID og dokumenter",
+        "time": "Ca. 15 minutter",
+        "difficulty": "Enkel",
+        "whatIsTitle": "Om pass",
+        "whatIsText1": "Pass er et reisedokument som bekrefter identiteten din. Du trenger pass for å reise til land utenfor Norden.",
+        "whatIsText2": "Norsk pass er gyldig i 10 år for voksne og 5 år for barn under 16 år.",
+        "requirementsTitle": "Dette trenger du",
+        "requirements": [
+          "Gyldig legitimasjon (gammelt pass, førerkort eller bankkort med bilde)",
+          "Betaling (ca. 570 kr for voksne, 270 kr for barn)",
+          "Timebestilling hos politiet",
+          "Gammelt pass (hvis du har)"
+        ],
+        "stepsTitle": "Slik bestiller du pass",
+        "steps": [
+          {
+            "title": "Bestill time hos politiet",
+            "description": "Gå til politiet.no og velg \"Bestill time\". Velg \"Pass\" og finn ledig time på nærmeste passkontor.",
+            "tip": "I ferietiden kan det være lang ventetid - bestill i god tid!"
+          },
+          {
+            "title": "Møt opp på avtalt tid",
+            "description": "Ta med gyldig legitimasjon og gammelt pass. Politiet tar nytt bilde og fingeravtrykk.",
+            "warning": "Kommer du for sent, mister du timen og må bestille ny."
+          },
+          {
+            "title": "Betal for passet",
+            "description": "Du betaler med kort på passkontoret. Prisen er ca. 570 kr for voksne.",
+            "tip": "Sjekk oppdaterte priser på politiet.no."
+          },
+          {
+            "title": "Vent på passet",
+            "description": "Passet sendes hjem til deg i posten. Det tar vanligvis 10-14 dager.",
+            "tip": "Du kan spore sendingen på politiet.no med referansenummeret ditt."
+          },
+          {
+            "title": "Hent eller motta passet",
+            "description": "De fleste får passet i posten. Noen steder kan du hente det på passkontoret.",
+            "warning": "Sjekk at alle opplysninger er riktige når du mottar passet!"
+          }
+        ],
+        "tipsTitle": "Nyttige tips",
+        "tips": [
+          "Bestill time tidlig - spesielt før sommeren er det lang ventetid",
+          "Barn må ha med begge foreldre eller fullmakt",
+          "Passet må være gyldig i minst 6 måneder for mange reisemål",
+          "Mistet pass må meldes til politiet før du kan få nytt",
+          "Du kan få nødpass samme dag i spesielle tilfeller"
+        ]
+      },
+      "forerkort": {
+        "title": "Fornye førerkort",
+        "description": "Slik fornyer eller bestiller du førerkort",
+        "longDescription": "Førerkort må fornyes etter en viss tid. Her lærer du hvordan du gjør det.",
+        "backToGuides": "Tilbake til ID og dokumenter",
+        "time": "Ca. 15 minutter",
+        "difficulty": "Enkel",
+        "whatIsTitle": "Om førerkort",
+        "whatIsText1": "Førerkort er både et bevis på at du har lov til å kjøre og et gyldig ID-kort. Det må fornyes regelmessig.",
+        "whatIsText2": "Førerkort for personbil (klasse B) er gyldig i 15 år, men må fornyes oftere etter fylte 75 år.",
+        "requirementsTitle": "Dette trenger du",
+        "requirements": [
+          "Gyldig legitimasjon",
+          "Helseattest hvis du er over 75 år",
+          "Betaling (ca. 250-400 kr)",
+          "Nytt passfoto (kan tas på trafikkstasjonen)"
+        ],
+        "stepsTitle": "Slik fornyer du førerkortet",
+        "steps": [
+          {
+            "title": "Bestill time på Statens vegvesen",
+            "description": "Gå til vegvesen.no og velg \"Bestill time\". Finn \"Førerkort\" og velg nærmeste trafikkstasjon.",
+            "tip": "Du kan også ringe 22 07 30 00 for å bestille time."
+          },
+          {
+            "title": "Møt opp med legitimasjon",
+            "description": "Ta med gyldig legitimasjon. Det tas nytt bilde på stasjonen.",
+            "warning": "Gammelt førerkort må leveres inn."
+          },
+          {
+            "title": "Betal gebyret",
+            "description": "Du betaler med kort på trafikkstasjonen. Prisen varierer etter type førerkort.",
+            "tip": "Sjekk priser på vegvesen.no før du møter opp."
+          },
+          {
+            "title": "Vent på nytt førerkort",
+            "description": "Det nye førerkortet sendes i posten. Det tar ca. 1-2 uker.",
+            "tip": "Du får et midlertidig førerkort som gjelder mens du venter."
+          },
+          {
+            "title": "Aktiver førerkortet",
+            "description": "Når du mottar førerkortet, er det klart til bruk. Sjekk at all informasjon stemmer.",
+            "warning": "Meld fra om feil umiddelbart!"
+          }
+        ],
+        "tipsTitle": "Nyttige tips",
+        "tips": [
+          "Forny førerkortet før det går ut - det er ikke lov å kjøre med utgått førerkort",
+          "Er du over 75 år, trenger du helseattest fra lege",
+          "Mistet førerkort kan erstattes mot gebyr",
+          "Du kan sjekke gyldigheten på vegvesen.no",
+          "EU-førerkort gjelder i hele Europa"
+        ]
+      },
+      "idKort": {
+        "title": "Nasjonalt ID-kort",
+        "description": "Bestill nasjonalt ID-kort med eller uten reiserett",
+        "longDescription": "Nasjonalt ID-kort er et alternativ til pass og førerkort som legitimasjon. Det kan også brukes som reisedokument i Europa.",
+        "backToGuides": "Tilbake til ID og dokumenter",
+        "time": "Ca. 15 minutter",
+        "difficulty": "Enkel",
+        "whatIsTitle": "Om nasjonalt ID-kort",
+        "whatIsText1": "Nasjonalt ID-kort er et offisielt ID-dokument utstedt av politiet. Det finnes i to varianter: med og uten reiserett.",
+        "whatIsText2": "Med reiserett kan du bruke kortet i stedet for pass i EØS-området. Kortet er gyldig i 5 år.",
+        "typesTitle": "To typer ID-kort",
+        "types": [
+          "Med reiserett (ca. 570 kr) - kan brukes som reisedokument i EØS",
+          "Uten reiserett (ca. 490 kr) - kun legitimasjon i Norge"
+        ],
+        "stepsTitle": "Slik bestiller du ID-kort",
+        "steps": [
+          {
+            "title": "Bestill time hos politiet",
+            "description": "Gå til politiet.no og velg \"Bestill time\". Velg \"ID-kort\" og finn nærmeste politistasjon som utsteder ID-kort.",
+            "tip": "Ikke alle politistasjoner utsteder ID-kort - sjekk listen på politiet.no."
+          },
+          {
+            "title": "Møt opp på avtalt tid",
+            "description": "Ta med gyldig legitimasjon (pass, førerkort eller annen godkjent ID). Politiet tar bilde og fingeravtrykk.",
+            "warning": "For ID-kort med reiserett må du ha norsk personnummer."
+          },
+          {
+            "title": "Velg type ID-kort",
+            "description": "Velg om du vil ha ID-kort med eller uten reiserett. Med reiserett kan du reise i EØS uten pass.",
+            "tip": "Reiserett anbefales hvis du reiser i Europa."
+          },
+          {
+            "title": "Betal gebyret",
+            "description": "Betal med kort på stedet. Prisen avhenger av type ID-kort.",
+            "tip": "Sjekk oppdaterte priser på politiet.no."
+          },
+          {
+            "title": "Vent på ID-kortet",
+            "description": "ID-kortet sendes i posten. Det tar vanligvis 10-14 dager.",
+            "tip": "Du kan spore sendingen med referansenummeret ditt."
+          }
+        ],
+        "tipsTitle": "Nyttige tips",
+        "tips": [
+          "ID-kortet er mindre enn pass og passer i lommeboken",
+          "Du kan ha både pass og ID-kort",
+          "ID-kort med reiserett godtas som legitimasjon overalt i Norge",
+          "Barn kan også få ID-kort",
+          "Ved tap må du melde fra til politiet"
+        ]
       }
     }
   },

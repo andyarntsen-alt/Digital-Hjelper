@@ -11,12 +11,14 @@ interface Favorite {
 }
 
 export default function FavoritterPage() {
+  const [mounted, setMounted] = useState(false);
   const [favorites, setFavorites] = useState<Favorite[]>([]);
   const t = useTranslations('favorites');
   const tCommon = useTranslations('common');
   const locale = useLocale();
 
   useEffect(() => {
+    setMounted(true);
     const stored = JSON.parse(localStorage.getItem('favorites') || '[]');
     setFavorites(stored);
   }, []);
@@ -26,6 +28,19 @@ export default function FavoritterPage() {
     localStorage.setItem('favorites', JSON.stringify(newFavorites));
     setFavorites(newFavorites);
   };
+
+  // Show loading state until mounted to avoid hydration mismatch
+  if (!mounted) {
+    return (
+      <div className="max-w-4xl mx-auto px-4 py-12">
+        <div className="animate-pulse">
+          <div className="h-6 w-32 bg-gray-200 rounded mb-6"></div>
+          <div className="h-10 w-64 bg-gray-200 rounded mb-4"></div>
+          <div className="h-6 w-96 bg-gray-200 rounded mb-8"></div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">

@@ -7,6 +7,7 @@ import LanguageSelector from './LanguageSelector';
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [moreOpen, setMoreOpen] = useState(false);
   const t = useTranslations('header');
   const tCommon = useTranslations('common');
 
@@ -42,9 +43,44 @@ export default function Header() {
               {t('helse')}
             </Link>
             <span className="text-gray-300">|</span>
-            <Link href="/ordbok" className="text-base text-gray-600 hover:text-nav-blue no-underline">
-              {t('ordbok')}
-            </Link>
+            <div
+              className="relative"
+              onMouseEnter={() => setMoreOpen(true)}
+              onMouseLeave={() => setMoreOpen(false)}
+            >
+              <button className="text-base text-gray-600 hover:text-nav-blue flex items-center gap-1">
+                {t('more')}
+                <svg xmlns="http://www.w3.org/2000/svg" className={`h-4 w-4 transition-transform ${moreOpen ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              {moreOpen && (
+                <div className="absolute top-full left-0 mt-2 bg-white rounded-lg shadow-lg border border-gray-200 py-2 min-w-[160px] z-50">
+                  <Link href="/sikkerhet" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 no-underline">
+                    {t('sikkerhet')}
+                  </Link>
+                  <Link href="/bank" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 no-underline">
+                    {t('bank')}
+                  </Link>
+                  <Link href="/digital" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 no-underline">
+                    {t('digital')}
+                  </Link>
+                  <Link href="/bolig" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 no-underline">
+                    {t('bolig')}
+                  </Link>
+                  <Link href="/utdanning" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 no-underline">
+                    {t('utdanning')}
+                  </Link>
+                  <Link href="/id" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 no-underline">
+                    {t('id')}
+                  </Link>
+                  <hr className="my-2 border-gray-200" />
+                  <Link href="/ordbok" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 no-underline">
+                    {t('ordbok')}
+                  </Link>
+                </div>
+              )}
+            </div>
             <Link href="/faq" className="text-base text-gray-600 hover:text-nav-blue no-underline">
               {t('faq')}
             </Link>

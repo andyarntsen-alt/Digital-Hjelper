@@ -1,5 +1,6 @@
 'use client';
 
+import FavoriteButton from '@/components/FavoriteButton';
 import StepGuide from '@/components/StepGuide';
 import { Link } from '@/i18n/navigation';
 import { useTranslations } from 'next-intl';
@@ -8,22 +9,13 @@ export default function SykepengerPage() {
   const t = useTranslations('guides.nav.sykepenger');
 
   // Build steps array from translations
-  const steps = [];
-  for (let i = 0; i < 8; i++) {
-    const step: { title: string; description: string; tip?: string; warning?: string } = {
-      title: t(`steps.${i}.title`),
-      description: t(`steps.${i}.description`),
-    };
-    const tip = t.raw(`steps.${i}.tip`);
-    if (tip && typeof tip === 'string') {
-      step.tip = tip;
-    }
-    const warning = t.raw(`steps.${i}.warning`);
-    if (warning && typeof warning === 'string') {
-      step.warning = warning;
-    }
-    steps.push(step);
-  }
+  const stepsRaw = t.raw('steps') as { title: string; description: string; tip?: string; warning?: string }[];
+  const steps = stepsRaw.map(step => ({
+    title: step.title,
+    description: step.description,
+    ...(step.tip && { tip: step.tip }),
+    ...(step.warning && { warning: step.warning }),
+  }));
 
   // Get requirements list
   const requirements = t.raw('requirements') as string[];
@@ -46,8 +38,11 @@ export default function SykepengerPage() {
           <span className="mx-2">•</span>
           <span className="bg-yellow-100 text-yellow-700 px-2 py-0.5 rounded-full text-sm">{t('difficulty')}</span>
         </div>
-        <h1 className="text-4xl font-bold text-gray-800 mb-4">{t('title')}</h1>
-        <p className="text-xl text-gray-600">
+        <div className="flex flex-wrap items-start justify-between gap-4">
+          <h1 className="text-4xl font-bold text-gray-800">{t('title')}</h1>
+          <FavoriteButton guideId="nav-sykepenger" title={t('title')} />
+        </div>
+        <p className="text-xl text-gray-600 mt-4">
           {t('longDescription')}
         </p>
       </div>

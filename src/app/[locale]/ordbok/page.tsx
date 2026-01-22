@@ -14,9 +14,11 @@ interface OrdDefinisjon {
 const ordliste: OrdDefinisjon[] = [
   // NAV-ord
   { ord: 'Arbeidsavklaringspenger (AAP)', forklaring: 'Penger du kan få fra NAV hvis du ikke kan jobbe på grunn av sykdom eller skade, og trenger hjelp til å komme tilbake i jobb.', eksempel: 'Etter 1 år på sykepenger kan du søke AAP.', kategori: 'NAV' },
+  { ord: 'Barnetrygd', forklaring: 'Penger alle foreldre får automatisk fra NAV for barn under 18 år.', eksempel: 'Barnetrygd utbetales den 10. hver måned.', kategori: 'NAV' },
   { ord: 'Dagpenger', forklaring: 'Penger du kan få fra NAV når du har mistet jobben eller er permittert.', eksempel: 'Dagpenger er ca. 62% av lønnen din.', kategori: 'NAV' },
   { ord: 'Fedrekvote', forklaring: 'Den delen av foreldrepermisjonen som er forbeholdt far eller medmor. Kan ikke overføres til mor.', eksempel: 'Fedrekvoten er 15 uker.', kategori: 'NAV' },
   { ord: 'Grunnbeløpet (G)', forklaring: 'Et beløp som brukes til å beregne mange ytelser fra NAV. Justeres hvert år.', eksempel: 'I 2024 er G ca. 118 620 kr.', kategori: 'NAV' },
+  { ord: 'Kontantstøtte', forklaring: 'Støtte til foreldre som passer barn hjemme i stedet for å bruke barnehage.', eksempel: 'Du kan få kontantstøtte for barn mellom 1-2 år.', kategori: 'NAV' },
   { ord: 'Meldekort', forklaring: 'Et skjema du sender til NAV hver 14. dag for å rapportere om du har jobbet, vært syk eller søkt jobber.', eksempel: 'Send meldekort for å få utbetalt dagpenger.', kategori: 'NAV' },
   { ord: 'Mødrekvote', forklaring: 'Den delen av foreldrepermisjonen som er forbeholdt mor. Kan ikke overføres til far.', eksempel: 'Mødrekvoten er 15 uker.', kategori: 'NAV' },
   { ord: 'Permittert', forklaring: 'Midlertidig fritatt fra jobb fordi arbeidsgiveren ikke har arbeid til deg, men du er fortsatt ansatt.', eksempel: 'Mange ble permittert under koronapandemien.', kategori: 'NAV' },
@@ -42,15 +44,52 @@ const ordliste: OrdDefinisjon[] = [
   { ord: 'Frikort', forklaring: 'Kort som gir deg gratis helsetjenester når du har betalt nok i egenandeler (frikortgrensen).', eksempel: 'Frikortgrensen er ca. 3 040 kr (2024).', kategori: 'Helse' },
   { ord: 'Henvisning', forklaring: 'Et brev fra fastlegen din som gir deg rett til behandling hos spesialist eller sykehus.', eksempel: 'Du trenger henvisning for å gå til spesialist.', kategori: 'Helse' },
   { ord: 'Hvit resept', forklaring: 'Vanlig resept der du betaler hele eller deler av kostnaden selv.', eksempel: 'Antibiotika får du ofte på hvit resept.', kategori: 'Helse' },
+  { ord: 'Kjernejournal', forklaring: 'Digital oversikt over viktig helseinformasjon som deles mellom helsetjenester.', eksempel: 'Kjernejournalen viser legemidler og allergier.', kategori: 'Helse' },
+  { ord: 'Legevakt', forklaring: 'Akutt legehjelp når fastlegen er stengt. Ring 116 117.', eksempel: 'Legevakten er åpen hele døgnet.', kategori: 'Helse' },
   { ord: 'Pasientjournal', forklaring: 'Dokumentasjon av all helsehjelp du har fått. Du har rett til å lese din egen journal.', eksempel: 'Du kan lese journalen din på Helsenorge.', kategori: 'Helse' },
   { ord: 'Sykemelding', forklaring: 'Dokument fra legen som bekrefter at du er syk og ikke kan jobbe.', eksempel: 'Legen sender sykemeldingen elektronisk til NAV.', kategori: 'Helse' },
 
   // Generelle digitale ord
-  { ord: 'BankID', forklaring: 'En digital identitet du bruker til å logge inn på nettsider og signere dokumenter. Du får BankID fra banken din.', eksempel: 'Logg inn med BankID på mobilen.', kategori: 'Digital' },
-  { ord: 'MinID', forklaring: 'En enklere innloggingsløsning enn BankID, men gir ikke tilgang til alle tjenester.', eksempel: 'MinID fungerer ikke for skattemeldingen.', kategori: 'Digital' },
-  { ord: 'ID-porten', forklaring: 'Systemet som håndterer innlogging til offentlige nettsider som NAV, Skatteetaten og Helsenorge.', eksempel: 'ID-porten er felles for alle offentlige tjenester.', kategori: 'Digital' },
   { ord: 'Altinn', forklaring: 'Nettsted der du kan sende inn skjemaer og dokumenter til det offentlige.', eksempel: 'Du finner skattemeldingen din på Altinn.', kategori: 'Digital' },
+  { ord: 'App', forklaring: 'Et program du laster ned på telefonen din.', eksempel: 'Last ned NAV-appen fra App Store eller Google Play.', kategori: 'Digital' },
+  { ord: 'BankID', forklaring: 'En digital identitet du bruker til å logge inn på nettsider og signere dokumenter. Du får BankID fra banken din.', eksempel: 'Logg inn med BankID på mobilen.', kategori: 'Digital' },
   { ord: 'Digipost/e-Boks', forklaring: 'Digital postkasse der du kan motta brev fra offentlige etater og bedrifter.', eksempel: 'Skatteoppgjøret kommer i Digipost.', kategori: 'Digital' },
+  { ord: 'ID-porten', forklaring: 'Systemet som håndterer innlogging til offentlige nettsider som NAV, Skatteetaten og Helsenorge.', eksempel: 'ID-porten er felles for alle offentlige tjenester.', kategori: 'Digital' },
+  { ord: 'MinID', forklaring: 'En enklere innloggingsløsning enn BankID, men gir ikke tilgang til alle tjenester.', eksempel: 'MinID fungerer ikke for skattemeldingen.', kategori: 'Digital' },
+  { ord: 'Nettleser', forklaring: 'Program for å se på nettsider, som Google Chrome, Safari eller Edge.', eksempel: 'Åpne nettleseren for å gå til nav.no.', kategori: 'Digital' },
+
+  // Bank-ord
+  { ord: 'AvtaleGiro', forklaring: 'Automatisk betaling av faste regninger som strøm, forsikring og husleie.', eksempel: 'Med AvtaleGiro betales regningen automatisk på forfallsdato.', kategori: 'Bank' },
+  { ord: 'eFaktura', forklaring: 'Digital faktura som kommer rett inn i nettbanken din, så du slipper å taste inn tall.', eksempel: 'Slå på eFaktura for å få regninger automatisk i nettbanken.', kategori: 'Bank' },
+  { ord: 'Forfallsdato', forklaring: 'Siste dag en regning må betales uten ekstra gebyr.', eksempel: 'Forfallsdatoen står øverst på regningen.', kategori: 'Bank' },
+  { ord: 'Inkasso', forklaring: 'Når et firma sender regningen din til et inkassoselskap fordi du ikke har betalt.', eksempel: 'Betal før inkasso for å unngå ekstra gebyrer og betalingsanmerkning.', kategori: 'Bank' },
+  { ord: 'KID-nummer', forklaring: 'En tallrekke på regninger som identifiserer betalingen din. Viktig å taste riktig.', eksempel: 'KID-nummeret står på fakturaen, ofte 15-25 siffer.', kategori: 'Bank' },
+  { ord: 'Nettbank', forklaring: 'Bankens tjeneste på internett der du kan betale regninger, se saldo og overføre penger.', eksempel: 'Du logger inn i nettbanken med BankID.', kategori: 'Bank' },
+  { ord: 'Saldo', forklaring: 'Hvor mye penger du har på kontoen din akkurat nå.', eksempel: 'Sjekk saldoen i nettbanken før du betaler en stor regning.', kategori: 'Bank' },
+  { ord: 'Vipps', forklaring: 'Norsk betalingsapp for å sende penger til venner, betale i butikker og dele regninger.', eksempel: 'Over 4 millioner nordmenn bruker Vipps.', kategori: 'Bank' },
+
+  // Sikkerhet-ord
+  { ord: 'Passordbehandler', forklaring: 'Et program som lagrer alle passordene dine trygt, så du bare trenger å huske ett hovedpassord.', eksempel: 'Bitwarden og 1Password er populære passordbehandlere.', kategori: 'Sikkerhet' },
+  { ord: 'Phishing', forklaring: 'Svindelforsøk via falske e-poster eller meldinger som prøver å lure deg til å gi fra deg personlig informasjon.', eksempel: 'En e-post som later som den er fra banken kan være phishing. Klikk aldri på lenker du er usikker på.', kategori: 'Sikkerhet' },
+  { ord: 'Svindel', forklaring: 'Når noen prøver å lure deg for penger eller personlig informasjon.', eksempel: 'Ring aldri tilbake til ukjente numre som ber om personlige opplysninger - det kan være svindel.', kategori: 'Sikkerhet' },
+  { ord: 'To-faktor (2FA)', forklaring: 'Ekstra sikkerhet der du trenger både passord og en kode fra telefonen for å logge inn.', eksempel: 'Slå på to-faktor for ekstra beskyttelse av e-posten din.', kategori: 'Sikkerhet' },
+
+  // Bolig-ord
+  { ord: 'Bostøtte', forklaring: 'Økonomisk støtte fra Husbanken til å betale husleie eller boutgifter for de med lav inntekt.', eksempel: 'Bostøtte utbetales rundt den 10. hver måned.', kategori: 'Bolig' },
+  { ord: 'Husbanken', forklaring: 'Statlig bank som gir lån og tilskudd til boliger, og forvalter bostøtteordningen.', eksempel: 'Søk bostøtte gjennom Husbanken på husbanken.no.', kategori: 'Bolig' },
+  { ord: 'Kommunal bolig', forklaring: 'Bolig eid av kommunen som leies ut til de som har vanskelig for å skaffe bolig selv.', eksempel: 'Kommunal bolig har ofte lavere husleie enn private utleiere.', kategori: 'Bolig' },
+  { ord: 'Startlån', forklaring: 'Lån fra kommunen til deg som ikke får vanlig boliglån i banken.', eksempel: 'Startlån kan hjelpe førstegangskjøpere som ikke har nok egenkapital.', kategori: 'Bolig' },
+
+  // Utdanning-ord
+  { ord: 'Lånekassen', forklaring: 'Statlig organ som gir studielån og stipend til utdanning i Norge og utlandet.', eksempel: 'Søk stipend og lån hos Lånekassen på lanekassen.no.', kategori: 'Utdanning' },
+  { ord: 'Stipend', forklaring: 'Penger til utdanning som du ikke trenger å betale tilbake.', eksempel: 'Du kan få opptil 40% av støtten som stipend hvis du fullfører studiene.', kategori: 'Utdanning' },
+  { ord: 'Studielån', forklaring: 'Lån fra Lånekassen til å dekke utgifter under utdanning. Må betales tilbake etter studiene.', eksempel: 'Tilbakebetalingen av studielånet starter vanligvis 7 måneder etter fullført utdanning.', kategori: 'Utdanning' },
+
+  // ID-ord
+  { ord: 'Folkeregisteret', forklaring: 'Offentlig register over alle som bor i Norge med adresse og personopplysninger.', eksempel: 'Meld flytting til Folkeregisteret innen 8 dager.', kategori: 'ID' },
+  { ord: 'Nasjonalt ID-kort', forklaring: 'Norsk ID-kort med bilde som kan brukes som legitimasjon i Norge og til reiser i EU/EØS.', eksempel: 'Nasjonalt ID-kort er ikke gyldig reisedokument utenfor EU/EØS.', kategori: 'ID' },
+  { ord: 'Pass', forklaring: 'Offisielt reisedokument som bekrefter identitet og norsk statsborgerskap.', eksempel: 'Du må ha gyldig pass for å reise utenfor Europa.', kategori: 'ID' },
+  { ord: 'Personnummer', forklaring: 'De 11 sifrene som unikt identifiserer deg i Norge (fødselsdato + 5 siffer).', eksempel: 'Personnummeret brukes ved innlogging med BankID og hos legen.', kategori: 'ID' },
 ];
 
 export default function OrdbokPage() {
@@ -130,22 +169,32 @@ export default function OrdbokPage() {
         >
           {t('all')} ({ordliste.length})
         </button>
-        {kategorier.map(k => (
-          <button
-            key={k}
-            onClick={() => setSelectedKategori(k)}
-            className={`px-4 py-2 rounded-full font-medium transition-colors ${
-              selectedKategori === k
-                ? k === 'NAV' ? 'bg-nav-blue text-white'
-                : k === 'Skatt' ? 'bg-skatt-green text-white'
-                : k === 'Helse' ? 'bg-helse-red text-white'
-                : 'bg-purple-600 text-white'
-                : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-            }`}
-          >
-            {k} ({ordliste.filter(o => o.kategori === k).length})
-          </button>
-        ))}
+        {kategorier.map(k => {
+          const getKategoriFarge = (kategori: string, isSelected: boolean) => {
+            if (!isSelected) return 'bg-gray-100 text-gray-700 hover:bg-gray-200';
+            switch (kategori) {
+              case 'NAV': return 'bg-nav-blue text-white';
+              case 'Skatt': return 'bg-skatt-green text-white';
+              case 'Helse': return 'bg-helse-red text-white';
+              case 'Digital': return 'bg-purple-600 text-white';
+              case 'Bank': return 'bg-orange-500 text-white';
+              case 'Sikkerhet': return 'bg-rose-600 text-white';
+              case 'Bolig': return 'bg-teal-600 text-white';
+              case 'Utdanning': return 'bg-indigo-600 text-white';
+              case 'ID': return 'bg-cyan-600 text-white';
+              default: return 'bg-gray-600 text-white';
+            }
+          };
+          return (
+            <button
+              key={k}
+              onClick={() => setSelectedKategori(k)}
+              className={`px-4 py-2 rounded-full font-medium transition-colors ${getKategoriFarge(k, selectedKategori === k)}`}
+            >
+              {k} ({ordliste.filter(o => o.kategori === k).length})
+            </button>
+          );
+        })}
       </div>
 
       {/* Ordliste */}
@@ -158,7 +207,13 @@ export default function OrdbokPage() {
                 ord.kategori === 'NAV' ? 'bg-blue-100 text-nav-blue'
                 : ord.kategori === 'Skatt' ? 'bg-green-100 text-skatt-green'
                 : ord.kategori === 'Helse' ? 'bg-red-100 text-helse-red'
-                : 'bg-purple-100 text-purple-700'
+                : ord.kategori === 'Digital' ? 'bg-purple-100 text-purple-700'
+                : ord.kategori === 'Bank' ? 'bg-orange-100 text-orange-700'
+                : ord.kategori === 'Sikkerhet' ? 'bg-rose-100 text-rose-700'
+                : ord.kategori === 'Bolig' ? 'bg-teal-100 text-teal-700'
+                : ord.kategori === 'Utdanning' ? 'bg-indigo-100 text-indigo-700'
+                : ord.kategori === 'ID' ? 'bg-cyan-100 text-cyan-700'
+                : 'bg-gray-100 text-gray-700'
               }`}>
                 {ord.kategori}
               </span>

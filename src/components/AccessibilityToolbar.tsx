@@ -6,11 +6,13 @@ import { useTranslations } from 'next-intl';
 export default function AccessibilityToolbar() {
   const t = useTranslations('accessibility');
   const tCommon = useTranslations('common');
+  const [mounted, setMounted] = useState(false);
   const [fontSize, setFontSize] = useState<'normal' | 'large' | 'extra-large'>('normal');
   const [highContrast, setHighContrast] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
+    setMounted(true);
     // Last innstillinger fra localStorage
     const savedFontSize = localStorage.getItem('fontSize') as 'normal' | 'large' | 'extra-large' | null;
     const savedContrast = localStorage.getItem('highContrast') === 'true';
@@ -37,6 +39,23 @@ export default function AccessibilityToolbar() {
     localStorage.setItem('fontSize', fontSize);
     localStorage.setItem('highContrast', String(highContrast));
   }, [fontSize, highContrast]);
+
+  // Don't render until mounted to avoid hydration mismatch
+  if (!mounted) {
+    return (
+      <div className="fixed bottom-4 right-4 z-50">
+        <button
+          className="bg-nav-blue text-white p-4 rounded-full shadow-lg"
+          aria-label={t('title')}
+          disabled
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+          </svg>
+        </button>
+      </div>
+    );
+  }
 
   return (
     <div className="fixed bottom-4 right-4 z-50">

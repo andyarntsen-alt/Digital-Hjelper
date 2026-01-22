@@ -1,34 +1,21 @@
 'use client';
 
 import StepGuide from '@/components/StepGuide';
+import FavoriteButton from '@/components/FavoriteButton';
 import { Link } from '@/i18n/navigation';
 import { useTranslations } from 'next-intl';
 
 export default function NAVLoginPage() {
   const t = useTranslations('guides.nav.loggInn');
-  const tCommon = useTranslations('common');
 
   // Build steps array from translations
-  const steps = [];
-  for (let i = 0; i < 6; i++) {
-    const step: { title: string; description: string; tip?: string; warning?: string } = {
-      title: t(`steps.${i}.title`),
-      description: t(`steps.${i}.description`),
-    };
-    // Check if tip exists
-    const tipKey = `steps.${i}.tip`;
-    const tip = t.raw(tipKey);
-    if (tip && typeof tip === 'string') {
-      step.tip = tip;
-    }
-    // Check if warning exists
-    const warningKey = `steps.${i}.warning`;
-    const warning = t.raw(warningKey);
-    if (warning && typeof warning === 'string') {
-      step.warning = warning;
-    }
-    steps.push(step);
-  }
+  const stepsRaw = t.raw('steps') as { title: string; description: string; tip?: string; warning?: string }[];
+  const steps = stepsRaw.map(step => ({
+    title: step.title,
+    description: step.description,
+    ...(step.tip && { tip: step.tip }),
+    ...(step.warning && { warning: step.warning }),
+  }));
 
   // Get problems list
   const problemsList = t.raw('problemsList') as string[];
@@ -51,8 +38,11 @@ export default function NAVLoginPage() {
           <span className="mx-2">•</span>
           <span className="bg-green-100 text-green-700 px-2 py-0.5 rounded-full text-sm">{t('difficulty')}</span>
         </div>
-        <h1 className="text-4xl font-bold text-gray-800 mb-4">{t('title')}</h1>
-        <p className="text-xl text-gray-600">
+        <div className="flex flex-wrap items-start justify-between gap-4">
+          <h1 className="text-4xl font-bold text-gray-800">{t('title')}</h1>
+          <FavoriteButton guideId="nav-logg-inn" title={t('title')} />
+        </div>
+        <p className="text-xl text-gray-600 mt-4">
           {t('longDescription')}
         </p>
       </div>

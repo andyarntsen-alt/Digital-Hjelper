@@ -1,4 +1,9 @@
 import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+import { Analytics } from '@vercel/analytics/next';
+import './globals.css';
+
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'LettDigital - Enkel veiledning for offentlige tjenester',
@@ -10,5 +15,16 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return children;
+  return (
+    <html lang="no">
+      <head>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+      </head>
+      <body className={`${inter.className} bg-gray-50 min-h-screen flex flex-col`}>
+        {children}
+        <Analytics />
+      </body>
+    </html>
+  );
 }
