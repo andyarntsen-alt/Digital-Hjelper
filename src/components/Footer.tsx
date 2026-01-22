@@ -41,15 +41,27 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">{t('contact')}</h3>
             <a
-              href="mailto:kontakt@digitalhjelper.no"
-              className="text-nav-blue hover:text-blue-300 no-underline"
+              href="mailto:kontakt@lettdigital.no"
+              className="text-blue-400 hover:text-blue-300 no-underline"
             >
-              {t('email')}
+              kontakt@lettdigital.no
             </a>
+            <div className="mt-4">
+              <Link href="/personvern" className="text-gray-400 hover:text-white no-underline text-sm">
+                {t('privacy')}
+              </Link>
+            </div>
           </div>
         </div>
 
-        <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+        {/* Disclaimer */}
+        <div className="border-t border-gray-700 mt-8 pt-6">
+          <p className="text-gray-400 text-sm text-center max-w-3xl mx-auto">
+            <strong>{t('disclaimerTitle')}:</strong> {t('disclaimerText')}
+          </p>
+        </div>
+
+        <div className="border-t border-gray-700 mt-6 pt-6 text-center text-gray-400">
           <p>© {new Date().getFullYear()} {t('copyright')}</p>
         </div>
       </div>

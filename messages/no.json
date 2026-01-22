@@ -47,7 +47,10 @@
     "quickLinks": "Hurtiglenker",
     "contact": "Kontakt",
     "email": "kontakt@lettdigital.no",
-    "copyright": "LettDigital. Laget for alle."
+    "copyright": "LettDigital. Laget for alle.",
+    "privacy": "Personvern",
+    "disclaimerTitle": "Viktig å vite",
+    "disclaimerText": "LettDigital er ikke en del av NAV, Skatteetaten, Helsenorge eller andre offentlige etater. Vi er en uavhengig hjelpetjeneste som forklarer hvordan tjenestene fungerer. All offisiell informasjon finner du på etatenes egne nettsider."
   },
   "accessibility": {
     "title": "Tilgjengelighet",
