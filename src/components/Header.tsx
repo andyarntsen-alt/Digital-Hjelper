@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useRef, useCallback } from 'react';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import LanguageSelector from './LanguageSelector';
@@ -8,8 +8,24 @@ import LanguageSelector from './LanguageSelector';
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [moreOpen, setMoreOpen] = useState(false);
+  const closeTimeoutRef = useRef<NodeJS.Timeout | null>(null);
   const t = useTranslations('header');
   const tCommon = useTranslations('common');
+
+  // Forsinkelse før lukking for å gjøre menyen mindre sensitiv
+  const handleMouseEnter = useCallback(() => {
+    if (closeTimeoutRef.current) {
+      clearTimeout(closeTimeoutRef.current);
+      closeTimeoutRef.current = null;
+    }
+    setMoreOpen(true);
+  }, []);
+
+  const handleMouseLeave = useCallback(() => {
+    closeTimeoutRef.current = setTimeout(() => {
+      setMoreOpen(false);
+    }, 150); // 150ms forsinkelse før lukking
+  }, []);
 
   return (
     <header className="bg-white shadow-md sticky top-0 z-40">
@@ -45,11 +61,11 @@ export default function Header() {
             <span className="text-gray-300">|</span>
             <div
               className="relative"
-              onMouseEnter={() => setMoreOpen(true)}
-              onMouseLeave={() => setMoreOpen(false)}
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
             >
               <button
-                className="text-base text-gray-600 hover:text-nav-blue flex items-center gap-1"
+                className="text-base text-gray-600 hover:text-nav-blue flex items-center gap-1 py-2"
                 onClick={() => setMoreOpen(!moreOpen)}
                 onKeyDown={(e) => {
                   if (e.key === 'Enter' || e.key === ' ') {
@@ -68,15 +84,18 @@ export default function Header() {
                 </svg>
               </button>
               {moreOpen && (
-                <div
-                  className="absolute top-full left-0 mt-2 bg-white rounded-lg shadow-lg border border-gray-200 py-2 min-w-[160px] z-50"
-                  role="menu"
-                  onKeyDown={(e) => {
-                    if (e.key === 'Escape') {
-                      setMoreOpen(false);
-                    }
-                  }}
-                >
+                <>
+                  {/* Usynlig bro for å koble knappen til dropdown */}
+                  <div className="absolute top-full left-0 w-full h-2" />
+                  <div
+                    className="absolute top-full left-0 mt-2 bg-white rounded-lg shadow-lg border border-gray-200 py-2 min-w-[180px] z-50"
+                    role="menu"
+                    onKeyDown={(e) => {
+                      if (e.key === 'Escape') {
+                        setMoreOpen(false);
+                      }
+                    }}
+                  >
                   <Link href="/sikkerhet" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none no-underline" role="menuitem" tabIndex={0}>
                     {t('sikkerhet')}
                   </Link>
@@ -102,7 +121,8 @@ export default function Header() {
                   <Link href="/ordbok" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none no-underline" role="menuitem" tabIndex={0}>
                     {t('ordbok')}
                   </Link>
-                </div>
+                  </div>
+                </>
               )}
             </div>
             <Link href="/faq" className="text-base text-gray-600 hover:text-nav-blue no-underline">
