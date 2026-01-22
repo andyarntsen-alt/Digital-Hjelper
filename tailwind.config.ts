@@ -18,6 +18,7 @@ const config: Config = {
         'nav-dark': '#004d99',
         'skatt-green': '#1a7d36',
         'helse-red': '#c30000',
+        'grunnleggende-purple': '#7c3aed',
       },
       fontSize: {
         'accessible': '1.25rem',

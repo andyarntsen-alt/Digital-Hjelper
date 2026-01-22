@@ -23,6 +23,8 @@ interface TranslatedGuide {
 const guideData: GuideData[] = [
   // NAV
   { titleKey: 'nav.loggInn.title', descriptionKey: 'nav.loggInn.description', href: '/nav/logg-inn', categoryKey: 'nav', keywords: ['innlogging', 'bankid', 'minid', 'passord', 'login', 'gal'] },
+  { titleKey: 'nav.pensjon.title', descriptionKey: 'nav.pensjon.description', href: '/nav/pensjon', categoryKey: 'nav', keywords: ['pensjon', 'alderspensjon', 'pensjonist', 'eldre', 'gammel', '67', '62', 'pension', 'retire', 'retirement'] },
+  { titleKey: 'nav.uforetrygd.title', descriptionKey: 'nav.uforetrygd.description', href: '/nav/uforetrygd', categoryKey: 'nav', keywords: ['uføretrygd', 'ufør', 'syk', 'helse', 'disability', 'arbeidsufør', 'trygd'] },
   { titleKey: 'nav.dagpenger.title', descriptionKey: 'nav.dagpenger.description', href: '/nav/dagpenger', categoryKey: 'nav', keywords: ['arbeidsledig', 'mistet jobb', 'oppsigelse', 'permittert', 'penger', 'unemployment', 'shaqo'] },
   { titleKey: 'nav.sykepenger.title', descriptionKey: 'nav.sykepenger.description', href: '/nav/sykepenger', categoryKey: 'nav', keywords: ['syk', 'sykemelding', 'lege', 'sykdom', 'sick', 'xanuun'] },
   { titleKey: 'nav.foreldrepenger.title', descriptionKey: 'nav.foreldrepenger.description', href: '/nav/foreldrepenger', categoryKey: 'nav', keywords: ['barn', 'baby', 'fødsel', 'permisjon', 'mamma', 'pappa', 'fedrekvote', 'parental'] },
@@ -75,6 +77,13 @@ const guideData: GuideData[] = [
   { titleKey: 'id.pass.title', descriptionKey: 'id.pass.description', href: '/id/pass', categoryKey: 'id', keywords: ['pass', 'reise', 'id', 'passport', 'travel', 'utland'] },
   { titleKey: 'id.forerkort.title', descriptionKey: 'id.forerkort.description', href: '/id/forerkort', categoryKey: 'id', keywords: ['førerkort', 'kjøre', 'bil', 'license', 'driving', 'fornye'] },
   { titleKey: 'id.idKort.title', descriptionKey: 'id.idKort.description', href: '/id/id-kort', categoryKey: 'id', keywords: ['idkort', 'id', 'legitimasjon', 'identity', 'card', 'nasjonalt'] },
+
+  // Grunnleggende teknologi
+  { titleKey: 'grunnleggende.smarttelefon.title', descriptionKey: 'grunnleggende.smarttelefon.description', href: '/grunnleggende/smarttelefon', categoryKey: 'grunnleggende', keywords: ['smarttelefon', 'mobil', 'telefon', 'iphone', 'android', 'app', 'apper', 'ringe', 'sms'] },
+  { titleKey: 'grunnleggende.nettleser.title', descriptionKey: 'grunnleggende.nettleser.description', href: '/grunnleggende/nettleser', categoryKey: 'grunnleggende', keywords: ['nettleser', 'internett', 'chrome', 'safari', 'edge', 'google', 'søk', 'nettside', 'browser'] },
+  { titleKey: 'grunnleggende.videosamtale.title', descriptionKey: 'grunnleggende.videosamtale.description', href: '/grunnleggende/videosamtale', categoryKey: 'grunnleggende', keywords: ['videosamtale', 'zoom', 'teams', 'facetime', 'video', 'møte', 'samtale', 'kamera', 'familie'] },
+  { titleKey: 'grunnleggende.passordHjelp.title', descriptionKey: 'grunnleggende.passordHjelp.description', href: '/grunnleggende/passord-hjelp', categoryKey: 'grunnleggende', keywords: ['passord', 'glemt', 'innlogging', 'reset', 'nullstill', 'kode', 'sikkerhet'] },
+  { titleKey: 'grunnleggende.faHjelp.title', descriptionKey: 'grunnleggende.faHjelp.description', href: '/grunnleggende/fa-hjelp', categoryKey: 'grunnleggende', keywords: ['hjelp', 'seniornett', 'bibliotek', 'kurs', 'datahjelp', 'frivillig', 'support'] },
 ];
 
 export default function SearchBox() {
@@ -197,6 +206,7 @@ export default function SearchBox() {
                 : result.category === 'bolig' ? 'bg-teal-600 text-white'
                 : result.category === 'utdanning' ? 'bg-indigo-600 text-white'
                 : result.category === 'id' ? 'bg-cyan-600 text-white'
+                : result.category === 'grunnleggende' ? 'bg-grunnleggende-purple text-white'
                 : 'bg-gray-600 text-white'
               }`}>
                 {tServices(`${result.category}.title`)}

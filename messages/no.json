@@ -21,7 +21,8 @@
     "tryAgain": "Prøv igjen",
     "favorites": "Favoritter",
     "addToFavorites": "Legg til i favoritter",
-    "removeFromFavorites": "Fjern fra favoritter"
+    "removeFromFavorites": "Fjern fra favoritter",
+    "print": "Skriv ut"
   },
   "header": {
     "siteName": "LettDigital",
@@ -50,7 +51,12 @@
     "copyright": "LettDigital. Laget for alle.",
     "privacy": "Personvern",
     "disclaimerTitle": "Viktig å vite",
-    "disclaimerText": "LettDigital er ikke en del av NAV, Skatteetaten, Helsenorge eller andre offentlige etater. Vi er en uavhengig hjelpetjeneste som forklarer hvordan tjenestene fungerer. All offisiell informasjon finner du på etatenes egne nettsider."
+    "disclaimerText": "LettDigital er ikke en del av NAV, Skatteetaten, Helsenorge eller andre offentlige etater. Vi er en uavhengig hjelpetjeneste som forklarer hvordan tjenestene fungerer. All offisiell informasjon finner du på etatenes egne nettsider.",
+    "emergencyNumbers": "Nødnumre",
+    "ambulance": "Ambulanse",
+    "fire": "Brann",
+    "police": "Politi",
+    "emergencyRoom": "Legevakt"
   },
   "accessibility": {
     "title": "Tilgjengelighet",
@@ -60,7 +66,9 @@
     "extraLargeSize": "Ekstra stor",
     "highContrast": "Høy kontrast",
     "on": "På",
-    "off": "Av"
+    "off": "Av",
+    "readAloud": "Les høyt",
+    "stopReading": "Stopp lesing"
   },
   "home": {
     "heroTitle": "Trenger du hjelp med",
@@ -213,6 +221,24 @@
       "title": "ID og dokumenter",
       "shortDesc": "Pass og førerkort",
       "description": "Bestille pass, fornye førerkort og få nasjonalt ID-kort."
+    },
+    "grunnleggende": {
+      "title": "Grunnleggende teknologi",
+      "shortDesc": "Kom i gang med det digitale",
+      "description": "Lær grunnleggende bruk av smarttelefon, nettleser, videosamtaler og mer.",
+      "hubTitle": "Grunnleggende teknologi",
+      "hubSubtitle": "Lær det digitale fra bunnen av",
+      "didYouKnow": "Visste du?",
+      "didYouKnowText": "Det er aldri for sent å lære det digitale! Her finner du enkle guider som forklarer alt fra bunnen av - uten vanskelige ord.",
+      "selectGuide": "Velg hva du vil lære",
+      "needMoreHelp": "Trenger du personlig hjelp?",
+      "needMoreHelpText": "Mange bibliotek og frivillige organisasjoner tilbyr gratis datahjelp:",
+      "seniornett": "Seniornett Norge",
+      "seniornettDesc": "Tilbyr kurs og hjelp til eldre over hele landet",
+      "library": "Ditt lokale bibliotek",
+      "libraryDesc": "Mange bibliotek har gratis datahjelp og kurs",
+      "dataHjelpen": "Frivillige hjelpere",
+      "dataHjelpenDesc": "Spør familie, venner eller naboer om hjelp"
     }
   },
   "guides": {
@@ -703,6 +729,236 @@
             "tip": "Ta skjermbilde av bekreftelsen for egen dokumentasjon."
           }
         ]
+      },
+      "pensjon": {
+        "title": "Søke om alderspensjon",
+        "description": "Steg-for-steg guide for å søke alderspensjon fra NAV",
+        "longDescription": "Alderspensjon er penger du får fra NAV når du blir eldre. Her viser vi deg hvordan du sjekker hva du har rett på og hvordan du søker.",
+        "backToGuides": "Tilbake til NAV-veiledninger",
+        "time": "Ca. 15 minutter",
+        "difficulty": "Middels",
+        "whoCanGet": "Hvem kan få alderspensjon?",
+        "whoCanGetIntro": "Du kan ta ut alderspensjon når du:",
+        "requirements": [
+          "Er mellom 62 og 75 år (du velger selv når du vil starte)",
+          "Har bodd eller arbeidet i Norge i minst 5 år etter fylte 16 år",
+          "Er medlem av folketrygden"
+        ],
+        "importantChoicesTitle": "Viktige valg du må ta",
+        "importantChoices": [
+          {
+            "title": "Når skal du starte?",
+            "description": "Jo tidligere du tar ut pensjon, jo mindre får du per måned. Venter du til 67 år, får du full pensjon. Ta ut ved 62 år, og du får mindre - men over flere år."
+          },
+          {
+            "title": "Hvor mye vil du ta ut?",
+            "description": "Du kan ta ut 20%, 40%, 50%, 60%, 80% eller 100% av pensjonen din. Du kan jobbe ved siden av uten at pensjonen blir redusert."
+          },
+          {
+            "title": "Vil du kombinere med jobb?",
+            "description": "Du kan jobbe så mye du vil ved siden av alderspensjon. Inntekten din påvirker ikke pensjonen."
+          }
+        ],
+        "documentsTitle": "Dette trenger du",
+        "documents": [
+          "BankID eller MinID for innlogging",
+          "Kontonummer der du vil ha pensjonen utbetalt",
+          "Oversikt over eventuelle utenlandsopphold (hvis du har bodd i andre land)"
+        ],
+        "stepsTitle": "Slik søker du om alderspensjon",
+        "steps": [
+          {
+            "title": "Sjekk din pensjon på nav.no først",
+            "description": "Før du søker, bør du sjekke hva du kan få. Gå til nav.no og logg inn. Søk etter \"Din pensjon\" eller gå til \"Pensjon\" i menyen. Her ser du hvor mye du kan få ved ulike aldre.",
+            "tip": "Pensjonskalkulatoren viser deg nøyaktig hvor mye du får ved 62, 67 eller andre aldre. Bruk tid på å forstå dette først!"
+          },
+          {
+            "title": "Bestem deg for når og hvor mye",
+            "description": "Basert på kalkulatoren, bestem deg for når du vil starte og hvor stor andel du vil ta ut. Husk: du kan endre uttaksgraden senere, men du kan ikke angre på at du startet uttak.",
+            "warning": "Når du først har begynt å ta ut pensjon, kan du ikke stoppe helt. Du kan bare endre hvor mye du tar ut."
+          },
+          {
+            "title": "Logg inn på nav.no",
+            "description": "Gå til nav.no og logg inn med BankID eller MinID. Klikk på \"Logg inn\" øverst til høyre.",
+            "tip": "Se vår guide \"Logge inn på NAV\" hvis du trenger hjelp."
+          },
+          {
+            "title": "Finn pensjonssøknaden",
+            "description": "Etter innlogging, gå til \"Pensjon\" i menyen eller søk etter \"søk alderspensjon\". Klikk på \"Søk om alderspensjon\".",
+            "tip": "Du kan også ringe NAV på 55 55 33 33 og få hjelp til å søke over telefon."
+          },
+          {
+            "title": "Fyll ut personlig informasjon",
+            "description": "Søknaden viser din personlige informasjon. Sjekk at navn, adresse og kontonummer er riktig. Hvis noe er feil, må du endre det før du fortsetter.",
+            "warning": "Kontroller kontonummeret nøye - det er hit pensjonen kommer!"
+          },
+          {
+            "title": "Velg når du vil starte uttak",
+            "description": "Velg hvilken måned du ønsker å starte å motta pensjon. Du kan tidligst starte måneden etter at du søker.",
+            "tip": "De fleste velger å starte fra den 1. i en måned for enkelhets skyld."
+          },
+          {
+            "title": "Velg uttaksgrad",
+            "description": "Velg hvor stor andel av pensjonen du vil ta ut: 20%, 40%, 50%, 60%, 80% eller 100%. Du ser hvor mye dette utgjør i kroner per måned.",
+            "tip": "Mange velger 100% når de slutter å jobbe helt, eller en lavere grad hvis de fortsetter i deltidsjobb."
+          },
+          {
+            "title": "Oppgi eventuell AFP",
+            "description": "Hvis du har AFP (avtalefestet pensjon) fra arbeidsgiveren din, må du oppgi dette. AFP og alderspensjon kan kombineres.",
+            "tip": "Usikker på om du har AFP? Spør arbeidsgiveren din eller sjekk med din pensjonskasse."
+          },
+          {
+            "title": "Oppgi utenlandsopphold",
+            "description": "Hvis du har bodd eller arbeidet i andre land, må du oppgi dette. Det kan påvirke hvor mye pensjon du får fra Norge og om du har rett på pensjon fra andre land.",
+            "tip": "EU/EØS-land og land Norge har trygdeavtaler med kan gi deg rett på pensjon derfra også."
+          },
+          {
+            "title": "Les gjennom og send inn",
+            "description": "Kontroller alle opplysningene. Når alt er riktig, klikk på \"Send søknad\". Du får bekreftelse på skjermen og på e-post.",
+            "tip": "Ta vare på bekreftelsen. NAV behandler søknaden vanligvis innen 4 uker."
+          }
+        ],
+        "importantTitle": "Viktig å vite om alderspensjon",
+        "importantInfo": [
+          {
+            "title": "Skattetrekk",
+            "description": "Det trekkes skatt av pensjonen din. Du kan endre skattetrekket på skatteetaten.no."
+          },
+          {
+            "title": "Utbetaling",
+            "description": "Pensjon utbetales vanligvis rundt den 20. hver måned."
+          },
+          {
+            "title": "Kan endres",
+            "description": "Du kan endre uttaksgraden (hvor mye du tar ut) én gang per år."
+          },
+          {
+            "title": "Jobbe ved siden av",
+            "description": "Du kan jobbe så mye du vil uten at pensjonen blir redusert. Du tjener også opp mer pensjon hvis du jobber."
+          }
+        ],
+        "faqTitle": "Vanlige spørsmål om alderspensjon",
+        "faq": [
+          {
+            "question": "Når bør jeg ta ut pensjon?",
+            "answer": "Det avhenger av din situasjon. Tar du ut tidlig (62-66), får du mindre per måned, men over flere år. Venter du til 67 eller senere, får du mer per måned. Bruk kalkulatoren på nav.no for å se hva som passer deg."
+          },
+          {
+            "question": "Kan jeg jobbe og ha pensjon samtidig?",
+            "answer": "Ja! Du kan jobbe så mye du vil uten at pensjonen reduseres. Du fortsetter til og med å tjene opp mer pensjon når du jobber."
+          },
+          {
+            "question": "Hva er forskjellen på alderspensjon og AFP?",
+            "answer": "Alderspensjon er fra folketrygden (NAV) og alle har rett på den. AFP er en tilleggspensjon fra arbeidsgivere som har AFP-avtale. Du kan ha begge samtidig."
+          },
+          {
+            "question": "Kan jeg angre hvis jeg tar ut pensjon for tidlig?",
+            "answer": "Nei, du kan ikke stoppe uttaket helt når du først har startet. Men du kan redusere uttaksgraden ned til 20%."
+          }
+        ]
+      },
+      "uforetrygd": {
+        "title": "Søke om uføretrygd",
+        "description": "Steg-for-steg guide for å søke uføretrygd når helsen hindrer deg i å jobbe",
+        "longDescription": "Uføretrygd er penger du kan få fra NAV hvis du på grunn av sykdom eller skade ikke kan jobbe. Her viser vi deg hvordan du søker.",
+        "backToGuides": "Tilbake til NAV-veiledninger",
+        "time": "Ca. 20 minutter",
+        "difficulty": "Middels",
+        "whoCanGet": "Hvem kan få uføretrygd?",
+        "whoCanGetIntro": "For å få uføretrygd må du vanligvis:",
+        "requirements": [
+          "Være mellom 18 og 67 år",
+          "Ha vært medlem i folketrygden de siste 5 årene før du ble syk",
+          "Ha varig nedsatt arbeidsevne på grunn av sykdom eller skade",
+          "Ha prøvd behandling og arbeidsrettede tiltak uten at det har hjulpet nok"
+        ],
+        "beforeApplyingTitle": "Før du søker uføretrygd",
+        "beforeApplyingText": "NAV krever vanligvis at du har prøvd andre ting først:",
+        "beforeApplying": [
+          "Vært sykemeldt og mottatt sykepenger",
+          "Vært på arbeidsavklaringspenger (AAP) og prøvd tiltak",
+          "Fått medisinsk behandling for sykdommen/skaden din",
+          "Forsøkt tilpasninger på arbeidsplassen"
+        ],
+        "documentsTitle": "Dokumenter du trenger",
+        "documents": [
+          "BankID eller MinID for innlogging",
+          "Legeerklæring eller medisinsk dokumentasjon (NAV henter ofte dette selv)",
+          "Oversikt over tidligere behandling og tiltak du har prøvd",
+          "Kontonummer for utbetaling"
+        ],
+        "stepsTitle": "Slik søker du om uføretrygd",
+        "steps": [
+          {
+            "title": "Snakk med NAV først",
+            "description": "Før du søker, bør du ha en samtale med NAV-veilederen din. De kan vurdere om du har prøvd nok tiltak og om tidspunktet er riktig for å søke.",
+            "tip": "Ring NAV på 55 55 33 33 eller be om en samtale via nav.no."
+          },
+          {
+            "title": "Be legen din om dokumentasjon",
+            "description": "Fastlegen din må skrive en legeerklæring som beskriver sykdommen din og hvordan den påvirker arbeidsevnen. NAV kan også hente informasjon direkte fra legen.",
+            "tip": "Fortell legen at du planlegger å søke uføretrygd, så kan de forberede dokumentasjonen."
+          },
+          {
+            "title": "Logg inn på nav.no",
+            "description": "Gå til nav.no og logg inn med BankID eller MinID.",
+            "tip": "Du kan også søke på papir eller få hjelp på NAV-kontoret."
+          },
+          {
+            "title": "Finn søknaden om uføretrygd",
+            "description": "Søk etter \"uføretrygd\" i søkefeltet eller gå til \"Søknader\" og finn \"Søknad om uføretrygd\".",
+            "tip": "Søknaden er lang - sett av god tid. Du kan lagre underveis og fortsette senere."
+          },
+          {
+            "title": "Fyll ut personlig informasjon",
+            "description": "Sjekk at personopplysningene dine er riktige. Oppgi kontonummer for utbetaling.",
+            "warning": "Sjekk at kontonummeret er riktig - det er hit uføretrygden kommer."
+          },
+          {
+            "title": "Beskriv sykdommen/skaden din",
+            "description": "Du må forklare hva som feiler deg og hvordan det påvirker hverdagen og arbeidsevnen din. Vær ærlig og detaljert.",
+            "tip": "Beskriv hvordan en vanlig dag ser ut for deg - hva klarer du og hva klarer du ikke?"
+          },
+          {
+            "title": "Oppgi behandling og tiltak",
+            "description": "List opp all behandling du har fått og tiltak du har prøvd. Dette inkluderer sykmelding, AAP, medisinsk behandling, operasjoner, rehabilitering osv.",
+            "tip": "Jo mer dokumentasjon, jo bedre. NAV trenger å se at du har prøvd å bli bedre."
+          },
+          {
+            "title": "Oppgi arbeidshistorikk",
+            "description": "Fyll ut informasjon om jobbene du har hatt og utdanningen din. NAV bruker dette for å beregne hvor mye du skal få.",
+            "tip": "NAV henter mye informasjon automatisk, men sjekk at det stemmer."
+          },
+          {
+            "title": "Send inn søknaden",
+            "description": "Gå gjennom alle svarene og send inn søknaden. Du får bekreftelse på at den er mottatt.",
+            "warning": "Behandlingstiden er ofte lang - 3-6 måneder er vanlig. Du får beskjed når NAV trenger mer informasjon."
+          }
+        ],
+        "afterApplyingTitle": "Etter at du har søkt",
+        "afterApplying": [
+          {
+            "title": "Følg med på nav.no",
+            "description": "Logg inn jevnlig for å se om NAV har sendt deg beskjeder eller trenger mer informasjon."
+          },
+          {
+            "title": "Gå til innkallinger",
+            "description": "NAV kan kalle deg inn til samtale eller undersøkelse. Det er viktig at du møter opp."
+          },
+          {
+            "title": "Svar på henvendelser",
+            "description": "Hvis NAV ber om mer dokumentasjon, svar så fort du kan. Det forkorter behandlingstiden."
+          }
+        ],
+        "howMuchTitle": "Hvor mye får du?",
+        "howMuchText": "Uføretrygd er vanligvis 66% av inntekten din før du ble syk, opp til 6G (ca. 744 000 kr). Minimum er ca. 2,5G for enslige. Du kan også jobbe litt ved siden av uten å miste hele uføretrygden.",
+        "importantTitle": "Viktig å vite",
+        "important": [
+          "Du kan ha gradert uføretrygd (f.eks. 50%) og jobbe deltid ved siden av",
+          "Uføretrygd gir deg rett til alderspensjon fra 67 år",
+          "Du beholder uføretrygden hvis du blir sykere, men den kan reduseres hvis du blir friskere",
+          "Du må melde fra til NAV hvis situasjonen din endrer seg"
+        ]
       }
     },
     "skatt": {
@@ -949,23 +1205,248 @@
     "helse": {
       "bestilleTime": {
         "title": "Bestille legetime",
-        "description": "Hvordan bestille time hos fastlegen din"
+        "description": "Hvordan bestille time hos fastlegen din",
+        "longDescription": "Lær hvordan du bestiller time hos fastlegen din via Helsenorge. Du kan bestille time når som helst - også på kvelden og i helger.",
+        "backToGuides": "Tilbake til Helsenorge-veiledninger",
+        "time": "Ca. 10 minutter",
+        "difficulty": "Enkel",
+        "whatYouNeed": "Dette trenger du",
+        "whatYouNeedList": [
+          "BankID eller MinID for innlogging",
+          "Vite omtrent hvilken dag og tid som passer deg"
+        ],
+        "stepsTitle": "Slik bestiller du legetime",
+        "steps": [
+          {
+            "title": "Logg inn på helsenorge.no",
+            "description": "Gå til helsenorge.no og logg inn med BankID eller MinID. Klikk på \"Logg inn\" øverst til høyre.",
+            "tip": "Se vår guide \"Logge inn på Helsenorge\" hvis du trenger hjelp."
+          },
+          {
+            "title": "Finn \"Timeavtaler\"",
+            "description": "Etter innlogging ser du menyen \"Min helse\". Klikk på \"Timeavtaler\" eller \"Bestill time\".",
+            "tip": "Du kan også søke etter \"bestille time\" i søkefeltet."
+          },
+          {
+            "title": "Velg \"Bestill ny time\"",
+            "description": "Klikk på knappen \"Bestill ny time\" eller \"Ny timeavtale\". Du får opp en oversikt over hvor du kan bestille time."
+          },
+          {
+            "title": "Velg fastlegen din",
+            "description": "Klikk på fastlegen din i listen. Hvis du ikke ser legen din, kan det hende legekontoret ikke tilbyr nettbooking.",
+            "warning": "Ikke alle legekontor har nettbooking. Da må du ringe for å bestille time."
+          },
+          {
+            "title": "Velg type time",
+            "description": "Velg hva timen gjelder. Vanlige valg er \"Vanlig legetime\", \"Telefonkonsultasjon\" eller \"Videokonsultasjon\". Velg det som passer best.",
+            "tip": "Videokonsultasjon er praktisk for enkle ting som reseptfornyelse eller oppfølging."
+          },
+          {
+            "title": "Velg dato og klokkeslett",
+            "description": "Du ser en kalender med ledige timer. Grønne felter betyr ledig. Klikk på en dato, så ser du ledige tider. Velg tidspunktet som passer deg.",
+            "tip": "Hvis ingen tider passer, prøv å se noen uker frem i tid."
+          },
+          {
+            "title": "Skriv kort om hva det gjelder",
+            "description": "Du kan skrive en kort beskrivelse av hvorfor du trenger time. Dette hjelper legen å forberede seg. Du trenger ikke skrive alt - bare hovedgrunnen.",
+            "tip": "Eksempel: \"Har hatt hoste i to uker\" eller \"Ønsker å diskutere blodtrykksmedisin\"."
+          },
+          {
+            "title": "Bekreft timen",
+            "description": "Se over informasjonen og klikk på \"Bekreft\" eller \"Bestill time\". Du får bekreftelse på skjermen og på SMS/e-post.",
+            "tip": "Legg timen inn i kalenderen din så du ikke glemmer den!"
+          }
+        ],
+        "cancelTitle": "Trenger du å avbestille?",
+        "cancelText": "Du kan avbestille eller endre timen på Helsenorge. Gå til \"Timeavtaler\" og klikk på timen du vil endre. Avbestill helst minst 24 timer før, så andre kan bruke timen.",
+        "cantBookOnlineTitle": "Kan ikke bestille på nett?",
+        "cantBookOnlineText": "Noen legekontor tilbyr ikke nettbooking. Da må du ringe legekontoret direkte. Du finner telefonnummeret på helsenorge.no under \"Min fastlege\"."
       },
       "resepter": {
         "title": "Se og fornye resepter",
-        "description": "Sjekke reseptene dine og be om fornyelse"
+        "description": "Sjekke reseptene dine og be om fornyelse",
+        "longDescription": "På Helsenorge kan du se alle reseptene dine og be om fornyelse uten å ringe legen. Enkelt og raskt!",
+        "backToGuides": "Tilbake til Helsenorge-veiledninger",
+        "time": "Ca. 5 minutter",
+        "difficulty": "Enkel",
+        "stepsTitle": "Slik ser og fornyer du resepter",
+        "steps": [
+          {
+            "title": "Logg inn på helsenorge.no",
+            "description": "Gå til helsenorge.no og logg inn med BankID. Klikk på \"Logg inn\" øverst til høyre.",
+            "warning": "Du må bruke BankID (ikke MinID) for å se resepter."
+          },
+          {
+            "title": "Finn \"Resepter\"",
+            "description": "Etter innlogging, klikk på \"Resepter\" i menyen eller på forsiden. Du kan også søke etter \"resepter\"."
+          },
+          {
+            "title": "Se dine aktive resepter",
+            "description": "Du ser en liste over alle reseptene dine. Grønne resepter er aktive (gyldige). Røde eller grå er utgått. Klikk på en resept for å se detaljer.",
+            "tip": "Du ser hvor mange uttak som er igjen og når resepten går ut."
+          },
+          {
+            "title": "Be om fornyelse av resept",
+            "description": "Hvis en resept snart går ut eller du trenger ny medisin, klikk på \"Be om fornyelse\". Skriv en kort melding til legen om hvorfor du trenger fornyelse.",
+            "tip": "Eksempel: \"Har brukt denne i 2 år, fungerer bra. Ønsker fornyelse.\""
+          },
+          {
+            "title": "Vent på svar fra legen",
+            "description": "Legen vurderer forespørselen og fornyer resepten hvis det er greit. Dette tar vanligvis 1-3 virkedager. Du får beskjed når resepten er fornyet.",
+            "warning": "Legen kan si nei til fornyelse og be deg komme til kontroll først. Dette er normalt for noen medisiner."
+          },
+          {
+            "title": "Hent medisinen på apoteket",
+            "description": "Når resepten er fornyet, kan du hente medisinen på et hvilket som helst apotek. De ser resepten din når du oppgir fødselsnummeret ditt.",
+            "tip": "Du kan også bestille medisiner på nettapotek og få dem levert hjem."
+          }
+        ],
+        "tipsTitle": "Gode tips om resepter",
+        "tips": [
+          "Be om fornyelse i god tid - helst 1-2 uker før medisinen tar slutt",
+          "Ha alltid nok medisin til å vente på at legen fornyer",
+          "Noen medisiner krever legetime før fornyelse (f.eks. blodtrykksmedisin)",
+          "E-resepten er gyldig i 1 år fra den skrives ut"
+        ]
       },
       "bytteFastlege": {
         "title": "Bytte fastlege",
-        "description": "Slik bytter du til en ny fastlege"
+        "description": "Slik bytter du til en ny fastlege",
+        "longDescription": "Du har rett til å bytte fastlege hvis du ønsker det. Det er gratis og du kan gjøre det selv på nett.",
+        "backToGuides": "Tilbake til Helsenorge-veiledninger",
+        "time": "Ca. 10 minutter",
+        "difficulty": "Middels",
+        "goodToKnow": "Godt å vite før du bytter",
+        "goodToKnowList": [
+          "Du kan bytte fastlege opptil 2 ganger per år",
+          "Byttet gjelder fra den 1. i neste måned",
+          "Du kan velge hvilken som helst lege med ledig plass",
+          "Det er helt gratis å bytte"
+        ],
+        "stepsTitle": "Slik bytter du fastlege",
+        "steps": [
+          {
+            "title": "Logg inn på helsenorge.no",
+            "description": "Gå til helsenorge.no og logg inn med BankID eller MinID. Klikk på \"Logg inn\" øverst til høyre."
+          },
+          {
+            "title": "Finn \"Bytt fastlege\"",
+            "description": "Klikk på \"Min fastlege\" eller søk etter \"bytte fastlege\". Velg \"Bytt fastlege\" eller \"Finn ny fastlege\"."
+          },
+          {
+            "title": "Søk etter ny lege",
+            "description": "Du kan søke på legens navn, legekontor eller område. Du ser også hvilke leger som har ledige plasser i nærheten av deg.",
+            "tip": "Grønt tall = ledige plasser. Rødt eller 0 = fullt."
+          },
+          {
+            "title": "Sjekk informasjon om legen",
+            "description": "Klikk på en lege for å se mer info: åpningstider, adresse, språk, og om de tilbyr nettbooking. Les gjerne vurderinger fra andre pasienter hvis tilgjengelig."
+          },
+          {
+            "title": "Velg legen og bekreft",
+            "description": "Når du har funnet en lege du vil ha, klikk på \"Velg denne legen\" eller \"Bytt til denne legen\". Bekreft valget ditt.",
+            "warning": "Byttet gjelder fra 1. i neste måned. Frem til da er du fortsatt hos den gamle legen."
+          },
+          {
+            "title": "Ferdig!",
+            "description": "Du får bekreftelse på byttet. Fra neste måned er den nye legen din fastlege. Journalen din flyttes automatisk til det nye kontoret.",
+            "tip": "Husk å avbestille eventuelle timer hos den gamle legen."
+          }
+        ],
+        "noSpaceTitle": "Ingen ledige plasser?",
+        "noSpaceText": "Hvis legen du ønsker er full, kan du sette deg på venteliste. Du får beskjed når det blir ledig plass. Du kan også prøve å ringe legekontoret - noen ganger har de plass som ikke vises på nett."
       },
       "journal": {
         "title": "Lese pasientjournalen",
-        "description": "Finne og lese din egen pasientjournal"
+        "description": "Finne og lese din egen pasientjournal",
+        "longDescription": "Du har rett til å se hva som er skrevet om deg hos legen. På Helsenorge kan du lese journalen din selv.",
+        "backToGuides": "Tilbake til Helsenorge-veiledninger",
+        "time": "Ca. 5 minutter",
+        "difficulty": "Enkel",
+        "whatIsJournalTitle": "Hva er pasientjournalen?",
+        "whatIsJournalText": "Journalen inneholder notater fra legebesøk, prøvesvar, diagnoser og behandlinger. Alt legen skriver om deg samles her.",
+        "stepsTitle": "Slik leser du journalen din",
+        "steps": [
+          {
+            "title": "Logg inn på helsenorge.no",
+            "description": "Gå til helsenorge.no og logg inn med BankID. Klikk på \"Logg inn\" øverst til høyre.",
+            "warning": "Du må bruke BankID (ikke MinID) for å se journalen."
+          },
+          {
+            "title": "Finn \"Pasientjournal\"",
+            "description": "Klikk på \"Pasientjournal\" i menyen eller søk etter \"journal\". Du kan også finne den under \"Min helse\"."
+          },
+          {
+            "title": "Velg hvilken journal du vil se",
+            "description": "Du kan ha journaler flere steder: fastlege, sykehus, spesialist. Velg hvem du vil se journalen fra.",
+            "tip": "Kjernejournal viser det viktigste fra alle steder samlet."
+          },
+          {
+            "title": "Les journalnotatene",
+            "description": "Du ser en liste over alle journalnotater, med nyeste øverst. Klikk på et notat for å lese hele teksten.",
+            "tip": "Journalen kan inneholde medisinske faguttrykk. Bruk gjerne ordboken vår eller spør legen om noe er uklart."
+          },
+          {
+            "title": "Se prøvesvar",
+            "description": "Under \"Prøvesvar\" eller \"Labsvar\" finner du resultater fra blodprøver og andre tester. Verdier utenfor normalområdet er ofte markert.",
+            "tip": "Spør legen hvis du lurer på hva prøvesvarene betyr."
+          }
+        ],
+        "delayTitle": "Hvorfor ser jeg ikke alt?",
+        "delayText": "Noen journaler har en forsinkelse på noen dager før du kan se dem. Dette er for at legen skal rekke å informere deg først hvis det er noe viktig. Sykehus og spesialister kan ha lengre forsinkelse."
       },
       "melding": {
         "title": "Sende melding til legen",
-        "description": "Kontakte fastlegen din digitalt"
+        "description": "Kontakte fastlegen din digitalt",
+        "longDescription": "Du kan sende melding til fastlegen din via Helsenorge. Praktisk for enkle spørsmål som ikke krever legetime.",
+        "backToGuides": "Tilbake til Helsenorge-veiledninger",
+        "time": "Ca. 5 minutter",
+        "difficulty": "Enkel",
+        "whenToUseTitle": "Når bør du sende melding?",
+        "whenToUseGood": "Bra for:",
+        "whenToUseGoodList": [
+          "Enkle spørsmål om medisiner",
+          "Oppfølging etter legetime",
+          "Be om fornyelse av resept",
+          "Spørre om prøvesvar",
+          "Informere om endringer i helsetilstand"
+        ],
+        "whenToUseBad": "Ikke bruk meldinger for:",
+        "whenToUseBadList": [
+          "Akutte eller alvorlige plager (ring 116 117 eller 113)",
+          "Ting som krever undersøkelse",
+          "Lange og kompliserte spørsmål"
+        ],
+        "stepsTitle": "Slik sender du melding til legen",
+        "steps": [
+          {
+            "title": "Logg inn på helsenorge.no",
+            "description": "Gå til helsenorge.no og logg inn med BankID eller MinID. Klikk på \"Logg inn\" øverst til høyre."
+          },
+          {
+            "title": "Finn \"Meldinger\"",
+            "description": "Klikk på \"Meldinger\" eller \"Kontakt lege\" i menyen. Du kan også finne det under \"Min fastlege\"."
+          },
+          {
+            "title": "Start ny melding",
+            "description": "Klikk på \"Ny melding\" eller \"Skriv melding\". Velg fastlegen din som mottaker.",
+            "warning": "Ikke alle legekontor har meldingstjenesten. Da må du ringe."
+          },
+          {
+            "title": "Skriv meldingen",
+            "description": "Skriv en kort og tydelig melding. Forklar hva det gjelder. Jo tydeligere du er, jo bedre svar får du.",
+            "tip": "Eksempel: \"Hei, jeg har brukt Paracet i 3 dager for hodepine uten bedring. Bør jeg komme til time, eller er det noe annet jeg kan prøve?\""
+          },
+          {
+            "title": "Send meldingen",
+            "description": "Les gjennom meldingen og klikk \"Send\". Du får bekreftelse på at meldingen er sendt."
+          },
+          {
+            "title": "Vent på svar",
+            "description": "Legen svarer vanligvis innen 1-3 virkedager. Du får varsel på SMS eller e-post når svaret kommer. Logg inn på Helsenorge for å lese svaret.",
+            "warning": "Ved akutte plager, ikke vent på svar - ring legevakten (116 117) eller ambulanse (113)."
+          }
+        ]
       },
       "loggInn": {
         "title": "Logge inn på Helsenorge",
@@ -2319,6 +2800,288 @@
           "ID-kort med reiserett godtas som legitimasjon overalt i Norge",
           "Barn kan også få ID-kort",
           "Ved tap må du melde fra til politiet"
+        ]
+      }
+    },
+    "grunnleggende": {
+      "smarttelefon": {
+        "title": "Bruke smarttelefon",
+        "description": "Lær grunnleggende bruk av iPhone og Android-telefoner",
+        "longDescription": "Smarttelefonen er nøkkelen til det digitale Norge. Her lærer du det mest grunnleggende - fra å slå på telefonen til å bruke apper.",
+        "backToGuides": "Tilbake til Grunnleggende teknologi",
+        "time": "Ca. 15 minutter",
+        "difficulty": "Enkel",
+        "beforeYouStart": "Hva er en smarttelefon?",
+        "beforeYouStartText": "En smarttelefon er en liten datamaskin du kan holde i hånden. Den brukes til å ringe, sende meldinger, ta bilder, og bruke apper (programmer) som BankID, Vipps og mer.",
+        "stepsTitle": "Grunnleggende bruk av smarttelefon",
+        "steps": [
+          {
+            "title": "Slå på telefonen",
+            "description": "Hold inne den store knappen på siden av telefonen i noen sekunder. Skjermen vil lyse opp. Hvis telefonen har vært av lenge, kan det ta litt tid.",
+            "tip": "De fleste telefoner har av/på-knappen på høyre side."
+          },
+          {
+            "title": "Lås opp telefonen",
+            "description": "Når telefonen er på, må du låse den opp. Sveip opp på skjermen (dra fingeren oppover). Du må kanskje taste inn en kode eller bruke fingeravtrykk.",
+            "tip": "Koden er vanligvis 4 eller 6 siffer som du velger selv."
+          },
+          {
+            "title": "Forstå hjemskjermen",
+            "description": "Hjemskjermen er det første du ser. Her ligger appene (programmene) som små firkantede ikoner. Trykk én gang på et ikon for å åpne appen.",
+            "tip": "Sveip til venstre eller høyre for å se flere sider med apper."
+          },
+          {
+            "title": "Ringe noen",
+            "description": "Finn og trykk på telefonikonet (vanligvis grønt med et telefonrør). Tast inn nummeret du vil ringe. Trykk på den grønne knappen for å ringe. Trykk på rødt for å legge på.",
+            "tip": "Du kan lagre numre under \"Kontakter\" så du slipper å huske dem."
+          },
+          {
+            "title": "Sende en SMS",
+            "description": "Finn og trykk på meldingsikonet (vanligvis ser det ut som en snakkeboble). Trykk på pluss eller \"Ny melding\". Skriv inn nummeret eller velg en kontakt. Skriv meldingen og trykk send.",
+            "tip": "Tastaturet kommer opp når du skal skrive. Trykk på bokstavene én etter én."
+          },
+          {
+            "title": "Ta et bilde",
+            "description": "Finn og trykk på kameraikonet. Pek telefonen mot det du vil ta bilde av. Trykk på den store runde knappen på skjermen. Bildet lagres automatisk.",
+            "tip": "Bildene finner du i appen \"Bilder\" eller \"Galleri\"."
+          },
+          {
+            "title": "Koble til Wi-Fi (trådløst internett)",
+            "description": "Gå til Innstillinger (tannhjulikonet). Trykk på Wi-Fi. Velg ditt nettverk (det heter ofte det samme som ruteren din). Skriv inn passordet.",
+            "tip": "Wi-Fi-passordet står ofte på en lapp på ruteren/boksen fra internettleverandøren din."
+          },
+          {
+            "title": "Laste ned en app",
+            "description": "Åpne App Store (iPhone) eller Google Play (Android). Søk etter appen du vil ha, f.eks. \"BankID\" eller \"Vipps\". Trykk på \"Hent\" eller \"Installer\". Vent til appen er lastet ned.",
+            "warning": "Vær forsiktig med hva du laster ned. Hold deg til kjente apper fra trygge leverandører."
+          }
+        ],
+        "tipsTitle": "Nyttige tips",
+        "tips": [
+          "Lad telefonen hver natt - da er den alltid klar til bruk",
+          "Hvis noe henger, prøv å slå telefonen av og på igjen",
+          "Ikke vær redd for å prøve - du kan sjelden ødelegge noe",
+          "Be familie eller venner om hjelp til å sette opp telefonen første gang",
+          "Sett stor skrift i innstillinger hvis du synes teksten er liten"
+        ]
+      },
+      "nettleser": {
+        "title": "Bruke nettleser",
+        "description": "Lær å åpne nettsider og finne informasjon på internett",
+        "longDescription": "Nettleseren er vinduet ditt til internett. Her lærer du hvordan du bruker den til å besøke nettsider, søke etter informasjon og navigere trygt.",
+        "backToGuides": "Tilbake til Grunnleggende teknologi",
+        "time": "Ca. 10 minutter",
+        "difficulty": "Enkel",
+        "whatIsTitle": "Hva er en nettleser?",
+        "whatIsText": "En nettleser er et program som lar deg se nettsider. De vanligste er Safari (på iPhone), Chrome (på Android og datamaskiner) og Edge (på Windows-datamaskiner).",
+        "stepsTitle": "Slik bruker du nettleseren",
+        "steps": [
+          {
+            "title": "Åpne nettleseren",
+            "description": "Finn nettleserikonet på telefonen eller datamaskinen. Safari har et kompass-ikon, Chrome har en fargerik sirkel, og Edge har en blå \"e\".",
+            "tip": "På telefonen finner du ofte nettleseren på hjemskjermen."
+          },
+          {
+            "title": "Forstå adressefeltet",
+            "description": "Øverst i nettleseren er adressefeltet - en lang hvit boks. Her skriver du inn adressen til nettsiden du vil besøke, f.eks. \"nav.no\" eller \"helsenorge.no\".",
+            "tip": "Du trenger ikke skrive \"www.\" foran adressen lenger."
+          },
+          {
+            "title": "Besøke en nettside",
+            "description": "Trykk på adressefeltet. Skriv inn adressen du vil besøke, f.eks. \"vg.no\". Trykk på Enter-tasten (eller \"Gå\" på telefonen).",
+            "tip": "Vær nøyaktig med adressen - små feil kan føre deg til feil side."
+          },
+          {
+            "title": "Søke på Google",
+            "description": "Du kan også søke etter ting. Skriv det du leter etter i adressefeltet, f.eks. \"åpningstider nav\" eller \"været i Oslo\". Trykk Enter. Google viser deg relevante resultater.",
+            "tip": "Skriv gjerne hele spørsmål, som \"hva koster det å fornye pass\""
+          },
+          {
+            "title": "Klikke på lenker",
+            "description": "Nettsider har lenker - tekst som er blå og understreket. Når du klikker (eller trykker) på en lenke, kommer du til en ny side.",
+            "tip": "For å gå tilbake til forrige side, trykk på pilen som peker til venstre (tilbake-knappen)."
+          },
+          {
+            "title": "Bruke tilbake-knappen",
+            "description": "Øverst til venstre finner du en pil som peker til venstre. Trykk på den for å gå tilbake til siden du nettopp var på. Du kan trykke flere ganger for å gå lenger tilbake.",
+            "tip": "På telefonen kan du ofte sveipe fra venstre kant for å gå tilbake."
+          },
+          {
+            "title": "Lukke nettleseren",
+            "description": "På telefon: Sveip opp fra bunnen (iPhone) eller trykk på firkant-knappen (Android) for å lukke. På datamaskin: Klikk på X-en øverst i høyre hjørne."
+          }
+        ],
+        "safetyTitle": "Hold deg trygg på nett",
+        "safetyTips": [
+          "Se alltid på adressen øverst - ekte nav.no har akkurat den adressen, ikke \"nav-login.com\" eller lignende",
+          "Skriv inn adresser selv i stedet for å klikke på lenker i e-post",
+          "Se etter hengelåsikonet ved adressen - det betyr at siden er sikker",
+          "Hvis noe virker rart eller for godt til å være sant, vær forsiktig"
+        ]
+      },
+      "videosamtale": {
+        "title": "Bruke videosamtaler",
+        "description": "Lær å bruke Zoom, Teams og FaceTime for å snakke med familie og lege",
+        "longDescription": "Videosamtaler lar deg se og snakke med folk selv om de er langt unna. Perfekt for å holde kontakten med familie eller ha legetime hjemmefra.",
+        "backToGuides": "Tilbake til Grunnleggende teknologi",
+        "time": "Ca. 15 minutter",
+        "difficulty": "Middels",
+        "whyUseTitle": "Hvorfor bruke videosamtale?",
+        "whyUseList": [
+          "Se barnebarn og familie som bor langt unna",
+          "Ha legetime eller NAV-samtale hjemmefra",
+          "Delta på kurs og arrangementer uten å reise",
+          "Få hjelp fra familie til tekniske problemer - de kan se skjermen din"
+        ],
+        "appsTitle": "Vanlige videoapper",
+        "apps": [
+          { "name": "FaceTime", "desc": "Innebygd på iPhone/iPad. Enklest å bruke med andre Apple-brukere." },
+          { "name": "Zoom", "desc": "Populær app for møter. Brukes av mange kommuner og helsetjenester." },
+          { "name": "Teams", "desc": "Microsofts app. Brukes ofte av NAV og arbeidsplasser." },
+          { "name": "WhatsApp", "desc": "Enkel video for familie og venner. Mange har den allerede." }
+        ],
+        "stepsTitle": "Slik deltar du i en videosamtale",
+        "steps": [
+          {
+            "title": "Få en innkalling",
+            "description": "Du får vanligvis en lenke på e-post eller SMS. Lenken ser ut som en nettadresse og starter ofte med \"zoom.us\" eller \"teams.microsoft.com\".",
+            "tip": "Lagre e-posten eller meldingen slik at du finner lenken igjen."
+          },
+          {
+            "title": "Klikk på lenken når det er tid",
+            "description": "Noen minutter før møtet starter, klikk på lenken. Du blir spurt om du vil åpne appen eller nettleseren. Velg \"Åpne\" eller \"Join\".",
+            "tip": "Test gjerne lyd og bilde før møtet ved å klikke på lenken litt tidlig."
+          },
+          {
+            "title": "Gi tilgang til kamera og mikrofon",
+            "description": "Appen spør om tillatelse til å bruke kamera og mikrofon. Trykk \"Tillat\" på begge. Uten dette kan ikke andre se eller høre deg.",
+            "warning": "Hvis du kommer ikke inn, sjekk at du har gitt tillatelser i innstillingene."
+          },
+          {
+            "title": "Sjekk at du ser deg selv",
+            "description": "Før du går inn i møtet, ser du ofte deg selv i et lite vindu. Sjekk at lyset er bra og at kameraet fanger ansiktet ditt.",
+            "tip": "Sitt med vinduet eller lampen foran deg, ikke bak - da ser andre deg bedre."
+          },
+          {
+            "title": "Gå inn i møtet",
+            "description": "Klikk på \"Bli med\" eller \"Join Meeting\". Du kommer nå inn i møtet og kan se andre deltakere.",
+            "tip": "Hvis du er tidlig ute, må du kanskje vente til verten starter møtet."
+          },
+          {
+            "title": "Skru av/på lyd og bilde",
+            "description": "Nederst på skjermen finner du knapper for mikrofon og kamera. Trykk på mikrofonikonen for å skru lyden av/på. Trykk på kameraikonet for å skru bildet av/på.",
+            "tip": "Skru av mikrofonen når du ikke snakker - da slipper andre å høre bakgrunnsstøy."
+          },
+          {
+            "title": "Avslutte samtalen",
+            "description": "Når samtalen er ferdig, trykk på den røde \"Avslutt\" eller \"Leave\"-knappen. Du lukkes ut av møtet.",
+            "tip": "Husk å si hade før du avslutter!"
+          }
+        ],
+        "troubleshootingTitle": "Vanlige problemer",
+        "troubleshooting": [
+          { "problem": "Andre hører meg ikke", "solution": "Sjekk at mikrofonen ikke er avslått (ingen strek over ikonet). Sjekk volumet." },
+          { "problem": "Jeg ser ikke andre", "solution": "Sjekk internettforbindelsen din. Prøv å lukke andre apper." },
+          { "problem": "Bildet hakker", "solution": "Gå nærmere Wi-Fi-ruteren eller skru av eget kamera for bedre flyt." },
+          { "problem": "Jeg kommer ikke inn", "solution": "Prøv å klikke på lenken på nytt. Sjekk at appen er oppdatert." }
+        ]
+      },
+      "passordHjelp": {
+        "title": "Passord og innlogging",
+        "description": "Lær å lage gode passord og hva du gjør når du har glemt det",
+        "longDescription": "Passord beskytter dine personlige opplysninger. Her lærer du å lage trygge passord og hva du gjør hvis du glemmer dem.",
+        "backToGuides": "Tilbake til Grunnleggende teknologi",
+        "time": "Ca. 10 minutter",
+        "difficulty": "Enkel",
+        "whyImportantTitle": "Hvorfor er passord viktig?",
+        "whyImportantText": "Passordet ditt er som nøkkelen til huset ditt - det holder fremmede ute. Et dårlig passord gjør det lett for svindlere å stjele pengene dine eller identiteten din.",
+        "goodPasswordTitle": "Slik lager du et godt passord",
+        "goodPasswordTips": [
+          "Bruk minst 12 tegn - jo lengre, jo bedre",
+          "Bland store og små bokstaver, tall og tegn",
+          "Ikke bruk navnet ditt, fødselsdato eller \"123456\"",
+          "Bruk gjerne en setning du husker: \"MinKattHeter2Fansen!\"",
+          "Bruk forskjellige passord på viktige tjenester (bank, NAV, e-post)"
+        ],
+        "forgotPasswordTitle": "Glemt passordet?",
+        "forgotPasswordSteps": [
+          {
+            "title": "Finn \"Glemt passord\"-lenken",
+            "description": "På innloggingssiden finner du ofte en lenke som sier \"Glemt passord?\", \"Reset password\" eller \"Trenger du hjelp?\". Klikk på den.",
+            "tip": "Lenken er vanligvis under feltet der du skriver passord."
+          },
+          {
+            "title": "Skriv inn e-post eller telefonnummer",
+            "description": "Du blir bedt om å skrive inn e-postadressen eller telefonnummeret du registrerte deg med. Skriv det inn nøyaktig.",
+            "tip": "Sjekk at du bruker riktig e-postadresse - den du vanligvis logger inn med."
+          },
+          {
+            "title": "Sjekk e-posten din",
+            "description": "Du får en e-post eller SMS med en lenke for å lage nytt passord. Det kan ta noen minutter. Sjekk søppelpost/spam hvis du ikke finner den.",
+            "warning": "Lenken er gyldig i kort tid - ofte bare 1 time. Bruk den raskt."
+          },
+          {
+            "title": "Lag nytt passord",
+            "description": "Klikk på lenken i e-posten. Skriv inn et nytt, sterkt passord. Du må skrive det to ganger for å bekrefte.",
+            "tip": "Skriv ned det nye passordet på et trygt sted til du husker det."
+          },
+          {
+            "title": "Logg inn med nytt passord",
+            "description": "Gå tilbake til innloggingssiden og logg inn med det nye passordet. Nå er du inne igjen!",
+            "tip": "Vurder å skrive passordet i en notatbok som du oppbevarer trygt hjemme."
+          }
+        ],
+        "bankidNoteTitle": "Merk: BankID er annerledes",
+        "bankidNoteText": "BankID-passord kan du ikke nullstille selv på nett. Hvis du har glemt BankID-koden, må du kontakte banken din for å få ny. De hjelper deg."
+      },
+      "faHjelp": {
+        "title": "Hvor få hjelp",
+        "description": "Finn steder som tilbyr gratis datahjelp i ditt område",
+        "longDescription": "Du trenger ikke være alene med det digitale. Her finner du oversikt over steder og mennesker som kan hjelpe deg - ofte helt gratis.",
+        "backToGuides": "Tilbake til Grunnleggende teknologi",
+        "time": "Ca. 5 minutter",
+        "difficulty": "Enkel",
+        "introText": "Mange organisasjoner og frivillige tilbyr gratis hjelp til folk som synes det digitale er vanskelig. Her er noen gode steder å starte:",
+        "helpSourcesTitle": "Steder som kan hjelpe deg",
+        "helpSources": [
+          {
+            "name": "Seniornett Norge",
+            "description": "Frivillig organisasjon som hjelper seniorer med det digitale. De har lokale grupper over hele landet som holder kurs og gir hjelp.",
+            "howToContact": "Gå til seniornett.no eller ring 22 42 99 99",
+            "price": "Gratis eller rimelig"
+          },
+          {
+            "name": "Ditt lokale bibliotek",
+            "description": "Mange bibliotek tilbyr gratis datahjelp. Noen har faste \"datatimer\" der du kan få hjelp med det meste.",
+            "howToContact": "Ring eller besøk biblioteket ditt og spør om de tilbyr datahjelp",
+            "price": "Gratis"
+          },
+          {
+            "name": "Frivilligsentralen",
+            "description": "Lokale frivilligsentraler har ofte frivillige som kan hjelpe med data og telefon hjemme hos deg.",
+            "howToContact": "Finn din nærmeste på frivillig.no",
+            "price": "Gratis"
+          },
+          {
+            "name": "Familie og venner",
+            "description": "Mange har barn, barnebarn, naboer eller venner som kan hjelpe. De fleste synes det er hyggelig å hjelpe!",
+            "howToContact": "Bare spør - de fleste sier ja med glede",
+            "price": "Gratis (og sosialt!)"
+          },
+          {
+            "name": "NAV",
+            "description": "Hvis du trenger hjelp med å bruke NAV sine tjenester, kan du få veiledning på ditt lokale NAV-kontor.",
+            "howToContact": "Ring 55 55 33 33 eller besøk NAV-kontoret",
+            "price": "Gratis"
+          }
+        ],
+        "tipsTitle": "Tips når du ber om hjelp",
+        "tips": [
+          "Skriv ned spørsmålene dine før du møter hjelperen",
+          "Be om at de viser deg sakte - du skal lære selv, ikke bare se på",
+          "Ikke vær flau - alle har vært nybegynnere en gang",
+          "Ta notater eller be om å få skrevet ned instruksjoner",
+          "Spør om du kan ringe hvis du glemmer hvordan du gjør det"
         ]
       }
     }

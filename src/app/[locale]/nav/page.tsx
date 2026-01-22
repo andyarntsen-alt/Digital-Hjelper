@@ -5,6 +5,8 @@ import { useTranslations } from 'next-intl';
 
 const navGuideKeys = [
   { key: 'loggInn', href: '/nav/logg-inn', difficulty: 'easy', time: 5 },
+  { key: 'pensjon', href: '/nav/pensjon', difficulty: 'medium', time: 15 },
+  { key: 'uforetrygd', href: '/nav/uforetrygd', difficulty: 'medium', time: 20 },
   { key: 'dagpenger', href: '/nav/dagpenger', difficulty: 'medium', time: 20 },
   { key: 'sykepenger', href: '/nav/sykepenger', difficulty: 'medium', time: 15 },
   { key: 'foreldrepenger', href: '/nav/foreldrepenger', difficulty: 'medium', time: 25 },

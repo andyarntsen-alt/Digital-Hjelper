@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import { useTranslations } from 'next-intl';
 
 export default function AccessibilityToolbar() {
@@ -10,16 +10,104 @@ export default function AccessibilityToolbar() {
   const [fontSize, setFontSize] = useState<'normal' | 'large' | 'extra-large'>('normal');
   const [highContrast, setHighContrast] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
+  const [isSpeaking, setIsSpeaking] = useState(false);
+  const [speechSupported, setSpeechSupported] = useState(false);
+  const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
 
   useEffect(() => {
     setMounted(true);
+    // Sjekk om Web Speech API er støttet
+    setSpeechSupported('speechSynthesis' in window);
+
     // Last innstillinger fra localStorage
     const savedFontSize = localStorage.getItem('fontSize') as 'normal' | 'large' | 'extra-large' | null;
     const savedContrast = localStorage.getItem('highContrast') === 'true';
 
     if (savedFontSize) setFontSize(savedFontSize);
     if (savedContrast) setHighContrast(savedContrast);
+
+    // Cleanup ved unmount
+    return () => {
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+      }
+    };
   }, []);
+
+  const speakPageContent = useCallback(() => {
+    if (!speechSupported) return;
+
+    if (isSpeaking) {
+      window.speechSynthesis.cancel();
+      setIsSpeaking(false);
+      return;
+    }
+
+    // Finn hovedinnholdet på siden
+    const mainContent = document.getElementById('main-content') || document.querySelector('main') || document.body;
+
+    // Hent tekstinnhold, filtrer bort skjulte elementer og navigasjon
+    const walker = document.createTreeWalker(
+      mainContent,
+      NodeFilter.SHOW_TEXT,
+      {
+        acceptNode: (node) => {
+          const parent = node.parentElement;
+          if (!parent) return NodeFilter.FILTER_REJECT;
+
+          // Sjekk om elementet er synlig
+          const style = window.getComputedStyle(parent);
+          if (style.display === 'none' || style.visibility === 'hidden') {
+            return NodeFilter.FILTER_REJECT;
+          }
+
+          // Hopp over visse elementer
+          const tagName = parent.tagName.toLowerCase();
+          if (['script', 'style', 'noscript', 'button', 'nav'].includes(tagName)) {
+            return NodeFilter.FILTER_REJECT;
+          }
+
+          // Sjekk om teksten har innhold
+          const text = node.textContent?.trim();
+          if (!text || text.length === 0) {
+            return NodeFilter.FILTER_REJECT;
+          }
+
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      }
+    );
+
+    const textParts: string[] = [];
+    let node;
+    while ((node = walker.nextNode())) {
+      const text = node.textContent?.trim();
+      if (text) {
+        textParts.push(text);
+      }
+    }
+
+    const fullText = textParts.join('. ').replace(/\s+/g, ' ');
+
+    if (!fullText) return;
+
+    const utterance = new SpeechSynthesisUtterance(fullText);
+    utterance.lang = 'nb-NO'; // Norsk bokmål
+    utterance.rate = 0.9; // Litt saktere for bedre forståelse
+    utterance.pitch = 1;
+
+    utterance.onend = () => {
+      setIsSpeaking(false);
+    };
+
+    utterance.onerror = () => {
+      setIsSpeaking(false);
+    };
+
+    utteranceRef.current = utterance;
+    window.speechSynthesis.speak(utterance);
+    setIsSpeaking(true);
+  }, [speechSupported, isSpeaking]);
 
   useEffect(() => {
     // Oppdater HTML-klasser
@@ -125,6 +213,40 @@ export default function AccessibilityToolbar() {
               </span>
             </button>
           </div>
+
+          {/* Tekst-til-tale */}
+          {speechSupported && (
+            <div className="mb-4">
+              <button
+                onClick={speakPageContent}
+                className={`w-full py-3 px-4 rounded-lg border-2 transition-colors flex items-center justify-between ${
+                  isSpeaking
+                    ? 'bg-green-600 text-white border-green-600'
+                    : 'bg-white text-gray-700 border-gray-300 hover:border-nav-blue'
+                }`}
+                aria-pressed={isSpeaking}
+              >
+                <span className="flex items-center gap-2">
+                  {isSpeaking ? (
+                    <>
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 10a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 01-1-1v-4z" />
+                      </svg>
+                      {t('stopReading')}
+                    </>
+                  ) : (
+                    <>
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
+                      </svg>
+                      {t('readAloud')}
+                    </>
+                  )}
+                </span>
+              </button>
+            </div>
+          )}
 
           <button
             onClick={() => setIsOpen(false)}

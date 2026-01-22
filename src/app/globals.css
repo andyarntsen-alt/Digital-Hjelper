@@ -210,3 +210,112 @@ html.high-contrast .skip-link {
   outline: 3px solid #fbbf24;
   outline-offset: 2px;
 }
+
+/* Utskriftsvennlig styling */
+@media print {
+  /* Skjul navigasjon og andre UI-elementer */
+  header,
+  footer,
+  .skip-link,
+  .accessibility-toolbar,
+  button:not(.print-show),
+  nav[aria-label="Brødsmulesti"],
+  .print\\:hidden {
+    display: none !important;
+  }
+
+  /* Generell styling */
+  body {
+    font-size: 12pt !important;
+    line-height: 1.5 !important;
+    color: #000 !important;
+    background: #fff !important;
+  }
+
+  /* Fjern bakgrunnsfarger og skygger */
+  * {
+    background: transparent !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* Behold viktige farger for lesbarhet */
+  .card,
+  .step-card,
+  .tip-box,
+  .warning-box {
+    border: 1px solid #ccc !important;
+    padding: 12px !important;
+    margin-bottom: 12px !important;
+    page-break-inside: avoid;
+  }
+
+  .tip-box {
+    border-left: 4px solid #22c55e !important;
+  }
+
+  .warning-box {
+    border-left: 4px solid #f59e0b !important;
+  }
+
+  /* Lenker - vis URL */
+  a[href^="http"]:after {
+    content: " (" attr(href) ")";
+    font-size: 10pt;
+    color: #666;
+  }
+
+  a {
+    color: #000 !important;
+    text-decoration: underline !important;
+  }
+
+  /* Overskrifter */
+  h1 {
+    font-size: 24pt !important;
+    margin-bottom: 16px !important;
+  }
+
+  h2 {
+    font-size: 18pt !important;
+    margin-top: 24px !important;
+    margin-bottom: 12px !important;
+  }
+
+  h3 {
+    font-size: 14pt !important;
+    margin-top: 16px !important;
+    margin-bottom: 8px !important;
+  }
+
+  /* Unngå sideskift midt i innhold */
+  h1, h2, h3, h4 {
+    page-break-after: avoid;
+  }
+
+  p, li {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* Vis elementer som skal være synlige ved utskrift */
+  .print\\:block {
+    display: block !important;
+  }
+
+  /* Steg-guider */
+  .step-card {
+    border-left: 4px solid #1e40af !important;
+  }
+
+  /* Maksimer bredde */
+  .max-w-4xl,
+  .max-w-6xl {
+    max-width: 100% !important;
+  }
+
+  /* Padding for utskrift */
+  @page {
+    margin: 2cm;
+  }
+}

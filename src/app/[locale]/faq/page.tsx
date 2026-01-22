@@ -108,6 +108,102 @@ const faqListe: FAQItem[] = [
     svar: 'Du skal ALDRI dele BankID-koden din med andre. Hvis du trenger hjelp, kan pårørende få fullmakt. Kontakt den aktuelle etaten (NAV, Skatteetaten) for å ordne fullmakt.',
     kategori: 'Digital'
   },
+
+  // Pensjon
+  {
+    sporsmal: 'Når kan jeg ta ut alderspensjon?',
+    svar: 'Du kan ta ut alderspensjon fra du fyller 62 år, men jo tidligere du starter, jo lavere blir månedlig utbetaling. Venter du til 67 år eller lenger, får du mer per måned. Du kan sjekke din pensjon på nav.no/pensjon.',
+    kategori: 'Pensjon'
+  },
+  {
+    sporsmal: 'Kan jeg jobbe mens jeg får pensjon?',
+    svar: 'Ja! Du kan jobbe så mye du vil uten at pensjonen reduseres. Fra 2011 ble reglene endret slik at arbeid og pensjon kan kombineres fritt. Du betaler fortsatt skatt av arbeidsinntekt.',
+    kategori: 'Pensjon'
+  },
+  {
+    sporsmal: 'Hva er AFP (avtalefestet pensjon)?',
+    svar: 'AFP er en tilleggspensjon for deg som jobber i privat sektor med tariffavtale eller i offentlig sektor. Du må søke om AFP før du fyller 62 år. AFP gir et livsvarig tillegg til alderspensjonen.',
+    kategori: 'Pensjon'
+  },
+  {
+    sporsmal: 'Får jeg pensjon hvis jeg har jobbet lite?',
+    svar: 'Alle som bor i Norge får garantipensjon (minstepensjon) fra 67 år, selv om du har jobbet lite eller ingenting. Størrelsen avhenger av hvor lenge du har bodd i Norge (krever minst 5 år). Full garantipensjon krever 40 års botid.',
+    kategori: 'Pensjon'
+  },
+  {
+    sporsmal: 'Hvordan søker jeg om alderspensjon?',
+    svar: 'Logg inn på nav.no/pensjon med BankID. Velg "Søk pensjon" og følg stegene. Du bør søke 3-4 måneder før du vil starte uttaket. NAV hjelper deg også på telefon 55 55 33 34.',
+    kategori: 'Pensjon'
+  },
+  {
+    sporsmal: 'Hva skjer med pensjonen min hvis ektefellen dør?',
+    svar: 'Du kan ha rett på gjenlevendepensjon hvis du var gift eller samboer med felles barn. Denne ytelsen er behovsprøvd. Kontakt NAV så snart som mulig etter dødsfallet for å sjekke dine rettigheter.',
+    kategori: 'Pensjon'
+  },
+
+  // Sikkerhet
+  {
+    sporsmal: 'Hvordan vet jeg om en SMS fra NAV/banken er ekte?',
+    svar: 'Ekte SMS fra NAV/bank ber ALDRI om passord, BankID eller kontonummer. De inneholder ikke lenker til innlogging. Er du usikker? Ikke klikk på lenken - logg inn direkte på nav.no eller bankens nettside i stedet.',
+    kategori: 'Sikkerhet'
+  },
+  {
+    sporsmal: 'Noen ringte og sa de var fra Microsoft - er det svindel?',
+    svar: 'JA, dette er nesten alltid svindel! Microsoft ringer ALDRI uoppfordret. Hvis du ga tilgang til PC-en: Skru av PC-en, kontakt banken, og få hjelp til å sjekke PC-en for skadevare. Ring politiet på 02800.',
+    kategori: 'Sikkerhet'
+  },
+  {
+    sporsmal: 'Jeg tror jeg har blitt svindlet - hva gjør jeg?',
+    svar: 'Handler RASKT: 1) Kontakt banken din umiddelbart for å sperre kort/konto. 2) Bytt passord på e-post og viktige tjenester. 3) Anmeld til politiet på nett eller ring 02800. 4) Kontakt ID-tyverihjelpen på 21 05 32 80.',
+    kategori: 'Sikkerhet'
+  },
+  {
+    sporsmal: 'Barnebarnet mitt ringer og trenger penger akutt - hva gjør jeg?',
+    svar: 'STOPP! Dette kan være "oldebarnssvindel". Svindlere later som de er familie i nød. Sjekk ALLTID ved å ringe tilbake på nummeret du HAR fra før. Spør om noe bare dere vet. Ekte familie forstår at du må sjekke.',
+    kategori: 'Sikkerhet'
+  },
+  {
+    sporsmal: 'Er det trygt å handle på nett?',
+    svar: 'Ja, hvis du følger noen regler: Se etter hengelås i adressefeltet. Bruk kjente butikker. Betal med kort eller Vipps (ikke bankoverføring). Virker prisen for god? Da er det ofte svindel. Sjekk anmeldelser på Trustpilot.',
+    kategori: 'Sikkerhet'
+  },
+  {
+    sporsmal: 'Hva er et trygt passord?',
+    svar: 'Et godt passord er LANGT (minst 12 tegn) og unikt for hver tjeneste. Bruk gjerne en setning: "MinKattHeter3Ull!" er bedre enn "K@tt123". Skriv aldri passord i e-post eller SMS. Vurder en passordbok (på papir) eller passordbehandler.',
+    kategori: 'Sikkerhet'
+  },
+
+  // Teknologi
+  {
+    sporsmal: 'Hvordan oppdaterer jeg telefonen min?',
+    svar: 'iPhone: Innstillinger → Generelt → Programvareoppdatering. Android: Innstillinger → System → Programvareoppdatering. Koble til Wi-Fi og lader før du oppdaterer. Oppdateringer gir bedre sikkerhet!',
+    kategori: 'Teknologi'
+  },
+  {
+    sporsmal: 'Jeg har glemt passordet mitt - hva gjør jeg?',
+    svar: 'De fleste nettsider har en "Glemt passord"-lenke på innloggingssiden. Klikk der og følg instruksjonene - du får vanligvis en e-post med lenke for å lage nytt passord. For BankID: Kontakt banken din.',
+    kategori: 'Teknologi'
+  },
+  {
+    sporsmal: 'Hva er forskjellen på Wi-Fi og mobildata?',
+    svar: 'Wi-Fi er trådløst internett fra en ruter (hjemme, kafé, bibliotek) - ofte gratis og raskere. Mobildata bruker telefonabonnementet ditt og koster penger. Bruk Wi-Fi hjemme for å spare mobildata.',
+    kategori: 'Teknologi'
+  },
+  {
+    sporsmal: 'Hvordan tar jeg et skjermbilde på telefonen?',
+    svar: 'iPhone: Trykk sideknappen + volum opp samtidig. Android: Trykk av/på-knappen + volum ned samtidig. Bildet lagres i bildegalleriet ditt. Nyttig for å vise feilmeldinger til noen som kan hjelpe!',
+    kategori: 'Teknologi'
+  },
+  {
+    sporsmal: 'Hvor kan jeg få hjelp med data og teknologi?',
+    svar: 'Biblioteket ditt har ofte gratis datahjelp. Seniornett Norge (seniornett.no) har kurs og telefonstøtte. Frivillighetssentralen kan også hjelpe. Mange kommuner har også digital hjelpetjeneste for eldre.',
+    kategori: 'Teknologi'
+  },
+  {
+    sporsmal: 'Hva er en app og hvordan laster jeg ned apper?',
+    svar: 'En app er et program på telefonen (f.eks. BankID, Vipps). For å laste ned: Åpne App Store (iPhone) eller Google Play (Android), søk etter appen og trykk "Hent" eller "Installer". Noen apper krever at du lager konto.',
+    kategori: 'Teknologi'
+  },
 ];
 
 export default function FAQPage() {
@@ -157,7 +253,11 @@ export default function FAQPage() {
                 ? k === 'NAV' ? 'bg-nav-blue text-white'
                 : k === 'Skatt' ? 'bg-skatt-green text-white'
                 : k === 'Helse' ? 'bg-helse-red text-white'
-                : 'bg-purple-600 text-white'
+                : k === 'Digital' ? 'bg-purple-600 text-white'
+                : k === 'Pensjon' ? 'bg-orange-500 text-white'
+                : k === 'Sikkerhet' ? 'bg-amber-600 text-white'
+                : k === 'Teknologi' ? 'bg-teal-600 text-white'
+                : 'bg-gray-600 text-white'
                 : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
             }`}
           >
@@ -182,7 +282,11 @@ export default function FAQPage() {
                     faq.kategori === 'NAV' ? 'bg-blue-100 text-nav-blue'
                     : faq.kategori === 'Skatt' ? 'bg-green-100 text-skatt-green'
                     : faq.kategori === 'Helse' ? 'bg-red-100 text-helse-red'
-                    : 'bg-purple-100 text-purple-700'
+                    : faq.kategori === 'Digital' ? 'bg-purple-100 text-purple-700'
+                    : faq.kategori === 'Pensjon' ? 'bg-orange-100 text-orange-700'
+                    : faq.kategori === 'Sikkerhet' ? 'bg-amber-100 text-amber-700'
+                    : faq.kategori === 'Teknologi' ? 'bg-teal-100 text-teal-700'
+                    : 'bg-gray-100 text-gray-700'
                   }`}>
                     {faq.kategori}
                   </span>

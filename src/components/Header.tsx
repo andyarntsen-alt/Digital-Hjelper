@@ -48,34 +48,58 @@ export default function Header() {
               onMouseEnter={() => setMoreOpen(true)}
               onMouseLeave={() => setMoreOpen(false)}
             >
-              <button className="text-base text-gray-600 hover:text-nav-blue flex items-center gap-1">
+              <button
+                className="text-base text-gray-600 hover:text-nav-blue flex items-center gap-1"
+                onClick={() => setMoreOpen(!moreOpen)}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    setMoreOpen(!moreOpen);
+                  } else if (e.key === 'Escape') {
+                    setMoreOpen(false);
+                  }
+                }}
+                aria-expanded={moreOpen}
+                aria-haspopup="true"
+              >
                 {t('more')}
                 <svg xmlns="http://www.w3.org/2000/svg" className={`h-4 w-4 transition-transform ${moreOpen ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
               </button>
               {moreOpen && (
-                <div className="absolute top-full left-0 mt-2 bg-white rounded-lg shadow-lg border border-gray-200 py-2 min-w-[160px] z-50">
-                  <Link href="/sikkerhet" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 no-underline">
+                <div
+                  className="absolute top-full left-0 mt-2 bg-white rounded-lg shadow-lg border border-gray-200 py-2 min-w-[160px] z-50"
+                  role="menu"
+                  onKeyDown={(e) => {
+                    if (e.key === 'Escape') {
+                      setMoreOpen(false);
+                    }
+                  }}
+                >
+                  <Link href="/sikkerhet" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none no-underline" role="menuitem" tabIndex={0}>
                     {t('sikkerhet')}
                   </Link>
-                  <Link href="/bank" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 no-underline">
+                  <Link href="/bank" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none no-underline" role="menuitem" tabIndex={0}>
                     {t('bank')}
                   </Link>
-                  <Link href="/digital" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 no-underline">
+                  <Link href="/digital" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none no-underline" role="menuitem" tabIndex={0}>
                     {t('digital')}
                   </Link>
-                  <Link href="/bolig" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 no-underline">
+                  <Link href="/bolig" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none no-underline" role="menuitem" tabIndex={0}>
                     {t('bolig')}
                   </Link>
-                  <Link href="/utdanning" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 no-underline">
+                  <Link href="/utdanning" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none no-underline" role="menuitem" tabIndex={0}>
                     {t('utdanning')}
                   </Link>
-                  <Link href="/id" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 no-underline">
+                  <Link href="/id" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none no-underline" role="menuitem" tabIndex={0}>
                     {t('id')}
                   </Link>
+                  <Link href="/grunnleggende" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none no-underline" role="menuitem" tabIndex={0}>
+                    Grunnleggende
+                  </Link>
                   <hr className="my-2 border-gray-200" />
-                  <Link href="/ordbok" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 no-underline">
+                  <Link href="/ordbok" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none no-underline" role="menuitem" tabIndex={0}>
                     {t('ordbok')}
                   </Link>
                 </div>

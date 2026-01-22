@@ -90,6 +90,28 @@ const ordliste: OrdDefinisjon[] = [
   { ord: 'Nasjonalt ID-kort', forklaring: 'Norsk ID-kort med bilde som kan brukes som legitimasjon i Norge og til reiser i EU/EØS.', eksempel: 'Nasjonalt ID-kort er ikke gyldig reisedokument utenfor EU/EØS.', kategori: 'ID' },
   { ord: 'Pass', forklaring: 'Offisielt reisedokument som bekrefter identitet og norsk statsborgerskap.', eksempel: 'Du må ha gyldig pass for å reise utenfor Europa.', kategori: 'ID' },
   { ord: 'Personnummer', forklaring: 'De 11 sifrene som unikt identifiserer deg i Norge (fødselsdato + 5 siffer).', eksempel: 'Personnummeret brukes ved innlogging med BankID og hos legen.', kategori: 'ID' },
+
+  // Pensjon-ord
+  { ord: 'Alderspensjon', forklaring: 'Månedlig utbetaling fra staten når du blir pensjonist. Kan tas ut fra 62 år, men jo senere du starter, jo mer får du.', eksempel: 'Du kan sjekke hvor mye alderspensjon du vil få på nav.no/pensjon.', kategori: 'Pensjon' },
+  { ord: 'AFP (Avtalefestet pensjon)', forklaring: 'Tilleggspensjon for ansatte i bedrifter med tariffavtale. Gir livsvarig ekstra utbetaling ved siden av alderspensjon.', eksempel: 'AFP gir deg mulighet til å gå av tidligere med mer penger.', kategori: 'Pensjon' },
+  { ord: 'Garantipensjon', forklaring: 'Minstepensjon som sikrer alle en viss inntekt i alderdommen, selv om du har jobbet lite.', eksempel: 'Garantipensjon krever at du har bodd minst 5 år i Norge.', kategori: 'Pensjon' },
+  { ord: 'Pensjonsbeholdning', forklaring: 'Summen av alle pensjonspoengene dine gjennom arbeidslivet. Bestemmer hvor mye pensjon du får.', eksempel: 'Du kan se pensjonsbeholdningen din på Din pensjon på nav.no.', kategori: 'Pensjon' },
+  { ord: 'Pensjonspoeng', forklaring: 'Poeng du tjener opp hvert år basert på inntekten din. Brukes til å beregne alderspensjon.', eksempel: 'Du tjener pensjonspoeng på all inntekt opp til 7,1 G.', kategori: 'Pensjon' },
+  { ord: 'Gjenlevendepensjon', forklaring: 'Økonomisk støtte til deg som har mistet ektefelle eller samboer med felles barn.', eksempel: 'Gjenlevendepensjon kan gis i inntil 3 år, eller til du får ny samboer.', kategori: 'Pensjon' },
+  { ord: 'Tjenestepensjon', forklaring: 'Pensjon fra arbeidsgiveren din, i tillegg til alderspensjon fra NAV. Også kalt OTP (obligatorisk tjenestepensjon).', eksempel: 'Alle arbeidsgivere må spare minst 2% til tjenestepensjon for ansatte.', kategori: 'Pensjon' },
+  { ord: 'Uttaksgrad', forklaring: 'Hvor stor andel av pensjonen du velger å ta ut. Du kan ta ut 20%, 40%, 50%, 60%, 80% eller 100%.', eksempel: 'Med 50% uttaksgrad får du halv pensjon og kan jobbe ved siden av.', kategori: 'Pensjon' },
+
+  // Teknologi-ord
+  { ord: 'Oppdatering', forklaring: 'Ny versjon av en app eller telefon som fikser feil og legger til sikkerhet. Viktig å installere!', eksempel: 'Sjekk Innstillinger → Programvareoppdatering for å oppdatere telefonen.', kategori: 'Teknologi' },
+  { ord: 'Wi-Fi', forklaring: 'Trådløst internett fra en ruter. Gratis å bruke hjemme, på biblioteket eller kafé.', eksempel: 'Koble til Wi-Fi for å spare mobildata.', kategori: 'Teknologi' },
+  { ord: 'Mobildata', forklaring: 'Internett via telefonabonnementet ditt. Koster penger og har ofte en grense.', eksempel: 'Bruk Wi-Fi hjemme for å spare mobildata til når du er ute.', kategori: 'Teknologi' },
+  { ord: 'Skjermbilde', forklaring: 'Et bilde av det som vises på skjermen din. Nyttig for å vise feilmeldinger til andre.', eksempel: 'Ta skjermbilde med sideknapp + volum opp (iPhone) eller av/på + volum ned (Android).', kategori: 'Teknologi' },
+  { ord: 'Nettleser', forklaring: 'Program for å besøke nettsider. Safari (iPhone), Chrome (Android) og Edge (PC) er vanlige.', eksempel: 'Åpne nettleseren og skriv nav.no i adressefeltet.', kategori: 'Teknologi' },
+  { ord: 'Nedlasting', forklaring: 'Å hente en fil eller app fra internett til telefonen eller PC-en din.', eksempel: 'Nedlastede filer finner du ofte i Filer-appen eller Nedlastinger-mappen.', kategori: 'Teknologi' },
+  { ord: 'Innstillinger', forklaring: 'Stedet på telefonen der du kan endre språk, skriftstørrelse, Wi-Fi, lyd og mer.', eksempel: 'Gå til Innstillinger for å øke skriftstørrelsen på telefonen.', kategori: 'Teknologi' },
+  { ord: 'Varsling/Notifikasjon', forklaring: 'Melding som dukker opp på telefonen for å varsle deg om noe, for eksempel ny SMS eller påminnelse.', eksempel: 'Du kan skru av varslinger for apper som forstyrrer i Innstillinger.', kategori: 'Teknologi' },
+  { ord: 'Hjemmeskjerm', forklaring: 'Hovedskjermen på telefonen der alle app-ikonene dine ligger.', eksempel: 'Trykk på hjem-knappen for å gå tilbake til hjemmeskjermen.', kategori: 'Teknologi' },
+  { ord: 'Kontakter', forklaring: 'Liste over telefonnumre og navn på folk du kjenner, lagret på telefonen.', eksempel: 'Legg til et nytt nummer i Kontakter så du ser hvem som ringer.', kategori: 'Teknologi' },
 ];
 
 export default function OrdbokPage() {
@@ -182,6 +204,8 @@ export default function OrdbokPage() {
               case 'Bolig': return 'bg-teal-600 text-white';
               case 'Utdanning': return 'bg-indigo-600 text-white';
               case 'ID': return 'bg-cyan-600 text-white';
+              case 'Pensjon': return 'bg-amber-600 text-white';
+              case 'Teknologi': return 'bg-sky-600 text-white';
               default: return 'bg-gray-600 text-white';
             }
           };
@@ -213,6 +237,8 @@ export default function OrdbokPage() {
                 : ord.kategori === 'Bolig' ? 'bg-teal-100 text-teal-700'
                 : ord.kategori === 'Utdanning' ? 'bg-indigo-100 text-indigo-700'
                 : ord.kategori === 'ID' ? 'bg-cyan-100 text-cyan-700'
+                : ord.kategori === 'Pensjon' ? 'bg-amber-100 text-amber-700'
+                : ord.kategori === 'Teknologi' ? 'bg-sky-100 text-sky-700'
                 : 'bg-gray-100 text-gray-700'
               }`}>
                 {ord.kategori}
