@@ -7,7 +7,7 @@ export const routing = defineRouting({
 });
 
 // Alle språk som vises i språkvelgeren (inkludert kommende)
-export const allLocales = ['no', 'en', 'pl', 'so', 'ar'];
+export const allLocales = ['no', 'en', 'uk', 'pl', 'so', 'ar'];
 
 // Språk som er aktive og fungerer
 export const activeLocales = ['no'];
@@ -15,6 +15,7 @@ export const activeLocales = ['no'];
 export const localeNames: Record<string, string> = {
   no: 'Norsk',
   en: 'English',
+  uk: 'Українська',
   pl: 'Polski',
   so: 'Soomaali',
   ar: 'العربية'
@@ -23,6 +24,7 @@ export const localeNames: Record<string, string> = {
 export const localeFlags: Record<string, string> = {
   no: '🇳🇴',
   en: '🇬🇧',
+  uk: '🇺🇦',
   pl: '🇵🇱',
   so: '🇸🇴',
   ar: '🇸🇦'
