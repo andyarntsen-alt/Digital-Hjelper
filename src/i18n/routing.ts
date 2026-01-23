@@ -1,7 +1,7 @@
 import { defineRouting } from 'next-intl/routing';
 
 export const routing = defineRouting({
-  locales: ['no'],
+  locales: ['no', 'en', 'uk', 'pl', 'so', 'ar'],
   defaultLocale: 'no',
   localePrefix: 'always'
 });
@@ -10,7 +10,7 @@ export const routing = defineRouting({
 export const allLocales = ['no', 'en', 'uk', 'pl', 'so', 'ar'];
 
 // Språk som er aktive og fungerer
-export const activeLocales = ['no'];
+export const activeLocales = ['no', 'en', 'uk', 'pl', 'so', 'ar'];
 
 export const localeNames: Record<string, string> = {
   no: 'Norsk',

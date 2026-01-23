@@ -7,16 +7,19 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import AccessibilityToolbar from '@/components/AccessibilityToolbar';
 import CookieBanner from '@/components/CookieBanner';
+import { OrganizationSchema, WebSiteSchema } from '@/components/StructuredData';
+import LanguageHtmlUpdater from '@/components/LanguageHtmlUpdater';
+import HreflangTags from '@/components/HreflangTags';
 
 export const metadata: Metadata = {
   title: 'LettDigital - Enkel veiledning for offentlige tjenester',
   description: 'Vi gjør det enklere for alle å bruke NAV, Skatteetaten og Helsenorge. Steg-for-steg veiledninger med store fonter og enkelt språk.',
   keywords: 'NAV hjelp, Skatteetaten veiledning, Helsenorge guide, digital hjelp eldre, offentlige tjenester, LettDigital',
-  metadataBase: new URL('https://lettdigital.no'),
+  metadataBase: new URL('https://www.lettdigital.no'),
   openGraph: {
     title: 'LettDigital - Enkel veiledning for alle',
     description: 'Steg-for-steg veiledninger for NAV, Skatteetaten og Helsenorge. Enkelt språk og store bokstaver.',
-    url: 'https://lettdigital.no',
+    url: 'https://www.lettdigital.no',
     siteName: 'LettDigital',
     images: [
       {
@@ -65,6 +68,10 @@ export default async function LocaleLayout({
 
   return (
     <NextIntlClientProvider messages={messages}>
+      <LanguageHtmlUpdater />
+      <HreflangTags />
+      <OrganizationSchema locale={locale} />
+      <WebSiteSchema locale={locale} />
       <div className="flex flex-col min-h-screen">
         <Header />
         <main id="main-content" className="flex-1">

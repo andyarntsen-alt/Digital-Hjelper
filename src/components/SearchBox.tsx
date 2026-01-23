@@ -108,21 +108,57 @@ export default function SearchBox() {
     keywords: guide.keywords,
   })), [tGuides]);
 
+  // Fuzzy matching funksjon - tillater skrivefeil
+  const fuzzyMatch = (text: string, search: string): boolean => {
+    if (text.includes(search)) return true;
+
+    // Enkel Levenshtein-lignende fuzzy match for korte ord
+    if (search.length >= 3 && text.length >= 3) {
+      // Sjekk om minst 70% av bokstavene matcher
+      let matches = 0;
+      for (const char of search) {
+        if (text.includes(char)) matches++;
+      }
+      return matches / search.length >= 0.7;
+    }
+    return false;
+  };
+
   useEffect(() => {
-    if (query.length < 2) {
+    // Start søk fra 1 tegn for bedre respons
+    if (query.length < 1) {
       setResults([]);
       return;
     }
 
-    const searchLower = query.toLowerCase();
-    const filtered = allGuides.filter(guide =>
-      guide.title.toLowerCase().includes(searchLower) ||
-      guide.description.toLowerCase().includes(searchLower) ||
-      guide.keywords.some(k => k.includes(searchLower)) ||
-      guide.category.toLowerCase().includes(searchLower)
-    );
+    const searchLower = query.toLowerCase().trim();
 
-    setResults(filtered);
+    // Score-basert sortering for bedre resultater
+    const scoredResults = allGuides.map(guide => {
+      let score = 0;
+      const titleLower = guide.title.toLowerCase();
+      const descLower = guide.description.toLowerCase();
+
+      // Eksakt match i tittel = høyest score
+      if (titleLower.includes(searchLower)) score += 100;
+      // Starter med søkeordet
+      if (titleLower.startsWith(searchLower)) score += 50;
+      // Match i beskrivelse
+      if (descLower.includes(searchLower)) score += 30;
+      // Match i kategori
+      if (guide.category.toLowerCase().includes(searchLower)) score += 20;
+      // Match i keywords (inkludert fuzzy)
+      if (guide.keywords.some(k => fuzzyMatch(k, searchLower))) score += 40;
+      // Fuzzy match i tittel
+      if (fuzzyMatch(titleLower, searchLower)) score += 25;
+
+      return { ...guide, score };
+    })
+    .filter(guide => guide.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 10); // Maks 10 resultater
+
+    setResults(scoredResults);
     setSelectedIndex(-1);
   }, [query, allGuides]);
 
@@ -185,6 +221,7 @@ export default function SearchBox() {
           id="search-results"
           className="absolute top-full left-0 right-0 mt-2 bg-white rounded-xl shadow-2xl border border-gray-200 max-h-96 overflow-y-auto z-50"
           role="listbox"
+          aria-label="Søkeresultater"
         >
           {results.map((result, index) => (
             <button

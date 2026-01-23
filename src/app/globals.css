@@ -55,12 +55,20 @@ html.high-contrast nav {
 html.high-contrast a,
 html.high-contrast button {
   color: #ffff00 !important;
+  text-decoration: underline !important;
+  font-weight: bold !important;
 }
 
 html.high-contrast a:hover,
 html.high-contrast button:hover {
-  color: #fff !important;
-  background-color: #333 !important;
+  color: #000 !important;
+  background-color: #ffff00 !important;
+}
+
+html.high-contrast a:focus,
+html.high-contrast button:focus {
+  outline: 3px solid #ffff00 !important;
+  outline-offset: 2px !important;
 }
 
 html.high-contrast .text-gray-600,
@@ -186,6 +194,29 @@ html.high-contrast .skip-link {
 *:focus {
   outline: 3px solid #fbbf24;
   outline-offset: 2px;
+}
+
+/* Minimum touch target størrelse for tilgjengelighet (WCAG 2.5.5) */
+button,
+a,
+[role="button"],
+input[type="checkbox"],
+input[type="radio"],
+select {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+/* Respekter brukernes motion-preferanser */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
 
 /* Skip link for tastaturnavigasjon */

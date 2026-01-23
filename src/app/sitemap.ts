@@ -1,81 +1,109 @@
 import { MetadataRoute } from 'next';
 
+// Alle aktive språk
+const locales = ['no', 'en', 'uk', 'pl', 'so', 'ar'];
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://www.lettdigital.no';
 
-  // All guide pages
-  const guides = [
+  // Alle guide-paths (uten språkprefix)
+  const guidePaths = [
     // NAV
-    '/no/nav',
-    '/no/nav/dagpenger',
-    '/no/nav/pensjon',
-    '/no/nav/uforetrygd',
-    '/no/nav/sykepenger',
-    '/no/nav/foreldrepenger',
-    '/no/nav/meldekort',
-    '/no/nav/arbeidsledig',
-    '/no/nav/logg-inn',
+    '/nav',
+    '/nav/dagpenger',
+    '/nav/pensjon',
+    '/nav/uforetrygd',
+    '/nav/sykepenger',
+    '/nav/foreldrepenger',
+    '/nav/meldekort',
+    '/nav/arbeidsledig',
+    '/nav/logg-inn',
     // Helse
-    '/no/helse',
-    '/no/helse/logg-inn',
-    '/no/helse/bestille-time',
-    '/no/helse/resepter',
-    '/no/helse/journal',
-    '/no/helse/bytte-fastlege',
-    '/no/helse/melding',
+    '/helse',
+    '/helse/logg-inn',
+    '/helse/bestille-time',
+    '/helse/resepter',
+    '/helse/journal',
+    '/helse/bytte-fastlege',
+    '/helse/melding',
     // Skatt
-    '/no/skatt',
-    '/no/skatt/skattemelding',
-    '/no/skatt/skattekort',
-    '/no/skatt/fradrag',
-    '/no/skatt/skatteoppgjoer',
-    '/no/skatt/skatteattest',
-    '/no/skatt/logg-inn',
+    '/skatt',
+    '/skatt/skattemelding',
+    '/skatt/skattekort',
+    '/skatt/fradrag',
+    '/skatt/skatteoppgjoer',
+    '/skatt/skatteattest',
+    '/skatt/logg-inn',
     // Sikkerhet
-    '/no/sikkerhet',
-    '/no/sikkerhet/bankid',
-    '/no/sikkerhet/passord',
-    '/no/sikkerhet/svindel',
-    '/no/sikkerhet/phishing',
+    '/sikkerhet',
+    '/sikkerhet/bankid',
+    '/sikkerhet/passord',
+    '/sikkerhet/svindel',
+    '/sikkerhet/phishing',
     // Grunnleggende
-    '/no/grunnleggende',
-    '/no/grunnleggende/smarttelefon',
-    '/no/grunnleggende/nettleser',
-    '/no/grunnleggende/videosamtale',
-    '/no/grunnleggende/passord-hjelp',
-    '/no/grunnleggende/fa-hjelp',
+    '/grunnleggende',
+    '/grunnleggende/smarttelefon',
+    '/grunnleggende/nettleser',
+    '/grunnleggende/videosamtale',
+    '/grunnleggende/passord-hjelp',
+    '/grunnleggende/fa-hjelp',
     // Bank
-    '/no/bank',
-    '/no/bank/nettbank',
-    '/no/bank/vipps',
-    '/no/bank/betaling',
-    '/no/bank/gjeld',
+    '/bank',
+    '/bank/nettbank',
+    '/bank/vipps',
+    '/bank/betaling',
+    '/bank/gjeld',
     // Bolig
-    '/no/bolig',
-    '/no/bolig/bostotte',
-    '/no/bolig/startlan',
-    '/no/bolig/kommunal-bolig',
+    '/bolig',
+    '/bolig/bostotte',
+    '/bolig/startlan',
+    '/bolig/kommunal-bolig',
     // Utdanning
-    '/no/utdanning',
-    '/no/utdanning/studielan',
-    '/no/utdanning/stipend',
-    '/no/utdanning/tilbakebetaling',
+    '/utdanning',
+    '/utdanning/studielan',
+    '/utdanning/stipend',
+    '/utdanning/tilbakebetaling',
     // ID
-    '/no/id',
-    '/no/id/pass',
-    '/no/id/id-kort',
-    '/no/id/forerkort',
+    '/id',
+    '/id/pass',
+    '/id/id-kort',
+    '/id/forerkort',
     // Andre sider
-    '/no',
-    '/no/faq',
-    '/no/ordbok',
-    '/no/om',
+    '',
+    '/faq',
+    '/ordbok',
+    '/om',
   ];
 
-  return guides.map((path) => ({
-    url: `${baseUrl}${path}`,
-    lastModified: new Date(),
-    changeFrequency: 'monthly',
-    priority: path === '/no' ? 1 : path.split('/').length === 3 ? 0.9 : 0.8,
-  }));
+  // Generer URL-er for alle språk
+  const urls: MetadataRoute.Sitemap = [];
+
+  for (const locale of locales) {
+    for (const path of guidePaths) {
+      const fullPath = `/${locale}${path}`;
+      const isHomePage = path === '';
+      const isMainCategory = path.split('/').length === 2;
+
+      // Generer alternates for hreflang
+      const alternates: { languages: Record<string, string> } = {
+        languages: {}
+      };
+
+      for (const altLocale of locales) {
+        const langCode = altLocale === 'no' ? 'nb' : altLocale;
+        alternates.languages[langCode] = `${baseUrl}/${altLocale}${path}`;
+      }
+      alternates.languages['x-default'] = `${baseUrl}/no${path}`;
+
+      urls.push({
+        url: `${baseUrl}${fullPath}`,
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: isHomePage ? 1 : isMainCategory ? 0.9 : 0.8,
+        alternates
+      });
+    }
+  }
+
+  return urls;
 }

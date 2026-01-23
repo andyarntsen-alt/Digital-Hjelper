@@ -35,15 +35,15 @@ export default function Header() {
 
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex items-center justify-between py-4">
-          <Link href="/" className="flex items-center gap-3 no-underline">
+          <Link href="/" className="flex items-center gap-3 no-underline flex-shrink-0">
             <div className="bg-nav-blue text-white p-2 rounded-lg">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
               </svg>
             </div>
-            <div>
-              <span className="text-2xl font-bold text-gray-800">{t('siteName')}</span>
-              <span className="block text-sm text-gray-600">{t('tagline')}</span>
+            <div className="min-w-0">
+              <span className="text-2xl font-bold text-gray-800 block">{t('siteName')}</span>
+              <span className="block text-sm text-gray-600 whitespace-nowrap">{t('tagline')}</span>
             </div>
           </Link>
 

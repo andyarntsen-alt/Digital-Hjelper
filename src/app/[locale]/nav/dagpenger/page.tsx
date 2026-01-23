@@ -3,6 +3,7 @@
 import Breadcrumbs from '@/components/Breadcrumbs';
 import FavoriteButton from '@/components/FavoriteButton';
 import PrintButton from '@/components/PrintButton';
+import RelatedGuides from '@/components/RelatedGuides';
 import StepGuide from '@/components/StepGuide';
 import { useTranslations } from 'next-intl';
 
@@ -117,6 +118,8 @@ export default function DagpengerPage() {
           </div>
         </div>
       </div>
+
+      <RelatedGuides currentPath="/nav/dagpenger" category="nav" />
     </div>
   );
 }

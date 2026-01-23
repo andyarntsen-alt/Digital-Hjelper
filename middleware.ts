@@ -4,22 +4,25 @@ import { routing } from './src/i18n/routing';
 
 const intlMiddleware = createMiddleware(routing);
 
+// Alle aktive locales
+const locales = ['no', 'en', 'uk', 'pl', 'so', 'ar'];
+
 export default function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
 
   // Redirect root to /no
   if (pathname === '/') {
-    return NextResponse.redirect(new URL('/no', request.url));
+    return NextResponse.redirect(new URL('/no', request.url), { status: 308 });
   }
 
-  // Redirect paths without locale prefix to /no/path
-  const locales = ['no', 'en', 'pl', 'so', 'ar'];
+  // Sjekk om pathname allerede har en locale prefix
   const pathnameHasLocale = locales.some(
     locale => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
   );
 
+  // Redirect paths uten locale prefix til /no/path
   if (!pathnameHasLocale && !pathname.startsWith('/api') && !pathname.startsWith('/_next') && !pathname.includes('.')) {
-    return NextResponse.redirect(new URL(`/no${pathname}`, request.url));
+    return NextResponse.redirect(new URL(`/no${pathname}`, request.url), { status: 308 });
   }
 
   return intlMiddleware(request);
@@ -27,7 +30,9 @@ export default function middleware(request: NextRequest) {
 
 export const config = {
   matcher: [
-    // Match all pathnames except for static files and api
-    '/((?!api|_next/static|_next/image|favicon.ico|.*\\..*).*)'
+    // Match root path
+    '/',
+    // Match all pathnames except for static files, api, and _next
+    '/((?!api|_next|_vercel|.*\\.[\\w]+$).*)'
   ]
 };

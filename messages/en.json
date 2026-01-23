@@ -23,7 +23,8 @@
     "addToFavorites": "Add to favorites",
     "removeFromFavorites": "Remove from favorites",
     "comingSoon": "Coming soon",
-    "comingSoonText": "This guide is not yet available in English. We are working on translating all our guides. In the meantime, you can use the Norwegian version or come back later."
+    "comingSoonText": "This guide is not yet available in English. We are working on translating all our guides. In the meantime, you can use the Norwegian version or come back later.",
+    "print": "Print"
   },
   "header": {
     "siteName": "LettDigital",
@@ -37,7 +38,12 @@
     "ordbok": "Dictionary",
     "faq": "FAQ",
     "about": "About us",
-    "language": "Language"
+    "language": "Language",
+    "bolig": "Housing",
+    "utdanning": "Education",
+    "id": "ID and passport",
+    "grunnleggende": "Basic technology",
+    "more": "More"
   },
   "footer": {
     "about": "About LettDigital",
@@ -45,7 +51,15 @@
     "quickLinks": "Quick Links",
     "contact": "Contact",
     "email": "kontakt@lettdigital.no",
-    "copyright": "LettDigital. Made for everyone."
+    "copyright": "LettDigital. Made for everyone.",
+    "privacy": "Privacy",
+    "disclaimerTitle": "Important to know",
+    "disclaimerText": "LettDigital is not part of NAV, the Tax Office, Health Norway or other public agencies. We are an independent help service that explains how the services work. All official information can be found on the agencies' own websites.",
+    "emergencyNumbers": "Emergency numbers",
+    "ambulance": "Ambulance",
+    "fire": "Fire",
+    "police": "Police",
+    "emergencyRoom": "Emergency room"
   },
   "accessibility": {
     "title": "Accessibility",
@@ -55,7 +69,9 @@
     "extraLargeSize": "Extra large",
     "highContrast": "High contrast",
     "on": "On",
-    "off": "Off"
+    "off": "Off",
+    "readAloud": "Read aloud",
+    "stopReading": "Stop reading"
   },
   "home": {
     "heroTitle": "Do you need help with",
@@ -85,7 +101,11 @@
     "free": "Completely free",
     "freeDesc": "Our service costs nothing to use.",
     "ctaTitle": "Ready to get started?",
-    "ctaSubtitle": "Choose the service you need help with, and we'll guide you through the process."
+    "ctaSubtitle": "Choose the service you need help with, and we'll guide you through the process.",
+    "whatIsTitle": "What is LettDigital?",
+    "whatIsText": "LettDigital is a free, independent website that helps you use public digital services in Norway. We explain difficult things in a simple way, so everyone can master the digital world.",
+    "disclaimerTitle": "Important to know",
+    "disclaimerText": "LettDigital is not part of NAV, the Tax Office, Health Norway or other public agencies. We are an independent help service that explains how the services work. All official information can be found on the agencies' own websites. Our guides are for guidance only and do not replace official information."
   },
   "services": {
     "nav": {
@@ -189,6 +209,39 @@
       "title": "Digital Tools",
       "shortDesc": "Email and Digipost",
       "description": "Set up email, use digital mailbox and other digital tools."
+    },
+    "bolig": {
+      "title": "Housing and housing support",
+      "shortDesc": "Housing allowance and starter loan",
+      "description": "Apply for housing allowance, starter loan from Husbanken and municipal housing."
+    },
+    "utdanning": {
+      "title": "Education and Student Loans",
+      "shortDesc": "Student loans and grants",
+      "description": "Apply for student loans, grants and manage repayment with Lanekassen."
+    },
+    "id": {
+      "title": "ID and documents",
+      "shortDesc": "Passport and driver's license",
+      "description": "Order passport, renew driver's license and get national ID card."
+    },
+    "grunnleggende": {
+      "title": "Basic technology",
+      "shortDesc": "Get started with digital tools",
+      "description": "Learn basic use of smartphone, browser, video calls and more.",
+      "hubTitle": "Basic technology",
+      "hubSubtitle": "Learn digital skills from the ground up",
+      "didYouKnow": "Did you know?",
+      "didYouKnowText": "It's never too late to learn digital skills! Here you'll find simple guides that explain everything from the ground up - without difficult words.",
+      "selectGuide": "Choose what you want to learn",
+      "needMoreHelp": "Need personal help?",
+      "needMoreHelpText": "Many libraries and volunteer organizations offer free computer help:",
+      "seniornett": "Seniornett Norway",
+      "seniornettDesc": "Offers courses and help for seniors across the country",
+      "library": "Your local library",
+      "libraryDesc": "Many libraries have free computer help and courses",
+      "dataHjelpen": "Volunteer helpers",
+      "dataHjelpenDesc": "Ask family, friends or neighbors for help"
     }
   },
   "guides": {
@@ -679,6 +732,236 @@
             "tip": "Take a screenshot of the confirmation for your own documentation."
           }
         ]
+      },
+      "pensjon": {
+        "title": "Apply for retirement pension",
+        "description": "Step-by-step guide to apply for retirement pension from NAV",
+        "longDescription": "Retirement pension is money you receive from NAV when you get older. Here we show you how to check what you're entitled to and how to apply.",
+        "backToGuides": "Back to NAV guides",
+        "time": "About 15 minutes",
+        "difficulty": "Medium",
+        "whoCanGet": "Who can get retirement pension?",
+        "whoCanGetIntro": "You can start receiving retirement pension when you:",
+        "requirements": [
+          "Are between 62 and 75 years old (you choose when to start)",
+          "Have lived or worked in Norway for at least 5 years after turning 16",
+          "Are a member of the National Insurance Scheme"
+        ],
+        "importantChoicesTitle": "Important choices you must make",
+        "importantChoices": [
+          {
+            "title": "When should you start?",
+            "description": "The earlier you take out pension, the less you get per month. If you wait until 67, you get full pension. Take it at 62, and you get less - but over more years."
+          },
+          {
+            "title": "How much do you want to withdraw?",
+            "description": "You can withdraw 20%, 40%, 50%, 60%, 80% or 100% of your pension. You can work alongside without your pension being reduced."
+          },
+          {
+            "title": "Do you want to combine with work?",
+            "description": "You can work as much as you want alongside retirement pension. Your income does not affect the pension."
+          }
+        ],
+        "documentsTitle": "What you need",
+        "documents": [
+          "BankID or MinID for login",
+          "Account number where you want the pension paid",
+          "Overview of any stays abroad (if you have lived in other countries)"
+        ],
+        "stepsTitle": "How to apply for retirement pension",
+        "steps": [
+          {
+            "title": "Check your pension on nav.no first",
+            "description": "Before applying, you should check what you can get. Go to nav.no and log in. Search for \"Din pensjon\" or go to \"Pensjon\" in the menu. Here you see how much you can get at different ages.",
+            "tip": "The pension calculator shows you exactly how much you'll get at 62, 67 or other ages. Take time to understand this first!"
+          },
+          {
+            "title": "Decide when and how much",
+            "description": "Based on the calculator, decide when you want to start and how much you want to withdraw. Remember: you can change the withdrawal rate later, but you cannot undo starting withdrawal.",
+            "warning": "Once you have started withdrawing pension, you cannot stop completely. You can only change how much you withdraw."
+          },
+          {
+            "title": "Log in to nav.no",
+            "description": "Go to nav.no and log in with BankID or MinID. Click \"Log in\" in the top right corner.",
+            "tip": "See our guide \"Log in to NAV\" if you need help."
+          },
+          {
+            "title": "Find the pension application",
+            "description": "After logging in, go to \"Pensjon\" in the menu or search for \"søk alderspensjon\". Click on \"Søk om alderspensjon\".",
+            "tip": "You can also call NAV at 55 55 33 33 and get help applying over the phone."
+          },
+          {
+            "title": "Fill in personal information",
+            "description": "The application shows your personal information. Check that name, address and account number are correct. If something is wrong, you must change it before continuing.",
+            "warning": "Check the account number carefully - that's where the pension will be paid!"
+          },
+          {
+            "title": "Choose when to start withdrawal",
+            "description": "Select which month you want to start receiving pension. You can start at the earliest the month after you apply.",
+            "tip": "Most people choose to start from the 1st of a month for simplicity."
+          },
+          {
+            "title": "Choose withdrawal rate",
+            "description": "Choose how much of your pension you want to withdraw: 20%, 40%, 50%, 60%, 80% or 100%. You see how much this amounts to in kroner per month.",
+            "tip": "Many choose 100% when they stop working completely, or a lower rate if they continue part-time."
+          },
+          {
+            "title": "Provide any AFP information",
+            "description": "If you have AFP (contractual early retirement pension) from your employer, you must provide this. AFP and retirement pension can be combined.",
+            "tip": "Unsure if you have AFP? Ask your employer or check with your pension fund."
+          },
+          {
+            "title": "Provide information about stays abroad",
+            "description": "If you have lived or worked in other countries, you must provide this. It may affect how much pension you get from Norway and whether you're entitled to pension from other countries.",
+            "tip": "EU/EEA countries and countries Norway has social security agreements with may also entitle you to pension from there."
+          },
+          {
+            "title": "Review and submit",
+            "description": "Check all the information. When everything is correct, click \"Send søknad\". You will receive confirmation on screen and by email.",
+            "tip": "Keep the confirmation. NAV usually processes the application within 4 weeks."
+          }
+        ],
+        "importantTitle": "Important to know about retirement pension",
+        "importantInfo": [
+          {
+            "title": "Tax deduction",
+            "description": "Tax is deducted from your pension. You can change the tax deduction at skatteetaten.no."
+          },
+          {
+            "title": "Payment",
+            "description": "Pension is usually paid around the 20th of each month."
+          },
+          {
+            "title": "Can be changed",
+            "description": "You can change the withdrawal rate (how much you withdraw) once per year."
+          },
+          {
+            "title": "Working alongside",
+            "description": "You can work as much as you want without your pension being reduced. You also continue to earn more pension if you work."
+          }
+        ],
+        "faqTitle": "Common questions about retirement pension",
+        "faq": [
+          {
+            "question": "When should I withdraw pension?",
+            "answer": "It depends on your situation. If you withdraw early (62-66), you get less per month, but over more years. If you wait until 67 or later, you get more per month. Use the calculator on nav.no to see what suits you."
+          },
+          {
+            "question": "Can I work and have pension at the same time?",
+            "answer": "Yes! You can work as much as you want without your pension being reduced. You even continue to earn more pension when you work."
+          },
+          {
+            "question": "What is the difference between retirement pension and AFP?",
+            "answer": "Retirement pension is from the National Insurance Scheme (NAV) and everyone is entitled to it. AFP is a supplementary pension from employers who have an AFP agreement. You can have both at the same time."
+          },
+          {
+            "question": "Can I regret if I withdraw pension too early?",
+            "answer": "No, you cannot stop the withdrawal completely once you have started. But you can reduce the withdrawal rate down to 20%."
+          }
+        ]
+      },
+      "uforetrygd": {
+        "title": "Apply for disability benefit",
+        "description": "Step-by-step guide to apply for disability benefit when health prevents you from working",
+        "longDescription": "Disability benefit is money you can receive from NAV if you cannot work due to illness or injury. Here we show you how to apply.",
+        "backToGuides": "Back to NAV guides",
+        "time": "About 20 minutes",
+        "difficulty": "Medium",
+        "whoCanGet": "Who can get disability benefit?",
+        "whoCanGetIntro": "To receive disability benefit you usually must:",
+        "requirements": [
+          "Be between 18 and 67 years old",
+          "Have been a member of the National Insurance Scheme for the last 5 years before you became ill",
+          "Have permanently reduced work capacity due to illness or injury",
+          "Have tried treatment and work-related measures without sufficient improvement"
+        ],
+        "beforeApplyingTitle": "Before applying for disability benefit",
+        "beforeApplyingText": "NAV usually requires that you have tried other things first:",
+        "beforeApplying": [
+          "Been on sick leave and received sick pay",
+          "Been on work assessment allowance (AAP) and tried measures",
+          "Received medical treatment for your illness/injury",
+          "Tried workplace accommodations"
+        ],
+        "documentsTitle": "Documents you need",
+        "documents": [
+          "BankID or MinID for login",
+          "Medical certificate or medical documentation (NAV often retrieves this themselves)",
+          "Overview of previous treatment and measures you have tried",
+          "Account number for payment"
+        ],
+        "stepsTitle": "How to apply for disability benefit",
+        "steps": [
+          {
+            "title": "Talk to NAV first",
+            "description": "Before applying, you should have a conversation with your NAV advisor. They can assess whether you have tried enough measures and if the timing is right to apply.",
+            "tip": "Call NAV at 55 55 33 33 or request a conversation via nav.no."
+          },
+          {
+            "title": "Ask your doctor for documentation",
+            "description": "Your GP must write a medical certificate describing your illness and how it affects your work capacity. NAV can also retrieve information directly from the doctor.",
+            "tip": "Tell your doctor that you plan to apply for disability benefit, so they can prepare the documentation."
+          },
+          {
+            "title": "Log in to nav.no",
+            "description": "Go to nav.no and log in with BankID or MinID.",
+            "tip": "You can also apply on paper or get help at the NAV office."
+          },
+          {
+            "title": "Find the disability benefit application",
+            "description": "Search for \"uføretrygd\" in the search field or go to \"Applications\" and find \"Application for disability benefit\".",
+            "tip": "The application is long - set aside enough time. You can save along the way and continue later."
+          },
+          {
+            "title": "Fill in personal information",
+            "description": "Check that your personal information is correct. Provide account number for payment.",
+            "warning": "Check that the account number is correct - that's where the disability benefit will be paid."
+          },
+          {
+            "title": "Describe your illness/injury",
+            "description": "You must explain what is wrong with you and how it affects your daily life and work capacity. Be honest and detailed.",
+            "tip": "Describe what a normal day looks like for you - what can you do and what can't you do?"
+          },
+          {
+            "title": "Provide treatment and measures",
+            "description": "List all treatment you have received and measures you have tried. This includes sick leave, AAP, medical treatment, surgeries, rehabilitation, etc.",
+            "tip": "The more documentation, the better. NAV needs to see that you have tried to get better."
+          },
+          {
+            "title": "Provide work history",
+            "description": "Fill in information about the jobs you have had and your education. NAV uses this to calculate how much you will receive.",
+            "tip": "NAV retrieves a lot of information automatically, but check that it's correct."
+          },
+          {
+            "title": "Submit the application",
+            "description": "Review all your answers and submit the application. You will receive confirmation that it has been received.",
+            "warning": "Processing time is often long - 3-6 months is common. You will be notified when NAV needs more information."
+          }
+        ],
+        "afterApplyingTitle": "After you have applied",
+        "afterApplying": [
+          {
+            "title": "Monitor nav.no",
+            "description": "Log in regularly to see if NAV has sent you messages or needs more information."
+          },
+          {
+            "title": "Attend appointments",
+            "description": "NAV may call you in for a conversation or examination. It's important that you show up."
+          },
+          {
+            "title": "Respond to inquiries",
+            "description": "If NAV asks for more documentation, respond as quickly as you can. It shortens the processing time."
+          }
+        ],
+        "howMuchTitle": "How much will you get?",
+        "howMuchText": "Disability benefit is usually 66% of your income before you became ill, up to 6G (approx. NOK 744,000). Minimum is approx. 2.5G for single people. You can also work a little alongside without losing all your disability benefit.",
+        "importantTitle": "Important to know",
+        "important": [
+          "You can have graded disability benefit (e.g. 50%) and work part-time alongside",
+          "Disability benefit entitles you to retirement pension from age 67",
+          "You keep your disability benefit if you become sicker, but it can be reduced if you get better",
+          "You must notify NAV if your situation changes"
+        ]
       }
     },
     "skatt": {
@@ -758,7 +1041,145 @@
       },
       "fradrag": {
         "title": "Add deductions",
-        "description": "How to add deductions to your tax return"
+        "description": "How to add deductions to your tax return",
+        "longDescription": "Deductions reduce your tax. Many forget deductions they are entitled to! Here we show you all the deductions and how to add them.",
+        "backToGuides": "Back to Tax Office guides",
+        "time": "About 15 minutes",
+        "difficulty": "Medium",
+        "whatIsTitle": "What are deductions?",
+        "whatIsText": "Deductions are expenses that are subtracted from your income before tax is calculated. The more deductions you have, the less tax you pay.",
+        "exampleTitle": "Example:",
+        "exampleText": "If you earn NOK 500,000 and have NOK 50,000 in deductions, you pay tax on NOK 450,000 instead. With a tax rate of 22%, you save about NOK 11,000 in tax!",
+        "stepsTitle": "How to add deductions",
+        "allDeductionsTitle": "All deductions you may be entitled to",
+        "allDeductionsText": "Go through the list and check if anything applies to you!",
+        "tipTitle": "Tip: Keep your receipts!",
+        "tipText": "The Tax Office can ask for documentation of your deductions for up to 10 years. Take photos of receipts and store them digitally.",
+        "deductionCategories": [
+          {
+            "category": "Work and travel",
+            "items": [
+              {
+                "name": "Commute to work",
+                "description": "If you have more than 37 km one way to work, you can get a deduction",
+                "amount": "Approx. NOK 1.76 per km over 37 km"
+              },
+              {
+                "name": "Union membership fee",
+                "description": "Union membership automatically gives a deduction",
+                "amount": "Up to approx. NOK 7,700"
+              },
+              {
+                "name": "Home office",
+                "description": "If you work from home regularly, you can get a deduction",
+                "amount": "Approx. NOK 2,050 per year (standard deduction)"
+              },
+              {
+                "name": "Tools and equipment",
+                "description": "Equipment you need for your job that your employer doesn't cover",
+                "amount": "Actual expenses"
+              }
+            ]
+          },
+          {
+            "category": "Housing and loans",
+            "items": [
+              {
+                "name": "Interest expenses",
+                "description": "Interest on mortgage, car loan, student loan, etc.",
+                "amount": "All interest you have paid"
+              },
+              {
+                "name": "BSU (Housing savings for young people)",
+                "description": "Savings for housing for those under 34",
+                "amount": "20% of deposit, max NOK 5,500"
+              },
+              {
+                "name": "Maintenance of rental property",
+                "description": "Maintenance costs if you rent out property",
+                "amount": "Actual expenses"
+              }
+            ]
+          },
+          {
+            "category": "Gifts and donations",
+            "items": [
+              {
+                "name": "Gifts to voluntary organizations",
+                "description": "Gifts to approved organizations (Red Cross, Doctors Without Borders, etc.)",
+                "amount": "NOK 500-25,000 per year"
+              }
+            ]
+          },
+          {
+            "category": "Family",
+            "items": [
+              {
+                "name": "Childcare deduction",
+                "description": "Expenses for kindergarten, after-school care, childminder",
+                "amount": "Up to NOK 25,000 for one child, +15,000 per additional child"
+              },
+              {
+                "name": "Special deduction for single provider",
+                "description": "If you live alone with children",
+                "amount": "Automatic if you qualify"
+              }
+            ]
+          },
+          {
+            "category": "Health",
+            "items": [
+              {
+                "name": "Special deduction for major illness expenses",
+                "description": "Expenses over NOK 9,180 for illness not covered",
+                "amount": "Expenses over the threshold"
+              }
+            ]
+          },
+          {
+            "category": "Education",
+            "items": [
+              {
+                "name": "Interest on student loan",
+                "description": "Interest you pay on student loans",
+                "amount": "All interest (often filled in automatically)"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "title": "Log in to skatteetaten.no",
+            "description": "Go to skatteetaten.no and log in with BankID. Go to your tax return."
+          },
+          {
+            "title": "Find \"Deductions\" or \"Edit\"",
+            "description": "In the tax return you see an overview of all items. Find the section for deductions, or click \"Edit\" next to the item you want to add deductions for."
+          },
+          {
+            "title": "Choose type of deduction",
+            "description": "Choose what type of deduction you want to add from the list. The most common are travel expenses, interest expenses, union fees and gifts to voluntary organizations.",
+            "tip": "See the list below for all deductions you may be entitled to!"
+          },
+          {
+            "title": "Enter the amount",
+            "description": "Enter the amount you are claiming as a deduction. You must be able to document the amount if the Tax Office asks.",
+            "warning": "Don't guess the amount! You must have receipts or other documentation."
+          },
+          {
+            "title": "Save the change",
+            "description": "Click \"Save\" or \"Add\" to save the deduction. You immediately see how it affects your tax."
+          },
+          {
+            "title": "Repeat for other deductions",
+            "description": "Go through the list below and check if you have other deductions you've forgotten. Add all you're entitled to."
+          },
+          {
+            "title": "See the new tax calculation",
+            "description": "After adding all deductions, you see at the bottom of the page how much you save in tax, or if you get more back.",
+            "tip": "Green number = more money back. Red number = you have to pay more."
+          }
+        ]
       },
       "skattekort": {
         "title": "Change tax card",
@@ -771,28 +1192,1980 @@
       "skatteattest": {
         "title": "Order tax certificate",
         "description": "How to order a tax certificate"
+      },
+      "loggInn": {
+        "title": "Log in to the Tax Office",
+        "description": "Learn how to log in to skatteetaten.no",
+        "longDescription": "Learn how to log in to the Tax Office to see your tax return, tax settlement and change tax card.",
+        "backToGuides": "Back to Tax Office guides",
+        "time": "About 5 minutes",
+        "difficulty": "Easy",
+        "beforeYouStart": "Before you start",
+        "beforeYouStartText": "You need BankID to log in to the Tax Office. MinID gives limited access to some services.",
+        "stepsTitle": "How to log in to the Tax Office",
+        "servicesTitle": "What can you do when logged in?",
+        "services": [
+          "View and submit tax return",
+          "View tax settlement and any additional tax",
+          "Change tax card",
+          "Order tax certificate",
+          "View overview of assets and debt"
+        ],
+        "problemsTitle": "Problems logging in?",
+        "problemsText": "If you have problems logging in:",
+        "problemsList": [
+          "Check that the BankID app is updated",
+          "Try refreshing the page",
+          "Try a different browser",
+          "Call the Tax Office at 800 80 000 for help"
+        ],
+        "steps": [
+          {
+            "title": "Go to skatteetaten.no",
+            "description": "Open your browser and type \"skatteetaten.no\" in the address bar. Press Enter.",
+            "tip": "You can also search for \"Skatteetaten\" on Google."
+          },
+          {
+            "title": "Find the \"Log in\" button",
+            "description": "Look for \"Logg inn\" or \"Min side\" in the top right corner of the page. Click the button.",
+            "tip": "The button is usually green or blue."
+          },
+          {
+            "title": "Choose BankID",
+            "description": "You get the choice between BankID on mobile or BankID with code device. Choose the one you use.",
+            "warning": "The Tax Office requires BankID for full access. MinID gives limited access."
+          },
+          {
+            "title": "BankID on mobile",
+            "description": "Enter your national ID number (11 digits). You will receive a message on your phone - open the BankID app and approve the login.",
+            "tip": "Make sure the BankID app is installed and updated."
+          },
+          {
+            "title": "BankID with code device",
+            "description": "Enter your national ID number. Turn on the code device and enter the code shown on the screen. Enter your personal code on the device and use the new code that appears.",
+            "warning": "If the code device is out of battery, contact your bank."
+          },
+          {
+            "title": "You are logged in!",
+            "description": "You are now on \"Min side\" at the Tax Office. Here you can see the tax return, tax settlement, and change tax card.",
+            "tip": "Remember to log out when you are done, especially on a shared computer."
+          }
+        ]
       }
     },
     "helse": {
       "bestilleTime": {
         "title": "Book doctor's appointment",
-        "description": "How to book an appointment with your GP"
+        "description": "How to book an appointment with your GP",
+        "longDescription": "Learn how to book an appointment with your GP via Helsenorge. You can book an appointment at any time - including evenings and weekends.",
+        "backToGuides": "Back to Health Norway guides",
+        "time": "About 10 minutes",
+        "difficulty": "Easy",
+        "whatYouNeed": "What you need",
+        "whatYouNeedList": [
+          "BankID or MinID for login",
+          "Know approximately which day and time suits you"
+        ],
+        "stepsTitle": "How to book a doctor's appointment",
+        "steps": [
+          {
+            "title": "Log in to helsenorge.no",
+            "description": "Go to helsenorge.no and log in with BankID or MinID. Click \"Logg inn\" in the top right corner.",
+            "tip": "See our guide \"Log in to Health Norway\" if you need help."
+          },
+          {
+            "title": "Find \"Appointments\"",
+            "description": "After logging in you see the \"My health\" menu. Click on \"Timeavtaler\" or \"Bestill time\".",
+            "tip": "You can also search for \"bestille time\" in the search field."
+          },
+          {
+            "title": "Select \"Book new appointment\"",
+            "description": "Click the button \"Bestill ny time\" or \"Ny timeavtale\". You get an overview of where you can book an appointment."
+          },
+          {
+            "title": "Select your GP",
+            "description": "Click on your GP in the list. If you don't see your doctor, the medical office may not offer online booking.",
+            "warning": "Not all medical offices have online booking. Then you must call to book an appointment."
+          },
+          {
+            "title": "Select type of appointment",
+            "description": "Choose what the appointment is about. Common choices are \"Regular appointment\", \"Phone consultation\" or \"Video consultation\". Choose what suits best.",
+            "tip": "Video consultation is practical for simple things like prescription renewal or follow-up."
+          },
+          {
+            "title": "Select date and time",
+            "description": "You see a calendar with available times. Green fields mean available. Click on a date to see available times. Choose the time that suits you.",
+            "tip": "If no times suit you, try looking a few weeks ahead."
+          },
+          {
+            "title": "Write briefly about the reason",
+            "description": "You can write a short description of why you need an appointment. This helps the doctor prepare. You don't need to write everything - just the main reason.",
+            "tip": "Example: \"Have had a cough for two weeks\" or \"Want to discuss blood pressure medication\"."
+          },
+          {
+            "title": "Confirm the appointment",
+            "description": "Review the information and click \"Confirm\" or \"Book appointment\". You receive confirmation on screen and by SMS/email.",
+            "tip": "Add the appointment to your calendar so you don't forget it!"
+          }
+        ],
+        "cancelTitle": "Need to cancel?",
+        "cancelText": "You can cancel or change the appointment on Helsenorge. Go to \"Appointments\" and click on the appointment you want to change. Cancel at least 24 hours before if possible, so others can use the slot.",
+        "cantBookOnlineTitle": "Cannot book online?",
+        "cantBookOnlineText": "Some medical offices do not offer online booking. Then you must call the medical office directly. You can find the phone number on helsenorge.no under \"My GP\"."
       },
       "resepter": {
         "title": "View and renew prescriptions",
-        "description": "Check your prescriptions and request renewal"
+        "description": "Check your prescriptions and request renewal",
+        "longDescription": "On Helsenorge you can see all your prescriptions and request renewal without calling the doctor. Easy and fast!",
+        "backToGuides": "Back to Health Norway guides",
+        "time": "About 5 minutes",
+        "difficulty": "Easy",
+        "stepsTitle": "How to view and renew prescriptions",
+        "steps": [
+          {
+            "title": "Log in to helsenorge.no",
+            "description": "Go to helsenorge.no and log in with BankID. Click \"Logg inn\" in the top right corner.",
+            "warning": "You must use BankID (not MinID) to see prescriptions."
+          },
+          {
+            "title": "Find \"Prescriptions\"",
+            "description": "After logging in, click on \"Resepter\" in the menu or on the front page. You can also search for \"resepter\"."
+          },
+          {
+            "title": "View your active prescriptions",
+            "description": "You see a list of all your prescriptions. Green prescriptions are active (valid). Red or gray are expired. Click on a prescription to see details.",
+            "tip": "You can see how many refills are left and when the prescription expires."
+          },
+          {
+            "title": "Request prescription renewal",
+            "description": "If a prescription is about to expire or you need new medicine, click \"Request renewal\". Write a short message to the doctor about why you need renewal.",
+            "tip": "Example: \"Have used this for 2 years, works well. Want renewal.\""
+          },
+          {
+            "title": "Wait for response from doctor",
+            "description": "The doctor reviews the request and renews the prescription if appropriate. This usually takes 1-3 business days. You'll be notified when the prescription is renewed.",
+            "warning": "The doctor may say no to renewal and ask you to come for a check-up first. This is normal for some medicines."
+          },
+          {
+            "title": "Pick up medicine at the pharmacy",
+            "description": "When the prescription is renewed, you can pick up the medicine at any pharmacy. They can see your prescription when you provide your national ID number.",
+            "tip": "You can also order medicines from online pharmacies and have them delivered home."
+          }
+        ],
+        "tipsTitle": "Good tips about prescriptions",
+        "tips": [
+          "Request renewal well in advance - preferably 1-2 weeks before the medicine runs out",
+          "Always have enough medicine to wait for the doctor to renew",
+          "Some medicines require a doctor's appointment before renewal (e.g. blood pressure medication)",
+          "E-prescriptions are valid for 1 year from when they are issued"
+        ]
       },
       "bytteFastlege": {
         "title": "Change GP",
-        "description": "How to change to a new GP"
+        "description": "How to change to a new GP",
+        "longDescription": "You have the right to change GP if you wish. It's free and you can do it yourself online.",
+        "backToGuides": "Back to Health Norway guides",
+        "time": "About 10 minutes",
+        "difficulty": "Medium",
+        "goodToKnow": "Good to know before you switch",
+        "goodToKnowList": [
+          "You can change GP up to 2 times per year",
+          "The change takes effect from the 1st of next month",
+          "You can choose any doctor with available spots",
+          "It's completely free to switch"
+        ],
+        "stepsTitle": "How to change GP",
+        "steps": [
+          {
+            "title": "Log in to helsenorge.no",
+            "description": "Go to helsenorge.no and log in with BankID or MinID. Click \"Logg inn\" in the top right corner."
+          },
+          {
+            "title": "Find \"Change GP\"",
+            "description": "Click on \"Min fastlege\" or search for \"bytte fastlege\". Select \"Bytt fastlege\" or \"Finn ny fastlege\"."
+          },
+          {
+            "title": "Search for new doctor",
+            "description": "You can search by doctor's name, medical office or area. You also see which doctors have available spots near you.",
+            "tip": "Green number = available spots. Red or 0 = full."
+          },
+          {
+            "title": "Check information about the doctor",
+            "description": "Click on a doctor to see more info: opening hours, address, languages, and whether they offer online booking. Read reviews from other patients if available."
+          },
+          {
+            "title": "Select the doctor and confirm",
+            "description": "When you have found a doctor you want, click \"Select this doctor\" or \"Switch to this doctor\". Confirm your choice.",
+            "warning": "The change takes effect from the 1st of next month. Until then you are still with your old doctor."
+          },
+          {
+            "title": "Done!",
+            "description": "You receive confirmation of the switch. From next month the new doctor is your GP. Your medical records are automatically transferred to the new office.",
+            "tip": "Remember to cancel any appointments with the old doctor."
+          }
+        ],
+        "noSpaceTitle": "No available spots?",
+        "noSpaceText": "If the doctor you want is full, you can put yourself on a waiting list. You'll be notified when a spot becomes available. You can also try calling the medical office - sometimes they have spots that don't show online."
       },
       "journal": {
         "title": "Read patient records",
-        "description": "Find and read your own patient records"
+        "description": "Find and read your own patient records",
+        "longDescription": "You have the right to see what has been written about you at the doctor. On Helsenorge you can read your records yourself.",
+        "backToGuides": "Back to Health Norway guides",
+        "time": "About 5 minutes",
+        "difficulty": "Easy",
+        "whatIsJournalTitle": "What is the patient record?",
+        "whatIsJournalText": "The record contains notes from doctor visits, test results, diagnoses and treatments. Everything the doctor writes about you is collected here.",
+        "stepsTitle": "How to read your records",
+        "steps": [
+          {
+            "title": "Log in to helsenorge.no",
+            "description": "Go to helsenorge.no and log in with BankID. Click \"Logg inn\" in the top right corner.",
+            "warning": "You must use BankID (not MinID) to see the records."
+          },
+          {
+            "title": "Find \"Patient record\"",
+            "description": "Click on \"Pasientjournal\" in the menu or search for \"journal\". You can also find it under \"Min helse\"."
+          },
+          {
+            "title": "Choose which record to view",
+            "description": "You may have records in several places: GP, hospital, specialist. Choose who you want to see the record from.",
+            "tip": "Core record shows the most important information from all places combined."
+          },
+          {
+            "title": "Read the record notes",
+            "description": "You see a list of all record notes, with the newest at the top. Click on a note to read the full text.",
+            "tip": "The record may contain medical terminology. Feel free to use our dictionary or ask the doctor if something is unclear."
+          },
+          {
+            "title": "View test results",
+            "description": "Under \"Test results\" or \"Lab results\" you find results from blood tests and other tests. Values outside the normal range are often marked.",
+            "tip": "Ask the doctor if you're wondering what the test results mean."
+          }
+        ],
+        "delayTitle": "Why can't I see everything?",
+        "delayText": "Some records have a delay of a few days before you can see them. This is so the doctor has time to inform you first if there is something important. Hospitals and specialists may have longer delays."
       },
       "melding": {
         "title": "Send message to doctor",
-        "description": "Contact your GP digitally"
+        "description": "Contact your GP digitally",
+        "longDescription": "You can send messages to your GP via Helsenorge. Practical for simple questions that don't require an appointment.",
+        "backToGuides": "Back to Health Norway guides",
+        "time": "About 5 minutes",
+        "difficulty": "Easy",
+        "whenToUseTitle": "When should you send a message?",
+        "whenToUseGood": "Good for:",
+        "whenToUseGoodList": [
+          "Simple questions about medicines",
+          "Follow-up after doctor's appointment",
+          "Request prescription renewal",
+          "Ask about test results",
+          "Inform about changes in health condition"
+        ],
+        "whenToUseBad": "Don't use messages for:",
+        "whenToUseBadList": [
+          "Acute or serious problems (call 116 117 or 113)",
+          "Things that require examination",
+          "Long and complicated questions"
+        ],
+        "stepsTitle": "How to send a message to the doctor",
+        "steps": [
+          {
+            "title": "Log in to helsenorge.no",
+            "description": "Go to helsenorge.no and log in with BankID or MinID. Click \"Logg inn\" in the top right corner."
+          },
+          {
+            "title": "Find \"Messages\"",
+            "description": "Click on \"Meldinger\" or \"Contact doctor\" in the menu. You can also find it under \"Min fastlege\"."
+          },
+          {
+            "title": "Start new message",
+            "description": "Click on \"New message\" or \"Write message\". Select your GP as recipient.",
+            "warning": "Not all medical offices have the messaging service. Then you must call."
+          },
+          {
+            "title": "Write the message",
+            "description": "Write a short and clear message. Explain what it's about. The clearer you are, the better answer you'll get.",
+            "tip": "Example: \"Hi, I have used Paracetamol for 3 days for headache without improvement. Should I come for an appointment, or is there something else I can try?\""
+          },
+          {
+            "title": "Send the message",
+            "description": "Review the message and click \"Send\". You receive confirmation that the message has been sent."
+          },
+          {
+            "title": "Wait for response",
+            "description": "The doctor usually responds within 1-3 business days. You'll be notified by SMS or email when the answer arrives. Log in to Helsenorge to read the answer.",
+            "warning": "For acute problems, don't wait for a response - call the emergency room (116 117) or ambulance (113)."
+          }
+        ]
+      },
+      "loggInn": {
+        "title": "Log in to Health Norway",
+        "description": "Learn how to log in to helsenorge.no",
+        "longDescription": "Learn how to log in to Health Norway to see prescriptions, book doctor's appointments and read records.",
+        "backToGuides": "Back to Health Norway guides",
+        "time": "About 5 minutes",
+        "difficulty": "Easy",
+        "beforeYouStart": "Before you start",
+        "beforeYouStartText": "You need BankID or MinID to log in to Health Norway. BankID gives access to most services.",
+        "stepsTitle": "How to log in to Health Norway",
+        "servicesTitle": "What can you do when logged in?",
+        "services": [
+          "View and renew prescriptions",
+          "Book appointment with GP",
+          "Read your patient records",
+          "View vaccinations and test results",
+          "Send message to GP",
+          "Change GP"
+        ],
+        "problemsTitle": "Problems logging in?",
+        "problemsText": "If you have problems logging in:",
+        "problemsList": [
+          "Check that the BankID app is updated",
+          "Try refreshing the page",
+          "Try a different browser",
+          "Call Health Norway at 23 32 70 00 for help"
+        ],
+        "steps": [
+          {
+            "title": "Go to helsenorge.no",
+            "description": "Open your browser and type \"helsenorge.no\" in the address bar. Press Enter.",
+            "tip": "You can also search for \"Helsenorge\" on Google."
+          },
+          {
+            "title": "Find the \"Log in\" button",
+            "description": "Look for \"Logg inn\" in the top right corner of the page. Click the button.",
+            "tip": "The button is usually red or dark."
+          },
+          {
+            "title": "Choose login method",
+            "description": "You can choose between BankID on mobile, BankID with code device, or MinID. BankID gives access to all services.",
+            "warning": "MinID gives limited access on Health Norway. BankID is recommended."
+          },
+          {
+            "title": "BankID on mobile",
+            "description": "Enter your national ID number (11 digits). You receive a message on your phone - open the BankID app and approve the login.",
+            "tip": "Make sure the BankID app is installed and updated."
+          },
+          {
+            "title": "BankID with code device",
+            "description": "Enter your national ID number. Turn on the code device and enter the code shown on screen. Enter your personal code on the device and use the new code that appears.",
+            "warning": "If the code device is out of battery, contact your bank."
+          },
+          {
+            "title": "You are logged in!",
+            "description": "You are now on \"My health\" at Health Norway. Here you can see prescriptions, book doctor's appointments, and read records.",
+            "tip": "Remember to log out when you are done, especially on a shared computer."
+          }
+        ]
+      }
+    },
+    "sikkerhet": {
+      "bankid": {
+        "title": "Safe use of BankID",
+        "description": "Learn to use BankID safely and avoid fraud",
+        "longDescription": "BankID is your digital identity. Here you learn how to use it safely and protect yourself from scammers.",
+        "backToGuides": "Back to Digital security",
+        "time": "About 10 minutes",
+        "difficulty": "Easy",
+        "whatIsTitle": "What is BankID?",
+        "whatIsText1": "BankID is an electronic ID that confirms who you are on the internet. It's like a digital passport that lets you log in to public services, online banking and sign documents.",
+        "whatIsText2": "BankID is issued by your bank and is linked to your national ID number. When you use BankID, you confirm that it's really you logging in or signing.",
+        "typesTitle": "Different types of BankID",
+        "typeMobile": "BankID on mobile",
+        "typeMobileDesc": "The most common type. You receive a message on your phone and approve with fingerprint, face or code.",
+        "typeCodeDevice": "BankID with code device",
+        "typeCodeDeviceDesc": "A small device that shows one-time codes. Used together with a personal password.",
+        "typeBiometric": "BankID with biometrics",
+        "typeBiometricDesc": "Uses fingerprint or facial recognition directly in the browser.",
+        "stepsTitle": "How to use BankID safely",
+        "steps": [
+          {
+            "title": "Always read what you're approving",
+            "description": "When you receive a BankID request on your phone, ALWAYS read the text showing what you're approving. It shows who is asking for approval and what it concerns.",
+            "warning": "NEVER approve a BankID request you didn't start yourself!"
+          },
+          {
+            "title": "Check that the website is real",
+            "description": "Before using BankID, look at the address bar in the browser. Real websites have a padlock icon and the address starts with https://. Double-check that the domain is correct (e.g. nav.no, not nav-login.com).",
+            "tip": "Always type the address yourself instead of clicking links in email or SMS."
+          },
+          {
+            "title": "Never share your codes",
+            "description": "BankID codes, passwords and personal codes should NEVER be shared with anyone. The bank, police or NAV will never ask you for this information.",
+            "warning": "No one is allowed to ask for your BankID codes. If someone does, it's ALWAYS fraud!"
+          },
+          {
+            "title": "Use a secure code",
+            "description": "Choose a personal code that is difficult to guess. Don't use birth date, 1234 or other simple combinations. Only you should know the code.",
+            "tip": "A good code can be four random numbers you memorize."
+          },
+          {
+            "title": "Keep the app updated",
+            "description": "Make sure the BankID app is always updated to the latest version. Updates contain important security improvements.",
+            "tip": "Turn on automatic updates in App Store or Google Play."
+          },
+          {
+            "title": "Log out after use",
+            "description": "When you're done using a service, always log out. This is especially important if you're using a shared computer or someone else's phone."
+          },
+          {
+            "title": "Be alert to unexpected requests",
+            "description": "If you suddenly receive a BankID request without having started anything yourself, it's probably a fraud attempt. Reject the request and contact your bank.",
+            "warning": "Call your bank immediately if you've approved something you shouldn't have!"
+          }
+        ],
+        "warningTitle": "Warning signs of BankID fraud",
+        "warningText": "Be on alert if you experience any of this:",
+        "warningSigns": [
+          "Someone calls claiming to be from the bank and needs BankID approval",
+          "You receive a BankID request you didn't start yourself",
+          "Someone asks you to install programs like AnyDesk or TeamViewer",
+          "You're asked to provide codes over the phone",
+          "It's very urgent and you don't have time to think"
+        ],
+        "neverShareTitle": "NEVER share these with anyone",
+        "neverShare": [
+          "Your personal BankID code",
+          "One-time codes from the code device",
+          "Password to the BankID app",
+          "Your national ID number together with codes",
+          "Access to your phone during a BankID process"
+        ],
+        "ifSuspiciousTitle": "What do you do if you suspect fraud?",
+        "ifSuspiciousText": "If you think you've been subjected to a fraud attempt, do the following:",
+        "ifSuspicious1": "Reject all BankID requests you haven't started yourself",
+        "ifSuspicious2": "Call your bank immediately at the number on the back of your bank card",
+        "ifSuspicious3": "Change passwords and codes if you have shared anything",
+        "ifSuspicious4": "Report the incident to the police at politiet.no"
+      },
+      "phishing": {
+        "title": "Recognize phishing",
+        "description": "Learn to spot fake emails and messages",
+        "longDescription": "Phishing is fraud attempts that try to trick you into giving away personal information. Here you learn to recognize and avoid them.",
+        "backToGuides": "Back to Digital security",
+        "time": "About 10 minutes",
+        "difficulty": "Easy",
+        "whatIsTitle": "What is phishing?",
+        "whatIsText1": "Phishing is when scammers send fake emails, SMS or messages pretending to come from a trusted sender, like your bank, NAV or the postal service.",
+        "whatIsText2": "The goal is to trick you into clicking a link, downloading a file, or providing personal information like passwords and bank details.",
+        "examplesTitle": "Examples of phishing messages",
+        "examplePostTitle": "Fake package message",
+        "examplePostText": "\"Your package is waiting. Pay 29 kr shipping here: [link]\"",
+        "examplePostWarning": "The postal service never sends SMS about payment via links!",
+        "exampleBankTitle": "Fake bank message",
+        "exampleBankText": "\"Important: Your account will be blocked. Confirm your details here: [link]\"",
+        "exampleBankWarning": "Banks never threaten to block accounts via email!",
+        "exampleNavTitle": "Fake NAV message",
+        "exampleNavText": "\"You have money due from NAV. Log in to receive: [link]\"",
+        "exampleNavWarning": "NAV never sends links for payment via email!",
+        "stepsTitle": "How to recognize phishing",
+        "steps": [
+          {
+            "title": "Check the sender address carefully",
+            "description": "Look at the entire email address, not just the name. Real email from NAV comes from @nav.no, not @nav-support.com or similar. Scammers use addresses that look similar but aren't quite right.",
+            "tip": "Hover the mouse over the sender name to see the actual email address."
+          },
+          {
+            "title": "Look for spelling mistakes and poor language",
+            "description": "Phishing messages often have spelling errors, strange wording or poor grammar. Real messages from public agencies are written correctly.",
+            "tip": "Read the message aloud - does it sound unnatural? Then it's probably a scam."
+          },
+          {
+            "title": "Be skeptical of links",
+            "description": "Don't click on links in emails or SMS you didn't expect. Hover the mouse over the link to see where it actually goes. Scammers use addresses that look like real websites.",
+            "warning": "Instead, go directly to the website by typing the address yourself in the browser."
+          },
+          {
+            "title": "Don't react to urgency",
+            "description": "Phishing messages often try to stress you: \"Act NOW!\", \"Your account will be blocked in 24 hours!\". Real senders always give you time to think.",
+            "tip": "The more urgent it is, the more reason to be suspicious."
+          },
+          {
+            "title": "Check if you expected the message",
+            "description": "Did you never ask NAV about anything? Are you not expecting a package? Then the message is probably fake. Think about whether it makes sense that you received this message.",
+            "warning": "Scammers send millions of messages - sometimes they accidentally hit the right timing."
+          },
+          {
+            "title": "Don't download attachments",
+            "description": "Never open attachments from unknown senders. They may contain viruses or malware. Also be careful with attachments from known senders if the message seems strange.",
+            "warning": "Particularly dangerous are .exe, .zip and .docm files."
+          },
+          {
+            "title": "Verify via official channels",
+            "description": "Unsure if a message is real? Contact the sender directly via official channels. Find the phone number on their official website, not in the email you received.",
+            "tip": "Call NAV at 55 55 33 33 or the bank at the number on the back of your card."
+          }
+        ],
+        "warningSignsTitle": "Red flags that reveal phishing",
+        "warningSigns": [
+          "Generic greeting like \"Dear customer\" instead of your name",
+          "Sender address that doesn't match the company",
+          "Links that go to different domains than expected",
+          "Demands to act quickly or lose something",
+          "Request for personal information, passwords or codes",
+          "Poor formatting, strange fonts or weird layout",
+          "Attachments you didn't expect"
+        ],
+        "ifClickedTitle": "What do you do if you've clicked?",
+        "ifClickedText": "Don't panic, but act quickly:",
+        "ifClicked1": "Don't enter any information - close the page immediately",
+        "ifClicked2": "Scan the computer with antivirus software",
+        "ifClicked3": "Change your passwords if you have provided any",
+        "ifClicked4": "Contact your bank if it concerns bank details",
+        "ifClicked5": "Report the fraud to the police and Nettvett.no"
+      },
+      "passord": {
+        "title": "Creating good passwords",
+        "description": "How to create strong passwords that protect you",
+        "longDescription": "Good passwords are your first line of defense against hackers. Here you learn to create passwords that are both secure and easy to remember.",
+        "backToGuides": "Back to Digital security",
+        "time": "About 10 minutes",
+        "difficulty": "Easy",
+        "whyImportantTitle": "Why are strong passwords important?",
+        "whyImportantText1": "A weak password can be cracked in seconds. Hackers use programs that try millions of combinations automatically. If your password is \"123456\" or \"password\", you're not protected at all.",
+        "whyImportantText2": "With a strong password, it takes years to crack your account, and hackers move on to easier targets.",
+        "badPasswordsTitle": "The worst passwords",
+        "badPasswords": [
+          "123456",
+          "password",
+          "qwerty",
+          "111111",
+          "name+birthyear",
+          "abc123",
+          "iloveyou"
+        ],
+        "badPasswordsWarning": "If you use any of these, change them IMMEDIATELY!",
+        "stepsTitle": "How to create good passwords",
+        "steps": [
+          {
+            "title": "Use at least 12 characters",
+            "description": "The longer the password, the more secure. A 12-character password is much harder to crack than an 8-character one. Aim for at least 12 characters, preferably more.",
+            "tip": "A sentence is easier to remember than random characters: \"MyCatIsNamedLars2024!\" is 20 characters and easy to remember."
+          },
+          {
+            "title": "Mix upper and lower case letters, numbers and symbols",
+            "description": "A good password contains both upper and lower case letters, at least one number, and at least one special character (!@#$%&). This makes it much harder to guess.",
+            "tip": "Replace letters with numbers or symbols: \"Summer\" becomes \"S0mm3r!\" (but don't use only common substitutions)."
+          },
+          {
+            "title": "Use a passphrase",
+            "description": "Instead of one word, use a whole sentence. \"CoffeeIsBestAt7Morning!\" is 21 characters, contains everything needed, and is easy to remember.",
+            "tip": "Choose a sentence that makes sense to you, but that others can't guess."
+          },
+          {
+            "title": "Never reuse passwords",
+            "description": "Use a unique password for each service. If one site gets hacked and you use the same password everywhere, hackers get access to everything.",
+            "warning": "Online banking, email and public services MUST have different passwords!"
+          },
+          {
+            "title": "Use a password manager",
+            "description": "A password manager stores all your passwords securely, so you only need to remember one master password. Programs like Bitwarden, 1Password or LastPass make this easy.",
+            "tip": "Password managers can also create random, strong passwords for you."
+          },
+          {
+            "title": "Enable two-factor authentication",
+            "description": "Two-factor (2FA) means you need both a password AND a code from your phone to log in. Even if someone steals your password, they can't get in without your phone.",
+            "tip": "Turn on 2FA on all services that offer it, especially online banking and email."
+          },
+          {
+            "title": "Change password if it may be compromised",
+            "description": "If a service you use has been hacked, or you suspect someone has seen your password, change it immediately. Check haveibeenpwned.com to see if your email has been in a data breach."
+          }
+        ],
+        "tipsTitle": "Extra tips for password security",
+        "tips": [
+          "Never write down passwords on notes by the computer",
+          "Never share passwords with others, not even family",
+          "Always log out of shared computers",
+          "Be careful about saving passwords in the browser on others' devices",
+          "Update your passwords at least once a year"
+        ],
+        "toolsTitle": "Useful tools",
+        "toolPasswordManager": "Password manager",
+        "toolPasswordManagerDesc": "Bitwarden (free), 1Password or LastPass store your passwords securely.",
+        "toolHaveIBeenPwned": "Have I Been Pwned",
+        "toolHaveIBeenPwnedDesc": "Check if your email has been in a data breach at haveibeenpwned.com",
+        "toolPasswordGenerator": "Password generator",
+        "toolPasswordGeneratorDesc": "Most password managers have a built-in generator for strong passwords."
+      }
+    },
+    "bank": {
+      "nettbank": {
+        "title": "Getting started with online banking",
+        "description": "Learn to use your online bank safely and easily",
+        "longDescription": "Online banking lets you pay bills and check your account from home. Here you learn the basics.",
+        "backToGuides": "Back to Banking and finance",
+        "time": "About 15 minutes",
+        "difficulty": "Easy",
+        "whatIsTitle": "What is online banking?",
+        "whatIsText1": "Online banking is the bank's service on the internet. There you can see how much money you have, pay bills, transfer money between accounts, and much more - without visiting the bank physically.",
+        "whatIsText2": "All Norwegian banks offer online banking, and it's safe to use as long as you follow simple security rules.",
+        "beforeYouStartTitle": "Before you start",
+        "beforeYouStartItems": [
+          "You need BankID (on mobile or code device)",
+          "You must have a bank account",
+          "You need internet on computer, tablet or phone"
+        ],
+        "stepsTitle": "How to get started with online banking",
+        "steps": [
+          {
+            "title": "Find the bank's website",
+            "description": "Open the browser and type in the bank's address. For example dnb.no, nordea.no, sparebank1.no, or sbanken.no. Don't click on links in email - always type the address yourself.",
+            "tip": "Save the bank's website as a favorite/bookmark so you can easily find it again."
+          },
+          {
+            "title": "Click on \"Log in\" or \"Online banking\"",
+            "description": "On the bank's front page you'll find a button to log in. It's often called \"Logg inn\", \"Nettbank\" or \"Min side\". Click on this.",
+            "tip": "The button is usually in the top right corner of the page."
+          },
+          {
+            "title": "Choose login method",
+            "description": "You can log in with BankID on mobile or BankID with code device. Choose the method you have access to.",
+            "warning": "If you don't have BankID, you must contact your bank to get it."
+          },
+          {
+            "title": "Log in with BankID on mobile",
+            "description": "Enter your national ID number and phone number. You receive a message on your phone. Open the BankID app and approve with fingerprint, face or code.",
+            "tip": "Make sure the BankID app is updated to the latest version."
+          },
+          {
+            "title": "Get familiar with the overview",
+            "description": "After logging in you see an overview of your accounts. Here you see the balance (how much money you have) on each account. Click on an account to see transactions (deposits and withdrawals).",
+            "tip": "Most online banks also show pending payments and upcoming bills."
+          },
+          {
+            "title": "Explore the menu",
+            "description": "In the menu you find services like \"Pay\", \"Transfer\", \"Cards\", \"Loans\" and \"Settings\". Take time to look through what's available.",
+            "tip": "Many banks have a \"Help\" or \"Customer service\" button if you get stuck."
+          },
+          {
+            "title": "Remember to log out",
+            "description": "When you're done, click \"Log out\" in the top right corner. This is especially important if you're using a shared computer.",
+            "warning": "Always close the browser window after you've logged out."
+          }
+        ],
+        "securityTitle": "Security tips for online banking",
+        "securityTips": [
+          "Never log in via links in email or SMS",
+          "Only use online banking on your own device, not on public computers",
+          "Always log out when you're done",
+          "Check that the address starts with https:// and has a padlock icon",
+          "Never share BankID codes with anyone"
+        ],
+        "helpTitle": "Need help?",
+        "helpText": "All banks have customer service that can help you. Call the bank's phone number (on the back of your bank card) or visit a branch."
+      },
+      "betaling": {
+        "title": "Pay bills",
+        "description": "How to pay bills in online banking",
+        "longDescription": "Paying bills in online banking is fast and easy. Here we show you step-by-step how to do it.",
+        "backToGuides": "Back to Banking and finance",
+        "time": "About 10 minutes",
+        "difficulty": "Easy",
+        "whatYouNeedTitle": "What you need",
+        "whatYouNeed": [
+          "The bill you will pay (paper or digital)",
+          "Access to online banking",
+          "Enough money in the account"
+        ],
+        "importantTermsTitle": "Important terms on the bill",
+        "termKID": "KID number",
+        "termKIDDesc": "A long number sequence that identifies your payment. IMPORTANT to type correctly!",
+        "termKonto": "Account number",
+        "termKontoDesc": "Recipient's bank account (11 digits)",
+        "termBelop": "Amount",
+        "termBelopDesc": "The sum you will pay",
+        "termFrist": "Due date",
+        "termFristDesc": "Last day the bill must be paid",
+        "stepsTitle": "How to pay a bill",
+        "steps": [
+          {
+            "title": "Log in to online banking",
+            "description": "Go to the bank's website and log in with BankID as usual."
+          },
+          {
+            "title": "Find \"Pay\" or \"New payment\"",
+            "description": "In the menu you'll find \"Pay\", \"Payment\" or \"New payment\". Click on this to start a new payment.",
+            "tip": "Some banks have a large \"Pay\" button on the front page."
+          },
+          {
+            "title": "Select account to pay from",
+            "description": "Select which account the money should be taken from. Check that you have enough money in the account.",
+            "warning": "If you don't have enough money, the payment won't go through."
+          },
+          {
+            "title": "Enter account number",
+            "description": "Enter the recipient's account number (11 digits). You can find this on the bill, often labeled \"To account\" or \"Account number\".",
+            "tip": "Some bills have a barcode - then you can use the bank's app to scan it automatically."
+          },
+          {
+            "title": "Enter KID number",
+            "description": "Enter the KID number exactly as it appears on the bill. This is important so the recipient knows what the payment is for.",
+            "warning": "Wrong KID can cause the payment not to be registered correctly!"
+          },
+          {
+            "title": "Enter the amount",
+            "description": "Enter the amount you will pay. Check that it matches the bill.",
+            "tip": "Use comma for cents (e.g. 1234,50). Some banks use period."
+          },
+          {
+            "title": "Select payment date",
+            "description": "Select when the payment should be made. You can pay immediately or set a future date. Remember that the due date is the deadline.",
+            "tip": "Pay a few days before the due date to make sure it arrives on time."
+          },
+          {
+            "title": "Review and approve",
+            "description": "Review all the information: account number, KID, amount and date. When everything is correct, click \"Pay\" or \"Approve\".",
+            "warning": "Double-check KID and amount before approving!"
+          },
+          {
+            "title": "Confirmation",
+            "description": "You receive confirmation that the payment is registered. The payment will be deducted from your account on the selected date.",
+            "tip": "Save the receipt or take a screenshot for your own documentation."
+          }
+        ],
+        "avtaleGiroTitle": "Set up AvtaleGiro",
+        "avtaleGiroText": "For bills that come regularly (electricity, insurance, etc.) you can set up AvtaleGiro. Then the bill is paid automatically each time. You can find this under \"AvtaleGiro\" or \"Fixed payments\" in online banking.",
+        "efakturaTitle": "What is eFaktura?",
+        "efakturaText": "eFaktura means the bill comes directly into your online bank digitally. You don't need to type KID and account number - just approve the amount. Turn on eFaktura under \"Settings\" in online banking."
+      },
+      "vipps": {
+        "title": "Using Vipps",
+        "description": "Learn to send money and pay with Vipps",
+        "longDescription": "Vipps makes it easy to send money to friends, pay in stores and split bills. Here you learn everything you need.",
+        "backToGuides": "Back to Banking and finance",
+        "time": "About 15 minutes",
+        "difficulty": "Easy",
+        "whatIsTitle": "What is Vipps?",
+        "whatIsText1": "Vipps is a Norwegian payment app that lets you send money to others, pay in stores, and much more - all from your phone.",
+        "whatIsText2": "Over 4 million Norwegians use Vipps. It's safe because it's connected to BankID and your bank account.",
+        "whatYouNeedTitle": "What you need",
+        "whatYouNeed": [
+          "Smartphone (iPhone or Android)",
+          "BankID on mobile",
+          "Norwegian bank account",
+          "Norwegian mobile number"
+        ],
+        "stepsTitle": "How to get started with Vipps",
+        "steps": [
+          {
+            "title": "Download the Vipps app",
+            "description": "Open App Store (iPhone) or Google Play (Android). Search for \"Vipps\" and press \"Install\" or \"Get\".",
+            "tip": "Make sure you download the real Vipps app with the orange logo."
+          },
+          {
+            "title": "Open the app and start registration",
+            "description": "Open Vipps and press \"Get started\" or \"Register\". You'll be asked to enter your mobile number.",
+            "tip": "Use the same number that is registered in BankID."
+          },
+          {
+            "title": "Confirm with BankID",
+            "description": "You must confirm your identity with BankID. Follow the instructions - you'll be sent to the BankID app to approve.",
+            "warning": "If BankID doesn't work, check that the app is updated."
+          },
+          {
+            "title": "Connect bank account",
+            "description": "Vipps automatically retrieves your bank accounts. Select which account you want to use as default for Vipps payments.",
+            "tip": "You can change account later under \"Settings\" in the app."
+          },
+          {
+            "title": "Add payment card (optional)",
+            "description": "You can also add a payment card to use Vipps in stores. Press \"Card\" and \"Add card\". Fill in the card information.",
+            "tip": "The card must support contactless payment."
+          },
+          {
+            "title": "Send money to someone",
+            "description": "To send money: Press the \"Search\" or \"+\" button, enter name or number, enter the amount, and press \"Send\". The recipient also needs Vipps.",
+            "tip": "You can add a message to the payment, e.g. \"Thanks for dinner!\""
+          },
+          {
+            "title": "Pay in store",
+            "description": "In stores that accept Vipps: Open the app, press \"Pay\", and hold the phone against the payment terminal. Approve with fingerprint or code.",
+            "tip": "Look for the Vipps logo at the checkout to know if the store accepts Vipps."
+          },
+          {
+            "title": "Split bills",
+            "description": "Have you paid for something? Press \"Bills\" in the app, enter the total amount and select who should split. Vipps automatically sends a request to everyone.",
+            "tip": "Perfect for splitting bills after restaurant or shared purchases."
+          }
+        ],
+        "featuresTitle": "More you can do with Vipps",
+        "featureInvoice": "Vipps Invoice",
+        "featureInvoiceDesc": "Receive and pay invoices directly in the app",
+        "featureRecurring": "Recurring payments",
+        "featureRecurringDesc": "Set up recurring payments to e.g. gym",
+        "featureOnline": "Online shopping",
+        "featureOnlineDesc": "Pay easily in online stores that offer Vipps",
+        "securityTitle": "Security in Vipps",
+        "securityText": "Vipps is safe because all payments are approved with fingerprint, face or PIN code. No one can send money from your account without your approval."
+      },
+      "gjeld": {
+        "title": "Get help with debt",
+        "description": "Here you find help if you struggle to pay bills",
+        "longDescription": "Anyone can end up in a difficult financial situation. Here you find information about where to get help.",
+        "backToGuides": "Back to Banking and finance",
+        "time": "About 10 minutes",
+        "difficulty": "Easy",
+        "importantTitle": "The most important first",
+        "importantText": "If you struggle to pay bills, it's important to act quickly. The sooner you take action, the easier it is to find a solution. You're not alone - many have been in the same situation and received help.",
+        "signsTitle": "Warning signs of debt problems",
+        "signs": [
+          "You only pay the minimum amount on credit cards",
+          "You use credit cards for daily expenses like food",
+          "You take out new loans to pay old ones",
+          "You receive collection notices",
+          "You avoid opening mail and bills"
+        ],
+        "stepsTitle": "First steps if you're struggling",
+        "steps": [
+          {
+            "title": "Get an overview of your finances",
+            "description": "Write down all income (salary, benefits, etc.) and all expenses (rent, food, loans, etc.). This gives you an overview of the situation.",
+            "tip": "Use the online bank's transaction overview to see what you actually spend money on."
+          },
+          {
+            "title": "Prioritize the bills",
+            "description": "Some bills are more important than others. Pay first: rent/mortgage, electricity, food, and any child support. Consumer loans and credit cards can wait.",
+            "warning": "If you don't pay rent, you risk losing your home."
+          },
+          {
+            "title": "Contact your creditors",
+            "description": "Call those you owe money and explain the situation. Most would rather make a payment plan than send the case to collections. Ask for payment deferral or installment arrangement.",
+            "tip": "Many creditors have their own arrangements for those who struggle. Ask about lower interest or longer repayment time."
+          },
+          {
+            "title": "Seek professional help",
+            "description": "Debt advisors can help you negotiate with creditors and make a plan. This is free at the municipality and NAV.",
+            "tip": "You don't need to have decided anything before contacting - they help you see the possibilities."
+          },
+          {
+            "title": "Consider refinancing",
+            "description": "If you have many small loans, it may pay off to consolidate them into one loan with lower interest. Talk to your bank about the options.",
+            "warning": "Be careful with \"consolidation loans\" with high interest from unknown companies."
+          },
+          {
+            "title": "Apply for financial social assistance if necessary",
+            "description": "If you don't have money for food and necessary expenses, you can apply for social assistance from NAV. This is temporary help while you get your finances in order.",
+            "tip": "Social assistance is a right for those who need it - don't be afraid to apply."
+          }
+        ],
+        "helpTitle": "Where can you get free help?",
+        "helpNAV": "NAV debt counseling",
+        "helpNAVDesc": "Call NAV at 55 55 33 33 and ask to speak with a debt counselor, or visit your local NAV office.",
+        "helpKommune": "Municipality debt counselor",
+        "helpKommuneDesc": "Most municipalities have free debt counseling. Call the municipality service office for contact information.",
+        "helpOkonomirad": "Okonomirad.no",
+        "helpOkonomiradDesc": "Consumer Council website with budget tools and financial advice.",
+        "helpGjeldsofre": "Gjeldsofre.no",
+        "helpGjeldsofferDesc": "Voluntary organization providing free advice and support to people with debt problems.",
+        "avoidTitle": "This you should AVOID",
+        "avoidItems": [
+          "Taking out new loans to pay old ones (debt spiral)",
+          "Ignoring mail and bills",
+          "Saying yes to \"quick loans\" with high interest",
+          "Waiting too long to seek help"
+        ]
+      }
+    },
+    "digital": {
+      "epost": {
+        "title": "Set up email",
+        "description": "Learn to create and use email",
+        "longDescription": "Email is fundamental for digital communication. Here you learn to create an email account and use it.",
+        "backToGuides": "Back to Digital tools",
+        "time": "About 15 minutes",
+        "difficulty": "Easy",
+        "whatIsTitle": "What is email?",
+        "whatIsText1": "Email (electronic mail) is digital mail you send and receive via the internet. It's free, fast, and you can send to anyone in the world.",
+        "whatIsText2": "To use email you need an email address. This works as your digital address, e.g. name@gmail.com.",
+        "providersTitle": "Popular email services",
+        "providerGmail": "Gmail (Google)",
+        "providerGmailDesc": "Most popular, free, works on all devices",
+        "providerOutlook": "Outlook (Microsoft)",
+        "providerOutlookDesc": "Free, good integration with Windows",
+        "providerYahoo": "Yahoo Mail",
+        "providerYahooDesc": "Free, has existed for a long time",
+        "stepsTitle": "How to create a Gmail account",
+        "steps": [
+          {
+            "title": "Go to Gmail",
+            "description": "Open the browser and go to gmail.com. Click on \"Create account\"."
+          },
+          {
+            "title": "Fill in personal information",
+            "description": "Enter first name and last name. This is shown when you send email.",
+            "tip": "Use your real name so people recognize you."
+          },
+          {
+            "title": "Choose email address",
+            "description": "Choose your email address. It must be unique. Try firstname.lastname@gmail.com or add numbers if the address is taken.",
+            "warning": "The address cannot be changed later, so choose carefully!"
+          },
+          {
+            "title": "Create a strong password",
+            "description": "Create a password with at least 8 characters, preferably 12. Use both upper and lower case letters, numbers and symbols. Confirm the password by typing it again.",
+            "tip": "See our password guide for tips on creating a secure password."
+          },
+          {
+            "title": "Add phone number (recommended)",
+            "description": "Add your mobile number to be able to recover the account if you forget the password. You can also use it for extra security.",
+            "tip": "This is optional, but strongly recommended."
+          },
+          {
+            "title": "Accept the terms",
+            "description": "Read through and accept Google's terms and privacy policy by clicking \"Accept\" or \"I agree\"."
+          },
+          {
+            "title": "Your email is ready!",
+            "description": "Congratulations! You now have an email address. You arrive at your inbox where new emails will appear.",
+            "tip": "Save the email address and password in a safe place."
+          }
+        ],
+        "usingEmailTitle": "How to use email",
+        "sendTitle": "Send email",
+        "sendSteps": [
+          "Click \"Compose\"",
+          "Enter recipient's email address in the \"To\" field",
+          "Write a subject/heading",
+          "Write your message",
+          "Click \"Send\""
+        ],
+        "replyTitle": "Reply to email",
+        "replySteps": [
+          "Open the email you want to reply to",
+          "Click \"Reply\"",
+          "Write your reply",
+          "Click \"Send\""
+        ],
+        "attachmentTitle": "Attach files",
+        "attachmentSteps": [
+          "Start a new email or reply",
+          "Click the paperclip icon",
+          "Select the file from your computer",
+          "Wait for the file to upload",
+          "Send the email as usual"
+        ],
+        "spamTitle": "What is spam?",
+        "spamText": "Spam is unwanted email, often advertising or fraud attempts. Gmail and other services automatically filter most to a \"Spam\" folder. Never check links in suspicious emails."
+      },
+      "digipost": {
+        "title": "Using Digipost",
+        "description": "Receive digital mail from public and private senders",
+        "longDescription": "Digipost is your digital mailbox where you receive mail from the public sector and businesses. Safe, easy and environmentally friendly.",
+        "backToGuides": "Back to Digital tools",
+        "time": "About 10 minutes",
+        "difficulty": "Easy",
+        "whatIsTitle": "What is Digipost?",
+        "whatIsText1": "Digipost is a secure digital mailbox where you receive letters from public agencies (like the Tax Office and NAV) and private companies (like your bank and insurance company).",
+        "whatIsText2": "Instead of paper mail, you get everything digitally, and it's stored safely for years.",
+        "benefitsTitle": "Benefits of Digipost",
+        "benefits": [
+          "All mail collected in one place",
+          "Safe storage for years",
+          "Easy to find old letters",
+          "Environmentally friendly - saves paper",
+          "Get notification when new mail arrives"
+        ],
+        "stepsTitle": "How to create Digipost",
+        "steps": [
+          {
+            "title": "Go to digipost.no",
+            "description": "Open the browser and go to digipost.no. Click on \"Register\" or \"Create account\"."
+          },
+          {
+            "title": "Log in with BankID",
+            "description": "You register with BankID. Choose BankID on mobile or code device and follow the instructions.",
+            "warning": "You must have BankID to use Digipost."
+          },
+          {
+            "title": "Confirm information",
+            "description": "Digipost automatically retrieves name and address from the Population Register. Check that the information is correct.",
+            "tip": "Add email address and mobile number to get notification of new mail."
+          },
+          {
+            "title": "Choose who should send you mail",
+            "description": "You can choose which senders should send you digital mail. Public agencies are automatically enabled. You can also add banks, insurance companies, etc.",
+            "tip": "You can change this at any time under \"Settings\"."
+          },
+          {
+            "title": "Explore the mailbox",
+            "description": "In the mailbox you see all received mail. You can create folders to organize, and search for old letters.",
+            "tip": "Mail from the public sector is often under \"Public sector\" or in separate folders."
+          },
+          {
+            "title": "Download the app (optional)",
+            "description": "You can also use Digipost on your phone. Download the app from App Store or Google Play.",
+            "tip": "With the app you get push notifications when new mail arrives."
+          }
+        ],
+        "tipsTitle": "Tips for Digipost",
+        "tips": [
+          "Check Digipost regularly - important mail may arrive there",
+          "Use the search function to find old letters",
+          "Create folders to stay organized",
+          "Download important documents as backup"
+        ]
+      },
+      "altinn": {
+        "title": "Using Altinn",
+        "description": "Submit forms and communicate with the public sector",
+        "longDescription": "Altinn is the portal where you submit forms to the public sector and find information about your rights and obligations.",
+        "backToGuides": "Back to Digital tools",
+        "time": "About 10 minutes",
+        "difficulty": "Medium",
+        "whatIsTitle": "What is Altinn?",
+        "whatIsText1": "Altinn is the public sector's common portal for digital communication. Here you can submit forms, check status of cases, and find information from over 70 public agencies.",
+        "whatIsText2": "You use Altinn for things like tax return, driver's license, building permit and much more.",
+        "commonUsesTitle": "This is what you use Altinn for",
+        "commonUses": [
+          "Submit and check tax return",
+          "Register company or sole proprietorship",
+          "Apply for building permit",
+          "Report moving",
+          "Submit a-melding (for employers)"
+        ],
+        "stepsTitle": "How to use Altinn",
+        "steps": [
+          {
+            "title": "Go to altinn.no",
+            "description": "Open the browser and go to altinn.no."
+          },
+          {
+            "title": "Log in",
+            "description": "Click \"Log in\" in the top right corner. Choose BankID, MinID or other login method. Follow the instructions to log in.",
+            "tip": "BankID gives access to most services."
+          },
+          {
+            "title": "Explore \"My profile\"",
+            "description": "After logging in you see \"My profile\" or \"Your dashboard\". Here you see messages, forms and status of submitted cases.",
+            "tip": "Check \"Inbox\" for messages from the public sector."
+          },
+          {
+            "title": "Find a form",
+            "description": "To find a form, use the search field or click on \"Forms and services\". Type what you're looking for, e.g. \"tax return\" or \"moving notification\".",
+            "tip": "Popular forms are often on the front page."
+          },
+          {
+            "title": "Fill out the form",
+            "description": "Open the form and fill in all fields. Many forms have pre-filled information. Check that everything is correct.",
+            "warning": "Save along the way if the form is long - you can continue later."
+          },
+          {
+            "title": "Submit",
+            "description": "When the form is completed, click \"Submit\" or \"Deliver\". You may need to sign with BankID.",
+            "tip": "You get a receipt as confirmation. Keep this."
+          },
+          {
+            "title": "Monitor status",
+            "description": "In \"My cases\" or \"Inbox\" you can see status of what you have submitted. You also get a message when the case is processed."
+          }
+        ],
+        "tipsTitle": "Useful tips for Altinn",
+        "tips": [
+          "Check the inbox regularly for important messages",
+          "Use the archive to find previously submitted forms",
+          "You can authorize others to act on your behalf",
+          "Many municipal services require Altinn login"
+        ]
+      },
+      "minside": {
+        "title": "MinSide and public services",
+        "description": "An overview of the most important public online services",
+        "longDescription": "There are several \"My page\" services at various public agencies. Here you get an overview of the most important ones.",
+        "backToGuides": "Back to Digital tools",
+        "time": "About 10 minutes",
+        "difficulty": "Easy",
+        "introTitle": "What is \"My page\"?",
+        "introText": "\"My page\" or \"My profile\" is what you see when you log in to public agencies. There you find your personal information, applications, decisions and messages.",
+        "servicesTitle": "The most important services",
+        "serviceNAV": "My page NAV",
+        "serviceNAVDesc": "Applications, decisions, employment cards, sick pay",
+        "serviceNAVUrl": "nav.no",
+        "serviceSkatt": "My page Tax Office",
+        "serviceSkattDesc": "Tax return, tax settlement, tax card",
+        "serviceSkattUrl": "skatteetaten.no",
+        "serviceHelse": "Health Norway",
+        "serviceHelseDesc": "Prescriptions, doctor appointments, records, GP",
+        "serviceHelseUrl": "helsenorge.no",
+        "serviceAltinn": "Altinn",
+        "serviceAltinnDesc": "Forms, company, messages from public sector",
+        "serviceAltinnUrl": "altinn.no",
+        "serviceDigipost": "Digipost/e-Boks",
+        "serviceDigipostDesc": "Digital mailbox for public and private mail",
+        "serviceDigipostUrl": "digipost.no",
+        "stepsTitle": "How to log in to public services",
+        "steps": [
+          {
+            "title": "Go to the service website",
+            "description": "Type the address directly in the browser, e.g. nav.no, skatteetaten.no or helsenorge.no.",
+            "warning": "Never click on links in email to log in - always go directly to the website."
+          },
+          {
+            "title": "Find \"Log in\"",
+            "description": "Look for \"Log in\", \"My page\" or similar. The button is usually in the top right corner of the page."
+          },
+          {
+            "title": "Choose login method",
+            "description": "You can choose between different login methods. The most common are BankID on mobile, BankID with code device, or MinID.",
+            "tip": "BankID gives access to most services. MinID works on some."
+          },
+          {
+            "title": "Confirm your identity",
+            "description": "Follow the instructions for chosen login method. With BankID on mobile you receive a message you must approve.",
+            "warning": "Always read what you approve before confirming!"
+          },
+          {
+            "title": "You're in!",
+            "description": "After logging in you're on \"My page\" where you find your personal information and services.",
+            "tip": "Remember to log out when you're done."
+          }
+        ],
+        "tipsTitle": "General tips",
+        "tips": [
+          "Use the same login method everywhere for simplicity",
+          "Check the inbox regularly - important messages arrive there",
+          "Update your contact information if it changes",
+          "Always log out when using a shared computer"
+        ]
+      }
+    },
+    "bolig": {
+      "bostotte": {
+        "title": "Apply for housing allowance",
+        "description": "Get financial support to pay rent or housing costs",
+        "longDescription": "Housing allowance is a government support scheme for those with low income and high housing costs. Both tenants and homeowners can apply.",
+        "backToGuides": "Back to Housing",
+        "time": "About 20 minutes",
+        "difficulty": "Medium",
+        "whatIsTitle": "What is housing allowance?",
+        "whatIsText1": "Housing allowance is money from Husbanken to help you pay for your home. It's means-tested, meaning your income and housing costs determine if you get support.",
+        "whatIsText2": "You can get housing allowance whether you rent or own your home. The support is paid monthly directly to your account.",
+        "requirementsTitle": "Who can get housing allowance?",
+        "requirements": [
+          "You must live in the home you apply for support for",
+          "The home must be approved for year-round use",
+          "You must have legal residence in Norway",
+          "Your income must be below a certain limit",
+          "Your housing costs must be above a certain limit"
+        ],
+        "stepsTitle": "How to apply for housing allowance",
+        "steps": [
+          {
+            "title": "Go to husbanken.no",
+            "description": "Open the browser and type husbanken.no in the address bar. Press Enter.",
+            "tip": "You can also search Google for \"Husbanken housing allowance\"."
+          },
+          {
+            "title": "Find the application form",
+            "description": "On the front page you'll find \"Housing allowance\" in the menu. Click on \"Apply for housing allowance\" or \"Log in and apply\".",
+            "tip": "The application button is usually clearly visible on the front page."
+          },
+          {
+            "title": "Log in with BankID",
+            "description": "You must log in to apply. Use BankID on mobile or code device. Follow the instructions on screen.",
+            "warning": "Don't have BankID? You can get help at the municipality service office."
+          },
+          {
+            "title": "Fill out the application",
+            "description": "The application form automatically retrieves information about you. Check that everything is correct. Fill in your housing costs (rent, common costs, etc.).",
+            "tip": "Have the rental contract or documentation of housing costs ready."
+          },
+          {
+            "title": "Document housing costs",
+            "description": "Upload rental contract or other documentation of your housing costs. Take a photo with your phone if you don't have a scanner.",
+            "warning": "Without documentation, the application may be rejected."
+          },
+          {
+            "title": "Submit the application",
+            "description": "Review the application and check that everything is correct. Click \"Submit\" when you're done.",
+            "tip": "You receive confirmation by email or in digital mailbox."
+          },
+          {
+            "title": "Wait for response",
+            "description": "Husbanken processes your application. Response usually comes within a few weeks. You can monitor status in the application portal.",
+            "tip": "Housing allowance is applied for monthly, but you don't need to submit a new application - it renews automatically."
+          }
+        ],
+        "tipsTitle": "Useful tips",
+        "tips": [
+          "Apply as early as possible in the month - the deadline is the 25th of each month",
+          "You get a response around the 10th of the following month",
+          "Report changes in income or housing costs",
+          "You can apply retroactively if you forgot to apply",
+          "The municipality can help you with the application if you need it"
+        ]
+      },
+      "startlan": {
+        "title": "Apply for starter loan",
+        "description": "Loan from the municipality for those who can't get a loan from a regular bank",
+        "longDescription": "Starter loan is a loan from the municipality for people who have problems getting a loan from a regular bank. It can be used to buy a home or refinance expensive debt.",
+        "backToGuides": "Back to Housing",
+        "time": "About 25 minutes",
+        "difficulty": "Medium",
+        "whatIsTitle": "What is a starter loan?",
+        "whatIsText1": "Starter loan is a loan from your municipality financed by Husbanken. It's meant for those with stable income but who can't get a loan from a regular bank.",
+        "whatIsText2": "The starter loan can cover all or part of the purchase price for a home. The interest rate is favorable and you can get long repayment time.",
+        "requirementsTitle": "Who can get a starter loan?",
+        "requirements": [
+          "You must have long-term problems getting a loan from a regular bank",
+          "You must have the ability to service the loan over time",
+          "You must need housing (first-time buyers, families with children, single providers)",
+          "You must be able to document your income",
+          "You must have tried to get a loan from a regular bank first"
+        ],
+        "stepsTitle": "How to apply for starter loan",
+        "steps": [
+          {
+            "title": "Check if you can get a bank loan",
+            "description": "Contact a bank and ask if they can give you a mortgage. If they say no, ask for written confirmation of the rejection.",
+            "tip": "The rejection from the bank is important documentation in your application."
+          },
+          {
+            "title": "Find the municipality's application form",
+            "description": "Go to your municipality's website and search for \"starter loan\". Most municipalities have electronic application forms.",
+            "tip": "Many municipalities use husbanken.no or altinn.no for applications."
+          },
+          {
+            "title": "Log in and start the application",
+            "description": "Log in with BankID. Fill in information about yourself, your finances and what type of home you're applying for a loan for.",
+            "warning": "Be honest about your finances - the municipality checks the information."
+          },
+          {
+            "title": "Document your finances",
+            "description": "Upload latest payslip, tax return, rejection from bank, and any documentation of debt.",
+            "tip": "The better documentation, the faster processing."
+          },
+          {
+            "title": "Describe housing needs",
+            "description": "Explain why you need housing and what type of home you're looking for. If you've found a home, include information about it.",
+            "tip": "The municipality assesses whether the home is suitable for you and your finances."
+          },
+          {
+            "title": "Submit the application",
+            "description": "Review all information and click \"Submit\". You receive confirmation that the application has been received.",
+            "tip": "Keep the receipt and any reference numbers."
+          },
+          {
+            "title": "Wait for response",
+            "description": "The municipality processes your application. This may take several weeks. They may contact you for more information.",
+            "warning": "Processing time varies from municipality to municipality."
+          }
+        ],
+        "tipsTitle": "Useful tips",
+        "tips": [
+          "Start the process early - processing time can be long",
+          "Be realistic about what you can afford",
+          "You may get starter loan together with grants in some cases",
+          "The municipality can help you find a suitable home",
+          "You can apply for payment deferral if your finances change"
+        ]
+      },
+      "kommunalBolig": {
+        "title": "Apply for municipal housing",
+        "description": "Rent housing from the municipality if you cannot find housing yourself",
+        "longDescription": "Municipal housing is an offer to people who cannot find housing on their own. The municipality owns the homes and rents them out at reduced prices.",
+        "backToGuides": "Back to Housing",
+        "time": "About 20 minutes",
+        "difficulty": "Medium",
+        "whatIsTitle": "What is municipal housing?",
+        "whatIsText1": "Municipal housing is homes that the municipality owns and rents to people who need help finding housing. Rent is often lower than on the private market.",
+        "whatIsText2": "There is a limited number of municipal homes, so there may be a waiting list. The municipality prioritizes those with the greatest need.",
+        "requirementsTitle": "Who can get municipal housing?",
+        "requirements": [
+          "You must be without housing or at risk of losing your home",
+          "You must have tried to find housing yourself without success",
+          "You must have legal residence in Norway",
+          "You must usually have lived in the municipality for a certain time",
+          "Financial, social or health conditions make it difficult to find housing"
+        ],
+        "stepsTitle": "How to apply for municipal housing",
+        "steps": [
+          {
+            "title": "Find the municipality's application form",
+            "description": "Go to your municipality's website. Search for \"municipal housing\" or \"housing\". Find the application form.",
+            "tip": "You can also call the municipality service office for help."
+          },
+          {
+            "title": "Gather documentation",
+            "description": "You need documentation of income, any debt, and why you need municipal housing. Gather this before you start the application.",
+            "tip": "Medical certificate or statement from NAV can strengthen the application."
+          },
+          {
+            "title": "Fill out the application",
+            "description": "Fill in all fields in the application form. Describe your situation as well as you can.",
+            "warning": "Incomplete application can delay processing."
+          },
+          {
+            "title": "Describe housing needs",
+            "description": "Explain what kind of housing you need (number of rooms, location, accessibility). Describe any special needs.",
+            "tip": "If you have children, state age and any visitation."
+          },
+          {
+            "title": "Upload documentation",
+            "description": "Upload all documents that support your application. The more documentation, the easier it is for the municipality to assess the application.",
+            "warning": "Missing documentation can lead to rejection."
+          },
+          {
+            "title": "Submit the application",
+            "description": "Check that everything is filled in and submit the application. You receive confirmation that it has been received.",
+            "tip": "Note the date you submitted the application."
+          },
+          {
+            "title": "Wait for response",
+            "description": "The municipality processes the application. Processing time varies. You may be called in for a meeting.",
+            "tip": "You can contact the municipality to hear about the status of the application."
+          }
+        ],
+        "tipsTitle": "Useful tips",
+        "tips": [
+          "Apply as early as possible - there can be a long waiting time",
+          "Keep the municipality updated if your situation changes",
+          "You can appeal rejection to the municipality's appeals board",
+          "NAV can help with temporary housing while you wait",
+          "You can apply for housing allowance to help with rent"
+        ]
+      }
+    },
+    "utdanning": {
+      "studielan": {
+        "title": "Apply for student loan",
+        "description": "Loans and grants from Lanekassen for education",
+        "longDescription": "Lanekassen provides loans and grants to students. Here you learn how to apply and what you need.",
+        "backToGuides": "Back to Education",
+        "time": "About 20 minutes",
+        "difficulty": "Medium",
+        "whatIsTitle": "What is a student loan?",
+        "whatIsText1": "Student loan is money you borrow from Lanekassen to cover expenses while studying. You pay back after finishing your education.",
+        "whatIsText2": "Parts of the loan can be converted to grant if you complete your education and don't earn above a certain limit.",
+        "requirementsTitle": "Who can get a student loan?",
+        "requirements": [
+          "You must be admitted to an approved education",
+          "You must be registered as a student",
+          "You must take credits/be an active student",
+          "You must have valid residence permit in Norway (if not Norwegian citizen)"
+        ],
+        "stepsTitle": "How to apply for student loan",
+        "steps": [
+          {
+            "title": "Go to lanekassen.no",
+            "description": "Open the browser and type lanekassen.no. Click on \"Log in\" in the top right corner.",
+            "tip": "You can also search Google for \"Lanekassen apply loan\"."
+          },
+          {
+            "title": "Log in with BankID",
+            "description": "Choose BankID on mobile or code device. Follow the instructions to log in.",
+            "warning": "Don't have BankID? You can order it at your bank."
+          },
+          {
+            "title": "Find the application form",
+            "description": "After logging in, click on \"Apply for loan and grant\" or \"Application\". Select the correct academic year.",
+            "tip": "The application usually opens in mid-March for the fall semester."
+          },
+          {
+            "title": "Select education",
+            "description": "Search for your school and education. The system shows what you can get in loans and grants based on the education.",
+            "tip": "If the education doesn't appear, check that you've selected the correct academic year."
+          },
+          {
+            "title": "Fill in personal information",
+            "description": "Check that your contact information is correct. Provide account number for payment.",
+            "warning": "Wrong account number means delayed payment!"
+          },
+          {
+            "title": "Choose how much to borrow",
+            "description": "You can choose to borrow the full amount or less. Check what can become a grant.",
+            "tip": "Only borrow what you need - you'll pay it back later."
+          },
+          {
+            "title": "Submit the application",
+            "description": "Review the application and click \"Submit\". You receive confirmation by email.",
+            "tip": "You can follow status in \"My page\" at Lanekassen."
+          }
+        ],
+        "tipsTitle": "Useful tips",
+        "tips": [
+          "Apply well before semester start",
+          "Report changes (e.g. interrupted studies, work on the side)",
+          "Check deadlines for conversion to grant",
+          "You can apply for travel support if you study far from home",
+          "If you live with other students you can share housing costs"
+        ]
+      },
+      "stipend": {
+        "title": "Apply for grant",
+        "description": "Get parts of the loan converted to grant",
+        "longDescription": "Lanekassen can convert parts of your loan to grant. Here you learn how it works.",
+        "backToGuides": "Back to Education",
+        "time": "About 15 minutes",
+        "difficulty": "Easy",
+        "whatIsTitle": "What is a grant?",
+        "whatIsText1": "Grant is money you receive that you don't need to pay back. Lanekassen first gives loans, which can become grants if you meet the requirements.",
+        "whatIsText2": "Conversion to grant happens automatically if you complete credits and don't earn too much.",
+        "requirementsTitle": "Requirements for getting a grant",
+        "requirements": [
+          "You must complete the credits you received support for",
+          "You must not earn above the income limit",
+          "You must not have too much wealth",
+          "The education must be approved by Lanekassen"
+        ],
+        "stepsTitle": "How grants work",
+        "steps": [
+          {
+            "title": "Apply for loan as usual",
+            "description": "You first apply for loan and grant. The money is paid out as a loan initially.",
+            "tip": "It's the same application for loan and grant."
+          },
+          {
+            "title": "Complete the credits",
+            "description": "Take exams and pass the subjects you received support for. Lanekassen automatically checks with the school.",
+            "warning": "If you don't pass, the loan remains a loan."
+          },
+          {
+            "title": "Stay under the income limit",
+            "description": "You can work alongside studies, but not earn above the limit. Check current limits on lanekassen.no.",
+            "tip": "The limit is approx. NOK 200,000 per year (check updated amount)."
+          },
+          {
+            "title": "Conversion happens automatically",
+            "description": "When Lanekassen has received your results, they automatically convert the loan to grant.",
+            "tip": "You can see status on \"My page\" at Lanekassen."
+          },
+          {
+            "title": "Check the result",
+            "description": "Log in to lanekassen.no and see how much has been converted. You also get a message in the inbox.",
+            "warning": "If something is wrong, contact Lanekassen as soon as possible."
+          }
+        ],
+        "tipsTitle": "Useful tips",
+        "tips": [
+          "Conversion happens the year after you took exams",
+          "If you earn too much one year, you can apply for exception in special circumstances",
+          "Housing grant you can get regardless of income if you live away from parents",
+          "If you complete on time, you can get final loan converted to grant"
+        ]
+      },
+      "tilbakebetaling": {
+        "title": "Repaying student loan",
+        "description": "Pay back student loan and apply for deferment",
+        "longDescription": "When you finish your education, the loan must be paid back. Here you learn how it works and what you can do if you struggle.",
+        "backToGuides": "Back to Education",
+        "time": "About 15 minutes",
+        "difficulty": "Medium",
+        "whatIsTitle": "How repayment works",
+        "whatIsText1": "You start paying back the student loan about 7 months after finishing your education. You receive a letter from Lanekassen with a payment plan.",
+        "whatIsText2": "The loan is usually paid over 20 years with fixed monthly amounts. You can choose to pay faster or apply for deferment.",
+        "optionsTitle": "Your options",
+        "options": [
+          "Automatic payment (AvtaleGiro) - easiest",
+          "Manual payment via online banking",
+          "Apply for payment deferment if you struggle",
+          "Apply for interest exemption with low income"
+        ],
+        "stepsTitle": "How to pay back",
+        "steps": [
+          {
+            "title": "Wait for invoice",
+            "description": "About 7 months after finishing education you get your first invoice. It arrives in Digipost or as a letter.",
+            "tip": "Check that Lanekassen has correct address and email."
+          },
+          {
+            "title": "Set up AvtaleGiro",
+            "description": "Log in to lanekassen.no and select \"Payment\". Set up AvtaleGiro for automatic payment.",
+            "tip": "With AvtaleGiro you don't have to remember to pay each month."
+          },
+          {
+            "title": "Check the payment plan",
+            "description": "See how much you will pay and for how long. You can change the repayment period if you wish.",
+            "warning": "Longer repayment period = more interest in total."
+          },
+          {
+            "title": "Pay on time",
+            "description": "Pay the invoice before the due date. If you don't pay, late interest and fees accrue.",
+            "warning": "Missing payment can lead to collection."
+          },
+          {
+            "title": "Apply for deferment if necessary",
+            "description": "Short on money? Log in and apply for payment deferment. You can get up to 36 months deferment.",
+            "tip": "Apply BEFORE the due date to avoid fees."
+          }
+        ],
+        "tipsTitle": "Useful tips",
+        "tips": [
+          "You can get interest exemption if you earn below a certain limit",
+          "In case of unemployment or illness you can apply for deferment",
+          "You can pay extra when you can afford it",
+          "Lanekassen sends reminders before due date - check inbox",
+          "Contact Lanekassen early if you struggle with payment"
+        ]
+      }
+    },
+    "id": {
+      "pass": {
+        "title": "Order passport",
+        "description": "How to order new or renew your passport",
+        "longDescription": "Passport is an important ID document. Here you learn how to order a new passport or renew the old one.",
+        "backToGuides": "Back to ID and documents",
+        "time": "About 15 minutes",
+        "difficulty": "Easy",
+        "whatIsTitle": "About passport",
+        "whatIsText1": "Passport is a travel document that confirms your identity. You need a passport to travel to countries outside the Nordic region.",
+        "whatIsText2": "Norwegian passport is valid for 10 years for adults and 5 years for children under 16.",
+        "requirementsTitle": "What you need",
+        "requirements": [
+          "Valid ID (old passport, driver's license or bank card with photo)",
+          "Payment (approx. NOK 570 for adults, NOK 270 for children)",
+          "Appointment booking with the police",
+          "Old passport (if you have one)"
+        ],
+        "stepsTitle": "How to order a passport",
+        "steps": [
+          {
+            "title": "Book appointment with the police",
+            "description": "Go to politiet.no and select \"Book appointment\". Select \"Passport\" and find available time at the nearest passport office.",
+            "tip": "During holiday season there can be long waiting time - book well in advance!"
+          },
+          {
+            "title": "Show up at agreed time",
+            "description": "Bring valid ID and old passport. The police take a new photo and fingerprints.",
+            "warning": "If you arrive late, you lose the appointment and must book a new one."
+          },
+          {
+            "title": "Pay for the passport",
+            "description": "You pay by card at the passport office. The price is approx. NOK 570 for adults.",
+            "tip": "Check updated prices on politiet.no."
+          },
+          {
+            "title": "Wait for the passport",
+            "description": "The passport is sent to your home by mail. It usually takes 10-14 days.",
+            "tip": "You can track the shipment on politiet.no with your reference number."
+          },
+          {
+            "title": "Pick up or receive the passport",
+            "description": "Most people receive the passport by mail. Some places you can pick it up at the passport office.",
+            "warning": "Check that all information is correct when you receive the passport!"
+          }
+        ],
+        "tipsTitle": "Useful tips",
+        "tips": [
+          "Book appointment early - especially before summer there is long waiting time",
+          "Children must bring both parents or authorization",
+          "The passport must be valid for at least 6 months for many destinations",
+          "Lost passport must be reported to police before you can get a new one",
+          "You can get emergency passport same day in special cases"
+        ]
+      },
+      "forerkort": {
+        "title": "Renew driver's license",
+        "description": "How to renew or order driver's license",
+        "longDescription": "Driver's license must be renewed after a certain time. Here you learn how to do it.",
+        "backToGuides": "Back to ID and documents",
+        "time": "About 15 minutes",
+        "difficulty": "Easy",
+        "whatIsTitle": "About driver's license",
+        "whatIsText1": "Driver's license is both proof that you're allowed to drive and a valid ID card. It must be renewed regularly.",
+        "whatIsText2": "Driver's license for car (class B) is valid for 15 years, but must be renewed more often after turning 75.",
+        "requirementsTitle": "What you need",
+        "requirements": [
+          "Valid ID",
+          "Health certificate if you're over 75",
+          "Payment (approx. NOK 250-400)",
+          "New passport photo (can be taken at the traffic station)"
+        ],
+        "stepsTitle": "How to renew driver's license",
+        "steps": [
+          {
+            "title": "Book appointment at Statens vegvesen",
+            "description": "Go to vegvesen.no and select \"Book appointment\". Find \"Driver's license\" and select nearest traffic station.",
+            "tip": "You can also call 22 07 30 00 to book an appointment."
+          },
+          {
+            "title": "Show up with ID",
+            "description": "Bring valid ID. A new photo is taken at the station.",
+            "warning": "Old driver's license must be handed in."
+          },
+          {
+            "title": "Pay the fee",
+            "description": "You pay by card at the traffic station. The price varies by type of driver's license.",
+            "tip": "Check prices on vegvesen.no before showing up."
+          },
+          {
+            "title": "Wait for new driver's license",
+            "description": "The new driver's license is sent by mail. It takes about 1-2 weeks.",
+            "tip": "You get a temporary driver's license that is valid while you wait."
+          },
+          {
+            "title": "Activate driver's license",
+            "description": "When you receive the driver's license, it's ready to use. Check that all information is correct.",
+            "warning": "Report errors immediately!"
+          }
+        ],
+        "tipsTitle": "Useful tips",
+        "tips": [
+          "Renew driver's license before it expires - driving with expired license is not allowed",
+          "If you're over 75, you need health certificate from doctor",
+          "Lost driver's license can be replaced for a fee",
+          "You can check validity on vegvesen.no",
+          "EU driver's license is valid throughout Europe"
+        ]
+      },
+      "idKort": {
+        "title": "National ID card",
+        "description": "Order national ID card with or without travel rights",
+        "longDescription": "National ID card is an alternative to passport and driver's license as identification. It can also be used as travel document in Europe.",
+        "backToGuides": "Back to ID and documents",
+        "time": "About 15 minutes",
+        "difficulty": "Easy",
+        "whatIsTitle": "About national ID card",
+        "whatIsText1": "National ID card is an official ID document issued by the police. It comes in two variants: with and without travel rights.",
+        "whatIsText2": "With travel rights you can use the card instead of passport in the EEA area. The card is valid for 5 years.",
+        "typesTitle": "Two types of ID card",
+        "types": [
+          "With travel rights (approx. NOK 570) - can be used as travel document in EEA",
+          "Without travel rights (approx. NOK 490) - only identification in Norway"
+        ],
+        "stepsTitle": "How to order ID card",
+        "steps": [
+          {
+            "title": "Book appointment with the police",
+            "description": "Go to politiet.no and select \"Book appointment\". Select \"ID card\" and find nearest police station that issues ID cards.",
+            "tip": "Not all police stations issue ID cards - check the list on politiet.no."
+          },
+          {
+            "title": "Show up at agreed time",
+            "description": "Bring valid ID (passport, driver's license or other approved ID). The police take photo and fingerprints.",
+            "warning": "For ID card with travel rights you must have Norwegian national ID number."
+          },
+          {
+            "title": "Choose type of ID card",
+            "description": "Choose if you want ID card with or without travel rights. With travel rights you can travel in EEA without passport.",
+            "tip": "Travel rights is recommended if you travel in Europe."
+          },
+          {
+            "title": "Pay the fee",
+            "description": "Pay by card on site. The price depends on type of ID card.",
+            "tip": "Check updated prices on politiet.no."
+          },
+          {
+            "title": "Wait for the ID card",
+            "description": "The ID card is sent by mail. It usually takes 10-14 days.",
+            "tip": "You can track the shipment with your reference number."
+          }
+        ],
+        "tipsTitle": "Useful tips",
+        "tips": [
+          "The ID card is smaller than passport and fits in wallet",
+          "You can have both passport and ID card",
+          "ID card with travel rights is accepted as ID everywhere in Norway",
+          "Children can also get ID card",
+          "In case of loss you must report to police"
+        ]
+      }
+    },
+    "grunnleggende": {
+      "smarttelefon": {
+        "title": "Using smartphone",
+        "description": "Learn basic use of iPhone and Android phones",
+        "longDescription": "The smartphone is the key to digital Norway. Here you learn the most basic things - from turning on the phone to using apps.",
+        "backToGuides": "Back to Basic technology",
+        "time": "About 15 minutes",
+        "difficulty": "Easy",
+        "beforeYouStart": "What is a smartphone?",
+        "beforeYouStartText": "A smartphone is a small computer you can hold in your hand. It's used for calling, sending messages, taking photos, and using apps (programs) like BankID, Vipps and more.",
+        "stepsTitle": "Basic use of smartphone",
+        "steps": [
+          {
+            "title": "Turn on the phone",
+            "description": "Hold the large button on the side of the phone for a few seconds. The screen will light up. If the phone has been off for a long time, it may take a while.",
+            "tip": "Most phones have the power button on the right side."
+          },
+          {
+            "title": "Unlock the phone",
+            "description": "When the phone is on, you need to unlock it. Swipe up on the screen (drag your finger upward). You may need to enter a code or use fingerprint.",
+            "tip": "The code is usually 4 or 6 digits that you choose yourself."
+          },
+          {
+            "title": "Understand the home screen",
+            "description": "The home screen is the first thing you see. Here the apps (programs) are displayed as small square icons. Tap once on an icon to open the app.",
+            "tip": "Swipe left or right to see more pages with apps."
+          },
+          {
+            "title": "Call someone",
+            "description": "Find and tap the phone icon (usually green with a handset). Enter the number you want to call. Press the green button to call. Press red to hang up.",
+            "tip": "You can save numbers under \"Contacts\" so you don't have to remember them."
+          },
+          {
+            "title": "Send a text message",
+            "description": "Find and tap the messages icon (usually looks like a speech bubble). Tap plus or \"New message\". Enter the number or select a contact. Write the message and tap send.",
+            "tip": "The keyboard appears when you need to write. Tap the letters one by one."
+          },
+          {
+            "title": "Take a photo",
+            "description": "Find and tap the camera icon. Point the phone at what you want to photograph. Tap the large round button on the screen. The photo is saved automatically.",
+            "tip": "You find the photos in the \"Photos\" or \"Gallery\" app."
+          },
+          {
+            "title": "Connect to Wi-Fi (wireless internet)",
+            "description": "Go to Settings (gear icon). Tap Wi-Fi. Select your network (it's often named the same as your router). Enter the password.",
+            "tip": "The Wi-Fi password is often on a label on the router/box from your internet provider."
+          },
+          {
+            "title": "Download an app",
+            "description": "Open App Store (iPhone) or Google Play (Android). Search for the app you want, e.g. \"BankID\" or \"Vipps\". Tap \"Get\" or \"Install\". Wait for the app to download.",
+            "warning": "Be careful what you download. Stick to known apps from safe providers."
+          }
+        ],
+        "tipsTitle": "Useful tips",
+        "tips": [
+          "Charge the phone every night - then it's always ready to use",
+          "If something freezes, try turning the phone off and on again",
+          "Don't be afraid to try - you can rarely break anything",
+          "Ask family or friends for help setting up the phone first time",
+          "Set large text in settings if you find the text too small"
+        ]
+      },
+      "nettleser": {
+        "title": "Using web browser",
+        "description": "Learn to open websites and find information on the internet",
+        "longDescription": "The browser is your window to the internet. Here you learn how to use it to visit websites, search for information and navigate safely.",
+        "backToGuides": "Back to Basic technology",
+        "time": "About 10 minutes",
+        "difficulty": "Easy",
+        "whatIsTitle": "What is a web browser?",
+        "whatIsText": "A web browser is a program that lets you view websites. The most common are Safari (on iPhone), Chrome (on Android and computers) and Edge (on Windows computers).",
+        "stepsTitle": "How to use the browser",
+        "steps": [
+          {
+            "title": "Open the browser",
+            "description": "Find the browser icon on your phone or computer. Safari has a compass icon, Chrome has a colorful circle, and Edge has a blue \"e\".",
+            "tip": "On your phone you often find the browser on the home screen."
+          },
+          {
+            "title": "Understand the address bar",
+            "description": "At the top of the browser is the address bar - a long white box. Here you type the address of the website you want to visit, e.g. \"nav.no\" or \"helsenorge.no\".",
+            "tip": "You don't need to type \"www.\" before the address anymore."
+          },
+          {
+            "title": "Visit a website",
+            "description": "Tap on the address bar. Type the address you want to visit, e.g. \"vg.no\". Press the Enter key (or \"Go\" on phone).",
+            "tip": "Be accurate with the address - small errors can lead you to the wrong site."
+          },
+          {
+            "title": "Search on Google",
+            "description": "You can also search for things. Type what you're looking for in the address bar, e.g. \"NAV opening hours\" or \"weather in Oslo\". Press Enter. Google shows you relevant results.",
+            "tip": "Feel free to write full questions, like \"how much does it cost to renew passport\""
+          },
+          {
+            "title": "Click on links",
+            "description": "Websites have links - text that is blue and underlined. When you click (or tap) on a link, you go to a new page.",
+            "tip": "To go back to the previous page, press the arrow pointing left (back button)."
+          },
+          {
+            "title": "Use the back button",
+            "description": "In the top left you find an arrow pointing left. Press it to go back to the page you just were on. You can press multiple times to go further back.",
+            "tip": "On your phone you can often swipe from the left edge to go back."
+          },
+          {
+            "title": "Close the browser",
+            "description": "On phone: Swipe up from the bottom (iPhone) or press the square button (Android) to close. On computer: Click the X in the top right corner."
+          }
+        ],
+        "safetyTitle": "Stay safe online",
+        "safetyTips": [
+          "Always look at the address at the top - real nav.no has exactly that address, not \"nav-login.com\" or similar",
+          "Type addresses yourself instead of clicking links in email",
+          "Look for the padlock icon by the address - it means the site is secure",
+          "If something seems strange or too good to be true, be careful"
+        ]
+      },
+      "videosamtale": {
+        "title": "Using video calls",
+        "description": "Learn to use Zoom, Teams and FaceTime to talk to family and doctor",
+        "longDescription": "Video calls let you see and talk to people even if they're far away. Perfect for staying in touch with family or having doctor appointments from home.",
+        "backToGuides": "Back to Basic technology",
+        "time": "About 15 minutes",
+        "difficulty": "Medium",
+        "whyUseTitle": "Why use video calls?",
+        "whyUseList": [
+          "See grandchildren and family who live far away",
+          "Have doctor appointment or NAV meeting from home",
+          "Participate in courses and events without traveling",
+          "Get help from family with technical problems - they can see your screen"
+        ],
+        "appsTitle": "Common video apps",
+        "apps": [
+          {
+            "name": "FaceTime",
+            "desc": "Built into iPhone/iPad. Easiest to use with other Apple users."
+          },
+          {
+            "name": "Zoom",
+            "desc": "Popular app for meetings. Used by many municipalities and health services."
+          },
+          {
+            "name": "Teams",
+            "desc": "Microsoft's app. Often used by NAV and workplaces."
+          },
+          {
+            "name": "WhatsApp",
+            "desc": "Simple video for family and friends. Many already have it."
+          }
+        ],
+        "stepsTitle": "How to join a video call",
+        "steps": [
+          {
+            "title": "Get an invitation",
+            "description": "You usually receive a link by email or SMS. The link looks like a web address and often starts with \"zoom.us\" or \"teams.microsoft.com\".",
+            "tip": "Save the email or message so you can find the link again."
+          },
+          {
+            "title": "Click the link when it's time",
+            "description": "A few minutes before the meeting starts, click the link. You'll be asked if you want to open the app or browser. Choose \"Open\" or \"Join\".",
+            "tip": "Feel free to test sound and video before the meeting by clicking the link a bit early."
+          },
+          {
+            "title": "Grant access to camera and microphone",
+            "description": "The app asks for permission to use camera and microphone. Press \"Allow\" on both. Without this, others cannot see or hear you.",
+            "warning": "If you can't get in, check that you've granted permissions in settings."
+          },
+          {
+            "title": "Check that you can see yourself",
+            "description": "Before entering the meeting, you often see yourself in a small window. Check that the lighting is good and the camera captures your face.",
+            "tip": "Sit with the window or lamp in front of you, not behind - then others see you better."
+          },
+          {
+            "title": "Enter the meeting",
+            "description": "Click \"Join\" or \"Join Meeting\". You now enter the meeting and can see other participants.",
+            "tip": "If you're early, you may need to wait for the host to start the meeting."
+          },
+          {
+            "title": "Turn sound and video on/off",
+            "description": "At the bottom of the screen you find buttons for microphone and camera. Press the microphone icon to turn sound on/off. Press the camera icon to turn video on/off.",
+            "tip": "Turn off the microphone when you're not speaking - then others don't hear background noise."
+          },
+          {
+            "title": "End the call",
+            "description": "When the call is finished, press the red \"End\" or \"Leave\" button. You exit the meeting.",
+            "tip": "Remember to say goodbye before ending!"
+          }
+        ],
+        "troubleshootingTitle": "Common problems",
+        "troubleshooting": [
+          {
+            "problem": "Others can't hear me",
+            "solution": "Check that the microphone is not muted (no line through icon). Check the volume."
+          },
+          {
+            "problem": "I can't see others",
+            "solution": "Check your internet connection. Try closing other apps."
+          },
+          {
+            "problem": "Video is choppy",
+            "solution": "Move closer to Wi-Fi router or turn off your own camera for better flow."
+          },
+          {
+            "problem": "I can't get in",
+            "solution": "Try clicking the link again. Check that the app is updated."
+          }
+        ]
+      },
+      "passordHjelp": {
+        "title": "Password and login",
+        "description": "Learn to create good passwords and what to do when you've forgotten it",
+        "longDescription": "Passwords protect your personal information. Here you learn to create safe passwords and what to do if you forget them.",
+        "backToGuides": "Back to Basic technology",
+        "time": "About 10 minutes",
+        "difficulty": "Easy",
+        "whyImportantTitle": "Why are passwords important?",
+        "whyImportantText": "Your password is like the key to your house - it keeps strangers out. A bad password makes it easy for scammers to steal your money or identity.",
+        "goodPasswordTitle": "How to create a good password",
+        "goodPasswordTips": [
+          "Use at least 12 characters - the longer, the better",
+          "Mix upper and lower case letters, numbers and symbols",
+          "Don't use your name, birth date or \"123456\"",
+          "Feel free to use a sentence you remember: \"MyCatIsNamedFluffy2!\"",
+          "Use different passwords on important services (bank, NAV, email)"
+        ],
+        "forgotPasswordTitle": "Forgot password?",
+        "forgotPasswordSteps": [
+          {
+            "title": "Find the \"Forgot password\" link",
+            "description": "On the login page you often find a link that says \"Forgot password?\", \"Reset password\" or \"Need help?\". Click on it.",
+            "tip": "The link is usually below the field where you type password."
+          },
+          {
+            "title": "Enter email or phone number",
+            "description": "You'll be asked to enter the email address or phone number you registered with. Enter it exactly.",
+            "tip": "Check that you're using the correct email address - the one you usually log in with."
+          },
+          {
+            "title": "Check your email",
+            "description": "You receive an email or SMS with a link to create a new password. It may take a few minutes. Check spam folder if you can't find it.",
+            "warning": "The link is valid for a short time - often only 1 hour. Use it quickly."
+          },
+          {
+            "title": "Create new password",
+            "description": "Click the link in the email. Enter a new, strong password. You must type it twice to confirm.",
+            "tip": "Write down the new password in a safe place until you remember it."
+          },
+          {
+            "title": "Log in with new password",
+            "description": "Go back to the login page and log in with the new password. Now you're in again!",
+            "tip": "Consider writing the password in a notebook you keep safely at home."
+          }
+        ],
+        "bankidNoteTitle": "Note: BankID is different",
+        "bankidNoteText": "BankID password cannot be reset yourself online. If you've forgotten the BankID code, you must contact your bank to get a new one. They will help you."
+      },
+      "faHjelp": {
+        "title": "Where to get help",
+        "description": "Find places that offer free computer help in your area",
+        "longDescription": "You don't have to be alone with digital things. Here you find an overview of places and people who can help you - often completely free.",
+        "backToGuides": "Back to Basic technology",
+        "time": "About 5 minutes",
+        "difficulty": "Easy",
+        "introText": "Many organizations and volunteers offer free help to people who find digital things difficult. Here are some good places to start:",
+        "helpSourcesTitle": "Places that can help you",
+        "helpSources": [
+          {
+            "name": "Seniornett Norge",
+            "description": "Volunteer organization that helps seniors with digital things. They have local groups across the country that hold courses and provide help.",
+            "howToContact": "Go to seniornett.no or call 22 42 99 99",
+            "price": "Free or affordable"
+          },
+          {
+            "name": "Your local library",
+            "description": "Many libraries offer free computer help. Some have regular \"computer hours\" where you can get help with most things.",
+            "howToContact": "Call or visit your library and ask if they offer computer help",
+            "price": "Free"
+          },
+          {
+            "name": "Volunteer center",
+            "description": "Local volunteer centers often have volunteers who can help with computers and phones at your home.",
+            "howToContact": "Find your nearest at frivillig.no",
+            "price": "Free"
+          },
+          {
+            "name": "Family and friends",
+            "description": "Many have children, grandchildren, neighbors or friends who can help. Most think it's nice to help!",
+            "howToContact": "Just ask - most say yes with pleasure",
+            "price": "Free (and social!)"
+          },
+          {
+            "name": "NAV",
+            "description": "If you need help using NAV's services, you can get guidance at your local NAV office.",
+            "howToContact": "Call 55 55 33 33 or visit the NAV office",
+            "price": "Free"
+          }
+        ],
+        "tipsTitle": "Tips when asking for help",
+        "tips": [
+          "Write down your questions before meeting the helper",
+          "Ask them to show you slowly - you should learn yourself, not just watch",
+          "Don't be embarrassed - everyone was a beginner once",
+          "Take notes or ask to have instructions written down",
+          "Ask if you can call if you forget how to do it"
+        ]
       }
     }
   },

@@ -3,6 +3,7 @@
 import Breadcrumbs from '@/components/Breadcrumbs';
 import FavoriteButton from '@/components/FavoriteButton';
 import PrintButton from '@/components/PrintButton';
+import RelatedGuides from '@/components/RelatedGuides';
 import StepGuide from '@/components/StepGuide';
 import { useTranslations } from 'next-intl';
 
@@ -92,6 +93,8 @@ export default function SkattemeldingPage() {
           </div>
         </div>
       </div>
+
+      <RelatedGuides currentPath="/skatt/skattemelding" category="skatt" />
     </div>
   );
 }

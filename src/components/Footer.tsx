@@ -42,7 +42,7 @@ export default function Footer() {
             <h3 className="text-xl font-bold mb-4">{t('contact')}</h3>
             <a
               href="mailto:kontakt@lettdigital.no"
-              className="text-blue-400 hover:text-blue-300 no-underline"
+              className="text-gray-300 hover:text-white no-underline"
             >
               kontakt@lettdigital.no
             </a>

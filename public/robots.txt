@@ -1,0 +1,11 @@
+# robots.txt for LettDigital.no
+# Enkel veiledning for offentlige tjenester
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.lettdigital.no/sitemap.xml
+
+# Crawl-delay for å være snill mot serveren
+Crawl-delay: 1
