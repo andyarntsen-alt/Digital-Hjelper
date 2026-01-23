@@ -10,10 +10,10 @@ export const routing = defineRouting({
 export const allLocales = ['no', 'en', 'uk', 'pl', 'so', 'ar'];
 
 // Språk som er fullt oversatt og fungerer
-export const activeLocales = ['no', 'en'];
+export const activeLocales = ['no', 'en', 'uk', 'pl', 'so', 'ar'];
 
 // Språk som kommer snart (vises med "Coming soon" melding)
-export const comingSoonLocales = ['uk', 'pl', 'so', 'ar'];
+export const comingSoonLocales: string[] = [];
 
 export const localeNames: Record<string, string> = {
   no: 'Norsk',
