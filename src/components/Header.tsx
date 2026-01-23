@@ -28,22 +28,22 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="bg-white shadow-md sticky top-0 z-40">
+    <header className="bg-white shadow-md header-sticky safe-area-top">
       <a href="#main-content" className="skip-link">
         {tCommon('skipToContent')}
       </a>
 
-      <div className="max-w-6xl mx-auto px-4">
-        <div className="flex items-center justify-between py-4">
-          <Link href="/" className="flex items-center gap-3 no-underline flex-shrink-0">
-            <div className="bg-nav-blue text-white p-2 rounded-lg">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <div className="max-w-6xl mx-auto px-3 sm:px-4">
+        <div className="flex items-center justify-between py-2 sm:py-3 md:py-4">
+          <Link href="/" className="flex items-center gap-2 sm:gap-3 no-underline flex-shrink-0">
+            <div className="bg-nav-blue text-white p-1.5 sm:p-2 rounded-lg">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 sm:h-8 sm:w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
               </svg>
             </div>
             <div className="min-w-0">
-              <span className="text-2xl font-bold text-gray-800 block">{t('siteName')}</span>
-              <span className="block text-sm text-gray-600 whitespace-nowrap">{t('tagline')}</span>
+              <span className="text-lg sm:text-xl md:text-2xl font-bold text-gray-800 block">{t('siteName')}</span>
+              <span className="hidden sm:block text-xs sm:text-sm text-gray-600 whitespace-nowrap">{t('tagline')}</span>
             </div>
           </Link>
 
@@ -139,15 +139,15 @@ export default function Header() {
           </nav>
 
           {/* Mobil meny-knapp og språkvelger */}
-          <div className="flex items-center gap-2 md:hidden">
+          <div className="flex items-center gap-1 sm:gap-2 md:hidden">
             <LanguageSelector />
             <button
               onClick={() => setMenuOpen(!menuOpen)}
-              className="p-2 rounded-lg hover:bg-gray-100"
+              className="p-1.5 sm:p-2 rounded-lg hover:bg-gray-100 active:bg-gray-200"
               aria-label={menuOpen ? tCommon('close') + ' ' + tCommon('menu') : tCommon('open') + ' ' + tCommon('menu')}
               aria-expanded={menuOpen}
             >
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 sm:h-7 sm:w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 {menuOpen ? (
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                 ) : (
@@ -160,75 +160,75 @@ export default function Header() {
 
         {/* Mobil meny */}
         {menuOpen && (
-          <nav className="md:hidden py-4 border-t border-gray-200 max-h-[70vh] overflow-y-auto">
-            <div className="flex flex-col gap-2">
+          <nav className="md:hidden py-2 border-t border-gray-200 max-h-[60vh] overflow-y-auto overscroll-contain">
+            <div className="flex flex-col gap-0.5">
               <Link
                 href="/nav"
-                className="text-xl py-4 px-4 rounded-lg hover:bg-gray-100 active:bg-gray-200 text-gray-700 no-underline transition-colors"
+                className="text-base py-3 px-3 rounded-lg hover:bg-gray-100 active:bg-gray-200 text-gray-700 no-underline transition-colors"
                 onClick={() => setMenuOpen(false)}
               >
                 {t('nav')}
               </Link>
               <Link
                 href="/skatt"
-                className="text-xl py-4 px-4 rounded-lg hover:bg-gray-100 active:bg-gray-200 text-gray-700 no-underline transition-colors"
+                className="text-base py-3 px-3 rounded-lg hover:bg-gray-100 active:bg-gray-200 text-gray-700 no-underline transition-colors"
                 onClick={() => setMenuOpen(false)}
               >
                 {t('skatt')}
               </Link>
               <Link
                 href="/helse"
-                className="text-xl py-4 px-4 rounded-lg hover:bg-gray-100 active:bg-gray-200 text-gray-700 no-underline transition-colors"
+                className="text-base py-3 px-3 rounded-lg hover:bg-gray-100 active:bg-gray-200 text-gray-700 no-underline transition-colors"
                 onClick={() => setMenuOpen(false)}
               >
                 {t('helse')}
               </Link>
               <Link
                 href="/sikkerhet"
-                className="text-xl py-4 px-4 rounded-lg hover:bg-gray-100 active:bg-gray-200 text-gray-700 no-underline transition-colors"
+                className="text-base py-3 px-3 rounded-lg hover:bg-gray-100 active:bg-gray-200 text-gray-700 no-underline transition-colors"
                 onClick={() => setMenuOpen(false)}
               >
                 {t('sikkerhet')}
               </Link>
               <Link
                 href="/bank"
-                className="text-xl py-4 px-4 rounded-lg hover:bg-gray-100 active:bg-gray-200 text-gray-700 no-underline transition-colors"
+                className="text-base py-3 px-3 rounded-lg hover:bg-gray-100 active:bg-gray-200 text-gray-700 no-underline transition-colors"
                 onClick={() => setMenuOpen(false)}
               >
                 {t('bank')}
               </Link>
               <Link
                 href="/digital"
-                className="text-xl py-4 px-4 rounded-lg hover:bg-gray-100 active:bg-gray-200 text-gray-700 no-underline transition-colors"
+                className="text-base py-3 px-3 rounded-lg hover:bg-gray-100 active:bg-gray-200 text-gray-700 no-underline transition-colors"
                 onClick={() => setMenuOpen(false)}
               >
                 {t('digital')}
               </Link>
               <Link
                 href="/om"
-                className="text-xl py-4 px-4 rounded-lg hover:bg-gray-100 active:bg-gray-200 text-gray-700 no-underline transition-colors"
+                className="text-base py-3 px-3 rounded-lg hover:bg-gray-100 active:bg-gray-200 text-gray-700 no-underline transition-colors"
                 onClick={() => setMenuOpen(false)}
               >
                 {t('about')}
               </Link>
-              <hr className="border-gray-200 my-2" />
+              <hr className="border-gray-200 my-1" />
               <Link
                 href="/ordbok"
-                className="text-lg py-4 px-4 rounded-lg hover:bg-gray-100 active:bg-gray-200 text-gray-600 no-underline transition-colors"
+                className="text-sm py-3 px-3 rounded-lg hover:bg-gray-100 active:bg-gray-200 text-gray-600 no-underline transition-colors"
                 onClick={() => setMenuOpen(false)}
               >
                 {t('ordbok')}
               </Link>
               <Link
                 href="/faq"
-                className="text-lg py-4 px-4 rounded-lg hover:bg-gray-100 active:bg-gray-200 text-gray-600 no-underline transition-colors"
+                className="text-sm py-3 px-3 rounded-lg hover:bg-gray-100 active:bg-gray-200 text-gray-600 no-underline transition-colors"
                 onClick={() => setMenuOpen(false)}
               >
                 {t('faq')}
               </Link>
               <Link
                 href="/favoritter"
-                className="text-lg py-4 px-4 rounded-lg hover:bg-gray-100 active:bg-gray-200 text-gray-600 no-underline transition-colors"
+                className="text-sm py-3 px-3 rounded-lg hover:bg-gray-100 active:bg-gray-200 text-gray-600 no-underline transition-colors"
                 onClick={() => setMenuOpen(false)}
               >
                 {tCommon('favorites')}

@@ -16,6 +16,15 @@
 
 html {
   font-size: var(--font-size-base);
+  /* Sikrer at sticky fungerer på iOS */
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100%;
+  /* Forhindrer horisontal scroll på mobil */
+  overflow-x: hidden;
 }
 
 html.large-text {
@@ -210,6 +219,18 @@ input[type="radio"],
 select {
   min-height: 44px;
   min-width: 44px;
+}
+
+/* Sticky header som fungerer på iOS Safari */
+.header-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  /* Forhindrer at iOS Safari gjør headeren gjennomsiktig */
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
 }
 
 /* Safe area utility classes for iPhone notch/home indicator */
