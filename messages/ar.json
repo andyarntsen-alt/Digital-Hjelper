@@ -211,12 +211,50 @@
     "bolig": {
       "title": "السكن ودعم السكن",
       "shortDesc": "دعم السكن وقرض البداية",
-      "description": "التقدم لدعم السكن، قرض البداية من Husbanken والسكن البلدي."
+      "description": "التقدم لدعم السكن، قرض البداية من Husbanken والسكن البلدي.",
+      "hubTitle": "السكن ودعم السكن",
+      "hubSubtitle": "مساعدة للحصول على سكن والاحتفاظ به",
+      "didYouKnow": "هل تعلم؟",
+      "didYouKnowText": "Husbanken والبلدية لديهما عدة برامج يمكن أن تساعدك في الحصول على سكن أو الاحتفاظ به.",
+      "selectGuide": "اختر ما تحتاج المساعدة فيه",
+      "whoCanGetHelpTitle": "من يمكنه الحصول على المساعدة؟",
+      "bostotteTitle": "دعم السكن",
+      "bostotteDesc": "لمن لديه دخل منخفض ونفقات سكن عالية.",
+      "startlanTitle": "قرض البداية",
+      "startlanDesc": "لمن لا يحصل على قرض من البنك العادي.",
+      "kommunalBoligTitle": "سكن بلدي",
+      "kommunalBoligDesc": "لمن لا يستطيع الحصول على سكن بنفسه.",
+      "usefulLinksTitle": "روابط مفيدة",
+      "linkHusbanken": "husbanken.no",
+      "linkHusbankenDesc": "تقدم لدعم السكن وقرض البداية",
+      "linkKommune": "بلديتك",
+      "linkKommuneDesc": "تقدم للسكن البلدي",
+      "linkPhone": "هاتف Husbanken:",
+      "linkPhoneHours": "33 35 70 00 (أيام العمل 08-15:30)"
     },
     "utdanning": {
       "title": "التعليم وصندوق القروض",
       "shortDesc": "قرض الدراسة والمنحة",
-      "description": "التقدم لقرض الدراسة والمنحة وإدارة السداد لدى Lånekassen."
+      "description": "التقدم لقرض الدراسة والمنحة وإدارة السداد لدى Lånekassen.",
+      "hubTitle": "التعليم وصندوق القروض",
+      "hubSubtitle": "قرض الدراسة والمنحة والسداد",
+      "didYouKnow": "هل تعلم؟",
+      "didYouKnowText": "Lånekassen يقدم قروضاً ومنحاً لمن يدرسون. يمكن تحويل جزء من القرض إلى منحة.",
+      "selectGuide": "اختر ما تحتاج المساعدة فيه",
+      "whoCanGetSupportTitle": "من يمكنه الحصول على الدعم؟",
+      "studielanInfoTitle": "قرض الدراسة",
+      "studielanInfoDesc": "لمن يدرس تعليماً معتمداً.",
+      "stipendInfoTitle": "المنحة",
+      "stipendInfoDesc": "يمكن تحويل جزء من القرض إلى منحة إذا أكملت دراستك.",
+      "utsettelsInfoTitle": "تأجيل السداد",
+      "utsettelsInfoDesc": "هل لديك صعوبة في الدفع؟ يمكنك التقدم للتأجيل.",
+      "usefulLinksTitle": "روابط مفيدة",
+      "linkLanekassen": "lanekassen.no",
+      "linkLanekassenDesc": "تقدم للقرض والمنحة",
+      "linkSamordna": "samordnaopptak.no",
+      "linkSamordnaDesc": "تقدم للتعليم العالي",
+      "linkPhone": "هاتف Lånekassen:",
+      "linkPhoneHours": "55 55 44 00 (أيام العمل 09-15)"
     },
     "id": {
       "title": "الهوية والوثائق",
@@ -3178,7 +3216,14 @@
     "noResults": "لم يتم العثور على كلمات لـ",
     "tryAnother": "جرب بحثاً آخر",
     "missingWord": "كلمة مفقودة؟",
-    "missingWordText": "أرسل لنا بريداً إلكترونياً على kontakt@lettdigital.no إذا كانت هناك كلمة تريد شرحها، وسنضيفها!"
+    "missingWordText": "أرسل لنا بريداً إلكترونياً على kontakt@lettdigital.no إذا كانت هناك كلمة تريد شرحها، وسنضيفها!",
+    "terms": [
+      {"term": "BankID", "definition": "Digital identification used to log in to public services and banks.", "category": "Digital"},
+      {"term": "Dagpenger", "definition": "Money from NAV when you lose your job or are laid off.", "category": "NAV"},
+      {"term": "Skattemelding", "definition": "Annual overview of your income, deductions and taxes.", "category": "Skatt"},
+      {"term": "Fastlege", "definition": "Your regular doctor that you are assigned to in Norway.", "category": "Helse"},
+      {"term": "Meldekort", "definition": "Form you submit to NAV every 14 days to receive benefits.", "category": "NAV"}
+    ]
   },
   "faq": {
     "title": "الأسئلة الشائعة",
@@ -3192,7 +3237,14 @@
     },
     "noAnswer": "لم تجد إجابة لسؤالك؟",
     "contactAgencies": "يمكنك الاتصال بالوكالات مباشرة للحصول على المزيد من المساعدة:",
-    "weekdays": "أيام العمل"
+    "weekdays": "أيام العمل",
+    "items": [
+      {"question": "What do I do if I've lost my job?", "answer": "First, you need to register as a job seeker at nav.no. Then you can apply for unemployment benefits if you meet the requirements.", "category": "NAV"},
+      {"question": "How long does it take to get a response to a NAV application?", "answer": "Processing time varies: Unemployment benefits usually take 3-4 weeks. Sick pay takes 2-4 weeks.", "category": "NAV"},
+      {"question": "When does the tax return arrive?", "answer": "The tax return usually becomes available in March. The deadline to check and submit changes is April 30th.", "category": "Skatt"},
+      {"question": "How do I change my GP?", "answer": "Log in to helsenorge.no, go to GP and select Change GP. You can change up to 2 times per year.", "category": "Helse"},
+      {"question": "I don't have BankID - what do I do?", "answer": "Contact your bank to get BankID. You can also use MinID for some services.", "category": "Digital"}
+    ]
   },
   "favorites": {
     "title": "مفضلتي",

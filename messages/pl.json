@@ -211,12 +211,50 @@
     "bolig": {
       "title": "Mieszkanie i dodatek mieszkaniowy",
       "shortDesc": "Dodatek mieszkaniowy i kredyt na start",
-      "description": "Złóż wniosek o dodatek mieszkaniowy, kredyt na start z Husbanken i mieszkanie komunalne."
+      "description": "Złóż wniosek o dodatek mieszkaniowy, kredyt na start z Husbanken i mieszkanie komunalne.",
+      "hubTitle": "Mieszkanie i dodatek mieszkaniowy",
+      "hubSubtitle": "Pomoc w uzyskaniu i utrzymaniu mieszkania",
+      "didYouKnow": "Czy wiesz?",
+      "didYouKnowText": "Husbanken i gmina mają kilka programów, które mogą pomóc ci uzyskać lub utrzymać mieszkanie.",
+      "selectGuide": "Wybierz, w czym potrzebujesz pomocy",
+      "whoCanGetHelpTitle": "Kto może uzyskać pomoc?",
+      "bostotteTitle": "Dodatek mieszkaniowy",
+      "bostotteDesc": "Dla osób z niskimi dochodami i wysokimi kosztami mieszkania.",
+      "startlanTitle": "Kredyt na start",
+      "startlanDesc": "Dla osób, które nie mogą uzyskać kredytu w zwykłym banku.",
+      "kommunalBoligTitle": "Mieszkanie komunalne",
+      "kommunalBoligDesc": "Dla osób, które nie mogą samodzielnie zdobyć mieszkania.",
+      "usefulLinksTitle": "Przydatne linki",
+      "linkHusbanken": "husbanken.no",
+      "linkHusbankenDesc": "Złóż wniosek o dodatek mieszkaniowy i kredyt na start",
+      "linkKommune": "Twoja gmina",
+      "linkKommuneDesc": "Złóż wniosek o mieszkanie komunalne",
+      "linkPhone": "Telefon do Husbanken:",
+      "linkPhoneHours": "33 35 70 00 (dni robocze 08-15:30)"
     },
     "utdanning": {
       "title": "Edukacja i Lånekassen",
       "shortDesc": "Kredyt studencki i stypendium",
-      "description": "Złóż wniosek o kredyt studencki, stypendium i zarządzaj spłatą w Lånekassen."
+      "description": "Złóż wniosek o kredyt studencki, stypendium i zarządzaj spłatą w Lånekassen.",
+      "hubTitle": "Edukacja i Lånekassen",
+      "hubSubtitle": "Kredyt studencki, stypendium i spłata",
+      "didYouKnow": "Czy wiesz?",
+      "didYouKnowText": "Lånekassen oferuje pożyczki i stypendia dla studentów. Część pożyczki może zostać zamieniona na stypendium.",
+      "selectGuide": "Wybierz, w czym potrzebujesz pomocy",
+      "whoCanGetSupportTitle": "Kto może uzyskać wsparcie?",
+      "studielanInfoTitle": "Kredyt studencki",
+      "studielanInfoDesc": "Dla osób studiujących na zatwierdzonych kierunkach.",
+      "stipendInfoTitle": "Stypendium",
+      "stipendInfoDesc": "Część pożyczki może zostać zamieniona na stypendium po ukończeniu studiów.",
+      "utsettelsInfoTitle": "Odroczenie płatności",
+      "utsettelsInfoDesc": "Masz problemy z płatnością? Możesz złożyć wniosek o odroczenie.",
+      "usefulLinksTitle": "Przydatne linki",
+      "linkLanekassen": "lanekassen.no",
+      "linkLanekassenDesc": "Złóż wniosek o pożyczkę i stypendium",
+      "linkSamordna": "samordnaopptak.no",
+      "linkSamordnaDesc": "Złóż wniosek na studia wyższe",
+      "linkPhone": "Telefon do Lånekassen:",
+      "linkPhoneHours": "55 55 44 00 (dni robocze 09-15)"
     },
     "id": {
       "title": "Dokumenty tożsamości",
@@ -3178,7 +3216,14 @@
     "noResults": "Nie znaleziono słów dla",
     "tryAnother": "Spróbuj innego wyszukiwania",
     "missingWord": "Brakuje słowa?",
-    "missingWordText": "Wyślij nam e-mail na kontakt@lettdigital.no, jeśli jest słowo, które chciałbyś wyjaśnić, a my je dodamy!"
+    "missingWordText": "Wyślij nam e-mail na kontakt@lettdigital.no, jeśli jest słowo, które chciałbyś wyjaśnić, a my je dodamy!",
+    "terms": [
+      {"term": "BankID", "definition": "Digital identification used to log in to public services and banks.", "category": "Digital"},
+      {"term": "Dagpenger", "definition": "Money from NAV when you lose your job or are laid off.", "category": "NAV"},
+      {"term": "Skattemelding", "definition": "Annual overview of your income, deductions and taxes.", "category": "Skatt"},
+      {"term": "Fastlege", "definition": "Your regular doctor that you are assigned to in Norway.", "category": "Helse"},
+      {"term": "Meldekort", "definition": "Form you submit to NAV every 14 days to receive benefits.", "category": "NAV"}
+    ]
   },
   "faq": {
     "title": "Często zadawane pytania",
@@ -3192,7 +3237,14 @@
     },
     "noAnswer": "Nie znalazłeś odpowiedzi na swoje pytanie?",
     "contactAgencies": "Możesz skontaktować się bezpośrednio z urzędami, aby uzyskać więcej pomocy:",
-    "weekdays": "Dni robocze"
+    "weekdays": "Dni robocze",
+    "items": [
+      {"question": "What do I do if I've lost my job?", "answer": "First, you need to register as a job seeker at nav.no. Then you can apply for unemployment benefits if you meet the requirements.", "category": "NAV"},
+      {"question": "How long does it take to get a response to a NAV application?", "answer": "Processing time varies: Unemployment benefits usually take 3-4 weeks. Sick pay takes 2-4 weeks.", "category": "NAV"},
+      {"question": "When does the tax return arrive?", "answer": "The tax return usually becomes available in March. The deadline to check and submit changes is April 30th.", "category": "Skatt"},
+      {"question": "How do I change my GP?", "answer": "Log in to helsenorge.no, go to GP and select Change GP. You can change up to 2 times per year.", "category": "Helse"},
+      {"question": "I don't have BankID - what do I do?", "answer": "Contact your bank to get BankID. You can also use MinID for some services.", "category": "Digital"}
+    ]
   },
   "favorites": {
     "title": "Moje ulubione",

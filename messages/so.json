@@ -211,12 +211,50 @@
     "bolig": {
       "title": "Guri iyo taageerada guryaha",
       "shortDesc": "Taageerada kireynta iyo amaahda bilawga",
-      "description": "Codso taageerada kireynta, amaahda bilawga ee Husbanken iyo guriga degmada."
+      "description": "Codso taageerada kireynta, amaahda bilawga ee Husbanken iyo guriga degmada.",
+      "hubTitle": "Guri iyo taageerada guryaha",
+      "hubSubtitle": "Caawimo aad ku hesho oo aad ku hayso guri",
+      "didYouKnow": "Ma ogtahay?",
+      "didYouKnowText": "Husbanken iyo degmada waxay leeyihiin barnaamijyo kala duwan oo kaa caawin kara inaad hesho ama aad hayso guri.",
+      "selectGuide": "Dooro waxa aad u baahan tahay caawimo",
+      "whoCanGetHelpTitle": "Yaa heli kara caawimo?",
+      "bostotteTitle": "Taageerada kireynta",
+      "bostotteDesc": "Qofka dakhligiisu yar yahay iyo kharashaadka gurigiisuna sarreeyo.",
+      "startlanTitle": "Amaahda bilawga",
+      "startlanDesc": "Qofka aan ka heli karin amah bangiga caadiga ah.",
+      "kommunalBoligTitle": "Guriga degmada",
+      "kommunalBoligDesc": "Qofka aan awoodi karin inuu keligii helo guri.",
+      "usefulLinksTitle": "Xidhiidhyada waxtar leh",
+      "linkHusbanken": "husbanken.no",
+      "linkHusbankenDesc": "Codso taageerada kireynta iyo amaahda bilawga",
+      "linkKommune": "Degmadaada",
+      "linkKommuneDesc": "Codso guriga degmada",
+      "linkPhone": "Telefoonka Husbanken:",
+      "linkPhoneHours": "33 35 70 00 (maalmaha shaqada 08-15:30)"
     },
     "utdanning": {
       "title": "Waxbarasho iyo Lånekassen",
       "shortDesc": "Amaahda waxbarasho iyo deeqda",
-      "description": "Codso amaahda waxbarasho, deeqda iyo maaree dib u bixinta Lånekassen."
+      "description": "Codso amaahda waxbarasho, deeqda iyo maaree dib u bixinta Lånekassen.",
+      "hubTitle": "Waxbarasho iyo Lånekassen",
+      "hubSubtitle": "Amaahda waxbarasho, deeqda iyo dib u bixinta",
+      "didYouKnow": "Ma ogtahay?",
+      "didYouKnowText": "Lånekassen wuxuu siiyaa amaahdii iyo deeqaha kuwa waxbarashada qaata. Qeyb ka mid ah amaahda waxaa loo beddeli karaa deeq.",
+      "selectGuide": "Dooro waxa aad u baahan tahay caawimo",
+      "whoCanGetSupportTitle": "Yaa heli kara taageero?",
+      "studielanInfoTitle": "Amaahda waxbarasho",
+      "studielanInfoDesc": "Qofka qaadanaya waxbarasho la aqbalay.",
+      "stipendInfoTitle": "Deeqda",
+      "stipendInfoDesc": "Qeyb ka mid ah amaahda waxaa loo beddeli karaa deeq haddii aad dhammeyso waxbarashadaada.",
+      "utsettelsInfoTitle": "Dib u dhigista bixinta",
+      "utsettelsInfoDesc": "Dhibaato ma ku haysaa bixinta? Waxaad codsan kartaa dib u dhigis.",
+      "usefulLinksTitle": "Xidhiidhyada waxtar leh",
+      "linkLanekassen": "lanekassen.no",
+      "linkLanekassenDesc": "Codso amaah iyo deeq",
+      "linkSamordna": "samordnaopptak.no",
+      "linkSamordnaDesc": "Codso waxbarasho sare",
+      "linkPhone": "Telefoonka Lånekassen:",
+      "linkPhoneHours": "55 55 44 00 (maalmaha shaqada 09-15)"
     },
     "id": {
       "title": "ID iyo dukumeentiyada",
@@ -3178,7 +3216,14 @@
     "noResults": "Erayo lama helin",
     "tryAnother": "Isku day raadin kale",
     "missingWord": "Ma maqan yahay eray?",
-    "missingWordText": "Noo soo dir iimaylka kontakt@lettdigital.no haddii ay jirto eray aad jeclaan lahayd in la sharaxo, waanan ku dari doonaa!"
+    "missingWordText": "Noo soo dir iimaylka kontakt@lettdigital.no haddii ay jirto eray aad jeclaan lahayd in la sharaxo, waanan ku dari doonaa!",
+    "terms": [
+      {"term": "BankID", "definition": "Digital identification used to log in to public services and banks.", "category": "Digital"},
+      {"term": "Dagpenger", "definition": "Money from NAV when you lose your job or are laid off.", "category": "NAV"},
+      {"term": "Skattemelding", "definition": "Annual overview of your income, deductions and taxes.", "category": "Skatt"},
+      {"term": "Fastlege", "definition": "Your regular doctor that you are assigned to in Norway.", "category": "Helse"},
+      {"term": "Meldekort", "definition": "Form you submit to NAV every 14 days to receive benefits.", "category": "NAV"}
+    ]
   },
   "faq": {
     "title": "Su'aalaha Badanaa La Isweydiiyo",
@@ -3192,7 +3237,14 @@
     },
     "noAnswer": "Ma helin jawaab su'aashaada?",
     "contactAgencies": "Waxaad si toos ah ula xiriiri kartaa hay'adaha si aad u hesho caawin dheeraad ah:",
-    "weekdays": "Maalmaha shaqada"
+    "weekdays": "Maalmaha shaqada",
+    "items": [
+      {"question": "What do I do if I've lost my job?", "answer": "First, you need to register as a job seeker at nav.no. Then you can apply for unemployment benefits if you meet the requirements.", "category": "NAV"},
+      {"question": "How long does it take to get a response to a NAV application?", "answer": "Processing time varies: Unemployment benefits usually take 3-4 weeks. Sick pay takes 2-4 weeks.", "category": "NAV"},
+      {"question": "When does the tax return arrive?", "answer": "The tax return usually becomes available in March. The deadline to check and submit changes is April 30th.", "category": "Skatt"},
+      {"question": "How do I change my GP?", "answer": "Log in to helsenorge.no, go to GP and select Change GP. You can change up to 2 times per year.", "category": "Helse"},
+      {"question": "I don't have BankID - what do I do?", "answer": "Contact your bank to get BankID. You can also use MinID for some services.", "category": "Digital"}
+    ]
   },
   "favorites": {
     "title": "Kuwa aan jeclaahay",

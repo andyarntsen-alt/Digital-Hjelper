@@ -211,12 +211,50 @@
     "bolig": {
       "title": "Житло та житлова підтримка",
       "shortDesc": "Житлова допомога та стартовий кредит",
-      "description": "Подати заявку на житлову допомогу, стартовий кредит від Husbanken та комунальне житло."
+      "description": "Подати заявку на житлову допомогу, стартовий кредит від Husbanken та комунальне житло.",
+      "hubTitle": "Житло та житлова підтримка",
+      "hubSubtitle": "Допомога в отриманні та збереженні житла",
+      "didYouKnow": "Чи знаєте ви?",
+      "didYouKnowText": "Husbanken та муніципалітет мають кілька програм, які можуть допомогти вам отримати або зберегти житло.",
+      "selectGuide": "Оберіть, в чому вам потрібна допомога",
+      "whoCanGetHelpTitle": "Хто може отримати допомогу?",
+      "bostotteTitle": "Житлова допомога",
+      "bostotteDesc": "Для тих, хто має низький дохід та високі витрати на житло.",
+      "startlanTitle": "Стартовий кредит",
+      "startlanDesc": "Для тих, хто не може отримати кредит у звичайному банку.",
+      "kommunalBoligTitle": "Комунальне житло",
+      "kommunalBoligDesc": "Для тих, хто не може самостійно знайти житло.",
+      "usefulLinksTitle": "Корисні посилання",
+      "linkHusbanken": "husbanken.no",
+      "linkHusbankenDesc": "Подати заявку на житлову допомогу та стартовий кредит",
+      "linkKommune": "Ваш муніципалітет",
+      "linkKommuneDesc": "Подати заявку на комунальне житло",
+      "linkPhone": "Телефон Husbanken:",
+      "linkPhoneHours": "33 35 70 00 (робочі дні 08-15:30)"
     },
     "utdanning": {
       "title": "Освіта та Державна освітня позикова каса",
       "shortDesc": "Студентський кредит та стипендія",
-      "description": "Подати заявку на студентський кредит, стипендію та керувати погашенням у Державній освітній позиковій касі."
+      "description": "Подати заявку на студентський кредит, стипендію та керувати погашенням у Державній освітній позиковій касі.",
+      "hubTitle": "Освіта та Lånekassen",
+      "hubSubtitle": "Студентський кредит, стипендія та погашення",
+      "didYouKnow": "Чи знаєте ви?",
+      "didYouKnowText": "Lånekassen надає позики та стипендії тим, хто навчається. Частина позики може бути перетворена на стипендію.",
+      "selectGuide": "Оберіть, в чому вам потрібна допомога",
+      "whoCanGetSupportTitle": "Хто може отримати підтримку?",
+      "studielanInfoTitle": "Студентський кредит",
+      "studielanInfoDesc": "Для тих, хто навчається на затвердженій програмі.",
+      "stipendInfoTitle": "Стипендія",
+      "stipendInfoDesc": "Частина позики може бути перетворена на стипендію після завершення навчання.",
+      "utsettelsInfoTitle": "Відстрочка платежу",
+      "utsettelsInfoDesc": "Маєте труднощі з оплатою? Ви можете подати заявку на відстрочку.",
+      "usefulLinksTitle": "Корисні посилання",
+      "linkLanekassen": "lanekassen.no",
+      "linkLanekassenDesc": "Подати заявку на позику та стипендію",
+      "linkSamordna": "samordnaopptak.no",
+      "linkSamordnaDesc": "Подати заявку на вищу освіту",
+      "linkPhone": "Телефон Lånekassen:",
+      "linkPhoneHours": "55 55 44 00 (робочі дні 09-15)"
     },
     "id": {
       "title": "ID та документи",
@@ -3178,7 +3216,14 @@
     "noResults": "Слів не знайдено для",
     "tryAnother": "Спробуйте інший пошук",
     "missingWord": "Бракує слова?",
-    "missingWordText": "Надішліть нам електронний лист на kontakt@lettdigital.no, якщо є слово, яке ви хотіли б пояснити, і ми його додамо!"
+    "missingWordText": "Надішліть нам електронний лист на kontakt@lettdigital.no, якщо є слово, яке ви хотіли б пояснити, і ми його додамо!",
+    "terms": [
+      {"term": "BankID", "definition": "Digital identification used to log in to public services and banks.", "category": "Digital"},
+      {"term": "Dagpenger", "definition": "Money from NAV when you lose your job or are laid off.", "category": "NAV"},
+      {"term": "Skattemelding", "definition": "Annual overview of your income, deductions and taxes.", "category": "Skatt"},
+      {"term": "Fastlege", "definition": "Your regular doctor that you are assigned to in Norway.", "category": "Helse"},
+      {"term": "Meldekort", "definition": "Form you submit to NAV every 14 days to receive benefits.", "category": "NAV"}
+    ]
   },
   "faq": {
     "title": "Часті питання",
@@ -3192,7 +3237,14 @@
     },
     "noAnswer": "Не знайшли відповідь на своє питання?",
     "contactAgencies": "Ви можете зв'язатися безпосередньо з установами для додаткової допомоги:",
-    "weekdays": "Будні"
+    "weekdays": "Будні",
+    "items": [
+      {"question": "What do I do if I've lost my job?", "answer": "First, you need to register as a job seeker at nav.no. Then you can apply for unemployment benefits if you meet the requirements.", "category": "NAV"},
+      {"question": "How long does it take to get a response to a NAV application?", "answer": "Processing time varies: Unemployment benefits usually take 3-4 weeks. Sick pay takes 2-4 weeks.", "category": "NAV"},
+      {"question": "When does the tax return arrive?", "answer": "The tax return usually becomes available in March. The deadline to check and submit changes is April 30th.", "category": "Skatt"},
+      {"question": "How do I change my GP?", "answer": "Log in to helsenorge.no, go to GP and select Change GP. You can change up to 2 times per year.", "category": "Helse"},
+      {"question": "I don't have BankID - what do I do?", "answer": "Contact your bank to get BankID. You can also use MinID for some services.", "category": "Digital"}
+    ]
   },
   "favorites": {
     "title": "Моє обране",
