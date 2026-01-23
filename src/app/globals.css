@@ -16,15 +16,26 @@
 
 html {
   font-size: var(--font-size-base);
-  /* Sikrer at sticky fungerer på iOS */
+  /* Sikrer at sticky fungerer på iOS og forhindrer gap på høyre side */
   height: 100%;
+  width: 100%;
   overflow-x: hidden;
 }
 
 body {
   min-height: 100%;
-  /* Forhindrer horisontal scroll på mobil */
+  width: 100%;
+  max-width: 100vw;
+  /* Forhindrer horisontal scroll og gap på mobil */
   overflow-x: hidden;
+  position: relative;
+}
+
+/* Forhindrer at noe element går utenfor viewport */
+*,
+*::before,
+*::after {
+  max-width: 100%;
 }
 
 html.large-text {
