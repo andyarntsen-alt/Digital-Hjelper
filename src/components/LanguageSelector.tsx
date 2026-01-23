@@ -54,7 +54,7 @@ export default function LanguageSelector() {
 
       {isOpen && (
         <div
-          className="absolute right-0 mt-2 w-56 bg-white rounded-xl shadow-lg border border-gray-200 py-2 z-50"
+          className="absolute right-0 mt-2 w-56 max-w-[calc(100vw-2rem)] bg-white rounded-xl shadow-lg border border-gray-200 py-2 z-50"
           role="listbox"
           aria-label="Tilgjengelige språk"
         >
@@ -71,7 +71,7 @@ export default function LanguageSelector() {
                   isCurrentLocale
                     ? 'bg-blue-50 text-nav-blue font-medium'
                     : isActive
-                      ? 'text-gray-700 hover:bg-gray-50'
+                      ? 'text-gray-700 hover:bg-gray-50 active:bg-gray-100'
                       : 'text-gray-400 cursor-not-allowed'
                 }`}
                 role="option"

@@ -7,6 +7,11 @@
   --font-size-lg: 1.5rem;
   --font-size-xl: 2rem;
   --font-size-xxl: 2.5rem;
+  /* Safe area insets for iPhone notch/home indicator */
+  --safe-area-inset-top: env(safe-area-inset-top, 0px);
+  --safe-area-inset-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-area-inset-left: env(safe-area-inset-left, 0px);
+  --safe-area-inset-right: env(safe-area-inset-right, 0px);
 }
 
 html {
@@ -158,19 +163,19 @@ html.high-contrast .skip-link {
 
 @layer components {
   .btn-primary {
-    @apply bg-nav-blue text-white px-8 py-4 rounded-lg text-lg font-semibold
-           hover:bg-nav-dark transition-colors duration-200
+    @apply bg-nav-blue text-white px-5 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold
+           hover:bg-nav-dark active:bg-nav-dark transition-colors duration-200
            focus:outline-none focus:ring-4 focus:ring-yellow-400;
   }
 
   .btn-secondary {
-    @apply bg-white text-nav-blue border-2 border-nav-blue px-8 py-4 rounded-lg text-lg font-semibold
-           hover:bg-blue-50 transition-colors duration-200
+    @apply bg-white text-nav-blue border-2 border-nav-blue px-5 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold
+           hover:bg-blue-50 active:bg-blue-100 transition-colors duration-200
            focus:outline-none focus:ring-4 focus:ring-yellow-400;
   }
 
   .card {
-    @apply bg-white rounded-xl shadow-lg p-6 md:p-8 border border-gray-200;
+    @apply bg-white rounded-lg sm:rounded-xl shadow-lg p-4 sm:p-6 md:p-8 border border-gray-200;
   }
 
   .service-card {
@@ -178,15 +183,15 @@ html.high-contrast .skip-link {
   }
 
   .step-card {
-    @apply bg-blue-50 rounded-xl p-6 border-l-4 border-nav-blue;
+    @apply bg-blue-50 rounded-lg sm:rounded-xl p-4 sm:p-6 border-l-4 border-nav-blue;
   }
 
   .warning-box {
-    @apply bg-yellow-50 border-l-4 border-yellow-500 p-4 rounded-r-lg;
+    @apply bg-yellow-50 border-l-4 border-yellow-500 p-3 sm:p-4 rounded-r-lg;
   }
 
   .tip-box {
-    @apply bg-green-50 border-l-4 border-green-500 p-4 rounded-r-lg;
+    @apply bg-green-50 border-l-4 border-green-500 p-3 sm:p-4 rounded-r-lg;
   }
 }
 
@@ -205,6 +210,69 @@ input[type="radio"],
 select {
   min-height: 44px;
   min-width: 44px;
+}
+
+/* Safe area utility classes for iPhone notch/home indicator */
+.safe-area-top {
+  padding-top: var(--safe-area-inset-top);
+}
+
+.safe-area-bottom {
+  padding-bottom: var(--safe-area-inset-bottom);
+}
+
+.safe-area-left {
+  padding-left: var(--safe-area-inset-left);
+}
+
+.safe-area-right {
+  padding-right: var(--safe-area-inset-right);
+}
+
+/* Forbedret touch-feedback for mobil */
+@media (hover: none) and (pointer: coarse) {
+  /* Fjern hover-effekter på touch-enheter for bedre ytelse */
+  .hover\:bg-gray-100:active,
+  .hover\:bg-gray-50:active {
+    background-color: rgb(243 244 246);
+  }
+
+  /* Legg til aktiv state for touch */
+  button:active,
+  a:active,
+  [role="button"]:active {
+    transform: scale(0.98);
+  }
+}
+
+/* Forbedret scroll-oppførsel */
+.overscroll-contain {
+  overscroll-behavior: contain;
+}
+
+/* Forhindre tekstseleksjon ved dobbelt-trykk på mobil */
+@media (hover: none) and (pointer: coarse) {
+  button,
+  [role="button"],
+  nav a {
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* Sørg for at inputs ikke zoomer på iOS */
+@media screen and (max-width: 768px) {
+  input[type="text"],
+  input[type="email"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="url"],
+  input[type="password"],
+  textarea,
+  select {
+    font-size: 16px !important;
+  }
 }
 
 /* Respekter brukernes motion-preferanser */

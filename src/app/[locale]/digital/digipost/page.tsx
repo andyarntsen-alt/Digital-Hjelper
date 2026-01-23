@@ -36,7 +36,7 @@ export default function DigipostPage() {
         locale={locale}
       />
 
-      <div className="max-w-4xl mx-auto px-4 py-12">
+      <div className="max-w-4xl mx-auto px-4 py-6 sm:py-8 md:py-12">
       <Link href="/digital" className="text-green-600 hover:underline mb-6 inline-flex items-center gap-2">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -53,7 +53,7 @@ export default function DigipostPage() {
           <span className="mx-2">•</span>
           <span className="bg-green-100 text-green-700 px-2 py-0.5 rounded-full text-sm">{t('difficulty')}</span>
         </div>
-        <h1 className="text-4xl font-bold text-gray-800 mb-4">{t('title')}</h1>
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-4">{t('title')}</h1>
         <p className="text-xl text-gray-600">{t('longDescription')}</p>
       </div>
 

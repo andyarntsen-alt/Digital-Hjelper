@@ -90,28 +90,28 @@ export default function RelatedGuides({ currentPath, category }: RelatedGuidesPr
   if (relatedGuides.length === 0) return null;
 
   return (
-    <div className="mt-12 pt-8 border-t border-gray-200">
-      <h2 className="text-2xl font-bold text-gray-900 mb-6">
+    <div className="mt-8 sm:mt-12 pt-6 sm:pt-8 border-t border-gray-200">
+      <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">
         Andre guider du kanskje trenger
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
         {relatedGuides.map((guide) => (
           <Link
             key={guide.href}
             href={`/${locale}${guide.href}`}
-            className="group bg-white border-2 border-gray-200 rounded-lg p-4 hover:border-nav-blue hover:shadow-md transition-all duration-200 no-underline"
+            className="group bg-white border-2 border-gray-200 rounded-lg p-3 sm:p-4 hover:border-nav-blue active:border-nav-blue hover:shadow-md transition-all duration-200 no-underline"
           >
-            <div className="flex items-center justify-between">
-              <div>
-                <h3 className="text-lg font-semibold text-gray-900 group-hover:text-nav-blue">
+            <div className="flex items-center justify-between gap-2">
+              <div className="min-w-0">
+                <h3 className="text-base sm:text-lg font-semibold text-gray-900 group-hover:text-nav-blue">
                   {guide.title}
                 </h3>
                 {guide.description && (
-                  <p className="text-gray-600 mt-1">{guide.description}</p>
+                  <p className="text-gray-600 mt-1 text-sm sm:text-base">{guide.description}</p>
                 )}
               </div>
               <svg
-                className="w-6 h-6 text-gray-400 group-hover:text-nav-blue group-hover:translate-x-1 transition-transform"
+                className="w-5 h-5 sm:w-6 sm:h-6 text-gray-400 group-hover:text-nav-blue group-hover:translate-x-1 transition-transform flex-shrink-0"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"

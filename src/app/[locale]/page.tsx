@@ -16,25 +16,25 @@ export default async function Home({
   return (
     <div>
       {/* Hero-seksjon */}
-      <section className="bg-gradient-to-br from-nav-blue to-blue-700 text-white py-16 md:py-24">
+      <section className="bg-gradient-to-br from-nav-blue to-blue-700 text-white py-12 sm:py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 leading-tight">
             {t('heroTitle')}<br />{t('heroTitleBreak')}
           </h1>
-          <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-lg sm:text-xl md:text-2xl mb-6 sm:mb-8 text-blue-100 max-w-3xl mx-auto leading-relaxed">
             {t('heroSubtitle')}
           </p>
 
           {/* Søkefelt */}
-          <div className="max-w-2xl mx-auto mb-8">
+          <div className="max-w-2xl mx-auto mb-6 sm:mb-8 px-2 sm:px-0">
             <SearchBox />
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="#tjenester" className="btn-primary bg-white text-nav-blue hover:bg-gray-100 no-underline">
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-2 sm:px-0">
+            <Link href="#tjenester" className="btn-primary bg-white text-nav-blue hover:bg-gray-100 active:bg-gray-200 no-underline text-center">
               {t('seeGuides')}
             </Link>
-            <Link href="/ordbok" className="btn-secondary border-2 border-white bg-white text-nav-blue hover:bg-blue-50 no-underline">
+            <Link href="/ordbok" className="btn-secondary border-2 border-white bg-white text-nav-blue hover:bg-blue-50 active:bg-blue-100 no-underline text-center">
               {t('dictionary')}
             </Link>
           </div>
@@ -84,13 +84,13 @@ export default async function Home({
       </section>
 
       {/* Tjenester */}
-      <section id="tjenester" className="py-16 bg-white">
+      <section id="tjenester" className="py-12 sm:py-16 bg-white">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-4">{t('chooseService')}</h2>
-          <p className="text-xl text-gray-600 text-center mb-12 max-w-2xl mx-auto">
+          <h2 className="text-2xl sm:text-3xl font-bold text-center mb-3 sm:mb-4">{t('chooseService')}</h2>
+          <p className="text-lg sm:text-xl text-gray-600 text-center mb-8 sm:mb-12 max-w-2xl mx-auto">
             {t('chooseServiceDesc')}
           </p>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
             <ServiceCard
               title={tServices('nav.title')}
               description={tServices('nav.description')}

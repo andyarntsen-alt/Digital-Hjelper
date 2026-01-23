@@ -131,13 +131,13 @@ export default function AccessibilityToolbar() {
   // Don't render until mounted to avoid hydration mismatch
   if (!mounted) {
     return (
-      <div className="fixed bottom-4 right-4 z-50">
+      <div className="fixed bottom-4 right-4 z-50 safe-area-bottom safe-area-right">
         <button
-          className="bg-nav-blue text-white p-4 rounded-full shadow-lg"
+          className="bg-nav-blue text-white p-3 sm:p-4 rounded-full shadow-lg"
           aria-label={t('title')}
           disabled
         >
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 sm:h-8 sm:w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
           </svg>
         </button>
@@ -146,20 +146,20 @@ export default function AccessibilityToolbar() {
   }
 
   return (
-    <div className="fixed bottom-4 right-4 z-50">
+    <div className="fixed bottom-4 right-4 z-50 safe-area-bottom safe-area-right">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="bg-nav-blue text-white p-4 rounded-full shadow-lg hover:bg-nav-dark transition-colors"
+        className="bg-nav-blue text-white p-3 sm:p-4 rounded-full shadow-lg hover:bg-nav-dark active:bg-nav-dark transition-colors"
         aria-label={t('title')}
         aria-expanded={isOpen}
       >
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 sm:h-8 sm:w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
         </svg>
       </button>
 
       {isOpen && (
-        <div className="absolute bottom-20 right-0 bg-white rounded-xl shadow-2xl p-6 w-80 border-2 border-gray-200">
+        <div className="absolute bottom-16 sm:bottom-20 right-0 bg-white rounded-xl shadow-2xl p-4 sm:p-6 w-[calc(100vw-2rem)] sm:w-80 max-w-80 border-2 border-gray-200">
           <h3 className="text-xl font-bold mb-4">{t('title')}</h3>
 
           <div className="mb-6">

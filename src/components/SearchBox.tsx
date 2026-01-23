@@ -219,7 +219,7 @@ export default function SearchBox() {
         <div
           ref={resultsRef}
           id="search-results"
-          className="absolute top-full left-0 right-0 mt-2 bg-white rounded-xl shadow-2xl border border-gray-200 max-h-96 overflow-y-auto z-50"
+          className="absolute top-full left-0 right-0 mt-2 bg-white rounded-xl shadow-2xl border border-gray-200 max-h-[50vh] sm:max-h-80 md:max-h-96 overflow-y-auto z-50 overscroll-contain"
           role="listbox"
           aria-label="Søkeresultater"
         >
@@ -227,7 +227,7 @@ export default function SearchBox() {
             <button
               key={result.href}
               onClick={() => handleSelect(result.href)}
-              className={`w-full text-left p-4 hover:bg-gray-50 flex items-start gap-4 border-b border-gray-100 last:border-b-0 ${
+              className={`w-full text-left p-4 hover:bg-gray-50 active:bg-gray-100 flex items-start gap-3 sm:gap-4 border-b border-gray-100 last:border-b-0 transition-colors ${
                 selectedIndex === index ? 'bg-blue-50' : ''
               }`}
               role="option"

@@ -37,7 +37,7 @@ export default function VippsPage() {
         locale={locale}
       />
 
-      <div className="max-w-4xl mx-auto px-4 py-12">
+      <div className="max-w-4xl mx-auto px-4 py-6 sm:py-8 md:py-12">
       <Breadcrumbs
         items={[
           { label: tNav('bank'), href: '/bank' },
@@ -55,7 +55,7 @@ export default function VippsPage() {
           <span className="bg-green-100 text-green-700 px-2 py-0.5 rounded-full text-sm">{t('difficulty')}</span>
         </div>
         <div className="flex flex-wrap items-start justify-between gap-4">
-          <h1 className="text-4xl font-bold text-gray-800">{t('title')}</h1>
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800">{t('title')}</h1>
           <PrintButton />
         </div>
         <p className="text-xl text-gray-600">{t('longDescription')}</p>

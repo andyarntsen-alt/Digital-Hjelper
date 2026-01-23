@@ -7,8 +7,8 @@ export default function Footer() {
   const t = useTranslations('footer');
   const tHeader = useTranslations('header');
   return (
-    <footer className="bg-gray-800 text-white mt-16">
-      <div className="max-w-6xl mx-auto px-4 py-12">
+    <footer className="bg-gray-800 text-white mt-16 safe-area-bottom">
+      <div className="max-w-6xl mx-auto px-4 py-8 sm:py-12">
         <div className="grid md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-xl font-bold mb-4">{t('about')}</h3>
@@ -19,19 +19,19 @@ export default function Footer() {
 
           <div>
             <h3 className="text-xl font-bold mb-4">{t('quickLinks')}</h3>
-            <ul className="space-y-3">
+            <ul className="space-y-2 sm:space-y-3">
               <li>
-                <Link href="/nav" className="text-gray-300 hover:text-white no-underline">
+                <Link href="/nav" className="text-gray-300 hover:text-white active:text-white no-underline inline-block py-1">
                   {tHeader('nav')}
                 </Link>
               </li>
               <li>
-                <Link href="/skatt" className="text-gray-300 hover:text-white no-underline">
+                <Link href="/skatt" className="text-gray-300 hover:text-white active:text-white no-underline inline-block py-1">
                   {tHeader('skatt')}
                 </Link>
               </li>
               <li>
-                <Link href="/helse" className="text-gray-300 hover:text-white no-underline">
+                <Link href="/helse" className="text-gray-300 hover:text-white active:text-white no-underline inline-block py-1">
                   {tHeader('helse')}
                 </Link>
               </li>

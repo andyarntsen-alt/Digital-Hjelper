@@ -38,7 +38,7 @@ export default function PassordHjelpPage() {
         locale={locale}
       />
 
-      <div className="max-w-4xl mx-auto px-4 py-12">
+      <div className="max-w-4xl mx-auto px-4 py-6 sm:py-8 md:py-12">
       <Breadcrumbs
         items={[
           { label: tNav('grunnleggende'), href: '/grunnleggende' },
@@ -56,13 +56,13 @@ export default function PassordHjelpPage() {
           <span className="bg-green-100 text-green-700 px-2 py-0.5 rounded-full text-sm">{t('difficulty')}</span>
         </div>
         <div className="flex flex-wrap items-start justify-between gap-4">
-          <h1 className="text-4xl font-bold text-gray-800">{t('title')}</h1>
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800">{t('title')}</h1>
           <div className="flex items-center gap-2">
             <PrintButton />
             <FavoriteButton guideId="grunnleggende-passord" title={t('title')} />
           </div>
         </div>
-        <p className="text-xl text-gray-600 mt-4">{t('longDescription')}</p>
+        <p className="text-base sm:text-lg md:text-xl text-gray-600 mt-3 sm:mt-4">{t('longDescription')}</p>
       </div>
 
       {/* Hvorfor viktig */}

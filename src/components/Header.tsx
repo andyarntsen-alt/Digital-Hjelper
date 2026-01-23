@@ -88,7 +88,7 @@ export default function Header() {
                   {/* Usynlig bro for å koble knappen til dropdown */}
                   <div className="absolute top-full left-0 w-full h-2" />
                   <div
-                    className="absolute top-full left-0 mt-2 bg-white rounded-lg shadow-lg border border-gray-200 py-2 min-w-[180px] z-50"
+                    className="absolute top-full left-0 mt-2 bg-white rounded-lg shadow-lg border border-gray-200 py-2 min-w-[180px] max-w-[calc(100vw-2rem)] z-50"
                     role="menu"
                     onKeyDown={(e) => {
                       if (e.key === 'Escape') {
@@ -160,75 +160,75 @@ export default function Header() {
 
         {/* Mobil meny */}
         {menuOpen && (
-          <nav className="md:hidden py-4 border-t border-gray-200">
-            <div className="flex flex-col gap-4">
+          <nav className="md:hidden py-4 border-t border-gray-200 max-h-[70vh] overflow-y-auto">
+            <div className="flex flex-col gap-2">
               <Link
                 href="/nav"
-                className="text-xl py-3 px-4 rounded-lg hover:bg-gray-100 text-gray-700 no-underline"
+                className="text-xl py-4 px-4 rounded-lg hover:bg-gray-100 active:bg-gray-200 text-gray-700 no-underline transition-colors"
                 onClick={() => setMenuOpen(false)}
               >
                 {t('nav')}
               </Link>
               <Link
                 href="/skatt"
-                className="text-xl py-3 px-4 rounded-lg hover:bg-gray-100 text-gray-700 no-underline"
+                className="text-xl py-4 px-4 rounded-lg hover:bg-gray-100 active:bg-gray-200 text-gray-700 no-underline transition-colors"
                 onClick={() => setMenuOpen(false)}
               >
                 {t('skatt')}
               </Link>
               <Link
                 href="/helse"
-                className="text-xl py-3 px-4 rounded-lg hover:bg-gray-100 text-gray-700 no-underline"
+                className="text-xl py-4 px-4 rounded-lg hover:bg-gray-100 active:bg-gray-200 text-gray-700 no-underline transition-colors"
                 onClick={() => setMenuOpen(false)}
               >
                 {t('helse')}
               </Link>
               <Link
                 href="/sikkerhet"
-                className="text-xl py-3 px-4 rounded-lg hover:bg-gray-100 text-gray-700 no-underline"
+                className="text-xl py-4 px-4 rounded-lg hover:bg-gray-100 active:bg-gray-200 text-gray-700 no-underline transition-colors"
                 onClick={() => setMenuOpen(false)}
               >
                 {t('sikkerhet')}
               </Link>
               <Link
                 href="/bank"
-                className="text-xl py-3 px-4 rounded-lg hover:bg-gray-100 text-gray-700 no-underline"
+                className="text-xl py-4 px-4 rounded-lg hover:bg-gray-100 active:bg-gray-200 text-gray-700 no-underline transition-colors"
                 onClick={() => setMenuOpen(false)}
               >
                 {t('bank')}
               </Link>
               <Link
                 href="/digital"
-                className="text-xl py-3 px-4 rounded-lg hover:bg-gray-100 text-gray-700 no-underline"
+                className="text-xl py-4 px-4 rounded-lg hover:bg-gray-100 active:bg-gray-200 text-gray-700 no-underline transition-colors"
                 onClick={() => setMenuOpen(false)}
               >
                 {t('digital')}
               </Link>
               <Link
                 href="/om"
-                className="text-xl py-3 px-4 rounded-lg hover:bg-gray-100 text-gray-700 no-underline"
+                className="text-xl py-4 px-4 rounded-lg hover:bg-gray-100 active:bg-gray-200 text-gray-700 no-underline transition-colors"
                 onClick={() => setMenuOpen(false)}
               >
                 {t('about')}
               </Link>
-              <hr className="border-gray-200" />
+              <hr className="border-gray-200 my-2" />
               <Link
                 href="/ordbok"
-                className="text-lg py-3 px-4 rounded-lg hover:bg-gray-100 text-gray-600 no-underline"
+                className="text-lg py-4 px-4 rounded-lg hover:bg-gray-100 active:bg-gray-200 text-gray-600 no-underline transition-colors"
                 onClick={() => setMenuOpen(false)}
               >
                 {t('ordbok')}
               </Link>
               <Link
                 href="/faq"
-                className="text-lg py-3 px-4 rounded-lg hover:bg-gray-100 text-gray-600 no-underline"
+                className="text-lg py-4 px-4 rounded-lg hover:bg-gray-100 active:bg-gray-200 text-gray-600 no-underline transition-colors"
                 onClick={() => setMenuOpen(false)}
               >
                 {t('faq')}
               </Link>
               <Link
                 href="/favoritter"
-                className="text-lg py-3 px-4 rounded-lg hover:bg-gray-100 text-gray-600 no-underline"
+                className="text-lg py-4 px-4 rounded-lg hover:bg-gray-100 active:bg-gray-200 text-gray-600 no-underline transition-colors"
                 onClick={() => setMenuOpen(false)}
               >
                 {tCommon('favorites')}
