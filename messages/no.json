@@ -196,32 +196,152 @@
     "sikkerhet": {
       "title": "Digital sikkerhet",
       "shortDesc": "Beskytt deg på nett",
-      "description": "Lær å beskytte deg mot svindel, phishing og andre digitale trusler."
+      "description": "Lær å beskytte deg mot svindel, phishing og andre digitale trusler.",
+      "hubTitle": "Digital sikkerhet",
+      "hubSubtitle": "Beskytt deg mot svindel og trusler på nett",
+      "didYouKnow": "Visste du?",
+      "didYouKnowText": "Hver dag blir nordmenn svindlet for millioner av kroner på nett. De fleste svindelforsøk er lette å avsløre hvis du vet hva du skal se etter.",
+      "selectGuide": "Velg hva du vil lære om",
+      "warningSignsTitle": "Viktige varseltegn på svindel",
+      "warningSigns": {
+        "personalInfo": "De ber om personlig informasjon (passord, BankID, personnummer)",
+        "urgent": "Det haster veldig og du må handle NÅ",
+        "prize": "Du har \"vunnet\" noe du ikke har deltatt i",
+        "tooGood": "Tilbud som virker for godt til å være sant",
+        "spelling": "Skrivefeil og dårlig norsk i meldinger",
+        "strangeLinks": "Lenker som ser merkelige ut"
+      },
+      "beenScammedTitle": "Har du blitt svindlet?",
+      "beenScammedText": "Hvis du tror du har blitt utsatt for svindel, gjør dette med en gang:",
+      "beenScammedSteps": {
+        "bank": "Ring banken din og sperre kort/konto",
+        "police": "Anmeld til politiet på politiet.no",
+        "password": "Endre passord på alle viktige kontoer",
+        "idTheft": "Kontakt ID-tyveri hjelpen på 21 05 32 00"
+      }
     },
     "bank": {
       "title": "Bank og økonomi",
       "shortDesc": "Nettbank og betaling",
-      "description": "Bruke nettbank, betale regninger og få hjelp med personlig økonomi."
+      "description": "Bruke nettbank, betale regninger og få hjelp med personlig økonomi.",
+      "hubTitle": "Bank og økonomi",
+      "hubSubtitle": "Lær å bruke nettbank og digitale betalingsløsninger",
+      "didYouKnow": "Visste du?",
+      "didYouKnowText": "Over 90% av nordmenn bruker nettbank. Det er trygt og enkelt når du vet hvordan!",
+      "selectGuide": "Velg hva du trenger hjelp med",
+      "securityTipsTitle": "Tips for trygg nettbankbruk",
+      "securityTip1": "Logg alltid ut av nettbanken når du er ferdig",
+      "securityTip2": "Bruk aldri nettbank på offentlig WiFi (kafé, flyplass)",
+      "securityTip3": "Del aldri BankID-koder med noen - heller ikke banken!",
+      "securityTip4": "Sjekk kontoutskriften jevnlig for mistenkelige transaksjoner",
+      "needHelpTitle": "Trenger du hjelp?",
+      "needHelpText": "De fleste banker tilbyr hjelp for de som synes nettbank er vanskelig:",
+      "helpPhone": "Ring kundeservice",
+      "helpPhoneDesc": "de fleste banker har seniortelefon",
+      "helpVisit": "Besøk banken",
+      "helpVisitDesc": "få hjelp ansikt til ansikt",
+      "helpVideo": "Videohjelp",
+      "helpVideoDesc": "noen banker tilbyr videoveiledning"
     },
     "digital": {
       "title": "Digitale verktøy",
       "shortDesc": "E-post og Digipost",
-      "description": "Sette opp e-post, bruke digital postkasse og andre digitale verktøy."
+      "description": "Sette opp e-post, bruke digital postkasse og andre digitale verktøy.",
+      "hubTitle": "Digitale verktøy",
+      "hubSubtitle": "Lær å bruke e-post, digital postkasse og offentlige tjenester",
+      "didYouKnow": "Visste du?",
+      "didYouKnowText": "Med digital postkasse får du viktige brev fra det offentlige raskere og sikrere enn med vanlig post.",
+      "selectGuide": "Velg hva du vil lære",
+      "importantServicesTitle": "Viktige digitale tjenester i Norge",
+      "serviceDigipost": "Digipost / e-Boks",
+      "serviceDigipostDesc": "Digital postkasse for brev fra banker, forsikring og det offentlige",
+      "serviceAltinn": "Altinn",
+      "serviceAltinnDesc": "Send skjemaer og meldinger til det offentlige",
+      "serviceIdPorten": "ID-porten",
+      "serviceIdPortenDesc": "Felles innlogging for alle offentlige nettsider",
+      "serviceBankId": "MinID / BankID",
+      "serviceBankIdDesc": "Digital identitet for å logge inn trygt",
+      "needHelpTitle": "Trenger du hjelp med det digitale?",
+      "needHelpText": "Det finnes mange steder du kan få gratis hjelp:",
+      "helpLibrary": "Biblioteket",
+      "helpLibraryDesc": "mange har kurs og drop-in hjelp",
+      "helpSeniornett": "Seniornett",
+      "helpSeniornettDesc": "frivillige som hjelper eldre med data",
+      "helpNAV": "NAV-kontoret",
+      "helpNAVDesc": "hjelper med offentlige digitale tjenester",
+      "helpFamily": "Familie og venner",
+      "helpFamilyDesc": "spør noen du kjenner om hjelp"
     },
     "bolig": {
       "title": "Bolig og boligstøtte",
       "shortDesc": "Bostøtte og startlån",
-      "description": "Søke bostøtte, startlån fra Husbanken og kommunal bolig."
+      "description": "Søke bostøtte, startlån fra Husbanken og kommunal bolig.",
+      "hubTitle": "Bolig og boligstøtte",
+      "hubSubtitle": "Hjelp til å skaffe og beholde bolig",
+      "didYouKnow": "Visste du?",
+      "didYouKnowText": "Husbanken og kommunen har flere ordninger som kan hjelpe deg med å skaffe eller beholde bolig. Bostøtte, startlån og kommunale boliger er tilgjengelig for de som trenger det.",
+      "selectGuide": "Velg hva du trenger hjelp med",
+      "whoCanGetHelpTitle": "Hvem kan få hjelp?",
+      "bostotteTitle": "Bostøtte",
+      "bostotteDesc": "For deg med lav inntekt og høye boutgifter. Både leietakere og boligeiere kan søke.",
+      "startlanTitle": "Startlån",
+      "startlanDesc": "For deg som ikke får lån i vanlig bank, men har evne til å betjene et lån over tid.",
+      "kommunalBoligTitle": "Kommunal bolig",
+      "kommunalBoligDesc": "For deg som ikke klarer å skaffe bolig selv på grunn av helse, økonomi eller andre forhold.",
+      "usefulLinksTitle": "Nyttige lenker",
+      "linkHusbanken": "husbanken.no",
+      "linkHusbankenDesc": "Søk bostøtte og startlån",
+      "linkKommune": "Din kommune",
+      "linkKommuneDesc": "Søk kommunal bolig på kommunens nettside",
+      "linkPhone": "Husbanken telefon:",
+      "linkPhoneHours": "33 35 70 00 (hverdager 08-15:30)"
     },
     "utdanning": {
       "title": "Utdanning og Lånekassen",
       "shortDesc": "Studielån og stipend",
-      "description": "Søke studielån, stipend og håndtere tilbakebetaling hos Lånekassen."
+      "description": "Søke studielån, stipend og håndtere tilbakebetaling hos Lånekassen.",
+      "hubTitle": "Utdanning og Lånekassen",
+      "hubSubtitle": "Studielån, stipend og tilbakebetaling",
+      "didYouKnow": "Visste du?",
+      "didYouKnowText": "Lånekassen gir lån og stipend til de som tar utdanning. Deler av lånet kan bli omgjort til stipend hvis du fullfører utdanningen og ikke tjener for mye.",
+      "selectGuide": "Velg hva du trenger hjelp med",
+      "whoCanGetSupportTitle": "Hvem kan få støtte?",
+      "studielanInfoTitle": "Studielån",
+      "studielanInfoDesc": "For deg som tar godkjent utdanning. Du må være registrert student og ha gyldig studierett.",
+      "stipendInfoTitle": "Stipend",
+      "stipendInfoDesc": "Deler av lånet kan bli stipend hvis du fullfører utdanningen og ikke tjener over inntektsgrensen.",
+      "utsettelsInfoTitle": "Betalingsutsettelse",
+      "utsettelsInfoDesc": "Har du problemer med å betale? Du kan søke om utsettelse eller rentefritak.",
+      "usefulLinksTitle": "Nyttige lenker",
+      "linkLanekassen": "lanekassen.no",
+      "linkLanekassenDesc": "Søk lån og stipend, sjekk saldo",
+      "linkSamordna": "samordnaopptak.no",
+      "linkSamordnaDesc": "Søk opptak til høyere utdanning",
+      "linkPhone": "Lånekassen telefon:",
+      "linkPhoneHours": "55 55 44 00 (hverdager 09-15)"
     },
     "id": {
       "title": "ID og dokumenter",
       "shortDesc": "Pass og førerkort",
-      "description": "Bestille pass, fornye førerkort og få nasjonalt ID-kort."
+      "description": "Bestille pass, fornye førerkort og få nasjonalt ID-kort.",
+      "hubTitle": "ID og dokumenter",
+      "hubSubtitle": "Pass, førerkort og ID-kort",
+      "didYouKnow": "Visste du?",
+      "didYouKnowText": "Du trenger gyldig legitimasjon for mange ting i Norge - fra å logge inn på offentlige tjenester til å reise. Her hjelper vi deg med å bestille og fornye dokumentene dine.",
+      "selectGuide": "Velg hva du trenger hjelp med",
+      "whichIdTitle": "Hvilken legitimasjon trenger jeg?",
+      "passInfoTitle": "Pass",
+      "passInfoDesc": "For reiser utenfor Norden. Gyldig i 10 år (5 år for barn). Kan også brukes som ID i Norge.",
+      "forerkortInfoTitle": "Førerkort",
+      "forerkortInfoDesc": "For å kjøre bil. Gyldig som legitimasjon i Norge. Må fornyes hvert 15. år.",
+      "idKortInfoTitle": "Nasjonalt ID-kort",
+      "idKortInfoDesc": "Alternativ til pass. Med reiserett kan du reise i EØS. Praktisk størrelse for lommeboken.",
+      "usefulLinksTitle": "Nyttige lenker",
+      "linkPolice": "politiet.no",
+      "linkPoliceDesc": "Bestill time for pass og ID-kort",
+      "linkVegvesen": "vegvesen.no",
+      "linkVegvesenDesc": "Bestill time for førerkort",
+      "linkPhones": "Politiet: 02800 | Vegvesen: 22 07 30 00"
     },
     "grunnleggende": {
       "title": "Grunnleggende teknologi",
@@ -3098,7 +3218,483 @@
     "noResults": "Ingen ord funnet for",
     "tryAnother": "Prøv et annet søkeord",
     "missingWord": "Savner du et ord?",
-    "missingWordText": "Send oss en e-post på kontakt@lettdigital.no hvis det er et ord du ønsker forklart, så legger vi det til!"
+    "missingWordText": "Send oss en e-post på kontakt@lettdigital.no hvis det er et ord du ønsker forklart, så legger vi det til!",
+    "terms": [
+      {
+        "term": "Arbeidsavklaringspenger (AAP)",
+        "definition": "Penger du kan få fra NAV hvis du ikke kan jobbe på grunn av sykdom eller skade, og trenger hjelp til å komme tilbake i jobb.",
+        "example": "Etter 1 år på sykepenger kan du søke AAP.",
+        "category": "NAV"
+      },
+      {
+        "term": "Barnetrygd",
+        "definition": "Penger alle foreldre får automatisk fra NAV for barn under 18 år.",
+        "example": "Barnetrygd utbetales den 10. hver måned.",
+        "category": "NAV"
+      },
+      {
+        "term": "Dagpenger",
+        "definition": "Penger du kan få fra NAV når du har mistet jobben eller er permittert.",
+        "example": "Dagpenger er ca. 62% av lønnen din.",
+        "category": "NAV"
+      },
+      {
+        "term": "Fedrekvote",
+        "definition": "Den delen av foreldrepermisjonen som er forbeholdt far eller medmor. Kan ikke overføres til mor.",
+        "example": "Fedrekvoten er 15 uker.",
+        "category": "NAV"
+      },
+      {
+        "term": "Grunnbeløpet (G)",
+        "definition": "Et beløp som brukes til å beregne mange ytelser fra NAV. Justeres hvert år.",
+        "example": "I 2024 er G ca. 118 620 kr.",
+        "category": "NAV"
+      },
+      {
+        "term": "Kontantstøtte",
+        "definition": "Støtte til foreldre som passer barn hjemme i stedet for å bruke barnehage.",
+        "example": "Du kan få kontantstøtte for barn mellom 1-2 år.",
+        "category": "NAV"
+      },
+      {
+        "term": "Meldekort",
+        "definition": "Et skjema du sender til NAV hver 14. dag for å rapportere om du har jobbet, vært syk eller søkt jobber.",
+        "example": "Send meldekort for å få utbetalt dagpenger.",
+        "category": "NAV"
+      },
+      {
+        "term": "Mødrekvote",
+        "definition": "Den delen av foreldrepermisjonen som er forbeholdt mor. Kan ikke overføres til far.",
+        "example": "Mødrekvoten er 15 uker.",
+        "category": "NAV"
+      },
+      {
+        "term": "Permittert",
+        "definition": "Midlertidig fritatt fra jobb fordi arbeidsgiveren ikke har arbeid til deg, men du er fortsatt ansatt.",
+        "example": "Mange ble permittert under koronapandemien.",
+        "category": "NAV"
+      },
+      {
+        "term": "Sykepenger",
+        "definition": "Penger som erstatter inntekten din når du er syk og ikke kan jobbe.",
+        "example": "Du kan få sykepenger i opptil 1 år.",
+        "category": "NAV"
+      },
+      {
+        "term": "Uføretrygd",
+        "definition": "Varig ytelse for deg som har nedsatt arbeidsevne på grunn av sykdom eller skade.",
+        "example": "Uføretrygd kan være hel eller delvis.",
+        "category": "NAV"
+      },
+      {
+        "term": "Ytelse",
+        "definition": "Penger eller tjenester du kan få fra NAV eller andre offentlige etater.",
+        "example": "Dagpenger er en ytelse fra NAV.",
+        "category": "NAV"
+      },
+      {
+        "term": "Fradrag",
+        "definition": "Utgifter som trekkes fra inntekten din før skatten beregnes. Reduserer skatten.",
+        "example": "Renteutgifter på boliglån er et vanlig fradrag.",
+        "category": "Skatt"
+      },
+      {
+        "term": "Restskatt",
+        "definition": "Skatt du må betale ekstra fordi du betalte for lite gjennom året.",
+        "example": "Restskatt over 1000 kr deles opp i to terminer.",
+        "category": "Skatt"
+      },
+      {
+        "term": "Skattekort",
+        "definition": "Et dokument som forteller arbeidsgiveren hvor mye skatt som skal trekkes fra lønnen din.",
+        "example": "Du får nytt skattekort i desember hvert år.",
+        "category": "Skatt"
+      },
+      {
+        "term": "Skattemelding",
+        "definition": "Oversikt over inntekter og fradrag du må levere til Skatteetaten hvert år. Tidligere kalt selvangivelse.",
+        "example": "Fristen for skattemeldingen er 30. april.",
+        "category": "Skatt"
+      },
+      {
+        "term": "Skatteoppgjør",
+        "definition": "Beregningen som viser om du får penger tilbake eller må betale restskatt.",
+        "example": "Skatteoppgjøret kommer vanligvis i juni.",
+        "category": "Skatt"
+      },
+      {
+        "term": "Tabellnummer",
+        "definition": "Koden på skattekortet som bestemmer hvor mye skatt som trekkes fra lønnen.",
+        "example": "Tabellnummer 7100 er standard for de fleste.",
+        "category": "Skatt"
+      },
+      {
+        "term": "Forskuddsskatt",
+        "definition": "Skatt som selvstendig næringsdrivende betaler på forskudd fire ganger i året.",
+        "example": "Forskuddsskatten forfaller 15. mars, juni, september og desember.",
+        "category": "Skatt"
+      },
+      {
+        "term": "Formuesskatt",
+        "definition": "Skatt på verdier du eier over et visst beløp (bolig, aksjer, bankinnskudd minus gjeld).",
+        "example": "Formuesskatt starter på formue over ca. 1,7 millioner kr.",
+        "category": "Skatt"
+      },
+      {
+        "term": "Blå resept",
+        "definition": "Resept for medisiner til kroniske sykdommer der staten dekker det meste av kostnaden.",
+        "example": "Diabetesmedisin får du på blå resept.",
+        "category": "Helse"
+      },
+      {
+        "term": "Egenandel",
+        "definition": "Den delen av utgiften du må betale selv, for eksempel hos legen.",
+        "example": "Egenandelen hos fastlegen er ca. 160 kr.",
+        "category": "Helse"
+      },
+      {
+        "term": "Epikrise",
+        "definition": "Oppsummering som legen skriver etter at behandlingen er ferdig.",
+        "example": "Epikrisen sendes til fastlegen din.",
+        "category": "Helse"
+      },
+      {
+        "term": "Fastlege",
+        "definition": "Legen du er tildelt og som skal være din faste lege for vanlige helseproblemer.",
+        "example": "Du kan bytte fastlege opptil to ganger per år.",
+        "category": "Helse"
+      },
+      {
+        "term": "Frikort",
+        "definition": "Kort som gir deg gratis helsetjenester når du har betalt nok i egenandeler (frikortgrensen).",
+        "example": "Frikortgrensen er ca. 3 040 kr (2024).",
+        "category": "Helse"
+      },
+      {
+        "term": "Henvisning",
+        "definition": "Et brev fra fastlegen din som gir deg rett til behandling hos spesialist eller sykehus.",
+        "example": "Du trenger henvisning for å gå til spesialist.",
+        "category": "Helse"
+      },
+      {
+        "term": "Hvit resept",
+        "definition": "Vanlig resept der du betaler hele eller deler av kostnaden selv.",
+        "example": "Antibiotika får du ofte på hvit resept.",
+        "category": "Helse"
+      },
+      {
+        "term": "Kjernejournal",
+        "definition": "Digital oversikt over viktig helseinformasjon som deles mellom helsetjenester.",
+        "example": "Kjernejournalen viser legemidler og allergier.",
+        "category": "Helse"
+      },
+      {
+        "term": "Legevakt",
+        "definition": "Akutt legehjelp når fastlegen er stengt. Ring 116 117.",
+        "example": "Legevakten er åpen hele døgnet.",
+        "category": "Helse"
+      },
+      {
+        "term": "Pasientjournal",
+        "definition": "Dokumentasjon av all helsehjelp du har fått. Du har rett til å lese din egen journal.",
+        "example": "Du kan lese journalen din på Helsenorge.",
+        "category": "Helse"
+      },
+      {
+        "term": "Sykemelding",
+        "definition": "Dokument fra legen som bekrefter at du er syk og ikke kan jobbe.",
+        "example": "Legen sender sykemeldingen elektronisk til NAV.",
+        "category": "Helse"
+      },
+      {
+        "term": "Altinn",
+        "definition": "Nettsted der du kan sende inn skjemaer og dokumenter til det offentlige.",
+        "example": "Du finner skattemeldingen din på Altinn.",
+        "category": "Digital"
+      },
+      {
+        "term": "App",
+        "definition": "Et program du laster ned på telefonen din.",
+        "example": "Last ned NAV-appen fra App Store eller Google Play.",
+        "category": "Digital"
+      },
+      {
+        "term": "BankID",
+        "definition": "En digital identitet du bruker til å logge inn på nettsider og signere dokumenter. Du får BankID fra banken din.",
+        "example": "Logg inn med BankID på mobilen.",
+        "category": "Digital"
+      },
+      {
+        "term": "Digipost/e-Boks",
+        "definition": "Digital postkasse der du kan motta brev fra offentlige etater og bedrifter.",
+        "example": "Skatteoppgjøret kommer i Digipost.",
+        "category": "Digital"
+      },
+      {
+        "term": "ID-porten",
+        "definition": "Systemet som håndterer innlogging til offentlige nettsider som NAV, Skatteetaten og Helsenorge.",
+        "example": "ID-porten er felles for alle offentlige tjenester.",
+        "category": "Digital"
+      },
+      {
+        "term": "MinID",
+        "definition": "En enklere innloggingsløsning enn BankID, men gir ikke tilgang til alle tjenester.",
+        "example": "MinID fungerer ikke for skattemeldingen.",
+        "category": "Digital"
+      },
+      {
+        "term": "Nettleser",
+        "definition": "Program for å se på nettsider, som Google Chrome, Safari eller Edge.",
+        "example": "Åpne nettleseren for å gå til nav.no.",
+        "category": "Digital"
+      },
+      {
+        "term": "AvtaleGiro",
+        "definition": "Automatisk betaling av faste regninger som strøm, forsikring og husleie.",
+        "example": "Med AvtaleGiro betales regningen automatisk på forfallsdato.",
+        "category": "Bank"
+      },
+      {
+        "term": "eFaktura",
+        "definition": "Digital faktura som kommer rett inn i nettbanken din, så du slipper å taste inn tall.",
+        "example": "Slå på eFaktura for å få regninger automatisk i nettbanken.",
+        "category": "Bank"
+      },
+      {
+        "term": "Forfallsdato",
+        "definition": "Siste dag en regning må betales uten ekstra gebyr.",
+        "example": "Forfallsdatoen står øverst på regningen.",
+        "category": "Bank"
+      },
+      {
+        "term": "Inkasso",
+        "definition": "Når et firma sender regningen din til et inkassoselskap fordi du ikke har betalt.",
+        "example": "Betal før inkasso for å unngå ekstra gebyrer og betalingsanmerkning.",
+        "category": "Bank"
+      },
+      {
+        "term": "KID-nummer",
+        "definition": "En tallrekke på regninger som identifiserer betalingen din. Viktig å taste riktig.",
+        "example": "KID-nummeret står på fakturaen, ofte 15-25 siffer.",
+        "category": "Bank"
+      },
+      {
+        "term": "Nettbank",
+        "definition": "Bankens tjeneste på internett der du kan betale regninger, se saldo og overføre penger.",
+        "example": "Du logger inn i nettbanken med BankID.",
+        "category": "Bank"
+      },
+      {
+        "term": "Saldo",
+        "definition": "Hvor mye penger du har på kontoen din akkurat nå.",
+        "example": "Sjekk saldoen i nettbanken før du betaler en stor regning.",
+        "category": "Bank"
+      },
+      {
+        "term": "Vipps",
+        "definition": "Norsk betalingsapp for å sende penger til venner, betale i butikker og dele regninger.",
+        "example": "Over 4 millioner nordmenn bruker Vipps.",
+        "category": "Bank"
+      },
+      {
+        "term": "Passordbehandler",
+        "definition": "Et program som lagrer alle passordene dine trygt, så du bare trenger å huske ett hovedpassord.",
+        "example": "Bitwarden og 1Password er populære passordbehandlere.",
+        "category": "Sikkerhet"
+      },
+      {
+        "term": "Phishing",
+        "definition": "Svindelforsøk via falske e-poster eller meldinger som prøver å lure deg til å gi fra deg personlig informasjon.",
+        "example": "En e-post som later som den er fra banken kan være phishing. Klikk aldri på lenker du er usikker på.",
+        "category": "Sikkerhet"
+      },
+      {
+        "term": "Svindel",
+        "definition": "Når noen prøver å lure deg for penger eller personlig informasjon.",
+        "example": "Ring aldri tilbake til ukjente numre som ber om personlige opplysninger - det kan være svindel.",
+        "category": "Sikkerhet"
+      },
+      {
+        "term": "To-faktor (2FA)",
+        "definition": "Ekstra sikkerhet der du trenger både passord og en kode fra telefonen for å logge inn.",
+        "example": "Slå på to-faktor for ekstra beskyttelse av e-posten din.",
+        "category": "Sikkerhet"
+      },
+      {
+        "term": "Bostøtte",
+        "definition": "Økonomisk støtte fra Husbanken til å betale husleie eller boutgifter for de med lav inntekt.",
+        "example": "Bostøtte utbetales rundt den 10. hver måned.",
+        "category": "Bolig"
+      },
+      {
+        "term": "Husbanken",
+        "definition": "Statlig bank som gir lån og tilskudd til boliger, og forvalter bostøtteordningen.",
+        "example": "Søk bostøtte gjennom Husbanken på husbanken.no.",
+        "category": "Bolig"
+      },
+      {
+        "term": "Kommunal bolig",
+        "definition": "Bolig eid av kommunen som leies ut til de som har vanskelig for å skaffe bolig selv.",
+        "example": "Kommunal bolig har ofte lavere husleie enn private utleiere.",
+        "category": "Bolig"
+      },
+      {
+        "term": "Startlån",
+        "definition": "Lån fra kommunen til deg som ikke får vanlig boliglån i banken.",
+        "example": "Startlån kan hjelpe førstegangskjøpere som ikke har nok egenkapital.",
+        "category": "Bolig"
+      },
+      {
+        "term": "Lånekassen",
+        "definition": "Statlig organ som gir studielån og stipend til utdanning i Norge og utlandet.",
+        "example": "Søk stipend og lån hos Lånekassen på lanekassen.no.",
+        "category": "Utdanning"
+      },
+      {
+        "term": "Stipend",
+        "definition": "Penger til utdanning som du ikke trenger å betale tilbake.",
+        "example": "Du kan få opptil 40% av støtten som stipend hvis du fullfører studiene.",
+        "category": "Utdanning"
+      },
+      {
+        "term": "Studielån",
+        "definition": "Lån fra Lånekassen til å dekke utgifter under utdanning. Må betales tilbake etter studiene.",
+        "example": "Tilbakebetalingen av studielånet starter vanligvis 7 måneder etter fullført utdanning.",
+        "category": "Utdanning"
+      },
+      {
+        "term": "Folkeregisteret",
+        "definition": "Offentlig register over alle som bor i Norge med adresse og personopplysninger.",
+        "example": "Meld flytting til Folkeregisteret innen 8 dager.",
+        "category": "ID"
+      },
+      {
+        "term": "Nasjonalt ID-kort",
+        "definition": "Norsk ID-kort med bilde som kan brukes som legitimasjon i Norge og til reiser i EU/EØS.",
+        "example": "Nasjonalt ID-kort er ikke gyldig reisedokument utenfor EU/EØS.",
+        "category": "ID"
+      },
+      {
+        "term": "Pass",
+        "definition": "Offisielt reisedokument som bekrefter identitet og norsk statsborgerskap.",
+        "example": "Du må ha gyldig pass for å reise utenfor Europa.",
+        "category": "ID"
+      },
+      {
+        "term": "Personnummer",
+        "definition": "De 11 sifrene som unikt identifiserer deg i Norge (fødselsdato + 5 siffer).",
+        "example": "Personnummeret brukes ved innlogging med BankID og hos legen.",
+        "category": "ID"
+      },
+      {
+        "term": "Alderspensjon",
+        "definition": "Månedlig utbetaling fra staten når du blir pensjonist. Kan tas ut fra 62 år, men jo senere du starter, jo mer får du.",
+        "example": "Du kan sjekke hvor mye alderspensjon du vil få på nav.no/pensjon.",
+        "category": "Pensjon"
+      },
+      {
+        "term": "AFP (Avtalefestet pensjon)",
+        "definition": "Tilleggspensjon for ansatte i bedrifter med tariffavtale. Gir livsvarig ekstra utbetaling ved siden av alderspensjon.",
+        "example": "AFP gir deg mulighet til å gå av tidligere med mer penger.",
+        "category": "Pensjon"
+      },
+      {
+        "term": "Garantipensjon",
+        "definition": "Minstepensjon som sikrer alle en viss inntekt i alderdommen, selv om du har jobbet lite.",
+        "example": "Garantipensjon krever at du har bodd minst 5 år i Norge.",
+        "category": "Pensjon"
+      },
+      {
+        "term": "Pensjonsbeholdning",
+        "definition": "Summen av alle pensjonspoengene dine gjennom arbeidslivet. Bestemmer hvor mye pensjon du får.",
+        "example": "Du kan se pensjonsbeholdningen din på Din pensjon på nav.no.",
+        "category": "Pensjon"
+      },
+      {
+        "term": "Pensjonspoeng",
+        "definition": "Poeng du tjener opp hvert år basert på inntekten din. Brukes til å beregne alderspensjon.",
+        "example": "Du tjener pensjonspoeng på all inntekt opp til 7,1 G.",
+        "category": "Pensjon"
+      },
+      {
+        "term": "Gjenlevendepensjon",
+        "definition": "Økonomisk støtte til deg som har mistet ektefelle eller samboer med felles barn.",
+        "example": "Gjenlevendepensjon kan gis i inntil 3 år, eller til du får ny samboer.",
+        "category": "Pensjon"
+      },
+      {
+        "term": "Tjenestepensjon",
+        "definition": "Pensjon fra arbeidsgiveren din, i tillegg til alderspensjon fra NAV. Også kalt OTP (obligatorisk tjenestepensjon).",
+        "example": "Alle arbeidsgivere må spare minst 2% til tjenestepensjon for ansatte.",
+        "category": "Pensjon"
+      },
+      {
+        "term": "Uttaksgrad",
+        "definition": "Hvor stor andel av pensjonen du velger å ta ut. Du kan ta ut 20%, 40%, 50%, 60%, 80% eller 100%.",
+        "example": "Med 50% uttaksgrad får du halv pensjon og kan jobbe ved siden av.",
+        "category": "Pensjon"
+      },
+      {
+        "term": "Oppdatering",
+        "definition": "Ny versjon av en app eller telefon som fikser feil og legger til sikkerhet. Viktig å installere!",
+        "example": "Sjekk Innstillinger - Programvareoppdatering for å oppdatere telefonen.",
+        "category": "Teknologi"
+      },
+      {
+        "term": "Wi-Fi",
+        "definition": "Trådløst internett fra en ruter. Gratis å bruke hjemme, på biblioteket eller kafé.",
+        "example": "Koble til Wi-Fi for å spare mobildata.",
+        "category": "Teknologi"
+      },
+      {
+        "term": "Mobildata",
+        "definition": "Internett via telefonabonnementet ditt. Koster penger og har ofte en grense.",
+        "example": "Bruk Wi-Fi hjemme for å spare mobildata til når du er ute.",
+        "category": "Teknologi"
+      },
+      {
+        "term": "Skjermbilde",
+        "definition": "Et bilde av det som vises på skjermen din. Nyttig for å vise feilmeldinger til andre.",
+        "example": "Ta skjermbilde med sideknapp + volum opp (iPhone) eller av/på + volum ned (Android).",
+        "category": "Teknologi"
+      },
+      {
+        "term": "Nettleser",
+        "definition": "Program for å besøke nettsider. Safari (iPhone), Chrome (Android) og Edge (PC) er vanlige.",
+        "example": "Åpne nettleseren og skriv nav.no i adressefeltet.",
+        "category": "Teknologi"
+      },
+      {
+        "term": "Nedlasting",
+        "definition": "Å hente en fil eller app fra internett til telefonen eller PC-en din.",
+        "example": "Nedlastede filer finner du ofte i Filer-appen eller Nedlastinger-mappen.",
+        "category": "Teknologi"
+      },
+      {
+        "term": "Innstillinger",
+        "definition": "Stedet på telefonen der du kan endre språk, skriftstørrelse, Wi-Fi, lyd og mer.",
+        "example": "Gå til Innstillinger for å øke skriftstørrelsen på telefonen.",
+        "category": "Teknologi"
+      },
+      {
+        "term": "Varsling/Notifikasjon",
+        "definition": "Melding som dukker opp på telefonen for å varsle deg om noe, for eksempel ny SMS eller påminnelse.",
+        "example": "Du kan skru av varslinger for apper som forstyrrer i Innstillinger.",
+        "category": "Teknologi"
+      },
+      {
+        "term": "Hjemmeskjerm",
+        "definition": "Hovedskjermen på telefonen der alle app-ikonene dine ligger.",
+        "example": "Trykk på hjem-knappen for å gå tilbake til hjemmeskjermen.",
+        "category": "Teknologi"
+      },
+      {
+        "term": "Kontakter",
+        "definition": "Liste over telefonnumre og navn på folk du kjenner, lagret på telefonen.",
+        "example": "Legg til et nytt nummer i Kontakter så du ser hvem som ringer.",
+        "category": "Teknologi"
+      }
+    ]
   },
   "faq": {
     "title": "Vanlige spørsmål",
@@ -3112,7 +3708,189 @@
     },
     "noAnswer": "Fant du ikke svar på spørsmålet ditt?",
     "contactAgencies": "Du kan kontakte etatene direkte for mer hjelp:",
-    "weekdays": "Hverdager"
+    "weekdays": "Hverdager",
+    "items": [
+      {
+        "question": "Hva gjør jeg hvis jeg har mistet jobben?",
+        "answer": "Først må du registrere deg som arbeidssøker på nav.no. Deretter kan du søke om dagpenger hvis du oppfyller kravene. Du må ha tjent minst 186 042 kr siste år eller 372 084 kr siste 3 år. Se våre veiledninger for steg-for-steg hjelp.",
+        "category": "NAV"
+      },
+      {
+        "question": "Hvor lang tid tar det å få svar på NAV-søknad?",
+        "answer": "Behandlingstiden varierer: Dagpenger tar vanligvis 3-4 uker. Sykepenger tar 2-4 uker. Foreldrepenger tar 4-6 uker. Du kan sjekke status på søknaden din under \"Mine saker\" på nav.no.",
+        "category": "NAV"
+      },
+      {
+        "question": "Hva skjer hvis jeg glemmer å sende meldekort?",
+        "answer": "Da får du ikke utbetaling for den perioden. Du kan sende meldekort inntil 8 dager for sent, men får trekk i utbetalingen. Etter 8 dager mister du pengene for den perioden. Sett påminnelse i telefonen!",
+        "category": "NAV"
+      },
+      {
+        "question": "Kan jeg reise til utlandet mens jeg får dagpenger?",
+        "answer": "Du kan ta ferie i opptil 4 uker per år, men du får ikke dagpenger for feriedagene. Du må søke NAV om godkjenning FØR du reiser, og du må fortsatt sende meldekort.",
+        "category": "NAV"
+      },
+      {
+        "question": "Hva er forskjellen på sykepenger og AAP?",
+        "answer": "Sykepenger får du når du er midlertidig syk (opptil 1 år). AAP (arbeidsavklaringspenger) er for deg som fortsatt er syk etter sykepengene, og trenger hjelp til å komme tilbake i jobb eller avklare arbeidsevnen.",
+        "category": "NAV"
+      },
+      {
+        "question": "Når kommer skattemeldingen?",
+        "answer": "Skattemeldingen blir vanligvis tilgjengelig i mars. Du får beskjed på SMS eller e-post. Fristen for å sjekke og levere endringer er 30. april.",
+        "category": "Skatt"
+      },
+      {
+        "question": "Hva gjør jeg hvis jeg har feil i skattemeldingen?",
+        "answer": "Logg inn på skatteetaten.no, åpne skattemeldingen og klikk \"Endre\" ved posten du vil rette. Du kan endre så mange ganger du vil før fristen. Etter fristen kan du sende endringsmelding.",
+        "category": "Skatt"
+      },
+      {
+        "question": "Når får jeg skatteoppgjøret?",
+        "answer": "De fleste får skatteoppgjøret i juni. Noen må vente til høsten. Du får beskjed når det er klart. Penger tilbake utbetales automatisk til kontoen din.",
+        "category": "Skatt"
+      },
+      {
+        "question": "Hva er forskjellen på skattekort og skattemelding?",
+        "answer": "Skattekortet bestemmer hvor mye skatt som trekkes fra lønnen din GJENNOM ÅRET. Skattemeldingen er oppgjøret for det som ALLEREDE ER BETALT - den viser om du betalte for mye eller for lite.",
+        "category": "Skatt"
+      },
+      {
+        "question": "Hvilke fradrag glemmer folk oftest?",
+        "answer": "De vanligste glemte fradragene er: Reiseutgifter til jobb (hvis over 37 km), renteutgifter på lån, fagforeningskontingent, gaver til frivillige organisasjoner, og foreldrefradrag for barnehage/SFO.",
+        "category": "Skatt"
+      },
+      {
+        "question": "Hvordan bytter jeg fastlege?",
+        "answer": "Logg inn på helsenorge.no, gå til \"Fastlege\" og velg \"Bytt fastlege\". Du kan søke på navn eller sted. Du kan bytte opptil 2 ganger per år. Byttet trer i kraft fra første dag i neste måned.",
+        "category": "Helse"
+      },
+      {
+        "question": "Hva gjør jeg hvis fastlegen min har full liste?",
+        "answer": "Du kan sette deg på venteliste, velge en annen lege, eller kontakte kommunen din. Alle har rett på fastlege, og kommunen må hjelpe deg hvis det ikke er ledige plasser.",
+        "category": "Helse"
+      },
+      {
+        "question": "Kan legen nekte å fornye resepten min?",
+        "answer": "Ja, hvis legen mener det er nødvendig med en ny vurdering først. Noen medisiner krever regelmessig oppfølging. Da må du bestille time for å få resepten fornyet.",
+        "category": "Helse"
+      },
+      {
+        "question": "Hva er frikortgrensen og hvordan fungerer det?",
+        "answer": "Frikortgrensen er ca. 3 040 kr (2024). Når du har betalt dette i egenandeler (legetime, medisin osv.), får du automatisk frikort. Da slipper du egenandeler resten av året.",
+        "category": "Helse"
+      },
+      {
+        "question": "Kan jeg lese journalen min fra sykehus?",
+        "answer": "Ja, de fleste sykehus sender journalen til Helsenorge. Noe dokumentasjon kan være forsinket eller sperret av legen. Du kan be om innsyn direkte fra sykehuset hvis du ikke finner det.",
+        "category": "Helse"
+      },
+      {
+        "question": "Jeg har ikke BankID - hva gjør jeg?",
+        "answer": "Kontakt banken din for å få BankID. Du kan også bruke MinID for noen tjenester. Uten BankID/MinID kan du møte opp personlig på NAV-kontor eller bruke fullmakt via pårørende.",
+        "category": "Digital"
+      },
+      {
+        "question": "Hvorfor fungerer ikke BankID?",
+        "answer": "Vanlige årsaker: Appen må oppdateres, du har skrevet feil kode 3 ganger (sperret), eller banken har sperret BankID-en. Prøv å oppdatere appen eller kontakt banken din.",
+        "category": "Digital"
+      },
+      {
+        "question": "Kan noen andre logge inn for meg?",
+        "answer": "Du skal ALDRI dele BankID-koden din med andre. Hvis du trenger hjelp, kan pårørende få fullmakt. Kontakt den aktuelle etaten (NAV, Skatteetaten) for å ordne fullmakt.",
+        "category": "Digital"
+      },
+      {
+        "question": "Når kan jeg ta ut alderspensjon?",
+        "answer": "Du kan ta ut alderspensjon fra du fyller 62 år, men jo tidligere du starter, jo lavere blir månedlig utbetaling. Venter du til 67 år eller lenger, får du mer per måned. Du kan sjekke din pensjon på nav.no/pensjon.",
+        "category": "Pensjon"
+      },
+      {
+        "question": "Kan jeg jobbe mens jeg får pensjon?",
+        "answer": "Ja! Du kan jobbe så mye du vil uten at pensjonen reduseres. Fra 2011 ble reglene endret slik at arbeid og pensjon kan kombineres fritt. Du betaler fortsatt skatt av arbeidsinntekt.",
+        "category": "Pensjon"
+      },
+      {
+        "question": "Hva er AFP (avtalefestet pensjon)?",
+        "answer": "AFP er en tilleggspensjon for deg som jobber i privat sektor med tariffavtale eller i offentlig sektor. Du må søke om AFP før du fyller 62 år. AFP gir et livsvarig tillegg til alderspensjonen.",
+        "category": "Pensjon"
+      },
+      {
+        "question": "Får jeg pensjon hvis jeg har jobbet lite?",
+        "answer": "Alle som bor i Norge får garantipensjon (minstepensjon) fra 67 år, selv om du har jobbet lite eller ingenting. Størrelsen avhenger av hvor lenge du har bodd i Norge (krever minst 5 år). Full garantipensjon krever 40 års botid.",
+        "category": "Pensjon"
+      },
+      {
+        "question": "Hvordan søker jeg om alderspensjon?",
+        "answer": "Logg inn på nav.no/pensjon med BankID. Velg \"Søk pensjon\" og følg stegene. Du bør søke 3-4 måneder før du vil starte uttaket. NAV hjelper deg også på telefon 55 55 33 34.",
+        "category": "Pensjon"
+      },
+      {
+        "question": "Hva skjer med pensjonen min hvis ektefellen dør?",
+        "answer": "Du kan ha rett på gjenlevendepensjon hvis du var gift eller samboer med felles barn. Denne ytelsen er behovsprøvd. Kontakt NAV så snart som mulig etter dødsfallet for å sjekke dine rettigheter.",
+        "category": "Pensjon"
+      },
+      {
+        "question": "Hvordan vet jeg om en SMS fra NAV/banken er ekte?",
+        "answer": "Ekte SMS fra NAV/bank ber ALDRI om passord, BankID eller kontonummer. De inneholder ikke lenker til innlogging. Er du usikker? Ikke klikk på lenken - logg inn direkte på nav.no eller bankens nettside i stedet.",
+        "category": "Sikkerhet"
+      },
+      {
+        "question": "Noen ringte og sa de var fra Microsoft - er det svindel?",
+        "answer": "JA, dette er nesten alltid svindel! Microsoft ringer ALDRI uoppfordret. Hvis du ga tilgang til PC-en: Skru av PC-en, kontakt banken, og få hjelp til å sjekke PC-en for skadevare. Ring politiet på 02800.",
+        "category": "Sikkerhet"
+      },
+      {
+        "question": "Jeg tror jeg har blitt svindlet - hva gjør jeg?",
+        "answer": "Handler RASKT: 1) Kontakt banken din umiddelbart for å sperre kort/konto. 2) Bytt passord på e-post og viktige tjenester. 3) Anmeld til politiet på nett eller ring 02800. 4) Kontakt ID-tyverihjelpen på 21 05 32 80.",
+        "category": "Sikkerhet"
+      },
+      {
+        "question": "Barnebarnet mitt ringer og trenger penger akutt - hva gjør jeg?",
+        "answer": "STOPP! Dette kan være \"oldebarnssvindel\". Svindlere later som de er familie i nød. Sjekk ALLTID ved å ringe tilbake på nummeret du HAR fra før. Spør om noe bare dere vet. Ekte familie forstår at du må sjekke.",
+        "category": "Sikkerhet"
+      },
+      {
+        "question": "Er det trygt å handle på nett?",
+        "answer": "Ja, hvis du følger noen regler: Se etter hengelås i adressefeltet. Bruk kjente butikker. Betal med kort eller Vipps (ikke bankoverføring). Virker prisen for god? Da er det ofte svindel. Sjekk anmeldelser på Trustpilot.",
+        "category": "Sikkerhet"
+      },
+      {
+        "question": "Hva er et trygt passord?",
+        "answer": "Et godt passord er LANGT (minst 12 tegn) og unikt for hver tjeneste. Bruk gjerne en setning: \"MinKattHeter3Ull!\" er bedre enn \"K@tt123\". Skriv aldri passord i e-post eller SMS. Vurder en passordbok (på papir) eller passordbehandler.",
+        "category": "Sikkerhet"
+      },
+      {
+        "question": "Hvordan oppdaterer jeg telefonen min?",
+        "answer": "iPhone: Innstillinger → Generelt → Programvareoppdatering. Android: Innstillinger → System → Programvareoppdatering. Koble til Wi-Fi og lader før du oppdaterer. Oppdateringer gir bedre sikkerhet!",
+        "category": "Teknologi"
+      },
+      {
+        "question": "Jeg har glemt passordet mitt - hva gjør jeg?",
+        "answer": "De fleste nettsider har en \"Glemt passord\"-lenke på innloggingssiden. Klikk der og følg instruksjonene - du får vanligvis en e-post med lenke for å lage nytt passord. For BankID: Kontakt banken din.",
+        "category": "Teknologi"
+      },
+      {
+        "question": "Hva er forskjellen på Wi-Fi og mobildata?",
+        "answer": "Wi-Fi er trådløst internett fra en ruter (hjemme, kafé, bibliotek) - ofte gratis og raskere. Mobildata bruker telefonabonnementet ditt og koster penger. Bruk Wi-Fi hjemme for å spare mobildata.",
+        "category": "Teknologi"
+      },
+      {
+        "question": "Hvordan tar jeg et skjermbilde på telefonen?",
+        "answer": "iPhone: Trykk sideknappen + volum opp samtidig. Android: Trykk av/på-knappen + volum ned samtidig. Bildet lagres i bildegalleriet ditt. Nyttig for å vise feilmeldinger til noen som kan hjelpe!",
+        "category": "Teknologi"
+      },
+      {
+        "question": "Hvor kan jeg få hjelp med data og teknologi?",
+        "answer": "Biblioteket ditt har ofte gratis datahjelp. Seniornett Norge (seniornett.no) har kurs og telefonstøtte. Frivillighetssentralen kan også hjelpe. Mange kommuner har også digital hjelpetjeneste for eldre.",
+        "category": "Teknologi"
+      },
+      {
+        "question": "Hva er en app og hvordan laster jeg ned apper?",
+        "answer": "En app er et program på telefonen (f.eks. BankID, Vipps). For å laste ned: Åpne App Store (iPhone) eller Google Play (Android), søk etter appen og trykk \"Hent\" eller \"Installer\". Noen apper krever at du lager konto.",
+        "category": "Teknologi"
+      }
+    ]
   },
   "favorites": {
     "title": "Mine favoritter",

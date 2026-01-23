@@ -3,7 +3,8 @@
 import Breadcrumbs from '@/components/Breadcrumbs';
 import PrintButton from '@/components/PrintButton';
 import StepGuide from '@/components/StepGuide';
-import { useTranslations } from 'next-intl';
+import { HowToSchema } from '@/components/StructuredData';
+import { useTranslations, useLocale } from 'next-intl';
 
 const skattekortSteps = [
   {
@@ -46,8 +47,23 @@ const skattekortSteps = [
 
 export default function SkattekortPage() {
   const tNav = useTranslations('header');
+  const locale = useLocale();
+
+  const howToSteps = skattekortSteps.map(step => ({
+    name: step.title,
+    text: step.description
+  }));
 
   return (
+    <>
+    <HowToSchema
+      name="Endre skattekort"
+      description="Skattekortet bestemmer hvor mye skatt som trekkes fra lønnen din hver måned. Hvis livssituasjonen din endrer seg, bør du oppdatere det."
+      steps={howToSteps}
+      totalTime="PT15M"
+      locale={locale}
+    />
+
     <div className="max-w-4xl mx-auto px-4 py-12">
       <Breadcrumbs
         items={[
@@ -179,5 +195,6 @@ export default function SkattekortPage() {
         </div>
       </div>
     </div>
+    </>
   );
 }

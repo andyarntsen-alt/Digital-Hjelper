@@ -3,7 +3,8 @@
 import Breadcrumbs from '@/components/Breadcrumbs';
 import PrintButton from '@/components/PrintButton';
 import StepGuide from '@/components/StepGuide';
-import { useTranslations } from 'next-intl';
+import { HowToSchema } from '@/components/StructuredData';
+import { useTranslations, useLocale } from 'next-intl';
 
 const bytteFastlegeSteps = [
   {
@@ -47,9 +48,24 @@ const bytteFastlegeSteps = [
 
 export default function BytteFastlegePage() {
   const tNav = useTranslations('header');
+  const locale = useLocale();
+
+  const howToSteps = bytteFastlegeSteps.map(step => ({
+    name: step.title,
+    text: step.description
+  }));
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-12">
+    <>
+      <HowToSchema
+        name="Bytte fastlege"
+        description="Lær hvordan du bytter til en ny fastlege på nett. Du trenger bare BankID og noen minutter."
+        steps={howToSteps}
+        totalTime="PT10M"
+        locale={locale}
+      />
+
+      <div className="max-w-4xl mx-auto px-4 py-12">
       <Breadcrumbs
         items={[
           { label: tNav('helse'), href: '/helse' },
@@ -117,5 +133,6 @@ export default function BytteFastlegePage() {
         </div>
       </div>
     </div>
+    </>
   );
 }

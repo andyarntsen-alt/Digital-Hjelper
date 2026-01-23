@@ -1,11 +1,14 @@
 'use client';
 
 import StepGuide from '@/components/StepGuide';
+import { HowToSchema } from '@/components/StructuredData';
 import { Link } from '@/i18n/navigation';
 import { useTranslations } from 'next-intl';
+import { useLocale } from 'next-intl';
 
 export default function DigipostPage() {
   const t = useTranslations('guides.digital.digipost');
+  const locale = useLocale();
 
   const stepsRaw = t.raw('steps') as { title: string; description: string; tip?: string; warning?: string }[];
   const steps = stepsRaw.map(step => ({
@@ -18,8 +21,22 @@ export default function DigipostPage() {
   const benefitsRaw = t.raw('benefits') as string[];
   const tipsRaw = t.raw('tips') as string[];
 
+  const howToSteps = stepsRaw.map(step => ({
+    name: step.title,
+    text: step.description
+  }));
+
   return (
-    <div className="max-w-4xl mx-auto px-4 py-12">
+    <>
+      <HowToSchema
+        name={t('title')}
+        description={t('longDescription')}
+        steps={howToSteps}
+        totalTime="PT10M"
+        locale={locale}
+      />
+
+      <div className="max-w-4xl mx-auto px-4 py-12">
       <Link href="/digital" className="text-green-600 hover:underline mb-6 inline-flex items-center gap-2">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -72,5 +89,6 @@ export default function DigipostPage() {
         </ul>
       </div>
     </div>
+    </>
   );
 }

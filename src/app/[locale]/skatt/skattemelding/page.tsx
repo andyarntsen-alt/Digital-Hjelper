@@ -5,11 +5,13 @@ import FavoriteButton from '@/components/FavoriteButton';
 import PrintButton from '@/components/PrintButton';
 import RelatedGuides from '@/components/RelatedGuides';
 import StepGuide from '@/components/StepGuide';
-import { useTranslations } from 'next-intl';
+import { HowToSchema } from '@/components/StructuredData';
+import { useTranslations, useLocale } from 'next-intl';
 
 export default function SkattemeldingPage() {
   const t = useTranslations('guides.skatt.skattemelding');
   const tNav = useTranslations('header');
+  const locale = useLocale();
 
   // Build steps array from translations
   const stepsRaw = t.raw('steps') as { title: string; description: string; tip?: string; warning?: string }[];
@@ -23,7 +25,21 @@ export default function SkattemeldingPage() {
   // Get arrays from translations
   const commonErrors = t.raw('commonErrors') as { title: string; text: string }[];
 
+  const howToSteps = stepsRaw.map(step => ({
+    name: step.title,
+    text: step.description
+  }));
+
   return (
+    <>
+    <HowToSchema
+      name={t('title')}
+      description={t('longDescription')}
+      steps={howToSteps}
+      totalTime="PT10M"
+      locale={locale}
+    />
+
     <div className="max-w-4xl mx-auto px-4 py-12">
       <Breadcrumbs
         items={[
@@ -96,5 +112,6 @@ export default function SkattemeldingPage() {
 
       <RelatedGuides currentPath="/skatt/skattemelding" category="skatt" />
     </div>
+    </>
   );
 }

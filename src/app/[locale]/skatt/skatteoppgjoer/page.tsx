@@ -3,7 +3,8 @@
 import Breadcrumbs from '@/components/Breadcrumbs';
 import PrintButton from '@/components/PrintButton';
 import StepGuide from '@/components/StepGuide';
-import { useTranslations } from 'next-intl';
+import { HowToSchema } from '@/components/StructuredData';
+import { useTranslations, useLocale } from 'next-intl';
 
 const skatteoppgjoerSteps = [
   {
@@ -42,8 +43,23 @@ const skatteoppgjoerSteps = [
 
 export default function SkatteoppgjoerPage() {
   const tNav = useTranslations('header');
+  const locale = useLocale();
+
+  const howToSteps = skatteoppgjoerSteps.map(step => ({
+    name: step.title,
+    text: step.description
+  }));
 
   return (
+    <>
+    <HowToSchema
+      name="Se skatteoppgjøret ditt"
+      description="Lær hvordan du finner og forstår skatteoppgjøret. Finn ut om du får penger tilbake eller må betale restskatt."
+      steps={howToSteps}
+      totalTime="PT5M"
+      locale={locale}
+    />
+
     <div className="max-w-4xl mx-auto px-4 py-12">
       <Breadcrumbs
         items={[
@@ -151,5 +167,6 @@ export default function SkatteoppgjoerPage() {
         </div>
       </div>
     </div>
+    </>
   );
 }

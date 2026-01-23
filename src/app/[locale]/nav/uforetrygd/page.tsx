@@ -4,11 +4,13 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import FavoriteButton from '@/components/FavoriteButton';
 import PrintButton from '@/components/PrintButton';
 import StepGuide from '@/components/StepGuide';
-import { useTranslations } from 'next-intl';
+import { HowToSchema } from '@/components/StructuredData';
+import { useTranslations, useLocale } from 'next-intl';
 
 export default function UforetrygdPage() {
   const t = useTranslations('guides.nav.uforetrygd');
   const tNav = useTranslations('header');
+  const locale = useLocale();
 
   // Build steps array from translations
   const stepsRaw = t.raw('steps') as { title: string; description: string; tip?: string; warning?: string }[];
@@ -19,6 +21,11 @@ export default function UforetrygdPage() {
     ...(step.warning && { warning: step.warning }),
   }));
 
+  const howToSteps = stepsRaw.map(step => ({
+    name: step.title,
+    text: step.description
+  }));
+
   // Get arrays from translations
   const requirements = t.raw('requirements') as string[];
   const documents = t.raw('documents') as string[];
@@ -27,8 +34,17 @@ export default function UforetrygdPage() {
   const important = t.raw('important') as string[];
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-12">
-      <Breadcrumbs
+    <>
+      <HowToSchema
+        name={t('title')}
+        description={t('longDescription')}
+        steps={howToSteps}
+        totalTime="PT15M"
+        locale={locale}
+      />
+
+      <div className="max-w-4xl mx-auto px-4 py-12">
+        <Breadcrumbs
         items={[
           { label: tNav('nav'), href: '/nav' },
           { label: t('title') }
@@ -151,6 +167,7 @@ export default function UforetrygdPage() {
           </div>
         </div>
       </div>
-    </div>
+      </div>
+    </>
   );
 }

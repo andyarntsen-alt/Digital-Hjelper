@@ -3,7 +3,8 @@
 import Breadcrumbs from '@/components/Breadcrumbs';
 import PrintButton from '@/components/PrintButton';
 import StepGuide from '@/components/StepGuide';
-import { useTranslations } from 'next-intl';
+import { HowToSchema } from '@/components/StructuredData';
+import { useTranslations, useLocale } from 'next-intl';
 
 const bestilleTimeSteps = [
   {
@@ -54,9 +55,24 @@ const bestilleTimeSteps = [
 
 export default function BestilleTimePage() {
   const tNav = useTranslations('header');
+  const locale = useLocale();
+
+  const howToSteps = bestilleTimeSteps.map(step => ({
+    name: step.title,
+    text: step.description
+  }));
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-12">
+    <>
+      <HowToSchema
+        name="Bestille time hos fastlegen"
+        description="Lær hvordan du bestiller legetime på nett, uten å ringe. Det er enkelt og du kan gjøre det når som helst på døgnet."
+        steps={howToSteps}
+        totalTime="PT10M"
+        locale={locale}
+      />
+
+      <div className="max-w-4xl mx-auto px-4 py-12">
       <Breadcrumbs
         items={[
           { label: tNav('helse'), href: '/helse' },
@@ -139,5 +155,6 @@ export default function BestilleTimePage() {
         </div>
       </div>
     </div>
+    </>
   );
 }

@@ -5,11 +5,13 @@ import FavoriteButton from '@/components/FavoriteButton';
 import PrintButton from '@/components/PrintButton';
 import RelatedGuides from '@/components/RelatedGuides';
 import StepGuide from '@/components/StepGuide';
-import { useTranslations } from 'next-intl';
+import { HowToSchema } from '@/components/StructuredData';
+import { useTranslations, useLocale } from 'next-intl';
 
 export default function DagpengerPage() {
   const t = useTranslations('guides.nav.dagpenger');
   const tNav = useTranslations('header');
+  const locale = useLocale();
 
   // Build steps array from translations
   const stepsRaw = t.raw('steps') as { title: string; description: string; tip?: string; warning?: string }[];
@@ -24,8 +26,24 @@ export default function DagpengerPage() {
   const requirements = t.raw('requirements') as string[];
   const documents = t.raw('documents') as string[];
 
+  // Prepare HowTo schema for Google rich snippets
+  const howToSteps = stepsRaw.map(step => ({
+    name: step.title,
+    text: step.description
+  }));
+
   return (
-    <div className="max-w-4xl mx-auto px-4 py-12">
+    <>
+      {/* HowTo Structured Data for Google Rich Snippets */}
+      <HowToSchema
+        name={t('title')}
+        description={t('longDescription')}
+        steps={howToSteps}
+        totalTime="PT15M"
+        locale={locale}
+      />
+
+      <div className="max-w-4xl mx-auto px-4 py-12">
       <Breadcrumbs
         items={[
           { label: tNav('nav'), href: '/nav' },
@@ -119,7 +137,8 @@ export default function DagpengerPage() {
         </div>
       </div>
 
-      <RelatedGuides currentPath="/nav/dagpenger" category="nav" />
-    </div>
+        <RelatedGuides currentPath="/nav/dagpenger" category="nav" />
+      </div>
+    </>
   );
 }

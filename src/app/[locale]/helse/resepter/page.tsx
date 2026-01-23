@@ -4,7 +4,8 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import PrintButton from '@/components/PrintButton';
 import RelatedGuides from '@/components/RelatedGuides';
 import StepGuide from '@/components/StepGuide';
-import { useTranslations } from 'next-intl';
+import { HowToSchema } from '@/components/StructuredData';
+import { useTranslations, useLocale } from 'next-intl';
 
 const reseptSteps = [
   {
@@ -49,9 +50,24 @@ const reseptSteps = [
 
 export default function ResepterPage() {
   const tNav = useTranslations('header');
+  const locale = useLocale();
+
+  const howToSteps = reseptSteps.map(step => ({
+    name: step.title,
+    text: step.description
+  }));
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-12">
+    <>
+      <HowToSchema
+        name="Se og fornye resepter"
+        description="På Helsenorge kan du se alle reseptene dine og be om fornyelse uten å ringe legen."
+        steps={howToSteps}
+        totalTime="PT5M"
+        locale={locale}
+      />
+
+      <div className="max-w-4xl mx-auto px-4 py-12">
       <Breadcrumbs
         items={[
           { label: tNav('helse'), href: '/helse' },
@@ -170,5 +186,6 @@ export default function ResepterPage() {
 
       <RelatedGuides currentPath="/helse/resepter" category="helse" />
     </div>
+    </>
   );
 }

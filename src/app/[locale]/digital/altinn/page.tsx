@@ -3,11 +3,14 @@
 import Breadcrumbs from '@/components/Breadcrumbs';
 import PrintButton from '@/components/PrintButton';
 import StepGuide from '@/components/StepGuide';
+import { HowToSchema } from '@/components/StructuredData';
 import { useTranslations } from 'next-intl';
+import { useLocale } from 'next-intl';
 
 export default function AltinnPage() {
   const t = useTranslations('guides.digital.altinn');
   const tNav = useTranslations('header');
+  const locale = useLocale();
 
   const stepsRaw = t.raw('steps') as { title: string; description: string; tip?: string; warning?: string }[];
   const steps = stepsRaw.map(step => ({
@@ -20,8 +23,22 @@ export default function AltinnPage() {
   const commonUsesRaw = t.raw('commonUses') as string[];
   const tipsRaw = t.raw('tips') as string[];
 
+  const howToSteps = stepsRaw.map(step => ({
+    name: step.title,
+    text: step.description
+  }));
+
   return (
-    <div className="max-w-4xl mx-auto px-4 py-12">
+    <>
+      <HowToSchema
+        name={t('title')}
+        description={t('longDescription')}
+        steps={howToSteps}
+        totalTime="PT10M"
+        locale={locale}
+      />
+
+      <div className="max-w-4xl mx-auto px-4 py-12">
       <Breadcrumbs
         items={[
           { label: tNav('digital'), href: '/digital' },
@@ -77,5 +94,6 @@ export default function AltinnPage() {
         </ul>
       </div>
     </div>
+    </>
   );
 }

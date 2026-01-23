@@ -198,32 +198,152 @@
     "sikkerhet": {
       "title": "Digital Security",
       "shortDesc": "Protect yourself online",
-      "description": "Learn to protect yourself from scams, phishing and other digital threats."
+      "description": "Learn to protect yourself from scams, phishing and other digital threats.",
+      "hubTitle": "Digital Security",
+      "hubSubtitle": "Protect yourself from fraud and online threats",
+      "didYouKnow": "Did you know?",
+      "didYouKnowText": "Every day, Norwegians are scammed for millions of kroner online. Most fraud attempts are easy to spot if you know what to look for.",
+      "selectGuide": "Choose what you want to learn about",
+      "warningSignsTitle": "Important warning signs of fraud",
+      "warningSigns": {
+        "personalInfo": "They ask for personal information (password, BankID, national ID number)",
+        "urgent": "It's very urgent and you must act NOW",
+        "prize": "You have \"won\" something you didn't enter",
+        "tooGood": "Offers that seem too good to be true",
+        "spelling": "Spelling mistakes and poor language in messages",
+        "strangeLinks": "Links that look strange"
+      },
+      "beenScammedTitle": "Have you been scammed?",
+      "beenScammedText": "If you think you have been the victim of fraud, do this immediately:",
+      "beenScammedSteps": {
+        "bank": "Call your bank and block card/account",
+        "police": "Report to police at politiet.no",
+        "password": "Change passwords on all important accounts",
+        "idTheft": "Contact ID theft help at 21 05 32 00"
+      }
     },
     "bank": {
       "title": "Banking and Finance",
       "shortDesc": "Online banking and payments",
-      "description": "Use online banking, pay bills and get help with personal finances."
+      "description": "Use online banking, pay bills and get help with personal finances.",
+      "hubTitle": "Banking and Finance",
+      "hubSubtitle": "Learn to use online banking and digital payment solutions",
+      "didYouKnow": "Did you know?",
+      "didYouKnowText": "Over 90% of Norwegians use online banking. It's safe and easy when you know how!",
+      "selectGuide": "Choose what you need help with",
+      "securityTipsTitle": "Tips for safe online banking",
+      "securityTip1": "Always log out of online banking when you are done",
+      "securityTip2": "Never use online banking on public WiFi (cafe, airport)",
+      "securityTip3": "Never share BankID codes with anyone - not even the bank!",
+      "securityTip4": "Check your account statement regularly for suspicious transactions",
+      "needHelpTitle": "Need help?",
+      "needHelpText": "Most banks offer help for those who find online banking difficult:",
+      "helpPhone": "Call customer service",
+      "helpPhoneDesc": "most banks have a senior phone line",
+      "helpVisit": "Visit the bank",
+      "helpVisitDesc": "get help face to face",
+      "helpVideo": "Video help",
+      "helpVideoDesc": "some banks offer video guidance"
     },
     "digital": {
       "title": "Digital Tools",
       "shortDesc": "Email and Digipost",
-      "description": "Set up email, use digital mailbox and other digital tools."
+      "description": "Set up email, use digital mailbox and other digital tools.",
+      "hubTitle": "Digital Tools",
+      "hubSubtitle": "Learn to use email, digital mailbox and public services",
+      "didYouKnow": "Did you know?",
+      "didYouKnowText": "With a digital mailbox you receive important letters from the public sector faster and more securely than by regular mail.",
+      "selectGuide": "Choose what you want to learn",
+      "importantServicesTitle": "Important digital services in Norway",
+      "serviceDigipost": "Digipost / e-Boks",
+      "serviceDigipostDesc": "Digital mailbox for letters from banks, insurance and the public sector",
+      "serviceAltinn": "Altinn",
+      "serviceAltinnDesc": "Send forms and messages to the public sector",
+      "serviceIdPorten": "ID-porten",
+      "serviceIdPortenDesc": "Common login for all public websites",
+      "serviceBankId": "MinID / BankID",
+      "serviceBankIdDesc": "Digital identity for secure login",
+      "needHelpTitle": "Need help with digital tools?",
+      "needHelpText": "There are many places where you can get free help:",
+      "helpLibrary": "The library",
+      "helpLibraryDesc": "many have courses and drop-in help",
+      "helpSeniornett": "Seniornett",
+      "helpSeniornettDesc": "volunteers who help seniors with computers",
+      "helpNAV": "NAV office",
+      "helpNAVDesc": "helps with public digital services",
+      "helpFamily": "Family and friends",
+      "helpFamilyDesc": "ask someone you know for help"
     },
     "bolig": {
       "title": "Housing and housing support",
       "shortDesc": "Housing allowance and starter loan",
-      "description": "Apply for housing allowance, starter loan from Husbanken and municipal housing."
+      "description": "Apply for housing allowance, starter loan from Husbanken and municipal housing.",
+      "hubTitle": "Housing and housing support",
+      "hubSubtitle": "Help finding and keeping housing",
+      "didYouKnow": "Did you know?",
+      "didYouKnowText": "Husbanken and the municipality have several schemes that can help you find or keep housing. Housing allowance, starter loans and municipal housing are available for those who need it.",
+      "selectGuide": "Choose what you need help with",
+      "whoCanGetHelpTitle": "Who can get help?",
+      "bostotteTitle": "Housing allowance",
+      "bostotteDesc": "For those with low income and high housing costs. Both renters and homeowners can apply.",
+      "startlanTitle": "Starter loan",
+      "startlanDesc": "For those who cannot get a loan from a regular bank, but have the ability to service a loan over time.",
+      "kommunalBoligTitle": "Municipal housing",
+      "kommunalBoligDesc": "For those who cannot find housing on their own due to health, finances or other circumstances.",
+      "usefulLinksTitle": "Useful links",
+      "linkHusbanken": "husbanken.no",
+      "linkHusbankenDesc": "Apply for housing allowance and starter loan",
+      "linkKommune": "Your municipality",
+      "linkKommuneDesc": "Apply for municipal housing on your municipality's website",
+      "linkPhone": "Husbanken phone:",
+      "linkPhoneHours": "33 35 70 00 (weekdays 08-15:30)"
     },
     "utdanning": {
       "title": "Education and Student Loans",
       "shortDesc": "Student loans and grants",
-      "description": "Apply for student loans, grants and manage repayment with Lanekassen."
+      "description": "Apply for student loans, grants and manage repayment with Lanekassen.",
+      "hubTitle": "Education and Lanekassen",
+      "hubSubtitle": "Student loans, grants and repayment",
+      "didYouKnow": "Did you know?",
+      "didYouKnowText": "Lanekassen provides loans and grants to those who are studying. Parts of the loan can be converted to a grant if you complete your education and don't earn too much.",
+      "selectGuide": "Choose what you need help with",
+      "whoCanGetSupportTitle": "Who can get support?",
+      "studielanInfoTitle": "Student loan",
+      "studielanInfoDesc": "For those taking approved education. You must be a registered student with valid study rights.",
+      "stipendInfoTitle": "Grant",
+      "stipendInfoDesc": "Parts of the loan can become a grant if you complete your education and don't earn above the income limit.",
+      "utsettelsInfoTitle": "Payment deferral",
+      "utsettelsInfoDesc": "Having trouble paying? You can apply for deferral or interest exemption.",
+      "usefulLinksTitle": "Useful links",
+      "linkLanekassen": "lanekassen.no",
+      "linkLanekassenDesc": "Apply for loans and grants, check balance",
+      "linkSamordna": "samordnaopptak.no",
+      "linkSamordnaDesc": "Apply for admission to higher education",
+      "linkPhone": "Lanekassen phone:",
+      "linkPhoneHours": "55 55 44 00 (weekdays 09-15)"
     },
     "id": {
       "title": "ID and documents",
       "shortDesc": "Passport and driver's license",
-      "description": "Order passport, renew driver's license and get national ID card."
+      "description": "Order passport, renew driver's license and get national ID card.",
+      "hubTitle": "ID and documents",
+      "hubSubtitle": "Passport, driver's license and ID card",
+      "didYouKnow": "Did you know?",
+      "didYouKnowText": "You need valid identification for many things in Norway - from logging into public services to traveling. Here we help you order and renew your documents.",
+      "selectGuide": "Choose what you need help with",
+      "whichIdTitle": "Which identification do I need?",
+      "passInfoTitle": "Passport",
+      "passInfoDesc": "For travel outside the Nordic countries. Valid for 10 years (5 years for children). Can also be used as ID in Norway.",
+      "forerkortInfoTitle": "Driver's license",
+      "forerkortInfoDesc": "For driving a car. Valid as identification in Norway. Must be renewed every 15 years.",
+      "idKortInfoTitle": "National ID card",
+      "idKortInfoDesc": "Alternative to passport. With travel rights you can travel in the EEA. Practical size for your wallet.",
+      "usefulLinksTitle": "Useful links",
+      "linkPolice": "politiet.no",
+      "linkPoliceDesc": "Book an appointment for passport and ID card",
+      "linkVegvesen": "vegvesen.no",
+      "linkVegvesenDesc": "Book an appointment for driver's license",
+      "linkPhones": "Police: 02800 | Vegvesen: 22 07 30 00"
     },
     "grunnleggende": {
       "title": "Basic technology",
@@ -3180,7 +3300,483 @@
     "noResults": "No words found for",
     "tryAnother": "Try another search term",
     "missingWord": "Missing a word?",
-    "missingWordText": "Send us an email at kontakt@lettdigital.no if there's a word you'd like explained, and we'll add it!"
+    "missingWordText": "Send us an email at kontakt@lettdigital.no if there's a word you'd like explained, and we'll add it!",
+    "terms": [
+      {
+        "term": "Arbeidsavklaringspenger (AAP)",
+        "definition": "Work Assessment Allowance - money you can receive from NAV if you cannot work due to illness or injury and need help returning to work.",
+        "example": "After 1 year on sick pay, you can apply for AAP.",
+        "category": "NAV"
+      },
+      {
+        "term": "Barnetrygd",
+        "definition": "Child benefit - money all parents automatically receive from NAV for children under 18 years old.",
+        "example": "Child benefit is paid on the 10th of each month.",
+        "category": "NAV"
+      },
+      {
+        "term": "Dagpenger",
+        "definition": "Unemployment benefits - money you can receive from NAV when you have lost your job or are temporarily laid off.",
+        "example": "Unemployment benefits are approximately 62% of your salary.",
+        "category": "NAV"
+      },
+      {
+        "term": "Fedrekvote",
+        "definition": "Father's quota - the portion of parental leave reserved for the father or co-mother. Cannot be transferred to the mother.",
+        "example": "The father's quota is 15 weeks.",
+        "category": "NAV"
+      },
+      {
+        "term": "Grunnbeløpet (G)",
+        "definition": "The National Insurance base amount - an amount used to calculate many benefits from NAV. Adjusted annually.",
+        "example": "In 2024, G is approximately NOK 118,620.",
+        "category": "NAV"
+      },
+      {
+        "term": "Kontantstøtte",
+        "definition": "Cash-for-care benefit - support for parents who care for children at home instead of using daycare.",
+        "example": "You can receive cash-for-care benefit for children between 1-2 years old.",
+        "category": "NAV"
+      },
+      {
+        "term": "Meldekort",
+        "definition": "Employment status form - a form you submit to NAV every 14 days to report whether you have worked, been sick, or applied for jobs.",
+        "example": "Submit your employment status form to receive your unemployment benefits.",
+        "category": "NAV"
+      },
+      {
+        "term": "Mødrekvote",
+        "definition": "Mother's quota - the portion of parental leave reserved for the mother. Cannot be transferred to the father.",
+        "example": "The mother's quota is 15 weeks.",
+        "category": "NAV"
+      },
+      {
+        "term": "Permittert",
+        "definition": "Temporarily laid off - temporarily released from work because your employer has no work for you, but you are still employed.",
+        "example": "Many were temporarily laid off during the coronavirus pandemic.",
+        "category": "NAV"
+      },
+      {
+        "term": "Sykepenger",
+        "definition": "Sick pay - money that replaces your income when you are ill and cannot work.",
+        "example": "You can receive sick pay for up to 1 year.",
+        "category": "NAV"
+      },
+      {
+        "term": "Uføretrygd",
+        "definition": "Disability benefit - a permanent benefit for those with reduced work capacity due to illness or injury.",
+        "example": "Disability benefit can be full or partial.",
+        "category": "NAV"
+      },
+      {
+        "term": "Ytelse",
+        "definition": "Benefit - money or services you can receive from NAV or other public agencies.",
+        "example": "Unemployment benefits are a benefit from NAV.",
+        "category": "NAV"
+      },
+      {
+        "term": "Fradrag",
+        "definition": "Deduction - expenses that are subtracted from your income before tax is calculated. Reduces your tax.",
+        "example": "Interest expenses on home loans are a common deduction.",
+        "category": "Skatt"
+      },
+      {
+        "term": "Restskatt",
+        "definition": "Back taxes - additional tax you must pay because you paid too little during the year.",
+        "example": "Back taxes over NOK 1,000 are divided into two installments.",
+        "category": "Skatt"
+      },
+      {
+        "term": "Skattekort",
+        "definition": "Tax card - a document that tells your employer how much tax should be deducted from your salary.",
+        "example": "You receive a new tax card in December each year.",
+        "category": "Skatt"
+      },
+      {
+        "term": "Skattemelding",
+        "definition": "Tax return - an overview of income and deductions you must submit to the Tax Administration each year. Previously called 'selvangivelse'.",
+        "example": "The deadline for the tax return is April 30th.",
+        "category": "Skatt"
+      },
+      {
+        "term": "Skatteoppgjør",
+        "definition": "Tax settlement - the calculation that shows whether you will receive money back or must pay back taxes.",
+        "example": "The tax settlement usually arrives in June.",
+        "category": "Skatt"
+      },
+      {
+        "term": "Tabellnummer",
+        "definition": "Table number - the code on your tax card that determines how much tax is deducted from your salary.",
+        "example": "Table number 7100 is standard for most people.",
+        "category": "Skatt"
+      },
+      {
+        "term": "Forskuddsskatt",
+        "definition": "Advance tax - tax that self-employed individuals pay in advance four times a year.",
+        "example": "Advance tax is due on March 15, June 15, September 15, and December 15.",
+        "category": "Skatt"
+      },
+      {
+        "term": "Formuesskatt",
+        "definition": "Wealth tax - tax on assets you own above a certain amount (property, shares, bank deposits minus debt).",
+        "example": "Wealth tax applies to wealth above approximately NOK 1.7 million.",
+        "category": "Skatt"
+      },
+      {
+        "term": "Blå resept",
+        "definition": "Blue prescription - a prescription for medicines for chronic diseases where the state covers most of the cost.",
+        "example": "Diabetes medication is available on blue prescription.",
+        "category": "Helse"
+      },
+      {
+        "term": "Egenandel",
+        "definition": "Co-payment - the portion of the cost you must pay yourself, for example at the doctor.",
+        "example": "The co-payment at your regular doctor is approximately NOK 160.",
+        "category": "Helse"
+      },
+      {
+        "term": "Epikrise",
+        "definition": "Discharge summary - a summary written by the doctor after treatment is completed.",
+        "example": "The discharge summary is sent to your regular doctor.",
+        "category": "Helse"
+      },
+      {
+        "term": "Fastlege",
+        "definition": "Regular doctor (GP) - the doctor assigned to you who should be your permanent doctor for common health problems.",
+        "example": "You can change your regular doctor up to twice per year.",
+        "category": "Helse"
+      },
+      {
+        "term": "Frikort",
+        "definition": "Exemption card - a card that gives you free healthcare services when you have paid enough in co-payments (the exemption limit).",
+        "example": "The exemption limit is approximately NOK 3,040 (2024).",
+        "category": "Helse"
+      },
+      {
+        "term": "Henvisning",
+        "definition": "Referral - a letter from your regular doctor that gives you the right to treatment at a specialist or hospital.",
+        "example": "You need a referral to see a specialist.",
+        "category": "Helse"
+      },
+      {
+        "term": "Hvit resept",
+        "definition": "White prescription - a regular prescription where you pay all or part of the cost yourself.",
+        "example": "Antibiotics are often on white prescription.",
+        "category": "Helse"
+      },
+      {
+        "term": "Kjernejournal",
+        "definition": "Summary Care Record - a digital overview of important health information shared between healthcare services.",
+        "example": "The Summary Care Record shows medications and allergies.",
+        "category": "Helse"
+      },
+      {
+        "term": "Legevakt",
+        "definition": "Emergency room / Urgent care - emergency medical help when your regular doctor is closed. Call 116 117.",
+        "example": "The emergency room is open around the clock.",
+        "category": "Helse"
+      },
+      {
+        "term": "Pasientjournal",
+        "definition": "Patient record - documentation of all healthcare you have received. You have the right to read your own record.",
+        "example": "You can read your patient record on Helsenorge.",
+        "category": "Helse"
+      },
+      {
+        "term": "Sykemelding",
+        "definition": "Sick note - a document from the doctor confirming that you are ill and cannot work.",
+        "example": "The doctor sends the sick note electronically to NAV.",
+        "category": "Helse"
+      },
+      {
+        "term": "Altinn",
+        "definition": "Altinn - a website where you can submit forms and documents to public authorities.",
+        "example": "You can find your tax return on Altinn.",
+        "category": "Digital"
+      },
+      {
+        "term": "App",
+        "definition": "App - a program you download to your phone.",
+        "example": "Download the NAV app from the App Store or Google Play.",
+        "category": "Digital"
+      },
+      {
+        "term": "BankID",
+        "definition": "BankID - a digital identity you use to log in to websites and sign documents. You get BankID from your bank.",
+        "example": "Log in with BankID on your mobile.",
+        "category": "Digital"
+      },
+      {
+        "term": "Digipost/e-Boks",
+        "definition": "Digital mailbox - a digital mailbox where you can receive letters from public agencies and businesses.",
+        "example": "Your tax settlement arrives in Digipost.",
+        "category": "Digital"
+      },
+      {
+        "term": "ID-porten",
+        "definition": "ID-porten - the system that handles login to public websites like NAV, the Tax Administration, and Helsenorge.",
+        "example": "ID-porten is common for all public services.",
+        "category": "Digital"
+      },
+      {
+        "term": "MinID",
+        "definition": "MinID - a simpler login solution than BankID, but does not provide access to all services.",
+        "example": "MinID does not work for the tax return.",
+        "category": "Digital"
+      },
+      {
+        "term": "Nettleser",
+        "definition": "Web browser - a program for viewing websites, such as Google Chrome, Safari, or Edge.",
+        "example": "Open the browser to go to nav.no.",
+        "category": "Digital"
+      },
+      {
+        "term": "AvtaleGiro",
+        "definition": "Direct debit - automatic payment of regular bills like electricity, insurance, and rent.",
+        "example": "With direct debit, the bill is paid automatically on the due date.",
+        "category": "Bank"
+      },
+      {
+        "term": "eFaktura",
+        "definition": "Electronic invoice - a digital invoice that goes directly into your online bank, so you don't have to enter numbers.",
+        "example": "Turn on electronic invoices to get bills automatically in your online bank.",
+        "category": "Bank"
+      },
+      {
+        "term": "Forfallsdato",
+        "definition": "Due date - the last day a bill must be paid without an extra fee.",
+        "example": "The due date is shown at the top of the invoice.",
+        "category": "Bank"
+      },
+      {
+        "term": "Inkasso",
+        "definition": "Debt collection - when a company sends your bill to a collection agency because you haven't paid.",
+        "example": "Pay before debt collection to avoid extra fees and payment remarks.",
+        "category": "Bank"
+      },
+      {
+        "term": "KID-nummer",
+        "definition": "KID number - a number sequence on invoices that identifies your payment. Important to enter correctly.",
+        "example": "The KID number is on the invoice, usually 15-25 digits.",
+        "category": "Bank"
+      },
+      {
+        "term": "Nettbank",
+        "definition": "Online banking - the bank's internet service where you can pay bills, check your balance, and transfer money.",
+        "example": "You log into online banking with BankID.",
+        "category": "Bank"
+      },
+      {
+        "term": "Saldo",
+        "definition": "Balance - how much money you have in your account right now.",
+        "example": "Check your balance in online banking before paying a large bill.",
+        "category": "Bank"
+      },
+      {
+        "term": "Vipps",
+        "definition": "Vipps - a Norwegian payment app for sending money to friends, paying in stores, and splitting bills.",
+        "example": "Over 4 million Norwegians use Vipps.",
+        "category": "Bank"
+      },
+      {
+        "term": "Passordbehandler",
+        "definition": "Password manager - a program that securely stores all your passwords, so you only need to remember one master password.",
+        "example": "Bitwarden and 1Password are popular password managers.",
+        "category": "Sikkerhet"
+      },
+      {
+        "term": "Phishing",
+        "definition": "Phishing - fraud attempts via fake emails or messages that try to trick you into giving away personal information.",
+        "example": "An email pretending to be from your bank could be phishing. Never click on links you're unsure about.",
+        "category": "Sikkerhet"
+      },
+      {
+        "term": "Svindel",
+        "definition": "Fraud / Scam - when someone tries to trick you for money or personal information.",
+        "example": "Never call back unknown numbers asking for personal information - it could be a scam.",
+        "category": "Sikkerhet"
+      },
+      {
+        "term": "To-faktor (2FA)",
+        "definition": "Two-factor authentication (2FA) - extra security where you need both a password and a code from your phone to log in.",
+        "example": "Turn on two-factor authentication for extra protection of your email.",
+        "category": "Sikkerhet"
+      },
+      {
+        "term": "Bostøtte",
+        "definition": "Housing allowance - financial support from Husbanken to pay rent or housing expenses for those with low income.",
+        "example": "Housing allowance is paid around the 10th of each month.",
+        "category": "Bolig"
+      },
+      {
+        "term": "Husbanken",
+        "definition": "The Norwegian State Housing Bank - a state bank that provides loans and grants for housing, and manages the housing allowance scheme.",
+        "example": "Apply for housing allowance through Husbanken at husbanken.no.",
+        "category": "Bolig"
+      },
+      {
+        "term": "Kommunal bolig",
+        "definition": "Municipal housing - housing owned by the municipality that is rented out to those who have difficulty obtaining housing themselves.",
+        "example": "Municipal housing often has lower rent than private landlords.",
+        "category": "Bolig"
+      },
+      {
+        "term": "Startlån",
+        "definition": "Starter loan - a loan from the municipality for those who cannot get a regular home loan from the bank.",
+        "example": "Starter loans can help first-time buyers who don't have enough equity.",
+        "category": "Bolig"
+      },
+      {
+        "term": "Lånekassen",
+        "definition": "The Norwegian State Educational Loan Fund - a state agency that provides student loans and grants for education in Norway and abroad.",
+        "example": "Apply for grants and loans from Lanekassen at lanekassen.no.",
+        "category": "Utdanning"
+      },
+      {
+        "term": "Stipend",
+        "definition": "Grant / Scholarship - money for education that you do not need to pay back.",
+        "example": "You can get up to 40% of the support as a grant if you complete your studies.",
+        "category": "Utdanning"
+      },
+      {
+        "term": "Studielån",
+        "definition": "Student loan - a loan from Lanekassen to cover expenses during education. Must be repaid after studies.",
+        "example": "Repayment of the student loan usually starts 7 months after completing education.",
+        "category": "Utdanning"
+      },
+      {
+        "term": "Folkeregisteret",
+        "definition": "The National Population Register - a public register of everyone living in Norway with addresses and personal information.",
+        "example": "Report your move to the Population Register within 8 days.",
+        "category": "ID"
+      },
+      {
+        "term": "Nasjonalt ID-kort",
+        "definition": "National ID card - a Norwegian ID card with photo that can be used as identification in Norway and for travel within the EU/EEA.",
+        "example": "The National ID card is not a valid travel document outside the EU/EEA.",
+        "category": "ID"
+      },
+      {
+        "term": "Pass",
+        "definition": "Passport - an official travel document that confirms your identity and Norwegian citizenship.",
+        "example": "You must have a valid passport to travel outside Europe.",
+        "category": "ID"
+      },
+      {
+        "term": "Personnummer",
+        "definition": "Personal identification number - the 11 digits that uniquely identify you in Norway (birth date + 5 digits).",
+        "example": "Your personal identification number is used when logging in with BankID and at the doctor.",
+        "category": "ID"
+      },
+      {
+        "term": "Alderspensjon",
+        "definition": "Old-age pension - monthly payment from the state when you become a pensioner. Can be withdrawn from age 62, but the later you start, the more you get.",
+        "example": "You can check how much old-age pension you will receive at nav.no/pensjon.",
+        "category": "Pensjon"
+      },
+      {
+        "term": "AFP (Avtalefestet pensjon)",
+        "definition": "Contractual Early Retirement Pension (AFP) - supplementary pension for employees in companies with collective agreements. Provides lifelong extra payment alongside old-age pension.",
+        "example": "AFP gives you the opportunity to retire earlier with more money.",
+        "category": "Pensjon"
+      },
+      {
+        "term": "Garantipensjon",
+        "definition": "Guarantee pension - minimum pension that ensures everyone a certain income in old age, even if you have worked little.",
+        "example": "Guarantee pension requires that you have lived in Norway for at least 5 years.",
+        "category": "Pensjon"
+      },
+      {
+        "term": "Pensjonsbeholdning",
+        "definition": "Pension balance - the sum of all your pension points throughout your working life. Determines how much pension you receive.",
+        "example": "You can see your pension balance on 'Din pensjon' (Your Pension) at nav.no.",
+        "category": "Pensjon"
+      },
+      {
+        "term": "Pensjonspoeng",
+        "definition": "Pension points - points you earn each year based on your income. Used to calculate old-age pension.",
+        "example": "You earn pension points on all income up to 7.1 G.",
+        "category": "Pensjon"
+      },
+      {
+        "term": "Gjenlevendepensjon",
+        "definition": "Survivor's pension - financial support for those who have lost a spouse or cohabitant with shared children.",
+        "example": "Survivor's pension can be given for up to 3 years, or until you get a new partner.",
+        "category": "Pensjon"
+      },
+      {
+        "term": "Tjenestepensjon",
+        "definition": "Occupational pension - pension from your employer, in addition to old-age pension from NAV. Also called OTP (mandatory occupational pension).",
+        "example": "All employers must save at least 2% for occupational pension for employees.",
+        "category": "Pensjon"
+      },
+      {
+        "term": "Uttaksgrad",
+        "definition": "Withdrawal rate - what percentage of your pension you choose to withdraw. You can withdraw 20%, 40%, 50%, 60%, 80%, or 100%.",
+        "example": "With a 50% withdrawal rate, you receive half your pension and can work alongside it.",
+        "category": "Pensjon"
+      },
+      {
+        "term": "Oppdatering",
+        "definition": "Update - a new version of an app or phone that fixes errors and adds security. Important to install!",
+        "example": "Check Settings - Software Update to update your phone.",
+        "category": "Teknologi"
+      },
+      {
+        "term": "Wi-Fi",
+        "definition": "Wi-Fi - wireless internet from a router. Free to use at home, at the library, or at cafes.",
+        "example": "Connect to Wi-Fi to save mobile data.",
+        "category": "Teknologi"
+      },
+      {
+        "term": "Mobildata",
+        "definition": "Mobile data - internet via your phone subscription. Costs money and often has a limit.",
+        "example": "Use Wi-Fi at home to save mobile data for when you're out.",
+        "category": "Teknologi"
+      },
+      {
+        "term": "Skjermbilde",
+        "definition": "Screenshot - a picture of what is shown on your screen. Useful for showing error messages to others.",
+        "example": "Take a screenshot with side button + volume up (iPhone) or power + volume down (Android).",
+        "category": "Teknologi"
+      },
+      {
+        "term": "Nettleser",
+        "definition": "Web browser - a program for visiting websites. Safari (iPhone), Chrome (Android), and Edge (PC) are common.",
+        "example": "Open the browser and type nav.no in the address bar.",
+        "category": "Teknologi"
+      },
+      {
+        "term": "Nedlasting",
+        "definition": "Download - retrieving a file or app from the internet to your phone or PC.",
+        "example": "Downloaded files can usually be found in the Files app or Downloads folder.",
+        "category": "Teknologi"
+      },
+      {
+        "term": "Innstillinger",
+        "definition": "Settings - the place on your phone where you can change language, font size, Wi-Fi, sound, and more.",
+        "example": "Go to Settings to increase the font size on your phone.",
+        "category": "Teknologi"
+      },
+      {
+        "term": "Varsling/Notifikasjon",
+        "definition": "Notification - a message that appears on your phone to alert you to something, such as a new SMS or reminder.",
+        "example": "You can turn off notifications for apps that disturb you in Settings.",
+        "category": "Teknologi"
+      },
+      {
+        "term": "Hjemmeskjerm",
+        "definition": "Home screen - the main screen on your phone where all your app icons are located.",
+        "example": "Press the home button to return to the home screen.",
+        "category": "Teknologi"
+      },
+      {
+        "term": "Kontakter",
+        "definition": "Contacts - a list of phone numbers and names of people you know, stored on your phone.",
+        "example": "Add a new number to Contacts so you can see who is calling.",
+        "category": "Teknologi"
+      }
+    ]
   },
   "faq": {
     "title": "Frequently Asked Questions",
@@ -3194,7 +3790,189 @@
     },
     "noAnswer": "Didn't find an answer to your question?",
     "contactAgencies": "You can contact the agencies directly for more help:",
-    "weekdays": "Weekdays"
+    "weekdays": "Weekdays",
+    "items": [
+      {
+        "question": "What do I do if I've lost my job?",
+        "answer": "First, you need to register as a job seeker at nav.no. Then you can apply for unemployment benefits if you meet the requirements. You must have earned at least NOK 186,042 in the last year or NOK 372,084 in the last 3 years. See our guides for step-by-step help.",
+        "category": "NAV"
+      },
+      {
+        "question": "How long does it take to get a response to a NAV application?",
+        "answer": "Processing time varies: Unemployment benefits usually take 3-4 weeks. Sick pay takes 2-4 weeks. Parental benefits take 4-6 weeks. You can check the status of your application under \"My cases\" at nav.no.",
+        "category": "NAV"
+      },
+      {
+        "question": "What happens if I forget to submit my employment status form?",
+        "answer": "Then you won't receive payment for that period. You can submit the form up to 8 days late, but you'll have a deduction from your payment. After 8 days, you lose the money for that period. Set a reminder on your phone!",
+        "category": "NAV"
+      },
+      {
+        "question": "Can I travel abroad while receiving unemployment benefits?",
+        "answer": "You can take vacation for up to 4 weeks per year, but you won't receive unemployment benefits for vacation days. You must apply to NAV for approval BEFORE you travel, and you must still submit the employment status form.",
+        "category": "NAV"
+      },
+      {
+        "question": "What's the difference between sick pay and AAP?",
+        "answer": "Sick pay is for when you're temporarily ill (up to 1 year). AAP (work assessment allowance) is for those who are still sick after sick pay ends and need help returning to work or clarifying their work capacity.",
+        "category": "NAV"
+      },
+      {
+        "question": "When does the tax return arrive?",
+        "answer": "The tax return usually becomes available in March. You'll receive a notification by SMS or email. The deadline to check and submit changes is April 30th.",
+        "category": "Skatt"
+      },
+      {
+        "question": "What do I do if there's an error in my tax return?",
+        "answer": "Log in to skatteetaten.no, open the tax return and click \"Change\" next to the item you want to correct. You can make changes as many times as you want before the deadline. After the deadline, you can submit an amendment.",
+        "category": "Skatt"
+      },
+      {
+        "question": "When do I receive my tax settlement?",
+        "answer": "Most people receive their tax settlement in June. Some have to wait until autumn. You'll be notified when it's ready. Refunds are automatically paid to your account.",
+        "category": "Skatt"
+      },
+      {
+        "question": "What's the difference between tax card and tax return?",
+        "answer": "The tax card determines how much tax is deducted from your salary THROUGHOUT THE YEAR. The tax return is the settlement for what has ALREADY BEEN PAID - it shows whether you paid too much or too little.",
+        "category": "Skatt"
+      },
+      {
+        "question": "What deductions do people most often forget?",
+        "answer": "The most commonly forgotten deductions are: Travel expenses to work (if over 37 km), interest expenses on loans, union dues, donations to charitable organizations, and parent deductions for kindergarten/after-school care.",
+        "category": "Skatt"
+      },
+      {
+        "question": "How do I change my GP?",
+        "answer": "Log in to helsenorge.no, go to \"GP\" and select \"Change GP\". You can search by name or location. You can change up to 2 times per year. The change takes effect from the first day of the next month.",
+        "category": "Helse"
+      },
+      {
+        "question": "What do I do if my GP has a full list?",
+        "answer": "You can put yourself on a waiting list, choose another doctor, or contact your municipality. Everyone has the right to a GP, and the municipality must help you if there are no available spots.",
+        "category": "Helse"
+      },
+      {
+        "question": "Can the doctor refuse to renew my prescription?",
+        "answer": "Yes, if the doctor believes a new assessment is necessary first. Some medications require regular follow-up. Then you must book an appointment to get the prescription renewed.",
+        "category": "Helse"
+      },
+      {
+        "question": "What is the exemption card limit and how does it work?",
+        "answer": "The exemption card limit is approximately NOK 3,040 (2024). When you've paid this much in co-payments (doctor visits, medicine, etc.), you automatically receive an exemption card. Then you're exempt from co-payments for the rest of the year.",
+        "category": "Helse"
+      },
+      {
+        "question": "Can I read my medical records from the hospital?",
+        "answer": "Yes, most hospitals send records to Helsenorge. Some documentation may be delayed or blocked by the doctor. You can request access directly from the hospital if you can't find it.",
+        "category": "Helse"
+      },
+      {
+        "question": "I don't have BankID - what do I do?",
+        "answer": "Contact your bank to get BankID. You can also use MinID for some services. Without BankID/MinID, you can show up in person at a NAV office or use a power of attorney through relatives.",
+        "category": "Digital"
+      },
+      {
+        "question": "Why isn't my BankID working?",
+        "answer": "Common reasons: The app needs to be updated, you've entered the wrong code 3 times (locked), or the bank has blocked your BankID. Try updating the app or contact your bank.",
+        "category": "Digital"
+      },
+      {
+        "question": "Can someone else log in for me?",
+        "answer": "You should NEVER share your BankID code with others. If you need help, relatives can get power of attorney. Contact the relevant agency (NAV, Tax Office) to arrange power of attorney.",
+        "category": "Digital"
+      },
+      {
+        "question": "When can I withdraw retirement pension?",
+        "answer": "You can withdraw retirement pension from age 62, but the earlier you start, the lower your monthly payment. If you wait until 67 or later, you'll receive more per month. You can check your pension at nav.no/pensjon.",
+        "category": "Pensjon"
+      },
+      {
+        "question": "Can I work while receiving pension?",
+        "answer": "Yes! You can work as much as you want without the pension being reduced. Since 2011, the rules were changed so that work and pension can be combined freely. You still pay tax on employment income.",
+        "category": "Pensjon"
+      },
+      {
+        "question": "What is AFP (contractual early retirement pension)?",
+        "answer": "AFP is a supplementary pension for those who work in the private sector with a collective agreement or in the public sector. You must apply for AFP before you turn 62. AFP provides a lifelong supplement to retirement pension.",
+        "category": "Pensjon"
+      },
+      {
+        "question": "Do I get pension if I've worked little?",
+        "answer": "Everyone living in Norway receives a guaranteed pension (minimum pension) from age 67, even if you've worked little or nothing. The amount depends on how long you've lived in Norway (requires at least 5 years). Full guaranteed pension requires 40 years of residence.",
+        "category": "Pensjon"
+      },
+      {
+        "question": "How do I apply for retirement pension?",
+        "answer": "Log in to nav.no/pensjon with BankID. Select \"Apply for pension\" and follow the steps. You should apply 3-4 months before you want to start withdrawing. NAV also helps by phone at 55 55 33 34.",
+        "category": "Pensjon"
+      },
+      {
+        "question": "What happens to my pension if my spouse dies?",
+        "answer": "You may be entitled to survivor's pension if you were married or cohabiting with shared children. This benefit is means-tested. Contact NAV as soon as possible after the death to check your rights.",
+        "category": "Pensjon"
+      },
+      {
+        "question": "How do I know if an SMS from NAV/the bank is real?",
+        "answer": "Real SMS from NAV/bank NEVER ask for passwords, BankID or account numbers. They don't contain links to log in. Unsure? Don't click the link - log in directly at nav.no or the bank's website instead.",
+        "category": "Sikkerhet"
+      },
+      {
+        "question": "Someone called and said they were from Microsoft - is it a scam?",
+        "answer": "YES, this is almost always a scam! Microsoft NEVER calls unsolicited. If you gave access to your PC: Turn off the PC, contact the bank, and get help checking the PC for malware. Call the police at 02800.",
+        "category": "Sikkerhet"
+      },
+      {
+        "question": "I think I've been scammed - what do I do?",
+        "answer": "Act FAST: 1) Contact your bank immediately to block card/account. 2) Change passwords on email and important services. 3) Report to police online or call 02800. 4) Contact ID theft help at 21 05 32 80.",
+        "category": "Sikkerhet"
+      },
+      {
+        "question": "My grandchild calls and urgently needs money - what do I do?",
+        "answer": "STOP! This could be \"grandparent scam\". Scammers pretend to be family in distress. ALWAYS verify by calling back on the number you ALREADY have. Ask about something only you know. Real family understands you need to check.",
+        "category": "Sikkerhet"
+      },
+      {
+        "question": "Is it safe to shop online?",
+        "answer": "Yes, if you follow some rules: Look for the padlock in the address bar. Use known stores. Pay by card or Vipps (not bank transfer). Does the price seem too good? Then it's often a scam. Check reviews on Trustpilot.",
+        "category": "Sikkerhet"
+      },
+      {
+        "question": "What is a secure password?",
+        "answer": "A good password is LONG (at least 12 characters) and unique for each service. Use a sentence: \"MyCatIsNamedFluffy3!\" is better than \"C@t123\". Never write passwords in email or SMS. Consider a password book (on paper) or password manager.",
+        "category": "Sikkerhet"
+      },
+      {
+        "question": "How do I update my phone?",
+        "answer": "iPhone: Settings → General → Software Update. Android: Settings → System → Software Update. Connect to Wi-Fi and charger before updating. Updates provide better security!",
+        "category": "Teknologi"
+      },
+      {
+        "question": "I've forgotten my password - what do I do?",
+        "answer": "Most websites have a \"Forgot password\" link on the login page. Click there and follow the instructions - you'll usually receive an email with a link to create a new password. For BankID: Contact your bank.",
+        "category": "Teknologi"
+      },
+      {
+        "question": "What's the difference between Wi-Fi and mobile data?",
+        "answer": "Wi-Fi is wireless internet from a router (at home, café, library) - often free and faster. Mobile data uses your phone subscription and costs money. Use Wi-Fi at home to save mobile data.",
+        "category": "Teknologi"
+      },
+      {
+        "question": "How do I take a screenshot on my phone?",
+        "answer": "iPhone: Press side button + volume up at the same time. Android: Press power button + volume down at the same time. The image is saved in your photo gallery. Useful for showing error messages to someone who can help!",
+        "category": "Teknologi"
+      },
+      {
+        "question": "Where can I get help with computers and technology?",
+        "answer": "Your library often has free computer help. Seniornett Norway (seniornett.no) has courses and phone support. The volunteer center can also help. Many municipalities also have digital help services for the elderly.",
+        "category": "Teknologi"
+      },
+      {
+        "question": "What is an app and how do I download apps?",
+        "answer": "An app is a program on your phone (e.g., BankID, Vipps). To download: Open App Store (iPhone) or Google Play (Android), search for the app and tap \"Get\" or \"Install\". Some apps require you to create an account.",
+        "category": "Teknologi"
+      }
+    ]
   },
   "favorites": {
     "title": "My Favorites",

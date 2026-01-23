@@ -9,8 +9,11 @@ export const routing = defineRouting({
 // Alle språk som vises i språkvelgeren (inkludert kommende)
 export const allLocales = ['no', 'en', 'uk', 'pl', 'so', 'ar'];
 
-// Språk som er aktive og fungerer
-export const activeLocales = ['no', 'en', 'uk', 'pl', 'so', 'ar'];
+// Språk som er fullt oversatt og fungerer
+export const activeLocales = ['no', 'en'];
+
+// Språk som kommer snart (vises med "Coming soon" melding)
+export const comingSoonLocales = ['uk', 'pl', 'so', 'ar'];
 
 export const localeNames: Record<string, string> = {
   no: 'Norsk',

@@ -83,7 +83,7 @@ export default function LanguageSelector() {
                   {localeNames[loc]}
                   {!isActive && (
                     <span className="block text-xs text-gray-400 font-normal">
-                      Kommer snart
+                      Coming soon
                     </span>
                   )}
                 </span>

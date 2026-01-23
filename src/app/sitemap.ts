@@ -1,7 +1,8 @@
 import { MetadataRoute } from 'next';
+import { activeLocales } from '@/i18n/routing';
 
-// Alle aktive språk
-const locales = ['no', 'en', 'uk', 'pl', 'so', 'ar'];
+// Bruk kun aktive språk i sitemap (no, en)
+const locales = activeLocales;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://www.lettdigital.no';

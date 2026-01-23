@@ -3,7 +3,8 @@
 import Breadcrumbs from '@/components/Breadcrumbs';
 import PrintButton from '@/components/PrintButton';
 import StepGuide from '@/components/StepGuide';
-import { useTranslations } from 'next-intl';
+import { HowToSchema } from '@/components/StructuredData';
+import { useTranslations, useLocale } from 'next-intl';
 
 const skatteattestSteps = [
   {
@@ -42,8 +43,23 @@ const skatteattestSteps = [
 
 export default function SkatteattestPage() {
   const tNav = useTranslations('header');
+  const locale = useLocale();
+
+  const howToSteps = skatteattestSteps.map(step => ({
+    name: step.title,
+    text: step.description
+  }));
 
   return (
+    <>
+    <HowToSchema
+      name="Bestille skatteattest"
+      description="Lær hvordan du bestiller skatteattest på nett. Du får den med en gang, helt gratis."
+      steps={howToSteps}
+      totalTime="PT5M"
+      locale={locale}
+    />
+
     <div className="max-w-4xl mx-auto px-4 py-12">
       <Breadcrumbs
         items={[
@@ -136,5 +152,6 @@ export default function SkatteattestPage() {
         </div>
       </div>
     </div>
+    </>
   );
 }

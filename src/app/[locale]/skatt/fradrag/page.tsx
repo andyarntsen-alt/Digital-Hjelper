@@ -4,11 +4,13 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import FavoriteButton from '@/components/FavoriteButton';
 import PrintButton from '@/components/PrintButton';
 import StepGuide from '@/components/StepGuide';
-import { useTranslations } from 'next-intl';
+import { HowToSchema } from '@/components/StructuredData';
+import { useTranslations, useLocale } from 'next-intl';
 
 export default function FradragPage() {
   const t = useTranslations('guides.skatt.fradrag');
   const tNav = useTranslations('header');
+  const locale = useLocale();
 
   // Build steps array from translations
   const stepsRaw = t.raw('steps') as { title: string; description: string; tip?: string; warning?: string }[];
@@ -25,7 +27,20 @@ export default function FradragPage() {
     items: { name: string; description: string; amount: string }[];
   }[];
 
+  const howToSteps = stepsRaw.map(step => ({
+    name: step.title,
+    text: step.description
+  }));
+
   return (
+    <>
+    <HowToSchema
+      name={t('title')}
+      description={t('longDescription')}
+      steps={howToSteps}
+      totalTime="PT10M"
+      locale={locale}
+    />
     <div className="max-w-4xl mx-auto px-4 py-12">
       <Breadcrumbs
         items={[
@@ -111,5 +126,6 @@ export default function FradragPage() {
         </div>
       </div>
     </div>
+    </>
   );
 }

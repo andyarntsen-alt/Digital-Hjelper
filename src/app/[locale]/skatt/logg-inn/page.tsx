@@ -3,11 +3,13 @@
 import Breadcrumbs from '@/components/Breadcrumbs';
 import PrintButton from '@/components/PrintButton';
 import StepGuide from '@/components/StepGuide';
-import { useTranslations } from 'next-intl';
+import { HowToSchema } from '@/components/StructuredData';
+import { useTranslations, useLocale } from 'next-intl';
 
 export default function SkattLoggInnPage() {
   const t = useTranslations('guides.skatt.loggInn');
   const tNav = useTranslations('header');
+  const locale = useLocale();
 
   const stepsRaw = t.raw('steps') as { title: string; description: string; tip?: string; warning?: string }[];
   const steps = stepsRaw.map(step => ({
@@ -20,7 +22,21 @@ export default function SkattLoggInnPage() {
   const servicesRaw = t.raw('services') as string[];
   const problemsListRaw = t.raw('problemsList') as string[];
 
+  const howToSteps = stepsRaw.map(step => ({
+    name: step.title,
+    text: step.description
+  }));
+
   return (
+    <>
+    <HowToSchema
+      name={t('title')}
+      description={t('longDescription')}
+      steps={howToSteps}
+      totalTime="PT10M"
+      locale={locale}
+    />
+
     <div className="max-w-4xl mx-auto px-4 py-12">
       <Breadcrumbs
         items={[
@@ -77,5 +93,6 @@ export default function SkattLoggInnPage() {
         </ul>
       </div>
     </div>
+    </>
   );
 }

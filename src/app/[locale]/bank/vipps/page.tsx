@@ -3,11 +3,14 @@
 import Breadcrumbs from '@/components/Breadcrumbs';
 import PrintButton from '@/components/PrintButton';
 import StepGuide from '@/components/StepGuide';
+import { HowToSchema } from '@/components/StructuredData';
 import { useTranslations } from 'next-intl';
+import { useLocale } from 'next-intl';
 
 export default function VippsPage() {
   const t = useTranslations('guides.bank.vipps');
   const tNav = useTranslations('header');
+  const locale = useLocale();
 
   const stepsRaw = t.raw('steps') as { title: string; description: string; tip?: string; warning?: string }[];
   const steps = stepsRaw.map(step => ({
@@ -19,8 +22,22 @@ export default function VippsPage() {
 
   const whatYouNeedRaw = t.raw('whatYouNeed') as string[];
 
+  const howToSteps = stepsRaw.map(step => ({
+    name: step.title,
+    text: step.description
+  }));
+
   return (
-    <div className="max-w-4xl mx-auto px-4 py-12">
+    <>
+      <HowToSchema
+        name={t('title')}
+        description={t('longDescription')}
+        steps={howToSteps}
+        totalTime="PT10M"
+        locale={locale}
+      />
+
+      <div className="max-w-4xl mx-auto px-4 py-12">
       <Breadcrumbs
         items={[
           { label: tNav('bank'), href: '/bank' },
@@ -87,5 +104,6 @@ export default function VippsPage() {
         <p className="text-gray-700">{t('securityText')}</p>
       </div>
     </div>
+    </>
   );
 }

@@ -3,7 +3,8 @@
 import Breadcrumbs from '@/components/Breadcrumbs';
 import PrintButton from '@/components/PrintButton';
 import StepGuide from '@/components/StepGuide';
-import { useTranslations } from 'next-intl';
+import { HowToSchema } from '@/components/StructuredData';
+import { useTranslations, useLocale } from 'next-intl';
 
 const meldingSteps = [
   {
@@ -53,9 +54,24 @@ const meldingSteps = [
 
 export default function MeldingPage() {
   const tNav = useTranslations('header');
+  const locale = useLocale();
+
+  const howToSteps = meldingSteps.map(step => ({
+    name: step.title,
+    text: step.description
+  }));
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-12">
+    <>
+      <HowToSchema
+        name="Sende melding til legen"
+        description="Lær hvordan du kontakter fastlegen din digitalt. Slipper du å ringe og vente i kø."
+        steps={howToSteps}
+        totalTime="PT5M"
+        locale={locale}
+      />
+
+      <div className="max-w-4xl mx-auto px-4 py-12">
       <Breadcrumbs
         items={[
           { label: tNav('helse'), href: '/helse' },
@@ -149,5 +165,6 @@ export default function MeldingPage() {
         </div>
       </div>
     </div>
+    </>
   );
 }

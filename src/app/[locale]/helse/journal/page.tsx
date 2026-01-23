@@ -3,7 +3,8 @@
 import Breadcrumbs from '@/components/Breadcrumbs';
 import PrintButton from '@/components/PrintButton';
 import StepGuide from '@/components/StepGuide';
-import { useTranslations } from 'next-intl';
+import { HowToSchema } from '@/components/StructuredData';
+import { useTranslations, useLocale } from 'next-intl';
 
 const journalSteps = [
   {
@@ -44,9 +45,24 @@ const journalSteps = [
 
 export default function JournalPage() {
   const tNav = useTranslations('header');
+  const locale = useLocale();
+
+  const howToSteps = journalSteps.map(step => ({
+    name: step.title,
+    text: step.description
+  }));
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-12">
+    <>
+      <HowToSchema
+        name="Lese pasientjournalen din"
+        description="Lær hvordan du kan lese din egen helsejournal på nett. Du har rett til å se hva som er skrevet om deg."
+        steps={howToSteps}
+        totalTime="PT10M"
+        locale={locale}
+      />
+
+      <div className="max-w-4xl mx-auto px-4 py-12">
       <Breadcrumbs
         items={[
           { label: tNav('helse'), href: '/helse' },
@@ -128,5 +144,6 @@ export default function JournalPage() {
         </div>
       </div>
     </div>
+    </>
   );
 }

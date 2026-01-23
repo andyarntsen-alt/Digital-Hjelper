@@ -4,7 +4,9 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import FavoriteButton from '@/components/FavoriteButton';
 import PrintButton from '@/components/PrintButton';
 import StepGuide from '@/components/StepGuide';
+import { HowToSchema } from '@/components/StructuredData';
 import { useTranslations } from 'next-intl';
+import { useLocale } from 'next-intl';
 import { useState } from 'react';
 
 const svindelSteps = [
@@ -138,13 +140,28 @@ const sjekklisteItems = [
 
 export default function SvindelPage() {
   const tNav = useTranslations('header');
+  const locale = useLocale();
   const [expandedType, setExpandedType] = useState<number | null>(null);
   const [sjekklisteAnswers, setSjekklisteAnswers] = useState<boolean[]>(new Array(sjekklisteItems.length).fill(false));
 
   const warningCount = sjekklisteAnswers.filter(a => a).length;
 
+  const howToSteps = svindelSteps.map(step => ({
+    name: step.title,
+    text: step.description
+  }));
+
   return (
-    <div className="max-w-4xl mx-auto px-4 py-12">
+    <>
+      <HowToSchema
+        name="Unngå svindel"
+        description="Lær å gjenkjenne og unngå svindelforsøk på telefon, SMS og e-post. Spesielt viktig for eldre."
+        steps={howToSteps}
+        totalTime="PT15M"
+        locale={locale}
+      />
+
+      <div className="max-w-4xl mx-auto px-4 py-12">
       <Breadcrumbs
         items={[
           { label: tNav('sikkerhet'), href: '/sikkerhet' },
@@ -396,5 +413,6 @@ export default function SvindelPage() {
         </div>
       </div>
     </div>
+    </>
   );
 }
