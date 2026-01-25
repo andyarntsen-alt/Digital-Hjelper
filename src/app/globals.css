@@ -449,4 +449,35 @@ select {
   @page {
     margin: 2cm;
   }
+
+  /* Vis alle collapsed/hidden seksjoner ved utskrift */
+  [class*="hidden"],
+  .collapse,
+  [data-state="closed"] > *,
+  details:not([open]) > *:not(summary) {
+    display: block !important;
+    visibility: visible !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+  /* Ekspander alle expandable sections */
+  details {
+    open: true;
+  }
+
+  details > * {
+    display: block !important;
+  }
+
+  /* Vis innhold i svindel-typer (expandable cards) */
+  .space-y-4 > div > div:last-child {
+    display: block !important;
+  }
+
+  /* Checkbox sjekkliste - vis alle warnings */
+  input[type="checkbox"] + div p:last-child,
+  label > div > p:last-child {
+    display: block !important;
+  }
 }

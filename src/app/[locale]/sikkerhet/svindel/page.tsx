@@ -216,21 +216,20 @@ export default function SvindelPage() {
                     newAnswers[index] = !newAnswers[index];
                     setSjekklisteAnswers(newAnswers);
                   }}
-                  className="mt-1 h-5 w-5 rounded border-gray-300 text-red-600 focus:ring-red-500"
+                  className="print:hidden mt-1 h-5 w-5 rounded border-gray-300 text-red-600 focus:ring-red-500"
                 />
+                <span className="hidden print:inline-block mt-1 w-5 h-5 border-2 border-gray-400 rounded"></span>
                 <div>
                   <p className="font-semibold text-gray-800">{item.question}</p>
-                  {sjekklisteAnswers[index] && (
-                    <p className="text-red-700 text-sm mt-1">{item.warning}</p>
-                  )}
+                  <p className={`text-red-700 text-sm mt-1 ${sjekklisteAnswers[index] ? 'block' : 'hidden print:block'}`}>{item.warning}</p>
                 </div>
               </label>
             </div>
           ))}
         </div>
 
-        {/* Resultat */}
-        <div className={`mt-4 p-4 rounded-lg ${
+        {/* Resultat - skjul ved utskrift */}
+        <div className={`print:hidden mt-4 p-4 rounded-lg ${
           warningCount === 0
             ? 'bg-green-100 border border-green-400'
             : warningCount <= 2
@@ -244,6 +243,10 @@ export default function SvindelPage() {
           ) : (
             <p className="text-red-800 font-semibold text-lg">STOPP! {warningCount} varseltegn. Dette er sannsynligvis svindel. Ikke gjør noe!</p>
           )}
+        </div>
+        {/* Statisk melding for utskrift */}
+        <div className="hidden print:block mt-4 p-4 rounded-lg border border-gray-400">
+          <p className="font-semibold">Bruk sjekklisten over for å vurdere om du har blitt kontaktet av svindlere.</p>
         </div>
       </div>
 
@@ -270,7 +273,7 @@ export default function SvindelPage() {
                 </div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className={`h-6 w-6 text-gray-400 transition-transform ${expandedType === index ? 'rotate-180' : ''}`}
+                  className={`print:hidden h-6 w-6 text-gray-400 transition-transform ${expandedType === index ? 'rotate-180' : ''}`}
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -279,8 +282,7 @@ export default function SvindelPage() {
                 </svg>
               </button>
 
-              {expandedType === index && (
-                <div className="mt-4 pt-4 border-t border-gray-200 space-y-4">
+              <div className={`mt-4 pt-4 border-t border-gray-200 space-y-4 ${expandedType === index ? 'block' : 'hidden print:block'}`}>
                   <div className="bg-gray-50 p-4 rounded-lg">
                     <p className="font-semibold text-gray-800 mb-2">Slik fungerer det:</p>
                     <p className="text-gray-700">{type.howItWorks}</p>
@@ -303,7 +305,6 @@ export default function SvindelPage() {
                     <p className="text-gray-700">{type.whatToDo}</p>
                   </div>
                 </div>
-              )}
             </div>
           ))}
         </div>
