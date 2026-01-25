@@ -36,8 +36,8 @@ export default function StepGuide({ title, steps }: StepGuideProps) {
     <div className="card !p-4 sm:!p-6 md:!p-8">
       <h2 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6">{title}</h2>
 
-      {/* Fremdriftsindikator */}
-      <div className="mb-4 sm:mb-6">
+      {/* Fremdriftsindikator - skjul ved utskrift */}
+      <div className="print:hidden mb-4 sm:mb-6">
         <div className="flex justify-between items-center mb-1.5 sm:mb-2">
           <span className="font-medium text-sm sm:text-base">{t('progress')}</span>
           <span className="text-nav-blue font-bold text-sm sm:text-base">{progress}%</span>
@@ -94,7 +94,7 @@ export default function StepGuide({ title, steps }: StepGuideProps) {
               </div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className={`h-5 w-5 sm:h-6 sm:w-6 text-gray-400 transition-transform flex-shrink-0 ${currentStep === index ? 'rotate-180' : ''}`}
+                className={`print:hidden h-5 w-5 sm:h-6 sm:w-6 text-gray-400 transition-transform flex-shrink-0 ${currentStep === index ? 'rotate-180' : ''}`}
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -103,8 +103,7 @@ export default function StepGuide({ title, steps }: StepGuideProps) {
               </svg>
             </button>
 
-            {currentStep === index && (
-              <div className="px-3 pb-3 sm:px-4 sm:pb-4">
+            <div className={`px-3 pb-3 sm:px-4 sm:pb-4 ${currentStep === index ? 'block' : 'hidden print:block'}`}>
                 <div className="ml-0 sm:ml-11 md:ml-14">
                   <p className="text-gray-700 leading-relaxed mb-3 sm:mb-4 text-sm sm:text-base">
                     {step.description}
@@ -140,7 +139,7 @@ export default function StepGuide({ title, steps }: StepGuideProps) {
 
                   <button
                     onClick={() => handleComplete(index)}
-                    className={`mt-2 px-4 sm:px-6 py-2.5 sm:py-3 rounded-lg font-semibold transition-colors text-sm sm:text-base ${
+                    className={`print:hidden mt-2 px-4 sm:px-6 py-2.5 sm:py-3 rounded-lg font-semibold transition-colors text-sm sm:text-base ${
                       completedSteps.includes(index)
                         ? 'bg-green-100 text-green-700 cursor-default'
                         : 'bg-nav-blue text-white hover:bg-nav-dark active:bg-nav-dark'
@@ -161,13 +160,12 @@ export default function StepGuide({ title, steps }: StepGuideProps) {
                   </button>
                 </div>
               </div>
-            )}
           </div>
         ))}
       </div>
 
       {completedSteps.length === steps.length && (
-        <div className="mt-6 sm:mt-8 p-4 sm:p-6 bg-green-100 rounded-lg sm:rounded-xl text-center">
+        <div className="print:hidden mt-6 sm:mt-8 p-4 sm:p-6 bg-green-100 rounded-lg sm:rounded-xl text-center">
           <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 sm:h-16 sm:w-16 text-green-600 mx-auto mb-3 sm:mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
           </svg>
