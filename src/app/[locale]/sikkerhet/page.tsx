@@ -15,6 +15,11 @@ export default function SikkerhetPage() {
       time: '10 min',
     },
     {
+      guideKey: 'svindel',
+      href: '/sikkerhet/svindel',
+      time: '15 min',
+    },
+    {
       guideKey: 'phishing',
       href: '/sikkerhet/phishing',
       time: '10 min',

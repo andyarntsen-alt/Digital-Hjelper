@@ -1835,6 +1835,14 @@
         "ifClicked4": "Contact your bank if it concerns bank details",
         "ifClicked5": "Report the fraud to the police and Nettvett.no"
       },
+      "svindel": {
+        "title": "Avoid fraud",
+        "description": "Learn to recognize and avoid fraud attempts",
+        "longDescription": "Fraudsters use many methods to trick people. Here you learn to recognize the most common fraud methods and protect yourself.",
+        "backToGuides": "Back to Digital Security",
+        "time": "About 15 minutes",
+        "difficulty": "Easy"
+      },
       "passord": {
         "title": "Creating good passwords",
         "description": "How to create strong passwords that protect you",

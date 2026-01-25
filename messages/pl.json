@@ -1751,6 +1751,14 @@
         "ifClicked4": "Skontaktuj się z bankiem, jeśli chodzi o dane bankowe",
         "ifClicked5": "Zgłoś oszustwo policji i na Nettvett.no"
       },
+      "svindel": {
+        "title": "Unikanie oszustw",
+        "description": "Naucz się rozpoznawać i unikać prób oszustwa",
+        "longDescription": "Oszuści używają wielu metod, aby oszukać ludzi. Tutaj nauczysz się rozpoznawać najczęstsze metody oszustwa i chronić się.",
+        "backToGuides": "Powrót do Bezpieczeństwa cyfrowego",
+        "time": "Około 15 minut",
+        "difficulty": "Łatwy"
+      },
       "passord": {
         "title": "Tworzenie dobrych haseł",
         "description": "Jak tworzyć silne hasła, które cię chronią",

@@ -1751,6 +1751,14 @@
         "ifClicked4": "Kontakt banken din hvis det gjelder bankopplysninger",
         "ifClicked5": "Rapporter svindelen til politiet og Nettvett.no"
       },
+      "svindel": {
+        "title": "Уникнення шахрайства",
+        "description": "Навчіться розпізнавати та уникати спроб шахрайства",
+        "longDescription": "Шахраї використовують багато методів, щоб обманути людей. Тут ви навчитеся розпізнавати найпоширеніші методи шахрайства та захищати себе.",
+        "backToGuides": "Назад до Цифрова безпека",
+        "time": "Близько 15 хвилин",
+        "difficulty": "Легкий"
+      },
       "passord": {
         "title": "Lage gode passord",
         "description": "Slik lager du sterke passord som beskytter deg",

@@ -1785,6 +1785,14 @@
         "ifClicked4": "Kontakt banken din hvis det gjelder bankopplysninger",
         "ifClicked5": "Rapporter svindelen til politiet og Nettvett.no"
       },
+      "svindel": {
+        "title": "Unngå svindel",
+        "description": "Lær å gjenkjenne og unngå svindelforsøk",
+        "longDescription": "Svindlere bruker mange metoder for å lure folk. Her lærer du å gjenkjenne de vanligste svindelmetodene og beskytte deg selv.",
+        "backToGuides": "Tilbake til Digital sikkerhet",
+        "time": "Ca. 15 minutter",
+        "difficulty": "Enkel"
+      },
       "passord": {
         "title": "Lage gode passord",
         "description": "Slik lager du sterke passord som beskytter deg",

@@ -1751,6 +1751,14 @@
         "ifClicked4": "Kontakt banken din hvis det gjelder bankopplysninger",
         "ifClicked5": "Rapporter svindelen til politiet og Nettvett.no"
       },
+      "svindel": {
+        "title": "تجنب الاحتيال",
+        "description": "تعلم كيفية التعرف على محاولات الاحتيال وتجنبها",
+        "longDescription": "يستخدم المحتالون طرقاً عديدة لخداع الناس. هنا تتعلم التعرف على أكثر طرق الاحتيال شيوعاً وحماية نفسك.",
+        "backToGuides": "العودة إلى الأمان الرقمي",
+        "time": "حوالي 15 دقيقة",
+        "difficulty": "سهل"
+      },
       "passord": {
         "title": "Lage gode passord",
         "description": "Slik lager du sterke passord som beskytter deg",

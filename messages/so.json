@@ -1751,6 +1751,14 @@
         "ifClicked4": "Kontakt banken din hvis det gjelder bankopplysninger",
         "ifClicked5": "Rapporter svindelen til politiet og Nettvett.no"
       },
+      "svindel": {
+        "title": "Ka fogaanshaha khiyaanada",
+        "description": "Baro sida loo aqoonsado oo looga fogaado isku dayga khiyaanada",
+        "longDescription": "Khiyaanayaashu waxay isticmaalaan qaabab badan si ay dadka u khiyaaneeyaan. Halkan waxaad baranaysaa sida loo aqoonsado qaababka khiyaanada ee ugu caadisan iyo sida aad isu difaacdo.",
+        "backToGuides": "Ku laabo Amniga Dhijitaalka",
+        "time": "Qiyaastii 15 daqiiqo",
+        "difficulty": "Fudud"
+      },
       "passord": {
         "title": "Samaynta furaha sirta wanaagsan",
         "description": "Sida loo sameeyo furaha sirta xoog leh oo ku ilaaliya",
