@@ -1299,15 +1299,121 @@
       },
       "skattekort": {
         "title": "Zmień kartę podatkową",
-        "description": "Jak zmienić swoją kartę podatkową"
+        "description": "Jak zmienić swoją kartę podatkową",
+        "longDescription": "Karta podatkowa określa, ile podatku jest potrącane z twojej wypłaty każdego miesiąca. Jeśli zmieni się twoja sytuacja życiowa, powinieneś ją zaktualizować.",
+        "time": "Około 15 minut",
+        "difficulty": "Średni",
+        "whatIsTitle": "Czym jest karta podatkowa?",
+        "whatIsText": "Karta podatkowa informuje pracodawcę, ile podatku potrącać z twojej wypłaty. Opiera się na przewidywanym dochodzie i odliczeniach.",
+        "cardTypes": [
+          {"type": "Numer tabeli", "desc": "Używany do stałego miesięcznego potrącenia. Najczęstszy dla pracowników etatowych."},
+          {"type": "Karta procentowa", "desc": "Stały procent jest potrącany niezależnie od kwoty. Często używana przy dodatkowych pracach."}
+        ],
+        "whenToChangeTitle": "Kiedy zmienić kartę podatkową?",
+        "whenToChangeList": [
+          "Dostałeś nową pracę z wyższą lub niższą pensją",
+          "Zacząłeś lub skończyłeś dodatkową pracę",
+          "Wziąłeś kredyt mieszkaniowy (duże wydatki na odsetki)",
+          "Zostałeś samotnym rodzicem lub dostałeś partnera",
+          "Urodziło ci się dziecko (odliczenie na dzieci)",
+          "Płacisz za dużo lub za mało podatku"
+        ],
+        "stepsTitle": "Jak zmienić kartę podatkową",
+        "steps": [
+          {"title": "Zaloguj się na skatteetaten.no", "description": "Przejdź do skatteetaten.no i zaloguj się za pomocą BankID. Kliknij \"Logg inn\" w prawym górnym rogu."},
+          {"title": "Znajdź \"Skattekort\"", "description": "Po zalogowaniu znajdź \"Skattekort\" w menu lub na stronie głównej. Kliknij, aby zobaczyć swoją obecną kartę podatkową."},
+          {"title": "Zobacz obecną kartę podatkową", "description": "Teraz widzisz swoją kartę podatkową z numerem tabeli i stawką procentową. Numer tabeli jest używany przez pracodawcę do potrącania odpowiedniej kwoty podatku.", "tip": "Numer tabeli 7100 jest standardowy dla większości. Niższy numer = mniejsze potrącenie podatkowe."},
+          {"title": "Kliknij \"Endre skattekort\"", "description": "Jeśli chcesz zmienić kartę podatkową, kliknij \"Endre\" lub \"Bestill nytt skattekort\"."},
+          {"title": "Podaj zmiany w dochodzie", "description": "Wpisz, ile spodziewasz się zarobić w tym roku. Jeśli dostałeś nową pracę, wyższą pensję lub straciłeś dochód, zaktualizuj to.", "tip": "Bądź jak najdokładniejszy. Zawyżona ocena = za dużo podatku. Zaniżona = dopłata."},
+          {"title": "Dodaj znane odliczenia", "description": "Jeśli wiesz, że będziesz mieć duże odliczenia (kredyt hipoteczny, koszty dojazdu), możesz to teraz wpisać, aby zmniejszyć potrącenie podatkowe.", "warning": "Nie przesadzaj z odliczeniami - ryzykujesz dopłatą w następnym roku."},
+          {"title": "Zobacz nowe potrącenie podatkowe", "description": "Kalkulator pokaże ci, jakie będzie nowe potrącenie podatkowe. Porównaj z obecnym, aby zobaczyć zmianę."},
+          {"title": "Potwierdź zmianę", "description": "Jeśli jesteś zadowolony, kliknij \"Bestill\" lub \"Bekreft\". Nowa karta podatkowa zostanie automatycznie wysłana do twojego pracodawcy.", "tip": "Pracodawca otrzyma nową kartę podatkową elektronicznie w ciągu kilku dni."}
+        ],
+        "tooMuchTaxTitle": "Płacisz za dużo podatku?",
+        "tooMuchTaxText": "Jeśli co roku dostajesz dużo pieniędzy z powrotem, prawdopodobnie płacisz za dużo.",
+        "tooMuchTaxSolution": "Zmień kartę podatkową, aby co miesiąc dostawać więcej na rękę, zamiast czekać na rozliczenie podatkowe.",
+        "tooLittleTaxTitle": "Płacisz za mało podatku?",
+        "tooLittleTaxText": "Jeśli często masz dopłatę, powinieneś zwiększyć potrącenie podatkowe.",
+        "tooLittleTaxSolution": "Zmień kartę podatkową, aby co miesiąc potrącać więcej podatku i uniknąć dużych rachunków w czerwcu.",
+        "tipTitle": "Dobrze wiedzieć!",
+        "tipText": "Nowa karta podatkowa na następny rok przychodzi automatycznie w grudniu. Nie musisz jej zamawiać sam, chyba że chcesz wprowadzić zmiany."
       },
       "skatteoppgjoer": {
         "title": "Zobacz rozliczenie podatkowe",
-        "description": "Znajdź i zrozum swoje rozliczenie podatkowe"
+        "description": "Znajdź i zrozum swoje rozliczenie podatkowe",
+        "longDescription": "Dowiedz się, jak znaleźć i zrozumieć rozliczenie podatkowe. Sprawdź, czy dostaniesz pieniądze z powrotem, czy musisz dopłacić.",
+        "time": "Około 5 minut",
+        "difficulty": "Łatwy",
+        "whenTitle": "Kiedy przychodzi rozliczenie podatkowe?",
+        "whenList": [
+          {"label": "Złożyłeś w marcu", "text": "Rozliczenie podatkowe w czerwcu"},
+          {"label": "Złożyłeś w kwietniu", "text": "Rozliczenie podatkowe w sierpniu"},
+          {"label": "Złożyłeś później", "text": "Rozliczenie podatkowe w październiku-listopadzie"}
+        ],
+        "whenNote": "Otrzymasz SMS lub e-mail, gdy rozliczenie podatkowe będzie gotowe.",
+        "stepsTitle": "Jak znaleźć rozliczenie podatkowe",
+        "steps": [
+          {"title": "Przejdź do skatteetaten.no", "description": "Otwórz przeglądarkę i wpisz \"skatteetaten.no\" w pasku adresu.", "tip": "Możesz też wyszukać \"Skatteetaten\" w Google."},
+          {"title": "Zaloguj się za pomocą BankID", "description": "Kliknij \"Logg inn\" na górze strony. Wybierz BankID i postępuj zgodnie z instrukcjami."},
+          {"title": "Znajdź \"Skatteoppgjør\"", "description": "Po zalogowaniu znajdź i kliknij \"Skatteoppgjør\" lub \"Se skatteoppgjøret\". Zwykle można to znaleźć na stronie głównej po zalogowaniu.", "tip": "Rozliczenie podatkowe zwykle przychodzi w czerwcu-październiku, w zależności od tego, kiedy złożyłeś zeznanie podatkowe."},
+          {"title": "Wybierz rok", "description": "Jeśli chcesz zobaczyć stare rozliczenia podatkowe, wybierz odpowiedni rok z listy. Najnowsze jest zwykle na górze."},
+          {"title": "Przeczytaj rozliczenie podatkowe", "description": "Teraz widzisz przegląd swoich podatków. Najważniejsze liczby to: \"Fastsatt skatt\" (ile musisz zapłacić łącznie), \"Innbetalt forskuddsskatt/skattetrekk\" (ile już zapłaciłeś) i \"Restskatt/Til gode\" (czy jesteś dłużny, czy dostaniesz zwrot).", "tip": "Zielona kwota = pieniądze do odebrania. Czerwona kwota = dopłata do zapłacenia."},
+          {"title": "Zrozum wynik", "description": "Jeśli masz pieniądze do odebrania, zostaną automatycznie przelane na twoje konto. Jeśli masz dopłatę, otrzymasz informację, kiedy i jak zapłacić.", "warning": "Dopłata powyżej 1000 koron jest dzielona na dwie raty. Sprawdź terminy płatności!"},
+          {"title": "Pobierz rozliczenie podatkowe", "description": "Możesz pobrać rozliczenie podatkowe jako PDF, klikając \"Last ned\" lub \"Skriv ut\". Może to być przydatne do wniosków kredytowych lub dokumentacji."}
+        ],
+        "moneyBackTitle": "Pieniądze do odebrania?",
+        "moneyBackText": "Jeśli masz pieniądze do odebrania, zostaną automatycznie przelane na konto zarejestrowane w Urzędzie Skarbowym.",
+        "moneyBackList": ["Wypłata zwykle następuje w ciągu 3 tygodni", "Sprawdź, czy twój numer konta jest aktualny"],
+        "additionalTaxTitle": "Dopłata?",
+        "additionalTaxText": "Jeśli masz dopłatę, musisz zapłacić przed terminem, aby uniknąć odsetek.",
+        "additionalTaxList": [
+          {"label": "Poniżej 1000 koron", "text": "Płatne w jednej racie"},
+          {"label": "Powyżej 1000 koron", "text": "Dzielone na dwie raty (zwykle sierpień i październik)"},
+          {"label": "", "text": "Możesz zapłacić przez bankowość internetową - użyj numeru KID z rozliczenia podatkowego"}
+        ],
+        "faqTitle": "Często zadawane pytania",
+        "faq": [
+          {"q": "Myślę, że rozliczenie podatkowe jest błędne", "a": "Możesz odwołać się od rozliczenia podatkowego w ciągu 6 tygodni. Przejdź do \"Klage på skatteoppgjøret\" na skatteetaten.no."},
+          {"q": "Czy mogę zmienić numer konta do wypłaty?", "a": "Tak, zaloguj się na skatteetaten.no i zaktualizuj numer konta w sekcji \"Min profil\"."},
+          {"q": "Nie stać mnie na zapłacenie dopłaty", "a": "Możesz złożyć wniosek o umowę płatniczą w Urzędzie Skarbowym. Skontaktuj się z nimi jak najszybciej."}
+        ]
       },
       "skatteattest": {
         "title": "Zamów zaświadczenie podatkowe",
-        "description": "Jak zamówić zaświadczenie podatkowe"
+        "description": "Jak zamówić zaświadczenie podatkowe",
+        "longDescription": "Dowiedz się, jak zamówić zaświadczenie podatkowe online. Otrzymasz je od razu, całkowicie za darmo.",
+        "time": "Około 5 minut",
+        "difficulty": "Łatwy",
+        "whatIsTitle": "Czym jest zaświadczenie podatkowe?",
+        "whatIsText": "Zaświadczenie podatkowe to dokument potwierdzający, że ty lub twoja firma nie macie zaległości podatkowych wobec państwa.",
+        "whatIsNeededFor": "Możesz potrzebować zaświadczenia podatkowego do:",
+        "whatIsNeededForList": [
+          "Składania ofert na zamówienia publiczne",
+          "Ubiegania się o licencję gastronomiczną",
+          "Dokumentowania statusu podatkowego dla banku lub innych instytucji"
+        ],
+        "stepsTitle": "Jak zamówić zaświadczenie podatkowe",
+        "steps": [
+          {"title": "Przejdź do skatteetaten.no", "description": "Otwórz przeglądarkę i wpisz \"skatteetaten.no\" w pasku adresu."},
+          {"title": "Zaloguj się za pomocą BankID", "description": "Kliknij \"Logg inn\" na górze strony. Wybierz BankID i postępuj zgodnie z instrukcjami."},
+          {"title": "Znajdź \"Skatteattest\"", "description": "Po zalogowaniu użyj pola wyszukiwania i wpisz \"skatteattest\". Kliknij wynik \"Bestill skatteattest\" lub podobny.", "tip": "Możesz też znaleźć to w sekcji \"Bestillinger\" lub \"Attester og bekreftelser\"."},
+          {"title": "Wybierz typ zaświadczenia podatkowego", "description": "Istnieją różne typy zaświadczeń podatkowych. Wybierz odpowiedni dla twojego celu: \"Skatteattest for offentlige anskaffelser\" jest najczęstszy.", "warning": "Sprawdź u odbiorcy, jakiego typu zaświadczenia potrzebuje."},
+          {"title": "Wypełnij informacje", "description": "Możesz zostać poproszony o podanie, do czego będzie używane zaświadczenie. Wypełnij wymagane pola."},
+          {"title": "Zamów zaświadczenie", "description": "Kliknij \"Bestill\" lub \"Send bestilling\". Zaświadczenie jest zwykle tworzone od razu.", "tip": "Większość zaświadczeń podatkowych można od razu pobrać jako PDF."},
+          {"title": "Pobierz zaświadczenie", "description": "Gdy zaświadczenie będzie gotowe, kliknij \"Last ned\" lub \"Åpne\". Zapisz plik na komputerze.", "tip": "Zaświadczenie podatkowe jest ważne przez 6 miesięcy od daty wystawienia."}
+        ],
+        "importantTitle": "Ważne do zapamiętania",
+        "importantList": [
+          {"label": "Okres ważności", "text": "Zaświadczenie podatkowe jest ważne przez 6 miesięcy od daty wystawienia"},
+          {"label": "Bezpłatne", "text": "Zamówienie zaświadczenia podatkowego jest bezpłatne"},
+          {"label": "Zaległości podatkowe", "text": "Jeśli masz zaległości podatkowe, nie otrzymasz zaświadczenia, dopóki dług nie zostanie spłacony"}
+        ],
+        "faqTitle": "Często zadawane pytania",
+        "faq": [
+          {"q": "Nie mogę dostać zaświadczenia podatkowego, bo mam zaległości", "a": "Najpierw musisz spłacić zaległości podatkowe. Zaloguj się na skatteetaten.no, aby sprawdzić, ile jesteś winien, i zapłacić."},
+          {"q": "Czy mogę zamówić zaświadczenie podatkowe dla mojej firmy?", "a": "Tak, ale musisz mieć uprawnienia w Altinn dla firmy. Zaloguj się za pomocą BankID i wybierz swoją firmę."},
+          {"q": "Jak wysłać zaświadczenie podatkowe komuś?", "a": "Pobierz plik PDF i wyślij go jako załącznik e-maila, lub wydrukuj i dostarcz fizycznie."}
+        ]
       },
       "loggInn": {
         "title": "Zaloguj się do Urzędu Skarbowego",
@@ -1427,7 +1533,20 @@
         "cancelTitle": "Chcesz odwołać?",
         "cancelText": "Możesz odwołać lub zmienić wizytę na Helsenorge. Przejdź do \"Timeavtaler\" i kliknij wizytę, którą chcesz zmienić. Najlepiej odwołaj co najmniej 24 godziny wcześniej, żeby inni mogli skorzystać z terminu.",
         "cantBookOnlineTitle": "Nie możesz zarezerwować online?",
-        "cantBookOnlineText": "Niektóre przychodnie nie oferują rezerwacji online. Wtedy musisz zadzwonić bezpośrednio do przychodni. Numer telefonu znajdziesz na helsenorge.no w sekcji \"Min fastlege\"."
+        "cantBookOnlineText": "Niektóre przychodnie nie oferują rezerwacji online. Wtedy musisz zadzwonić bezpośrednio do przychodni. Numer telefonu znajdziesz na helsenorge.no w sekcji \"Min fastlege\".",
+        "benefitsTitle": "Korzyści z rezerwacji online",
+        "benefits": [
+          "Otwarte 24 godziny na dobę, 7 dni w tygodniu",
+          "Nie musisz czekać na linii telefonicznej",
+          "Widzisz wszystkie dostępne terminy od razu",
+          "Możesz łatwo zmienić lub odwołać wizytę"
+        ],
+        "faqTitle": "Co zrobić, jeśli...",
+        "faq": [
+          {"q": "...nie ma dostępnych terminów?", "a": "Zadzwoń do przychodni. Mogą mieć miejsca na odwołania lub mogą pomóc ci w pilnej sprawie."},
+          {"q": "...to pilne?", "a": "Przy pilnych sprawach zadzwoń bezpośrednio do przychodni lub na legevakten (116 117)."},
+          {"q": "...muszę przejść badania?", "a": "Umów zwykłą wizytę i opisz w wiadomości, jakie badanie ma być wykonane. Lekarz przygotuje się wtedy."}
+        ]
       },
       "resepter": {
         "title": "Zobacz i odnów recepty",
@@ -1474,7 +1593,28 @@
           "Zawsze miej wystarczająco dużo leku, żeby poczekać na odnowienie przez lekarza",
           "Niektóre leki wymagają wizyty u lekarza przed odnowieniem (np. leki na ciśnienie)",
           "E-recepta jest ważna przez 1 rok od wystawienia"
-        ]
+        ],
+        "whatYouFindTitle": "Co znajdziesz w przeglądzie recept",
+        "whatYouFind": [
+          "Wszystkie aktywne recepty",
+          "Recepty, które wygasły",
+          "Ile realizacji zostało",
+          "Kiedy recepta wygasa"
+        ],
+        "prescriptionTypesTitle": "Rodzaje recept",
+        "prescriptionTypes": [
+          {"type": "E-recepta", "desc": "Nowoczesna recepta przechowywana cyfrowo. Najczęstszy typ obecnie."},
+          {"type": "Recepta papierowa", "desc": "Starszy typ, który niektórzy lekarze nadal używają. Musi być fizycznie dostarczona do apteki."},
+          {"type": "Recepta H", "desc": "Dla leków z zakładu opieki zdrowotnej."}
+        ],
+        "faqTitle": "Często zadawane pytania",
+        "faq": [
+          {"q": "Dlaczego nie widzę mojej recepty?", "a": "Może to być recepta papierowa lub może jeszcze nie dotarła do systemu. Poczekaj 1-2 dni lub skontaktuj się z lekarzem."},
+          {"q": "Jak długo ważna jest moja recepta?", "a": "Większość recept jest ważna przez 1 rok. Recepty na niektóre leki mogą mieć krótszą ważność."},
+          {"q": "Czy mogę odebrać leki w innej aptece?", "a": "Tak, e-recepty możesz zrealizować w dowolnej aptece w całej Norwegii."}
+        ],
+        "tipBoxTitle": "Wskazówka",
+        "tipBoxText": "Możesz ustawić przypomnienia na telefonie, gdy twój lek się kończy. Wtedy nie zapomnisz poprosić o odnowienie na czas."
       },
       "bytteFastlege": {
         "title": "Zmień lekarza pierwszego kontaktu",
@@ -1521,7 +1661,13 @@
           }
         ],
         "noSpaceTitle": "Brak wolnych miejsc?",
-        "noSpaceText": "Jeśli lekarz, którego chcesz, jest pełny, możesz zapisać się na listę oczekujących. Otrzymasz wiadomość, gdy będzie wolne miejsce. Możesz też spróbować zadzwonić do przychodni - czasami mają miejsca, które nie są widoczne online."
+        "noSpaceText": "Jeśli lekarz, którego chcesz, jest pełny, możesz zapisać się na listę oczekujących. Otrzymasz wiadomość, gdy będzie wolne miejsce. Możesz też spróbować zadzwonić do przychodni - czasami mają miejsca, które nie są widoczne online.",
+        "faqTitle": "Często zadawane pytania",
+        "faq": [
+          {"q": "Jak szybko następuje zmiana?", "a": "Zmiana obowiązuje od 1. dnia następnego miesiąca po złożeniu wniosku."},
+          {"q": "Czy moja dokumentacja jest przenoszona automatycznie?", "a": "Tak, dokumentacja medyczna jest automatycznie przenoszona do nowej przychodni."},
+          {"q": "Czy mogę zmienić z powrotem?", "a": "Tak, ale możesz zmieniać lekarza maksymalnie 2 razy w ciągu 12 miesięcy."}
+        ]
       },
       "journal": {
         "title": "Przeczytaj dokumentację medyczną",
@@ -1560,7 +1706,20 @@
           }
         ],
         "delayTitle": "Dlaczego nie widzę wszystkiego?",
-        "delayText": "Niektóre dokumentacje mają opóźnienie o kilka dni, zanim możesz je zobaczyć. To po to, żeby lekarz miał czas poinformować cię najpierw, jeśli jest coś ważnego. Szpitale i specjaliści mogą mieć dłuższe opóźnienia."
+        "delayText": "Niektóre dokumentacje mają opóźnienie o kilka dni, zanim możesz je zobaczyć. To po to, żeby lekarz miał czas poinformować cię najpierw, jeśli jest coś ważnego. Szpitale i specjaliści mogą mieć dłuższe opóźnienia.",
+        "whatYouFindTitle": "Co znajdziesz w dokumentacji",
+        "whatYouFind": [
+          "Notatki z wizyt",
+          "Diagnozy i leczenie",
+          "Wyniki badań",
+          "Skierowania i zalecenia"
+        ],
+        "faqTitle": "Często zadawane pytania",
+        "faq": [
+          {"q": "Dlaczego nie widzę wszystkich notatek?", "a": "Niektóre dokumentacje mają opóźnienie o kilka dni. Lekarz najpierw chce mieć czas na poinformowanie cię osobiście."},
+          {"q": "Mogę poprosić o poprawienie błędów?", "a": "Tak, możesz skontaktować się z lekarzem i poprosić o poprawienie faktycznych błędów w dokumentacji."},
+          {"q": "Czy moja dokumentacja jest poufna?", "a": "Tak, tylko ty i upoważniony personel medyczny macie dostęp do twojej dokumentacji."}
+        ]
       },
       "melding": {
         "title": "Wyślij wiadomość do lekarza",
@@ -1613,6 +1772,12 @@
             "description": "Lekarz zwykle odpowiada w ciągu 1-3 dni roboczych. Otrzymasz powiadomienie SMS lub e-mail, gdy nadejdzie odpowiedź. Zaloguj się na Helsenorge, aby przeczytać odpowiedź.",
             "warning": "W przypadku nagłych dolegliwości nie czekaj na odpowiedź - zadzwoń na dyżur lekarski (116 117) lub pogotowie (113)."
           }
+        ],
+        "faqTitle": "Często zadawane pytania",
+        "faq": [
+          {"q": "Jak szybko otrzymam odpowiedź?", "a": "Przychodnie zazwyczaj odpowiadają w ciągu 1-3 dni roboczych. Przy pilnych sprawach zadzwoń."},
+          {"q": "Czy wiadomość jest poufna?", "a": "Tak, wiadomości są szyfrowane i tylko ty i przychodnia macie do nich dostęp."},
+          {"q": "Czy mogę wysyłać zdjęcia?", "a": "Tak, możesz załączać zdjęcia do wiadomości, na przykład zdjęcia wysypek lub ran."}
         ]
       },
       "loggInn": {
@@ -1837,7 +2002,107 @@
         "longDescription": "Oszuści używają wielu metod, aby oszukać ludzi. Tutaj nauczysz się rozpoznawać najczęstsze metody oszustwa i chronić się.",
         "backToGuides": "Powrót do Bezpieczeństwa cyfrowego",
         "time": "Około 15 minut",
-        "difficulty": "Łatwy"
+        "difficulty": "Łatwy",
+        "checklistTitle": "Czy to prawdziwe? - Lista kontrolna",
+        "checklistIntro": "Otrzymałeś telefon, SMS lub e-mail, co do którego masz wątpliwości? Odpowiedz na poniższe pytania:",
+        "checklistItems": [
+          {"question": "Czy oni skontaktowali się z TOBĄ jako pierwsi?", "warning": "Prawdziwe banki i urzędy rzadko kontaktują się z tobą bez uprzedzenia."},
+          {"question": "Czy proszą o hasło, BankID lub numer PESEL?", "warning": "NIGDY nie podawaj tego - prawdziwi nadawcy nigdy o to nie proszą!"},
+          {"question": "Czy to bardzo pilne?", "warning": "Oszuści zawsze tworzą pośpiech. Prawdziwe sprawy mogą poczekać do jutra."},
+          {"question": "Czy musisz zapłacić, żeby coś otrzymać?", "warning": "Prawdziwe nagrody i spadki nigdy nie wymagają zapłaty z góry."},
+          {"question": "Czy to brzmi zbyt dobrze, żeby było prawdziwe?", "warning": "To prawie zawsze oznacza, że jest zbyt dobre, żeby było prawdziwe."},
+          {"question": "Czy masz trzymać to w tajemnicy?", "warning": "Oszuści nie chcą, żebyś rozmawiał z innymi, którzy mogliby ich zdemaskować."},
+          {"question": "Czy chcą gotówki lub kart podarunkowych?", "warning": "Prawdziwe firmy nigdy nie przyjmują płatności kartami podarunkowymi."}
+        ],
+        "checklistResultSafe": "Wygląda bezpiecznie, ale zawsze bądź czujny!",
+        "checklistResultCaution": "Bądź ostrożny! {count} znaków ostrzegawczych. Porozmawiaj z kimś, komu ufasz, zanim cokolwiek zrobisz.",
+        "checklistResultDanger": "STOP! {count} znaków ostrzegawczych. To prawdopodobnie oszustwo. Nie rób nic!",
+        "checklistPrintMessage": "Użyj powyższej listy kontrolnej, aby ocenić, czy skontaktowali się z tobą oszuści.",
+        "elderScamTitle": "Oszustwa skierowane na starsze osoby",
+        "elderScamIntro": "Oszuści często celują w starsze osoby, ponieważ mogą być bardziej ufne i mieć oszczędności. Oto najczęstsze typy:",
+        "elderScamTypes": [
+          {
+            "title": "Oszustwo na wnuka",
+            "description": "Ktoś dzwoni i podaje się za twojego wnuka. Mówi, że jest w tarapatach i pilnie potrzebuje pieniędzy - często na adwokata, kaucję lub rachunek szpitalny.",
+            "howItWorks": "Oszust dzwoni i mówi \"Cześć babciu/dziadku, to ja!\" i liczy, że powiesz imię swojego wnuka. Wtedy podszywa się pod tę osobę.",
+            "redFlags": ["Proszą, żebyś NIE mówił ich rodzicom", "Potrzebują pieniędzy BARDZO szybko", "Chcą gotówki lub kart podarunkowych", "Głos brzmi \"inaczej\" - mówią, że są przeziębieni"],
+            "whatToDo": "Rozłącz się i zadzwoń do wnuka pod numer, który masz zapisany. Zapytaj o coś, co wiecie tylko wy dwoje.",
+            "icon": "👴"
+          },
+          {
+            "title": "Oszustwo Microsoft/Apple",
+            "description": "Ktoś dzwoni i mówi, że jest z Microsoft, Apple lub \"wsparcia technicznego\". Twierdzą, że twój komputer ma wirusa i muszą ci pomóc go usunąć.",
+            "howItWorks": "Nakłaniają cię do zainstalowania programu, który daje im kontrolę nad twoim komputerem. Potem \"znajdują\" problemy i żądają zapłaty.",
+            "redFlags": ["Microsoft i Apple NIGDY nie dzwonią bez uprzedzenia", "Proszą o zdalny dostęp do komputera", "Chcą płatności kartami podarunkowymi lub kryptowalutami", "Grożą, że komputer przestanie działać"],
+            "whatToDo": "Natychmiast się rozłącz. Prawdziwe wsparcie techniczne nigdy nie dzwoni do ciebie jako pierwsze.",
+            "icon": "💻"
+          },
+          {
+            "title": "Oszustwo romantyczne",
+            "description": "Ktoś, kogo poznałeś w internecie (często na Facebooku lub portalach randkowych), mówi, że jest w tobie zakochany. Z czasem prosi o pieniądze.",
+            "howItWorks": "Budują relację przez tygodnie lub miesiące. Potem pojawia się \"kryzys\" - potrzebują pieniędzy na bilet, leczenie lub cło.",
+            "redFlags": ["Nigdy nie mogą się spotkać osobiście", "Bardzo szybko wyznają miłość", "Zawsze mają wymówki, żeby nie dzwonić przez wideo", "Proszą o pieniądze - z jakiegokolwiek powodu"],
+            "whatToDo": "Nigdy nie wysyłaj pieniędzy osobom, które znasz tylko z internetu. Porozmawiaj z rodziną lub przyjaciółmi o tej relacji.",
+            "icon": "💔"
+          },
+          {
+            "title": "Oszustwo loteryjne",
+            "description": "Dostajesz informację, że wygrałeś w loterii, w której nigdy nie brałeś udziału. Ale musisz zapłacić \"opłatę\" lub \"podatek\", żeby otrzymać nagrodę.",
+            "howItWorks": "Wysyłają e-mail lub dzwonią z \"dobrymi wiadomościami\". Żeby dostać milionową nagrodę, musisz tylko najpierw zapłacić małą kwotę.",
+            "redFlags": ["Nie kupowałeś losu ani nie brałeś udziału w konkursie", "Musisz zapłacić, żeby otrzymać nagrodę", "Proszą o dane bankowe do \"przelania nagrody\"", "Nagroda jest w obcej walucie"],
+            "whatToDo": "Zignoruj to. Nie możesz wygrać w loteriach, w których nie brałeś udziału.",
+            "icon": "🎰"
+          },
+          {
+            "title": "Oszustwo inwestycyjne",
+            "description": "Ktoś obiecuje fantastyczne zyski z inwestycji w akcje, kryptowaluty lub inne \"możliwości\".",
+            "howItWorks": "Kontaktują się z tobą z \"unikalną możliwością\". Często pokazują fałszywe strony internetowe, które wyglądają, jakby twoje inwestycje rosły.",
+            "redFlags": ["Zyski są zbyt dobre, żeby były prawdziwe (20-50% lub więcej)", "Naciskają, żebyś szybko zainwestował", "Nigdy nie słyszałeś o tej firmie", "Dzwonią z zagranicy lub mają obcy akcent"],
+            "whatToDo": "Porozmawiaj ze swoim bankiem przed inwestowaniem. Sprawdź listę ostrzeżeń nadzoru finansowego.",
+            "icon": "📈"
+          },
+          {
+            "title": "Oszustwo na fachowca",
+            "description": "Ktoś puka do drzwi i oferuje naprawę dachu, podjazdu lub czegoś innego, co \"przypadkiem zauważyli, że wymaga naprawy\".",
+            "howItWorks": "Wykonują słabą lub niepotrzebną robotę i żądają wysokiej zapłaty gotówką. Czasami znikają z zaliczką.",
+            "redFlags": ["\"Przypadkowo\" byli w okolicy", "Chcą zaliczki lub gotówki", "Nie mają pisemnej oferty ani umowy", "Naciskają, żebyś podjął decyzję od razu"],
+            "whatToDo": "Powiedz nie na niezamówione oferty. Korzystaj z fachowców, których znasz lub których polecił ktoś, komu ufasz.",
+            "icon": "🔧"
+          }
+        ],
+        "otherScamTitle": "Inne popularne typy oszustw",
+        "otherScamTypes": [
+          {"title": "Oszustwo telefoniczne", "description": "Ktoś dzwoni i podszywa się pod pracownika banku, policji lub Microsoft. Chcą uzyskać dostęp do twojego konta."},
+          {"title": "Oszustwo SMS", "description": "\"Twoja paczka czeka\" lub \"Wygrałeś!\" - wiadomości z linkami prowadzącymi do fałszywych stron internetowych."},
+          {"title": "Oszustwo e-mailowe (phishing)", "description": "E-maile, które wyglądają, jakby były od banku lub innych, którym ufasz, ale chcą cię oszukać."}
+        ],
+        "stepsTitle": "Jak chronić się przed oszustwami",
+        "steps": [
+          {"title": "Zatrzymaj się i pomyśl", "description": "Oszuści próbują zestresować cię do szybkiego działania. Nie spiesz się. Prawdziwe banki i urzędy zawsze dają ci czas do namysłu.", "tip": "Jeśli ktoś mówi \"to pilne!\" lub \"musisz działać TERAZ!\", to prawie zawsze oszustwo."},
+          {"title": "Sprawdź, kto się z tobą kontaktuje", "description": "Dokładnie sprawdź, kto dzwoni lub wysyła wiadomość. Oszuści mogą fałszować numery telefonów i adresy e-mail, ale często są małe błędy.", "warning": "Twój bank NIGDY nie zadzwoni i nie poprosi o hasło, kod BankID lub numer PESEL!"},
+          {"title": "Szukaj błędów ortograficznych", "description": "Prawdziwe wiadomości od banków i urzędów są zawsze pisane poprawnym językiem. Oszukańcze wiadomości często mają błędy ortograficzne, dziwne sformułowania lub złą gramatykę.", "tip": "Przeczytaj wiadomość na głos. Brzmi dziwnie? To prawdopodobnie oszustwo."},
+          {"title": "Nie klikaj w linki w wiadomościach", "description": "Oszuści często wysyłają linki, które wyglądają na prawdziwe, ale prowadzą do fałszywych stron. Lepiej wejdź na stronę banku bezpośrednio, wpisując adres samodzielnie.", "warning": "Nigdy nie loguj się przez linki w e-mailach lub SMS-ach. Zawsze wpisuj adres sam w przeglądarce."},
+          {"title": "Nigdy nie udostępniaj danych osobowych", "description": "Haseł, kodów BankID, numerów PESEL i danych karty NIGDY nie powinno się podawać osobom, które się z tobą kontaktują. Prawdziwe firmy nigdy o to nie proszą."},
+          {"title": "Oddzwoń na oficjalny numer", "description": "Jeśli ktoś dzwoni i mówi, że jest z banku, rozłącz się i zadzwoń na oficjalny numer banku. Znajdź numer na stronie banku lub z tyłu karty bankowej.", "tip": "Nie oddzwaniaj na numer, który do ciebie dzwonił - może też być sfałszowany."},
+          {"title": "Porozmawiaj z kimś, komu ufasz", "description": "Nie jesteś pewien? Porozmawiaj z rodziną, przyjaciółmi lub swoim bankiem, zanim cokolwiek zrobisz. Lepiej zapytać raz za dużo niż dać się oszukać."}
+        ],
+        "neverAskTitle": "Pamiętaj: Prawdziwi nadawcy NIGDY nie poproszą cię o...",
+        "neverAskList": ["Hasło lub kod PIN", "Kod BankID przez telefon", "Numer PESEL", "Zainstalowanie programów na komputerze", "Przelanie pieniędzy na \"bezpieczne konto\""],
+        "examplesTitle": "Przykłady prawdziwych wiadomości oszukańczych",
+        "examples": [
+          {"type": "SMS", "message": "Twoja paczka czeka na dostawę. Zapłać 29 koron za dostawę tutaj: [link]", "warning": "Poczta nigdy nie wysyła SMS-ów o płatności przez linki!"},
+          {"type": "Telefon", "message": "Dzień dobry, dzwonię z działu bezpieczeństwa banku. Wykryliśmy podejrzaną aktywność i musimy zweryfikować twój BankID.", "warning": "Bank NIGDY nie dzwoni w sprawie BankID!"},
+          {"type": "E-mail", "message": "Szanowny kliencie, twoje konto zostanie zablokowane, jeśli nie zaktualizujesz swoich danych w ciągu 24 godzin.", "warning": "Prawdziwe banki nigdy nie grożą zablokowaniem konta przez e-mail!"},
+          {"type": "Telefon (Oszustwo na wnuka)", "message": "Cześć babciu, to ja! Miałem wypadek i potrzebuję 50 000 koron na adwokata. Możesz pomóc? Ale nie mów mamie!", "warning": "Prawdziwe wnuki nie proszą o trzymanie czegoś w tajemnicy przed rodzicami!"}
+        ],
+        "contactsTitle": "Ważne numery telefonów",
+        "contacts": [
+          {"number": "112", "title": "Numer alarmowy - Policja", "description": "W przypadku nagłego zagrożenia lub trwającego przestępstwa", "color": "red"},
+          {"number": "02800", "title": "Numer serwisowy policji", "description": "Do zgłaszania oszustw lub uzyskania porady", "color": "blue"},
+          {"number": "21 05 32 00", "title": "Pomoc przy kradzieży tożsamości", "description": "Jeśli ktoś nadużył twojej tożsamości", "color": "green"},
+          {"number": "Numer banku", "title": "Znajdź go z tyłu karty", "description": "Zablokuj kartę i konto w przypadku oszustwa", "color": "purple"}
+        ],
+        "contactsTip": "Zapisz te numery i połóż kartkę przy telefonie!"
       },
       "passord": {
         "title": "Tworzenie dobrych haseł",

@@ -1299,15 +1299,121 @@
       },
       "skattekort": {
         "title": "Beddel kaadhka canshuurta",
-        "description": "Sida loo beddelo kaadhkaaga canshuurta"
+        "description": "Sida loo beddelo kaadhkaaga canshuurta",
+        "longDescription": "Kaadhka canshuurtu wuxuu go'aamiyaa inta canshuur laga jaro mushaarahaaga bishiiba. Haddii xaaladaada nolol ay isbeddeli, waa inaad cusboonaysiisaa.",
+        "time": "Qiyaastii 15 daqiiqo",
+        "difficulty": "Dhexdhexaad",
+        "whatIsTitle": "Waa maxay kaadhka canshuurta?",
+        "whatIsText": "Kaadhka canshuurtu wuxuu u sheegaa loo shaqeeyahaaga inta canshuur ee laga jari mushaarahaaga. Wuxuu ku salaysan yahay dakhli la filayo iyo jarriidadaha.",
+        "cardTypes": [
+          {"type": "Lambarka shaxda", "desc": "Loo isticmaalo jaridda bishiiba ee joogtada ah. Ugu badan shaqaalaha mushaar qaata."},
+          {"type": "Kaadhka boqolkiiba", "desc": "Boqolkiiba go'an ayaa la jaraa iyadoo aan loo eegin qadarka. Caadi u ah shaqooyinka dheeraadka ah."}
+        ],
+        "whenToChangeTitle": "Goorma ayaad beddeli kaadhka canshuurta?",
+        "whenToChangeList": [
+          "Waxaad heshay shaqo cusub oo mushaar sare ama hoose leh",
+          "Waxaad bilaabay ama joojisey shaqo dheeraad ah",
+          "Waxaad qaadatay amaah guri (kharashka dulsaarta ah)",
+          "Waxaad noqotay waalid kaliya ah ama heshay lammaane",
+          "Waxaad yeelatay ilmo (jarriidadaha carruurta)",
+          "Waxaad bixinaysaa canshuur badan ama yar"
+        ],
+        "stepsTitle": "Sida loo beddelo kaadhka canshuurta",
+        "steps": [
+          {"title": "Gal skatteetaten.no", "description": "Tag skatteetaten.no oo gal adiga oo isticmaalaya BankID. Guji \"Logg inn\" geeska sare ee midig."},
+          {"title": "Hel \"Skattekort\"", "description": "Kadib marka aad gasho, hel \"Skattekort\" menu-ga ama bogga hore. Guji si aad u aragto kaadhkaaga canshuurta ee hadda jira."},
+          {"title": "Arag kaadhka canshuurta ee hadda jira", "description": "Hadda waxaad arki kaadhkaaga canshuurta iyo lambarka shaxda iyo heerka boqolkiiba. Lambarka shaxda ayaa loo shaqeeyahaagu u isticmaali si uu u jaro canshuurta saxda ah.", "tip": "Lambarka shaxda 7100 ayaa caadi u ah badanaa. Lambar hoose = jarriid canshuur yar."},
+          {"title": "Guji \"Endre skattekort\"", "description": "Haddii aad rabto inaad beddesho kaadhka canshuurta, guji \"Endre\" ama \"Bestill nytt skattekort\"."},
+          {"title": "Sheeg isbeddelada dakhliga", "description": "Buuxi inta aad filayso inaad ka hesho sannadkan. Haddii aad heshay shaqo cusub, mushaar sare, ama waaydey dakhli, cusboonaysii.", "tip": "Aad u saxsax. Qiyaas sarreysa = canshuur badan. Qiyaas hooseysa = dib u bixin."},
+          {"title": "Ku dar jarriidadaha aad taqaano", "description": "Haddii aad taqaano inaad yeelan jarriidado waaweyn (amaahda guriga, kharashyada safarka), waxaad gelin kartaa hadda si aad u yarayso jarriidda canshuurta.", "warning": "Ha ku xadjin jarriidadaha - waxaad khatar gelinaysaa dib u bixin sannadka dambe."},
+          {"title": "Arag jarriidda canshuurta ee cusub", "description": "Xisaabiyaha ayaa ku tusi jarriidda canshuurta ee cusub. Isbarbar dhig tan hadda jirta si aad u aragto isbeddellada."},
+          {"title": "Xaqiiji isbeddelka", "description": "Haddii aad ku qanacsantahay, guji \"Bestill\" ama \"Bekreft\". Kaadhka canshuurta ee cusub ayaa si toos ah loogu diri loo shaqeeyahaaga.", "tip": "Loo shaqeeyahu wuxuu heli kaadhka canshuurta ee cusub si elektaroonig ah dhowr maalmood gudahooda."}
+        ],
+        "tooMuchTaxTitle": "Ma bixinaysaa canshuur badan?",
+        "tooMuchTaxText": "Haddii aad sanadkasta hesho lacag badan oo dib kuu soo celinayo, waxay u badan tahay inaad bixinayso canshuur badan.",
+        "tooMuchTaxSolution": "Beddel kaadhka canshuurta si aad u hesho lacag badan bishiiba halkii aad u sugteen xisaabinta canshuurta.",
+        "tooLittleTaxTitle": "Ma bixinaysaa canshuur yar?",
+        "tooLittleTaxText": "Haddii aad inta badan yeelanayso canshuur dhaafsiisan, waa inaad kordhisaa jarriidda canshuurta.",
+        "tooLittleTaxSolution": "Beddel kaadhka canshuurta si aad bishiiba uga jarto canshuur badan oo ka fogaato biilal waaweyn Juun.",
+        "tipTitle": "Waxaa wanaagsan in la ogaado!",
+        "tipText": "Kaadhka canshuurta cusub ee sannadka soo socda ayaa si toos ah u imanaya Diseembar. Uma baahnid inaad dalabto adiga qudhaa haddii aanad rabin inaad samayso isbeddelad."
       },
       "skatteoppgjoer": {
         "title": "Arag xisaabinta canshuurta",
-        "description": "Hel oo fahom xisaabintaada canshuurta"
+        "description": "Hel oo fahom xisaabintaada canshuurta",
+        "longDescription": "Baro sida aad u heli oo u fahamto xisaabintaada canshuurta. Ogow haddii aad lacag dib kuugu soo celinayo ama aad tahay mid bixin.",
+        "time": "Qiyaastii 5 daqiiqo",
+        "difficulty": "Fudud",
+        "whenTitle": "Goorma ayay timaadaa xisaabinta canshuurta?",
+        "whenList": [
+          {"label": "Waxaad soo gudbisay Maarso", "text": "Xisaabinta canshuurta Juun"},
+          {"label": "Waxaad soo gudbisay Abriil", "text": "Xisaabinta canshuurta Ogosto"},
+          {"label": "Waxaad soo gudbisay dabadeed", "text": "Xisaabinta canshuurta Oktoobar-Nofeembar"}
+        ],
+        "whenNote": "Waxaad heli fariinta SMS ama iimeyl markay xisaabintu diyaar tahay.",
+        "stepsTitle": "Sida loo helo xisaabinta canshuurta",
+        "steps": [
+          {"title": "Tag skatteetaten.no", "description": "Fur browserkaaga oo ku qor \"skatteetaten.no\" cinwaanka.", "tip": "Waxa kale oo aad ka raadin kartaa \"Skatteetaten\" Google."},
+          {"title": "Gal BankID", "description": "Guji \"Logg inn\" bogga kor. Dooro BankID oo raac tilmaamaha."},
+          {"title": "Hel \"Skatteoppgjør\"", "description": "Kadib marka aad gasho, hel oo guji \"Skatteoppgjør\" ama \"Se skatteoppgjøret\". Badiyaa waxaad ka heli bogga hore kadib marka aad gasho.", "tip": "Xisaabinta canshuurtu badiyaa waxay timaadaa Juun-Oktoobar, iyadoo ku xiran goorta aad soo gudbisay warbixinta canshuurta."},
+          {"title": "Dooro sannadka", "description": "Haddii aad rabto inaad aragto xisaabinno canshuur oo hore, dooro sannadka saxda ah liiska. Tan ugu cusub badiyaa waa kor."},
+          {"title": "Akhri xisaabinta canshuurta", "description": "Hadda waxaad arki dulmar canshuuraha. Tirooyin muhiimka ah: \"Fastsatt skatt\" (intaad bixin wadarta), \"Innbetalt forskuddsskatt/skattetrekk\" (intaad horay u bixisay) iyo \"Restskatt/Til gode\" (haddii aad leedahay ama dib kuu soo celinayo).", "tip": "Qadarka cagaaran = lacag dib kuu soo celinayo. Qadarka cas = dib u bixin."},
+          {"title": "Fahom natiijooyinka", "description": "Haddii aad lacag leedahay oo dib kuu soo celinayo, si toos ah ayaa loo wareejin akoonkaaga. Haddii aad tahay dib u bixin, waxaad heli macluumaad goorta iyo sida loo bixiyo.", "warning": "Dib u bixinta ka badan 1000 kr ayaa loo qaybiyaa laba xilli. Hubi taariikhaha!"},
+          {"title": "Soo deji xisaabinta canshuurta", "description": "Waxaad soo dejin kartaa xisaabinta canshuurta PDF ahaan adiga oo gujinaya \"Last ned\" ama \"Skriv ut\". Tani waxay faa'iido u noqon kartaa codsiyada amaahda ama dukumeentiga."}
+        ],
+        "moneyBackTitle": "Lacag dib kuu soo celinayo?",
+        "moneyBackText": "Haddii aad lacag leedahay oo dib kuu soo celinayo, si toos ah ayaa loo wareejin akoonka ku diiwaangashan Hey'adda Canshuurta.",
+        "moneyBackList": ["Lacag bixintu badiyaa waxay ku dhacdaa 3 toddobaad gudahooda", "Hubi in lambarka akoonkaagu cusboonaysiisan yahay"],
+        "additionalTaxTitle": "Dib u bixin?",
+        "additionalTaxText": "Haddii aad tahay dib u bixin, waa inaad bixisaa ka hor taariikhda si aad uga fogaato dulsaar.",
+        "additionalTaxList": [
+          {"label": "Ka hooseeya 1000 kr", "text": "Lagu bixiyay hal xilli"},
+          {"label": "Ka sareya 1000 kr", "text": "Loo qaybiyay laba xilli (badiyaa Ogosto iyo Oktoobar)"},
+          {"label": "", "text": "Waxaad ku bixin kartaa netbankiga - isticmaal lambarka KID ee xisaabinta canshuurta"}
+        ],
+        "faqTitle": "Su'aalaha inta badan la isweydiiyo",
+        "faq": [
+          {"q": "Waxaan u maleynayaa xisaabinta canshuurtu waa khalad", "a": "Waxaad ka dacwoon kartaa xisaabinta canshuurta 6 toddobaad gudahooda. Tag \"Klage på skatteoppgjøret\" skatteetaten.no."},
+          {"q": "Ma beddeli karaa lambarka akoonka ee lacag bixinta?", "a": "Haa, gal skatteetaten.no oo cusboonaysii lambarka akoonka \"Min profil\" hoostiisa."},
+          {"q": "Ma awoodi karo inaan bixiyo dib u bixinta", "a": "Waxaad codsan kartaa heshiiska lacag bixinta Hey'adda Canshuurta. La xiriir sida ugu dhakhsaha badan."}
+        ]
       },
       "skatteattest": {
         "title": "Dalbo shahaadada canshuurta",
-        "description": "Sida loo dalbo shahaadada canshuurta"
+        "description": "Sida loo dalbo shahaadada canshuurta",
+        "longDescription": "Baro sida loo dalbo shahaadada canshuurta online. Waxaad heli si degdeg ah, oo lacag la'aan ah.",
+        "time": "Qiyaastii 5 daqiiqo",
+        "difficulty": "Fudud",
+        "whatIsTitle": "Waa maxay shahaadada canshuurta?",
+        "whatIsText": "Shahaadada canshuurtu waa dukumenti caddaynaysa in adiga ama shirkaddaadu aadan ku leheyn deyn canshuur oo dawlada.",
+        "whatIsNeededFor": "Waxaad u baahan kartaa shahaadada canshuurta:",
+        "whatIsNeededForList": [
+          "Soo gudbinta hindisayaasha howlaha dawladda",
+          "Codsashada ruqsadda qadada",
+          "Caddaynta xaaladda canshuurta bangiyada ama kuwa kale"
+        ],
+        "stepsTitle": "Sida loo dalbo shahaadada canshuurta",
+        "steps": [
+          {"title": "Tag skatteetaten.no", "description": "Fur browserkaaga oo ku qor \"skatteetaten.no\" cinwaanka."},
+          {"title": "Gal BankID", "description": "Guji \"Logg inn\" bogga kor. Dooro BankID oo raac tilmaamaha."},
+          {"title": "Hel \"Skatteattest\"", "description": "Kadib marka aad gasho, isticmaal sanduuqa raadinta oo ku qor \"skatteattest\". Guji natiijooyinka \"Bestill skatteattest\" ama mid la mid ah.", "tip": "Waxa kale oo aad ka heli kartaa \"Bestillinger\" ama \"Attester og bekreftelser\" hoostiisa."},
+          {"title": "Dooro nooca shahaadada canshuurta", "description": "Waxaa jira noocyo kala duwan oo shahaadada canshuurta ah. Dooro midka ku habboon ujeeddadaada: \"Skatteattest for offentlige anskaffelser\" ayaa ugu badan.", "warning": "La xaqiiji qaataha nooca shahaadada ay u baahan yihiin."},
+          {"title": "Buuxi macluumaadka", "description": "Waxaa lagu weydiin karaa waxa shahaadada loo isticmaali. Buuxi goobaha looga baahan yahay."},
+          {"title": "Dalbo shahaadada", "description": "Guji \"Bestill\" ama \"Send bestilling\". Shahaadadu badiyaa waxay si degdeg ah u soo baxdaa.", "tip": "Inta badan shahaadooyinka canshuurta waxaa la soo dejin karaa PDF ahaan isla markiiba."},
+          {"title": "Soo deji shahaadada", "description": "Markay shahaadadu diyaar tahay, guji \"Last ned\" ama \"Åpne\". Keydi faylka kombiyuutarkaaga.", "tip": "Shahaadada canshuurtu waxay ansax tahay 6 bilood laga bilaabo taariikhda la soo saaray."}
+        ],
+        "importantTitle": "Waxaa muhiim ah in la ogaado",
+        "importantList": [
+          {"label": "Muddada ansaxnimada", "text": "Shahaadada canshuurtu waxay ansax tahay 6 bilood laga bilaabo taariikhda la soo saaray"},
+          {"label": "Lacag la'aan", "text": "Dalbashada shahaadada canshuurtu waa lacag la'aan"},
+          {"label": "Deynta canshuurta", "text": "Haddii aad leedahay deyn canshuur, shahaadada laguma siinayo ilaa deynta la bixiyo"}
+        ],
+        "faqTitle": "Su'aalaha inta badan la isweydiiyo",
+        "faq": [
+          {"q": "Ma heli karo shahaadada canshuurta sababtoo ah waxaan leeyahay deyn", "a": "Marka hore waa inaad bixisaa deynta canshuurta. Gal skatteetaten.no si aad u aragto intaad leedahay oo aad u bixiso."},
+          {"q": "Ma dalban karaa shahaadada canshuurta shirkaddayda?", "a": "Haa, laakiin waa inaad leedahay xuquuqda Altinn shirkadda. Gal BankID oo dooro shirkaddaada."},
+          {"q": "Sidee ayaan u diri shahaadada canshuurta qof?", "a": "Soo deji faylka PDF oo u dir lifaaq iimeel ahaan, ama daabac oo gacanta u gee."}
+        ]
       },
       "loggInn": {
         "title": "Gal Hey'adda Canshuurta",
@@ -1427,7 +1533,20 @@
         "cancelTitle": "Trenger du å avbestille?",
         "cancelText": "Du kan avbestille eller endre timen på Helsenorge. Gå til \"Timeavtaler\" og klikk på timen du vil endre. Avbestill helst minst 24 timer før, så andre kan bruke timen.",
         "cantBookOnlineTitle": "Kan ikke bestille på nett?",
-        "cantBookOnlineText": "Noen legekontor tilbyr ikke nettbooking. Da må du ringe legekontoret direkte. Du finner telefonnummeret på helsenorge.no under \"Min fastlege\"."
+        "cantBookOnlineText": "Noen legekontor tilbyr ikke nettbooking. Da må du ringe legekontoret direkte. Du finner telefonnummeret på helsenorge.no under \"Min fastlege\".",
+        "benefitsTitle": "Faa'iidooyinka buukinta online",
+        "benefits": [
+          "Furan 24 saac maalintii, 7 maalmood toddobaadkii",
+          "Looma baahna inaad sugto khadka telefoonka",
+          "Waxaad aragtaa dhammaan ballanaha diyaarka ah isla markiiba",
+          "Waxaad si fudud u beddeli ama joojin kartaa ballanaha"
+        ],
+        "faqTitle": "Maxay la sameeya haddii...",
+        "faq": [
+          {"q": "...aan jirin ballamo la heli karo?", "a": "Wac xafiiska dhakhtarka. Waxay yeelan karaan meel baaqdo ama waxay ku caawin karaan xaalad degdeg ah."},
+          {"q": "...ay tahay mid degdeg ah?", "a": "Arrimaha degdega, wac toos xafiiska dhakhtarka ama legevakten (116 117)."},
+          {"q": "...aan u baahdo baadhitaan?", "a": "Ballan caadi ah oo ku qor fariinta baadhitaanka la sameeyo. Dhakhtarka markaas ayuu u diyaargaroobi."}
+        ]
       },
       "resepter": {
         "title": "Arag oo cusbooneysii dawooyinka",
@@ -1474,7 +1593,28 @@
           "Ha alltid nok medisin til å vente på at legen fornyer",
           "Noen medisiner krever legetime før fornyelse (f.eks. blodtrykksmedisin)",
           "E-resepten er gyldig i 1 år fra den skrives ut"
-        ]
+        ],
+        "whatYouFindTitle": "Waxa aad ka heli dulmarada dawada",
+        "whatYouFind": [
+          "Dhammaan dawooyinka firfircoon",
+          "Dawooyinka dhacay",
+          "Imisa qaadista ayaa haray",
+          "Goorta dawadu ay dhammaan"
+        ],
+        "prescriptionTypesTitle": "Noocyada dawada",
+        "prescriptionTypes": [
+          {"type": "E-dawada", "desc": "Dawada casriga ah ee la kaydiyo si dhijitaal ah. Nooca hadda ugu badan."},
+          {"type": "Dawada warqadda", "desc": "Nooc hore oo dhakhtaro qaarkood ay weli isticmaalaan. Waa in jidh ahaan loo geeyo farmashiyaha."},
+          {"type": "H-dawada", "desc": "Dawooyinka xarumaha daryeelka caafimaadka."}
+        ],
+        "faqTitle": "Su'aalaha inta badan la isweydiiyo",
+        "faq": [
+          {"q": "Maxaan u arki karin dawadayda?", "a": "Waxay noqon kartaa dawada warqadda ah ama wali kama soo gaarin nidaamka. Sug 1-2 maalmood ama la xiriir dhakhtarka."},
+          {"q": "Ilaa goorma ayay ansax tahay dawadayda?", "a": "Inta badan dawooyinku waxay ansax yihiin 1 sano. Dawooyinka qaarkood waxay yeelan karaan muddo ansax gaaban."},
+          {"q": "Ma ka qaadan karaa dawooyinka farmashiye kale?", "a": "Haa, e-dawooyinka waxaad ka qaadan kartaa farmashiye kasta Norway oo dhan."}
+        ],
+        "tipBoxTitle": "Talo",
+        "tipBoxText": "Waxaad dejin kartaa xusuusin telefoonkaaga marka dawadaadu dhammaato. Markaas ma illoobi doontid inaad codsato cusbooneysiin wakhti ku filan."
       },
       "bytteFastlege": {
         "title": "Beddel dhakhtarka caadiga ah",
@@ -1521,7 +1661,13 @@
           }
         ],
         "noSpaceTitle": "Ingen ledige plasser?",
-        "noSpaceText": "Hvis legen du ønsker er full, kan du sette deg på venteliste. Du får beskjed når det blir ledig plass. Du kan også prøve å ringe legekontoret - noen ganger har de plass som ikke vises på nett."
+        "noSpaceText": "Hvis legen du ønsker er full, kan du sette deg på venteliste. Du får beskjed når det blir ledig plass. Du kan også prøve å ringe legekontoret - noen ganger har de plass som ikke vises på nett.",
+        "faqTitle": "Su'aalaha inta badan la isweydiiyo",
+        "faq": [
+          {"q": "Sidee ayey u dhaqsaysaa beddelka?", "a": "Beddelku wuxuu bilaabmaa 1-da bisha xigta ee codsigaaga kadib."},
+          {"q": "Diiwaankayga miyaa si toos ah loo wareejinayaa?", "a": "Haa, diiwaanka bukaanka si toos ah ayaa loogu wareejiyaa xafiiska cusub."},
+          {"q": "Ma beddeli karaa dib?", "a": "Haa, laakiin waxaad beddeli kartaa dhakhtarka ugu badnaan 2 jeer 12 bilood gudahooda."}
+        ]
       },
       "journal": {
         "title": "Akhri diiwaanka bukaanka",
@@ -1560,7 +1706,20 @@
           }
         ],
         "delayTitle": "Hvorfor ser jeg ikke alt?",
-        "delayText": "Noen journaler har en forsinkelse på noen dager før du kan se dem. Dette er for at legen skal rekke å informere deg først hvis det er noe viktig. Sykehus og spesialister kan ha lengre forsinkelse."
+        "delayText": "Noen journaler har en forsinkelse på noen dager før du kan se dem. Dette er for at legen skal rekke å informere deg først hvis det er noe viktig. Sykehus og spesialister kan ha lengre forsinkelse.",
+        "whatYouFindTitle": "Waxa aad ka heli diiwaanka",
+        "whatYouFind": [
+          "Qoraallada booqashooyinka",
+          "Baarista xanuunka iyo daaweynta",
+          "Natiijooyinka baaritaanka",
+          "Gudbiyo iyo talooyinka"
+        ],
+        "faqTitle": "Su'aalaha inta badan la isweydiiyo",
+        "faq": [
+          {"q": "Maxaan u arki karin dhammaan qoraallada?", "a": "Diiwaamaha qaarkood waxay dib u dhacaan dhowr maalmood. Dhakhtarku marka hore wuxuu rabaa inuu wakhti ku siiyo inuu adiga kuu sheego."},
+          {"q": "Ma codsan karaa in khaladaadka la saxo?", "a": "Haa, waxaad la xiriiri kartaa dhakhtarka oo codsataa in khaladaadka xaqiiqada diiwaanka laga saxo."},
+          {"q": "Diiwaankaygu ma sirri buu yahay?", "a": "Haa, kaliya adiga iyo shaqaalaha caafimaadka ee la oggolaaday ayaa heli kara diiwaankaaga."}
+        ]
       },
       "melding": {
         "title": "U dir fariin dhakhtarka",
@@ -1613,6 +1772,12 @@
             "description": "Legen svarer vanligvis innen 1-3 virkedager. Du får varsel på SMS eller e-post når svaret kommer. Logg inn på Helsenorge for å lese svaret.",
             "warning": "Ved akutte plager, ikke vent på svar - ring legevakten (116 117) eller ambulanse (113)."
           }
+        ],
+        "faqTitle": "Su'aalaha inta badan la isweydiiyo",
+        "faq": [
+          {"q": "Sidee u dhaqsaysaa inaan helo jawaab?", "a": "Xafiisyada dhakhtarku badiyaa waxay ka jawaabaan 1-3 maalmood shaqo gudahooda. Arrimaha degdega ah, wac."},
+          {"q": "Fariintayda ma sirri bay tahay?", "a": "Haa, farriimaha waa la sirtay oo kaliya adiga iyo xafiiska dhakhtarka ayaa heli kara."},
+          {"q": "Ma diri karaa sawiro?", "a": "Haa, waxaad ku dari kartaa sawiro fariinaha, tusaale finiin ama dhaawacyo."}
         ]
       },
       "loggInn": {
@@ -1837,7 +2002,107 @@
         "longDescription": "Khiyaanayaashu waxay isticmaalaan qaabab badan si ay dadka u khiyaaneeyaan. Halkan waxaad baranaysaa sida loo aqoonsado qaababka khiyaanada ee ugu caadisan iyo sida aad isu difaacdo.",
         "backToGuides": "Ku laabo Amniga Dhijitaalka",
         "time": "Qiyaastii 15 daqiiqo",
-        "difficulty": "Fudud"
+        "difficulty": "Fudud",
+        "checklistTitle": "Miyuu run yahay? - Liiska hubinta",
+        "checklistIntro": "Ma heshay wicitaan, SMS ama iimeel aad ka shakisan tahay? Ka jawaab su'aalaha hoose:",
+        "checklistItems": [
+          {"question": "Miyay ADIGA kugu soo waceen marka hore?", "warning": "Bangiyada iyo hay'adaha dawlada run ahi siman kuguma soo wacaan iyagoon lagu weydiinin."},
+          {"question": "Miyay ku weydiinayaan furaha sirta, BankID ama lambarka shakhsiga?", "warning": "MARNABA ha siin - dirayaasha run ahi marnaba ma weydiiyaan!"},
+          {"question": "Miyay aad u degdeg badan tahay?", "warning": "Khiyaanayaashu waxay had iyo jeer sameeyaan degdegnaan. Arrimaha run ahi waxay sugi karaan tan iyo berri."},
+          {"question": "Ma waa inaad bixisaa si aad wax u hesho?", "warning": "Abaalmarinnada iyo dhaxalka run ahi marnaba ma weydiiyaan in la bixiyo marka hore."},
+          {"question": "Miyuu u muuqdaa mid aad ugu wanaagsan in run noqdo?", "warning": "Markaas waxay ku dhawaad had iyo jeer tahay mid aad ugu wanaagsan in run noqdo."},
+          {"question": "Miyaad tahay inaad sir u hayssatid?", "warning": "Khiyaanayaashu ma rabaan inaad la hadasho kuwa kale ee daaha ka qaadi kara."},
+          {"question": "Miyay rabaan lacag caddaan ah ama kaararka hadiyada?", "warning": "Shirkadaha run ahi marnaba ma qaataan lacag bixin kaararka hadiyada."}
+        ],
+        "checklistResultSafe": "Wuxuu u muuqdaa mid badbaado ah, laakiin had iyo jeer feejignaaw!",
+        "checklistResultCaution": "Taxadar! {count} calaamad digniin. La hadal qof aad ku kalsoon tahay ka hor intaadan waxba samayn.",
+        "checklistResultDanger": "JOOJI! {count} calaamad digniin. Tani waxay u badan tahay khiyaano. Waxba ha samayn!",
+        "checklistPrintMessage": "Isticmaal liiska hubinta ee kor ku qoran si aad u qiimayso haddii khiyaanayaal kula soo xiriireen.",
+        "elderScamTitle": "Khiyaanada loogu talagalay waayeelka",
+        "elderScamIntro": "Khiyaanayaashu waxay inta badan beegsadaan waayeelka sababtoo ah waxay noqon karaan kuwa kalsoonida badan oo leh kaydad. Halkan waa noocyada ugu caadisan:",
+        "elderScamTypes": [
+          {
+            "title": "Khiyaanada ilmaha ilmaha",
+            "description": "Qof ayaa soo wacaya oo iska dhigaya ilmahaaga ilmaha. Waxay sheegayaan inay dhibaato ku jiraan oo ay si degdeg ah u baahan yihiin lacag - inta badan qareen, dammaanad ama biilka isbitaalka.",
+            "howItWorks": "Khiyaanayuhu wuxuu soo wacaa oo yiraahdaa \"Salaan ayeeyo/awoowe, waa aniga!\" oo wuxuu rajeynayaa inaad sheegtid magaca ilmahaaga ilmaha. Markaas wuxuu iska dhigayaa qofkaas.",
+            "redFlags": ["Waxay ku weydiinayaan inaadan u sheegin waalidkood", "Waxay u baahan yihiin lacagta SI AADKA AH u degdeg", "Waxay rabaan lacag caddaan ah ama kaararka hadiyada", "Codku wuu \"kala duwan yahay\" - waxay sheegayaan inay hargab leeyihiin"],
+            "whatToDo": "Dhig taleefanka oo u wac ilmahaaga ilmaha lambarka aad kaydisay. Weydiiso wax aad keli tihiin og.",
+            "icon": "👴"
+          },
+          {
+            "title": "Khiyaanada Microsoft/Apple",
+            "description": "Qof ayaa soo wacaya oo sheegaya inay ka yihiin Microsoft, Apple ama \"taageerada farsamada\". Waxay sheegayaan in kombiyuutarkaagu uu leeyahay fayrras oo ay u baahan yihiin inay ku caawiyaan meesha ka saarista.",
+            "howItWorks": "Waxay ku yeelan barnaamij aad ku rakibto oo siinaya xakameyn kombiyuutarkaaga. Ka dib waxay \"helaan\" dhibaatooyin oo dalbadaan lacag bixin.",
+            "redFlags": ["Microsoft iyo Apple MARNABA kuguma soo wacaan iyagoo aan lagu weydiinin", "Waxay weydiinayaan gelitaan fog oo kombiyuutarka", "Waxay rabaan lacag bixin kaararka hadiyada ama cryptocurrency", "Waxay ku hanjabaayaan in kombiyuutarku joogi shaqaynta"],
+            "whatToDo": "Isla markiiba dhig taleefanka. Taageerada farsamada run ahi marnaba adiga kuguma soo wacaan marka hore.",
+            "icon": "💻"
+          },
+          {
+            "title": "Khiyaanada jacaylka",
+            "description": "Qof aad ku kulan tahay internetka (inta badan Facebook ama bogagga isku qabashada) ayaa sheegaya inay ku jeclaadeen. Waqti ka dib waxay weydiinayaan lacag.",
+            "howItWorks": "Waxay dhisayaan xiriir toddobaadyo ama bilo. Ka dib waxay dhacaysaa \"xaalad deg deg ah\" - waxay u baahan yihiin lacag tigidh, daaweyn ama kashaf.",
+            "redFlags": ["Marnaba ma kulmaan qof ahaan", "Waxay si aad ah u degdeg u sheegayaan jacayl", "Waxay had iyo jeer leeyihiin cudur daar si aanay ugu wicin fiidhiyow ahaan", "Waxay weydiinayaan lacag - sabab kasta ha noqoto"],
+            "whatToDo": "Marnaba ha u dirin lacag qof aad kaliya internetka ka taqaano. La hadal qoyskaaga ama asxaabtaada xiriirka.",
+            "icon": "💔"
+          },
+          {
+            "title": "Khiyaanada nasiibka",
+            "description": "Waxaad heli ogeysiis ah inaad ku guulaysatay nasiib aadan marnaba ka qayb galin. Laakiin waa inaad bixisaa \"khidmad\" ama \"canshuur\" si aad u hesho abaalmarinnada.",
+            "howItWorks": "Waxay u diraan iimeel ama soo wacaan \"war wanaagsan\". Si aad u hesho abaalmarinnada milyan, waxaad kaliya u baahan tahay inaad marka hore bixiso qaddar yar.",
+            "redFlags": ["Ma iibsan nasiib ama ka qayb gelin tartanka", "Waa inaad bixisaa si aad u hesho abaalmarinnada", "Waxay weydiinayaan macluumaadka bangiga \"wareejinta abaalmarinnada\"", "Abaalmarinnadau waxay ku jirtaa lacag shisheeye"],
+            "whatToDo": "Iska indho tir. Ma ku guuleysan kartid nasiib aadan ka qayb galin.",
+            "icon": "🎰"
+          },
+          {
+            "title": "Khiyaanada maalgashiga",
+            "description": "Qof ayaa kugu ballaamaya faa'iido cajiib ah maalgashiga sahaamyada, cryptocurrency ama \"fursadaha\" kale.",
+            "howItWorks": "Waxay kula soo xiriirayaan \"fursad gaar ah\". Inta badan waxay tusayaan bogag webseed been ah oo u eg in maalgashigaagu uu korayo.",
+            "redFlags": ["Faa'iidadu way aad u wanaagsan tahay in run noqoto (20-50% ama in ka badan)", "Waxay ku cadaadinayaan inaad si degdeg ah u maalgashato", "Weligaa ma maqashin shirkadda", "Waxay ka soo wacaan dibadda ama waxay leeyihiin lahjad shisheeye"],
+            "whatToDo": "La hadal bangigaaga ka hor inta aanad maalgashanin. Hubi liiska digniinta Maamulka Maaliyadda.",
+            "icon": "📈"
+          },
+          {
+            "title": "Khiyaanada sanaacadda",
+            "description": "Qof ayaa ku garaacaya albaabka oo ku siinaya si aad u hagaajiso saqafka, wadada gelitaanka ama wax kale oo \"ay si nasiib ah u arkeen inay u baahan tahay dayactir\".",
+            "howItWorks": "Waxay qabtaan shaqo xun ama aan loo baahnayn oo dalbadaan lacag bixin sare oo caddaan ah. Mararka qaarkood waxay la baxaan lacag bixinta hordhac.",
+            "redFlags": ["\"Si nasiib ah\" waxay ku joogeen xaafadda", "Waxay rabaan lacag bixinta hordhac ama caddaan", "Ma haystaan soo jeedin qoran ama qandaraas", "Waxay ku cadaadinayaan inaad si degdeg ah go'aan gaariso"],
+            "whatToDo": "U dhaaf soo jeedinada aan la dalbanin. Isticmaal sanaacadda aad taqaano ama qof aad ku kalsoon tahay uu ku talinayo.",
+            "icon": "🔧"
+          }
+        ],
+        "otherScamTitle": "Noocyada kale ee caadiga ah ee khiyaanada",
+        "otherScamTypes": [
+          {"title": "Khiyaanada taleefanka", "description": "Qof ayaa soo wacaya oo iska dhigaya mid ka socda bangiga, booliska ama Microsoft. Waxay rabaan gelitaan akoonkaaga."},
+          {"title": "Khiyaanada SMS", "description": "\"Baakajigaagu wuu sugayaa\" ama \"Waad guulaysatay!\" - farriimaha leh linkyada u horseedaya bogagga websaydhka beenta ah."},
+          {"title": "Khiyaanada iimaylka (phishing)", "description": "Iimeelyo u eg kuwo ka imanaya bangiga ama kuwa kale ee aad ku kalsoon tahay, laakiin rabaan inay ku khiyaaneeyaan."}
+        ],
+        "stepsTitle": "Sida looga ilaalmo khiyaanada",
+        "steps": [
+          {"title": "Joogso oo ka fiirso", "description": "Khiyaanayaashu waxay isku dayaan inay ku cadaadinaan inaad si degdeg ah u dhaqaaqdo. Wakhti u qaado. Bangiyada iyo hay'adaha dawlada run ahi had iyo jeer waxay ku siiyaan wakhti aad ka fikirtid.", "tip": "Haddii qof yiraahdo \"waa degdeg!\" ama \"waa inaad HADDA wax ka qabataa!\", waxay ku dhawaad had iyo jeer tahay khiyaano."},
+          {"title": "Hubi cidda kula soo xiriirtay", "description": "Si taxadar leh u fiiri cidda soo wacaysa ama dirta fariinta. Khiyaanayaashu waxay been abuuri karaan lambarro telefoon iyo cinwaano iimeel, laakiin inta badan waxaa jira qalado yaryar.", "warning": "Bangigaagu MARNABA kuguma soo wici oo ku weydiin erayga sirta, koodhka BankID ama lambarka shakhsiga!"},
+          {"title": "Raadi qalaadaha higaadda", "description": "Farriimaha run ah ee ka imanaya bangiyada iyo hay'adaha dawlada had iyo jeer waxaa lagu qoraa luqad sax ah. Farriimaha khiyaanadu inta badan waxay leeyihiin qalaado higaad, erayo yaab leh ama nahwi xun.", "tip": "Cod sare u akhri fariinta. Miyuu yaab u yahay? Markaas waxay u badan tahay khiyaano."},
+          {"title": "Ha gubin linkayaasha farriimaha", "description": "Khiyaanayaashu inta badan waxay diraan linkayn u eg mid run ah, laakiin u horseedaya bogagga been ah. Toos ugu tag bogga bangiga adiga oo qoraya cinwaanka.", "warning": "Marnaba ha gelin iimeelka ama SMS linkayadooda. Had iyo jeer cinwaanka aad iskaga qor browserka."},
+          {"title": "Marnaba ha la wadaagin macluumaadka shakhsiga", "description": "Erayada sirta, koodhyada BankID, lambarka shakhsiga iyo macluumaadka kaadhka MARNABA ha la wadaagin cid kula soo xiriirta. Shirkadaha run ahi marnaba ma weydiiyaan."},
+          {"title": "Ku dib u wac lambarka rasmiga ah", "description": "Haddii qof soo waco oo sheego inay ka yihiin bangiga, dhig taleefanka oo u wac lambarka rasmiga ee bangiga. Ka hel lambarka bogga websaydhka bangiga ama gadaasha kaadhka bangiga.", "tip": "Ha u dib u wicin lambarka kuu soo wacay - kaasna waa la been abuuri karaa."},
+          {"title": "La hadal qof aad ku kalsoon tahay", "description": "Ma hubtid? La hadal qoyskaaga, asxaabtaada ama bangigaaga ka hor intaadan waxba samayn. Way ka fiican tahay inaad hal mar oo dheeraad ah weydiiso halkii aad loo khiyaaneeyo."}
+        ],
+        "neverAskTitle": "Xusuusnow: Dirayaasha run ahi MARNABA kuma weydiin doonaan...",
+        "neverAskList": ["Erayga sirta ama lambarka PIN", "Koodhka BankID telefoonka", "Lambarka shakhsiga", "In lagu rakibo barnaamijyo kombiyuutarka", "In lacag loo wareejo \"akoon badbaado\""],
+        "examplesTitle": "Tusaalooyinka farriimaha khiyaanada run ah",
+        "examples": [
+          {"type": "SMS", "message": "Baakajigaagu wuu sugayaa geynta. Bixiso 29 kr kharashka halkan: [link]", "warning": "Boostada marnaba SMS kuma soo dirtay lacag bixin linkayaal!"},
+          {"type": "Telefoon", "message": "Salaan, waxaan ka socda qaybta amniga ee bangiga. Waxaan helay dhaqdhaqaaq laga shakiyo oo waa inaan xaqiijinaa BankID-gaaga.", "warning": "Bangiga MARNABA kuguma soo wici BankID!"},
+          {"type": "Iimeel", "message": "Macmiil sharafta leh, akoonkaaga waa la xiri si aad macluumaadkaaga u cusboonaysiiso 24 saacadood gudahood.", "warning": "Bangiyada run ahi marnaba kuma hanjabin akoon xirida iimeel!"},
+          {"type": "Telefoon (Khiyaanada ilmaha ilmaha)", "message": "Salaan ayeeyo, waa aniga! Shil ayaa igu dhacay oo waxaan u baahanahay 50,000 kr qareen. Ma i caawin kartaa? Laakiin ha u sheegin hooyo!", "warning": "Ilmaha ilmaha run ahi kuma weydiin inay wax sir u hayaan waalidka!"}
+        ],
+        "contactsTitle": "Lambarrada telefoonka muhiimka ah",
+        "contacts": [
+          {"number": "112", "title": "Lambarka degdegga - Booliska", "description": "Marka ay jirto khatar degdeg ah ama dambi socda", "color": "red"},
+          {"number": "02800", "title": "Lambarka adeegga booliska", "description": "Si aad u soo sheegto khiyaano ama u hesho talo", "color": "blue"},
+          {"number": "21 05 32 00", "title": "Caawinta xadista aqoonsiga", "description": "Haddii qof si khaldan u isticmaalay aqoonsigaaga", "color": "green"},
+          {"number": "Lambarka bangiga", "title": "Ka hel gadaasha kaadhka", "description": "Si aad u xidhid kaadhka iyo akoonka marka khiyaano", "color": "purple"}
+        ],
+        "contactsTip": "Qor lambarradaan oo warqadda dhig telefoonka agtiisa!"
       },
       "passord": {
         "title": "Samaynta furaha sirta wanaagsan",
