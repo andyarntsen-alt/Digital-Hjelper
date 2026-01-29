@@ -2,6 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
+import FeedbackForm from './FeedbackForm';
 
 export default function Footer() {
   const t = useTranslations('footer');
@@ -9,7 +10,7 @@ export default function Footer() {
   return (
     <footer className="bg-gray-800 text-white mt-16 safe-area-bottom">
       <div className="max-w-6xl mx-auto px-4 py-8 sm:py-12">
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <h3 className="text-xl font-bold mb-4">{t('about')}</h3>
             <p className="text-gray-300 leading-relaxed">
@@ -51,6 +52,10 @@ export default function Footer() {
                 {t('privacy')}
               </Link>
             </div>
+          </div>
+
+          <div className="md:col-span-2 lg:col-span-1">
+            <FeedbackForm />
           </div>
         </div>
 

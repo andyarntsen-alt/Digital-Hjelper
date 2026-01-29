@@ -79,6 +79,24 @@
     "police": "Поліція",
     "emergencyRoom": "Чергова допомога"
   },
+  "feedback": {
+    "title": "Залиште відгук",
+    "ratingLabel": "Що ви думаєте про LettDigital?",
+    "rating": {
+      "great": "Дуже добре",
+      "good": "Добре",
+      "improve": "Можна покращити"
+    },
+    "messageLabel": "Ваш відгук",
+    "messagePlaceholder": "Розкажіть, що вам подобається, чого не вистачає, або поради щодо покращення...",
+    "emailLabel": "Електронна пошта",
+    "emailPlaceholder": "ваша@пошта.com",
+    "optional": "необов'язково",
+    "submit": "Надіслати відгук",
+    "sending": "Надсилається...",
+    "thankYou": "Дякуємо за ваш відгук!",
+    "thankYouMessage": "Ми дуже цінуємо, що ви знайшли час допомогти нам стати кращими."
+  },
   "accessibility": {
     "title": "Доступність",
     "fontSize": "Розмір шрифту",

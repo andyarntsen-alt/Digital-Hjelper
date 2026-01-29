@@ -79,6 +79,24 @@
     "police": "Politi",
     "emergencyRoom": "Legevakt"
   },
+  "feedback": {
+    "title": "Gi oss tilbakemelding",
+    "ratingLabel": "Hva synes du om LettDigital?",
+    "rating": {
+      "great": "Veldig bra",
+      "good": "Bra",
+      "improve": "Kan forbedres"
+    },
+    "messageLabel": "Din tilbakemelding",
+    "messagePlaceholder": "Fortell oss hva du liker, hva du savner, eller tips til forbedring...",
+    "emailLabel": "E-post",
+    "emailPlaceholder": "din@epost.no",
+    "optional": "valgfritt",
+    "submit": "Send tilbakemelding",
+    "sending": "Sender...",
+    "thankYou": "Takk for tilbakemeldingen!",
+    "thankYouMessage": "Vi setter stor pris på at du tar deg tid til å hjelpe oss bli bedre."
+  },
   "accessibility": {
     "title": "Tilgjengelighet",
     "fontSize": "Tekststørrelse",

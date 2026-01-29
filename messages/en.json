@@ -79,6 +79,24 @@
     "police": "Police",
     "emergencyRoom": "Emergency room"
   },
+  "feedback": {
+    "title": "Give us feedback",
+    "ratingLabel": "What do you think of LettDigital?",
+    "rating": {
+      "great": "Very good",
+      "good": "Good",
+      "improve": "Can improve"
+    },
+    "messageLabel": "Your feedback",
+    "messagePlaceholder": "Tell us what you like, what you miss, or tips for improvement...",
+    "emailLabel": "Email",
+    "emailPlaceholder": "your@email.com",
+    "optional": "optional",
+    "submit": "Send feedback",
+    "sending": "Sending...",
+    "thankYou": "Thank you for your feedback!",
+    "thankYouMessage": "We really appreciate you taking the time to help us improve."
+  },
   "accessibility": {
     "title": "Accessibility",
     "fontSize": "Font size",
