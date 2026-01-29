@@ -1332,15 +1332,202 @@
       },
       "skattekort": {
         "title": "Change tax card",
-        "description": "How to change your tax card"
+        "description": "How to change your tax card",
+        "longDescription": "The tax card determines how much tax is deducted from your salary each month. If your life situation changes, you should update it.",
+        "time": "About 15 minutes",
+        "difficulty": "Medium",
+        "whatIsTitle": "What is a tax card?",
+        "whatIsText": "The tax card tells your employer how much tax to deduct from your salary. It is based on expected income and deductions.",
+        "cardTypes": [
+          {"type": "Table number", "desc": "Used for fixed monthly deductions. Most common for employees."},
+          {"type": "Percentage card", "desc": "A fixed percentage is deducted regardless of amount. Common for secondary jobs."}
+        ],
+        "whenToChangeTitle": "When should you change your tax card?",
+        "whenToChangeList": [
+          "You got a new job with higher or lower salary",
+          "You started or quit a secondary job",
+          "You took out a mortgage (large interest expenses)",
+          "You became a single parent or got a partner",
+          "You had a child (parental deductions)",
+          "You are paying too much or too little tax"
+        ],
+        "stepsTitle": "How to change your tax card",
+        "steps": [
+          {
+            "title": "Log in to skatteetaten.no",
+            "description": "Go to skatteetaten.no and log in with BankID. Click \"Logg inn\" in the top right corner."
+          },
+          {
+            "title": "Find \"Skattekort\"",
+            "description": "After logging in, look for \"Skattekort\" in the menu or on the front page. Click to see your current tax card."
+          },
+          {
+            "title": "View current tax card",
+            "description": "You now see your tax card with table number and percentage rate. The table number is used by your employer to deduct the correct tax.",
+            "tip": "Table number 7100 is standard for most people. Lower number = less tax deduction."
+          },
+          {
+            "title": "Click \"Endre skattekort\"",
+            "description": "If you want to change the tax card, click \"Endre\" or \"Bestill nytt skattekort\"."
+          },
+          {
+            "title": "Enter income changes",
+            "description": "Fill in what you expect to earn this year. If you got a new job, higher salary, or lost income, update this.",
+            "tip": "Be as accurate as possible. Too high estimate = too much tax. Too low = additional tax due."
+          },
+          {
+            "title": "Add deductions you know about",
+            "description": "If you know you will have large deductions (mortgage, travel expenses), you can add this now to reduce the tax deduction.",
+            "warning": "Don't overestimate deductions - then you risk additional tax due next year."
+          },
+          {
+            "title": "View the new tax deduction",
+            "description": "The calculator shows you what the new tax deduction will be. Compare with today's to see the change."
+          },
+          {
+            "title": "Confirm the change",
+            "description": "If you are satisfied, click \"Bestill\" or \"Bekreft\". The new tax card is sent automatically to your employer.",
+            "tip": "Your employer receives the new tax card electronically within a few days."
+          }
+        ],
+        "tooMuchTaxTitle": "Are you paying too much tax?",
+        "tooMuchTaxText": "If you get a lot of money back on your taxes every year, you are probably paying too much.",
+        "tooMuchTaxSolution": "Change your tax card to receive more each month instead of waiting for the tax settlement.",
+        "tooLittleTaxTitle": "Are you paying too little tax?",
+        "tooLittleTaxText": "If you often have additional tax due, you should increase the tax deduction.",
+        "tooLittleTaxSolution": "Change your tax card to deduct more tax each month and avoid large bills in June.",
+        "tipTitle": "Good to know!",
+        "tipText": "The new tax card for next year arrives automatically in December. You don't need to order it yourself unless you want to make changes."
       },
       "skatteoppgjoer": {
-        "title": "View tax settlement",
-        "description": "Find and understand your tax settlement"
+        "title": "View your tax settlement",
+        "description": "Find and understand your tax settlement",
+        "longDescription": "Learn how to find and understand your tax settlement. Find out if you're getting money back or have to pay additional tax.",
+        "time": "About 5 minutes",
+        "difficulty": "Easy",
+        "whenTitle": "When does the tax settlement come?",
+        "whenList": [
+          {"label": "Submitted in March", "text": "Tax settlement in June"},
+          {"label": "Submitted in April", "text": "Tax settlement in August"},
+          {"label": "Submitted later", "text": "Tax settlement in October-November"}
+        ],
+        "whenNote": "You'll receive an SMS or email when the tax settlement is ready.",
+        "stepsTitle": "How to find your tax settlement",
+        "steps": [
+          {
+            "title": "Go to skatteetaten.no",
+            "description": "Open your browser and type \"skatteetaten.no\" in the address bar.",
+            "tip": "You can also search for \"Skatteetaten\" on Google."
+          },
+          {
+            "title": "Log in with BankID",
+            "description": "Click \"Logg inn\" at the top of the page. Choose BankID and follow the instructions."
+          },
+          {
+            "title": "Find \"Skatteoppgjør\"",
+            "description": "After logging in, find and click on \"Skatteoppgjør\" or \"Se skatteoppgjøret\". You often find this on the front page after logging in.",
+            "tip": "The tax settlement usually comes in June-October, depending on when you submitted your tax return."
+          },
+          {
+            "title": "Select which year",
+            "description": "If you want to see old tax settlements, select the correct year from the list. The newest is usually shown at the top."
+          },
+          {
+            "title": "Read the tax settlement",
+            "description": "You now see an overview of your taxes. The most important numbers are: \"Fastsatt skatt\" (what you should pay in total), \"Innbetalt forskuddsskatt/skattetrekk\" (what you've already paid), and \"Restskatt/Til gode\" (if you owe or get back).",
+            "tip": "Green amount = money back. Red amount = additional tax you must pay."
+          },
+          {
+            "title": "Understand the result",
+            "description": "If you have money coming back, it's paid automatically to your account. If you have additional tax, you get information about when and how to pay.",
+            "warning": "Additional tax over 1000 kr is divided into two installments. Check the due dates!"
+          },
+          {
+            "title": "Download the tax settlement",
+            "description": "You can download the tax settlement as PDF by clicking \"Last ned\" or \"Skriv ut\". This can be useful for loan applications or documentation."
+          }
+        ],
+        "moneyBackTitle": "Money back?",
+        "moneyBackText": "If you have money coming back, it's paid automatically to the account registered with the Tax Office.",
+        "moneyBackList": [
+          "Payment usually happens within 3 weeks",
+          "Check that your account number is updated"
+        ],
+        "additionalTaxTitle": "Additional tax?",
+        "additionalTaxText": "If you have additional tax, you must pay before the due date to avoid interest.",
+        "additionalTaxList": [
+          {"label": "Under 1000 kr", "text": "Paid in one installment"},
+          {"label": "Over 1000 kr", "text": "Divided into two installments (usually August and October)"},
+          {"label": "", "text": "You can pay with online banking - use the KID number from the tax settlement"}
+        ],
+        "faqTitle": "Frequently asked questions",
+        "faq": [
+          {"q": "I think the tax settlement is wrong", "a": "You can appeal the tax settlement within 6 weeks. Go to \"Klage på skatteoppgjøret\" at skatteetaten.no."},
+          {"q": "Can I change the account number for payment?", "a": "Yes, log in to skatteetaten.no and update your account number under \"Min profil\"."},
+          {"q": "I can't afford to pay the additional tax", "a": "You can apply for a payment plan with the Tax Office. Contact them as soon as possible."}
+        ]
       },
       "skatteattest": {
         "title": "Order tax certificate",
-        "description": "How to order a tax certificate"
+        "description": "How to order a tax certificate",
+        "longDescription": "Learn how to order a tax certificate online. You get it immediately, completely free.",
+        "time": "About 5 minutes",
+        "difficulty": "Easy",
+        "whatIsTitle": "What is a tax certificate?",
+        "whatIsText": "A tax certificate is a document showing that you or your company do not owe any taxes or fees to the state.",
+        "whatIsNeededFor": "You may need a tax certificate to:",
+        "whatIsNeededForList": [
+          "Submit bids for public contracts",
+          "Apply for serving permits",
+          "Document tax status to banks or others"
+        ],
+        "stepsTitle": "How to order a tax certificate",
+        "steps": [
+          {
+            "title": "Go to skatteetaten.no",
+            "description": "Open your browser and type \"skatteetaten.no\" in the address bar."
+          },
+          {
+            "title": "Log in with BankID",
+            "description": "Click \"Logg inn\" at the top of the page. Choose BankID and follow the instructions."
+          },
+          {
+            "title": "Search for \"Skatteattest\"",
+            "description": "After logging in, use the search field and type \"skatteattest\". Click on the result called \"Bestill skatteattest\" or similar.",
+            "tip": "You can also find this under \"Bestillinger\" or \"Attester og bekreftelser\"."
+          },
+          {
+            "title": "Choose type of tax certificate",
+            "description": "There are different types of tax certificates. Choose the one that fits your purpose: \"Skatteattest for offentlige anskaffelser\" is the most common.",
+            "warning": "Check with the recipient which type of certificate they need."
+          },
+          {
+            "title": "Fill in information",
+            "description": "You may be asked to specify what the certificate will be used for. Fill in the required fields."
+          },
+          {
+            "title": "Order the certificate",
+            "description": "Click \"Bestill\" or \"Send bestilling\". The certificate is usually created immediately.",
+            "tip": "Most tax certificates can be downloaded immediately as PDF."
+          },
+          {
+            "title": "Download the certificate",
+            "description": "When the certificate is ready, click \"Last ned\" or \"Åpne\". Save the file on your computer.",
+            "tip": "The tax certificate is valid for 6 months from the date of issue."
+          }
+        ],
+        "importantTitle": "Important to know",
+        "importantList": [
+          {"label": "Validity period", "text": "The tax certificate is valid for 6 months from the date of issue"},
+          {"label": "Free", "text": "It costs nothing to order a tax certificate"},
+          {"label": "Owed taxes", "text": "If you owe taxes, you cannot get a tax certificate until the debt is paid"}
+        ],
+        "faqTitle": "Frequently asked questions",
+        "faq": [
+          {"q": "I can't get a tax certificate because I owe taxes", "a": "You must pay the tax debt first. Log in to skatteetaten.no to see what you owe and pay."},
+          {"q": "Can I order a tax certificate for my company?", "a": "Yes, but you must have access rights in Altinn for the company. Log in with BankID and select your company."},
+          {"q": "How do I send the tax certificate to someone?", "a": "Download the PDF file and send it as an email attachment, or print it and deliver it physically."}
+        ]
       },
       "loggInn": {
         "title": "Log in to the Tax Office",
@@ -1460,7 +1647,21 @@
         "cancelTitle": "Need to cancel?",
         "cancelText": "You can cancel or change the appointment on Helsenorge. Go to \"Appointments\" and click on the appointment you want to change. Cancel at least 24 hours before if possible, so others can use the slot.",
         "cantBookOnlineTitle": "Cannot book online?",
-        "cantBookOnlineText": "Some medical offices do not offer online booking. Then you must call the medical office directly. You can find the phone number on helsenorge.no under \"My GP\"."
+        "cantBookOnlineText": "Some medical offices do not offer online booking. Then you must call the medical office directly. You can find the phone number on helsenorge.no under \"My GP\".",
+        "benefitsTitle": "Benefits of booking online",
+        "benefits": [
+          "Open 24 hours a day, 7 days a week",
+          "No waiting in phone queue",
+          "You see all available times and choose yourself",
+          "You get confirmation immediately"
+        ],
+        "faqTitle": "What do I do if...",
+        "faq": [
+          {"q": "...there are no available times?", "a": "Call the medical office directly. They can often find solutions for urgent needs."},
+          {"q": "...my GP doesn't have online booking?", "a": "Some medical offices haven't activated online booking. Then you must call to book an appointment."},
+          {"q": "...I need to cancel the appointment?", "a": "Log in to Helsenorge, go to \"My appointments\" and click \"Cancel\". Do this at least 24 hours before the appointment."},
+          {"q": "...I'm acutely ill?", "a": "Call the medical office or emergency services at 116 117. Don't use online booking for acute illness."}
+        ]
       },
       "resepter": {
         "title": "View and renew prescriptions",
@@ -1507,7 +1708,31 @@
           "Always have enough medicine to wait for the doctor to renew",
           "Some medicines require a doctor's appointment before renewal (e.g. blood pressure medication)",
           "E-prescriptions are valid for 1 year from when they are issued"
-        ]
+        ],
+        "whatYouFindTitle": "What you'll find on \"My prescriptions\"",
+        "whatYouFind": [
+          {"label": "Medicine name", "desc": "Active ingredient and brand name"},
+          {"label": "Strength and form", "desc": "E.g. \"10 mg tablets\""},
+          {"label": "Dosage", "desc": "How much and when to take the medicine"},
+          {"label": "Refills remaining", "desc": "How many times you can pick up"},
+          {"label": "Expiry date", "desc": "When the prescription needs renewal"},
+          {"label": "Prescriber", "desc": "Which doctor wrote the prescription"}
+        ],
+        "prescriptionTypesTitle": "Types of prescriptions",
+        "prescriptionTypes": [
+          {"type": "White prescription (regular)", "desc": "Most medicines. You pay full price or co-payment.", "color": "blue"},
+          {"type": "Blue prescription", "desc": "For chronic conditions. The state covers most, you pay small co-payment.", "color": "green"},
+          {"type": "H-prescription", "desc": "Special medicines only used in hospitals or outpatient clinics.", "color": "purple"}
+        ],
+        "faqTitle": "Frequently asked questions",
+        "faq": [
+          {"q": "Can all prescriptions be renewed without an appointment?", "a": "No, some medicines (like strong painkillers or sleeping pills) require a new evaluation. Then you must book an appointment."},
+          {"q": "How long does renewal take?", "a": "Usually 1-3 business days, but it can vary. Request renewal well before the medicine runs out!"},
+          {"q": "Can I pick up medicine at a different pharmacy?", "a": "Yes! Your prescriptions are stored electronically and can be picked up at any pharmacy in Norway."},
+          {"q": "What do I do if the prescription has expired?", "a": "Contact your doctor to get a new prescription. Use Helsenorge or call the medical office."}
+        ],
+        "tipBoxTitle": "Tip: Use the medicine database!",
+        "tipBoxText": "At felleskatalogen.no you can look up your medicine and read about side effects, dosage and what you should know."
       },
       "bytteFastlege": {
         "title": "Change GP",
@@ -1554,7 +1779,13 @@
           }
         ],
         "noSpaceTitle": "No available spots?",
-        "noSpaceText": "If the doctor you want is full, you can put yourself on a waiting list. You'll be notified when a spot becomes available. You can also try calling the medical office - sometimes they have spots that don't show online."
+        "noSpaceText": "If the doctor you want is full, you can put yourself on a waiting list. You'll be notified when a spot becomes available. You can also try calling the medical office - sometimes they have spots that don't show online.",
+        "faqTitle": "Frequently asked questions",
+        "faq": [
+          {"q": "What if I can't find a doctor with available spots?", "a": "You can put yourself on the waiting list for doctors who are full. The municipality must ensure you have a GP."},
+          {"q": "Can I use my old doctor while I wait?", "a": "Yes, you can still use your current GP until the switch takes effect."},
+          {"q": "What happens to my medical records?", "a": "The new GP gets access to your records automatically. You don't need to do anything."}
+        ]
       },
       "journal": {
         "title": "Read patient records",
@@ -1593,7 +1824,21 @@
           }
         ],
         "delayTitle": "Why can't I see everything?",
-        "delayText": "Some records have a delay of a few days before you can see them. This is so the doctor has time to inform you first if there is something important. Hospitals and specialists may have longer delays."
+        "delayText": "Some records have a delay of a few days before you can see them. This is so the doctor has time to inform you first if there is something important. Hospitals and specialists may have longer delays.",
+        "whatYouFindTitle": "What can you find in the records?",
+        "whatYouFind": [
+          "Notes from doctor visits and consultations",
+          "Diagnoses and illnesses",
+          "Results from blood tests and examinations",
+          "Prescriptions and medications",
+          "Referrals and discharge summaries"
+        ],
+        "faqTitle": "Frequently asked questions",
+        "faq": [
+          {"q": "I don't understand what's written in the records", "a": "Medical records are written by healthcare professionals and may contain medical terminology. Ask your doctor to explain."},
+          {"q": "Something is wrong in my records", "a": "You can request correction of errors. Contact the doctor's office or hospital that made the error."},
+          {"q": "I can't find records from the hospital", "a": "Not all hospitals have connected to Helsenorge yet. Contact the hospital directly to get a copy of the records."}
+        ]
       },
       "melding": {
         "title": "Send message to doctor",
@@ -1646,6 +1891,12 @@
             "description": "The doctor usually responds within 1-3 business days. You'll be notified by SMS or email when the answer arrives. Log in to Helsenorge to read the answer.",
             "warning": "For acute problems, don't wait for a response - call the emergency room (116 117) or ambulance (113)."
           }
+        ],
+        "faqTitle": "Frequently asked questions",
+        "faq": [
+          {"q": "How long does it take to get a response?", "a": "Usually 1-3 business days. During holiday periods it may take longer."},
+          {"q": "Are my messages secure?", "a": "Yes, everything on Helsenorge is encrypted and secure. Only you and the medical office can read the messages."},
+          {"q": "Can I attach images?", "a": "Yes, many medical offices let you attach images. This can be useful for showing rashes or wounds."}
         ]
       },
       "loggInn": {
@@ -1867,10 +2118,110 @@
       "svindel": {
         "title": "Avoid fraud",
         "description": "Learn to recognize and avoid fraud attempts",
-        "longDescription": "Fraudsters use many methods to trick people. Here you learn to recognize the most common fraud methods and protect yourself.",
+        "longDescription": "Learn to recognize and avoid fraud attempts via phone, SMS and email. Especially important for elderly.",
         "backToGuides": "Back to Digital Security",
         "time": "About 15 minutes",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "checklistTitle": "Is this real? - Checklist",
+        "checklistIntro": "Did you receive a phone call, SMS or email you're unsure about? Answer the questions below:",
+        "checklistItems": [
+          {"question": "Did they contact YOU first?", "warning": "Real banks and authorities rarely contact you unsolicited."},
+          {"question": "Are they asking for password, BankID or national ID number?", "warning": "NEVER give this out - real senders never ask for it!"},
+          {"question": "Is it very urgent?", "warning": "Scammers always create urgency. Real matters can wait until tomorrow."},
+          {"question": "Do you have to pay to receive something?", "warning": "Real prizes and inheritance never require you to pay first."},
+          {"question": "Does it seem too good to be true?", "warning": "Then it's almost always too good to be true."},
+          {"question": "Should you keep it secret?", "warning": "Scammers don't want you talking to others who might expose them."},
+          {"question": "Do they want cash or gift cards?", "warning": "Real companies never take payment in gift cards."}
+        ],
+        "checklistResultSafe": "Looks safe, but always be vigilant!",
+        "checklistResultCaution": "Be careful! {count} warning signs. Talk to someone you trust before doing anything.",
+        "checklistResultDanger": "STOP! {count} warning signs. This is probably fraud. Don't do anything!",
+        "checklistPrintMessage": "Use the checklist above to evaluate if you've been contacted by scammers.",
+        "elderScamTitle": "Fraud targeting elderly",
+        "elderScamIntro": "Scammers often target elderly because they may be more trusting and have savings. Here are the most common types:",
+        "elderScamTypes": [
+          {
+            "title": "Grandchild scam",
+            "description": "Someone calls pretending to be your grandchild. They say they're in trouble and need money fast - often for lawyer, bail or hospital bill.",
+            "howItWorks": "The scammer calls and says \"Hi grandma/grandpa, it's me!\" and hopes you say your grandchild's name. Then they pretend to be that person.",
+            "redFlags": ["They ask you NOT to tell their parents", "They need the money VERY fast", "They want cash or gift cards", "The voice sounds \"different\" - they say they have a cold"],
+            "whatToDo": "Hang up and call your grandchild on the number you have saved. Ask about something only the two of you know.",
+            "icon": "👴"
+          },
+          {
+            "title": "Microsoft/Apple scam",
+            "description": "Someone calls saying they're from Microsoft, Apple or \"tech support\". They claim your computer has a virus and they need to help you remove it.",
+            "howItWorks": "They get you to install a program that gives them control over your computer. Then they \"find\" problems and demand payment.",
+            "redFlags": ["Microsoft and Apple NEVER call unsolicited", "They ask for remote access to your computer", "They want payment in gift cards or cryptocurrency", "They threaten that your computer will stop working"],
+            "whatToDo": "Hang up immediately. Real tech support never calls you first.",
+            "icon": "💻"
+          },
+          {
+            "title": "Romance scam",
+            "description": "Someone you met online (often on Facebook or dating sites) says they're in love with you. Eventually they ask for money.",
+            "howItWorks": "They build a relationship over weeks or months. Then a \"crisis\" occurs - they need money for plane ticket, medical treatment or customs.",
+            "redFlags": ["They can never meet face to face", "They declare love very quickly", "They always have excuses for not video calling", "They ask for money - for any reason"],
+            "whatToDo": "Never send money to someone you only know from the internet. Talk to family or friends about the relationship.",
+            "icon": "💔"
+          },
+          {
+            "title": "Lottery scam",
+            "description": "You're told you've won a lottery you never entered. But you have to pay \"fee\" or \"tax\" to receive the prize.",
+            "howItWorks": "They send email or call with \"good news\". To get the million prize you just have to pay a small amount first.",
+            "redFlags": ["You haven't bought a ticket or entered the competition", "You have to pay to receive the prize", "They ask for bank information to \"transfer the prize\"", "The prize is in foreign currency"],
+            "whatToDo": "Ignore it. You can't win lotteries you haven't entered.",
+            "icon": "🎰"
+          },
+          {
+            "title": "Investment scam",
+            "description": "Someone promises you fantastic returns on investments in stocks, cryptocurrency or other \"opportunities\".",
+            "howItWorks": "They contact you with a \"unique opportunity\". Often they show fake websites that look like your investments are growing.",
+            "redFlags": ["The returns are too good to be true (20-50% or more)", "They pressure you to invest quickly", "You've never heard of the company before", "They call from abroad or have a foreign accent"],
+            "whatToDo": "Talk to your bank before investing. Check the Financial Supervisory Authority's list of warnings.",
+            "icon": "📈"
+          },
+          {
+            "title": "Contractor scam",
+            "description": "Someone knocks on your door offering to fix the roof, driveway or something else \"they happened to see needed repair\".",
+            "howItWorks": "They do a poor or unnecessary job and demand high payment in cash. Sometimes they disappear with the advance payment.",
+            "redFlags": ["They \"happened\" to be in the neighborhood", "They want payment in advance or cash", "They have no written quote or contract", "They pressure you to decide immediately"],
+            "whatToDo": "Say no to unsolicited offers. Use contractors you know or who are recommended by someone you trust.",
+            "icon": "🔧"
+          }
+        ],
+        "otherScamTitle": "Other common fraud types",
+        "otherScamTypes": [
+          {"title": "Phone scam", "description": "Someone calls pretending to be from the bank, police or Microsoft. They want access to your account."},
+          {"title": "SMS scam", "description": "\"Your package is waiting\" or \"You've won!\" - messages with links leading to fake websites."},
+          {"title": "Email scam (phishing)", "description": "Emails that look like they come from the bank or others you trust, but want to trick you."}
+        ],
+        "stepsTitle": "How to protect yourself from fraud",
+        "steps": [
+          {"title": "Stop and think", "description": "Scammers try to stress you into acting fast. Take your time. Real banks and authorities always give you time to think.", "tip": "If someone says \"this is urgent!\" or \"you must act NOW!\", it's almost always fraud."},
+          {"title": "Check who's contacting you", "description": "Look carefully at who's calling or sending the message. Scammers can fake phone numbers and email addresses, but there are often small errors.", "warning": "Your bank will NEVER call and ask for password, BankID code or national ID number!"},
+          {"title": "Look for spelling errors", "description": "Real messages from banks and authorities are always written with correct grammar. Scam messages often have spelling errors, strange phrasing or poor grammar.", "tip": "Read the message out loud. Does it sound strange? Then it's probably fraud."},
+          {"title": "Don't click links in messages", "description": "Scammers often send links that look real but lead to fake websites. Instead, go directly to the bank's website by typing the address yourself.", "warning": "Never log in via links in email or SMS. Always type the address yourself in the browser."},
+          {"title": "Never share personal information", "description": "Passwords, BankID codes, national ID numbers and card information should NEVER be shared with anyone who contacts you. Real companies never ask for this."},
+          {"title": "Call back on official number", "description": "If someone calls saying they're from the bank, hang up and call the bank's official number. Find the number on the bank's website or on the back of your bank card.", "tip": "Don't call back on the number that called you - it can also be faked."},
+          {"title": "Talk to someone you trust", "description": "Are you unsure? Talk to family, friends or your bank before doing anything. It's better to ask once too many than to be tricked."}
+        ],
+        "neverAskTitle": "Remember: Real senders will NEVER ask you for...",
+        "neverAskList": ["Password or PIN code", "BankID code on phone", "National ID number", "To install programs on your computer", "To transfer money to a \"safe account\""],
+        "examplesTitle": "Examples of real scam messages",
+        "examples": [
+          {"type": "SMS", "message": "Your package is waiting for delivery. Pay 29 kr shipping here: [link]", "warning": "Post offices never send SMS about payment via links!"},
+          {"type": "Phone", "message": "Hello, this is from the bank's security department. We've detected suspicious activity and need to verify your BankID.", "warning": "The bank NEVER calls about BankID!"},
+          {"type": "Email", "message": "Dear customer, your account will be closed if you don't update your information within 24 hours.", "warning": "Real banks never threaten account closure via email!"},
+          {"type": "Phone (Grandchild scam)", "message": "Hi grandma, it's me! I've been in an accident and need 50,000 kr for a lawyer. Can you help? But don't tell mom!", "warning": "Real grandchildren don't ask you to keep things secret from parents!"}
+        ],
+        "contactsTitle": "Important phone numbers",
+        "contacts": [
+          {"number": "112", "title": "Emergency number - Police", "description": "For immediate danger or ongoing crime", "color": "red"},
+          {"number": "02800", "title": "Police service number", "description": "To report fraud or get advice", "color": "blue"},
+          {"number": "21 05 32 00", "title": "ID theft helpline", "description": "If someone has misused your identity", "color": "green"},
+          {"number": "Bank's number", "title": "Find it on the back of your card", "description": "Block card and account in case of fraud", "color": "purple"}
+        ],
+        "contactsTip": "Write down these numbers and keep the note by your phone!"
       },
       "passord": {
         "title": "Creating good passwords",
