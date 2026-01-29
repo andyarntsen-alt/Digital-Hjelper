@@ -24,6 +24,11 @@
     "removeFromFavorites": "Usuń z ulubionych",
     "print": "Drukuj"
   },
+  "toast": {
+    "addedToFavorites": "Dodano do ulubionych",
+    "removedFromFavorites": "Usunięto z ulubionych",
+    "printStarted": "Drukowanie rozpoczęte"
+  },
   "header": {
     "siteName": "LettDigital",
     "tagline": "Prosty przewodnik dla wszystkich",
@@ -103,7 +108,18 @@
     "whatIsTitle": "Czym jest LettDigital?",
     "whatIsText": "LettDigital to bezpłatna, niezależna strona internetowa, która pomaga korzystać z publicznych usług cyfrowych w Norwegii. Wyjaśniamy trudne rzeczy w prosty sposób, tak aby każdy mógł opanować cyfrowy świat.",
     "disclaimerTitle": "Ważne informacje",
-    "disclaimerText": "LettDigital nie jest częścią NAV, Urzędu Skarbowego, Helsenorge ani innych agencji publicznych. Jesteśmy niezależną usługą pomocy, która wyjaśnia, jak działają te usługi. Wszystkie oficjalne informacje znajdziesz na stronach internetowych agencji. Nasze przewodniki są orientacyjne i nie zastępują oficjalnych informacji."
+    "disclaimerText": "LettDigital nie jest częścią NAV, Urzędu Skarbowego, Helsenorge ani innych agencji publicznych. Jesteśmy niezależną usługą pomocy, która wyjaśnia, jak działają te usługi. Wszystkie oficjalne informacje znajdziesz na stronach internetowych agencji. Nasze przewodniki są orientacyjne i nie zastępują oficjalnych informacji.",
+    "mostUsed": "Najczęściej używane usługi",
+    "mostUsedDesc": "Zacznij tutaj, jeśli nie jesteś pewien. To usługi, z którymi najczęściej potrzebna jest pomoc.",
+    "otherServices": "Inne usługi",
+    "forHelpersTitle": "Jesteś pomocnikiem?",
+    "forHelpersDesc": "Pomagasz komuś z usługami cyfrowymi? Oto kilka wskazówek, które ułatwią sprawę.",
+    "helperTip1Title": "Wydrukuj przewodniki",
+    "helperTip1Desc": "Wszystkie nasze przewodniki można wydrukować. Kliknij przycisk drukowania u góry przewodnika.",
+    "helperTip2Title": "Szukaj tego, czego potrzebujesz",
+    "helperTip2Desc": "Użyj pola wyszukiwania u góry, aby szybko znaleźć przewodniki. Szukaj słów kluczowych, takich jak 'BankID' lub 'zeznanie podatkowe'.",
+    "helperTip3Title": "Zapisz ulubione",
+    "helperTip3Desc": "Oznacz przewodniki jako ulubione, aby je łatwo znaleźć. Idealne dla przewodników, których często używasz."
   },
   "services": {
     "nav": {
@@ -3297,7 +3313,9 @@
     "allStepsComplete": "Ukończyłeś wszystkie kroki w tym przewodniku.",
     "beforeYouStart": "Zanim zaczniesz",
     "youNeed": "Potrzebujesz",
-    "problems": "Problemy?"
+    "problems": "Problemy?",
+    "showAllSteps": "Pokaż wszystkie kroki",
+    "showOneStep": "Pokaż jeden krok"
   },
   "search": {
     "placeholder": "Szukaj przewodników... (np. bezrobocie, recepta, podatek)",

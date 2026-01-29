@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { useLocale } from 'next-intl';
 import { useRouter, usePathname } from '@/i18n/navigation';
-import { allLocales, localeNames, localeFlags, isLocaleActive } from '@/i18n/routing';
+import { allLocales, localeNames, localeFlags, isLocaleActive, type Locale } from '@/i18n/routing';
 
 export default function LanguageSelector() {
   const locale = useLocale();
@@ -22,10 +22,10 @@ export default function LanguageSelector() {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
-  const handleLocaleChange = (newLocale: string) => {
+  const handleLocaleChange = (newLocale: Locale) => {
     // Kun tillat bytte til aktive språk
     if (isLocaleActive(newLocale)) {
-      router.replace(pathname, { locale: newLocale as any });
+      router.replace(pathname, { locale: newLocale });
     }
     setIsOpen(false);
   };
@@ -34,13 +34,13 @@ export default function LanguageSelector() {
     <div className="relative" ref={dropdownRef}>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-gray-100 transition-colors"
+        className="h-9 px-3 flex items-center gap-2 rounded-lg hover:bg-gray-100 transition-colors"
         aria-expanded={isOpen}
         aria-haspopup="listbox"
         aria-label="Velg språk"
       >
-        <span className="text-xl">{localeFlags[locale]}</span>
-        <span className="hidden sm:inline text-gray-700">{localeNames[locale]}</span>
+        <span className="text-lg">{localeFlags[locale]}</span>
+        <span className="hidden sm:block text-gray-700">{localeNames[locale]}</span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className={`h-4 w-4 text-gray-500 transition-transform ${isOpen ? 'rotate-180' : ''}`}

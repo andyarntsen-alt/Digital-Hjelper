@@ -3,6 +3,7 @@
 import Breadcrumbs from '@/components/Breadcrumbs';
 import PrintButton from '@/components/PrintButton';
 import StepGuide from '@/components/StepGuide';
+import GuideTracker from '@/components/GuideTracker';
 import { HowToSchema } from '@/components/StructuredData';
 import { useTranslations, useLocale } from 'next-intl';
 
@@ -29,6 +30,7 @@ export default function HelseLoggInnPage() {
 
   return (
     <>
+      <GuideTracker />
       <HowToSchema
         name={t('title')}
         description={t('longDescription')}

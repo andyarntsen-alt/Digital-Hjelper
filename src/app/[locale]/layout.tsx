@@ -10,6 +10,7 @@ import CookieBanner from '@/components/CookieBanner';
 import { OrganizationSchema, WebSiteSchema } from '@/components/StructuredData';
 import LanguageHtmlUpdater from '@/components/LanguageHtmlUpdater';
 import HreflangTags from '@/components/HreflangTags';
+import { ToastProvider } from '@/contexts/ToastContext';
 
 export const metadata: Metadata = {
   title: 'LettDigital - Enkel veiledning for offentlige tjenester',
@@ -68,19 +69,21 @@ export default async function LocaleLayout({
 
   return (
     <NextIntlClientProvider messages={messages}>
-      <LanguageHtmlUpdater />
-      <HreflangTags />
-      <OrganizationSchema locale={locale} />
-      <WebSiteSchema locale={locale} />
-      <div className="flex flex-col min-h-screen">
-        <Header />
-        <main id="main-content" className="flex-1">
-          {children}
-        </main>
-        <Footer />
-        <AccessibilityToolbar />
-        <CookieBanner />
-      </div>
+      <ToastProvider>
+        <LanguageHtmlUpdater />
+        <HreflangTags />
+        <OrganizationSchema locale={locale} />
+        <WebSiteSchema locale={locale} />
+        <div className="flex flex-col min-h-screen">
+          <Header />
+          <main id="main-content" className="flex-1">
+            {children}
+          </main>
+          <Footer />
+          <AccessibilityToolbar />
+          <CookieBanner />
+        </div>
+      </ToastProvider>
     </NextIntlClientProvider>
   );
 }

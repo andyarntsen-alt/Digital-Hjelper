@@ -24,6 +24,11 @@
     "removeFromFavorites": "Fjern fra favoritter",
     "print": "Skriv ut"
   },
+  "toast": {
+    "addedToFavorites": "Lagt til i favoritter",
+    "removedFromFavorites": "Fjernet fra favoritter",
+    "printStarted": "Utskrift startet"
+  },
   "header": {
     "siteName": "LettDigital",
     "tagline": "Enkel veiledning for alle",
@@ -71,6 +76,19 @@
     "readAloud": "Les høyt",
     "stopReading": "Stopp lesing"
   },
+  "relatedGuides": {
+    "title": "Andre guider du kanskje trenger"
+  },
+  "recentlyVisited": {
+    "title": "Fortsett der du slapp"
+  },
+  "cookieBanner": {
+    "title": "Vi bruker informasjonskapsler (cookies)",
+    "description": "Vi bruker kun nødvendige informasjonskapsler for å huske dine innstillinger.",
+    "readMore": "Les mer",
+    "necessary": "Nødvendige",
+    "accept": "Godta"
+  },
   "home": {
     "heroTitle": "Trenger du hjelp med",
     "heroTitleBreak": "digitale offentlige tjenester?",
@@ -103,7 +121,18 @@
     "free": "Helt gratis",
     "freeDesc": "Vår tjeneste koster ingenting å bruke.",
     "ctaTitle": "Klar til å komme i gang?",
-    "ctaSubtitle": "Velg tjenesten du trenger hjelp med, så guider vi deg gjennom prosessen."
+    "ctaSubtitle": "Velg tjenesten du trenger hjelp med, så guider vi deg gjennom prosessen.",
+    "mostUsed": "Mest brukte tjenester",
+    "mostUsedDesc": "Start her hvis du er usikker. Dette er tjenestene flest trenger hjelp med.",
+    "otherServices": "Andre tjenester",
+    "forHelpersTitle": "Er du hjelper?",
+    "forHelpersDesc": "Hjelper du noen med digitale tjenester? Her er noen tips som gjør det enklere.",
+    "helperTip1Title": "Skriv ut guidene",
+    "helperTip1Desc": "Alle våre guider kan skrives ut. Trykk på skriv ut-knappen øverst i guiden.",
+    "helperTip2Title": "Søk etter det du trenger",
+    "helperTip2Desc": "Bruk søkefeltet øverst for å finne guider raskt. Søk på stikkord som 'BankID' eller 'skattemelding'.",
+    "helperTip3Title": "Lagre favoritter",
+    "helperTip3Desc": "Marker guider som favoritter så du finner dem igjen. Perfekt for guider du bruker ofte."
   },
   "services": {
     "nav": {
@@ -3943,7 +3972,9 @@
     "allStepsComplete": "Du har fullført alle stegene i denne veiledningen.",
     "beforeYouStart": "Før du starter",
     "youNeed": "Du trenger",
-    "problems": "Problemer?"
+    "problems": "Problemer?",
+    "showAllSteps": "Vis alle steg",
+    "showOneStep": "Vis ett steg"
   },
   "search": {
     "placeholder": "Søk etter veiledninger... (f.eks. dagpenger, resept, skatt)",

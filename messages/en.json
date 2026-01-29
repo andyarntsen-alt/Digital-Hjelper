@@ -26,6 +26,11 @@
     "comingSoonText": "This guide is not yet available in English. We are working on translating all our guides. In the meantime, you can use the Norwegian version or come back later.",
     "print": "Print"
   },
+  "toast": {
+    "addedToFavorites": "Added to favorites",
+    "removedFromFavorites": "Removed from favorites",
+    "printStarted": "Print started"
+  },
   "header": {
     "siteName": "LettDigital",
     "tagline": "Simple guidance for everyone",
@@ -73,6 +78,19 @@
     "readAloud": "Read aloud",
     "stopReading": "Stop reading"
   },
+  "relatedGuides": {
+    "title": "Other guides you might need"
+  },
+  "recentlyVisited": {
+    "title": "Continue where you left off"
+  },
+  "cookieBanner": {
+    "title": "We use cookies",
+    "description": "We only use necessary cookies to remember your settings.",
+    "readMore": "Read more",
+    "necessary": "Necessary only",
+    "accept": "Accept"
+  },
   "home": {
     "heroTitle": "Do you need help with",
     "heroTitleBreak": "digital public services?",
@@ -105,7 +123,18 @@
     "whatIsTitle": "What is LettDigital?",
     "whatIsText": "LettDigital is a free, independent website that helps you use public digital services in Norway. We explain difficult things in a simple way, so everyone can master the digital world.",
     "disclaimerTitle": "Important to know",
-    "disclaimerText": "LettDigital is not part of NAV, the Tax Office, Health Norway or other public agencies. We are an independent help service that explains how the services work. All official information can be found on the agencies' own websites. Our guides are for guidance only and do not replace official information."
+    "disclaimerText": "LettDigital is not part of NAV, the Tax Office, Health Norway or other public agencies. We are an independent help service that explains how the services work. All official information can be found on the agencies' own websites. Our guides are for guidance only and do not replace official information.",
+    "mostUsed": "Most used services",
+    "mostUsedDesc": "Start here if you're unsure. These are the services most people need help with.",
+    "otherServices": "Other services",
+    "forHelpersTitle": "Are you a helper?",
+    "forHelpersDesc": "Helping someone with digital services? Here are some tips to make it easier.",
+    "helperTip1Title": "Print the guides",
+    "helperTip1Desc": "All our guides can be printed. Click the print button at the top of the guide.",
+    "helperTip2Title": "Search for what you need",
+    "helperTip2Desc": "Use the search field at the top to find guides quickly. Search for keywords like 'BankID' or 'tax return'.",
+    "helperTip3Title": "Save favorites",
+    "helperTip3Desc": "Mark guides as favorites to find them again. Perfect for guides you use often."
   },
   "services": {
     "nav": {
@@ -4025,7 +4054,9 @@
     "allStepsComplete": "You have completed all the steps in this guide.",
     "beforeYouStart": "Before you start",
     "youNeed": "You need",
-    "problems": "Problems?"
+    "problems": "Problems?",
+    "showAllSteps": "Show all steps",
+    "showOneStep": "Show one step"
   },
   "search": {
     "placeholder": "Search for guides... (e.g., unemployment, prescription, tax)",

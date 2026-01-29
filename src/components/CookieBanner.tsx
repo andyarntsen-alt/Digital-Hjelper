@@ -2,10 +2,12 @@
 
 import { useState, useEffect } from 'react';
 import { Link } from '@/i18n/navigation';
+import { useTranslations } from 'next-intl';
 
 export default function CookieBanner() {
   const [mounted, setMounted] = useState(false);
   const [showBanner, setShowBanner] = useState(false);
+  const t = useTranslations('cookieBanner');
 
   useEffect(() => {
     setMounted(true);
@@ -33,11 +35,11 @@ export default function CookieBanner() {
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
           <div className="flex-1">
-            <h3 className="text-base sm:text-lg font-semibold mb-2">Vi bruker informasjonskapsler (cookies)</h3>
+            <h3 className="text-base sm:text-lg font-semibold mb-2">{t('title')}</h3>
             <p className="text-gray-300 text-sm">
-              Vi bruker kun nødvendige informasjonskapsler for å huske dine innstillinger.{' '}
+              {t('description')}{' '}
               <Link href="/personvern" className="text-blue-400 hover:text-blue-300 underline">
-                Les mer
+                {t('readMore')}
               </Link>
             </p>
           </div>
@@ -46,13 +48,13 @@ export default function CookieBanner() {
               onClick={declineCookies}
               className="flex-1 sm:flex-none px-3 sm:px-4 py-3 text-gray-300 hover:text-white active:text-white border border-gray-600 rounded-lg hover:border-gray-400 active:border-gray-400 transition-colors text-sm sm:text-base"
             >
-              Nødvendige
+              {t('necessary')}
             </button>
             <button
               onClick={acceptCookies}
               className="flex-1 sm:flex-none px-4 sm:px-6 py-3 bg-nav-blue hover:bg-nav-dark active:bg-nav-dark text-white rounded-lg font-medium transition-colors text-sm sm:text-base"
             >
-              Godta
+              {t('accept')}
             </button>
           </div>
         </div>

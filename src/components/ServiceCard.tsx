@@ -9,23 +9,30 @@ interface ServiceCardProps {
   icon: React.ReactNode;
   href: string;
   color: string;
+  categoryIcon?: string;
+  featured?: boolean;
 }
 
-export default function ServiceCard({ title, description, icon, href, color }: ServiceCardProps) {
+export default function ServiceCard({ title, description, icon, href, color, categoryIcon, featured }: ServiceCardProps) {
   const t = useTranslations('common');
 
   return (
     <Link href={href} className="no-underline group">
-      <div className="service-card h-full active:scale-[0.98] transition-transform">
-        <div
-          className={`w-14 h-14 sm:w-16 sm:h-16 rounded-xl flex items-center justify-center mb-3 sm:mb-4 ${color}`}
-        >
-          {icon}
+      <div className={`service-card h-full active:scale-[0.98] transition-transform ${featured ? 'ring-2 ring-nav-blue ring-offset-2' : ''}`}>
+        <div className="flex items-start gap-3">
+          <div
+            className={`${featured ? 'w-16 h-16 sm:w-20 sm:h-20' : 'w-14 h-14 sm:w-16 sm:h-16'} rounded-xl flex items-center justify-center flex-shrink-0 ${color}`}
+          >
+            {icon}
+          </div>
+          {categoryIcon && (
+            <span className="text-2xl sm:text-3xl" aria-hidden="true">{categoryIcon}</span>
+          )}
         </div>
-        <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-2 group-hover:text-nav-blue transition-colors">
+        <h3 className={`${featured ? 'text-2xl sm:text-3xl' : 'text-xl sm:text-2xl'} font-bold text-gray-800 mt-3 sm:mt-4 mb-2 group-hover:text-nav-blue transition-colors`}>
           {title}
         </h3>
-        <p className="text-gray-600 leading-relaxed text-sm sm:text-base">
+        <p className={`text-gray-600 leading-relaxed ${featured ? 'text-base sm:text-lg' : 'text-sm sm:text-base'}`}>
           {description}
         </p>
         <div className="mt-3 sm:mt-4 flex items-center text-nav-blue font-semibold">

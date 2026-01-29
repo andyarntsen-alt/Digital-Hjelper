@@ -25,11 +25,24 @@ export default function RootLayout({
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#1e3a5f" />
-        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta name="apple-mobile-web-app-title" content="LettDigital" />
       </head>
       <body className={`${inter.className} bg-gray-50 min-h-screen flex flex-col`}>
+        <noscript>
+          <div style={{
+            padding: '1.5rem',
+            backgroundColor: '#fef3c7',
+            textAlign: 'center',
+            fontSize: '1.125rem',
+            borderBottom: '2px solid #f59e0b'
+          }}>
+            <strong>JavaScript er deaktivert.</strong>
+            <br />
+            LettDigital fungerer best med JavaScript aktivert, men du kan fortsatt lese innholdet på sidene.
+          </div>
+        </noscript>
         {children}
         <Analytics />
         <ServiceWorkerRegistration />

@@ -24,6 +24,11 @@
     "removeFromFavorites": "Ka saar kuwa jeclaahay",
     "print": "Daabac"
   },
+  "toast": {
+    "addedToFavorites": "Ku daray kuwa jeclaahay",
+    "removedFromFavorites": "Ka saaray kuwa jeclaahay",
+    "printStarted": "Daabacaadda bilaabatay"
+  },
   "header": {
     "siteName": "LettDigital",
     "tagline": "Hage fudud oo qof walba",
@@ -103,7 +108,18 @@
     "whatIsTitle": "Waa maxay LettDigital?",
     "whatIsText": "LettDigital waa websaydh bilaash ah oo madax-bannaan oo kaa caawiya inaad isticmaasho adeegyada dhijitaalka ee dawladda Norway. Waxaan ku sharaxnaa waxyaabaha adag si fudud, si qof walba u gacan qaadi karo dhijitaalka.",
     "disclaimerTitle": "Muhiim in la ogaado",
-    "disclaimerText": "LettDigital kama mid aha NAV, Hey'adda Canshuurta, Caafimaadka Norway ama hay'adaha dawladda kale. Waxaan nahay adeeg caawin oo madax-bannaan oo sharaxaya sida adeegyadu u shaqeeyaan. Dhammaan macluumaadka rasmiga ah waxaad ka heli kartaa bogagga hay'adaha. Hagayaasheenu waa tilmaam oo ma beddeli karaan macluumaadka rasmiga ah."
+    "disclaimerText": "LettDigital kama mid aha NAV, Hey'adda Canshuurta, Caafimaadka Norway ama hay'adaha dawladda kale. Waxaan nahay adeeg caawin oo madax-bannaan oo sharaxaya sida adeegyadu u shaqeeyaan. Dhammaan macluumaadka rasmiga ah waxaad ka heli kartaa bogagga hay'adaha. Hagayaasheenu waa tilmaam oo ma beddeli karaan macluumaadka rasmiga ah.",
+    "mostUsed": "Adeegyada ugu badan ee la isticmaalo",
+    "mostUsedDesc": "Halkan ka bilow haddii aadan hubin. Kuwani waa adeegyada dadka badanaa u baahan yihiin caawin.",
+    "otherServices": "Adeegyada kale",
+    "forHelpersTitle": "Ma tahay caawiye?",
+    "forHelpersDesc": "Ma caawinaysaa qof adeegyada dhijitaalka? Waa kuwan talooyin kaa fududeeya.",
+    "helperTip1Title": "Daabac hagayaasha",
+    "helperTip1Desc": "Dhammaan hagayaasheena waa la daabici karaa. Riix badhanka daabacaadda ee ku yaal sare hagaha.",
+    "helperTip2Title": "Raadi waxa aad u baahan tahay",
+    "helperTip2Desc": "Isticmaal sanduuqa raadinta ee sare si aad si degdeg ah u hesho hagayaasha. Ku raadi erayada muhiimka ah sida 'BankID' ama 'warbixinta canshuurta'.",
+    "helperTip3Title": "Kaydi kuwa jeclaahay",
+    "helperTip3Desc": "Calaamadee hagayaasha kuwa aad jeceshahay si aad mar kale u hesho. Waa ku habboon hagayaasha aad badanaa isticmaasho."
   },
   "services": {
     "nav": {
@@ -3297,7 +3313,9 @@
     "allStepsComplete": "Waxaad dhammaysay dhammaan tallaabooyinka hagahan.",
     "beforeYouStart": "Ka hor intaadan bilaabin",
     "youNeed": "Waxaad u baahan tahay",
-    "problems": "Dhibaatooyin?"
+    "problems": "Dhibaatooyin?",
+    "showAllSteps": "Tus dhammaan tallaabooyinka",
+    "showOneStep": "Tus hal tallaabo"
   },
   "search": {
     "placeholder": "Raadi hagayaasha... (tusaale, shaqo la'aan, warshadda, cashuur)",

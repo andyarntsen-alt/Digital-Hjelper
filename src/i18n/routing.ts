@@ -6,8 +6,11 @@ export const routing = defineRouting({
   localePrefix: 'always'
 });
 
+// Type for locale
+export type Locale = (typeof routing.locales)[number];
+
 // Alle språk som vises i språkvelgeren (inkludert kommende)
-export const allLocales = ['no', 'en', 'uk', 'pl', 'so', 'ar'];
+export const allLocales: Locale[] = ['no', 'en', 'uk', 'pl', 'so', 'ar'];
 
 // Språk som er fullt oversatt og fungerer
 export const activeLocales = ['no', 'en'];
