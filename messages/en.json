@@ -22,9 +22,22 @@
     "favorites": "Favorites",
     "addToFavorites": "Add to favorites",
     "removeFromFavorites": "Remove from favorites",
+    "print": "Print",
+    "save": "Save",
+    "saved": "Saved",
+    "favorite": "Favorite",
     "comingSoon": "Coming soon",
-    "comingSoonText": "This guide is not yet available in English. We are working on translating all our guides. In the meantime, you can use the Norwegian version or come back later.",
-    "print": "Print"
+    "comingSoonDescription": "We are working on creating this guide.",
+    "comingSoonMessage": "In the meantime, you can look at our other guides, or contact the relevant agency directly for help.",
+    "aria": {
+      "breadcrumb": "Breadcrumb navigation",
+      "searchResults": "Search results",
+      "selectLanguage": "Select language",
+      "availableLanguages": "Available languages",
+      "addToFavorites": "Add to favorites",
+      "removeFromFavorites": "Remove from favorites",
+      "close": "Close"
+    }
   },
   "toast": {
     "addedToFavorites": "Added to favorites",
@@ -4413,5 +4426,77 @@
     "placeholder": "Search for guides... (e.g., unemployment, prescription, tax)",
     "noResults": "No results for",
     "tryOther": "Try other search terms or see our categories"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "backToHome": "Back to homepage",
+    "lastUpdated": "Last updated: January 2025",
+    "whoAreWe": {
+      "title": "Who are we?",
+      "text1": "LettDigital is an information service that helps people use public digital services. We are not part of NAV, the Tax Office, or Health Norway, but provide guidance based on publicly available information.",
+      "contact": "Contact: kontakt@lettdigital.no"
+    },
+    "dataCollection": {
+      "title": "What data do we collect?",
+      "intro": "We collect minimal data and only what is necessary for the website to function:",
+      "localSettings": "Local settings: Text size, contrast mode, and favorites are stored only in your browser (localStorage)",
+      "cookieConsent": "Cookie consent: We remember if you have accepted or rejected cookies",
+      "notCollected": "We do not collect:",
+      "personalInfo": "Personally identifiable information (name, email, phone)",
+      "ipAddress": "IP addresses for tracking purposes",
+      "serviceUsage": "Information about your use of public services",
+      "thirdPartyData": "Data shared with third parties for advertising"
+    },
+    "cookies": {
+      "title": "Cookies",
+      "intro": "We only use necessary cookies that are stored locally in your browser:",
+      "tableHeaders": {
+        "name": "Name",
+        "purpose": "Purpose",
+        "duration": "Duration"
+      },
+      "cookieConsent": {
+        "name": "cookie-consent",
+        "purpose": "Remembers your cookie choice",
+        "duration": "Permanent"
+      },
+      "favorites": {
+        "name": "favorites",
+        "purpose": "Your saved favorites",
+        "duration": "Permanent"
+      },
+      "accessibility": {
+        "name": "accessibility",
+        "purpose": "Text size and contrast",
+        "duration": "Permanent"
+      },
+      "noAnalytics": "We do not use analytics cookies (like Google Analytics) or advertising cookies."
+    },
+    "thirdParties": {
+      "title": "Sharing with third parties",
+      "noSharing": "We share no data with third parties. All information remains in your browser.",
+      "hosting": "The website is hosted by Vercel, which may log technical information (IP address, browser type) for security purposes.",
+      "vercelLink": "See Vercel's privacy policy for more information."
+    },
+    "yourRights": {
+      "title": "Your rights",
+      "intro": "Under GDPR and Norwegian privacy legislation, you have the right to:",
+      "delete": "Delete data: Clear your browser's local storage to remove all settings",
+      "access": "Access data: All data is stored locally in your browser and visible to you",
+      "withdraw": "Withdraw consent: You can delete cookies in your browser settings at any time"
+    },
+    "security": {
+      "title": "Security",
+      "text": "The website uses HTTPS encryption for secure communication. Since we do not collect personal data, there is minimal risk of data leakage."
+    },
+    "contactUs": {
+      "title": "Contact us",
+      "text": "Do you have questions about privacy? Contact us at:",
+      "email": "kontakt@lettdigital.no"
+    },
+    "updates": {
+      "title": "Changes to the privacy policy",
+      "text": "We may update this statement as needed. Significant changes will be announced on the website."
+    }
   }
 }

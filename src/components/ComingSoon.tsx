@@ -1,6 +1,7 @@
 'use client';
 
 import { Link } from '@/i18n/navigation';
+import { useTranslations } from 'next-intl';
 
 interface ComingSoonProps {
   title: string;
@@ -11,10 +12,15 @@ interface ComingSoonProps {
 
 export default function ComingSoon({
   title,
-  description = 'Vi jobber med å lage denne veiledningen.',
+  description,
   backLink = '/',
-  backText = 'Tilbake til forsiden'
+  backText
 }: ComingSoonProps) {
+  const t = useTranslations('common');
+
+  const displayDescription = description || t('comingSoonDescription');
+  const displayBackText = backText || t('backToHome');
+
   return (
     <div className="max-w-2xl mx-auto px-4 py-16 text-center">
       <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12">
@@ -28,12 +34,12 @@ export default function ComingSoon({
 
         <div className="bg-yellow-50 border-l-4 border-yellow-500 p-4 rounded-r-lg mb-6 text-left">
           <p className="text-lg text-gray-700">
-            <strong>Kommer snart!</strong> {description}
+            <strong>{t('comingSoon')}!</strong> {displayDescription}
           </p>
         </div>
 
         <p className="text-gray-600 mb-8">
-          I mellomtiden kan du se på våre andre veiledninger, eller kontakte den aktuelle etaten direkte for hjelp.
+          {t('comingSoonMessage')}
         </p>
 
         <Link
@@ -43,7 +49,7 @@ export default function ComingSoon({
           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
           </svg>
-          {backText}
+          {displayBackText}
         </Link>
       </div>
     </div>

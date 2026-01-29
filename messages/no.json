@@ -22,7 +22,22 @@
     "favorites": "Favoritter",
     "addToFavorites": "Legg til i favoritter",
     "removeFromFavorites": "Fjern fra favoritter",
-    "print": "Skriv ut"
+    "print": "Skriv ut",
+    "save": "Lagre",
+    "saved": "Lagret",
+    "favorite": "Favoritt",
+    "comingSoon": "Kommer snart",
+    "comingSoonDescription": "Vi jobber med å lage denne veiledningen.",
+    "comingSoonMessage": "I mellomtiden kan du se på våre andre veiledninger, eller kontakte den aktuelle etaten direkte for hjelp.",
+    "aria": {
+      "breadcrumb": "Brødsmulesti",
+      "searchResults": "Søkeresultater",
+      "selectLanguage": "Velg språk",
+      "availableLanguages": "Tilgjengelige språk",
+      "addToFavorites": "Legg til favoritter",
+      "removeFromFavorites": "Fjern fra favoritter",
+      "close": "Lukk"
+    }
   },
   "toast": {
     "addedToFavorites": "Lagt til i favoritter",
@@ -4331,5 +4346,77 @@
     "placeholder": "Søk etter veiledninger... (f.eks. dagpenger, resept, skatt)",
     "noResults": "Ingen resultater for",
     "tryOther": "Prøv andre søkeord eller se våre kategorier"
+  },
+  "privacy": {
+    "title": "Personvernerklæring",
+    "backToHome": "Tilbake til forsiden",
+    "lastUpdated": "Sist oppdatert: Januar 2025",
+    "whoAreWe": {
+      "title": "Hvem er vi?",
+      "text1": "LettDigital er en informasjonstjeneste som hjelper folk med å bruke offentlige digitale tjenester. Vi er ikke en del av NAV, Skatteetaten eller Helsenorge, men gir veiledning basert på offentlig tilgjengelig informasjon.",
+      "contact": "Kontakt: kontakt@lettdigital.no"
+    },
+    "dataCollection": {
+      "title": "Hvilke data samler vi inn?",
+      "intro": "Vi samler inn minimalt med data og kun det som er nødvendig for at nettsiden skal fungere:",
+      "localSettings": "Lokale innstillinger: Tekststørrelse, kontrastmodus og favoritter lagres kun i din nettleser (localStorage)",
+      "cookieConsent": "Cookie-samtykke: Vi husker om du har godtatt eller avvist cookies",
+      "notCollected": "Vi samler ikke inn:",
+      "personalInfo": "Personlig identifiserbar informasjon (navn, e-post, telefon)",
+      "ipAddress": "IP-adresser for sporingsformål",
+      "serviceUsage": "Informasjon om din bruk av offentlige tjenester",
+      "thirdPartyData": "Data som deles med tredjeparter for reklame"
+    },
+    "cookies": {
+      "title": "Informasjonskapsler (cookies)",
+      "intro": "Vi bruker kun nødvendige informasjonskapsler som lagres lokalt i din nettleser:",
+      "tableHeaders": {
+        "name": "Navn",
+        "purpose": "Formål",
+        "duration": "Varighet"
+      },
+      "cookieConsent": {
+        "name": "cookie-consent",
+        "purpose": "Husker ditt cookie-valg",
+        "duration": "Permanent"
+      },
+      "favorites": {
+        "name": "favorites",
+        "purpose": "Dine lagrede favoritter",
+        "duration": "Permanent"
+      },
+      "accessibility": {
+        "name": "accessibility",
+        "purpose": "Tekststørrelse og kontrast",
+        "duration": "Permanent"
+      },
+      "noAnalytics": "Vi bruker ikke analyse-cookies (som Google Analytics) eller reklame-cookies."
+    },
+    "thirdParties": {
+      "title": "Deling med tredjeparter",
+      "noSharing": "Vi deler ingen data med tredjeparter. All informasjon forblir i din nettleser.",
+      "hosting": "Nettsiden hostes av Vercel, som kan logge teknisk informasjon (IP-adresse, nettlesertype) for sikkerhetsformål.",
+      "vercelLink": "Se Vercels personvernerklæring for mer informasjon."
+    },
+    "yourRights": {
+      "title": "Dine rettigheter",
+      "intro": "I henhold til GDPR og norsk personvernlovgivning har du rett til å:",
+      "delete": "Slette data: Tøm nettleserens lokale lagring for å fjerne alle innstillinger",
+      "access": "Få innsyn: All data er lagret lokalt i din nettleser og synlig for deg",
+      "withdraw": "Trekke samtykke: Du kan når som helst slette cookies i nettleserinnstillingene"
+    },
+    "security": {
+      "title": "Sikkerhet",
+      "text": "Nettsiden bruker HTTPS-kryptering for sikker kommunikasjon. Siden vi ikke samler inn persondata, er det minimal risiko for datalekkasje."
+    },
+    "contactUs": {
+      "title": "Kontakt oss",
+      "text": "Har du spørsmål om personvern? Kontakt oss på:",
+      "email": "kontakt@lettdigital.no"
+    },
+    "updates": {
+      "title": "Endringer i personvernerklæringen",
+      "text": "Vi kan oppdatere denne erklæringen ved behov. Vesentlige endringer vil bli varslet på nettsiden."
+    }
   }
 }

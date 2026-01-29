@@ -22,7 +22,22 @@
     "favorites": "Ulubione",
     "addToFavorites": "Dodaj do ulubionych",
     "removeFromFavorites": "Usuń z ulubionych",
-    "print": "Drukuj"
+    "print": "Drukuj",
+    "save": "Zapisz",
+    "saved": "Zapisano",
+    "favorite": "Ulubiony",
+    "comingSoon": "Wkrótce",
+    "comingSoonDescription": "Pracujemy nad stworzeniem tego przewodnika.",
+    "comingSoonMessage": "W międzyczasie możesz przejrzeć nasze inne przewodniki lub skontaktować się bezpośrednio z odpowiednią instytucją.",
+    "aria": {
+      "breadcrumb": "Ścieżka nawigacji",
+      "searchResults": "Wyniki wyszukiwania",
+      "selectLanguage": "Wybierz język",
+      "availableLanguages": "Dostępne języki",
+      "addToFavorites": "Dodaj do ulubionych",
+      "removeFromFavorites": "Usuń z ulubionych",
+      "close": "Zamknij"
+    }
   },
   "toast": {
     "addedToFavorites": "Dodano do ulubionych",
@@ -75,6 +90,19 @@
     "off": "Wyłączony",
     "readAloud": "Czytaj na głos",
     "stopReading": "Zatrzymaj czytanie"
+  },
+  "relatedGuides": {
+    "title": "Inne przewodniki, które mogą ci się przydać"
+  },
+  "recentlyVisited": {
+    "title": "Kontynuuj od miejsca, w którym skończyłeś"
+  },
+  "cookieBanner": {
+    "title": "Używamy plików cookie",
+    "description": "Używamy tylko niezbędnych plików cookie do zapamiętania twoich ustawień.",
+    "readMore": "Czytaj więcej",
+    "necessary": "Niezbędne",
+    "accept": "Akceptuj"
   },
   "home": {
     "heroTitle": "Potrzebujesz pomocy z",
@@ -339,7 +367,25 @@
     "id": {
       "title": "Dokumenty tożsamości",
       "shortDesc": "Paszport i prawo jazdy",
-      "description": "Zamów paszport, odnów prawo jazdy i uzyskaj krajowy dowód osobisty."
+      "description": "Zamów paszport, odnów prawo jazdy i uzyskaj krajowy dowód osobisty.",
+      "hubTitle": "Dokumenty tożsamości",
+      "hubSubtitle": "Paszport, prawo jazdy i dowód osobisty",
+      "didYouKnow": "Czy wiesz?",
+      "didYouKnowText": "Potrzebujesz ważnego dokumentu tożsamości do wielu rzeczy w Norwegii - od logowania się do usług publicznych po podróże. Tutaj pomożemy ci zamówić i odnowić dokumenty.",
+      "selectGuide": "Wybierz, z czym potrzebujesz pomocy",
+      "whichIdTitle": "Jaki dokument potrzebuję?",
+      "passInfoTitle": "Paszport",
+      "passInfoDesc": "Na podróże poza Skandynawię. Ważny 10 lat (5 lat dla dzieci). Może być również używany jako ID w Norwegii.",
+      "forerkortInfoTitle": "Prawo jazdy",
+      "forerkortInfoDesc": "Do prowadzenia samochodu. Ważne jako dokument tożsamości w Norwegii. Trzeba odnawiać co 15 lat.",
+      "idKortInfoTitle": "Krajowy dowód osobisty",
+      "idKortInfoDesc": "Alternatywa dla paszportu. Z prawem do podróży można jeździć po EOG. Praktyczny rozmiar do portfela.",
+      "usefulLinksTitle": "Przydatne linki",
+      "linkPolice": "politiet.no",
+      "linkPoliceDesc": "Umów wizytę na paszport i dowód osobisty",
+      "linkVegvesen": "vegvesen.no",
+      "linkVegvesenDesc": "Umów wizytę na prawo jazdy",
+      "linkPhones": "Policja: 02800 | Vegvesen: 22 07 30 00"
     },
     "grunnleggende": {
       "title": "Podstawy technologii",
@@ -3650,5 +3696,77 @@
     "placeholder": "Szukaj przewodników... (np. bezrobocie, recepta, podatek)",
     "noResults": "Brak wyników dla",
     "tryOther": "Spróbuj innych słów kluczowych lub zobacz nasze kategorie"
+  },
+  "privacy": {
+    "title": "Polityka prywatności",
+    "backToHome": "Powrót do strony głównej",
+    "lastUpdated": "Ostatnia aktualizacja: styczeń 2025",
+    "whoAreWe": {
+      "title": "Kim jesteśmy?",
+      "text1": "LettDigital to serwis informacyjny, który pomaga ludziom korzystać z publicznych usług cyfrowych. Nie jesteśmy częścią NAV, Urzędu Skarbowego ani Helsenorge, ale udzielamy wskazówek na podstawie publicznie dostępnych informacji.",
+      "contact": "Kontakt: kontakt@lettdigital.no"
+    },
+    "dataCollection": {
+      "title": "Jakie dane zbieramy?",
+      "intro": "Zbieramy minimalne dane, tylko te niezbędne do działania strony:",
+      "localSettings": "Ustawienia lokalne: Rozmiar tekstu, tryb kontrastu i ulubione są przechowywane tylko w Twojej przeglądarce (localStorage)",
+      "cookieConsent": "Zgoda na cookies: Pamiętamy, czy zaakceptowałeś lub odrzuciłeś cookies",
+      "notCollected": "Nie zbieramy:",
+      "personalInfo": "Danych osobowych (imię, e-mail, telefon)",
+      "ipAddress": "Adresów IP do celów śledzenia",
+      "serviceUsage": "Informacji o korzystaniu z usług publicznych",
+      "thirdPartyData": "Danych udostępnianych stronom trzecim w celach reklamowych"
+    },
+    "cookies": {
+      "title": "Pliki cookie",
+      "intro": "Używamy tylko niezbędnych plików cookie, które są przechowywane lokalnie w Twojej przeglądarce:",
+      "tableHeaders": {
+        "name": "Nazwa",
+        "purpose": "Cel",
+        "duration": "Czas trwania"
+      },
+      "cookieConsent": {
+        "name": "cookie-consent",
+        "purpose": "Zapamiętuje Twój wybór dotyczący cookies",
+        "duration": "Stały"
+      },
+      "favorites": {
+        "name": "favorites",
+        "purpose": "Twoje zapisane ulubione",
+        "duration": "Stały"
+      },
+      "accessibility": {
+        "name": "accessibility",
+        "purpose": "Rozmiar tekstu i kontrast",
+        "duration": "Stały"
+      },
+      "noAnalytics": "Nie używamy cookies analitycznych (jak Google Analytics) ani reklamowych."
+    },
+    "thirdParties": {
+      "title": "Udostępnianie danych stronom trzecim",
+      "noSharing": "Nie udostępniamy żadnych danych stronom trzecim. Wszystkie informacje pozostają w Twojej przeglądarce.",
+      "hosting": "Strona jest hostowana przez Vercel, który może rejestrować informacje techniczne (adres IP, typ przeglądarki) w celach bezpieczeństwa.",
+      "vercelLink": "Zobacz politykę prywatności Vercel, aby uzyskać więcej informacji."
+    },
+    "yourRights": {
+      "title": "Twoje prawa",
+      "intro": "Zgodnie z RODO i norweskim prawem o ochronie prywatności masz prawo do:",
+      "delete": "Usunięcia danych: Wyczyść lokalną pamięć przeglądarki, aby usunąć wszystkie ustawienia",
+      "access": "Dostępu: Wszystkie dane są przechowywane lokalnie w Twojej przeglądarce i są dla Ciebie widoczne",
+      "withdraw": "Cofnięcia zgody: Możesz w każdej chwili usunąć cookies w ustawieniach przeglądarki"
+    },
+    "security": {
+      "title": "Bezpieczeństwo",
+      "text": "Strona używa szyfrowania HTTPS dla bezpiecznej komunikacji. Ponieważ nie zbieramy danych osobowych, ryzyko wycieku danych jest minimalne."
+    },
+    "contactUs": {
+      "title": "Skontaktuj się z nami",
+      "text": "Masz pytania dotyczące prywatności? Skontaktuj się z nami:",
+      "email": "kontakt@lettdigital.no"
+    },
+    "updates": {
+      "title": "Zmiany w polityce prywatności",
+      "text": "Możemy aktualizować tę politykę w razie potrzeby. Istotne zmiany będą ogłaszane na stronie."
+    }
   }
 }

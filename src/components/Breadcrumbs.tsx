@@ -16,7 +16,7 @@ export default function Breadcrumbs({ items }: BreadcrumbsProps) {
   const t = useTranslations('common');
 
   return (
-    <nav aria-label="Brødsmulesti" className="mb-6 print:hidden">
+    <nav aria-label={t('aria.breadcrumb')} className="mb-6 print:hidden">
       <ol className="flex flex-wrap items-center gap-2 text-sm text-gray-600">
         <li className="flex items-center">
           <Link href="/" className="hover:text-nav-blue no-underline flex items-center gap-1">

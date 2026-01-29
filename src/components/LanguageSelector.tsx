@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useRef, useEffect } from 'react';
-import { useLocale } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { useRouter, usePathname } from '@/i18n/navigation';
 import { allLocales, localeNames, localeFlags, isLocaleActive, type Locale } from '@/i18n/routing';
 
@@ -11,6 +11,7 @@ export default function LanguageSelector() {
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
+  const t = useTranslations('common');
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
@@ -37,7 +38,7 @@ export default function LanguageSelector() {
         className="h-9 px-3 flex items-center gap-2 rounded-lg hover:bg-gray-100 transition-colors"
         aria-expanded={isOpen}
         aria-haspopup="listbox"
-        aria-label="Velg språk"
+        aria-label={t('aria.selectLanguage')}
       >
         <span className="text-lg">{localeFlags[locale]}</span>
         <span className="hidden sm:block text-gray-700">{localeNames[locale]}</span>
@@ -56,7 +57,7 @@ export default function LanguageSelector() {
         <div
           className="absolute right-0 mt-2 w-56 max-w-[calc(100vw-2rem)] bg-white rounded-xl shadow-lg border border-gray-200 py-2 z-50"
           role="listbox"
-          aria-label="Tilgjengelige språk"
+          aria-label={t('aria.availableLanguages')}
         >
           {allLocales.map((loc) => {
             const isActive = isLocaleActive(loc);
@@ -83,7 +84,7 @@ export default function LanguageSelector() {
                   {localeNames[loc]}
                   {!isActive && (
                     <span className="block text-xs text-gray-400 font-normal">
-                      Coming soon
+                      {t('comingSoon')}
                     </span>
                   )}
                 </span>

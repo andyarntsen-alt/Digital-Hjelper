@@ -22,7 +22,22 @@
     "favorites": "Kuwa aan jeclaahay",
     "addToFavorites": "Ku dar kuwa jeclaahay",
     "removeFromFavorites": "Ka saar kuwa jeclaahay",
-    "print": "Daabac"
+    "print": "Daabac",
+    "save": "Kaydi",
+    "saved": "La kaydiyay",
+    "favorite": "Jeclaahay",
+    "comingSoon": "Dhawaan",
+    "comingSoonDescription": "Waxaan ka shaqaynayaa abuurista hagahan.",
+    "comingSoonMessage": "Inta aad sugayso, waxaad eegi kartaa hagayaasheena kale ama toos ula xiriir hay'adda khusaysa si aad u hesho caawimo.",
+    "aria": {
+      "breadcrumb": "Dariiqa socodka",
+      "searchResults": "Natiijooyinka raadinta",
+      "selectLanguage": "Dooro luqadda",
+      "availableLanguages": "Luqadaha la heli karo",
+      "addToFavorites": "Ku dar kuwa jeclaahay",
+      "removeFromFavorites": "Ka saar kuwa jeclaahay",
+      "close": "Xir"
+    }
   },
   "toast": {
     "addedToFavorites": "Ku daray kuwa jeclaahay",
@@ -75,6 +90,19 @@
     "off": "Xir",
     "readAloud": "Ku akhri cod dheer",
     "stopReading": "Jooji akhrinta"
+  },
+  "relatedGuides": {
+    "title": "Hagayaal kale oo aad u baahan karto"
+  },
+  "recentlyVisited": {
+    "title": "Ka sii wad halkii aad ka joogsatay"
+  },
+  "cookieBanner": {
+    "title": "Waxaan isticmaalnaa cookies",
+    "description": "Waxaan kaliya isticmaalnaa cookies-ka lagama maarmaanka ah si aan u xasuusanno settings-kaaga.",
+    "readMore": "Akhri wax badan",
+    "necessary": "Lagama maarmaanka ah",
+    "accept": "Aqbal"
   },
   "home": {
     "heroTitle": "Ma u baahan tahay caawin",
@@ -339,7 +367,25 @@
     "id": {
       "title": "ID iyo dukumeentiyada",
       "shortDesc": "Baasaboor iyo shatiga darawalnimada",
-      "description": "Dalbo baasaboor, cusbooneysii shatiga darawalnimada iyo hel kaadhka ID-ga qaranka."
+      "description": "Dalbo baasaboor, cusbooneysii shatiga darawalnimada iyo hel kaadhka ID-ga qaranka.",
+      "hubTitle": "ID iyo dukumeentiyada",
+      "hubSubtitle": "Baasaboor, shatiga darawalnimada iyo kaadhka ID-ga",
+      "didYouKnow": "Ma ogtahay?",
+      "didYouKnowText": "Waxaad u baahan tahay aqoonsi sax ah oo waxyaabo badan Norway - laga bilaabo gelitaanka adeegyada dawladda ilaa safarka. Halkan waxaan kaa caawin doonaa dalbashada iyo cusbooneysiinta dukumeentiyadaada.",
+      "selectGuide": "Dooro waxa aad caawimo u baahan tahay",
+      "whichIdTitle": "Dukumeenti kee ayaan u baahanahay?",
+      "passInfoTitle": "Baasaboor",
+      "passInfoDesc": "Safarka ka baxsan Scandinavia. Waxaa shaqaynaya 10 sano (5 sano carruurta). Sidoo kale waxaa loo isticmaali karaa ID Norway.",
+      "forerkortInfoTitle": "Shatiga darawalnimada",
+      "forerkortInfoDesc": "In aad waddo gaariga. Waxaa u shaqeeya aqoonsi Norway. Waa in la cusbooneysiiyo 15 sano walba.",
+      "idKortInfoTitle": "Kaadhka ID-ga qaranka",
+      "idKortInfoDesc": "Bedel baasaboorka. Xaqa safarka waxaad ku safri kartaa EEA. Cabbirka waa ku habboon jeebaaga.",
+      "usefulLinksTitle": "Xiriiriyeyaasha faa'iidada leh",
+      "linkPolice": "politiet.no",
+      "linkPoliceDesc": "Ballami baasaboor iyo kaadhka ID-ga",
+      "linkVegvesen": "vegvesen.no",
+      "linkVegvesenDesc": "Ballami shatiga darawalnimada",
+      "linkPhones": "Booliska: 02800 | Vegvesen: 22 07 30 00"
     },
     "grunnleggende": {
       "title": "Tiknoolajiyada aasaasiga ah",
@@ -3650,5 +3696,77 @@
     "placeholder": "Raadi hagayaasha... (tusaale, shaqo la'aan, warshadda, cashuur)",
     "noResults": "Natiijo la'aan",
     "tryOther": "Isku day erayo kale oo raadi ama arag qaybahayaga"
+  },
+  "privacy": {
+    "title": "Qorshaynta Asturnaanta",
+    "backToHome": "Ku laabo bogga hore",
+    "lastUpdated": "Cusbooneysiinta ugu dambeysey: Janaayo 2025",
+    "whoAreWe": {
+      "title": "Waa kuwee?",
+      "text1": "LettDigital waa adeeg macluumaad oo ka caawiya dadka isticmaalka adeegyada dhijitaalka ee dawladda. Ma ahan qayb ka mid ah NAV, Hey'adda Canshuurta ama Caafimaadka Norway, laakiin waxaan bixinaa hage ku salaysan macluumaadka dadweynaha.",
+      "contact": "Xiriir: kontakt@lettdigital.no"
+    },
+    "dataCollection": {
+      "title": "Xogta aan soo uruurinno?",
+      "intro": "Waxaan soo uruurinaa xog yar, kaliya wixii lagama maarmaan u ah bogga:",
+      "localSettings": "Goobaha maxaliga ah: Cabbirka qoraalka, qaabka kala duwanaanshaha iyo kuwa jeclaahay waxaa kaliya lagu kaydiyaa browserkaaga (localStorage)",
+      "cookieConsent": "Ogolaanshaha cookies: Waxaan xasuusnaa haddii aad aqbashay ama diidday cookies",
+      "notCollected": "Ma soo uruurino:",
+      "personalInfo": "Macluumaadka shaqsiga (magac, iimeel, telefoon)",
+      "ipAddress": "Cinwaannada IP ujeedooyin dabagal",
+      "serviceUsage": "Macluumaad ku saabsan isticmaalkaaga adeegyada dawladda",
+      "thirdPartyData": "Xog la wadaago dhinacyada saddexaad xayeysiis"
+    },
+    "cookies": {
+      "title": "Cookies",
+      "intro": "Waxaan kaliya isticmaalnaa cookies lagama maarmaanka ah oo lagu kaydiyay browserkaaga:",
+      "tableHeaders": {
+        "name": "Magaca",
+        "purpose": "Ujeedada",
+        "duration": "Muddada"
+      },
+      "cookieConsent": {
+        "name": "cookie-consent",
+        "purpose": "Xasuusta doorashadaada cookies",
+        "duration": "Joogto"
+      },
+      "favorites": {
+        "name": "favorites",
+        "purpose": "Kuwa aad jeclaahay ee la kaydiyay",
+        "duration": "Joogto"
+      },
+      "accessibility": {
+        "name": "accessibility",
+        "purpose": "Cabbirka qoraalka iyo kala duwanaanshaha",
+        "duration": "Joogto"
+      },
+      "noAnalytics": "Ma isticmaalno cookies falanqayn (sida Google Analytics) ama xayaysiis."
+    },
+    "thirdParties": {
+      "title": "Wadaagista dhinacyada saddexaad",
+      "noSharing": "Ma wadaagno wax xog ah dhinacyada saddexaad. Dhammaan macluumaadka waxay ku hadhaan browserkaaga.",
+      "hosting": "Bogga waxaa martigeliya Vercel, oo laga yaabo inay diiwaangeliyaan macluumaad farsamayneed (cinwaanka IP, nooca browserka) ujeedooyin amni.",
+      "vercelLink": "Eeg siyaasadda asturnaanta Vercel si aad macluumaad badan u hesho."
+    },
+    "yourRights": {
+      "title": "Xuquuqdaada",
+      "intro": "Sida ku qoran GDPR iyo sharciga asturnaanta Norway, waxaad xaq u leedahay:",
+      "delete": "Tirtirka xogta: Nadiifi kaydka maxaliga ah ee browserka si aad u tirtirto dhammaan settings-ka",
+      "access": "Helitaan: Dhammaan xogta waxaa lagu kaydiyaa browserkaaga maxaliga ah waxayna kuu muuqataa",
+      "withdraw": "Ka noqoshada ogolaanshaha: Waad tirtiri kartaa cookies waqti kasta settings-ka browserka"
+    },
+    "security": {
+      "title": "Amniga",
+      "text": "Bogga wuxuu isticmaalaa encrypt-ka HTTPS xiriir ammaan ah. Maadaama aanan soo uruurin xog shaqsi, khatarta daadinta xogtu waa yar tahay."
+    },
+    "contactUs": {
+      "title": "Nala soo xiriir",
+      "text": "Ma qabtaa su'aalo ku saabsan asturnaanta? Nala soo xiriir:",
+      "email": "kontakt@lettdigital.no"
+    },
+    "updates": {
+      "title": "Isbedelada siyaasadda asturnaanta",
+      "text": "Waxaan cusboonaysiin karnaa siyaasaddan marka loo baahdo. Isbedellada muhiimka ah waxaa lagu ogeysiini doonaa bogga."
+    }
   }
 }

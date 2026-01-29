@@ -22,7 +22,22 @@
     "favorites": "Обране",
     "addToFavorites": "Додати до обраного",
     "removeFromFavorites": "Видалити з обраного",
-    "print": "Друкувати"
+    "print": "Друкувати",
+    "save": "Зберегти",
+    "saved": "Збережено",
+    "favorite": "Обране",
+    "comingSoon": "Незабаром",
+    "comingSoonDescription": "Ми працюємо над створенням цього посібника.",
+    "comingSoonMessage": "Тим часом ви можете переглянути наші інші посібники або зв'язатися з відповідною установою безпосередньо для допомоги.",
+    "aria": {
+      "breadcrumb": "Навігаційний шлях",
+      "searchResults": "Результати пошуку",
+      "selectLanguage": "Вибрати мову",
+      "availableLanguages": "Доступні мови",
+      "addToFavorites": "Додати до обраного",
+      "removeFromFavorites": "Видалити з обраного",
+      "close": "Закрити"
+    }
   },
   "toast": {
     "addedToFavorites": "Додано до обраного",
@@ -75,6 +90,19 @@
     "off": "Вимкнено",
     "readAloud": "Читати вголос",
     "stopReading": "Зупинити читання"
+  },
+  "relatedGuides": {
+    "title": "Інші посібники, які можуть вам знадобитися"
+  },
+  "recentlyVisited": {
+    "title": "Продовжити там, де зупинилися"
+  },
+  "cookieBanner": {
+    "title": "Ми використовуємо файли cookie",
+    "description": "Ми використовуємо лише необхідні файли cookie для запам'ятовування ваших налаштувань.",
+    "readMore": "Дізнатися більше",
+    "necessary": "Необхідні",
+    "accept": "Прийняти"
   },
   "home": {
     "heroTitle": "Потрібна допомога з",
@@ -339,7 +367,25 @@
     "id": {
       "title": "ID та документи",
       "shortDesc": "Паспорт та водійське посвідчення",
-      "description": "Замовити паспорт, поновити водійське посвідчення та отримати національну ID-картку."
+      "description": "Замовити паспорт, поновити водійське посвідчення та отримати національну ID-картку.",
+      "hubTitle": "ID та документи",
+      "hubSubtitle": "Паспорт, водійське посвідчення та ID-картка",
+      "didYouKnow": "Чи знаєте ви?",
+      "didYouKnowText": "Вам потрібна дійсна посвідка особи для багатьох речей у Норвегії - від входу в державні служби до подорожей. Тут ми допоможемо вам замовити та оновити ваші документи.",
+      "selectGuide": "Виберіть, з чим вам потрібна допомога",
+      "whichIdTitle": "Який документ мені потрібен?",
+      "passInfoTitle": "Паспорт",
+      "passInfoDesc": "Для подорожей за межі Скандинавії. Дійсний 10 років (5 років для дітей). Також можна використовувати як ID в Норвегії.",
+      "forerkortInfoTitle": "Водійське посвідчення",
+      "forerkortInfoDesc": "Для керування автомобілем. Дійсне як посвідка особи в Норвегії. Потрібно оновлювати кожні 15 років.",
+      "idKortInfoTitle": "Національна ID-картка",
+      "idKortInfoDesc": "Альтернатива паспорту. З правом на подорожі можна їздити в ЄЕЗ. Практичний розмір для гаманця.",
+      "usefulLinksTitle": "Корисні посилання",
+      "linkPolice": "politiet.no",
+      "linkPoliceDesc": "Замовити час для паспорта та ID-картки",
+      "linkVegvesen": "vegvesen.no",
+      "linkVegvesenDesc": "Замовити час для водійського посвідчення",
+      "linkPhones": "Поліція: 02800 | Vegvesen: 22 07 30 00"
     },
     "grunnleggende": {
       "title": "Основи технологій",
@@ -1848,158 +1894,158 @@
     },
     "sikkerhet": {
       "bankid": {
-        "title": "Sikker bruk av BankID",
-        "description": "Lær å bruke BankID trygt og unngå svindel",
-        "longDescription": "BankID er din digitale identitet. Her lærer du hvordan du bruker den trygt og beskytter deg mot svindlere.",
-        "backToGuides": "Tilbake til Digital sikkerhet",
-        "time": "Ca. 10 minutter",
-        "difficulty": "Enkel",
-        "whatIsTitle": "Hva er BankID?",
-        "whatIsText1": "BankID er en elektronisk legitimasjon som bekrefter hvem du er på internett. Det er som et digitalt pass som lar deg logge inn på offentlige tjenester, nettbanken og signere dokumenter.",
-        "whatIsText2": "BankID utstedes av banken din og er koblet til ditt personnummer. Når du bruker BankID, bekrefter du at det virkelig er deg som logger inn eller signerer.",
-        "typesTitle": "Ulike typer BankID",
-        "typeMobile": "BankID på mobil",
-        "typeMobileDesc": "Den vanligste typen. Du får en melding på telefonen og godkjenner med fingeravtrykk, ansikt eller kode.",
-        "typeCodeDevice": "BankID med kodebrikke",
-        "typeCodeDeviceDesc": "En liten brikke som viser engangskoder. Brukes sammen med et personlig passord.",
-        "typeBiometric": "BankID med biometri",
-        "typeBiometricDesc": "Bruker fingeravtrykk eller ansiktsgjenkjenning direkte i nettleseren.",
-        "stepsTitle": "Slik bruker du BankID trygt",
+        "title": "Безпечне використання BankID",
+        "description": "Навчіться безпечно користуватися BankID та уникати шахрайства",
+        "longDescription": "BankID - це ваша цифрова ідентичність. Тут ви дізнаєтесь, як безпечно нею користуватися та захистити себе від шахраїв.",
+        "backToGuides": "Повернутися до Цифрової безпеки",
+        "time": "Прибл. 10 хвилин",
+        "difficulty": "Легко",
+        "whatIsTitle": "Що таке BankID?",
+        "whatIsText1": "BankID - це електронна ідентифікація, яка підтверджує вашу особу в інтернеті. Це як цифровий паспорт, який дозволяє входити в державні служби, інтернет-банк та підписувати документи.",
+        "whatIsText2": "BankID видається вашим банком і пов'язаний з вашим особистим номером. Коли ви використовуєте BankID, ви підтверджуєте, що це справді ви входите або підписуєте.",
+        "typesTitle": "Різні типи BankID",
+        "typeMobile": "BankID на мобільному",
+        "typeMobileDesc": "Найпоширеніший тип. Ви отримуєте повідомлення на телефон і підтверджуєте відбитком пальця, обличчям або кодом.",
+        "typeCodeDevice": "BankID з кодовим пристроєм",
+        "typeCodeDeviceDesc": "Маленький пристрій, який показує одноразові коди. Використовується разом з особистим паролем.",
+        "typeBiometric": "BankID з біометрією",
+        "typeBiometricDesc": "Використовує відбиток пальця або розпізнавання обличчя безпосередньо в браузері.",
+        "stepsTitle": "Як безпечно використовувати BankID",
         "steps": [
           {
-            "title": "Les alltid hva du godkjenner",
-            "description": "Når du får en BankID-forespørsel på mobilen, les ALLTID teksten som viser hva du godkjenner. Det står hvem som ber om godkjenning og hva det gjelder.",
-            "warning": "Godkjenn ALDRI en BankID-forespørsel du ikke selv har startet!"
+            "title": "Завжди читайте, що ви підтверджуєте",
+            "description": "Коли ви отримуєте запит BankID на мобільний, ЗАВЖДИ читайте текст, який показує, що ви підтверджуєте. Там написано, хто просить підтвердження і для чого.",
+            "warning": "НІКОЛИ не підтверджуйте запит BankID, який ви самі не ініціювали!"
           },
           {
-            "title": "Sjekk at nettsiden er ekte",
-            "description": "Før du bruker BankID, se på adresselinjen i nettleseren. Ekte nettsider har et hengelås-ikon og adressen starter med https://. Dobbeltsjekk at domenet er riktig (f.eks. nav.no, ikke nav-login.com).",
-            "tip": "Skriv alltid adressen selv i stedet for å klikke på lenker i e-post eller SMS."
+            "title": "Перевірте, чи сайт справжній",
+            "description": "Перед використанням BankID подивіться на адресний рядок у браузері. Справжні сайти мають значок замка, а адреса починається з https://. Перевірте, чи домен правильний (напр. nav.no, а не nav-login.com).",
+            "tip": "Завжди вводіть адресу самі замість того, щоб натискати на посилання в електронній пошті або SMS."
           },
           {
-            "title": "Aldri del kodene dine",
-            "description": "BankID-koder, passord og personlig kode skal du ALDRI dele med noen. Banken, politiet eller NAV vil aldri be deg om disse opplysningene.",
-            "warning": "Ingen har lov til å be om dine BankID-koder. Hvis noen gjør det, er det ALLTID svindel!"
+            "title": "Ніколи не діліться своїми кодами",
+            "description": "Коди BankID, паролі та особистий код ви НІКОЛИ не повинні ділитися з кимось. Банк, поліція чи NAV ніколи не попросять вас про цю інформацію.",
+            "warning": "Ніхто не має права просити ваші коди BankID. Якщо хтось це робить, це ЗАВЖДИ шахрайство!"
           },
           {
-            "title": "Bruk en sikker kode",
-            "description": "Velg en personlig kode som er vanskelig å gjette. Ikke bruk fødselsdato, 1234 eller andre enkle kombinasjoner. Koden skal bare du vite.",
-            "tip": "En god kode kan være fire tilfeldige tall du lærer deg utenat."
+            "title": "Використовуйте безпечний код",
+            "description": "Виберіть особистий код, який важко вгадати. Не використовуйте дату народження, 1234 або інші прості комбінації. Код повинні знати тільки ви.",
+            "tip": "Хороший код може бути чотирма випадковими цифрами, які ви запам'ятаєте."
           },
           {
-            "title": "Hold appen oppdatert",
-            "description": "Sørg for at BankID-appen alltid er oppdatert til siste versjon. Oppdateringer inneholder viktige sikkerhetsforbedringer.",
-            "tip": "Slå på automatiske oppdateringer i App Store eller Google Play."
+            "title": "Тримайте додаток оновленим",
+            "description": "Переконайтеся, що додаток BankID завжди оновлений до останньої версії. Оновлення містять важливі покращення безпеки.",
+            "tip": "Увімкніть автоматичні оновлення в App Store або Google Play."
           },
           {
-            "title": "Logg ut etter bruk",
-            "description": "Når du er ferdig med å bruke en tjeneste, logg alltid ut. Dette er spesielt viktig hvis du bruker en felles datamaskin eller andres telefon."
+            "title": "Вийдіть після використання",
+            "description": "Коли ви закінчили користуватися сервісом, завжди виходьте. Це особливо важливо, якщо ви використовуєте загальний комп'ютер або чужий телефон."
           },
           {
-            "title": "Vær oppmerksom på uventede forespørsler",
-            "description": "Hvis du plutselig får en BankID-forespørsel uten at du har startet noe selv, er det sannsynligvis et svindelforsøk. Avvis forespørselen og kontakt banken din.",
-            "warning": "Ring banken din umiddelbart hvis du har godkjent noe du ikke burde!"
+            "title": "Будьте уважні до несподіваних запитів",
+            "description": "Якщо ви раптово отримуєте запит BankID, хоча самі нічого не починали, це ймовірно спроба шахрайства. Відхиліть запит і зверніться до свого банку.",
+            "warning": "Негайно зателефонуйте в банк, якщо ви підтвердили щось, чого не повинні були!"
           }
         ],
-        "warningTitle": "Varseltegn på BankID-svindel",
-        "warningText": "Vær på vakt hvis du opplever noe av dette:",
+        "warningTitle": "Ознаки шахрайства з BankID",
+        "warningText": "Будьте пильні, якщо ви стикаєтеся з чимось із цього:",
         "warningSigns": [
-          "Noen ringer og sier de er fra banken og trenger BankID-godkjenning",
-          "Du får en BankID-forespørsel du ikke selv har startet",
-          "Noen ber deg installere programmer som AnyDesk eller TeamViewer",
-          "Du blir bedt om å oppgi koder på telefon",
-          "Det haster veldig og du får ikke tid til å tenke"
+          "Хтось дзвонить і каже, що вони з банку і потребують підтвердження BankID",
+          "Ви отримуєте запит BankID, який самі не ініціювали",
+          "Хтось просить вас встановити програми, такі як AnyDesk або TeamViewer",
+          "Вас просять надати коди по телефону",
+          "Це дуже терміново і вам не дають часу подумати"
         ],
-        "neverShareTitle": "Del ALDRI disse med noen",
+        "neverShareTitle": "НІКОЛИ не діліться цим з кимось",
         "neverShare": [
-          "Din personlige BankID-kode",
-          "Engangskoder fra kodebrikken",
-          "Passord til BankID-appen",
-          "Personnummeret ditt sammen med koder",
-          "Tilgang til telefonen din under en BankID-prosess"
+          "Ваш особистий код BankID",
+          "Одноразові коди з кодового пристрою",
+          "Пароль до додатку BankID",
+          "Ваш особистий номер разом з кодами",
+          "Доступ до вашого телефону під час процесу BankID"
         ],
-        "ifSuspiciousTitle": "Hva gjør du hvis du mistenker svindel?",
-        "ifSuspiciousText": "Hvis du tror du har blitt utsatt for svindelforsøk, gjør følgende:",
-        "ifSuspicious1": "Avvis alle BankID-forespørsler du ikke har startet selv",
-        "ifSuspicious2": "Ring banken din umiddelbart på nummeret bak på bankkortet",
-        "ifSuspicious3": "Endre passord og koder hvis du har delt noe",
-        "ifSuspicious4": "Anmeld forholdet til politiet på politiet.no"
+        "ifSuspiciousTitle": "Що робити, якщо ви підозрюєте шахрайство?",
+        "ifSuspiciousText": "Якщо ви вважаєте, що стали жертвою спроби шахрайства, зробіть наступне:",
+        "ifSuspicious1": "Відхиліть усі запити BankID, які ви самі не ініціювали",
+        "ifSuspicious2": "Негайно зателефонуйте в банк за номером на звороті банківської картки",
+        "ifSuspicious3": "Змініть паролі та коди, якщо ви чимось поділилися",
+        "ifSuspicious4": "Повідомте поліцію на politiet.no"
       },
       "phishing": {
-        "title": "Gjenkjenne phishing",
-        "description": "Lær å oppdage falske e-poster og meldinger",
-        "longDescription": "Phishing er svindelforsøk som prøver å lure deg til å gi fra deg personlig informasjon. Her lærer du å gjenkjenne og unngå dem.",
-        "backToGuides": "Tilbake til Digital sikkerhet",
-        "time": "Ca. 10 minutter",
-        "difficulty": "Enkel",
-        "whatIsTitle": "Hva er phishing?",
-        "whatIsText1": "Phishing er når svindlere sender falske e-poster, SMS-er eller meldinger som later som de kommer fra en pålitelig avsender, som banken din, NAV eller Posten.",
-        "whatIsText2": "Målet er å lure deg til å klikke på en lenke, laste ned en fil, eller oppgi personlig informasjon som passord og bankopplysninger.",
-        "examplesTitle": "Eksempler på phishing-meldinger",
-        "examplePostTitle": "Falsk pakkemelding",
-        "examplePostText": "\"Din pakke venter. Betal 29 kr frakt her: [lenke]\"",
-        "examplePostWarning": "Posten sender aldri SMS om betaling via lenker!",
-        "exampleBankTitle": "Falsk bankmelding",
-        "exampleBankText": "\"Viktig: Din konto vil bli sperret. Bekreft opplysningene dine her: [lenke]\"",
-        "exampleBankWarning": "Banken truer aldri med å sperre kontoen via e-post!",
-        "exampleNavTitle": "Falsk NAV-melding",
-        "exampleNavText": "\"Du har penger til gode fra NAV. Logg inn for å motta: [lenke]\"",
-        "exampleNavWarning": "NAV sender aldri lenker for utbetaling på e-post!",
-        "stepsTitle": "Slik gjenkjenner du phishing",
+        "title": "Розпізнавання фішингу",
+        "description": "Навчіться виявляти фальшиві електронні листи та повідомлення",
+        "longDescription": "Фішинг - це шахрайство, яке намагається обманом змусити вас надати особисту інформацію. Тут ви навчитеся розпізнавати та уникати їх.",
+        "backToGuides": "Повернутися до Цифрової безпеки",
+        "time": "Прибл. 10 хвилин",
+        "difficulty": "Легко",
+        "whatIsTitle": "Що таке фішинг?",
+        "whatIsText1": "Фішинг - це коли шахраї надсилають фальшиві електронні листи, SMS або повідомлення, які видають себе за надійного відправника, наприклад ваш банк, NAV або Пошту.",
+        "whatIsText2": "Мета - обманом змусити вас натиснути на посилання, завантажити файл або надати особисту інформацію, таку як паролі та банківські реквізити.",
+        "examplesTitle": "Приклади фішингових повідомлень",
+        "examplePostTitle": "Фальшиве повідомлення про посилку",
+        "examplePostText": "\"Ваша посилка очікує. Сплатіть 29 крон за доставку тут: [посилання]\"",
+        "examplePostWarning": "Пошта ніколи не надсилає SMS про оплату через посилання!",
+        "exampleBankTitle": "Фальшиве банківське повідомлення",
+        "exampleBankText": "\"Важливо: Ваш рахунок буде заблоковано. Підтвердіть свої дані тут: [посилання]\"",
+        "exampleBankWarning": "Банк ніколи не погрожує заблокувати рахунок через електронну пошту!",
+        "exampleNavTitle": "Фальшиве повідомлення від NAV",
+        "exampleNavText": "\"У вас є гроші від NAV. Увійдіть, щоб отримати: [посилання]\"",
+        "exampleNavWarning": "NAV ніколи не надсилає посилання для виплати електронною поштою!",
+        "stepsTitle": "Як розпізнати фішинг",
         "steps": [
           {
-            "title": "Sjekk avsenderadressen nøye",
-            "description": "Se på hele e-postadressen, ikke bare navnet. Ekte e-post fra NAV kommer fra @nav.no, ikke @nav-support.com eller lignende. Svindlere bruker adresser som ligner, men ikke er helt riktige.",
-            "tip": "Hold musepekeren over avsendernavnet for å se den faktiske e-postadressen."
+            "title": "Уважно перевірте адресу відправника",
+            "description": "Подивіться на всю адресу електронної пошти, а не лише на ім'я. Справжні листи від NAV надходять з @nav.no, а не @nav-support.com чи подібних. Шахраї використовують адреси, які схожі, але не зовсім правильні.",
+            "tip": "Наведіть курсор на ім'я відправника, щоб побачити фактичну адресу електронної пошти."
           },
           {
-            "title": "Se etter skrivefeil og dårlig språk",
-            "description": "Phishing-meldinger har ofte skrivefeil, rare formuleringer eller dårlig grammatikk. Ekte meldinger fra offentlige etater er skrevet med korrekt norsk.",
-            "tip": "Les meldingen høyt - høres det unaturlig ut? Da er det trolig svindel."
+            "title": "Шукайте орфографічні помилки та погану мову",
+            "description": "Фішингові повідомлення часто мають орфографічні помилки, дивні формулювання або погану граматику. Справжні повідомлення від державних органів написані правильною норвезькою.",
+            "tip": "Прочитайте повідомлення вголос - чи звучить воно неприродно? Тоді це, ймовірно, шахрайство."
           },
           {
-            "title": "Vær skeptisk til lenker",
-            "description": "Ikke klikk på lenker i e-poster eller SMS-er du ikke forventet. Hold musepekeren over lenken for å se hvor den faktisk går. Svindlere bruker adresser som ligner ekte nettsider.",
-            "warning": "Gå heller direkte til nettsiden ved å skrive adressen selv i nettleseren."
+            "title": "Будьте скептичні до посилань",
+            "description": "Не натискайте на посилання в електронних листах або SMS, яких ви не очікували. Наведіть курсор на посилання, щоб побачити, куди воно насправді веде. Шахраї використовують адреси, схожі на справжні сайти.",
+            "warning": "Краще заходьте на сайт безпосередньо, вводячи адресу самостійно в браузері."
           },
           {
-            "title": "Reager ikke på hastverk",
-            "description": "Phishing-meldinger prøver ofte å stresse deg: \"Handle NÅ!\", \"Kontoen din blir sperret om 24 timer!\". Ekte avsendere gir deg alltid tid til å tenke.",
-            "tip": "Jo mer det haster, jo større grunn til å være mistenksom."
+            "title": "Не реагуйте на поспіх",
+            "description": "Фішингові повідомлення часто намагаються вас поквапити: \"Дійте ЗАРАЗ!\", \"Ваш рахунок буде заблоковано через 24 години!\". Справжні відправники завжди дають вам час подумати.",
+            "tip": "Чим більше поспіху, тим більше причин бути підозрілим."
           },
           {
-            "title": "Sjekk om du forventet meldingen",
-            "description": "Spurte du aldri NAV om noe? Venter du ikke på pakke? Da er meldingen sannsynligvis falsk. Tenk etter om det gir mening at du får denne meldingen.",
-            "warning": "Svindlere sender millioner av meldinger - noen ganger treffer de tilfeldigvis riktig timing."
+            "title": "Перевірте, чи очікували ви повідомлення",
+            "description": "Ви ніколи не запитували NAV про щось? Не чекаєте посилку? Тоді повідомлення, ймовірно, фальшиве. Подумайте, чи має сенс, що ви отримали це повідомлення.",
+            "warning": "Шахраї надсилають мільйони повідомлень - іноді вони випадково потрапляють у правильний час."
           },
           {
-            "title": "Ikke last ned vedlegg",
-            "description": "Åpne aldri vedlegg fra ukjente avsendere. De kan inneholde virus eller skadelig programvare. Vær også forsiktig med vedlegg fra kjente avsendere hvis meldingen virker merkelig.",
-            "warning": "Spesielt farlige er .exe, .zip og .docm filer."
+            "title": "Не завантажуйте вкладення",
+            "description": "Ніколи не відкривайте вкладення від невідомих відправників. Вони можуть містити віруси або шкідливе програмне забезпечення. Також будьте обережні з вкладеннями від відомих відправників, якщо повідомлення здається дивним.",
+            "warning": "Особливо небезпечні файли .exe, .zip та .docm."
           },
           {
-            "title": "Verifiser via offisielle kanaler",
-            "description": "Er du usikker om en melding er ekte? Kontakt avsenderen direkte via offisielle kanaler. Finn telefonnummeret på deres offisielle nettside, ikke i e-posten du mottok.",
-            "tip": "Ring NAV på 55 55 33 33 eller banken på nummeret bak på kortet ditt."
+            "title": "Перевірте через офіційні канали",
+            "description": "Не впевнені, чи повідомлення справжнє? Зв'яжіться з відправником безпосередньо через офіційні канали. Знайдіть номер телефону на їхньому офіційному сайті, а не в отриманому листі.",
+            "tip": "Зателефонуйте в NAV за номером 55 55 33 33 або в банк за номером на звороті вашої картки."
           }
         ],
-        "warningSignsTitle": "Røde flagg som avslører phishing",
+        "warningSignsTitle": "Червоні прапорці, які виявляють фішинг",
         "warningSigns": [
-          "Generisk hilsen som \"Kjære kunde\" i stedet for navnet ditt",
-          "Avsenderadresse som ikke matcher selskapet",
-          "Lenker som går til andre domener enn forventet",
-          "Krav om å handle raskt eller miste noe",
-          "Forespørsel om personlig informasjon, passord eller koder",
-          "Dårlig formatering, rare fonter eller merkelig layout",
-          "Vedlegg du ikke forventet"
+          "Загальне привітання типу \"Шановний клієнте\" замість вашого імені",
+          "Адреса відправника, яка не відповідає компанії",
+          "Посилання, які ведуть на інші домени, ніж очікувалося",
+          "Вимога діяти швидко або щось втратити",
+          "Запит особистої інформації, паролів або кодів",
+          "Погане форматування, дивні шрифти або незвичайний макет",
+          "Вкладення, яких ви не очікували"
         ],
-        "ifClickedTitle": "Hva gjør du hvis du har klikket?",
-        "ifClickedText": "Ikke panikk, men handle raskt:",
-        "ifClicked1": "Ikke skriv inn noen opplysninger - lukk siden umiddelbart",
-        "ifClicked2": "Skann datamaskinen med antivirusprogrammet",
-        "ifClicked3": "Endre passordene dine hvis du har oppgitt noen",
-        "ifClicked4": "Kontakt banken din hvis det gjelder bankopplysninger",
-        "ifClicked5": "Rapporter svindelen til politiet og Nettvett.no"
+        "ifClickedTitle": "Що робити, якщо ви натиснули?",
+        "ifClickedText": "Не панікуйте, але дійте швидко:",
+        "ifClicked1": "Не вводьте жодної інформації - негайно закрийте сторінку",
+        "ifClicked2": "Проскануйте комп'ютер антивірусом",
+        "ifClicked3": "Змініть паролі, якщо ви якісь надали",
+        "ifClicked4": "Зверніться до банку, якщо це стосується банківської інформації",
+        "ifClicked5": "Повідомте про шахрайство поліції та Nettvett.no"
       },
       "svindel": {
         "title": "Уникнення шахрайства",
@@ -2110,1455 +2156,1455 @@
         "contactsTip": "Запишіть ці номери та покладіть записку біля телефону!"
       },
       "passord": {
-        "title": "Lage gode passord",
-        "description": "Slik lager du sterke passord som beskytter deg",
-        "longDescription": "Gode passord er din første forsvarslinje mot hackere. Her lærer du å lage passord som er både sikre og lette å huske.",
-        "backToGuides": "Tilbake til Digital sikkerhet",
-        "time": "Ca. 10 minutter",
-        "difficulty": "Enkel",
-        "whyImportantTitle": "Hvorfor er sterke passord viktig?",
-        "whyImportantText1": "Et svakt passord kan knekkes på sekunder. Hackere bruker programmer som prøver millioner av kombinasjoner automatisk. Hvis passordet ditt er \"123456\" eller \"passord\", er du ikke beskyttet i det hele tatt.",
-        "whyImportantText2": "Med et sterkt passord tar det år å knekke kontoen din, og hackere går videre til enklere mål.",
-        "badPasswordsTitle": "De verste passordene",
+        "title": "Створення надійних паролів",
+        "description": "Як створювати надійні паролі, які захистять вас",
+        "longDescription": "Хороші паролі - ваша перша лінія захисту від хакерів. Тут ви навчитеся створювати паролі, які є одночасно безпечними та легкими для запам'ятовування.",
+        "backToGuides": "Повернутися до Цифрової безпеки",
+        "time": "Прибл. 10 хвилин",
+        "difficulty": "Легко",
+        "whyImportantTitle": "Чому важливі надійні паролі?",
+        "whyImportantText1": "Слабкий пароль можна зламати за лічені секунди. Хакери використовують програми, які автоматично перебирають мільйони комбінацій. Якщо ваш пароль \"123456\" або \"password\", ви зовсім не захищені.",
+        "whyImportantText2": "З надійним паролем злом вашого облікового запису займе роки, і хакери перейдуть до легших цілей.",
+        "badPasswordsTitle": "Найгірші паролі",
         "badPasswords": [
           "123456",
-          "passord",
+          "password",
           "qwerty",
           "111111",
-          "navn+fødselsår",
+          "ім'я+рік народження",
           "abc123",
           "iloveyou"
         ],
-        "badPasswordsWarning": "Hvis du bruker noen av disse, bytt dem UMIDDELBART!",
-        "stepsTitle": "Slik lager du gode passord",
+        "badPasswordsWarning": "Якщо ви використовуєте щось із цього, змініть НЕГАЙНО!",
+        "stepsTitle": "Як створювати хороші паролі",
         "steps": [
           {
-            "title": "Bruk minst 12 tegn",
-            "description": "Jo lengre passord, jo sikrere. Et passord på 12 tegn er mye vanskeligere å knekke enn et på 8. Målet er minst 12 tegn, helst flere.",
-            "tip": "En setning er lettere å huske enn tilfeldige tegn: \"MinKattHeterLars2024!\" er 20 tegn og lett å huske."
+            "title": "Використовуйте мінімум 12 символів",
+            "description": "Чим довший пароль, тим він безпечніший. Пароль з 12 символів набагато важче зламати, ніж з 8. Мета - мінімум 12 символів, бажано більше.",
+            "tip": "Речення легше запам'ятати, ніж випадкові символи: \"МійКітНазиваєтьсяБарсик2024!\" - 28 символів і легко запам'ятовується."
           },
           {
-            "title": "Bland store og små bokstaver, tall og tegn",
-            "description": "Et godt passord inneholder både store og små bokstaver, minst ett tall, og minst ett spesialtegn (!@#$%&). Dette gjør det mye vanskeligere å gjette.",
-            "tip": "Bytt ut bokstaver med tall eller tegn: \"Sommer\" blir \"S0mm3r!\" (men ikke bruk bare vanlige bytter)."
+            "title": "Змішуйте великі та малі літери, цифри та символи",
+            "description": "Хороший пароль містить як великі, так і малі літери, принаймні одну цифру та принаймні один спеціальний символ (!@#$%&). Це значно ускладнює вгадування.",
+            "tip": "Замініть літери цифрами або символами: \"Літо\" стає \"Л1т0!\" (але не використовуйте лише звичайні заміни)."
           },
           {
-            "title": "Bruk en passordsetning",
-            "description": "I stedet for ett ord, bruk en hel setning. \"KaffeErBestOm7Morgen!\" er 21 tegn, inneholder alt som trengs, og er lett å huske.",
-            "tip": "Velg en setning som gir mening for deg, men som andre ikke kan gjette."
+            "title": "Використовуйте парольну фразу",
+            "description": "Замість одного слова використовуйте ціле речення. \"КаваНайкращаО7Ранку!\" - 20 символів, містить все необхідне і легко запам'ятовується.",
+            "tip": "Виберіть речення, яке має для вас сенс, але яке інші не можуть вгадати."
           },
           {
-            "title": "Aldri gjenbruk passord",
-            "description": "Bruk et unikt passord for hver tjeneste. Hvis én side blir hacket og du bruker samme passord overalt, får hackere tilgang til alt.",
-            "warning": "Nettbank, e-post og offentlige tjenester MÅ ha forskjellige passord!"
+            "title": "Ніколи не використовуйте пароль повторно",
+            "description": "Використовуйте унікальний пароль для кожного сервісу. Якщо один сайт зламають і ви використовуєте той самий пароль скрізь, хакери отримають доступ до всього.",
+            "warning": "Інтернет-банк, електронна пошта та державні служби ПОВИННІ мати різні паролі!"
           },
           {
-            "title": "Bruk en passordbehandler",
-            "description": "En passordbehandler lagrer alle passordene dine trygt, så du bare trenger å huske ett hovedpassord. Programmer som Bitwarden, 1Password eller LastPass gjør dette enkelt.",
-            "tip": "Passordbehandlere kan også lage tilfeldige, sterke passord for deg."
+            "title": "Використовуйте менеджер паролів",
+            "description": "Менеджер паролів безпечно зберігає всі ваші паролі, тому вам потрібно пам'ятати лише один головний пароль. Програми як Bitwarden, 1Password або LastPass роблять це просто.",
+            "tip": "Менеджери паролів також можуть генерувати випадкові, надійні паролі для вас."
           },
           {
-            "title": "Aktiver to-faktor autentisering",
-            "description": "To-faktor (2FA) betyr at du trenger både passord OG en kode fra telefonen for å logge inn. Selv om noen stjeler passordet, kommer de ikke inn uten telefonen din.",
-            "tip": "Slå på 2FA på alle tjenester som tilbyr det, spesielt nettbank og e-post."
+            "title": "Увімкніть двофакторну автентифікацію",
+            "description": "Двофакторна (2FA) означає, що вам потрібен і пароль, І код з телефону для входу. Навіть якщо хтось вкраде пароль, він не увійде без вашого телефону.",
+            "tip": "Увімкніть 2FA на всіх сервісах, які це пропонують, особливо на інтернет-банку та електронній пошті."
           },
           {
-            "title": "Bytt passord hvis det kan være kompromittert",
-            "description": "Hvis en tjeneste du bruker har blitt hacket, eller du mistenker at noen har sett passordet ditt, bytt det umiddelbart. Sjekk haveibeenpwned.com for å se om e-posten din har vært i en datalekkasje."
+            "title": "Змініть пароль, якщо він міг бути скомпрометований",
+            "description": "Якщо сервіс, яким ви користуєтеся, був зламаний, або ви підозрюєте, що хтось бачив ваш пароль, негайно змініть його. Перевірте haveibeenpwned.com, щоб дізнатися, чи була ваша електронна пошта в витоку даних."
           }
         ],
-        "tipsTitle": "Ekstra tips for passord-sikkerhet",
+        "tipsTitle": "Додаткові поради щодо безпеки паролів",
         "tips": [
-          "Skriv aldri ned passord på lapper ved datamaskinen",
-          "Del aldri passord med andre, heller ikke familie",
-          "Logg alltid ut av delte datamaskiner",
-          "Vær forsiktig med å lagre passord i nettleseren på andres enheter",
-          "Oppdater passordene dine minst en gang i året"
+          "Ніколи не записуйте паролі на папірцях біля комп'ютера",
+          "Ніколи не діліться паролями з іншими, навіть з сім'єю",
+          "Завжди виходьте з облікових записів на спільних комп'ютерах",
+          "Будьте обережні зі збереженням паролів у браузері на чужих пристроях",
+          "Оновлюйте паролі принаймні раз на рік"
         ],
-        "toolsTitle": "Nyttige verktøy",
-        "toolPasswordManager": "Passordbehandler",
-        "toolPasswordManagerDesc": "Bitwarden (gratis), 1Password eller LastPass lagrer passordene dine trygt.",
+        "toolsTitle": "Корисні інструменти",
+        "toolPasswordManager": "Менеджер паролів",
+        "toolPasswordManagerDesc": "Bitwarden (безкоштовно), 1Password або LastPass безпечно зберігають ваші паролі.",
         "toolHaveIBeenPwned": "Have I Been Pwned",
-        "toolHaveIBeenPwnedDesc": "Sjekk om e-posten din har vært i en datalekkasje på haveibeenpwned.com",
-        "toolPasswordGenerator": "Passordgenerator",
-        "toolPasswordGeneratorDesc": "De fleste passordbehandlere har innebygd generator for sterke passord."
+        "toolHaveIBeenPwnedDesc": "Перевірте, чи була ваша електронна пошта в витоку даних на haveibeenpwned.com",
+        "toolPasswordGenerator": "Генератор паролів",
+        "toolPasswordGeneratorDesc": "Більшість менеджерів паролів мають вбудований генератор надійних паролів."
       }
     },
     "bank": {
       "nettbank": {
-        "title": "Komme i gang med nettbank",
-        "description": "Lær å bruke nettbanken din trygt og enkelt",
-        "longDescription": "Nettbank gjør at du kan betale regninger og sjekke kontoen din hjemmefra. Her lærer du det grunnleggende.",
-        "backToGuides": "Tilbake til Bank og økonomi",
-        "time": "Ca. 15 minutter",
-        "difficulty": "Enkel",
-        "whatIsTitle": "Hva er nettbank?",
-        "whatIsText1": "Nettbank er bankens tjeneste på internett. Der kan du se hvor mye penger du har, betale regninger, overføre penger mellom kontoer, og mye mer - uten å besøke banken fysisk.",
-        "whatIsText2": "Alle norske banker tilbyr nettbank, og det er trygt å bruke så lenge du følger enkle sikkerhetsregler.",
-        "beforeYouStartTitle": "Før du starter",
+        "title": "Початок роботи з інтернет-банком",
+        "description": "Навчіться безпечно та просто користуватися інтернет-банком",
+        "longDescription": "Інтернет-банк дозволяє оплачувати рахунки та перевіряти свій рахунок з дому. Тут ви вивчите основи.",
+        "backToGuides": "Назад до Банку та фінансів",
+        "time": "Близько 15 хвилин",
+        "difficulty": "Легкий",
+        "whatIsTitle": "Що таке інтернет-банк?",
+        "whatIsText1": "Інтернет-банк - це послуга банку в інтернеті. Там ви можете бачити, скільки у вас грошей, оплачувати рахунки, переказувати гроші між рахунками та багато іншого - без відвідування банку особисто.",
+        "whatIsText2": "Усі норвезькі банки пропонують інтернет-банк, і це безпечно, якщо ви дотримуєтесь простих правил безпеки.",
+        "beforeYouStartTitle": "Перш ніж почати",
         "beforeYouStartItems": [
-          "Du trenger BankID (på mobil eller kodebrikke)",
-          "Du må ha en bankkonto",
-          "Du trenger internett på datamaskin, nettbrett eller mobil"
+          "Вам потрібен BankID (на мобільному або з кодовим пристроєм)",
+          "У вас повинен бути банківський рахунок",
+          "Вам потрібен інтернет на комп'ютері, планшеті або мобільному"
         ],
-        "stepsTitle": "Slik kommer du i gang med nettbank",
+        "stepsTitle": "Як почати користуватися інтернет-банком",
         "steps": [
           {
-            "title": "Finn bankens nettside",
-            "description": "Åpne nettleseren og skriv inn bankens adresse. For eksempel dnb.no, nordea.no, sparebank1.no, eller sbanken.no. Ikke klikk på lenker i e-post - skriv alltid adressen selv.",
-            "tip": "Lagre bankens nettside som favoritt/bokmerke så du enkelt finner den igjen."
+            "title": "Знайдіть сайт банку",
+            "description": "Відкрийте браузер і введіть адресу банку. Наприклад, dnb.no, nordea.no, sparebank1.no або sbanken.no. Не натискайте на посилання в електронній пошті - завжди вводьте адресу самі.",
+            "tip": "Збережіть сайт банку в закладках, щоб легко знаходити його знову."
           },
           {
-            "title": "Klikk på \"Logg inn\" eller \"Nettbank\"",
-            "description": "På bankens forside finner du en knapp for å logge inn. Den heter ofte \"Logg inn\", \"Nettbank\" eller \"Min side\". Klikk på denne.",
-            "tip": "Knappen er vanligvis øverst til høyre på siden."
+            "title": "Натисніть \"Logg inn\" або \"Nettbank\"",
+            "description": "На головній сторінці банку ви знайдете кнопку для входу. Вона часто називається \"Logg inn\", \"Nettbank\" або \"Min side\". Натисніть на неї.",
+            "tip": "Кнопка зазвичай знаходиться у верхньому правому куті сторінки."
           },
           {
-            "title": "Velg innloggingsmetode",
-            "description": "Du kan logge inn med BankID på mobil eller BankID med kodebrikke. Velg den metoden du har tilgang til.",
-            "warning": "Hvis du ikke har BankID, må du kontakte banken din for å få det."
+            "title": "Виберіть спосіб входу",
+            "description": "Ви можете увійти з BankID на мобільному або BankID з кодовим пристроєм. Виберіть той спосіб, який вам доступний.",
+            "warning": "Якщо у вас немає BankID, вам потрібно зв'язатися з вашим банком, щоб отримати його."
           },
           {
-            "title": "Logg inn med BankID på mobil",
-            "description": "Skriv inn fødselsnummeret ditt og telefonnummeret. Du får en melding på mobilen. Åpne BankID-appen og godkjenn med fingeravtrykk, ansikt eller kode.",
-            "tip": "Sørg for at BankID-appen er oppdatert til siste versjon."
+            "title": "Увійдіть за допомогою BankID на мобільному",
+            "description": "Введіть свій персональний номер та номер телефону. Ви отримаєте повідомлення на мобільний. Відкрийте додаток BankID і підтвердіть відбитком пальця, обличчям або кодом.",
+            "tip": "Переконайтеся, що додаток BankID оновлений до останньої версії."
           },
           {
-            "title": "Bli kjent med oversikten",
-            "description": "Etter innlogging ser du en oversikt over kontoene dine. Her ser du saldo (hvor mye penger du har) på hver konto. Klikk på en konto for å se bevegelser (inn- og utbetalinger).",
-            "tip": "De fleste nettbanker viser også ventende betalinger og kommende regninger."
+            "title": "Ознайомтеся з оглядом",
+            "description": "Після входу ви побачите огляд своїх рахунків. Тут ви бачите баланс (скільки у вас грошей) на кожному рахунку. Натисніть на рахунок, щоб побачити рухи (надходження та витрати).",
+            "tip": "Більшість інтернет-банків також показують очікувані платежі та майбутні рахунки."
           },
           {
-            "title": "Utforsk menyen",
-            "description": "I menyen finner du tjenester som \"Betal\", \"Overfør\", \"Kort\", \"Lån\" og \"Innstillinger\". Ta deg tid til å se gjennom hva som finnes.",
-            "tip": "Mange banker har en \"Hjelp\" eller \"Kundeservice\" knapp hvis du står fast."
+            "title": "Огляньте меню",
+            "description": "У меню ви знайдете послуги, такі як \"Betal\" (Оплатити), \"Overfør\" (Переказати), \"Kort\" (Картки), \"Lån\" (Кредити) та \"Innstillinger\" (Налаштування). Не поспішайте і перегляньте, що там є.",
+            "tip": "Багато банків мають кнопку \"Hjelp\" (Допомога) або \"Kundeservice\" (Служба підтримки), якщо ви застрягли."
           },
           {
-            "title": "Husk å logge ut",
-            "description": "Når du er ferdig, klikk på \"Logg ut\" øverst til høyre. Dette er spesielt viktig hvis du bruker en felles datamaskin.",
-            "warning": "Lukk alltid nettleservinduet etter at du har logget ut."
+            "title": "Не забудьте вийти",
+            "description": "Коли закінчите, натисніть \"Logg ut\" (Вийти) у верхньому правому куті. Це особливо важливо, якщо ви використовуєте загальний комп'ютер.",
+            "warning": "Завжди закривайте вікно браузера після виходу."
           }
         ],
-        "securityTitle": "Sikkerhetstips for nettbank",
+        "securityTitle": "Поради щодо безпеки інтернет-банку",
         "securityTips": [
-          "Logg aldri inn via lenker i e-post eller SMS",
-          "Bruk bare nettbank på ditt eget utstyr, ikke på offentlige datamaskiner",
-          "Logg alltid ut når du er ferdig",
-          "Sjekk at adressen starter med https:// og har hengelås-ikon",
-          "Del aldri BankID-koder med noen"
+          "Ніколи не входьте через посилання в електронній пошті або SMS",
+          "Використовуйте інтернет-банк тільки на своєму обладнанні, не на громадських комп'ютерах",
+          "Завжди виходьте, коли закінчите",
+          "Перевірте, що адреса починається з https:// та має значок замка",
+          "Ніколи не повідомляйте коди BankID нікому"
         ],
-        "helpTitle": "Trenger du hjelp?",
-        "helpText": "Alle banker har kundeservice som kan hjelpe deg. Ring bankens telefonnummer (står på baksiden av bankkortet) eller besøk en filial."
+        "helpTitle": "Потрібна допомога?",
+        "helpText": "Усі банки мають службу підтримки, яка може вам допомогти. Зателефонуйте на номер банку (вказаний на звороті банківської картки) або відвідайте відділення."
       },
       "betaling": {
-        "title": "Betale regninger",
-        "description": "Slik betaler du regninger i nettbanken",
-        "longDescription": "Å betale regninger i nettbanken er raskt og enkelt. Her viser vi deg steg-for-steg hvordan du gjør det.",
-        "backToGuides": "Tilbake til Bank og økonomi",
-        "time": "Ca. 10 minutter",
-        "difficulty": "Enkel",
-        "whatYouNeedTitle": "Dette trenger du",
+        "title": "Оплата рахунків",
+        "description": "Як оплачувати рахунки в інтернет-банку",
+        "longDescription": "Оплата рахунків в інтернет-банку швидка та проста. Тут ми покажемо вам крок за кроком, як це зробити.",
+        "backToGuides": "Назад до Банку та фінансів",
+        "time": "Близько 10 хвилин",
+        "difficulty": "Легкий",
+        "whatYouNeedTitle": "Що вам потрібно",
         "whatYouNeed": [
-          "Regningen du skal betale (papir eller digital)",
-          "Tilgang til nettbanken",
-          "Nok penger på kontoen"
+          "Рахунок, який ви хочете оплатити (паперовий або цифровий)",
+          "Доступ до інтернет-банку",
+          "Достатньо грошей на рахунку"
         ],
-        "importantTermsTitle": "Viktige begreper på regningen",
-        "termKID": "KID-nummer",
-        "termKIDDesc": "En lang tallrekke som identifiserer betalingen din. VIKTIG å taste riktig!",
-        "termKonto": "Kontonummer",
-        "termKontoDesc": "Mottakerens bankkonto (11 siffer)",
-        "termBelop": "Beløp",
-        "termBelopDesc": "Summen du skal betale",
-        "termFrist": "Forfallsdato",
-        "termFristDesc": "Siste dag regningen må betales",
-        "stepsTitle": "Slik betaler du en regning",
+        "importantTermsTitle": "Важливі терміни на рахунку",
+        "termKID": "KID-номер",
+        "termKIDDesc": "Довгий ряд цифр, який ідентифікує ваш платіж. ВАЖЛИВО ввести правильно!",
+        "termKonto": "Номер рахунку",
+        "termKontoDesc": "Банківський рахунок отримувача (11 цифр)",
+        "termBelop": "Сума",
+        "termBelopDesc": "Сума, яку ви повинні сплатити",
+        "termFrist": "Термін оплати",
+        "termFristDesc": "Останній день, коли рахунок повинен бути оплачений",
+        "stepsTitle": "Як оплатити рахунок",
         "steps": [
           {
-            "title": "Logg inn i nettbanken",
-            "description": "Gå til bankens nettside og logg inn med BankID som vanlig."
+            "title": "Увійдіть в інтернет-банк",
+            "description": "Перейдіть на сайт банку та увійдіть за допомогою BankID як зазвичай."
           },
           {
-            "title": "Finn \"Betal\" eller \"Ny betaling\"",
-            "description": "I menyen finner du \"Betal\", \"Betaling\" eller \"Ny betaling\". Klikk på dette for å starte en ny betaling.",
-            "tip": "Noen banker har en stor \"Betal\"-knapp på forsiden."
+            "title": "Знайдіть \"Betal\" або \"Ny betaling\"",
+            "description": "У меню ви знайдете \"Betal\" (Оплатити), \"Betaling\" (Платіж) або \"Ny betaling\" (Новий платіж). Натисніть на це, щоб почати новий платіж.",
+            "tip": "Деякі банки мають велику кнопку \"Betal\" на головній сторінці."
           },
           {
-            "title": "Velg konto å betale fra",
-            "description": "Velg hvilken konto pengene skal trekkes fra. Sjekk at du har nok penger på kontoen.",
-            "warning": "Hvis du ikke har nok penger, vil betalingen ikke gå gjennom."
+            "title": "Виберіть рахунок для оплати",
+            "description": "Виберіть, з якого рахунку будуть списані гроші. Перевірте, що на рахунку достатньо коштів.",
+            "warning": "Якщо у вас недостатньо грошей, платіж не пройде."
           },
           {
-            "title": "Skriv inn kontonummer",
-            "description": "Tast inn mottakerens kontonummer (11 siffer). Du finner dette på regningen, ofte merket \"Til konto\" eller \"Kontonummer\".",
-            "tip": "Noen regninger har strekkode - da kan du bruke bankens app til å skanne den automatisk."
+            "title": "Введіть номер рахунку",
+            "description": "Введіть номер рахунку отримувача (11 цифр). Ви знайдете його на рахунку, часто позначений як \"Til konto\" або \"Kontonummer\".",
+            "tip": "Деякі рахунки мають штрих-код - тоді ви можете використати додаток банку для автоматичного сканування."
           },
           {
-            "title": "Skriv inn KID-nummer",
-            "description": "Tast inn KID-nummeret nøyaktig slik det står på regningen. Dette er viktig for at mottakeren skal vite hva betalingen gjelder.",
-            "warning": "Feil KID kan føre til at betalingen ikke blir registrert riktig!"
+            "title": "Введіть KID-номер",
+            "description": "Введіть KID-номер точно так, як він вказаний на рахунку. Це важливо, щоб отримувач знав, за що цей платіж.",
+            "warning": "Неправильний KID може призвести до того, що платіж не буде правильно зареєстрований!"
           },
           {
-            "title": "Skriv inn beløpet",
-            "description": "Tast inn beløpet du skal betale. Sjekk at det stemmer med regningen.",
-            "tip": "Bruk komma for øre (f.eks. 1234,50). Noen banker bruker punktum."
+            "title": "Введіть суму",
+            "description": "Введіть суму, яку ви повинні сплатити. Перевірте, що вона відповідає рахунку.",
+            "tip": "Використовуйте кому для копійок (наприклад, 1234,50). Деякі банки використовують крапку."
           },
           {
-            "title": "Velg betalingsdato",
-            "description": "Velg når betalingen skal skje. Du kan betale med en gang eller sette en fremtidig dato. Husk at forfallsdatoen er siste frist.",
-            "tip": "Betal gjerne noen dager før forfall så du er sikker på at den kommer frem i tide."
+            "title": "Виберіть дату платежу",
+            "description": "Виберіть, коли платіж повинен бути здійснений. Ви можете оплатити відразу або встановити майбутню дату. Пам'ятайте, що термін оплати - це останній день.",
+            "tip": "Краще платити за кілька днів до терміну, щоб бути впевненим, що платіж надійде вчасно."
           },
           {
-            "title": "Kontroller og godkjenn",
-            "description": "Se over alle opplysningene: kontonummer, KID, beløp og dato. Når alt er riktig, klikk \"Betal\" eller \"Godkjenn\".",
-            "warning": "Dobbeltsjekk KID og beløp før du godkjenner!"
+            "title": "Перевірте та підтвердіть",
+            "description": "Перегляньте всі дані: номер рахунку, KID, суму та дату. Коли все правильно, натисніть \"Betal\" або \"Godkjenn\" (Підтвердити).",
+            "warning": "Двічі перевірте KID та суму перед підтвердженням!"
           },
           {
-            "title": "Bekreftelse",
-            "description": "Du får en bekreftelse på at betalingen er registrert. Betalingen vil bli trukket fra kontoen din på valgt dato.",
-            "tip": "Lagre kvitteringen eller ta skjermbilde for egen dokumentasjon."
+            "title": "Підтвердження",
+            "description": "Ви отримаєте підтвердження, що платіж зареєстрований. Платіж буде списаний з вашого рахунку в обрану дату.",
+            "tip": "Збережіть квитанцію або зробіть знімок екрана для власної документації."
           }
         ],
-        "avtaleGiroTitle": "Sett opp AvtaleGiro",
-        "avtaleGiroText": "For regninger som kommer jevnlig (strøm, forsikring, osv.) kan du sette opp AvtaleGiro. Da betales regningen automatisk hver gang. Du finner dette under \"AvtaleGiro\" eller \"Faste betalinger\" i nettbanken.",
-        "efakturaTitle": "Hva er eFaktura?",
-        "efakturaText": "eFaktura betyr at regningen kommer rett inn i nettbanken din digitalt. Du slipper å taste inn KID og kontonummer - bare godkjenn beløpet. Slå på eFaktura under \"Innstillinger\" i nettbanken."
+        "avtaleGiroTitle": "Налаштуйте AvtaleGiro",
+        "avtaleGiroText": "Для рахунків, які приходять регулярно (електрика, страхування тощо), ви можете налаштувати AvtaleGiro. Тоді рахунок оплачується автоматично кожного разу. Ви знайдете це в розділі \"AvtaleGiro\" або \"Faste betalinger\" (Постійні платежі) в інтернет-банку.",
+        "efakturaTitle": "Що таке eFaktura?",
+        "efakturaText": "eFaktura означає, що рахунок надходить прямо в ваш інтернет-банк у цифровому вигляді. Вам не потрібно вводити KID та номер рахунку - просто підтвердіть суму. Увімкніть eFaktura в розділі \"Innstillinger\" (Налаштування) в інтернет-банку."
       },
       "vipps": {
-        "title": "Bruke Vipps",
-        "description": "Lær å sende penger og betale med Vipps",
-        "longDescription": "Vipps gjør det enkelt å sende penger til venner, betale i butikker og dele regninger. Her lærer du alt du trenger.",
-        "backToGuides": "Tilbake til Bank og økonomi",
-        "time": "Ca. 15 minutter",
-        "difficulty": "Enkel",
-        "whatIsTitle": "Hva er Vipps?",
-        "whatIsText1": "Vipps er en norsk betalingsapp som lar deg sende penger til andre, betale i butikker, og mye mer - alt fra mobilen din.",
-        "whatIsText2": "Over 4 millioner nordmenn bruker Vipps. Det er trygt fordi det er koblet til BankID og bankkontoen din.",
-        "whatYouNeedTitle": "Dette trenger du",
+        "title": "Використання Vipps",
+        "description": "Навчіться надсилати гроші та платити за допомогою Vipps",
+        "longDescription": "Vipps дозволяє легко надсилати гроші друзям, платити в магазинах та ділити рахунки. Тут ви дізнаєтесь все, що потрібно.",
+        "backToGuides": "Назад до Банку та фінансів",
+        "time": "Близько 15 хвилин",
+        "difficulty": "Легкий",
+        "whatIsTitle": "Що таке Vipps?",
+        "whatIsText1": "Vipps - це норвезький платіжний додаток, який дозволяє надсилати гроші іншим, платити в магазинах та багато іншого - все з вашого мобільного.",
+        "whatIsText2": "Понад 4 мільйони норвежців використовують Vipps. Це безпечно, тому що пов'язано з BankID та вашим банківським рахунком.",
+        "whatYouNeedTitle": "Що вам потрібно",
         "whatYouNeed": [
-          "Smarttelefon (iPhone eller Android)",
-          "BankID på mobil",
-          "Norsk bankkonto",
-          "Norsk mobilnummer"
+          "Смартфон (iPhone або Android)",
+          "BankID на мобільному",
+          "Норвезький банківський рахунок",
+          "Норвезький мобільний номер"
         ],
-        "stepsTitle": "Slik kommer du i gang med Vipps",
+        "stepsTitle": "Як почати користуватися Vipps",
         "steps": [
           {
-            "title": "Last ned Vipps-appen",
-            "description": "Åpne App Store (iPhone) eller Google Play (Android). Søk etter \"Vipps\" og trykk \"Installer\" eller \"Hent\".",
-            "tip": "Pass på at du laster ned den ekte Vipps-appen med det oransje logoen."
+            "title": "Завантажте додаток Vipps",
+            "description": "Відкрийте App Store (iPhone) або Google Play (Android). Знайдіть \"Vipps\" і натисніть \"Встановити\" або \"Завантажити\".",
+            "tip": "Переконайтеся, що ви завантажуєте справжній додаток Vipps з помаранчевим логотипом."
           },
           {
-            "title": "Åpne appen og start registrering",
-            "description": "Åpne Vipps og trykk \"Kom i gang\" eller \"Registrer deg\". Du blir bedt om å skrive inn mobilnummeret ditt.",
-            "tip": "Bruk det samme nummeret som er registrert i BankID."
+            "title": "Відкрийте додаток і почніть реєстрацію",
+            "description": "Відкрийте Vipps і натисніть \"Kom i gang\" (Почати) або \"Registrer deg\" (Зареєструватися). Вас попросять ввести номер мобільного.",
+            "tip": "Використовуйте той самий номер, який зареєстрований у BankID."
           },
           {
-            "title": "Bekreft med BankID",
-            "description": "Du må bekrefte identiteten din med BankID. Følg instruksjonene - du blir sendt til BankID-appen for å godkjenne.",
-            "warning": "Hvis BankID ikke fungerer, sjekk at appen er oppdatert."
+            "title": "Підтвердіть за допомогою BankID",
+            "description": "Вам потрібно підтвердити свою особу за допомогою BankID. Дотримуйтесь інструкцій - вас перенаправлять до додатку BankID для підтвердження.",
+            "warning": "Якщо BankID не працює, перевірте, чи оновлений додаток."
           },
           {
-            "title": "Koble til bankkonto",
-            "description": "Vipps henter automatisk bankkontoene dine. Velg hvilken konto du vil bruke som standard for Vipps-betalinger.",
-            "tip": "Du kan endre konto senere under \"Innstillinger\" i appen."
+            "title": "Підключіть банківський рахунок",
+            "description": "Vipps автоматично отримує ваші банківські рахунки. Виберіть, який рахунок ви хочете використовувати за замовчуванням для платежів Vipps.",
+            "tip": "Ви можете змінити рахунок пізніше в \"Innstillinger\" (Налаштування) в додатку."
           },
           {
-            "title": "Legg til betalingskort (valgfritt)",
-            "description": "Du kan også legge til et betalingskort for å bruke Vipps i butikker. Trykk på \"Kort\" og \"Legg til kort\". Fyll inn kortinformasjonen.",
-            "tip": "Kortet må støtte kontaktløs betaling."
+            "title": "Додайте платіжну картку (необов'язково)",
+            "description": "Ви також можете додати платіжну картку для використання Vipps у магазинах. Натисніть \"Kort\" (Картки) і \"Legg til kort\" (Додати картку). Введіть дані картки.",
+            "tip": "Картка повинна підтримувати безконтактну оплату."
           },
           {
-            "title": "Sende penger til noen",
-            "description": "For å sende penger: Trykk på \"Søk\" eller \"+\" knappen, skriv inn navn eller nummer, skriv beløpet, og trykk \"Send\". Mottakeren trenger også Vipps.",
-            "tip": "Du kan legge til en melding til betalingen, f.eks. \"Takk for middagen!\""
+            "title": "Надіслати гроші комусь",
+            "description": "Щоб надіслати гроші: Натисніть кнопку \"Søk\" (Пошук) або \"+\", введіть ім'я або номер, введіть суму і натисніть \"Send\" (Надіслати). Отримувач також повинен мати Vipps.",
+            "tip": "Ви можете додати повідомлення до платежу, наприклад \"Дякую за вечерю!\""
           },
           {
-            "title": "Betale i butikk",
-            "description": "I butikker som tar Vipps: Åpne appen, trykk \"Betal\", og hold telefonen mot betalingsterminalen. Godkjenn med fingeravtrykk eller kode.",
-            "tip": "Se etter Vipps-logoen ved kassen for å vite om butikken tar Vipps."
+            "title": "Платити в магазині",
+            "description": "У магазинах, які приймають Vipps: Відкрийте додаток, натисніть \"Betal\" (Оплатити) і піднесіть телефон до терміналу. Підтвердіть відбитком пальця або кодом.",
+            "tip": "Шукайте логотип Vipps біля каси, щоб дізнатися, чи магазин приймає Vipps."
           },
           {
-            "title": "Dele regninger",
-            "description": "Har du lagt ut for noe? Trykk \"Regninger\" i appen, skriv inn totalbeløp og velg hvem som skal dele. Vipps sender automatisk forespørsel til alle.",
-            "tip": "Perfekt for å dele regning etter restaurant eller felles innkjøp."
+            "title": "Ділити рахунки",
+            "description": "Ви заплатили за щось? Натисніть \"Regninger\" (Рахунки) в додатку, введіть загальну суму і виберіть, хто повинен ділити. Vipps автоматично надсилає запит усім.",
+            "tip": "Ідеально для поділу рахунку після ресторану або спільних покупок."
           }
         ],
-        "featuresTitle": "Mer du kan gjøre med Vipps",
+        "featuresTitle": "Що ще можна робити з Vipps",
         "featureInvoice": "Vipps Faktura",
-        "featureInvoiceDesc": "Motta og betal fakturaer direkte i appen",
-        "featureRecurring": "Faste betalinger",
-        "featureRecurringDesc": "Sett opp gjentakende betalinger til f.eks. treningssenter",
-        "featureOnline": "Netthandel",
-        "featureOnlineDesc": "Betal enkelt i nettbutikker som tilbyr Vipps",
-        "securityTitle": "Sikkerhet i Vipps",
-        "securityText": "Vipps er trygt fordi alle betalinger godkjennes med fingeravtrykk, ansikt eller PIN-kode. Ingen kan sende penger fra kontoen din uten din godkjenning."
+        "featureInvoiceDesc": "Отримуйте та оплачуйте рахунки прямо в додатку",
+        "featureRecurring": "Постійні платежі",
+        "featureRecurringDesc": "Налаштуйте повторювані платежі, наприклад, у спортзал",
+        "featureOnline": "Онлайн-покупки",
+        "featureOnlineDesc": "Легко платіть в інтернет-магазинах, які пропонують Vipps",
+        "securityTitle": "Безпека в Vipps",
+        "securityText": "Vipps безпечний, тому що всі платежі підтверджуються відбитком пальця, обличчям або PIN-кодом. Ніхто не може надіслати гроші з вашого рахунку без вашого підтвердження."
       },
       "gjeld": {
-        "title": "Få hjelp med gjeld",
-        "description": "Her finner du hjelp hvis du sliter med å betale regninger",
-        "longDescription": "Alle kan havne i en vanskelig økonomisk situasjon. Her finner du informasjon om hvor du kan få hjelp.",
-        "backToGuides": "Tilbake til Bank og økonomi",
-        "time": "Ca. 10 minutter",
-        "difficulty": "Enkel",
-        "importantTitle": "Det viktigste først",
-        "importantText": "Hvis du sliter med å betale regninger, er det viktig å handle raskt. Jo før du tar grep, jo lettere er det å finne en løsning. Du er ikke alene - mange har vært i samme situasjon og fått hjelp.",
-        "signsTitle": "Varseltegn på gjeldsproblemer",
+        "title": "Отримати допомогу з боргами",
+        "description": "Тут ви знайдете допомогу, якщо вам важко оплачувати рахунки",
+        "longDescription": "Кожен може опинитися у складній фінансовій ситуації. Тут ви знайдете інформацію про те, де можна отримати допомогу.",
+        "backToGuides": "Назад до Банку та фінансів",
+        "time": "Близько 10 хвилин",
+        "difficulty": "Легкий",
+        "importantTitle": "Найважливіше спочатку",
+        "importantText": "Якщо вам важко оплачувати рахунки, важливо діяти швидко. Чим раніше ви вживете заходів, тим легше буде знайти рішення. Ви не самотні - багато людей були в такій самій ситуації і отримали допомогу.",
+        "signsTitle": "Ознаки проблем з боргами",
         "signs": [
-          "Du betaler bare minimumsbeløpet på kredittkort",
-          "Du bruker kredittkort til daglige utgifter som mat",
-          "Du tar opp nye lån for å betale gamle",
-          "Du får inkassovarsel",
-          "Du unngår å åpne post og regninger"
+          "Ви сплачуєте лише мінімальну суму по кредитній картці",
+          "Ви використовуєте кредитну картку для повсякденних витрат, таких як їжа",
+          "Ви берете нові кредити, щоб сплатити старі",
+          "Ви отримуєте повідомлення від колекторів",
+          "Ви уникаєте відкривати пошту та рахунки"
         ],
-        "stepsTitle": "Første steg hvis du sliter",
+        "stepsTitle": "Перші кроки, якщо у вас проблеми",
         "steps": [
           {
-            "title": "Få oversikt over økonomien",
-            "description": "Skriv ned alle inntekter (lønn, trygd, osv.) og alle utgifter (husleie, mat, lån, osv.). Dette gir deg oversikt over situasjonen.",
-            "tip": "Bruk nettbankens oversikt over transaksjoner for å se hva du faktisk bruker penger på."
+            "title": "Отримайте огляд своїх фінансів",
+            "description": "Запишіть всі доходи (зарплата, допомога тощо) та всі витрати (оренда, їжа, кредити тощо). Це дасть вам огляд ситуації.",
+            "tip": "Використовуйте огляд транзакцій в інтернет-банку, щоб побачити, на що ви насправді витрачаєте гроші."
           },
           {
-            "title": "Prioriter regningene",
-            "description": "Noen regninger er viktigere enn andre. Betal først: husleie/boliglån, strøm, mat, og eventuelle barnebidrag. Forbrukslån og kredittkort kan vente.",
-            "warning": "Hvis du ikke betaler husleie, risikerer du å miste boligen."
+            "title": "Визначте пріоритети рахунків",
+            "description": "Деякі рахунки важливіші за інші. Спочатку оплатіть: оренду/іпотеку, електрику, їжу та аліменти. Споживчі кредити та кредитні картки можуть почекати.",
+            "warning": "Якщо ви не платите за оренду, ви ризикуєте втратити житло."
           },
           {
-            "title": "Kontakt kreditorene dine",
-            "description": "Ring de du skylder penger og forklar situasjonen. De fleste vil heller lage en betalingsplan enn å sende saken til inkasso. Be om betalingsutsettelse eller avdragsordning.",
-            "tip": "Mange kreditorene har egne ordninger for de som sliter. Spør om lavere rente eller lengre nedbetalingstid."
+            "title": "Зв'яжіться з кредиторами",
+            "description": "Зателефонуйте тим, кому ви винні гроші, і поясніть ситуацію. Більшість кредиторів краще складуть план платежів, ніж передадуть справу колекторам. Попросіть відстрочку платежу або план розстрочки.",
+            "tip": "Багато кредиторів мають спеціальні програми для тих, хто має труднощі. Запитайте про нижчу відсоткову ставку або довший термін погашення."
           },
           {
-            "title": "Søk profesjonell hjelp",
-            "description": "Gjeldsrådgivere kan hjelpe deg å forhandle med kreditorene og lage en plan. Dette er gratis hos kommunen og NAV.",
-            "tip": "Du trenger ikke å ha bestemt deg for noe før du tar kontakt - de hjelper deg å se mulighetene."
+            "title": "Зверніться за професійною допомогою",
+            "description": "Консультанти з питань боргів можуть допомогти вам вести переговори з кредиторами та скласти план. Це безкоштовно в муніципалітеті та NAV.",
+            "tip": "Вам не потрібно приймати жодних рішень перед зверненням - вони допоможуть вам побачити можливості."
           },
           {
-            "title": "Vurder refinansiering",
-            "description": "Hvis du har mange små lån, kan det lønne seg å samle dem til ett lån med lavere rente. Snakk med banken din om mulighetene.",
-            "warning": "Vær forsiktig med \"samlelån\" med høy rente fra ukjente selskaper."
+            "title": "Розгляньте рефінансування",
+            "description": "Якщо у вас багато дрібних кредитів, може бути вигідно об'єднати їх в один кредит з нижчою відсотковою ставкою. Поговоріть зі своїм банком про можливості.",
+            "warning": "Будьте обережні з \"об'єднаними кредитами\" з високими відсотками від невідомих компаній."
           },
           {
-            "title": "Søk økonomisk sosialhjelp hvis nødvendig",
-            "description": "Hvis du ikke har penger til mat og nødvendige utgifter, kan du søke om sosialhjelp fra NAV. Dette er en midlertidig hjelp mens du får orden på økonomien.",
-            "tip": "Sosialhjelp er en rettighet for de som trenger det - ikke vær redd for å søke."
+            "title": "Зверніться за соціальною допомогою, якщо потрібно",
+            "description": "Якщо у вас немає грошей на їжу та необхідні витрати, ви можете подати заявку на соціальну допомогу від NAV. Це тимчасова допомога, поки ви налагоджуєте свої фінанси.",
+            "tip": "Соціальна допомога - це право для тих, хто її потребує - не бійтеся звертатися."
           }
         ],
-        "helpTitle": "Hvor kan du få gratis hjelp?",
-        "helpNAV": "NAV gjeldsrådgivning",
-        "helpNAVDesc": "Ring NAV på 55 55 33 33 og be om å snakke med en gjeldsrådgiver, eller besøk ditt lokale NAV-kontor.",
-        "helpKommune": "Kommunens gjeldsrådgiver",
-        "helpKommuneDesc": "De fleste kommuner har gratis gjeldsrådgivning. Ring kommunens servicekontor for å få kontaktinformasjon.",
+        "helpTitle": "Де можна отримати безкоштовну допомогу?",
+        "helpNAV": "Консультація NAV з питань боргів",
+        "helpNAVDesc": "Зателефонуйте в NAV за номером 55 55 33 33 і попросіть поговорити з консультантом з питань боргів, або відвідайте місцевий офіс NAV.",
+        "helpKommune": "Муніципальний консультант з питань боргів",
+        "helpKommuneDesc": "Більшість муніципалітетів мають безкоштовні консультації з питань боргів. Зателефонуйте в сервісний центр муніципалітету, щоб отримати контактну інформацію.",
         "helpOkonomirad": "Økonomiråd.no",
-        "helpOkonomiradDesc": "Forbrukerrådets nettside med budsjettverktøy og råd om økonomi.",
+        "helpOkonomiradDesc": "Веб-сайт Споживчої ради з інструментами бюджетування та порадами щодо економіки.",
         "helpGjeldsofre": "Gjeldsofre.no",
-        "helpGjeldsofferDesc": "Frivillig organisasjon som gir gratis råd og støtte til personer med gjeldsproblemer.",
-        "avoidTitle": "Dette bør du UNNGÅ",
+        "helpGjeldsofferDesc": "Волонтерська організація, яка надає безкоштовні поради та підтримку людям з проблемами боргів.",
+        "avoidTitle": "Чого слід УНИКАТИ",
         "avoidItems": [
-          "Å ta opp nye lån for å betale gamle (gjeldsspiralen)",
-          "Å ignorere post og regninger",
-          "Å si ja til \"kjappe lån\" med høy rente",
-          "Å vente for lenge med å søke hjelp"
+          "Брати нові кредити для сплати старих (боргова спіраль)",
+          "Ігнорувати пошту та рахунки",
+          "Погоджуватися на \"швидкі кредити\" з високими відсотками",
+          "Занадто довго чекати, перш ніж звертатися за допомогою"
         ]
       }
     },
     "digital": {
       "epost": {
-        "title": "Sette opp e-post",
-        "description": "Lær å opprette og bruke e-post",
-        "longDescription": "E-post er grunnleggende for å kommunisere digitalt. Her lærer du å opprette en e-postkonto og bruke den.",
-        "backToGuides": "Tilbake til Digitale verktøy",
-        "time": "Ca. 15 minutter",
-        "difficulty": "Enkel",
-        "whatIsTitle": "Hva er e-post?",
-        "whatIsText1": "E-post (elektronisk post) er digital post du sender og mottar via internett. Det er gratis, raskt, og du kan sende til hvem som helst i verden.",
-        "whatIsText2": "For å bruke e-post trenger du en e-postadresse. Denne fungerer som din digitale adresse, f.eks. navn@gmail.com.",
-        "providersTitle": "Populære e-posttjenester",
+        "title": "Налаштування електронної пошти",
+        "description": "Навчіться створювати та використовувати електронну пошту",
+        "longDescription": "Електронна пошта є основою цифрового спілкування. Тут ви навчитесь створювати обліковий запис електронної пошти та користуватися ним.",
+        "backToGuides": "Назад до Цифрових інструментів",
+        "time": "Близько 15 хвилин",
+        "difficulty": "Легкий",
+        "whatIsTitle": "Що таке електронна пошта?",
+        "whatIsText1": "Електронна пошта (e-mail) - це цифрова пошта, яку ви надсилаєте та отримуєте через інтернет. Це безкоштовно, швидко, і ви можете надсилати будь-кому у світі.",
+        "whatIsText2": "Щоб користуватися електронною поштою, вам потрібна електронна адреса. Вона працює як ваша цифрова адреса, наприклад, name@gmail.com.",
+        "providersTitle": "Популярні поштові сервіси",
         "providerGmail": "Gmail (Google)",
-        "providerGmailDesc": "Mest populær, gratis, fungerer på alle enheter",
+        "providerGmailDesc": "Найпопулярніший, безкоштовний, працює на всіх пристроях",
         "providerOutlook": "Outlook (Microsoft)",
-        "providerOutlookDesc": "Gratis, god integrasjon med Windows",
+        "providerOutlookDesc": "Безкоштовний, добре інтегрується з Windows",
         "providerYahoo": "Yahoo Mail",
-        "providerYahooDesc": "Gratis, har eksistert lenge",
-        "stepsTitle": "Slik oppretter du Gmail-konto",
+        "providerYahooDesc": "Безкоштовний, існує давно",
+        "stepsTitle": "Як створити обліковий запис Gmail",
         "steps": [
           {
-            "title": "Gå til Gmail",
-            "description": "Åpne nettleseren og gå til gmail.com. Klikk på \"Opprett konto\" eller \"Create account\"."
+            "title": "Перейдіть на Gmail",
+            "description": "Відкрийте браузер і перейдіть на gmail.com. Натисніть \"Створити обліковий запис\" або \"Create account\"."
           },
           {
-            "title": "Fyll inn personlig informasjon",
-            "description": "Skriv inn fornavn og etternavn. Dette vises når du sender e-post.",
-            "tip": "Bruk ditt ekte navn så folk kjenner deg igjen."
+            "title": "Введіть особисту інформацію",
+            "description": "Введіть ім'я та прізвище. Це відображатиметься, коли ви надсилатимете електронну пошту.",
+            "tip": "Використовуйте своє справжнє ім'я, щоб люди вас впізнавали."
           },
           {
-            "title": "Velg e-postadresse",
-            "description": "Velg din e-postadresse. Den må være unik. Prøv fornavn.etternavn@gmail.com eller legg til tall hvis adressen er opptatt.",
-            "warning": "Adressen kan ikke endres senere, så velg med omhu!"
+            "title": "Виберіть електронну адресу",
+            "description": "Виберіть свою електронну адресу. Вона повинна бути унікальною. Спробуйте ім'я.прізвище@gmail.com або додайте цифри, якщо адреса зайнята.",
+            "warning": "Адресу не можна змінити пізніше, тому обирайте уважно!"
           },
           {
-            "title": "Lag et sterkt passord",
-            "description": "Lag et passord med minst 8 tegn, helst 12. Bruk både store og små bokstaver, tall og tegn. Bekreft passordet ved å skrive det på nytt.",
-            "tip": "Se vår guide om passord for tips til å lage et sikkert passord."
+            "title": "Створіть надійний пароль",
+            "description": "Створіть пароль з щонайменше 8 символів, бажано 12. Використовуйте великі та малі літери, цифри та символи. Підтвердіть пароль, ввівши його ще раз.",
+            "tip": "Перегляньте наш посібник про паролі для порад щодо створення безпечного пароля."
           },
           {
-            "title": "Legg til telefonnummer (anbefalt)",
-            "description": "Legg til mobilnummeret ditt for å kunne gjenopprette kontoen hvis du glemmer passordet. Du kan også bruke det for ekstra sikkerhet.",
-            "tip": "Dette er valgfritt, men sterkt anbefalt."
+            "title": "Додайте номер телефону (рекомендовано)",
+            "description": "Додайте свій мобільний номер, щоб мати можливість відновити обліковий запис, якщо забудете пароль. Ви також можете використовувати його для додаткової безпеки.",
+            "tip": "Це необов'язково, але настійно рекомендовано."
           },
           {
-            "title": "Godta vilkårene",
-            "description": "Les gjennom og godta Googles vilkår og personvernerklæring ved å klikke \"Godta\" eller \"I agree\"."
+            "title": "Прийміть умови",
+            "description": "Прочитайте та прийміть умови Google та політику конфіденційності, натиснувши \"Погоджуюсь\" або \"I agree\"."
           },
           {
-            "title": "E-posten din er klar!",
-            "description": "Gratulerer! Du har nå en e-postadresse. Du kommer til innboksen din der nye e-poster vil dukke opp.",
-            "tip": "Lagre e-postadressen og passordet et trygt sted."
+            "title": "Ваша пошта готова!",
+            "description": "Вітаємо! Тепер у вас є електронна адреса. Ви потрапите у свою поштову скриньку, де з'являтимуться нові листи.",
+            "tip": "Збережіть електронну адресу та пароль у безпечному місці."
           }
         ],
-        "usingEmailTitle": "Slik bruker du e-post",
-        "sendTitle": "Sende e-post",
+        "usingEmailTitle": "Як користуватися електронною поштою",
+        "sendTitle": "Надсилання листа",
         "sendSteps": [
-          "Klikk \"Skriv\" eller \"Compose\"",
-          "Skriv mottakerens e-postadresse i \"Til\"-feltet",
-          "Skriv et emne/overskrift",
-          "Skriv meldingen din",
-          "Klikk \"Send\""
+          "Натисніть \"Написати\" або \"Compose\"",
+          "Введіть електронну адресу отримувача в полі \"Кому\"",
+          "Введіть тему/заголовок",
+          "Напишіть своє повідомлення",
+          "Натисніть \"Надіслати\""
         ],
-        "replyTitle": "Svare på e-post",
+        "replyTitle": "Відповідь на лист",
         "replySteps": [
-          "Åpne e-posten du vil svare på",
-          "Klikk \"Svar\" eller \"Reply\"",
-          "Skriv svaret ditt",
-          "Klikk \"Send\""
+          "Відкрийте лист, на який хочете відповісти",
+          "Натисніть \"Відповісти\" або \"Reply\"",
+          "Напишіть свою відповідь",
+          "Натисніть \"Надіслати\""
         ],
-        "attachmentTitle": "Legge ved filer",
+        "attachmentTitle": "Прикріплення файлів",
         "attachmentSteps": [
-          "Start en ny e-post eller svar",
-          "Klikk på binders-ikonet",
-          "Velg filen fra datamaskinen",
-          "Vent til filen er lastet opp",
-          "Send e-posten som vanlig"
+          "Почніть новий лист або відповідь",
+          "Натисніть на іконку скріпки",
+          "Виберіть файл з комп'ютера",
+          "Зачекайте, поки файл завантажиться",
+          "Надішліть лист як зазвичай"
         ],
-        "spamTitle": "Hva er søppelpost (spam)?",
-        "spamText": "Søppelpost er uønsket e-post, ofte reklame eller svindelforsøk. Gmail og andre tjenester filtrerer det meste automatisk til en \"Spam\"-mappe. Sjekk aldri lenker i mistenkelige e-poster."
+        "spamTitle": "Що таке спам?",
+        "spamText": "Спам - це небажана пошта, часто реклама або спроби шахрайства. Gmail та інші сервіси автоматично фільтрують більшість у папку \"Спам\". Ніколи не натискайте на посилання в підозрілих листах."
       },
       "digipost": {
-        "title": "Bruke Digipost",
-        "description": "Motta digital post fra offentlige og private avsendere",
-        "longDescription": "Digipost er din digitale postkasse der du mottar post fra det offentlige og bedrifter. Trygt, enkelt og miljøvennlig.",
-        "backToGuides": "Tilbake til Digitale verktøy",
-        "time": "Ca. 10 minutter",
-        "difficulty": "Enkel",
-        "whatIsTitle": "Hva er Digipost?",
-        "whatIsText1": "Digipost er en sikker digital postkasse der du mottar brev fra offentlige etater (som Skatteetaten og NAV) og private bedrifter (som banken og forsikringsselskapet).",
-        "whatIsText2": "I stedet for papirpost får du alt digitalt, og det lagres trygt i flere år.",
-        "benefitsTitle": "Fordeler med Digipost",
+        "title": "Використання Digipost",
+        "description": "Отримуйте цифрову пошту від державних та приватних відправників",
+        "longDescription": "Digipost - це ваша цифрова поштова скринька, де ви отримуєте пошту від держави та компаній. Безпечно, просто та екологічно.",
+        "backToGuides": "Назад до Цифрових інструментів",
+        "time": "Близько 10 хвилин",
+        "difficulty": "Легкий",
+        "whatIsTitle": "Що таке Digipost?",
+        "whatIsText1": "Digipost - це безпечна цифрова поштова скринька, де ви отримуєте листи від державних установ (таких як Податкова служба та NAV) та приватних компаній (таких як банк та страхова компанія).",
+        "whatIsText2": "Замість паперової пошти ви отримуєте все в цифровому вигляді, і це безпечно зберігається протягом багатьох років.",
+        "benefitsTitle": "Переваги Digipost",
         "benefits": [
-          "All post samlet på ett sted",
-          "Trygg lagring i flere år",
-          "Lett å finne igjen gamle brev",
-          "Miljøvennlig - sparer papir",
-          "Får varsel når ny post kommer"
+          "Вся пошта зібрана в одному місці",
+          "Безпечне зберігання протягом багатьох років",
+          "Легко знайти старі листи",
+          "Екологічно - економить папір",
+          "Отримуєте сповіщення, коли приходить нова пошта"
         ],
-        "stepsTitle": "Slik oppretter du Digipost",
+        "stepsTitle": "Як створити Digipost",
         "steps": [
           {
-            "title": "Gå til digipost.no",
-            "description": "Åpne nettleseren og gå til digipost.no. Klikk på \"Registrer deg\" eller \"Opprett konto\"."
+            "title": "Перейдіть на digipost.no",
+            "description": "Відкрийте браузер і перейдіть на digipost.no. Натисніть \"Registrer deg\" (Зареєструватися) або \"Opprett konto\" (Створити обліковий запис)."
           },
           {
-            "title": "Logg inn med BankID",
-            "description": "Du registrerer deg med BankID. Velg BankID på mobil eller kodebrikke og følg instruksjonene.",
-            "warning": "Du må ha BankID for å bruke Digipost."
+            "title": "Увійдіть за допомогою BankID",
+            "description": "Ви реєструєтесь за допомогою BankID. Виберіть BankID на мобільному або з кодовим пристроєм та дотримуйтесь інструкцій.",
+            "warning": "Вам потрібен BankID для використання Digipost."
           },
           {
-            "title": "Bekreft opplysninger",
-            "description": "Digipost henter navn og adresse automatisk fra Folkeregisteret. Sjekk at opplysningene stemmer.",
-            "tip": "Legg til e-postadresse og mobilnummer for å få varsel om ny post."
+            "title": "Підтвердіть дані",
+            "description": "Digipost автоматично отримує ім'я та адресу з Реєстру населення. Перевірте, чи дані правильні.",
+            "tip": "Додайте електронну адресу та мобільний номер, щоб отримувати сповіщення про нову пошту."
           },
           {
-            "title": "Velg hvem som skal sende deg post",
-            "description": "Du kan velge hvilke avsendere som skal sende deg digital post. Offentlige etater er automatisk aktivert. Du kan også legge til banker, forsikringsselskaper osv.",
-            "tip": "Du kan endre dette når som helst under \"Innstillinger\"."
+            "title": "Виберіть, хто буде надсилати вам пошту",
+            "description": "Ви можете вибрати, які відправники надсилатимуть вам цифрову пошту. Державні установи активовані автоматично. Ви також можете додати банки, страхові компанії тощо.",
+            "tip": "Ви можете змінити це в будь-який час у \"Innstillinger\" (Налаштування)."
           },
           {
-            "title": "Utforsk postkassen",
-            "description": "I postkassen ser du all mottatt post. Du kan lage mapper for å organisere, og søke etter gamle brev.",
-            "tip": "Post fra det offentlige ligger ofte under \"Det offentlige\" eller i egne mapper."
+            "title": "Огляньте поштову скриньку",
+            "description": "У поштовій скриньці ви бачите всю отриману пошту. Ви можете створювати папки для організації та шукати старі листи.",
+            "tip": "Пошта від держави часто знаходиться в розділі \"Det offentlige\" (Державні) або в окремих папках."
           },
           {
-            "title": "Last ned appen (valgfritt)",
-            "description": "Du kan også bruke Digipost på mobilen. Last ned appen fra App Store eller Google Play.",
-            "tip": "Med appen får du push-varsler når ny post kommer."
+            "title": "Завантажте додаток (необов'язково)",
+            "description": "Ви також можете використовувати Digipost на мобільному. Завантажте додаток з App Store або Google Play.",
+            "tip": "З додатком ви отримуєте push-сповіщення, коли приходить нова пошта."
           }
         ],
-        "tipsTitle": "Tips for Digipost",
+        "tipsTitle": "Поради для Digipost",
         "tips": [
-          "Sjekk Digipost jevnlig - viktig post kan komme der",
-          "Bruk søkefunksjonen for å finne gamle brev",
-          "Opprett mapper for å holde orden",
-          "Last ned viktige dokumenter som sikkerhetskopi"
+          "Регулярно перевіряйте Digipost - важлива пошта може надійти туди",
+          "Використовуйте функцію пошуку, щоб знайти старі листи",
+          "Створюйте папки для порядку",
+          "Завантажуйте важливі документи як резервну копію"
         ]
       },
       "altinn": {
-        "title": "Bruke Altinn",
-        "description": "Sende skjemaer og kommunisere med det offentlige",
-        "longDescription": "Altinn er portalen der du sender skjemaer til det offentlige og finner informasjon om dine rettigheter og plikter.",
-        "backToGuides": "Tilbake til Digitale verktøy",
-        "time": "Ca. 10 minutter",
-        "difficulty": "Middels",
-        "whatIsTitle": "Hva er Altinn?",
-        "whatIsText1": "Altinn er det offentliges felles portal for digital kommunikasjon. Her kan du sende inn skjemaer, sjekke status på saker, og finne informasjon fra over 70 offentlige etater.",
-        "whatIsText2": "Du bruker Altinn for ting som skattemelding, førerkort, byggesøknad og mye mer.",
-        "commonUsesTitle": "Dette bruker du Altinn til",
+        "title": "Використання Altinn",
+        "description": "Надсилайте форми та спілкуйтеся з державою",
+        "longDescription": "Altinn - це портал, де ви надсилаєте форми до держави та знаходите інформацію про свої права та обов'язки.",
+        "backToGuides": "Назад до Цифрових інструментів",
+        "time": "Близько 10 хвилин",
+        "difficulty": "Середній",
+        "whatIsTitle": "Що таке Altinn?",
+        "whatIsText1": "Altinn - це спільний державний портал для цифрового спілкування. Тут ви можете надсилати форми, перевіряти статус справ та знаходити інформацію від понад 70 державних установ.",
+        "whatIsText2": "Ви використовуєте Altinn для таких речей, як податкова декларація, водійські права, дозвіл на будівництво та багато іншого.",
+        "commonUsesTitle": "Для чого використовується Altinn",
         "commonUses": [
-          "Sende og sjekke skattemeldingen",
-          "Registrere firma eller enkeltmannsforetak",
-          "Søke om byggetillatelse",
-          "Melde flytting",
-          "Sende a-melding (for arbeidsgivere)"
+          "Надсилання та перевірка податкової декларації",
+          "Реєстрація компанії або приватного підприємства",
+          "Подання заявки на дозвіл на будівництво",
+          "Повідомлення про переїзд",
+          "Надсилання a-melding (для роботодавців)"
         ],
-        "stepsTitle": "Slik bruker du Altinn",
+        "stepsTitle": "Як користуватися Altinn",
         "steps": [
           {
-            "title": "Gå til altinn.no",
-            "description": "Åpne nettleseren og gå til altinn.no."
+            "title": "Перейдіть на altinn.no",
+            "description": "Відкрийте браузер і перейдіть на altinn.no."
           },
           {
-            "title": "Logg inn",
-            "description": "Klikk \"Logg inn\" øverst til høyre. Velg BankID, MinID eller annen innloggingsmetode. Følg instruksjonene for å logge inn.",
-            "tip": "BankID gir tilgang til flest tjenester."
+            "title": "Увійдіть",
+            "description": "Натисніть \"Logg inn\" (Увійти) у верхньому правому куті. Виберіть BankID, MinID або інший спосіб входу. Дотримуйтесь інструкцій для входу.",
+            "tip": "BankID надає доступ до найбільшої кількості послуг."
           },
           {
-            "title": "Utforsk \"Min profil\"",
-            "description": "Etter innlogging ser du \"Min profil\" eller \"Ditt dashbord\". Her ser du meldinger, skjemaer og status på innsendte saker.",
-            "tip": "Sjekk \"Innboks\" for meldinger fra det offentlige."
+            "title": "Огляньте \"Min profil\"",
+            "description": "Після входу ви бачите \"Min profil\" (Мій профіль) або \"Ditt dashbord\" (Ваша панель). Тут ви бачите повідомлення, форми та статус надісланих справ.",
+            "tip": "Перевірте \"Innboks\" (Вхідні) для повідомлень від держави."
           },
           {
-            "title": "Finn et skjema",
-            "description": "For å finne et skjema, bruk søkefeltet eller klikk på \"Skjema og tjenester\". Skriv inn hva du leter etter, f.eks. \"skattemelding\" eller \"flyttemelding\".",
-            "tip": "Populære skjemaer ligger ofte på forsiden."
+            "title": "Знайдіть форму",
+            "description": "Щоб знайти форму, використовуйте поле пошуку або натисніть \"Skjema og tjenester\" (Форми та послуги). Введіть, що ви шукаєте, наприклад \"skattemelding\" або \"flyttemelding\".",
+            "tip": "Популярні форми часто знаходяться на головній сторінці."
           },
           {
-            "title": "Fyll ut skjemaet",
-            "description": "Åpne skjemaet og fyll ut alle feltene. Mange skjemaer har forhåndsutfylt informasjon. Sjekk at alt stemmer.",
-            "warning": "Lagre underveis hvis skjemaet er langt - du kan fortsette senere."
+            "title": "Заповніть форму",
+            "description": "Відкрийте форму та заповніть усі поля. Багато форм мають попередньо заповнену інформацію. Перевірте, чи все правильно.",
+            "warning": "Зберігайте під час роботи, якщо форма довга - ви можете продовжити пізніше."
           },
           {
-            "title": "Send inn",
-            "description": "Når skjemaet er ferdig utfylt, klikk \"Send inn\" eller \"Lever\". Du må kanskje signere med BankID.",
-            "tip": "Du får kvittering som bekreftelse. Ta vare på denne."
+            "title": "Надішліть",
+            "description": "Коли форма заповнена, натисніть \"Send inn\" (Надіслати) або \"Lever\" (Подати). Можливо, вам потрібно буде підписати за допомогою BankID.",
+            "tip": "Ви отримаєте квитанцію як підтвердження. Збережіть її."
           },
           {
-            "title": "Følg med på status",
-            "description": "I \"Mine saker\" eller \"Innboks\" kan du se status på det du har sendt inn. Du får også melding når saken er behandlet."
+            "title": "Слідкуйте за статусом",
+            "description": "У \"Mine saker\" (Мої справи) або \"Innboks\" (Вхідні) ви можете бачити статус того, що ви надіслали. Ви також отримаєте повідомлення, коли справу розглянуто."
           }
         ],
-        "tipsTitle": "Nyttige tips for Altinn",
+        "tipsTitle": "Корисні поради для Altinn",
         "tips": [
-          "Sjekk innboksen jevnlig for viktige meldinger",
-          "Bruk arkivet for å finne tidligere innsendte skjemaer",
-          "Du kan gi andre fullmakt til å handle på dine vegne",
-          "Mange kommunale tjenester krever Altinn-innlogging"
+          "Регулярно перевіряйте вхідні для важливих повідомлень",
+          "Використовуйте архів, щоб знайти раніше надіслані форми",
+          "Ви можете надати іншим довіреність діяти від вашого імені",
+          "Багато муніципальних послуг вимагають входу через Altinn"
         ]
       },
       "minside": {
-        "title": "MinSide og offentlige tjenester",
-        "description": "En oversikt over de viktigste offentlige nettjenestene",
-        "longDescription": "Det finnes flere \"Min side\"-tjenester hos ulike offentlige etater. Her får du oversikt over de viktigste.",
-        "backToGuides": "Tilbake til Digitale verktøy",
-        "time": "Ca. 10 minutter",
-        "difficulty": "Enkel",
-        "introTitle": "Hva er \"Min side\"?",
-        "introText": "\"Min side\" eller \"Min profil\" er det du ser når du logger inn hos offentlige etater. Der finner du din personlige informasjon, søknader, vedtak og meldinger.",
-        "servicesTitle": "De viktigste tjenestene",
+        "title": "MinSide та державні послуги",
+        "description": "Огляд найважливіших державних онлайн-послуг",
+        "longDescription": "Існує кілька послуг \"Min side\" у різних державних установах. Тут ви отримаєте огляд найважливіших.",
+        "backToGuides": "Назад до Цифрових інструментів",
+        "time": "Близько 10 хвилин",
+        "difficulty": "Легкий",
+        "introTitle": "Що таке \"Min side\"?",
+        "introText": "\"Min side\" (Моя сторінка) або \"Min profil\" (Мій профіль) - це те, що ви бачите, коли входите в державні установи. Там ви знаходите свою особисту інформацію, заявки, рішення та повідомлення.",
+        "servicesTitle": "Найважливіші послуги",
         "serviceNAV": "Min side NAV",
-        "serviceNAVDesc": "Søknader, vedtak, meldekort, sykepenger",
+        "serviceNAVDesc": "Заявки, рішення, картки обліку, лікарняні",
         "serviceNAVUrl": "nav.no",
         "serviceSkatt": "Min side Skatteetaten",
-        "serviceSkattDesc": "Skattemelding, skatteoppgjør, skattekort",
+        "serviceSkattDesc": "Податкова декларація, податкове рішення, податкова картка",
         "serviceSkattUrl": "skatteetaten.no",
         "serviceHelse": "Охорона здоров'я",
-        "serviceHelseDesc": "Resepter, legetime, journal, fastlege",
+        "serviceHelseDesc": "Рецепти, запис до лікаря, медична карта, сімейний лікар",
         "serviceHelseUrl": "helsenorge.no",
         "serviceAltinn": "Altinn",
-        "serviceAltinnDesc": "Skjemaer, firma, meldinger fra det offentlige",
+        "serviceAltinnDesc": "Форми, компанія, повідомлення від держави",
         "serviceAltinnUrl": "altinn.no",
         "serviceDigipost": "Digipost/e-Boks",
-        "serviceDigipostDesc": "Digital postkasse for offentlig og privat post",
+        "serviceDigipostDesc": "Цифрова поштова скринька для державної та приватної пошти",
         "serviceDigipostUrl": "digipost.no",
-        "stepsTitle": "Slik logger du inn på offentlige tjenester",
+        "stepsTitle": "Як увійти в державні послуги",
         "steps": [
           {
-            "title": "Gå til tjenestens nettside",
-            "description": "Skriv adressen direkte i nettleseren, f.eks. nav.no, skatteetaten.no eller helsenorge.no.",
-            "warning": "Klikk aldri på lenker i e-post for å logge inn - gå alltid direkte til nettsiden."
+            "title": "Перейдіть на сайт послуги",
+            "description": "Введіть адресу безпосередньо в браузері, наприклад, nav.no, skatteetaten.no або helsenorge.no.",
+            "warning": "Ніколи не натискайте на посилання в електронній пошті для входу - завжди переходьте безпосередньо на сайт."
           },
           {
-            "title": "Finn \"Logg inn\"",
-            "description": "Se etter \"Logg inn\", \"Min side\" eller lignende. Knappen er vanligvis øverst til høyre på siden."
+            "title": "Знайдіть \"Logg inn\"",
+            "description": "Шукайте \"Logg inn\" (Увійти), \"Min side\" (Моя сторінка) або подібне. Кнопка зазвичай знаходиться у верхньому правому куті сторінки."
           },
           {
-            "title": "Velg innloggingsmetode",
-            "description": "Du får velge mellom ulike innloggingsmetoder. De vanligste er BankID på mobil, BankID med kodebrikke, eller MinID.",
-            "tip": "BankID gir tilgang til flest tjenester. MinID fungerer på noen."
+            "title": "Виберіть спосіб входу",
+            "description": "Ви можете вибрати між різними способами входу. Найпоширеніші - BankID на мобільному, BankID з кодовим пристроєм або MinID.",
+            "tip": "BankID надає доступ до найбільшої кількості послуг. MinID працює з деякими."
           },
           {
-            "title": "Bekreft identiteten din",
-            "description": "Følg instruksjonene for valgt innloggingsmetode. Med BankID på mobil får du en melding du må godkjenne.",
-            "warning": "Les alltid hva du godkjenner før du bekrefter!"
+            "title": "Підтвердіть свою особу",
+            "description": "Дотримуйтесь інструкцій для обраного способу входу. З BankID на мобільному ви отримаєте повідомлення, яке потрібно підтвердити.",
+            "warning": "Завжди читайте, що ви підтверджуєте, перш ніж погоджуватися!"
           },
           {
-            "title": "Du er inne!",
-            "description": "Etter innlogging er du på \"Min side\" der du finner din personlige informasjon og tjenester.",
-            "tip": "Husk å logge ut når du er ferdig."
+            "title": "Ви всередині!",
+            "description": "Після входу ви на \"Min side\", де знаходите свою особисту інформацію та послуги.",
+            "tip": "Не забудьте вийти, коли закінчите."
           }
         ],
-        "tipsTitle": "Generelle tips",
+        "tipsTitle": "Загальні поради",
         "tips": [
-          "Bruk samme innloggingsmetode overalt for enkelhet",
-          "Sjekk innboksen jevnlig - viktige meldinger kommer dit",
-          "Oppdater kontaktinformasjonen din hvis den endres",
-          "Logg alltid ut når du bruker delt datamaskin"
+          "Використовуйте один і той самий спосіб входу скрізь для зручності",
+          "Регулярно перевіряйте вхідні - важливі повідомлення надходять туди",
+          "Оновлюйте свою контактну інформацію, якщо вона змінюється",
+          "Завжди виходьте, коли використовуєте спільний комп'ютер"
         ]
       }
     },
     "bolig": {
       "bostotte": {
-        "title": "Søke bostøtte",
-        "description": "Få økonomisk støtte til å betale husleie eller boutgifter",
-        "longDescription": "Bostøtte er en statlig støtteordning for deg med lave inntekter og høye boutgifter. Både leietakere og boligeiere kan søke.",
-        "backToGuides": "Tilbake til Bolig",
-        "time": "Ca. 20 minutter",
-        "difficulty": "Middels",
-        "whatIsTitle": "Hva er bostøtte?",
-        "whatIsText1": "Bostøtte er penger fra Husbanken som skal hjelpe deg å betale for boligen din. Det er behovsprøvd, som betyr at inntekten og boutgiftene dine avgjør om du får støtte.",
-        "whatIsText2": "Du kan få bostøtte enten du leier eller eier boligen din. Støtten utbetales hver måned direkte til kontoen din.",
-        "requirementsTitle": "Hvem kan få bostøtte?",
+        "title": "Подати заявку на житлову допомогу",
+        "description": "Отримайте фінансову підтримку для оплати оренди або житлових витрат",
+        "longDescription": "Житлова допомога - це державна програма підтримки для тих, хто має низькі доходи та високі житлові витрати. Як орендарі, так і власники житла можуть подати заявку.",
+        "backToGuides": "Назад до Житла",
+        "time": "Близько 20 хвилин",
+        "difficulty": "Середній",
+        "whatIsTitle": "Що таке житлова допомога?",
+        "whatIsText1": "Житлова допомога (bostøtte) - це гроші від Husbanken, які допомагають вам оплачувати житло. Вона залежить від потреб, що означає, що ваш дохід та житлові витрати визначають, чи отримаєте ви допомогу.",
+        "whatIsText2": "Ви можете отримати житлову допомогу незалежно від того, орендуєте чи володієте житлом. Допомога виплачується щомісяця безпосередньо на ваш рахунок.",
+        "requirementsTitle": "Хто може отримати житлову допомогу?",
         "requirements": [
-          "Du må bo i boligen du søker støtte for",
-          "Boligen må være godkjent for helårsbruk",
-          "Du må ha lovlig opphold i Norge",
-          "Inntekten din må være under en viss grense",
-          "Boutgiftene dine må være over en viss grense"
+          "Ви повинні проживати в житлі, на яке подаєте заявку",
+          "Житло повинно бути схвалене для цілорічного проживання",
+          "Ви повинні мати законне перебування в Норвегії",
+          "Ваш дохід повинен бути нижче певної межі",
+          "Ваші житлові витрати повинні бути вище певної межі"
         ],
-        "stepsTitle": "Slik søker du bostøtte",
+        "stepsTitle": "Як подати заявку на житлову допомогу",
         "steps": [
           {
-            "title": "Gå til husbanken.no",
-            "description": "Åpne nettleseren og skriv husbanken.no i adressefeltet. Trykk Enter.",
-            "tip": "Du kan også søke på Google etter \"Husbanken bostøtte\"."
+            "title": "Перейдіть на husbanken.no",
+            "description": "Відкрийте браузер і введіть husbanken.no в адресному рядку. Натисніть Enter.",
+            "tip": "Ви також можете пошукати в Google \"Husbanken bostøtte\"."
           },
           {
-            "title": "Finn søknadsskjemaet",
-            "description": "På forsiden finner du \"Bostøtte\" i menyen. Klikk på \"Søk bostøtte\" eller \"Logg inn og søk\".",
-            "tip": "Søknadsknappen er vanligvis godt synlig på forsiden."
+            "title": "Знайдіть форму заявки",
+            "description": "На головній сторінці знайдіть \"Bostøtte\" в меню. Натисніть \"Søk bostøtte\" (Подати заявку) або \"Logg inn og søk\" (Увійти і подати).",
+            "tip": "Кнопка заявки зазвичай добре видна на головній сторінці."
           },
           {
-            "title": "Logg inn med BankID",
-            "description": "Du må logge inn for å søke. Bruk BankID på mobil eller kodebrikke. Følg instruksjonene på skjermen.",
-            "warning": "Har du ikke BankID? Du kan få hjelp på kommunens servicetorg."
+            "title": "Увійдіть за допомогою BankID",
+            "description": "Вам потрібно увійти, щоб подати заявку. Використовуйте BankID на мобільному або з кодовим пристроєм. Дотримуйтесь інструкцій на екрані.",
+            "warning": "Немає BankID? Ви можете отримати допомогу в сервісному центрі муніципалітету."
           },
           {
-            "title": "Fyll ut søknaden",
-            "description": "Søknadsskjemaet henter automatisk informasjon om deg. Sjekk at alt stemmer. Fyll inn boutgiftene dine (husleie, felleskostnader osv.).",
-            "tip": "Ha husleiekontrakten eller dokumentasjon på boutgifter klar."
+            "title": "Заповніть заявку",
+            "description": "Форма заявки автоматично отримує інформацію про вас. Перевірте, чи все правильно. Введіть ваші житлові витрати (оренда, комунальні платежі тощо).",
+            "tip": "Майте під рукою договір оренди або документацію про житлові витрати."
           },
           {
-            "title": "Dokumenter boutgiftene",
-            "description": "Last opp husleiekontrakt eller annen dokumentasjon på boutgiftene dine. Ta bilde med mobilen hvis du ikke har scanner.",
-            "warning": "Uten dokumentasjon kan søknaden bli avslått."
+            "title": "Документуйте житлові витрати",
+            "description": "Завантажте договір оренди або іншу документацію про ваші житлові витрати. Зробіть фото телефоном, якщо у вас немає сканера.",
+            "warning": "Без документації заявку можуть відхилити."
           },
           {
-            "title": "Send inn søknaden",
-            "description": "Gå gjennom søknaden og sjekk at alt er riktig. Klikk \"Send inn\" når du er ferdig.",
-            "tip": "Du får bekreftelse på e-post eller i digital postkasse."
+            "title": "Надішліть заявку",
+            "description": "Перегляньте заявку та перевірте, чи все правильно. Натисніть \"Send inn\" (Надіслати), коли закінчите.",
+            "tip": "Ви отримаєте підтвердження на електронну пошту або в цифрову поштову скриньку."
           },
           {
-            "title": "Vent på svar",
-            "description": "Husbanken behandler søknaden din. Svar kommer vanligvis innen noen uker. Du kan følge med på status i søknadsportalen.",
-            "tip": "Bostøtte søkes hver måned, men du trenger ikke sende ny søknad - den fornyes automatisk."
+            "title": "Чекайте на відповідь",
+            "description": "Husbanken розглядає вашу заявку. Відповідь зазвичай приходить протягом кількох тижнів. Ви можете слідкувати за статусом на порталі заявок.",
+            "tip": "Заявку на житлову допомогу подають щомісяця, але вам не потрібно надсилати нову заявку - вона оновлюється автоматично."
           }
         ],
-        "tipsTitle": "Nyttige tips",
+        "tipsTitle": "Корисні поради",
         "tips": [
-          "Søk så tidlig som mulig i måneden - fristen er den 25. hver måned",
-          "Du får svar rundt den 10. i måneden etter",
-          "Meld fra om endringer i inntekt eller boutgifter",
-          "Du kan søke tilbake i tid hvis du glemte å søke",
-          "Kommunen kan hjelpe deg med søknaden hvis du trenger det"
+          "Подавайте заявку якомога раніше в місяці - термін 25 числа кожного місяця",
+          "Ви отримаєте відповідь приблизно 10 числа наступного місяця",
+          "Повідомляйте про зміни в доході або житлових витратах",
+          "Ви можете подати заявку заднім числом, якщо забули подати",
+          "Муніципалітет може допомогти вам із заявкою, якщо потрібно"
         ]
       },
       "startlan": {
-        "title": "Søke startlån",
-        "description": "Lån fra kommunen for de som ikke får lån i vanlig bank",
-        "longDescription": "Startlån er et lån fra kommunen til personer som har problemer med å få lån i vanlig bank. Det kan brukes til å kjøpe bolig eller refinansiere dyr gjeld.",
-        "backToGuides": "Tilbake til Bolig",
-        "time": "Ca. 25 minutter",
-        "difficulty": "Middels",
-        "whatIsTitle": "Hva er startlån?",
-        "whatIsText1": "Startlån er et lån fra kommunen din som finansieres av Husbanken. Det er ment for deg som har stabil inntekt, men ikke får lån i vanlig bank.",
-        "whatIsText2": "Startlånet kan dekke hele eller deler av kjøpesummen for en bolig. Renten er gunstig og du kan få lang nedbetalingstid.",
-        "requirementsTitle": "Hvem kan få startlån?",
+        "title": "Подати заявку на стартовий кредит",
+        "description": "Кредит від муніципалітету для тих, хто не може отримати кредит у звичайному банку",
+        "longDescription": "Стартовий кредит - це кредит від муніципалітету для людей, які мають проблеми з отриманням кредиту у звичайному банку. Він може використовуватися для купівлі житла або рефінансування дорогих боргів.",
+        "backToGuides": "Назад до Житла",
+        "time": "Близько 25 хвилин",
+        "difficulty": "Середній",
+        "whatIsTitle": "Що таке стартовий кредит?",
+        "whatIsText1": "Стартовий кредит - це кредит від вашого муніципалітету, який фінансується Husbanken. Він призначений для тих, хто має стабільний дохід, але не може отримати кредит у звичайному банку.",
+        "whatIsText2": "Стартовий кредит може покрити всю або частину вартості житла. Відсоткова ставка вигідна, і ви можете отримати довгий термін погашення.",
+        "requirementsTitle": "Хто може отримати стартовий кредит?",
         "requirements": [
-          "Du må ha langvarige problemer med å få lån i vanlig bank",
-          "Du må ha evne til å betjene lånet over tid",
-          "Du må ha behov for bolig (førstegangskjøpere, barnefamilier, enslige forsørgere)",
-          "Du må kunne dokumentere inntekten din",
-          "Du må ha prøvd å få lån i vanlig bank først"
+          "У вас повинні бути тривалі проблеми з отриманням кредиту у звичайному банку",
+          "Ви повинні мати можливість обслуговувати кредит з часом",
+          "У вас повинна бути потреба в житлі (перші покупці, сім'ї з дітьми, одинокі батьки)",
+          "Ви повинні мати можливість документувати свій дохід",
+          "Ви повинні спочатку спробувати отримати кредит у звичайному банку"
         ],
-        "stepsTitle": "Slik søker du startlån",
+        "stepsTitle": "Як подати заявку на стартовий кредит",
         "steps": [
           {
-            "title": "Undersøk om du kan få lån i bank",
-            "description": "Kontakt en bank og spør om de kan gi deg boliglån. Hvis de sier nei, be om en skriftlig bekreftelse på avslaget.",
-            "tip": "Avslaget fra banken er viktig dokumentasjon i søknaden din."
+            "title": "Дізнайтеся, чи можете отримати кредит у банку",
+            "description": "Зверніться до банку та запитайте, чи можуть вони надати вам житловий кредит. Якщо вони відмовлять, попросіть письмове підтвердження відмови.",
+            "tip": "Відмова від банку є важливою документацією у вашій заявці."
           },
           {
-            "title": "Finn kommunens søknadsskjema",
-            "description": "Gå til din kommunes nettside og søk etter \"startlån\". De fleste kommuner har elektronisk søknadsskjema.",
-            "tip": "Mange kommuner bruker husbanken.no eller altinn.no for søknader."
+            "title": "Знайдіть форму заявки муніципалітету",
+            "description": "Перейдіть на сайт вашого муніципалітету та знайдіть \"startlån\". Більшість муніципалітетів мають електронну форму заявки.",
+            "tip": "Багато муніципалітетів використовують husbanken.no або altinn.no для заявок."
           },
           {
-            "title": "Logg inn og start søknaden",
-            "description": "Logg inn med BankID. Fyll ut informasjon om deg selv, din økonomi og hvilken type bolig du søker lån til.",
-            "warning": "Vær ærlig om økonomien din - kommunen sjekker opplysningene."
+            "title": "Увійдіть та почніть заявку",
+            "description": "Увійдіть за допомогою BankID. Заповніть інформацію про себе, свою економічну ситуацію та який тип житла ви шукаєте.",
+            "warning": "Будьте чесними щодо своїх фінансів - муніципалітет перевірить інформацію."
           },
           {
-            "title": "Dokumenter økonomien din",
-            "description": "Last opp siste lønnsslipp, skattemelding, avslag fra bank, og eventuell dokumentasjon på gjeld.",
-            "tip": "Jo bedre dokumentasjon, jo raskere behandling."
+            "title": "Документи про фінанси",
+            "description": "Завантажте останню платіжну відомість, податкову декларацію, відмову від банку та будь-яку документацію про борги.",
+            "tip": "Чим краща документація, тим швидша обробка."
           },
           {
-            "title": "Beskriv boligbehovet",
-            "description": "Forklar hvorfor du trenger bolig og hvilken type bolig du ser etter. Hvis du har funnet en bolig, legg ved informasjon om den.",
-            "tip": "Kommunen vurderer om boligen er egnet for deg og din økonomi."
+            "title": "Опишіть потребу в житлі",
+            "description": "Поясніть, чому вам потрібне житло та який тип житла ви шукаєте. Якщо ви знайшли житло, додайте інформацію про нього.",
+            "tip": "Муніципалітет оцінить, чи підходить житло для вас та вашої економіки."
           },
           {
-            "title": "Send inn søknaden",
-            "description": "Gå gjennom all informasjonen og klikk \"Send inn\". Du får bekreftelse på at søknaden er mottatt.",
-            "tip": "Ta vare på kvitteringen og eventuelle referansenummer."
+            "title": "Надішліть заявку",
+            "description": "Перегляньте всю інформацію та натисніть \"Надіслати\". Ви отримаєте підтвердження про отримання заявки.",
+            "tip": "Збережіть квитанцію та будь-які референсні номери."
           },
           {
-            "title": "Vent på svar",
-            "description": "Kommunen behandler søknaden din. Dette kan ta flere uker. De kan kontakte deg for mer informasjon.",
-            "warning": "Behandlingstiden varierer fra kommune til kommune."
+            "title": "Чекайте на відповідь",
+            "description": "Муніципалітет обробляє вашу заявку. Це може зайняти кілька тижнів. Вони можуть зв'язатися з вами для отримання додаткової інформації.",
+            "warning": "Час обробки варіюється від муніципалітету до муніципалітету."
           }
         ],
-        "tipsTitle": "Nyttige tips",
+        "tipsTitle": "Корисні поради",
         "tips": [
-          "Start prosessen tidlig - behandlingstiden kan være lang",
-          "Vær realistisk om hva du har råd til",
-          "Du kan få startlån sammen med tilskudd i noen tilfeller",
-          "Kommunen kan hjelpe deg med å finne egnet bolig",
-          "Du kan søke om betalingsutsettelse hvis økonomien endrer seg"
+          "Почніть процес завчасно - час обробки може бути довгим",
+          "Будьте реалістичними щодо того, що ви можете собі дозволити",
+          "У деяких випадках ви можете отримати стартовий кредит разом з дотацією",
+          "Муніципалітет може допомогти вам знайти відповідне житло",
+          "Ви можете подати заявку на відстрочку платежу, якщо ваша економічна ситуація зміниться"
         ]
       },
       "kommunalBolig": {
-        "title": "Søke kommunal bolig",
-        "description": "Leie bolig fra kommunen hvis du ikke klarer å skaffe bolig selv",
-        "longDescription": "Kommunal bolig er et tilbud til personer som ikke klarer å skaffe seg bolig på egen hånd. Kommunen eier boligene og leier dem ut til redusert pris.",
-        "backToGuides": "Tilbake til Bolig",
-        "time": "Ca. 20 minutter",
-        "difficulty": "Middels",
-        "whatIsTitle": "Hva er kommunal bolig?",
-        "whatIsText1": "Kommunale boliger er boliger som kommunen eier og leier ut til personer som trenger hjelp til å skaffe bolig. Husleien er ofte lavere enn på det private markedet.",
-        "whatIsText2": "Det er begrenset antall kommunale boliger, så det kan være venteliste. Kommunen prioriterer de som har størst behov.",
-        "requirementsTitle": "Hvem kan få kommunal bolig?",
+        "title": "Подати заявку на муніципальне житло",
+        "description": "Орендувати житло у муніципалітету, якщо ви не можете знайти житло самостійно",
+        "longDescription": "Муніципальне житло - це пропозиція для людей, які не можуть знайти житло самостійно. Муніципалітет володіє житлом і здає його за зниженою ціною.",
+        "backToGuides": "Повернутися до Житла",
+        "time": "Прибл. 20 хвилин",
+        "difficulty": "Середньо",
+        "whatIsTitle": "Що таке муніципальне житло?",
+        "whatIsText1": "Муніципальне житло - це житло, яким володіє муніципалітет і здає в оренду людям, яким потрібна допомога у пошуку житла. Орендна плата часто нижча, ніж на приватному ринку.",
+        "whatIsText2": "Кількість муніципальних квартир обмежена, тому може бути черга. Муніципалітет надає пріоритет тим, хто найбільше потребує.",
+        "requirementsTitle": "Хто може отримати муніципальне житло?",
         "requirements": [
-          "Du må være uten bolig eller stå i fare for å miste boligen din",
-          "Du må ha prøvd å skaffe bolig selv uten å lykkes",
-          "Du må ha lovlig opphold i Norge",
-          "Du må som regel ha bodd i kommunen en viss tid",
-          "Økonomiske, sosiale eller helsemessige forhold gjør det vanskelig å skaffe bolig"
+          "Ви повинні бути без житла або ризикувати втратити своє житло",
+          "Ви повинні були спробувати знайти житло самостійно без успіху",
+          "Ви повинні мати законне право перебування в Норвегії",
+          "Як правило, ви повинні прожити в муніципалітеті певний час",
+          "Економічні, соціальні або медичні обставини ускладнюють пошук житла"
         ],
-        "stepsTitle": "Slik søker du kommunal bolig",
+        "stepsTitle": "Як подати заявку на муніципальне житло",
         "steps": [
           {
-            "title": "Finn kommunens søknadsskjema",
-            "description": "Gå til din kommunes nettside. Søk etter \"kommunal bolig\" eller \"bolig\". Finn søknadsskjemaet.",
-            "tip": "Du kan også ringe kommunens servicetorg for hjelp."
+            "title": "Знайдіть форму заявки муніципалітету",
+            "description": "Перейдіть на сайт вашого муніципалітету. Шукайте \"kommunal bolig\" або \"bolig\". Знайдіть форму заявки.",
+            "tip": "Ви також можете зателефонувати до служби обслуговування муніципалітету за допомогою."
           },
           {
-            "title": "Samle dokumentasjon",
-            "description": "Du trenger dokumentasjon på inntekt, eventuell gjeld, og hvorfor du trenger kommunal bolig. Samle dette før du starter søknaden.",
-            "tip": "Legeerklæring eller uttalelse fra NAV kan styrke søknaden."
+            "title": "Зберіть документацію",
+            "description": "Вам потрібна документація про доходи, можливі борги та причину, чому вам потрібне муніципальне житло. Зберіть це перед початком заявки.",
+            "tip": "Медична довідка або заява від NAV можуть підсилити заявку."
           },
           {
-            "title": "Fyll ut søknaden",
-            "description": "Fyll ut alle feltene i søknadsskjemaet. Beskriv situasjonen din så godt du kan.",
-            "warning": "Ufullstendig søknad kan forsinke behandlingen."
+            "title": "Заповніть заявку",
+            "description": "Заповніть усі поля у формі заявки. Опишіть свою ситуацію якомога детальніше.",
+            "warning": "Неповна заявка може затримати обробку."
           },
           {
-            "title": "Beskriv boligbehovet",
-            "description": "Forklar hva slags bolig du trenger (antall rom, beliggenhet, tilgjengelighet). Beskriv eventuelle spesielle behov.",
-            "tip": "Hvis du har barn, oppgi alder og eventuelt samvær."
+            "title": "Опишіть потребу в житлі",
+            "description": "Поясніть, яке житло вам потрібно (кількість кімнат, розташування, доступність). Опишіть будь-які особливі потреби.",
+            "tip": "Якщо у вас є діти, вкажіть вік та можливе спільне проживання."
           },
           {
-            "title": "Last opp dokumentasjon",
-            "description": "Last opp alle dokumentene som støtter søknaden din. Jo mer dokumentasjon, jo lettere er det for kommunen å vurdere søknaden.",
-            "warning": "Manglende dokumentasjon kan føre til avslag."
+            "title": "Завантажте документацію",
+            "description": "Завантажте всі документи, які підтверджують вашу заявку. Чим більше документації, тим легше муніципалітету оцінити заявку.",
+            "warning": "Відсутність документації може призвести до відмови."
           },
           {
-            "title": "Send inn søknaden",
-            "description": "Kontroller at alt er fylt ut og send inn søknaden. Du får bekreftelse på at den er mottatt.",
-            "tip": "Noter deg datoen du sendte inn søknaden."
+            "title": "Надішліть заявку",
+            "description": "Перевірте, що все заповнено, і надішліть заявку. Ви отримаєте підтвердження про отримання.",
+            "tip": "Запишіть дату, коли ви надіслали заявку."
           },
           {
-            "title": "Vent på svar",
-            "description": "Kommunen behandler søknaden. Behandlingstiden varierer. Du kan bli innkalt til samtale.",
-            "tip": "Du kan kontakte kommunen for å høre om status på søknaden."
+            "title": "Чекайте на відповідь",
+            "description": "Муніципалітет обробляє заявку. Час обробки варіюється. Вас можуть запросити на співбесіду.",
+            "tip": "Ви можете зв'язатися з муніципалітетом, щоб дізнатися статус заявки."
           }
         ],
-        "tipsTitle": "Nyttige tips",
+        "tipsTitle": "Корисні поради",
         "tips": [
-          "Søk så tidlig som mulig - det kan være lang ventetid",
-          "Hold kommunen oppdatert hvis situasjonen din endrer seg",
-          "Du kan klage på avslag til kommunens klagenemnd",
-          "NAV kan hjelpe med midlertidig bolig mens du venter",
-          "Du kan søke bostøtte for å få hjelp til husleien"
+          "Подавайте заявку якомога раніше - може бути довга черга",
+          "Повідомляйте муніципалітет, якщо ваша ситуація зміниться",
+          "Ви можете оскаржити відмову до комісії зі скарг муніципалітету",
+          "NAV може допомогти з тимчасовим житлом, поки ви чекаєте",
+          "Ви можете подати заявку на житлову допомогу для допомоги з орендою"
         ]
       }
     },
     "utdanning": {
       "studielan": {
-        "title": "Søke studielån",
-        "description": "Lån og stipend fra Lånekassen til utdanning",
-        "longDescription": "Lånekassen gir lån og stipend til studenter. Her lærer du hvordan du søker og hva du trenger.",
-        "backToGuides": "Tilbake til Utdanning",
-        "time": "Ca. 20 minutter",
-        "difficulty": "Middels",
-        "whatIsTitle": "Hva er studielån?",
-        "whatIsText1": "Studielån er penger du låner fra Lånekassen for å dekke utgifter mens du studerer. Du betaler tilbake etter at du er ferdig med utdanningen.",
-        "whatIsText2": "Deler av lånet kan bli omgjort til stipend hvis du fullfører utdanningen og ikke tjener over en viss grense.",
-        "requirementsTitle": "Hvem kan få studielån?",
+        "title": "Подати заявку на студентський кредит",
+        "description": "Кредит та стипендія від Lånekassen для навчання",
+        "longDescription": "Lånekassen надає кредити та стипендії студентам. Тут ви дізнаєтеся, як подати заявку та що вам потрібно.",
+        "backToGuides": "Повернутися до Освіти",
+        "time": "Прибл. 20 хвилин",
+        "difficulty": "Середньо",
+        "whatIsTitle": "Що таке студентський кредит?",
+        "whatIsText1": "Студентський кредит - це гроші, які ви позичаєте у Lånekassen для покриття витрат під час навчання. Ви повертаєте їх після завершення освіти.",
+        "whatIsText2": "Частина кредиту може бути перетворена на стипендію, якщо ви завершите освіту і не заробляєте вище певної межі.",
+        "requirementsTitle": "Хто може отримати студентський кредит?",
         "requirements": [
-          "Du må være tatt opp på en godkjent utdanning",
-          "Du må være registrert som student",
-          "Du må ta studiepoeng/være aktiv student",
-          "Du må ha gyldig oppholdstillatelse i Norge (hvis ikke norsk statsborger)"
+          "Ви повинні бути зараховані на затверджену освітню програму",
+          "Ви повинні бути зареєстровані як студент",
+          "Ви повинні набирати кредити/бути активним студентом",
+          "Ви повинні мати дійсний дозвіл на проживання в Норвегії (якщо не громадянин Норвегії)"
         ],
-        "stepsTitle": "Slik søker du studielån",
+        "stepsTitle": "Як подати заявку на студентський кредит",
         "steps": [
           {
-            "title": "Gå til lanekassen.no",
-            "description": "Åpne nettleseren og skriv lanekassen.no. Klikk på \"Logg inn\" øverst til høyre.",
-            "tip": "Du kan også søke på Google etter \"Lånekassen søk lån\"."
+            "title": "Перейдіть на lanekassen.no",
+            "description": "Відкрийте браузер і введіть lanekassen.no. Натисніть \"Logg inn\" у верхньому правому куті.",
+            "tip": "Ви також можете пошукати в Google \"Lånekassen søk lån\"."
           },
           {
-            "title": "Logg inn med BankID",
-            "description": "Velg BankID på mobil eller kodebrikke. Følg instruksjonene for å logge inn.",
-            "warning": "Har du ikke BankID? Du kan bestille det på banken din."
+            "title": "Увійдіть за допомогою BankID",
+            "description": "Виберіть BankID на мобільному або кодовий пристрій. Дотримуйтесь інструкцій для входу.",
+            "warning": "Немає BankID? Ви можете замовити його у своєму банку."
           },
           {
-            "title": "Finn søknadsskjemaet",
-            "description": "Etter innlogging, klikk på \"Søk om lån og stipend\" eller \"Søknad\". Velg riktig studieår.",
-            "tip": "Søknaden åpner vanligvis i midten av mars for høstsemesteret."
+            "title": "Знайдіть форму заявки",
+            "description": "Після входу натисніть \"Søk om lån og stipend\" або \"Søknad\". Виберіть правильний навчальний рік.",
+            "tip": "Заявка зазвичай відкривається в середині березня для осіннього семестру."
           },
           {
-            "title": "Velg utdanning",
-            "description": "Søk opp skolen og utdanningen din. Systemet viser hva du kan få i lån og stipend basert på utdanningen.",
-            "tip": "Hvis utdanningen ikke dukker opp, sjekk at du har valgt riktig studieår."
+            "title": "Виберіть освіту",
+            "description": "Знайдіть свою школу та освітню програму. Система покаже, скільки ви можете отримати кредиту та стипендії на основі освіти.",
+            "tip": "Якщо освіта не відображається, перевірте, чи вибрали правильний навчальний рік."
           },
           {
-            "title": "Fyll ut personopplysninger",
-            "description": "Sjekk at kontaktinformasjonen din stemmer. Oppgi kontonummer for utbetaling.",
-            "warning": "Feil kontonummer betyr forsinket utbetaling!"
+            "title": "Заповніть особисті дані",
+            "description": "Перевірте, чи правильна ваша контактна інформація. Вкажіть номер рахунку для виплати.",
+            "warning": "Неправильний номер рахунку означає затримку виплати!"
           },
           {
-            "title": "Velg hvor mye du vil låne",
-            "description": "Du kan velge å låne hele beløpet eller mindre. Sjekk hva som kan bli stipend.",
-            "tip": "Lån bare det du trenger - du skal betale det tilbake senere."
+            "title": "Виберіть, скільки хочете позичити",
+            "description": "Ви можете вибрати позичити всю суму або менше. Перевірте, що може стати стипендією.",
+            "tip": "Позичайте тільки те, що вам потрібно - це потрібно буде повернути пізніше."
           },
           {
-            "title": "Send inn søknaden",
-            "description": "Gå gjennom søknaden og klikk \"Send inn\". Du får bekreftelse på e-post.",
-            "tip": "Du kan følge status i \"Min side\" på Lånekassen."
+            "title": "Надішліть заявку",
+            "description": "Перегляньте заявку та натисніть \"Send inn\". Ви отримаєте підтвердження електронною поштою.",
+            "tip": "Ви можете слідкувати за статусом у \"Min side\" на Lånekassen."
           }
         ],
-        "tipsTitle": "Nyttige tips",
+        "tipsTitle": "Корисні поради",
         "tips": [
-          "Søk i god tid før semesterstart",
-          "Meld fra om endringer (f.eks. avbrutt studie, jobb ved siden av)",
-          "Sjekk frister for omgjøring til stipend",
-          "Du kan søke om reisestøtte hvis du studerer langt hjemmefra",
-          "Bor du sammen med andre studenter kan du dele boutgifter"
+          "Подавайте заявку завчасно до початку семестру",
+          "Повідомляйте про зміни (напр., перерване навчання, робота поруч)",
+          "Перевіряйте терміни для перетворення на стипендію",
+          "Ви можете подати заявку на підтримку подорожей, якщо навчаєтеся далеко від дому",
+          "Якщо живете з іншими студентами, можете ділити витрати на житло"
         ]
       },
       "stipend": {
-        "title": "Søke stipend",
-        "description": "Få deler av lånet omgjort til stipend",
-        "longDescription": "Lånekassen kan gjøre om deler av lånet ditt til stipend. Her lærer du hvordan det fungerer.",
-        "backToGuides": "Tilbake til Utdanning",
-        "time": "Ca. 15 minutter",
-        "difficulty": "Enkel",
-        "whatIsTitle": "Hva er stipend?",
-        "whatIsText1": "Stipend er penger du får som du ikke trenger å betale tilbake. Lånekassen gir først lån, som kan bli stipend hvis du oppfyller kravene.",
-        "whatIsText2": "Omgjøring til stipend skjer automatisk hvis du fullfører studiepoeng og ikke tjener for mye.",
-        "requirementsTitle": "Krav for å få stipend",
+        "title": "Подати заявку на стипендію",
+        "description": "Перетворення частини кредиту на стипендію",
+        "longDescription": "Lånekassen може перетворити частину вашого кредиту на стипендію. Тут ви дізнаєтеся, як це працює.",
+        "backToGuides": "Повернутися до Освіти",
+        "time": "Прибл. 15 хвилин",
+        "difficulty": "Легко",
+        "whatIsTitle": "Що таке стипендія?",
+        "whatIsText1": "Стипендія - це гроші, які ви отримуєте і не повинні повертати. Lånekassen спочатку надає кредит, який може стати стипендією, якщо ви відповідаєте вимогам.",
+        "whatIsText2": "Перетворення на стипендію відбувається автоматично, якщо ви набираєте кредити і не заробляєте занадто багато.",
+        "requirementsTitle": "Вимоги для отримання стипендії",
         "requirements": [
-          "Du må fullføre studiepoengene du har fått støtte til",
-          "Du må ikke tjene over inntektsgrensen",
-          "Du må ikke ha for mye formue",
-          "Utdanningen må være godkjent av Lånekassen"
+          "Ви повинні завершити кредити, на які отримали підтримку",
+          "Ви не повинні заробляти вище межі доходу",
+          "Ви не повинні мати занадто багато активів",
+          "Освіта повинна бути затверджена Lånekassen"
         ],
-        "stepsTitle": "Slik fungerer stipend",
+        "stepsTitle": "Як працює стипендія",
         "steps": [
           {
-            "title": "Søk lån som vanlig",
-            "description": "Du søker først om lån og stipend. Pengene utbetales som lån i første omgang.",
-            "tip": "Det er samme søknad for lån og stipend."
+            "title": "Подайте заявку на кредит як зазвичай",
+            "description": "Спочатку ви подаєте заявку на кредит та стипендію. Гроші виплачуються як кредит спочатку.",
+            "tip": "Це та сама заявка для кредиту та стипендії."
           },
           {
-            "title": "Fullfør studiepoengene",
-            "description": "Ta eksamen og bestå fagene du har fått støtte til. Lånekassen sjekker automatisk med skolen.",
-            "warning": "Hvis du ikke består, forblir lånet et lån."
+            "title": "Завершіть кредити",
+            "description": "Складіть іспити та здайте предмети, на які отримали підтримку. Lånekassen автоматично перевіряє зі школою.",
+            "warning": "Якщо ви не здасте, кредит залишається кредитом."
           },
           {
-            "title": "Hold deg under inntektsgrensen",
-            "description": "Du kan jobbe ved siden av studiene, men ikke tjene over grensen. Sjekk gjeldende grenser på lanekassen.no.",
-            "tip": "Grensen er ca. 200 000 kr per år (sjekk oppdatert beløp)."
+            "title": "Залишайтеся під межею доходу",
+            "description": "Ви можете працювати поруч з навчанням, але не заробляти вище межі. Перевірте поточні межі на lanekassen.no.",
+            "tip": "Межа становить прибл. 200 000 крон на рік (перевірте актуальну суму)."
           },
           {
-            "title": "Omgjøring skjer automatisk",
-            "description": "Når Lånekassen har fått resultatene dine, omgjør de automatisk lånet til stipend.",
-            "tip": "Du kan se status på \"Min side\" hos Lånekassen."
+            "title": "Перетворення відбувається автоматично",
+            "description": "Коли Lånekassen отримає ваші результати, вони автоматично перетворюють кредит на стипендію.",
+            "tip": "Ви можете перевірити статус у \"Min side\" у Lånekassen."
           },
           {
-            "title": "Sjekk resultatet",
-            "description": "Logg inn på lanekassen.no og se hvor mye som er omgjort. Du får også melding i innboksen.",
-            "warning": "Hvis noe er feil, ta kontakt med Lånekassen så snart som mulig."
+            "title": "Перевірте результат",
+            "description": "Увійдіть на lanekassen.no і подивіться, скільки було перетворено. Ви також отримаєте повідомлення у вхідних.",
+            "warning": "Якщо щось не так, зв'яжіться з Lånekassen якомога швидше."
           }
         ],
-        "tipsTitle": "Nyttige tips",
+        "tipsTitle": "Корисні поради",
         "tips": [
-          "Omgjøring skjer året etter at du har tatt eksamen",
-          "Tjener du for mye ett år, kan du søke om unntak ved spesielle forhold",
-          "Bostipend kan du få uansett inntekt hvis du bor borte fra foreldrene",
-          "Fullfører du på normert tid, kan du få sluttlån omgjort til stipend"
+          "Перетворення відбувається через рік після складання іспиту",
+          "Якщо заробили занадто багато за рік, можете подати заявку на виняток за особливих обставин",
+          "Стипендію на житло можна отримати незалежно від доходу, якщо живете окремо від батьків",
+          "Якщо завершите вчасно, кінцевий кредит може бути перетворений на стипендію"
         ]
       },
       "tilbakebetaling": {
-        "title": "Tilbakebetaling av studielån",
-        "description": "Betale tilbake studielån og søke om utsettelse",
-        "longDescription": "Når du er ferdig med utdanningen, skal lånet betales tilbake. Her lærer du hvordan det fungerer og hva du kan gjøre hvis du sliter.",
-        "backToGuides": "Tilbake til Utdanning",
-        "time": "Ca. 15 minutter",
-        "difficulty": "Middels",
-        "whatIsTitle": "Slik fungerer tilbakebetaling",
-        "whatIsText1": "Du begynner å betale tilbake studielånet ca. 7 måneder etter at du er ferdig med utdanningen. Du får brev fra Lånekassen med betalingsplan.",
-        "whatIsText2": "Lånet betales vanligvis over 20 år med faste månedlige beløp. Du kan velge å betale raskere eller søke om utsettelse.",
-        "optionsTitle": "Dine muligheter",
+        "title": "Повернення студентського кредиту",
+        "description": "Повернення студентського кредиту та подання заявки на відстрочку",
+        "longDescription": "Коли ви завершите освіту, кредит потрібно повернути. Тут ви дізнаєтеся, як це працює і що робити, якщо маєте труднощі.",
+        "backToGuides": "Повернутися до Освіти",
+        "time": "Прибл. 15 хвилин",
+        "difficulty": "Середньо",
+        "whatIsTitle": "Як працює повернення",
+        "whatIsText1": "Ви починаєте повертати студентський кредит приблизно через 7 місяців після завершення освіти. Ви отримаєте лист від Lånekassen з планом платежів.",
+        "whatIsText2": "Кредит зазвичай виплачується протягом 20 років фіксованими щомісячними сумами. Ви можете вибрати платити швидше або подати заявку на відстрочку.",
+        "optionsTitle": "Ваші можливості",
         "options": [
-          "Automatisk betaling (AvtaleGiro) - enklest",
-          "Manuell betaling via nettbank",
-          "Søk om betalingsutsettelse hvis du sliter",
-          "Søk om rentefritak ved lav inntekt"
+          "Автоматичний платіж (AvtaleGiro) - найпростіше",
+          "Ручний платіж через інтернет-банк",
+          "Подати заявку на відстрочку платежу, якщо маєте труднощі",
+          "Подати заявку на звільнення від відсотків при низькому доході"
         ],
-        "stepsTitle": "Slik betaler du tilbake",
+        "stepsTitle": "Як повертати кредит",
         "steps": [
           {
-            "title": "Vent på faktura",
-            "description": "Ca. 7 måneder etter endt utdanning får du første faktura. Den kommer i Digipost eller som brev.",
-            "tip": "Sjekk at Lånekassen har riktig adresse og e-post."
+            "title": "Чекайте на рахунок",
+            "description": "Приблизно через 7 місяців після закінчення освіти ви отримаєте перший рахунок. Він надходить у Digipost або як лист.",
+            "tip": "Перевірте, чи у Lånekassen правильна адреса та електронна пошта."
           },
           {
-            "title": "Sett opp AvtaleGiro",
-            "description": "Logg inn på lanekassen.no og velg \"Betaling\". Sett opp AvtaleGiro for automatisk betaling.",
-            "tip": "Med AvtaleGiro slipper du å huske å betale hver måned."
+            "title": "Налаштуйте AvtaleGiro",
+            "description": "Увійдіть на lanekassen.no і виберіть \"Betaling\". Налаштуйте AvtaleGiro для автоматичної оплати.",
+            "tip": "З AvtaleGiro вам не потрібно пам'ятати платити щомісяця."
           },
           {
-            "title": "Sjekk betalingsplanen",
-            "description": "Se hvor mye du skal betale og hvor lenge. Du kan endre nedbetalingstiden hvis du ønsker.",
-            "warning": "Lengre nedbetalingstid = mer i renter totalt."
+            "title": "Перевірте план платежів",
+            "description": "Подивіться, скільки потрібно платити і як довго. Ви можете змінити термін погашення, якщо хочете.",
+            "warning": "Довший термін погашення = більше відсотків загалом."
           },
           {
-            "title": "Betal i tide",
-            "description": "Betal fakturaen innen forfall. Hvis du ikke betaler, påløper forsinkelsesrenter og gebyrer.",
-            "warning": "Manglende betaling kan føre til inkasso."
+            "title": "Платіть вчасно",
+            "description": "Оплатіть рахунок до терміну. Якщо не платите, нараховуються пеня та збори.",
+            "warning": "Несплата може призвести до стягнення боргу колекторами."
           },
           {
-            "title": "Søk utsettelse hvis nødvendig",
-            "description": "Har du dårlig råd? Logg inn og søk om betalingsutsettelse. Du kan få inntil 36 måneder utsettelse.",
-            "tip": "Søk FØR forfallsdatoen for å unngå gebyrer."
+            "title": "Подайте заявку на відстрочення, якщо потрібно",
+            "description": "Фінансові труднощі? Увійдіть і подайте заявку на відстрочення платежу. Ви можете отримати до 36 місяців відстрочення.",
+            "tip": "Подайте заявку ДО терміну оплати, щоб уникнути штрафів."
           }
         ],
-        "tipsTitle": "Nyttige tips",
+        "tipsTitle": "Корисні поради",
         "tips": [
-          "Du kan få rentefritak hvis du tjener under en viss grense",
-          "Ved arbeidsledighet eller sykdom kan du søke om utsettelse",
-          "Du kan betale ned ekstra når du har råd",
-          "Lånekassen sender påminnelser før forfall - sjekk innboksen",
-          "Ta kontakt med Lånekassen tidlig hvis du sliter med betalingen"
+          "Ви можете отримати звільнення від відсотків, якщо заробляєте нижче певної межі",
+          "При безробітті або хворобі ви можете подати заявку на відстрочення",
+          "Ви можете платити більше, коли маєте можливість",
+          "Lånekassen надсилає нагадування перед терміном оплати - перевіряйте пошту",
+          "Зверніться до Lånekassen завчасно, якщо у вас труднощі з оплатою"
         ]
       }
     },
     "id": {
       "pass": {
-        "title": "Bestille pass",
-        "description": "Slik bestiller du nytt eller fornyer passet ditt",
-        "longDescription": "Pass er et viktig ID-dokument. Her lærer du hvordan du bestiller nytt pass eller fornyer det gamle.",
-        "backToGuides": "Tilbake til ID og dokumenter",
-        "time": "Ca. 15 minutter",
-        "difficulty": "Enkel",
-        "whatIsTitle": "Om pass",
-        "whatIsText1": "Pass er et reisedokument som bekrefter identiteten din. Du trenger pass for å reise til land utenfor Norden.",
-        "whatIsText2": "Norsk pass er gyldig i 10 år for voksne og 5 år for barn under 16 år.",
-        "requirementsTitle": "Dette trenger du",
+        "title": "Замовити паспорт",
+        "description": "Як замовити новий паспорт або поновити існуючий",
+        "longDescription": "Паспорт є важливим документом, що посвідчує особу. Тут ви дізнаєтесь, як замовити новий паспорт або поновити старий.",
+        "backToGuides": "Назад до ID та документів",
+        "time": "Прибл. 15 хвилин",
+        "difficulty": "Легко",
+        "whatIsTitle": "Про паспорт",
+        "whatIsText1": "Паспорт - це проїзний документ, що підтверджує вашу особу. Паспорт потрібен для подорожей до країн за межами Північних країн.",
+        "whatIsText2": "Норвезький паспорт дійсний 10 років для дорослих і 5 років для дітей до 16 років.",
+        "requirementsTitle": "Що вам потрібно",
         "requirements": [
-          "Gyldig legitimasjon (gammelt pass, førerkort eller bankkort med bilde)",
-          "Betaling (ca. 570 kr for voksne, 270 kr for barn)",
-          "Timebestilling hos politiet",
-          "Gammelt pass (hvis du har)"
+          "Дійсне посвідчення особи (старий паспорт, водійські права або банківська картка з фото)",
+          "Оплата (прибл. 570 крон для дорослих, 270 крон для дітей)",
+          "Запис на прийом до поліції",
+          "Старий паспорт (якщо є)"
         ],
-        "stepsTitle": "Slik bestiller du pass",
+        "stepsTitle": "Як замовити паспорт",
         "steps": [
           {
-            "title": "Bestill time hos politiet",
-            "description": "Gå til politiet.no og velg \"Bestill time\". Velg \"Pass\" og finn ledig time på nærmeste passkontor.",
-            "tip": "I ferietiden kan det være lang ventetid - bestill i god tid!"
+            "title": "Запишіться на прийом до поліції",
+            "description": "Перейдіть на politiet.no та виберіть \"Bestill time\" (Записатися на прийом). Виберіть \"Pass\" (Паспорт) і знайдіть вільний час у найближчому паспортному відділі.",
+            "tip": "Під час відпусток черги можуть бути довгими - записуйтесь заздалегідь!"
           },
           {
-            "title": "Møt opp på avtalt tid",
-            "description": "Ta med gyldig legitimasjon og gammelt pass. Politiet tar nytt bilde og fingeravtrykk.",
-            "warning": "Kommer du for sent, mister du timen og må bestille ny."
+            "title": "Прийдіть у призначений час",
+            "description": "Візьміть з собою дійсне посвідчення особи та старий паспорт. Поліція зробить нове фото та зніме відбитки пальців.",
+            "warning": "Якщо запізнитесь, втратите запис і доведеться записуватись знову."
           },
           {
-            "title": "Betal for passet",
-            "description": "Du betaler med kort på passkontoret. Prisen er ca. 570 kr for voksne.",
-            "tip": "Sjekk oppdaterte priser på politiet.no."
+            "title": "Оплатіть паспорт",
+            "description": "Ви оплачуєте карткою в паспортному відділі. Вартість прибл. 570 крон для дорослих.",
+            "tip": "Перевірте актуальні ціни на politiet.no."
           },
           {
-            "title": "Vent på passet",
-            "description": "Passet sendes hjem til deg i posten. Det tar vanligvis 10-14 dager.",
-            "tip": "Du kan spore sendingen på politiet.no med referansenummeret ditt."
+            "title": "Очікуйте на паспорт",
+            "description": "Паспорт надсилається вам додому поштою. Зазвичай це займає 10-14 днів.",
+            "tip": "Ви можете відстежити відправлення на politiet.no за номером замовлення."
           },
           {
-            "title": "Hent eller motta passet",
-            "description": "De fleste får passet i posten. Noen steder kan du hente det på passkontoret.",
-            "warning": "Sjekk at alle opplysninger er riktige når du mottar passet!"
+            "title": "Отримайте паспорт",
+            "description": "Більшість отримують паспорт поштою. В деяких місцях можна забрати його в паспортному відділі.",
+            "warning": "Перевірте, чи всі дані правильні, коли отримаєте паспорт!"
           }
         ],
-        "tipsTitle": "Nyttige tips",
+        "tipsTitle": "Корисні поради",
         "tips": [
-          "Bestill time tidlig - spesielt før sommeren er det lang ventetid",
-          "Barn må ha med begge foreldre eller fullmakt",
-          "Passet må være gyldig i minst 6 måneder for mange reisemål",
-          "Mistet pass må meldes til politiet før du kan få nytt",
-          "Du kan få nødpass samme dag i spesielle tilfeller"
+          "Записуйтесь заздалегідь - особливо перед літом черги довгі",
+          "З дітьми мають прийти обоє батьків або довіреність",
+          "Паспорт має бути дійсним щонайменше 6 місяців для багатьох напрямків",
+          "Про втрачений паспорт потрібно повідомити поліцію, перш ніж отримати новий",
+          "В особливих випадках можна отримати терміновий паспорт того ж дня"
         ]
       },
       "forerkort": {
-        "title": "Fornye førerkort",
-        "description": "Slik fornyer eller bestiller du førerkort",
-        "longDescription": "Førerkort må fornyes etter en viss tid. Her lærer du hvordan du gjør det.",
-        "backToGuides": "Tilbake til ID og dokumenter",
-        "time": "Ca. 15 minutter",
-        "difficulty": "Enkel",
-        "whatIsTitle": "Om førerkort",
-        "whatIsText1": "Førerkort er både et bevis på at du har lov til å kjøre og et gyldig ID-kort. Det må fornyes regelmessig.",
-        "whatIsText2": "Førerkort for personbil (klasse B) er gyldig i 15 år, men må fornyes oftere etter fylte 75 år.",
-        "requirementsTitle": "Dette trenger du",
+        "title": "Поновити водійське посвідчення",
+        "description": "Як поновити або замовити водійське посвідчення",
+        "longDescription": "Водійське посвідчення потрібно поновлювати через певний час. Тут ви дізнаєтесь, як це зробити.",
+        "backToGuides": "Назад до ID та документів",
+        "time": "Прибл. 15 хвилин",
+        "difficulty": "Легко",
+        "whatIsTitle": "Про водійське посвідчення",
+        "whatIsText1": "Водійське посвідчення є і підтвердженням права керувати авто, і дійсним посвідченням особи. Його потрібно регулярно поновлювати.",
+        "whatIsText2": "Водійське посвідчення на легковий автомобіль (клас B) дійсне 15 років, але після 75 років потрібно поновлювати частіше.",
+        "requirementsTitle": "Що вам потрібно",
         "requirements": [
-          "Gyldig legitimasjon",
-          "Helseattest hvis du er over 75 år",
-          "Betaling (ca. 250-400 kr)",
-          "Nytt passfoto (kan tas på trafikkstasjonen)"
+          "Дійсне посвідчення особи",
+          "Медична довідка, якщо вам більше 75 років",
+          "Оплата (прибл. 250-400 крон)",
+          "Нове фото на паспорт (можна зробити на станції)"
         ],
-        "stepsTitle": "Slik fornyer du førerkortet",
+        "stepsTitle": "Як поновити водійське посвідчення",
         "steps": [
           {
-            "title": "Bestill time på Statens vegvesen",
-            "description": "Gå til vegvesen.no og velg \"Bestill time\". Finn \"Førerkort\" og velg nærmeste trafikkstasjon.",
-            "tip": "Du kan også ringe 22 07 30 00 for å bestille time."
+            "title": "Запишіться на прийом у Statens vegvesen",
+            "description": "Перейдіть на vegvesen.no та виберіть \"Bestill time\" (Записатися на прийом). Знайдіть \"Førerkort\" (Водійське посвідчення) і виберіть найближчу станцію.",
+            "tip": "Ви також можете зателефонувати 22 07 30 00, щоб записатися."
           },
           {
-            "title": "Møt opp med legitimasjon",
-            "description": "Ta med gyldig legitimasjon. Det tas nytt bilde på stasjonen.",
-            "warning": "Gammelt førerkort må leveres inn."
+            "title": "Прийдіть з посвідченням особи",
+            "description": "Візьміть з собою дійсне посвідчення особи. На станції зроблять нове фото.",
+            "warning": "Старе водійське посвідчення потрібно здати."
           },
           {
-            "title": "Betal gebyret",
-            "description": "Du betaler med kort på trafikkstasjonen. Prisen varierer etter type førerkort.",
-            "tip": "Sjekk priser på vegvesen.no før du møter opp."
+            "title": "Оплатіть збір",
+            "description": "Ви оплачуєте карткою на станції. Ціна залежить від типу посвідчення.",
+            "tip": "Перевірте ціни на vegvesen.no перед візитом."
           },
           {
-            "title": "Vent på nytt førerkort",
-            "description": "Det nye førerkortet sendes i posten. Det tar ca. 1-2 uker.",
-            "tip": "Du får et midlertidig førerkort som gjelder mens du venter."
+            "title": "Очікуйте на нове посвідчення",
+            "description": "Нове водійське посвідчення надсилається поштою. Це займає прибл. 1-2 тижні.",
+            "tip": "Ви отримаєте тимчасове посвідчення, яке діє, поки чекаєте."
           },
           {
-            "title": "Aktiver førerkortet",
-            "description": "Når du mottar førerkortet, er det klart til bruk. Sjekk at all informasjon stemmer.",
-            "warning": "Meld fra om feil umiddelbart!"
+            "title": "Активуйте посвідчення",
+            "description": "Коли отримаєте посвідчення, воно готове до використання. Перевірте, чи вся інформація правильна.",
+            "warning": "Повідомте про помилки негайно!"
           }
         ],
-        "tipsTitle": "Nyttige tips",
+        "tipsTitle": "Корисні поради",
         "tips": [
-          "Forny førerkortet før det går ut - det er ikke lov å kjøre med utgått førerkort",
-          "Er du over 75 år, trenger du helseattest fra lege",
-          "Mistet førerkort kan erstattes mot gebyr",
-          "Du kan sjekke gyldigheten på vegvesen.no",
-          "EU-førerkort gjelder i hele Europa"
+          "Поновіть посвідчення до закінчення терміну - їздити з простроченим посвідченням заборонено",
+          "Якщо вам більше 75 років, потрібна медична довідка від лікаря",
+          "Втрачене посвідчення можна замінити за плату",
+          "Ви можете перевірити дійсність на vegvesen.no",
+          "Посвідчення ЄС дійсне по всій Європі"
         ]
       },
       "idKort": {
-        "title": "Nasjonalt ID-kort",
-        "description": "Bestill nasjonalt ID-kort med eller uten reiserett",
-        "longDescription": "Nasjonalt ID-kort er et alternativ til pass og førerkort som legitimasjon. Det kan også brukes som reisedokument i Europa.",
-        "backToGuides": "Tilbake til ID og dokumenter",
-        "time": "Ca. 15 minutter",
-        "difficulty": "Enkel",
-        "whatIsTitle": "Om nasjonalt ID-kort",
-        "whatIsText1": "Nasjonalt ID-kort er et offisielt ID-dokument utstedt av politiet. Det finnes i to varianter: med og uten reiserett.",
-        "whatIsText2": "Med reiserett kan du bruke kortet i stedet for pass i EØS-området. Kortet er gyldig i 5 år.",
-        "typesTitle": "To typer ID-kort",
+        "title": "Національна ID-картка",
+        "description": "Замовте національну ID-картку з правом на подорожі або без",
+        "longDescription": "Національна ID-картка є альтернативою паспорту та водійському посвідченню як посвідчення особи. Вона також може використовуватися як проїзний документ у Європі.",
+        "backToGuides": "Назад до ID та документів",
+        "time": "Прибл. 15 хвилин",
+        "difficulty": "Легко",
+        "whatIsTitle": "Про національну ID-картку",
+        "whatIsText1": "Національна ID-картка - це офіційний документ, що посвідчує особу, виданий поліцією. Є два варіанти: з правом на подорожі та без.",
+        "whatIsText2": "З правом на подорожі ви можете використовувати картку замість паспорта в зоні ЄЕП. Картка дійсна 5 років.",
+        "typesTitle": "Два типи ID-карток",
         "types": [
-          "Med reiserett (ca. 570 kr) - kan brukes som reisedokument i EØS",
-          "Uten reiserett (ca. 490 kr) - kun legitimasjon i Norge"
+          "З правом на подорожі (прибл. 570 крон) - можна використовувати як проїзний документ у ЄЕП",
+          "Без права на подорожі (прибл. 490 крон) - тільки посвідчення особи в Норвегії"
         ],
-        "stepsTitle": "Slik bestiller du ID-kort",
+        "stepsTitle": "Як замовити ID-картку",
         "steps": [
           {
-            "title": "Bestill time hos politiet",
-            "description": "Gå til politiet.no og velg \"Bestill time\". Velg \"ID-kort\" og finn nærmeste politistasjon som utsteder ID-kort.",
-            "tip": "Ikke alle politistasjoner utsteder ID-kort - sjekk listen på politiet.no."
+            "title": "Запишіться на прийом до поліції",
+            "description": "Перейдіть на politiet.no та виберіть \"Bestill time\" (Записатися на прийом). Виберіть \"ID-kort\" і знайдіть найближчий відділ поліції, що видає ID-картки.",
+            "tip": "Не всі відділи поліції видають ID-картки - перевірте список на politiet.no."
           },
           {
-            "title": "Møt opp på avtalt tid",
-            "description": "Ta med gyldig legitimasjon (pass, førerkort eller annen godkjent ID). Politiet tar bilde og fingeravtrykk.",
-            "warning": "For ID-kort med reiserett må du ha norsk personnummer."
+            "title": "Прийдіть у призначений час",
+            "description": "Візьміть з собою дійсне посвідчення особи (паспорт, водійське посвідчення або інший схвалений документ). Поліція зробить фото та зніме відбитки пальців.",
+            "warning": "Для ID-картки з правом на подорожі потрібен норвезький персональний номер."
           },
           {
-            "title": "Velg type ID-kort",
-            "description": "Velg om du vil ha ID-kort med eller uten reiserett. Med reiserett kan du reise i EØS uten pass.",
-            "tip": "Reiserett anbefales hvis du reiser i Europa."
+            "title": "Виберіть тип ID-картки",
+            "description": "Виберіть, чи бажаєте ID-картку з правом на подорожі чи без. З правом на подорожі можна подорожувати в ЄЕП без паспорта.",
+            "tip": "Право на подорожі рекомендується, якщо ви подорожуєте Європою."
           },
           {
-            "title": "Betal gebyret",
-            "description": "Betal med kort på stedet. Prisen avhenger av type ID-kort.",
-            "tip": "Sjekk oppdaterte priser på politiet.no."
+            "title": "Оплатіть збір",
+            "description": "Оплатіть карткою на місці. Ціна залежить від типу ID-картки.",
+            "tip": "Перевірте актуальні ціни на politiet.no."
           },
           {
-            "title": "Vent på ID-kortet",
-            "description": "ID-kortet sendes i posten. Det tar vanligvis 10-14 dager.",
-            "tip": "Du kan spore sendingen med referansenummeret ditt."
+            "title": "Очікуйте на ID-картку",
+            "description": "ID-картка надсилається поштою. Зазвичай це займає 10-14 днів.",
+            "tip": "Ви можете відстежити відправлення за номером замовлення."
           }
         ],
-        "tipsTitle": "Nyttige tips",
+        "tipsTitle": "Корисні поради",
         "tips": [
-          "ID-kortet er mindre enn pass og passer i lommeboken",
-          "Du kan ha både pass og ID-kort",
-          "ID-kort med reiserett godtas som legitimasjon overalt i Norge",
-          "Barn kan også få ID-kort",
-          "Ved tap må du melde fra til politiet"
+          "ID-картка менша за паспорт і поміщається в гаманець",
+          "Ви можете мати і паспорт, і ID-картку",
+          "ID-картка з правом на подорожі приймається як посвідчення особи скрізь у Норвегії",
+          "Діти також можуть отримати ID-картку",
+          "При втраті потрібно повідомити поліцію"
         ]
       }
     },
     "grunnleggende": {
       "smarttelefon": {
-        "title": "Bruke smarttelefon",
-        "description": "Lær grunnleggende bruk av iPhone og Android-telefoner",
-        "longDescription": "Smarttelefonen er nøkkelen til det digitale Norge. Her lærer du det mest grunnleggende - fra å slå på telefonen til å bruke apper.",
-        "backToGuides": "Tilbake til Grunnleggende teknologi",
-        "time": "Ca. 15 minutter",
-        "difficulty": "Enkel",
-        "beforeYouStart": "Hva er en smarttelefon?",
-        "beforeYouStartText": "En smarttelefon er en liten datamaskin du kan holde i hånden. Den brukes til å ringe, sende meldinger, ta bilder, og bruke apper (programmer) som BankID, Vipps og mer.",
-        "stepsTitle": "Grunnleggende bruk av smarttelefon",
+        "title": "Користування смартфоном",
+        "description": "Вивчіть основи використання iPhone та Android-телефонів",
+        "longDescription": "Смартфон - це ключ до цифрової Норвегії. Тут ви вивчите найосновніше - від увімкнення телефону до використання додатків.",
+        "backToGuides": "Назад до Основних технологій",
+        "time": "Прибл. 15 хвилин",
+        "difficulty": "Легко",
+        "beforeYouStart": "Що таке смартфон?",
+        "beforeYouStartText": "Смартфон - це маленький комп'ютер, який можна тримати в руці. Він використовується для дзвінків, надсилання повідомлень, фотографування та використання додатків (програм), таких як BankID, Vipps та інших.",
+        "stepsTitle": "Основи користування смартфоном",
         "steps": [
           {
-            "title": "Slå på telefonen",
-            "description": "Hold inne den store knappen på siden av telefonen i noen sekunder. Skjermen vil lyse opp. Hvis telefonen har vært av lenge, kan det ta litt tid.",
-            "tip": "De fleste telefoner har av/på-knappen på høyre side."
+            "title": "Увімкніть телефон",
+            "description": "Утримуйте велику кнопку збоку телефону кілька секунд. Екран засвітиться. Якщо телефон був вимкнений довго, це може зайняти трохи часу.",
+            "tip": "Більшість телефонів мають кнопку вмикання/вимикання справа."
           },
           {
-            "title": "Lås opp telefonen",
-            "description": "Når telefonen er på, må du låse den opp. Sveip opp på skjermen (dra fingeren oppover). Du må kanskje taste inn en kode eller bruke fingeravtrykk.",
-            "tip": "Koden er vanligvis 4 eller 6 siffer som du velger selv."
+            "title": "Розблокуйте телефон",
+            "description": "Коли телефон увімкнений, його потрібно розблокувати. Проведіть пальцем вгору по екрану. Можливо, потрібно ввести код або використати відбиток пальця.",
+            "tip": "Код зазвичай 4 або 6 цифр, які ви обираєте самі."
           },
           {
-            "title": "Forstå hjemskjermen",
-            "description": "Hjemskjermen er det første du ser. Her ligger appene (programmene) som små firkantede ikoner. Trykk én gang på et ikon for å åpne appen.",
-            "tip": "Sveip til venstre eller høyre for å se flere sider med apper."
+            "title": "Зрозумійте головний екран",
+            "description": "Головний екран - це перше, що ви бачите. Тут розміщені додатки (програми) у вигляді маленьких квадратних іконок. Натисніть один раз на іконку, щоб відкрити додаток.",
+            "tip": "Проведіть вліво або вправо, щоб побачити більше сторінок з додатками."
           },
           {
-            "title": "Ringe noen",
-            "description": "Finn og trykk på telefonikonet (vanligvis grønt med et telefonrør). Tast inn nummeret du vil ringe. Trykk på den grønne knappen for å ringe. Trykk på rødt for å legge på.",
-            "tip": "Du kan lagre numre under \"Kontakter\" så du slipper å huske dem."
+            "title": "Зателефонувати комусь",
+            "description": "Знайдіть і натисніть на іконку телефону (зазвичай зелена з телефонною трубкою). Введіть номер, який хочете набрати. Натисніть зелену кнопку, щоб зателефонувати. Натисніть червону, щоб завершити дзвінок.",
+            "tip": "Ви можете зберігати номери в \"Контактах\", щоб не запам'ятовувати їх."
           },
           {
-            "title": "Sende en SMS",
-            "description": "Finn og trykk på meldingsikonet (vanligvis ser det ut som en snakkeboble). Trykk på pluss eller \"Ny melding\". Skriv inn nummeret eller velg en kontakt. Skriv meldingen og trykk send.",
-            "tip": "Tastaturet kommer opp når du skal skrive. Trykk på bokstavene én etter én."
+            "title": "Надіслати SMS",
+            "description": "Знайдіть і натисніть на іконку повідомлень (зазвичай виглядає як бульбашка розмови). Натисніть плюс або \"Нове повідомлення\". Введіть номер або виберіть контакт. Напишіть повідомлення і натисніть надіслати.",
+            "tip": "Клавіатура з'являється, коли потрібно писати. Натискайте на букви по одній."
           },
           {
-            "title": "Ta et bilde",
-            "description": "Finn og trykk på kameraikonet. Pek telefonen mot det du vil ta bilde av. Trykk på den store runde knappen på skjermen. Bildet lagres automatisk.",
-            "tip": "Bildene finner du i appen \"Bilder\" eller \"Galleri\"."
+            "title": "Зробити фото",
+            "description": "Знайдіть і натисніть на іконку камери. Наведіть телефон на те, що хочете сфотографувати. Натисніть велику круглу кнопку на екрані. Фото зберігається автоматично.",
+            "tip": "Фотографії можна знайти в додатку \"Фото\" або \"Галерея\"."
           },
           {
-            "title": "Koble til Wi-Fi (trådløst internett)",
-            "description": "Gå til Innstillinger (tannhjulikonet). Trykk på Wi-Fi. Velg ditt nettverk (det heter ofte det samme som ruteren din). Skriv inn passordet.",
-            "tip": "Wi-Fi-passordet står ofte på en lapp på ruteren/boksen fra internettleverandøren din."
+            "title": "Під'єднатися до Wi-Fi (бездротового інтернету)",
+            "description": "Перейдіть у Налаштування (іконка шестерні). Натисніть на Wi-Fi. Виберіть свою мережу (часто має таку ж назву, як ваш роутер). Введіть пароль.",
+            "tip": "Пароль Wi-Fi часто написаний на наклейці на роутері/коробці від інтернет-провайдера."
           },
           {
-            "title": "Laste ned en app",
-            "description": "Åpne App Store (iPhone) eller Google Play (Android). Søk etter appen du vil ha, f.eks. \"BankID\" eller \"Vipps\". Trykk på \"Hent\" eller \"Installer\". Vent til appen er lastet ned.",
-            "warning": "Vær forsiktig med hva du laster ned. Hold deg til kjente apper fra trygge leverandører."
+            "title": "Завантажити додаток",
+            "description": "Відкрийте App Store (iPhone) або Google Play (Android). Знайдіть потрібний додаток, наприклад \"BankID\" або \"Vipps\". Натисніть \"Отримати\" або \"Встановити\". Зачекайте, поки додаток завантажиться.",
+            "warning": "Будьте обережні з тим, що завантажуєте. Користуйтесь лише відомими додатками від надійних розробників."
           }
         ],
-        "tipsTitle": "Nyttige tips",
+        "tipsTitle": "Корисні поради",
         "tips": [
-          "Lad telefonen hver natt - da er den alltid klar til bruk",
-          "Hvis noe henger, prøv å slå telefonen av og på igjen",
-          "Ikke vær redd for å prøve - du kan sjelden ødelegge noe",
-          "Be familie eller venner om hjelp til å sette opp telefonen første gang",
-          "Sett stor skrift i innstillinger hvis du synes teksten er liten"
+          "Заряджайте телефон щоночі - тоді він завжди готовий до використання",
+          "Якщо щось зависає, спробуйте вимкнути і знову увімкнути телефон",
+          "Не бійтеся пробувати - ви рідко можете щось зламати",
+          "Попросіть родину або друзів допомогти налаштувати телефон вперше",
+          "Встановіть великий шрифт у налаштуваннях, якщо текст здається маленьким"
         ]
       },
       "nettleser": {
-        "title": "Bruke nettleser",
-        "description": "Lær å åpne nettsider og finne informasjon på internett",
-        "longDescription": "Nettleseren er vinduet ditt til internett. Her lærer du hvordan du bruker den til å besøke nettsider, søke etter informasjon og navigere trygt.",
-        "backToGuides": "Tilbake til Grunnleggende teknologi",
-        "time": "Ca. 10 minutter",
-        "difficulty": "Enkel",
-        "whatIsTitle": "Hva er en nettleser?",
-        "whatIsText": "En nettleser er et program som lar deg se nettsider. De vanligste er Safari (på iPhone), Chrome (på Android og datamaskiner) og Edge (på Windows-datamaskiner).",
-        "stepsTitle": "Slik bruker du nettleseren",
+        "title": "Користування браузером",
+        "description": "Вивчіть, як відкривати веб-сайти та знаходити інформацію в інтернеті",
+        "longDescription": "Браузер - це ваше вікно в інтернет. Тут ви дізнаєтесь, як використовувати його для відвідування сайтів, пошуку інформації та безпечної навігації.",
+        "backToGuides": "Назад до Основних технологій",
+        "time": "Прибл. 10 хвилин",
+        "difficulty": "Легко",
+        "whatIsTitle": "Що таке браузер?",
+        "whatIsText": "Браузер - це програма, яка дозволяє переглядати веб-сайти. Найпоширеніші - Safari (на iPhone), Chrome (на Android та комп'ютерах) та Edge (на комп'ютерах Windows).",
+        "stepsTitle": "Як користуватися браузером",
         "steps": [
           {
-            "title": "Åpne nettleseren",
-            "description": "Finn nettleserikonet på telefonen eller datamaskinen. Safari har et kompass-ikon, Chrome har en fargerik sirkel, og Edge har en blå \"e\".",
-            "tip": "På telefonen finner du ofte nettleseren på hjemskjermen."
+            "title": "Відкрийте браузер",
+            "description": "Знайдіть іконку браузера на телефоні або комп'ютері. Safari має іконку компаса, Chrome - кольорове коло, а Edge - синю \"e\".",
+            "tip": "На телефоні браузер зазвичай знаходиться на головному екрані."
           },
           {
-            "title": "Forstå adressefeltet",
-            "description": "Øverst i nettleseren er adressefeltet - en lang hvit boks. Her skriver du inn adressen til nettsiden du vil besøke, f.eks. \"nav.no\" eller \"helsenorge.no\".",
-            "tip": "Du trenger ikke skrive \"www.\" foran adressen lenger."
+            "title": "Зрозумійте адресний рядок",
+            "description": "Угорі браузера знаходиться адресний рядок - довга біла смуга. Тут ви вводите адресу сайту, який хочете відвідати, наприклад \"nav.no\" або \"helsenorge.no\".",
+            "tip": "Більше не потрібно писати \"www.\" перед адресою."
           },
           {
-            "title": "Besøke en nettside",
-            "description": "Trykk på adressefeltet. Skriv inn adressen du vil besøke, f.eks. \"vg.no\". Trykk på Enter-tasten (eller \"Gå\" på telefonen).",
-            "tip": "Vær nøyaktig med adressen - små feil kan føre deg til feil side."
+            "title": "Відвідати веб-сайт",
+            "description": "Натисніть на адресний рядок. Введіть адресу, яку хочете відвідати, наприклад \"vg.no\". Натисніть Enter (або \"Перейти\" на телефоні).",
+            "tip": "Будьте точні з адресою - невеликі помилки можуть привести вас на неправильний сайт."
           },
           {
-            "title": "Søke på Google",
-            "description": "Du kan også søke etter ting. Skriv det du leter etter i adressefeltet, f.eks. \"åpningstider nav\" eller \"været i Oslo\". Trykk Enter. Google viser deg relevante resultater.",
-            "tip": "Skriv gjerne hele spørsmål, som \"hva koster det å fornye pass\""
+            "title": "Пошук у Google",
+            "description": "Ви також можете шукати різні речі. Введіть те, що шукаєте, в адресний рядок, наприклад \"години роботи nav\" або \"погода в Осло\". Натисніть Enter. Google покаже вам відповідні результати.",
+            "tip": "Можете писати цілі запитання, наприклад \"скільки коштує поновити паспорт\""
           },
           {
-            "title": "Klikke på lenker",
-            "description": "Nettsider har lenker - tekst som er blå og understreket. Når du klikker (eller trykker) på en lenke, kommer du til en ny side.",
-            "tip": "For å gå tilbake til forrige side, trykk på pilen som peker til venstre (tilbake-knappen)."
+            "title": "Натискати на посилання",
+            "description": "Веб-сайти мають посилання - текст, який синій та підкреслений. Коли ви натискаєте на посилання, ви переходите на нову сторінку.",
+            "tip": "Щоб повернутися на попередню сторінку, натисніть на стрілку вліво (кнопка \"назад\")."
           },
           {
-            "title": "Bruke tilbake-knappen",
-            "description": "Øverst til venstre finner du en pil som peker til venstre. Trykk på den for å gå tilbake til siden du nettopp var på. Du kan trykke flere ganger for å gå lenger tilbake.",
-            "tip": "På telefonen kan du ofte sveipe fra venstre kant for å gå tilbake."
+            "title": "Використання кнопки \"назад\"",
+            "description": "Угорі зліва ви знайдете стрілку, що вказує вліво. Натисніть на неї, щоб повернутися на сторінку, де ви щойно були. Можна натискати кілька разів, щоб повернутися далі.",
+            "tip": "На телефоні часто можна провести пальцем від лівого краю, щоб повернутися назад."
           },
           {
-            "title": "Lukke nettleseren",
-            "description": "På telefon: Sveip opp fra bunnen (iPhone) eller trykk på firkant-knappen (Android) for å lukke. På datamaskin: Klikk på X-en øverst i høyre hjørne."
+            "title": "Закрити браузер",
+            "description": "На телефоні: Проведіть вгору від низу (iPhone) або натисніть квадратну кнопку (Android), щоб закрити. На комп'ютері: Натисніть X у верхньому правому куті."
           }
         ],
-        "safetyTitle": "Hold deg trygg på nett",
+        "safetyTitle": "Залишайтеся в безпеці онлайн",
         "safetyTips": [
-          "Se alltid på adressen øverst - ekte nav.no har akkurat den adressen, ikke \"nav-login.com\" eller lignende",
-          "Skriv inn adresser selv i stedet for å klikke på lenker i e-post",
-          "Se etter hengelåsikonet ved adressen - det betyr at siden er sikker",
-          "Hvis noe virker rart eller for godt til å være sant, vær forsiktig"
+          "Завжди дивіться на адресу угорі - справжній nav.no має саме таку адресу, а не \"nav-login.com\" чи подібне",
+          "Вводьте адреси самостійно замість того, щоб натискати на посилання в електронних листах",
+          "Шукайте іконку замка біля адреси - це означає, що сторінка безпечна",
+          "Якщо щось виглядає дивно або занадто добре, щоб бути правдою, будьте обережні"
         ]
       },
       "videosamtale": {
-        "title": "Bruke videosamtaler",
-        "description": "Lær å bruke Zoom, Teams og FaceTime for å snakke med familie og lege",
-        "longDescription": "Videosamtaler lar deg se og snakke med folk selv om de er langt unna. Perfekt for å holde kontakten med familie eller ha legetime hjemmefra.",
-        "backToGuides": "Tilbake til Grunnleggende teknologi",
-        "time": "Ca. 15 minutter",
-        "difficulty": "Middels",
-        "whyUseTitle": "Hvorfor bruke videosamtale?",
+        "title": "Використання відеодзвінків",
+        "description": "Вивчіть, як використовувати Zoom, Teams та FaceTime для спілкування з родиною та лікарем",
+        "longDescription": "Відеодзвінки дозволяють бачити та розмовляти з людьми, навіть якщо вони далеко. Ідеально для підтримки зв'язку з родиною або консультації з лікарем з дому.",
+        "backToGuides": "Назад до Основних технологій",
+        "time": "Прибл. 15 хвилин",
+        "difficulty": "Середньо",
+        "whyUseTitle": "Навіщо використовувати відеодзвінки?",
         "whyUseList": [
-          "Se barnebarn og familie som bor langt unna",
-          "Ha legetime eller NAV-samtale hjemmefra",
-          "Delta på kurs og arrangementer uten å reise",
-          "Få hjelp fra familie til tekniske problemer - de kan se skjermen din"
+          "Бачити онуків та родину, яка живе далеко",
+          "Мати консультацію з лікарем або NAV з дому",
+          "Брати участь у курсах та заходах без подорожей",
+          "Отримати допомогу від родини з технічними проблемами - вони можуть бачити ваш екран"
         ],
-        "appsTitle": "Vanlige videoapper",
+        "appsTitle": "Поширені відеододатки",
         "apps": [
           {
             "name": "FaceTime",
-            "desc": "Innebygd på iPhone/iPad. Enklest å bruke med andre Apple-brukere."
+            "desc": "Вбудований в iPhone/iPad. Найпростіший для використання з іншими користувачами Apple."
           },
           {
             "name": "Zoom",
-            "desc": "Populær app for møter. Brukes av mange kommuner og helsetjenester."
+            "desc": "Популярний додаток для зустрічей. Використовується багатьма муніципалітетами та медичними службами."
           },
           {
             "name": "Teams",
-            "desc": "Microsofts app. Brukes ofte av NAV og arbeidsplasser."
+            "desc": "Додаток Microsoft. Часто використовується NAV та роботодавцями."
           },
           {
             "name": "WhatsApp",
-            "desc": "Enkel video for familie og venner. Mange har den allerede."
+            "desc": "Простий відеозв'язок для родини та друзів. Багато хто вже має його."
           }
         ],
-        "stepsTitle": "Slik deltar du i en videosamtale",
+        "stepsTitle": "Як приєднатися до відеодзвінка",
         "steps": [
           {
-            "title": "Få en innkalling",
-            "description": "Du får vanligvis en lenke på e-post eller SMS. Lenken ser ut som en nettadresse og starter ofte med \"zoom.us\" eller \"teams.microsoft.com\".",
-            "tip": "Lagre e-posten eller meldingen slik at du finner lenken igjen."
+            "title": "Отримайте запрошення",
+            "description": "Зазвичай ви отримуєте посилання електронною поштою або SMS. Посилання виглядає як веб-адреса і часто починається з \"zoom.us\" або \"teams.microsoft.com\".",
+            "tip": "Збережіть електронний лист або повідомлення, щоб знайти посилання знову."
           },
           {
-            "title": "Klikk på lenken når det er tid",
-            "description": "Noen minutter før møtet starter, klikk på lenken. Du blir spurt om du vil åpne appen eller nettleseren. Velg \"Åpne\" eller \"Join\".",
-            "tip": "Test gjerne lyd og bilde før møtet ved å klikke på lenken litt tidlig."
+            "title": "Натисніть на посилання, коли прийде час",
+            "description": "За кілька хвилин до початку зустрічі натисніть на посилання. Вас запитають, чи хочете відкрити додаток або браузер. Виберіть \"Відкрити\" або \"Join\".",
+            "tip": "Можете перевірити звук і відео до зустрічі, натиснувши на посилання трохи раніше."
           },
           {
-            "title": "Gi tilgang til kamera og mikrofon",
-            "description": "Appen spør om tillatelse til å bruke kamera og mikrofon. Trykk \"Tillat\" på begge. Uten dette kan ikke andre se eller høre deg.",
-            "warning": "Hvis du kommer ikke inn, sjekk at du har gitt tillatelser i innstillingene."
+            "title": "Надайте доступ до камери та мікрофона",
+            "description": "Додаток запитає дозвіл на використання камери та мікрофона. Натисніть \"Дозволити\" для обох. Без цього інші не зможуть вас бачити чи чути.",
+            "warning": "Якщо не можете увійти, перевірте, чи надали дозволи в налаштуваннях."
           },
           {
-            "title": "Sjekk at du ser deg selv",
-            "description": "Før du går inn i møtet, ser du ofte deg selv i et lite vindu. Sjekk at lyset er bra og at kameraet fanger ansiktet ditt.",
-            "tip": "Sitt med vinduet eller lampen foran deg, ikke bak - da ser andre deg bedre."
+            "title": "Перевірте, чи бачите себе",
+            "description": "Перед входом на зустріч ви часто бачите себе в маленькому вікні. Перевірте, чи гарне освітлення і чи камера захоплює ваше обличчя.",
+            "tip": "Сидіть так, щоб вікно або лампа були перед вами, а не позаду - тоді інші бачать вас краще."
           },
           {
-            "title": "Gå inn i møtet",
-            "description": "Klikk på \"Bli med\" eller \"Join Meeting\". Du kommer nå inn i møtet og kan se andre deltakere.",
-            "tip": "Hvis du er tidlig ute, må du kanskje vente til verten starter møtet."
+            "title": "Увійдіть на зустріч",
+            "description": "Натисніть \"Приєднатися\" або \"Join Meeting\". Тепер ви на зустрічі і можете бачити інших учасників.",
+            "tip": "Якщо ви рано, можливо, доведеться почекати, поки організатор почне зустріч."
           },
           {
-            "title": "Skru av/på lyd og bilde",
-            "description": "Nederst på skjermen finner du knapper for mikrofon og kamera. Trykk på mikrofonikonen for å skru lyden av/på. Trykk på kameraikonet for å skru bildet av/på.",
-            "tip": "Skru av mikrofonen når du ikke snakker - da slipper andre å høre bakgrunnsstøy."
+            "title": "Вимкнути/увімкнути звук і відео",
+            "description": "Внизу екрана ви знайдете кнопки мікрофона та камери. Натисніть на іконку мікрофона, щоб вимкнути/увімкнути звук. Натисніть на іконку камери, щоб вимкнути/увімкнути відео.",
+            "tip": "Вимикайте мікрофон, коли не говорите - тоді інші не чують фоновий шум."
           },
           {
-            "title": "Avslutte samtalen",
-            "description": "Når samtalen er ferdig, trykk på den røde \"Avslutt\" eller \"Leave\"-knappen. Du lukkes ut av møtet.",
-            "tip": "Husk å si hade før du avslutter!"
+            "title": "Завершити розмову",
+            "description": "Коли розмова закінчена, натисніть червону кнопку \"Завершити\" або \"Leave\". Ви вийдете із зустрічі.",
+            "tip": "Не забудьте попрощатися перед виходом!"
           }
         ],
-        "troubleshootingTitle": "Vanlige problemer",
+        "troubleshootingTitle": "Поширені проблеми",
         "troubleshooting": [
           {
-            "problem": "Andre hører meg ikke",
-            "solution": "Sjekk at mikrofonen ikke er avslått (ingen strek over ikonet). Sjekk volumet."
+            "problem": "Інші мене не чують",
+            "solution": "Перевірте, чи мікрофон не вимкнений (немає лінії через іконку). Перевірте гучність."
           },
           {
-            "problem": "Jeg ser ikke andre",
-            "solution": "Sjekk internettforbindelsen din. Prøv å lukke andre apper."
+            "problem": "Я не бачу інших",
+            "solution": "Перевірте інтернет-з'єднання. Спробуйте закрити інші додатки."
           },
           {
-            "problem": "Bildet hakker",
-            "solution": "Gå nærmere Wi-Fi-ruteren eller skru av eget kamera for bedre flyt."
+            "problem": "Зображення гальмує",
+            "solution": "Підійдіть ближче до Wi-Fi роутера або вимкніть свою камеру для кращої якості."
           },
           {
-            "problem": "Jeg kommer ikke inn",
-            "solution": "Prøv å klikke på lenken på nytt. Sjekk at appen er oppdatert."
+            "problem": "Не можу увійти",
+            "solution": "Спробуйте натиснути на посилання знову. Перевірте, чи додаток оновлений."
           }
         ]
       },
       "passordHjelp": {
-        "title": "Passord og innlogging",
-        "description": "Lær å lage gode passord og hva du gjør når du har glemt det",
-        "longDescription": "Passord beskytter dine personlige opplysninger. Her lærer du å lage trygge passord og hva du gjør hvis du glemmer dem.",
-        "backToGuides": "Tilbake til Grunnleggende teknologi",
-        "time": "Ca. 10 minutter",
-        "difficulty": "Enkel",
-        "whyImportantTitle": "Hvorfor er passord viktig?",
-        "whyImportantText": "Passordet ditt er som nøkkelen til huset ditt - det holder fremmede ute. Et dårlig passord gjør det lett for svindlere å stjele pengene dine eller identiteten din.",
-        "goodPasswordTitle": "Slik lager du et godt passord",
+        "title": "Паролі та вхід",
+        "description": "Вивчіть, як створювати надійні паролі та що робити, якщо забули пароль",
+        "longDescription": "Паролі захищають ваші особисті дані. Тут ви дізнаєтесь, як створювати надійні паролі та що робити, якщо їх забули.",
+        "backToGuides": "Назад до Основних технологій",
+        "time": "Прибл. 10 хвилин",
+        "difficulty": "Легко",
+        "whyImportantTitle": "Чому паролі важливі?",
+        "whyImportantText": "Ваш пароль - як ключ до вашого дому - він не пускає сторонніх. Слабкий пароль полегшує шахраям крадіжку ваших грошей або особистості.",
+        "goodPasswordTitle": "Як створити хороший пароль",
         "goodPasswordTips": [
-          "Bruk minst 12 tegn - jo lengre, jo bedre",
-          "Bland store og små bokstaver, tall og tegn",
-          "Ikke bruk navnet ditt, fødselsdato eller \"123456\"",
-          "Bruk gjerne en setning du husker: \"MinKattHeter2Fansen!\"",
-          "Bruk forskjellige passord på viktige tjenester (bank, NAV, e-post)"
+          "Використовуйте щонайменше 12 символів - чим довше, тим краще",
+          "Змішуйте великі та малі літери, цифри та символи",
+          "Не використовуйте своє ім'я, дату народження або \"123456\"",
+          "Можете використовувати речення, яке запам'ятаєте: \"МійКіт2Вуса!\"",
+          "Використовуйте різні паролі для важливих сервісів (банк, NAV, пошта)"
         ],
-        "forgotPasswordTitle": "Glemt passordet?",
+        "forgotPasswordTitle": "Забули пароль?",
         "forgotPasswordSteps": [
           {
-            "title": "Finn \"Glemt passord\"-lenken",
-            "description": "På innloggingssiden finner du ofte en lenke som sier \"Glemt passord?\", \"Reset password\" eller \"Trenger du hjelp?\". Klikk på den.",
-            "tip": "Lenken er vanligvis under feltet der du skriver passord."
+            "title": "Знайдіть посилання \"Забули пароль\"",
+            "description": "На сторінці входу часто є посилання \"Забули пароль?\", \"Reset password\" або \"Потрібна допомога?\". Натисніть на нього.",
+            "tip": "Посилання зазвичай під полем, де ви вводите пароль."
           },
           {
-            "title": "Skriv inn e-post eller telefonnummer",
-            "description": "Du blir bedt om å skrive inn e-postadressen eller telefonnummeret du registrerte deg med. Skriv det inn nøyaktig.",
-            "tip": "Sjekk at du bruker riktig e-postadresse - den du vanligvis logger inn med."
+            "title": "Введіть електронну пошту або номер телефону",
+            "description": "Вас попросять ввести електронну адресу або номер телефону, з яким ви реєструвалися. Введіть точно.",
+            "tip": "Перевірте, чи використовуєте правильну електронну адресу - ту, з якою зазвичай входите."
           },
           {
-            "title": "Sjekk e-posten din",
-            "description": "Du får en e-post eller SMS med en lenke for å lage nytt passord. Det kan ta noen minutter. Sjekk søppelpost/spam hvis du ikke finner den.",
-            "warning": "Lenken er gyldig i kort tid - ofte bare 1 time. Bruk den raskt."
+            "title": "Перевірте свою пошту",
+            "description": "Ви отримаєте електронний лист або SMS з посиланням для створення нового пароля. Це може зайняти кілька хвилин. Перевірте спам, якщо не знаходите.",
+            "warning": "Посилання дійсне короткий час - часто лише 1 годину. Використайте його швидко."
           },
           {
-            "title": "Lag nytt passord",
-            "description": "Klikk på lenken i e-posten. Skriv inn et nytt, sterkt passord. Du må skrive det to ganger for å bekrefte.",
-            "tip": "Skriv ned det nye passordet på et trygt sted til du husker det."
+            "title": "Створіть новий пароль",
+            "description": "Натисніть на посилання в листі. Введіть новий, надійний пароль. Потрібно ввести його двічі для підтвердження.",
+            "tip": "Запишіть новий пароль у безпечному місці, поки не запам'ятаєте."
           },
           {
-            "title": "Logg inn med nytt passord",
-            "description": "Gå tilbake til innloggingssiden og logg inn med det nye passordet. Nå er du inne igjen!",
-            "tip": "Vurder å skrive passordet i en notatbok som du oppbevarer trygt hjemme."
+            "title": "Увійдіть з новим паролем",
+            "description": "Поверніться на сторінку входу та увійдіть з новим паролем. Тепер ви знову в системі!",
+            "tip": "Розгляньте можливість записати пароль у блокнот, який зберігаєте вдома в безпечному місці."
           }
         ],
-        "bankidNoteTitle": "Merk: BankID er annerledes",
-        "bankidNoteText": "BankID-passord kan du ikke nullstille selv på nett. Hvis du har glemt BankID-koden, må du kontakte banken din for å få ny. De hjelper deg."
+        "bankidNoteTitle": "Примітка: BankID - це інше",
+        "bankidNoteText": "Пароль BankID не можна скинути самостійно онлайн. Якщо ви забули код BankID, зверніться до свого банку для отримання нового. Вони допоможуть."
       },
       "faHjelp": {
-        "title": "Hvor få hjelp",
-        "description": "Finn steder som tilbyr gratis datahjelp i ditt område",
-        "longDescription": "Du trenger ikke være alene med det digitale. Her finner du oversikt over steder og mennesker som kan hjelpe deg - ofte helt gratis.",
-        "backToGuides": "Tilbake til Grunnleggende teknologi",
-        "time": "Ca. 5 minutter",
-        "difficulty": "Enkel",
-        "introText": "Mange organisasjoner og frivillige tilbyr gratis hjelp til folk som synes det digitale er vanskelig. Her er noen gode steder å starte:",
-        "helpSourcesTitle": "Steder som kan hjelpe deg",
+        "title": "Де отримати допомогу",
+        "description": "Знайдіть місця, які пропонують безкоштовну комп'ютерну допомогу у вашому районі",
+        "longDescription": "Вам не потрібно бути наодинці з цифровими технологіями. Тут ви знайдете огляд місць і людей, які можуть допомогти - часто безкоштовно.",
+        "backToGuides": "Назад до Основних технологій",
+        "time": "Прибл. 5 хвилин",
+        "difficulty": "Легко",
+        "introText": "Багато організацій та волонтерів пропонують безкоштовну допомогу людям, яким важко з цифровими технологіями. Ось кілька хороших місць для початку:",
+        "helpSourcesTitle": "Місця, які можуть допомогти",
         "helpSources": [
           {
             "name": "Seniornett Norge",
-            "description": "Frivillig organisasjon som hjelper seniorer med det digitale. De har lokale grupper over hele landet som holder kurs og gir hjelp.",
-            "howToContact": "Gå til seniornett.no eller ring 22 42 99 99",
-            "price": "Gratis eller rimelig"
+            "description": "Волонтерська організація, яка допомагає літнім людям з цифровими технологіями. Вони мають місцеві групи по всій країні, які проводять курси та надають допомогу.",
+            "howToContact": "Перейдіть на seniornett.no або зателефонуйте 22 42 99 99",
+            "price": "Безкоштовно або недорого"
           },
           {
-            "name": "Ditt lokale bibliotek",
-            "description": "Mange bibliotek tilbyr gratis datahjelp. Noen har faste \"datatimer\" der du kan få hjelp med det meste.",
-            "howToContact": "Ring eller besøk biblioteket ditt og spør om de tilbyr datahjelp",
-            "price": "Gratis"
+            "name": "Ваша місцева бібліотека",
+            "description": "Багато бібліотек пропонують безкоштовну комп'ютерну допомогу. Деякі мають регулярні \"комп'ютерні години\", де можна отримати допомогу з більшістю питань.",
+            "howToContact": "Зателефонуйте або відвідайте свою бібліотеку і запитайте, чи пропонують комп'ютерну допомогу",
+            "price": "Безкоштовно"
           },
           {
-            "name": "Frivilligsentralen",
-            "description": "Lokale frivilligsentraler har ofte frivillige som kan hjelpe med data og telefon hjemme hos deg.",
-            "howToContact": "Finn din nærmeste på frivillig.no",
-            "price": "Gratis"
+            "name": "Frivilligsentralen (Волонтерський центр)",
+            "description": "Місцеві волонтерські центри часто мають волонтерів, які можуть допомогти з комп'ютером і телефоном у вас вдома.",
+            "howToContact": "Знайдіть найближчий на frivillig.no",
+            "price": "Безкоштовно"
           },
           {
-            "name": "Familie og venner",
-            "description": "Mange har barn, barnebarn, naboer eller venner som kan hjelpe. De fleste synes det er hyggelig å hjelpe!",
-            "howToContact": "Bare spør - de fleste sier ja med glede",
-            "price": "Gratis (og sosialt!)"
+            "name": "Родина та друзі",
+            "description": "Багато хто має дітей, онуків, сусідів або друзів, які можуть допомогти. Більшості приємно допомагати!",
+            "howToContact": "Просто попросіть - більшість із задоволенням погодиться",
+            "price": "Безкоштовно (і товариське!)"
           },
           {
             "name": "NAV",
-            "description": "Hvis du trenger hjelp med å bruke NAV sine tjenester, kan du få veiledning på ditt lokale NAV-kontor.",
-            "howToContact": "Ring 55 55 33 33 eller besøk NAV-kontoret",
-            "price": "Gratis"
+            "description": "Якщо вам потрібна допомога з використанням послуг NAV, ви можете отримати консультацію у місцевому офісі NAV.",
+            "howToContact": "Зателефонуйте 55 55 33 33 або відвідайте офіс NAV",
+            "price": "Безкоштовно"
           }
         ],
-        "tipsTitle": "Tips når du ber om hjelp",
+        "tipsTitle": "Поради при зверненні за допомогою",
         "tips": [
-          "Skriv ned spørsmålene dine før du møter hjelperen",
-          "Be om at de viser deg sakte - du skal lære selv, ikke bare se på",
-          "Ikke vær flau - alle har vært nybegynnere en gang",
-          "Ta notater eller be om å få skrevet ned instruksjoner",
-          "Spør om du kan ringe hvis du glemmer hvordan du gjør det"
+          "Запишіть свої питання перед зустріччю з помічником",
+          "Попросіть показувати повільно - ви маєте вчитися самі, а не просто дивитися",
+          "Не соромтеся - всі колись були новачками",
+          "Робіть нотатки або попросіть записати інструкції",
+          "Запитайте, чи можете зателефонувати, якщо забудете, як щось робити"
         ]
       }
     }
@@ -3655,5 +3701,77 @@
     "placeholder": "Шукати посібники... (напр. безробіття, рецепт, податок)",
     "noResults": "Немає результатів для",
     "tryOther": "Спробуйте інші ключові слова або перегляньте наші категорії"
+  },
+  "privacy": {
+    "title": "Політика конфіденційності",
+    "backToHome": "Повернутися на головну",
+    "lastUpdated": "Останнє оновлення: Січень 2025",
+    "whoAreWe": {
+      "title": "Хто ми?",
+      "text1": "LettDigital - це інформаційна служба, яка допомагає людям користуватися цифровими державними послугами. Ми не є частиною NAV, Податкової служби чи Охорони здоров'я Норвегії, але надаємо поради на основі публічно доступної інформації.",
+      "contact": "Контакт: kontakt@lettdigital.no"
+    },
+    "dataCollection": {
+      "title": "Які дані ми збираємо?",
+      "intro": "Ми збираємо мінімум даних і лише те, що необхідно для роботи сайту:",
+      "localSettings": "Локальні налаштування: Розмір тексту, режим контрастності та обране зберігаються лише у вашому браузері (localStorage)",
+      "cookieConsent": "Згода на cookies: Ми запам'ятовуємо, чи ви прийняли або відхилили cookies",
+      "notCollected": "Ми не збираємо:",
+      "personalInfo": "Особисту інформацію (ім'я, електронна пошта, телефон)",
+      "ipAddress": "IP-адреси для відстеження",
+      "serviceUsage": "Інформацію про ваше використання державних послуг",
+      "thirdPartyData": "Дані, які передаються третім сторонам для реклами"
+    },
+    "cookies": {
+      "title": "Cookies (файли cookie)",
+      "intro": "Ми використовуємо лише необхідні cookies, які зберігаються локально у вашому браузері:",
+      "tableHeaders": {
+        "name": "Назва",
+        "purpose": "Призначення",
+        "duration": "Тривалість"
+      },
+      "cookieConsent": {
+        "name": "cookie-consent",
+        "purpose": "Запам'ятовує ваш вибір щодо cookies",
+        "duration": "Постійно"
+      },
+      "favorites": {
+        "name": "favorites",
+        "purpose": "Ваше збережене обране",
+        "duration": "Постійно"
+      },
+      "accessibility": {
+        "name": "accessibility",
+        "purpose": "Розмір тексту та контрастність",
+        "duration": "Постійно"
+      },
+      "noAnalytics": "Ми не використовуємо аналітичні cookies (як Google Analytics) або рекламні cookies."
+    },
+    "thirdParties": {
+      "title": "Передача третім сторонам",
+      "noSharing": "Ми не передаємо дані третім сторонам. Вся інформація залишається у вашому браузері.",
+      "hosting": "Сайт розміщений на Vercel, який може реєструвати технічну інформацію (IP-адреса, тип браузера) з метою безпеки.",
+      "vercelLink": "Дивіться політику конфіденційності Vercel для отримання додаткової інформації."
+    },
+    "yourRights": {
+      "title": "Ваші права",
+      "intro": "Відповідно до GDPR та норвезького законодавства про захист даних, ви маєте право:",
+      "delete": "Видалити дані: Очистіть локальне сховище браузера, щоб видалити всі налаштування",
+      "access": "Отримати доступ: Всі дані зберігаються локально у вашому браузері і доступні для вас",
+      "withdraw": "Відкликати згоду: Ви можете видалити cookies в налаштуваннях браузера в будь-який час"
+    },
+    "security": {
+      "title": "Безпека",
+      "text": "Сайт використовує HTTPS-шифрування для безпечного зв'язку. Оскільки ми не збираємо персональні дані, ризик витоку даних мінімальний."
+    },
+    "contactUs": {
+      "title": "Зв'яжіться з нами",
+      "text": "Маєте питання щодо конфіденційності? Зв'яжіться з нами:",
+      "email": "kontakt@lettdigital.no"
+    },
+    "updates": {
+      "title": "Зміни в політиці конфіденційності",
+      "text": "Ми можемо оновлювати цю політику за потреби. Про суттєві зміни буде повідомлено на сайті."
+    }
   }
 }

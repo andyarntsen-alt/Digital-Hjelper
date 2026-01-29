@@ -154,7 +154,7 @@ export default function SearchBox() {
           id="search-results"
           className="absolute top-full left-0 right-0 mt-2 bg-white rounded-xl shadow-2xl border border-gray-200 max-h-[50vh] sm:max-h-80 md:max-h-96 overflow-y-auto z-50 overscroll-contain"
           role="listbox"
-          aria-label="Søkeresultater"
+          aria-label={tCommon('aria.searchResults')}
         >
           {results.map((result, index) => (
             <button
