@@ -42,6 +42,11 @@ export default function Footer() {
                   📍 {tCities('viewAll')}
                 </Link>
               </li>
+              <li>
+                <Link href="/om" className="text-gray-300 hover:text-white active:text-white no-underline inline-block py-1">
+                  {t('about')}
+                </Link>
+              </li>
             </ul>
           </div>
 

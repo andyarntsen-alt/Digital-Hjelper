@@ -14,11 +14,11 @@ export default function OmPage() {
     <>
       {/* E-E-A-T: Person Schema for author */}
       <PersonSchema
-        name="[DITT NAVN]"
-        jobTitle="Grunnlegger og digital veileder"
+        name="Andreas"
+        jobTitle="Grunnlegger"
         description="Hjelper nordmenn med å navigere offentlige digitale tjenester"
         url={`/${locale}/om`}
-        sameAs={[]}
+        sameAs={["https://www.linkedin.com/in/andreas-arntsen-85832929a/"]}
       />
       <OrganizationSchema locale={locale} />
 
@@ -43,18 +43,15 @@ export default function OmPage() {
               </div>
               <div>
                 <h2 className="text-2xl font-bold mb-2 text-gray-800">Hvem står bak?</h2>
-                <p className="text-xl font-semibold text-nav-blue mb-1">[DITT NAVN]</p>
-                <p className="text-gray-600 mb-3">Grunnlegger og digital veileder</p>
+                <p className="text-xl font-semibold text-nav-blue mb-1">Andreas</p>
+                <p className="text-gray-600 mb-3">Grunnlegger</p>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  [KORT BIO: F.eks. "Med over X års erfaring innen IT og digital veiledning,
-                  har jeg hjulpet hundrevis av mennesker med å mestre digitale tjenester.
                   Jeg brenner for at alle skal kunne delta i det digitale samfunnet,
-                  uavhengig av alder eller teknisk bakgrunn."]
+                  uavhengig av alder eller teknisk bakgrunn.
                 </p>
                 <div className="flex flex-wrap gap-3">
-                  {/* Legg til dine lenker her */}
                   <a
-                    href="https://www.linkedin.com/in/[DIN-LINKEDIN]"
+                    href="https://www.linkedin.com/in/andreas-arntsen-85832929a/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-nav-blue hover:underline"
@@ -77,37 +74,6 @@ export default function OmPage() {
             <p className="text-gray-700 leading-relaxed">
               {t('missionText')}
             </p>
-          </div>
-
-          {/* E-E-A-T: Erfaring og ekspertise */}
-          <div className="card mb-8 bg-green-50 border-l-4 border-green-500">
-            <h2 className="text-2xl font-bold mb-4">✅ Vår erfaring</h2>
-            <ul className="space-y-3 text-gray-700">
-              <li className="flex items-start gap-3">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-600 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                </svg>
-                <span><strong>[X] år</strong> med erfaring innen digital veiledning</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-600 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                </svg>
-                <span>Hjulpet <strong>[X] personer</strong> med NAV, Helsenorge og Skatteetaten</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-600 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                </svg>
-                <span>Alle guider er <strong>testet personlig</strong> før publisering</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-600 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                </svg>
-                <span>Oppdateres <strong>regelmessig</strong> basert på endringer i tjenestene</span>
-              </li>
-            </ul>
           </div>
 
           <div className="card mb-8">
