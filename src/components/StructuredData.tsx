@@ -39,7 +39,8 @@ export function WebSiteSchema({ locale }: WebSiteSchemaProps) {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'LettDigital',
-    url: `https://www.lettdigital.no/${locale}`,
+    alternateName: 'Lett Digital',
+    url: 'https://www.lettdigital.no',
     potentialAction: {
       '@type': 'SearchAction',
       target: {
@@ -131,6 +132,105 @@ export function FAQSchema({ questions }: FAQSchemaProps) {
         text: q.answer
       }
     }))
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+// E-E-A-T: Article Schema for guides
+interface ArticleSchemaProps {
+  title: string;
+  description: string;
+  url: string;
+  datePublished: string;
+  dateModified: string;
+  author?: {
+    name: string;
+    url?: string;
+    jobTitle?: string;
+  };
+  locale: string;
+}
+
+export function ArticleSchema({
+  title,
+  description,
+  url,
+  datePublished,
+  dateModified,
+  author,
+  locale
+}: ArticleSchemaProps) {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: title,
+    description,
+    url: `https://www.lettdigital.no${url}`,
+    datePublished,
+    dateModified,
+    inLanguage: locale === 'no' ? 'nb-NO' : locale,
+    author: author ? {
+      '@type': 'Person',
+      name: author.name,
+      url: author.url || 'https://www.lettdigital.no/no/om',
+      jobTitle: author.jobTitle
+    } : {
+      '@type': 'Organization',
+      name: 'LettDigital',
+      url: 'https://www.lettdigital.no'
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'LettDigital',
+      url: 'https://www.lettdigital.no',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.lettdigital.no/icons/icon-512x512.png'
+      }
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `https://www.lettdigital.no${url}`
+    }
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+// E-E-A-T: Person Schema for author pages
+interface PersonSchemaProps {
+  name: string;
+  jobTitle: string;
+  description: string;
+  url: string;
+  sameAs?: string[];
+}
+
+export function PersonSchema({ name, jobTitle, description, url, sameAs }: PersonSchemaProps) {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name,
+    jobTitle,
+    description,
+    url: `https://www.lettdigital.no${url}`,
+    worksFor: {
+      '@type': 'Organization',
+      name: 'LettDigital',
+      url: 'https://www.lettdigital.no'
+    },
+    sameAs: sameAs || []
   };
 
   return (
