@@ -10,6 +10,13 @@ interface Favorite {
   addedAt: string;
 }
 
+// Konverterer guideId (f.eks. "nav-logg-inn") til URL (f.eks. "/nav/logg-inn")
+function guideIdToHref(guideId: string): string {
+  const firstDash = guideId.indexOf('-');
+  if (firstDash === -1) return `/${guideId}`;
+  return `/${guideId.substring(0, firstDash)}/${guideId.substring(firstDash + 1)}`;
+}
+
 export default function FavoritterPage() {
   const [mounted, setMounted] = useState(false);
   const [favorites, setFavorites] = useState<Favorite[]>([]);
@@ -85,7 +92,7 @@ export default function FavoritterPage() {
           {favorites.map((favorite) => (
             <div key={favorite.id} className="card flex items-center justify-between">
               <div>
-                <Link href={`/${favorite.id}`} className="text-xl font-semibold text-gray-800 hover:text-nav-blue">
+                <Link href={guideIdToHref(favorite.id)} className="text-xl font-semibold text-gray-800 hover:text-nav-blue">
                   {favorite.title}
                 </Link>
                 <p className="text-gray-500 text-sm">
@@ -94,7 +101,7 @@ export default function FavoritterPage() {
               </div>
               <div className="flex items-center gap-3">
                 <Link
-                  href={`/${favorite.id}`}
+                  href={guideIdToHref(favorite.id)}
                   className="px-4 py-2 bg-nav-blue text-white rounded-lg hover:bg-nav-dark no-underline"
                 >
                   {tCommon('open')}

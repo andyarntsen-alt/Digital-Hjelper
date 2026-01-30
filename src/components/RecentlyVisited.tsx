@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { Link } from '@/i18n/navigation';
-import { useLocale, useTranslations } from 'next-intl';
+import { useTranslations } from 'next-intl';
 import { getStorageItem, setStorageItem } from '@/utils/storage';
 import { getGuideByHref, CATEGORY_COLORS, CATEGORY_ICONS, type GuideData } from '@/data/guides';
 
@@ -36,7 +36,6 @@ export function trackGuideVisit(href: string) {
  * Viser de sist besøkte guidene
  */
 export default function RecentlyVisited() {
-  const locale = useLocale();
   const t = useTranslations('recentlyVisited');
   const tGuides = useTranslations('guides');
   const [recentGuides, setRecentGuides] = useState<GuideData[]>([]);
@@ -71,7 +70,7 @@ export default function RecentlyVisited() {
           {recentGuides.map((guide) => (
             <Link
               key={guide.href}
-              href={`/${locale}${guide.href}`}
+              href={guide.href}
               className="flex-shrink-0 group bg-white border-2 border-gray-200 rounded-lg p-3 hover:border-nav-blue active:border-nav-blue hover:shadow-md transition-all duration-200 no-underline min-w-[200px] sm:min-w-0 sm:flex-1 sm:max-w-[250px]"
             >
               <div className="flex items-center gap-3">
