@@ -8,7 +8,6 @@ const byer = [
   {
     navn: "Oslo",
     slug: "oslo",
-    emoji: "🏙️",
     innbyggere: "700 000+",
     beskrivelse: "Norges hovedstad med NAV-kontorer i alle bydeler",
     navKontorer: 15
@@ -16,7 +15,6 @@ const byer = [
   {
     navn: "Bergen",
     slug: "bergen",
-    emoji: "🏔️",
     innbyggere: "285 000+",
     beskrivelse: "Vestlandets hovedstad med fire NAV-kontorer",
     navKontorer: 4
@@ -24,7 +22,6 @@ const byer = [
   {
     navn: "Trondheim",
     slug: "trondheim",
-    emoji: "⛪",
     innbyggere: "210 000+",
     beskrivelse: "Teknologihovedstaden i Midt-Norge",
     navKontorer: 4
@@ -32,7 +29,6 @@ const byer = [
   {
     navn: "Stavanger",
     slug: "stavanger",
-    emoji: "🛢️",
     innbyggere: "145 000+",
     beskrivelse: "Oljehovedstaden med fem NAV-kontorer",
     navKontorer: 5
@@ -40,7 +36,6 @@ const byer = [
   {
     navn: "Kristiansand",
     slug: "kristiansand",
-    emoji: "⛵",
     innbyggere: "115 000+",
     beskrivelse: "Sørlandets hovedstad med sentralt NAV-kontor",
     navKontorer: 1
@@ -99,9 +94,6 @@ export default function ByerPage() {
           {byer.map((by) => (
             <Link key={by.slug} href={`/byer/${by.slug}`} className="no-underline">
               <div className="card hover:shadow-xl transition-all duration-200 hover:border-blue-500 h-full">
-                <div className="text-center mb-4">
-                  <span className="text-5xl">{by.emoji}</span>
-                </div>
                 <h2 className="text-2xl font-bold text-gray-800 text-center mb-2">{by.navn}</h2>
                 <p className="text-gray-500 text-center text-sm mb-3">{by.innbyggere} innbyggere</p>
                 <p className="text-gray-600 text-center mb-4">{by.beskrivelse}</p>

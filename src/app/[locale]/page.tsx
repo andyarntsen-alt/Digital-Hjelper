@@ -232,23 +232,18 @@ export default async function Home({
 
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
             <Link href="/byer/oslo" className="bg-white rounded-xl p-4 shadow-md hover:shadow-lg transition-shadow text-center no-underline">
-              <span className="text-3xl mb-2 block">🏙️</span>
               <p className="font-bold text-gray-800">Oslo</p>
             </Link>
             <Link href="/byer/bergen" className="bg-white rounded-xl p-4 shadow-md hover:shadow-lg transition-shadow text-center no-underline">
-              <span className="text-3xl mb-2 block">🏔️</span>
               <p className="font-bold text-gray-800">Bergen</p>
             </Link>
             <Link href="/byer/trondheim" className="bg-white rounded-xl p-4 shadow-md hover:shadow-lg transition-shadow text-center no-underline">
-              <span className="text-3xl mb-2 block">⛪</span>
               <p className="font-bold text-gray-800">Trondheim</p>
             </Link>
             <Link href="/byer/stavanger" className="bg-white rounded-xl p-4 shadow-md hover:shadow-lg transition-shadow text-center no-underline">
-              <span className="text-3xl mb-2 block">🛢️</span>
               <p className="font-bold text-gray-800">Stavanger</p>
             </Link>
             <Link href="/byer/kristiansand" className="bg-white rounded-xl p-4 shadow-md hover:shadow-lg transition-shadow text-center no-underline">
-              <span className="text-3xl mb-2 block">⛵</span>
               <p className="font-bold text-gray-800">Kristiansand</p>
             </Link>
           </div>
