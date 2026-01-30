@@ -217,6 +217,53 @@ export default async function Home({
         </div>
       </section>
 
+      {/* Finn tjenester i din by */}
+      <section className="py-12 sm:py-16 bg-gray-50">
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="text-center mb-8">
+            <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <span className="text-3xl">📍</span>
+            </div>
+            <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-3">{t('citiesTitle')}</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              {t('citiesDesc')}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+            <Link href="/byer/oslo" className="bg-white rounded-xl p-4 shadow-md hover:shadow-lg transition-shadow text-center no-underline">
+              <span className="text-3xl mb-2 block">🏙️</span>
+              <p className="font-bold text-gray-800">Oslo</p>
+            </Link>
+            <Link href="/byer/bergen" className="bg-white rounded-xl p-4 shadow-md hover:shadow-lg transition-shadow text-center no-underline">
+              <span className="text-3xl mb-2 block">🏔️</span>
+              <p className="font-bold text-gray-800">Bergen</p>
+            </Link>
+            <Link href="/byer/trondheim" className="bg-white rounded-xl p-4 shadow-md hover:shadow-lg transition-shadow text-center no-underline">
+              <span className="text-3xl mb-2 block">⛪</span>
+              <p className="font-bold text-gray-800">Trondheim</p>
+            </Link>
+            <Link href="/byer/stavanger" className="bg-white rounded-xl p-4 shadow-md hover:shadow-lg transition-shadow text-center no-underline">
+              <span className="text-3xl mb-2 block">🛢️</span>
+              <p className="font-bold text-gray-800">Stavanger</p>
+            </Link>
+            <Link href="/byer/kristiansand" className="bg-white rounded-xl p-4 shadow-md hover:shadow-lg transition-shadow text-center no-underline">
+              <span className="text-3xl mb-2 block">⛵</span>
+              <p className="font-bold text-gray-800">Kristiansand</p>
+            </Link>
+          </div>
+
+          <div className="text-center mt-6">
+            <Link href="/byer" className="text-nav-blue hover:underline font-semibold inline-flex items-center gap-2">
+              {t('citiesViewAll')}
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* For hjelpere */}
       <section className="py-12 sm:py-16 bg-purple-50">
         <div className="max-w-4xl mx-auto px-4">

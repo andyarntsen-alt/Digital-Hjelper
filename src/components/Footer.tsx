@@ -7,6 +7,7 @@ import FeedbackForm from './FeedbackForm';
 export default function Footer() {
   const t = useTranslations('footer');
   const tHeader = useTranslations('header');
+  const tCities = useTranslations('cities');
   return (
     <footer className="bg-gray-800 text-white mt-16 safe-area-bottom">
       <div className="max-w-6xl mx-auto px-4 py-8 sm:py-12">
@@ -34,6 +35,11 @@ export default function Footer() {
               <li>
                 <Link href="/helse" className="text-gray-300 hover:text-white active:text-white no-underline inline-block py-1">
                   {tHeader('helse')}
+                </Link>
+              </li>
+              <li>
+                <Link href="/byer" className="text-gray-300 hover:text-white active:text-white no-underline inline-block py-1">
+                  📍 {tCities('viewAll')}
                 </Link>
               </li>
             </ul>

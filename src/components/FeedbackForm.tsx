@@ -8,6 +8,7 @@ export default function FeedbackForm() {
   const [isOpen, setIsOpen] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [error, setError] = useState(false);
   const [rating, setRating] = useState<string>('');
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -21,6 +22,7 @@ export default function FeedbackForm() {
     const data = Object.fromEntries(formData.entries());
 
     try {
+      setError(false);
       const response = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
         headers: {
@@ -30,13 +32,18 @@ export default function FeedbackForm() {
         body: JSON.stringify(data),
       });
 
-      if (response.ok) {
+      const result = await response.json();
+      if (response.ok && result.success) {
         setIsSubmitted(true);
         form.reset();
         setRating('');
+      } else {
+        console.error('Web3Forms error:', result);
+        setError(true);
       }
-    } catch (error) {
-      console.error('Error submitting form:', error);
+    } catch (err) {
+      console.error('Error submitting form:', err);
+      setError(true);
     } finally {
       setIsSubmitting(false);
     }
@@ -151,6 +158,10 @@ export default function FeedbackForm() {
             t('submit')
           )}
         </button>
+
+        {error && (
+          <p className="text-red-400 text-xs text-center">{t('error')}</p>
+        )}
       </form>
     </div>
   );

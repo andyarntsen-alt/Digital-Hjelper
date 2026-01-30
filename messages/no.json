@@ -96,7 +96,8 @@
     "submit": "Send tilbakemelding",
     "sending": "Sender...",
     "thankYou": "Takk for tilbakemeldingen!",
-    "thankYouMessage": "Vi setter stor pris på at du tar deg tid til å hjelpe oss bli bedre."
+    "thankYouMessage": "Vi setter stor pris på at du tar deg tid til å hjelpe oss bli bedre.",
+    "error": "Noe gikk galt. Prøv igjen senere."
   },
   "accessibility": {
     "title": "Tilgjengelighet",
@@ -166,7 +167,48 @@
     "helperTip2Title": "Søk etter det du trenger",
     "helperTip2Desc": "Bruk søkefeltet øverst for å finne guider raskt. Søk på stikkord som 'BankID' eller 'skattemelding'.",
     "helperTip3Title": "Lagre favoritter",
-    "helperTip3Desc": "Marker guider som favoritter så du finner dem igjen. Perfekt for guider du bruker ofte."
+    "helperTip3Desc": "Marker guider som favoritter så du finner dem igjen. Perfekt for guider du bruker ofte.",
+    "citiesTitle": "Finn tjenester i din by",
+    "citiesDesc": "Lokale NAV-kontorer, legevakter og offentlige tjenester",
+    "citiesViewAll": "Se alle byer"
+  },
+  "cities": {
+    "title": "Offentlige tjenester i din by",
+    "subtitle": "Finn lokale NAV-kontorer, helsetjenester og mer",
+    "description": "Velg din by for å finne lokale NAV-kontorer, legevakter og andre offentlige tjenester med adresser, åpningstider og kontaktinformasjon.",
+    "viewAll": "Se alle byer",
+    "navOffices": "NAV-kontorer",
+    "healthServices": "Helsetjenester",
+    "taxOffice": "Skatteetaten",
+    "emergencyRoom": "Legevakt",
+    "openingHours": "Åpningstider",
+    "address": "Adresse",
+    "phone": "Telefon",
+    "publicTransport": "Kollektivtransport",
+    "usefulLinks": "Nyttige lenker",
+    "otherCities": "Andre byer",
+    "faq": "Vanlige spørsmål",
+    "lastUpdated": "Sist oppdatert",
+    "oslo": {
+      "name": "Oslo",
+      "description": "Norges hovedstad med NAV-kontorer i alle bydeler"
+    },
+    "bergen": {
+      "name": "Bergen",
+      "description": "Vestlandets hovedstad med fire NAV-kontorer"
+    },
+    "trondheim": {
+      "name": "Trondheim",
+      "description": "Teknologihovedstaden i Midt-Norge"
+    },
+    "stavanger": {
+      "name": "Stavanger",
+      "description": "Oljehovedstaden med fem NAV-kontorer"
+    },
+    "kristiansand": {
+      "name": "Kristiansand",
+      "description": "Sørlandets hovedstad med sentralt NAV-kontor"
+    }
   },
   "services": {
     "nav": {
