@@ -4524,6 +4524,9 @@
   },
   "about": {
     "title": "About LettDigital",
+    "whoBehind": "Who is behind this?",
+    "founder": "Founder",
+    "founderBio": "I am passionate about enabling everyone to participate in the digital society, regardless of age or technical background.",
     "mission": "Our mission",
     "missionIntro": "Many people in Norway, both Norwegians and newcomers, struggle with digital public services. They risk being excluded from important services like NAV, the Tax Office, and Health Norway.",
     "missionText": "LettDigital was created to make it easier for everyone to understand and use these services. We explain complicated processes with simple words, large fonts, and step-by-step guides.",
@@ -4539,6 +4542,12 @@
       "keyboard": "Keyboard navigation - All functions can be used without a mouse",
       "screenReader": "Screen reader friendly - Compatible with assistive devices"
     },
+    "ourSources": "Our sources",
+    "sourcesIntro": "All information on LettDigital is based on official sources:",
+    "sourceNav": "nav.no - Norwegian Labour and Welfare Administration",
+    "sourceHelsenorge": "helsenorge.no - Norwegian Directorate of Health",
+    "sourceSkatteetaten": "skatteetaten.no - Norwegian Tax Administration",
+    "lastUpdated": "Last updated",
     "contactUs": "Contact us",
     "contactText": "Do you have questions, suggestions for improvements, or have you found an error? We greatly appreciate feedback!",
     "importantInfo": "Important information",

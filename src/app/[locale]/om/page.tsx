@@ -15,8 +15,8 @@ export default function OmPage() {
       {/* E-E-A-T: Person Schema for author */}
       <PersonSchema
         name="Andreas"
-        jobTitle="Grunnlegger"
-        description="Hjelper nordmenn med å navigere offentlige digitale tjenester"
+        jobTitle={locale === 'no' ? 'Grunnlegger' : locale === 'en' ? 'Founder' : 'Засновник'}
+        description={locale === 'no' ? 'Hjelper nordmenn med å navigere offentlige digitale tjenester' : locale === 'en' ? 'Helps Norwegians navigate public digital services' : 'Допомагає норвежцям орієнтуватися в державних цифрових послугах'}
         url={`/${locale}/om`}
         sameAs={["https://www.linkedin.com/in/andreas-arntsen-85832929a/"]}
       />
@@ -42,12 +42,11 @@ export default function OmPage() {
                 </svg>
               </div>
               <div>
-                <h2 className="text-2xl font-bold mb-2 text-gray-800">Hvem står bak?</h2>
+                <h2 className="text-2xl font-bold mb-2 text-gray-800">{t('whoBehind')}</h2>
                 <p className="text-xl font-semibold text-nav-blue mb-1">Andreas</p>
-                <p className="text-gray-600 mb-3">Grunnlegger</p>
+                <p className="text-gray-600 mb-3">{t('founder')}</p>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  Jeg brenner for at alle skal kunne delta i det digitale samfunnet,
-                  uavhengig av alder eller teknisk bakgrunn.
+                  {t('founderBio')}
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <a
@@ -127,9 +126,9 @@ export default function OmPage() {
 
           {/* E-E-A-T: Kilder og troverdighet */}
           <div className="card mb-8">
-            <h2 className="text-2xl font-bold mb-4">📚 Våre kilder</h2>
+            <h2 className="text-2xl font-bold mb-4">📚 {t('ourSources')}</h2>
             <p className="text-gray-700 leading-relaxed mb-4">
-              All informasjon på LettDigital er basert på offisielle kilder:
+              {t('sourcesIntro')}
             </p>
             <ul className="space-y-2 text-gray-700">
               <li>
@@ -137,7 +136,7 @@ export default function OmPage() {
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                   </svg>
-                  nav.no - Arbeids- og velferdsetaten
+                  {t('sourceNav')}
                 </a>
               </li>
               <li>
@@ -145,7 +144,7 @@ export default function OmPage() {
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                   </svg>
-                  helsenorge.no - Helsedirektoratet
+                  {t('sourceHelsenorge')}
                 </a>
               </li>
               <li>
@@ -153,7 +152,7 @@ export default function OmPage() {
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                   </svg>
-                  skatteetaten.no - Skatteetaten
+                  {t('sourceSkatteetaten')}
                 </a>
               </li>
             </ul>
@@ -161,7 +160,7 @@ export default function OmPage() {
 
           {/* Sist oppdatert - E-E-A-T signal */}
           <p className="text-sm text-gray-500 mb-4">
-            <strong>Sist oppdatert:</strong> Januar 2026
+            <strong>{t('lastUpdated')}:</strong> {locale === 'no' ? 'Januar 2026' : locale === 'en' ? 'January 2026' : 'Січень 2026'}
           </p>
 
           <div className="card border-l-4 border-yellow-500 bg-yellow-50">

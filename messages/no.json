@@ -4444,6 +4444,9 @@
   },
   "about": {
     "title": "Om LettDigital",
+    "whoBehind": "Hvem står bak?",
+    "founder": "Grunnlegger",
+    "founderBio": "Jeg brenner for at alle skal kunne delta i det digitale samfunnet, uavhengig av alder eller teknisk bakgrunn.",
     "mission": "Vår misjon",
     "missionIntro": "Mange i Norge, både nordmenn og nye innbyggere, sliter med digitale offentlige tjenester. Disse risikerer å falle utenfor viktige tjenester som NAV, Skatteetaten og Helsenorge.",
     "missionText": "LettDigital ble laget for å gjøre det enklere for alle å forstå og bruke disse tjenestene. Vi forklarer kompliserte prosesser med enkle ord, store bokstaver og steg-for-steg veiledninger.",
@@ -4459,6 +4462,12 @@
       "keyboard": "Tastaturnavigasjon - Alle funksjoner kan brukes uten mus",
       "screenReader": "Skjermleser-vennlig - Kompatibel med hjelpemidler"
     },
+    "ourSources": "Våre kilder",
+    "sourcesIntro": "All informasjon på LettDigital er basert på offisielle kilder:",
+    "sourceNav": "nav.no - Arbeids- og velferdsetaten",
+    "sourceHelsenorge": "helsenorge.no - Helsedirektoratet",
+    "sourceSkatteetaten": "skatteetaten.no - Skatteetaten",
+    "lastUpdated": "Sist oppdatert",
     "contactUs": "Kontakt oss",
     "contactText": "Har du spørsmål, forslag til forbedringer, eller har du funnet en feil? Vi setter stor pris på tilbakemeldinger!",
     "importantInfo": "Viktig informasjon",
