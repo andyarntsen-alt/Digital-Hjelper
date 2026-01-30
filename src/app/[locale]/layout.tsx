@@ -20,13 +20,13 @@ const CookieBanner = dynamic(() => import('@/components/CookieBanner'), {
 });
 
 export const metadata: Metadata = {
-  title: 'LettDigital - Enkel veiledning for offentlige tjenester',
-  description: 'Vi gjør det enklere for alle å bruke NAV, Skatteetaten og Helsenorge. Steg-for-steg veiledninger med store fonter og enkelt språk.',
-  keywords: 'NAV hjelp, Skatteetaten veiledning, Helsenorge guide, digital hjelp eldre, offentlige tjenester, LettDigital',
+  title: 'LettDigital - Digital hjelp for eldre og nye i Norge | NAV, Skatt, Helse',
+  description: 'Gratis veiledning for eldre, seniorer og nye i Norge. Lær å bruke NAV, Skatteetaten og Helsenorge med enkle steg-for-steg guider på norsk, engelsk og ukrainsk.',
+  keywords: 'digital hjelp eldre, NAV hjelp nye i Norge, Skatteetaten veiledning innvandrere, Helsenorge guide ukrainsk, offentlige tjenester forklart enkelt, NAV på engelsk, digital hjelp seniorer, LettDigital',
   metadataBase: new URL('https://www.lettdigital.no'),
   openGraph: {
-    title: 'LettDigital - Enkel veiledning for alle',
-    description: 'Steg-for-steg veiledninger for NAV, Skatteetaten og Helsenorge. Enkelt språk og store bokstaver.',
+    title: 'LettDigital - Digital hjelp for eldre og nye i Norge',
+    description: 'Gratis veiledning for eldre og nye i Norge. NAV, Skatteetaten og Helsenorge forklart enkelt på norsk, engelsk og ukrainsk.',
     url: 'https://www.lettdigital.no',
     siteName: 'LettDigital',
     images: [
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
         url: '/api/og',
         width: 1200,
         height: 630,
-        alt: 'LettDigital - Enkel veiledning for offentlige tjenester',
+        alt: 'LettDigital - Digital hjelp for eldre og nye i Norge',
       },
     ],
     locale: 'nb_NO',
@@ -42,8 +42,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'LettDigital - Enkel veiledning for alle',
-    description: 'Steg-for-steg veiledninger for NAV, Skatteetaten og Helsenorge.',
+    title: 'LettDigital - Digital hjelp for eldre og nye i Norge',
+    description: 'Gratis veiledning på norsk, engelsk og ukrainsk. NAV, Skatt og Helse forklart enkelt.',
     images: ['/api/og'],
   },
   robots: {

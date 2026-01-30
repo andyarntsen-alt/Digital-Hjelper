@@ -14,8 +14,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'LettDigital - Enkel veiledning for offentlige tjenester',
-  description: 'Vi gjør det enklere for alle å bruke NAV, Skatteetaten og Helsenorge.',
+  title: 'LettDigital - Digital hjelp for eldre og nye i Norge | NAV, Skatt, Helse',
+  description: 'Gratis digital hjelp for eldre og nye i Norge. NAV, Skatteetaten og Helsenorge forklart enkelt på norsk, engelsk og ukrainsk.',
 };
 
 export default function RootLayout({
