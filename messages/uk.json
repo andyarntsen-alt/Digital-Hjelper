@@ -3759,11 +3759,32 @@
     "missingWord": "Бракує слова?",
     "missingWordText": "Надішліть нам електронний лист на kontakt@lettdigital.no, якщо є слово, яке ви хотіли б пояснити, і ми його додамо!",
     "terms": [
-      {"term": "BankID", "definition": "Digital identification used to log in to public services and banks.", "category": "Digital"},
-      {"term": "Dagpenger", "definition": "Money from NAV when you lose your job or are laid off.", "category": "NAV"},
-      {"term": "Skattemelding", "definition": "Annual overview of your income, deductions and taxes.", "category": "Skatt"},
-      {"term": "Fastlege", "definition": "Your regular doctor that you are assigned to in Norway.", "category": "Helse"},
-      {"term": "Meldekort", "definition": "Form you submit to NAV every 14 days to receive benefits.", "category": "NAV"}
+      {"term": "Arbeidsavklaringspenger (AAP)", "definition": "Гроші від NAV, якщо ви не можете працювати через хворобу або травму і потребуєте допомоги для повернення на роботу.", "example": "Після 1 року на лікарняних можете подати заяву на AAP.", "category": "NAV"},
+      {"term": "Barnetrygd", "definition": "Гроші, які всі батьки автоматично отримують від NAV на дітей до 18 років.", "example": "Barnetrygd виплачується 10-го числа кожного місяця.", "category": "NAV"},
+      {"term": "BankID", "definition": "Цифрова ідентифікація для входу в державні послуги та банки. Як електронний підпис.", "example": "Вам потрібен BankID для входу на nav.no.", "category": "Digital"},
+      {"term": "Dagpenger", "definition": "Гроші від NAV, коли ви втратили роботу або перебуваєте у відпустці через скорочення.", "example": "Dagpenger становлять близько 62% від вашої зарплати.", "category": "NAV"},
+      {"term": "Fastlege", "definition": "Ваш постійний лікар, до якого ви прикріплені в Норвегії. Перший контакт при хворобі.", "example": "Зверніться до свого fastlege, якщо ви хворі.", "category": "Helse"},
+      {"term": "Fedrekvote", "definition": "Частина батьківської відпустки, яка зарезервована для батька або другої матері. Не може бути передана матері.", "example": "Fedrekvote становить 15 тижнів.", "category": "NAV"},
+      {"term": "Folkeregisteret", "definition": "Офіційний реєстр, де зареєстровані всі жителі Норвегії з адресами та сімейними зв'язками.", "example": "Ви повинні зареєструвати переїзд у Folkeregisteret.", "category": "Digital"},
+      {"term": "Foreldrepenger", "definition": "Гроші від NAV, коли у вас народилася дитина і ви у відпустці з роботи.", "example": "Foreldrepenger можуть ділитися між матір'ю та батьком.", "category": "NAV"},
+      {"term": "Frikort", "definition": "Картка, яку ви отримуєте, коли сплатили достатньо власних коштів за охорону здоров'я за рік.", "example": "З frikort ви не платите за візити до лікаря решту року.", "category": "Helse"},
+      {"term": "Grunnbeløpet (G)", "definition": "Сума, яка використовується для розрахунку багатьох виплат від NAV. Коригується щороку.", "example": "У 2024 році G становить близько 118 620 крон.", "category": "NAV"},
+      {"term": "Helsenorge", "definition": "Веб-сайт, де ви можете бачити медичні записи, рецепти та замовляти прийом до лікаря.", "example": "Увійдіть на helsenorge.no, щоб побачити свої рецепти.", "category": "Helse"},
+      {"term": "Kontantstøtte", "definition": "Підтримка для батьків, які доглядають за дітьми вдома замість використання дитячого садка.", "example": "Можете отримати kontantstøtte на дітей віком 1-2 роки.", "category": "NAV"},
+      {"term": "Legevakt", "definition": "Невідкладна медична допомога поза робочим часом вашого лікаря. Для термінових, але не небезпечних для життя випадків.", "example": "Телефон legevakt: 116 117.", "category": "Helse"},
+      {"term": "Meldekort", "definition": "Форма, яку ви надсилаєте до NAV кожні 14 днів, щоб повідомити про роботу, хворобу або пошук роботи.", "example": "Надішліть meldekort, щоб отримати dagpenger.", "category": "NAV"},
+      {"term": "MinID", "definition": "Простіша форма цифрової ідентифікації для державних послуг. Менш безпечна, ніж BankID.", "example": "MinID використовує пароль та SMS-код.", "category": "Digital"},
+      {"term": "Mødrekvote", "definition": "Частина батьківської відпустки, яка зарезервована для матері. Не може бути передана батькові.", "example": "Mødrekvote становить 15 тижнів.", "category": "NAV"},
+      {"term": "Personnummer", "definition": "Ваш 11-значний норвезький особистий номер. Використовується для всіх офіційних цілей.", "example": "Personnummer = дата народження + 5 цифр.", "category": "Digital"},
+      {"term": "Permittert", "definition": "Коли роботодавець тимчасово не має для вас роботи. Ви все ще працевлаштовані, але без зарплати.", "example": "При permittert можете отримати dagpenger.", "category": "NAV"},
+      {"term": "Resept", "definition": "Рецепт від лікаря, який дозволяє купити ліки в аптеці.", "example": "Resepter видно на helsenorge.no.", "category": "Helse"},
+      {"term": "Skattemelding", "definition": "Річний огляд ваших доходів, відрахувань та податків від Skatteetaten.", "example": "Skattemelding надходить у березні.", "category": "Skatt"},
+      {"term": "Skattekort", "definition": "Документ, який показує, скільки податку ваш роботодавець повинен утримувати із зарплати.", "example": "Skattekort зазвичай оновлюється автоматично.", "category": "Skatt"},
+      {"term": "Skatteoppgjør", "definition": "Результат після обробки вашої податкової декларації - чи повинні ви платити чи отримаєте повернення.", "example": "Skatteoppgjør надходить влітку.", "category": "Skatt"},
+      {"term": "Sykepenger", "definition": "Гроші від NAV, коли ви хворієте і не можете працювати. Вимагає лікарняний лист.", "example": "Sykepenger - 100% зарплати до 1 року.", "category": "NAV"},
+      {"term": "Sykemelding", "definition": "Документ від лікаря, який підтверджує, що ви хворі і не можете працювати.", "example": "Вам потрібна sykemelding після 3 днів хвороби.", "category": "Helse"},
+      {"term": "Trygdeavgift", "definition": "Внесок на соціальне страхування, який ви платите з усього доходу. Фінансує NAV.", "example": "Trygdeavgift становить 7,9% від зарплати.", "category": "Skatt"},
+      {"term": "Uføretrygd", "definition": "Постійна підтримка доходу для тих, хто не може працювати через хворобу чи інвалідність.", "example": "Uføretrygd можна отримати після AAP.", "category": "NAV"}
     ]
   },
   "faq": {
@@ -3780,11 +3801,16 @@
     "contactAgencies": "Ви можете зв'язатися безпосередньо з установами для додаткової допомоги:",
     "weekdays": "Будні",
     "items": [
-      {"question": "What do I do if I've lost my job?", "answer": "First, you need to register as a job seeker at nav.no. Then you can apply for unemployment benefits if you meet the requirements.", "category": "NAV"},
-      {"question": "How long does it take to get a response to a NAV application?", "answer": "Processing time varies: Unemployment benefits usually take 3-4 weeks. Sick pay takes 2-4 weeks.", "category": "NAV"},
-      {"question": "When does the tax return arrive?", "answer": "The tax return usually becomes available in March. The deadline to check and submit changes is April 30th.", "category": "Skatt"},
-      {"question": "How do I change my GP?", "answer": "Log in to helsenorge.no, go to GP and select Change GP. You can change up to 2 times per year.", "category": "Helse"},
-      {"question": "I don't have BankID - what do I do?", "answer": "Contact your bank to get BankID. You can also use MinID for some services.", "category": "Digital"}
+      {"question": "Що робити, якщо я втратив роботу?", "answer": "Спочатку вам потрібно зареєструватися як шукач роботи на nav.no. Потім ви можете подати заяву на допомогу по безробіттю, якщо відповідаєте вимогам. Ви повинні заробити щонайменше 186 042 крон за останній рік або 372 084 крони за останні 3 роки.", "category": "NAV"},
+      {"question": "Скільки часу займає отримання відповіді на заяву в NAV?", "answer": "Час обробки різний: допомога по безробіттю зазвичай займає 3-4 тижні. Лікарняні - 2-4 тижні. Декретні виплати - 4-6 тижнів. Ви можете перевірити статус заявки в розділі «Мої справи» на nav.no.", "category": "NAV"},
+      {"question": "Що станеться, якщо я забуду надіслати картку звітності?", "answer": "Тоді ви не отримаєте виплату за цей період. Ви можете надіслати картку звітності до 8 днів із запізненням, але отримаєте зменшену виплату. Після 8 днів ви втрачаєте гроші за цей період.", "category": "NAV"},
+      {"question": "Чи можу я їздити за кордон, отримуючи допомогу по безробіттю?", "answer": "Ви можете взяти відпустку до 4 тижнів на рік, але не отримуватимете допомогу за дні відпустки. Ви повинні подати заяву до NAV на схвалення ДО поїздки.", "category": "NAV"},
+      {"question": "Яка різниця між лікарняними та AAP?", "answer": "Лікарняні ви отримуєте, коли тимчасово хворієте (до 1 року). AAP - для тих, хто все ще хворий після закінчення лікарняних і потребує допомоги для повернення на роботу.", "category": "NAV"},
+      {"question": "Коли надходить податкова декларація?", "answer": "Податкова декларація зазвичай стає доступною в березні. Ви отримаєте повідомлення через SMS або електронну пошту. Термін для перевірки та внесення змін - 30 квітня.", "category": "Skatt"},
+      {"question": "Що таке мінімальний податок?", "answer": "Мінімальний податок - це стандартне відрахування, яке автоматично надається тим, хто працює. Воно замінює окремі відрахування і становить 46% від доходу (макс. близько 109 950 крон).", "category": "Skatt"},
+      {"question": "Як змінити сімейного лікаря?", "answer": "Увійдіть на helsenorge.no, перейдіть до розділу «Сімейний лікар» і виберіть «Змінити лікаря». Ви можете змінювати до 2 разів на рік.", "category": "Helse"},
+      {"question": "Що таке направлення?", "answer": "Направлення - це документ від вашого сімейного лікаря, який дає вам право звернутися до спеціаліста або в лікарню. Без направлення зазвичай не можна потрапити до спеціаліста.", "category": "Helse"},
+      {"question": "У мене немає BankID - що робити?", "answer": "Зверніться до свого банку, щоб отримати BankID. Вам потрібен норвезький особистий номер і дійсний документ. Для деяких послуг ви також можете використовувати MinID.", "category": "Digital"}
     ]
   },
   "favorites": {
