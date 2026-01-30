@@ -1,8 +1,11 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import Script from 'next/script';
 import { Analytics } from '@vercel/analytics/next';
 import ServiceWorkerRegistration from '@/components/ServiceWorkerRegistration';
 import './globals.css';
+
+const GA_MEASUREMENT_ID = 'G-Q0S1HYEQ9T';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -28,6 +31,20 @@ export default function RootLayout({
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta name="apple-mobile-web-app-title" content="LettDigital" />
+
+        {/* Google Analytics */}
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_MEASUREMENT_ID}');
+          `}
+        </Script>
       </head>
       <body className={`${inter.className} bg-gray-50 min-h-screen flex flex-col`}>
         <noscript>
