@@ -8,7 +8,10 @@ import './globals.css';
 
 const GA_MEASUREMENT_ID = 'G-Q0S1HYEQ9T';
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({
+  subsets: ['latin', 'latin-ext', 'cyrillic', 'cyrillic-ext'],
+  display: 'swap',
+});
 
 export const metadata: Metadata = {
   title: 'LettDigital - Enkel veiledning for offentlige tjenester',

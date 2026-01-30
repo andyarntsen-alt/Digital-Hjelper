@@ -1,16 +1,23 @@
 import type { Metadata } from 'next';
+import dynamic from 'next/dynamic';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import AccessibilityToolbar from '@/components/AccessibilityToolbar';
-import CookieBanner from '@/components/CookieBanner';
 import { OrganizationSchema, WebSiteSchema } from '@/components/StructuredData';
 import LanguageHtmlUpdater from '@/components/LanguageHtmlUpdater';
 import HreflangTags from '@/components/HreflangTags';
 import { ToastProvider } from '@/contexts/ToastContext';
+
+// Dynamic imports for better performance - these load after initial page render
+const AccessibilityToolbar = dynamic(() => import('@/components/AccessibilityToolbar'), {
+  ssr: false,
+});
+const CookieBanner = dynamic(() => import('@/components/CookieBanner'), {
+  ssr: false,
+});
 
 export const metadata: Metadata = {
   title: 'LettDigital - Enkel veiledning for offentlige tjenester',

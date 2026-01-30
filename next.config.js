@@ -8,6 +8,26 @@ const nextConfig = {
 
   async headers() {
     return [
+      // Cache static assets for 1 year
+      {
+        source: '/_next/static/:path*',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable'
+          }
+        ]
+      },
+      // Cache images for 1 month
+      {
+        source: '/icons/:path*',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=2592000, stale-while-revalidate=86400'
+          }
+        ]
+      },
       {
         source: '/:path*',
         headers: [
