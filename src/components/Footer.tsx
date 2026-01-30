@@ -10,40 +10,40 @@ export default function Footer() {
   const tCities = useTranslations('cities');
   return (
     <footer className="bg-gray-800 text-white mt-16 safe-area-bottom">
-      <div className="max-w-6xl mx-auto px-4 py-8 sm:py-12">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="max-w-6xl mx-auto px-4 py-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           <div>
-            <h3 className="text-xl font-bold mb-4">{t('about')}</h3>
-            <p className="text-gray-300 leading-relaxed">
+            <h3 className="text-lg font-bold mb-2">{t('about')}</h3>
+            <p className="text-gray-300 text-sm leading-relaxed">
               {t('aboutText')}
             </p>
           </div>
 
           <div>
-            <h3 className="text-xl font-bold mb-4">{t('quickLinks')}</h3>
-            <ul className="space-y-2 sm:space-y-3">
+            <h3 className="text-lg font-bold mb-2">{t('quickLinks')}</h3>
+            <ul className="space-y-1 text-sm">
               <li>
-                <Link href="/nav" className="text-gray-300 hover:text-white active:text-white no-underline inline-block py-1">
+                <Link href="/nav" className="text-gray-300 hover:text-white no-underline">
                   {tHeader('nav')}
                 </Link>
               </li>
               <li>
-                <Link href="/skatt" className="text-gray-300 hover:text-white active:text-white no-underline inline-block py-1">
+                <Link href="/skatt" className="text-gray-300 hover:text-white no-underline">
                   {tHeader('skatt')}
                 </Link>
               </li>
               <li>
-                <Link href="/helse" className="text-gray-300 hover:text-white active:text-white no-underline inline-block py-1">
+                <Link href="/helse" className="text-gray-300 hover:text-white no-underline">
                   {tHeader('helse')}
                 </Link>
               </li>
               <li>
-                <Link href="/byer" className="text-gray-300 hover:text-white active:text-white no-underline inline-block py-1">
+                <Link href="/byer" className="text-gray-300 hover:text-white no-underline">
                   📍 {tCities('viewAll')}
                 </Link>
               </li>
               <li>
-                <Link href="/om" className="text-gray-300 hover:text-white active:text-white no-underline inline-block py-1">
+                <Link href="/om" className="text-gray-300 hover:text-white no-underline">
                   {t('about')}
                 </Link>
               </li>
@@ -51,14 +51,14 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-xl font-bold mb-4">{t('contact')}</h3>
+            <h3 className="text-lg font-bold mb-2">{t('contact')}</h3>
             <a
               href="mailto:kontakt@lettdigital.no"
-              className="text-gray-300 hover:text-white no-underline"
+              className="text-gray-300 hover:text-white no-underline text-sm"
             >
               kontakt@lettdigital.no
             </a>
-            <div className="mt-4">
+            <div className="mt-2">
               <Link href="/personvern" className="text-gray-400 hover:text-white no-underline text-sm">
                 {t('privacy')}
               </Link>
@@ -71,13 +71,13 @@ export default function Footer() {
         </div>
 
         {/* Disclaimer */}
-        <div className="border-t border-gray-700 mt-8 pt-6">
-          <p className="text-gray-400 text-sm text-center max-w-3xl mx-auto">
+        <div className="border-t border-gray-700 mt-5 pt-4">
+          <p className="text-gray-400 text-xs text-center max-w-3xl mx-auto">
             <strong>{t('disclaimerTitle')}:</strong> {t('disclaimerText')}
           </p>
         </div>
 
-        <div className="border-t border-gray-700 mt-6 pt-6 text-center text-gray-400">
+        <div className="border-t border-gray-700 mt-4 pt-4 text-center text-gray-400 text-sm">
           <p>© {new Date().getFullYear()} {t('copyright')}</p>
         </div>
       </div>
