@@ -1,54 +1,37 @@
 'use client';
 
 import { Link } from '@/i18n/navigation';
-import { useLocale } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { FAQSchema, BreadcrumbSchema, ArticleSchema } from '@/components/StructuredData';
 
-const stavangerFAQs = [
-  {
-    question: "Hvor finner jeg NAV-kontor i Stavanger?",
-    answer: "Stavanger har fem NAV-kontorer: NAV Hundvåg og Storhaug (Tinngata 8), NAV Eiganes og Tasta (Dusavikveien 37A), NAV Hillevåg, NAV Hinna og NAV Madla. Hvilket kontor du tilhører avhenger av bydelen din."
-  },
-  {
-    question: "Hva er åpningstidene for NAV i Stavanger?",
-    answer: "NAV i Stavanger har telefontid kl. 08:00-15:30 på hverdager. Drop-in åpningstider varierer mellom kontorene. Ring 55 55 33 33 for mer informasjon."
-  },
-  {
-    question: "Hvor er legevakten i Stavanger?",
-    answer: "Stavanger legevakt ligger i Armauer Hansens vei 30. Telefon: 116 117. Åpent hele døgnet. For livstruende situasjoner, ring 113."
-  },
-  {
-    question: "Hvordan kommer jeg meg til NAV i Stavanger?",
-    answer: "NAV-kontorene i Stavanger er tilgjengelige med buss fra Kolumbus. Bruk Kolumbus reiseplanlegger for å finne beste rute til ditt NAV-kontor."
-  },
-  {
-    question: "Hvilke tjenester tilbyr NAV Stavanger?",
-    answer: "NAV Stavanger tilbyr både statlige og kommunale tjenester: arbeidssøking, dagpenger, sykepenger, økonomisk sosialhjelp, gjeldsrådgivning og mer. De fleste tjenester kan også brukes digitalt på nav.no."
-  }
-];
-
 const navKontorerStavanger = [
-  { bydel: "Hundvåg og Storhaug", adresse: "Tinngata 8", postnr: "4014 Stavanger", info: "Sentral beliggenhet" },
-  { bydel: "Eiganes og Tasta", adresse: "Dusavikveien 37A", postnr: "4007 Stavanger", info: "Nord i byen" },
-  { bydel: "Hillevåg", adresse: "Hillevåg", postnr: "4016 Stavanger", info: "Sør i byen" },
-  { bydel: "Hinna", adresse: "Hinna", postnr: "4020 Stavanger", info: "Øst i byen" },
-  { bydel: "Madla", adresse: "Madla", postnr: "4042 Hafrsfjord", info: "Vest i byen" },
+  { bydel: "Stavanger", adresse: "Lagårdsveien 44", postnr: "4010 Stavanger" },
+  { bydel: "Sandnes", adresse: "Elvegata 25", postnr: "4306 Sandnes" },
+  { bydel: "Sola", adresse: "Sola sentrum", postnr: "4050 Sola" },
+  { bydel: "Randaberg", adresse: "Randaberg sentrum", postnr: "4070 Randaberg" },
 ];
 
 export default function StavangerPage() {
   const locale = useLocale();
+  const t = useTranslations('cities');
+
+  const stavangerFAQs = [
+    { question: t('stavanger.faq1q'), answer: t('stavanger.faq1a') },
+    { question: t('stavanger.faq2q'), answer: t('stavanger.faq2a') },
+    { question: t('stavanger.faq3q'), answer: t('stavanger.faq3a') },
+  ];
 
   return (
     <>
       <FAQSchema questions={stavangerFAQs} />
       <BreadcrumbSchema items={[
-        { name: 'Hjem', url: `/${locale}` },
-        { name: 'Byer', url: `/${locale}/byer` },
-        { name: 'Stavanger', url: `/${locale}/byer/stavanger` }
+        { name: locale === 'no' ? 'Hjem' : locale === 'en' ? 'Home' : 'Головна', url: `/${locale}` },
+        { name: locale === 'no' ? 'Byer' : locale === 'en' ? 'Cities' : 'Міста', url: `/${locale}/byer` },
+        { name: t('stavanger.name'), url: `/${locale}/byer/stavanger` }
       ]} />
       <ArticleSchema
-        title="Offentlige tjenester i Stavanger - NAV, Skatt, Helse"
-        description="Finn lokale NAV-kontorer, Skatteetaten og helsetjenester i Stavanger. Adresser, åpningstider og kontaktinformasjon."
+        title={t('publicServicesIn', { city: t('stavanger.name') })}
+        description={t('stavanger.intro')}
         url={`/${locale}/byer/stavanger`}
         datePublished="2024-01-01"
         dateModified="2026-01-30"
@@ -61,7 +44,7 @@ export default function StavangerPage() {
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
             </svg>
-            Tilbake til forsiden
+            {t('backToHome')}
           </Link>
 
           <div className="flex items-center gap-4 mb-6">
@@ -70,17 +53,15 @@ export default function StavangerPage() {
             </div>
             <div>
               <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800">
-                Offentlige tjenester i Stavanger
+                {t('publicServicesIn', { city: t('stavanger.name') })}
               </h1>
-              <p className="text-xl text-gray-600">NAV, Skatteetaten og helsetjenester</p>
+              <p className="text-xl text-gray-600">{t('navAndServices')}</p>
             </div>
           </div>
 
           <div className="prose max-w-none mb-6">
             <p className="text-lg text-gray-700 leading-relaxed">
-              <strong>Stavanger</strong> er Norges fjerde største by med over 145 000 innbyggere,
-              kjent som oljehovedstaden. Her finner du oversikt over NAV-kontorer,
-              Skatteetaten og helsetjenester i Stavanger-regionen.
+              {t('stavanger.intro')}
             </p>
           </div>
         </div>
@@ -88,34 +69,34 @@ export default function StavangerPage() {
         {/* NAV-kontorer */}
         <section className="mb-12">
           <h2 className="text-2xl font-bold mb-6 flex items-center gap-3">
-            <span className="text-3xl">🏢</span> NAV-kontorer i Stavanger
+            <span className="text-3xl">🏢</span> {t('navOfficesIn', { city: t('stavanger.name') })}
           </h2>
 
           <div className="card bg-blue-50 mb-6">
             <div className="flex items-center gap-4">
               <div className="text-4xl">📞</div>
               <div>
-                <p className="font-bold text-lg">NAV Kontaktsenter</p>
+                <p className="font-bold text-lg">{t('navContactCenter')}</p>
                 <p className="text-2xl font-bold text-blue-600">55 55 33 33</p>
-                <p className="text-gray-600">Åpent hverdager kl. 08:00-15:30</p>
+                <p className="text-gray-600">{t('openWeekdays')}</p>
               </div>
             </div>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid md:grid-cols-2 gap-4">
             {navKontorerStavanger.map((kontor, index) => (
               <div key={index} className="card hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-lg text-gray-800">NAV {kontor.bydel}</h3>
                 <p className="text-gray-600">{kontor.adresse}</p>
                 <p className="text-gray-500 text-sm">{kontor.postnr}</p>
-                <p className="text-sm text-blue-600 mt-2">{kontor.info}</p>
+                <p className="text-sm text-blue-600 mt-2">{t('open')}: {t('weekdays')} 09:00-15:00</p>
               </div>
             ))}
           </div>
 
           <div className="mt-6">
             <Link href="/nav" className="text-blue-600 hover:underline font-semibold">
-              Se alle NAV-guider →
+              {t('seeAllNavGuides')} →
             </Link>
           </div>
         </section>
@@ -123,25 +104,38 @@ export default function StavangerPage() {
         {/* Helsetjenester */}
         <section className="mb-12">
           <h2 className="text-2xl font-bold mb-6 flex items-center gap-3">
-            <span className="text-3xl">🏥</span> Helsetjenester i Stavanger
+            <span className="text-3xl">🏥</span> {t('healthServicesIn', { city: t('stavanger.name') })}
           </h2>
 
           <div className="grid md:grid-cols-2 gap-6">
             <div className="card bg-red-50 border-l-4 border-red-500">
-              <h3 className="font-bold text-lg text-red-700">Stavanger Legevakt</h3>
-              <p className="text-gray-700">Armauer Hansens vei 30</p>
-              <p className="text-gray-700">4011 Stavanger</p>
+              <h3 className="font-bold text-lg text-red-700">{t('emergencyRoomIn', { city: t('stavanger.name') })}</h3>
+              <p className="text-gray-700">{t('stavanger.emergencyAddress')}</p>
               <p className="text-2xl font-bold text-red-600 mt-2">📞 116 117</p>
-              <p className="text-gray-600 text-sm">Åpent 24 timer</p>
+              <p className="text-gray-600 text-sm">{t('open24h')}</p>
+              <p className="text-red-600 text-sm mt-2">{t('lifeThreateningCall')}</p>
             </div>
 
             <div className="card">
-              <h3 className="font-bold text-lg">Stavanger universitetssjukehus</h3>
-              <p className="text-gray-600">Gerd-Ragna Bloch Thorsens gate 8</p>
-              <p className="text-gray-600 mt-2">Regionssykehus for Rogaland</p>
+              <h3 className="font-bold text-lg">{t('helsenorge')}</h3>
+              <p className="text-gray-600 mb-3">{t('digitalHealthServices')}</p>
+              <ul className="space-y-2 text-gray-700">
+                <li className="flex items-center gap-2">
+                  <span className="text-green-500">✓</span> {t('bookAppointment')}
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="text-green-500">✓</span> {t('viewPrescriptions')}
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="text-green-500">✓</span> {t('readJournal')}
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="text-green-500">✓</span> {t('changeGP')}
+                </li>
+              </ul>
               <div className="mt-4">
                 <Link href="/helse" className="text-blue-600 hover:underline font-semibold">
-                  Se alle Helse-guider →
+                  {t('seeAllHealthGuides')} →
                 </Link>
               </div>
             </div>
@@ -151,33 +145,33 @@ export default function StavangerPage() {
         {/* Nyttige lenker */}
         <section className="mb-12">
           <h2 className="text-2xl font-bold mb-6 flex items-center gap-3">
-            <span className="text-3xl">🔗</span> Nyttige lenker for Stavanger
+            <span className="text-3xl">🔗</span> {t('usefulLinksFor', { city: t('stavanger.name') })}
           </h2>
 
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
             <a href="https://www.stavanger.kommune.no" target="_blank" rel="noopener noreferrer"
                className="card hover:shadow-md transition-shadow text-center">
               <span className="text-3xl mb-2 block">🏛️</span>
-              <p className="font-semibold">Stavanger kommune</p>
+              <p className="font-semibold">{t('municipality', { city: t('stavanger.name') })}</p>
             </a>
             <a href="https://www.kolumbus.no" target="_blank" rel="noopener noreferrer"
                className="card hover:shadow-md transition-shadow text-center">
               <span className="text-3xl mb-2 block">🚌</span>
               <p className="font-semibold">Kolumbus</p>
-              <p className="text-sm text-gray-500">Kollektivtransport</p>
+              <p className="text-sm text-gray-500">{t('publicTransport')}</p>
             </a>
             <a href="https://www.nav.no/no/nav-og-samfunn/kontakt-nav/relatert-informasjon/finn-ditt-nav-kontor"
                target="_blank" rel="noopener noreferrer"
                className="card hover:shadow-md transition-shadow text-center">
               <span className="text-3xl mb-2 block">🔍</span>
-              <p className="font-semibold">Finn NAV-kontor</p>
+              <p className="font-semibold">{t('findNAVOffice')}</p>
             </a>
           </div>
         </section>
 
         {/* FAQ */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6">❓ Vanlige spørsmål om offentlige tjenester i Stavanger</h2>
+          <h2 className="text-2xl font-bold mb-6">❓ {t('faqAbout', { city: t('stavanger.name') })}</h2>
           <div className="space-y-4">
             {stavangerFAQs.map((faq, index) => (
               <details key={index} className="card group">
@@ -195,29 +189,29 @@ export default function StavangerPage() {
 
         {/* Andre byer */}
         <section className="card bg-gray-50">
-          <h2 className="text-2xl font-bold mb-4">📍 Andre byer</h2>
+          <h2 className="text-2xl font-bold mb-4">📍 {t('otherCities')}</h2>
           <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4">
             <Link href="/byer/oslo" className="p-3 bg-white rounded-lg hover:shadow-md transition-shadow text-center">
               <span className="text-2xl">🏙️</span>
-              <p className="font-semibold">Oslo</p>
+              <p className="font-semibold">{t('oslo.name')}</p>
             </Link>
             <Link href="/byer/bergen" className="p-3 bg-white rounded-lg hover:shadow-md transition-shadow text-center">
               <span className="text-2xl">🏔️</span>
-              <p className="font-semibold">Bergen</p>
+              <p className="font-semibold">{t('bergen.name')}</p>
             </Link>
             <Link href="/byer/trondheim" className="p-3 bg-white rounded-lg hover:shadow-md transition-shadow text-center">
               <span className="text-2xl">⛪</span>
-              <p className="font-semibold">Trondheim</p>
+              <p className="font-semibold">{t('trondheim.name')}</p>
             </Link>
             <Link href="/byer/kristiansand" className="p-3 bg-white rounded-lg hover:shadow-md transition-shadow text-center">
               <span className="text-2xl">⛵</span>
-              <p className="font-semibold">Kristiansand</p>
+              <p className="font-semibold">{t('kristiansand.name')}</p>
             </Link>
           </div>
         </section>
 
         <p className="mt-8 text-sm text-gray-500">
-          <strong>Sist oppdatert:</strong> Januar 2026 | <Link href="/om" className="text-blue-600 hover:underline">Om LettDigital</Link>
+          <strong>{t('lastUpdated')}:</strong> Januar 2026 | <Link href="/om" className="text-blue-600 hover:underline">Om LettDigital</Link>
         </p>
       </div>
     </>

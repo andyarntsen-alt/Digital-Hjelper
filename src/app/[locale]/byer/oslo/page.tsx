@@ -1,34 +1,10 @@
 'use client';
 
 import { Link } from '@/i18n/navigation';
-import { useLocale } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { FAQSchema, BreadcrumbSchema, ArticleSchema } from '@/components/StructuredData';
 
-// Oslo-spesifikk FAQ for SEO
-const osloFAQs = [
-  {
-    question: "Hvor finner jeg NAV-kontor i Oslo?",
-    answer: "Oslo har NAV-kontorer i alle bydeler. Du finner ditt lokale kontor basert på hvor du bor: NAV Gamle Oslo, NAV Grünerløkka, NAV Sagene, NAV St. Hanshaugen, NAV Frogner, NAV Ullern, NAV Vestre Aker, NAV Nordre Aker, NAV Bjerke, NAV Grorud, NAV Stovner, NAV Alna, NAV Østensjø, NAV Nordstrand og NAV Søndre Nordstrand."
-  },
-  {
-    question: "Hva er åpningstidene for NAV i Oslo?",
-    answer: "NAV-kontorene i Oslo har generelt åpent hverdager kl. 09:00-15:00. Drop-in er vanligvis kl. 10:00-14:30. Ring 55 55 33 33 for å sjekke åpningstider for ditt kontor, da noen kontorer kan ha avvikende tider."
-  },
-  {
-    question: "Hvor er Skatteetaten i Oslo?",
-    answer: "Skatteetaten har kontorer i Oslo sentrum. Du kan også bruke de digitale tjenestene på skatteetaten.no for de fleste oppgaver som skattemelding, skattekort og flyttemelding."
-  },
-  {
-    question: "Hvor finner jeg legevakt i Oslo?",
-    answer: "Oslo legevakt ligger i Storgata 40 (Sentrum). Åpent 24 timer. Telefon: 116 117. For livstruende situasjoner, ring 113. Det finnes også legevakter i flere bydeler."
-  },
-  {
-    question: "Hvordan bestiller jeg time hos fastlege i Oslo?",
-    answer: "Du bestiller time hos fastlegen din via Helsenorge.no. Logg inn med BankID, velg 'Timeavtaler', og finn din fastlege. Du kan også ringe legekontoret direkte. Mangler du fastlege? Søk om fastlege på Helsenorge.no."
-  }
-];
-
-// NAV-kontorer i Oslo med adresser
+// NAV-kontorer i Oslo med adresser (statisk data)
 const navKontorerOslo = [
   { bydel: "Gamle Oslo", adresse: "Grønlandsleiret 25", postnr: "0190 Oslo" },
   { bydel: "Grünerløkka", adresse: "Trondheimsveien 2", postnr: "0560 Oslo" },
@@ -42,19 +18,29 @@ const navKontorerOslo = [
 
 export default function OsloPage() {
   const locale = useLocale();
+  const t = useTranslations('cities');
+
+  // FAQ for structured data
+  const osloFAQs = [
+    { question: t('oslo.faq1q'), answer: t('oslo.faq1a') },
+    { question: t('oslo.faq2q'), answer: t('oslo.faq2a') },
+    { question: t('oslo.faq3q'), answer: t('oslo.faq3a') },
+    { question: t('oslo.faq4q'), answer: t('oslo.faq4a') },
+    { question: t('oslo.faq5q'), answer: t('oslo.faq5a') },
+  ];
 
   return (
     <>
       {/* SEO: Structured Data */}
       <FAQSchema questions={osloFAQs} />
       <BreadcrumbSchema items={[
-        { name: 'Hjem', url: `/${locale}` },
-        { name: 'Byer', url: `/${locale}/byer` },
+        { name: locale === 'no' ? 'Hjem' : locale === 'en' ? 'Home' : 'Головна', url: `/${locale}` },
+        { name: locale === 'no' ? 'Byer' : locale === 'en' ? 'Cities' : 'Міста', url: `/${locale}/byer` },
         { name: 'Oslo', url: `/${locale}/byer/oslo` }
       ]} />
       <ArticleSchema
-        title="Offentlige tjenester i Oslo - NAV, Skatt, Helse"
-        description="Finn lokale NAV-kontorer, Skatteetaten og helsetjenester i Oslo. Adresser, åpningstider og kontaktinformasjon for alle bydeler."
+        title={t('publicServicesIn', { city: 'Oslo' })}
+        description={t('oslo.intro')}
         url={`/${locale}/byer/oslo`}
         datePublished="2024-01-01"
         dateModified="2026-01-30"
@@ -68,7 +54,7 @@ export default function OsloPage() {
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
             </svg>
-            Tilbake til forsiden
+            {t('backToHome')}
           </Link>
 
           <div className="flex items-center gap-4 mb-6">
@@ -77,18 +63,15 @@ export default function OsloPage() {
             </div>
             <div>
               <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800">
-                Offentlige tjenester i Oslo
+                {t('publicServicesIn', { city: 'Oslo' })}
               </h1>
-              <p className="text-xl text-gray-600">NAV, Skatteetaten og helsetjenester</p>
+              <p className="text-xl text-gray-600">{t('navAndServices')}</p>
             </div>
           </div>
 
           <div className="prose max-w-none mb-6">
             <p className="text-lg text-gray-700 leading-relaxed">
-              <strong>Oslo</strong> er Norges hovedstad med over 700 000 innbyggere.
-              Her finner du oversikt over alle offentlige tjenester i Oslo, inkludert
-              NAV-kontorer i alle bydeler, Skatteetaten og helsetjenester.
-              Bruk denne siden for å finne adresser, åpningstider og kontaktinformasjon.
+              {t('oslo.intro')}
             </p>
           </div>
         </div>
@@ -96,16 +79,16 @@ export default function OsloPage() {
         {/* NAV-kontorer */}
         <section className="mb-12">
           <h2 className="text-2xl font-bold mb-6 flex items-center gap-3">
-            <span className="text-3xl">🏢</span> NAV-kontorer i Oslo
+            <span className="text-3xl">🏢</span> {t('navOfficesIn', { city: 'Oslo' })}
           </h2>
 
           <div className="card bg-blue-50 mb-6">
             <div className="flex items-center gap-4">
               <div className="text-4xl">📞</div>
               <div>
-                <p className="font-bold text-lg">NAV Kontaktsenter</p>
+                <p className="font-bold text-lg">{t('navContactCenter')}</p>
                 <p className="text-2xl font-bold text-blue-600">55 55 33 33</p>
-                <p className="text-gray-600">Åpent hverdager kl. 09:00-15:00</p>
+                <p className="text-gray-600">{t('openWeekdays')}</p>
               </div>
             </div>
           </div>
@@ -116,14 +99,14 @@ export default function OsloPage() {
                 <h3 className="font-bold text-lg text-gray-800">NAV {kontor.bydel}</h3>
                 <p className="text-gray-600">{kontor.adresse}</p>
                 <p className="text-gray-500 text-sm">{kontor.postnr}</p>
-                <p className="text-sm text-blue-600 mt-2">Åpent: hverdager 09:00-15:00</p>
+                <p className="text-sm text-blue-600 mt-2">{t('open')}: {t('weekdays')} 09:00-15:00</p>
               </div>
             ))}
           </div>
 
           <div className="mt-6">
             <Link href="/nav" className="text-blue-600 hover:underline font-semibold flex items-center gap-2">
-              Se alle NAV-guider →
+              {t('seeAllNavGuides')} →
             </Link>
           </div>
         </section>
@@ -131,29 +114,29 @@ export default function OsloPage() {
         {/* Skatteetaten */}
         <section className="mb-12">
           <h2 className="text-2xl font-bold mb-6 flex items-center gap-3">
-            <span className="text-3xl">💰</span> Skatteetaten i Oslo
+            <span className="text-3xl">💰</span> {t('taxOfficeIn', { city: 'Oslo' })}
           </h2>
 
           <div className="card">
-            <h3 className="font-bold text-lg mb-2">Skatteetaten Oslo</h3>
-            <p className="text-gray-600 mb-2">De fleste tjenester er tilgjengelig digitalt på skatteetaten.no</p>
+            <h3 className="font-bold text-lg mb-2">{t('taxOffice')} Oslo</h3>
+            <p className="text-gray-600 mb-2">{t('digitalServices')}</p>
             <ul className="space-y-2 text-gray-700">
               <li className="flex items-center gap-2">
-                <span className="text-green-500">✓</span> Skattemelding og skatteoppgjør
+                <span className="text-green-500">✓</span> {t('taxReturn')}
               </li>
               <li className="flex items-center gap-2">
-                <span className="text-green-500">✓</span> Skattekort og forskuddsskatt
+                <span className="text-green-500">✓</span> {t('taxCard')}
               </li>
               <li className="flex items-center gap-2">
-                <span className="text-green-500">✓</span> Flyttemelding
+                <span className="text-green-500">✓</span> {t('movingNotice')}
               </li>
               <li className="flex items-center gap-2">
-                <span className="text-green-500">✓</span> Folkeregisteret
+                <span className="text-green-500">✓</span> {t('nationalRegistry')}
               </li>
             </ul>
             <div className="mt-4">
               <Link href="/skatt" className="text-blue-600 hover:underline font-semibold flex items-center gap-2">
-                Se alle Skatt-guider →
+                {t('seeAllTaxGuides')} →
               </Link>
             </div>
           </div>
@@ -162,38 +145,38 @@ export default function OsloPage() {
         {/* Helsetjenester */}
         <section className="mb-12">
           <h2 className="text-2xl font-bold mb-6 flex items-center gap-3">
-            <span className="text-3xl">🏥</span> Helsetjenester i Oslo
+            <span className="text-3xl">🏥</span> {t('healthServicesIn', { city: 'Oslo' })}
           </h2>
 
           <div className="grid md:grid-cols-2 gap-6">
             <div className="card bg-red-50 border-l-4 border-red-500">
-              <h3 className="font-bold text-lg text-red-700">Oslo Legevakt</h3>
-              <p className="text-gray-700">Storgata 40, 0182 Oslo</p>
+              <h3 className="font-bold text-lg text-red-700">{t('emergencyRoomIn', { city: 'Oslo' })}</h3>
+              <p className="text-gray-700">{t('oslo.emergencyAddress')}</p>
               <p className="text-2xl font-bold text-red-600 mt-2">📞 116 117</p>
-              <p className="text-gray-600 text-sm">Åpent 24 timer</p>
-              <p className="text-red-600 text-sm mt-2">Ved livstruende situasjoner: ring 113</p>
+              <p className="text-gray-600 text-sm">{t('open24h')}</p>
+              <p className="text-red-600 text-sm mt-2">{t('lifeThreateningCall')}</p>
             </div>
 
             <div className="card">
-              <h3 className="font-bold text-lg">Helsenorge.no</h3>
-              <p className="text-gray-600 mb-3">Digitale helsetjenester:</p>
+              <h3 className="font-bold text-lg">{t('helsenorge')}</h3>
+              <p className="text-gray-600 mb-3">{t('digitalHealthServices')}</p>
               <ul className="space-y-2 text-gray-700">
                 <li className="flex items-center gap-2">
-                  <span className="text-green-500">✓</span> Bestill time hos fastlege
+                  <span className="text-green-500">✓</span> {t('bookAppointment')}
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="text-green-500">✓</span> Se resepter og medisinliste
+                  <span className="text-green-500">✓</span> {t('viewPrescriptions')}
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="text-green-500">✓</span> Les journalen din
+                  <span className="text-green-500">✓</span> {t('readJournal')}
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="text-green-500">✓</span> Bytt fastlege
+                  <span className="text-green-500">✓</span> {t('changeGP')}
                 </li>
               </ul>
               <div className="mt-4">
                 <Link href="/helse" className="text-blue-600 hover:underline font-semibold flex items-center gap-2">
-                  Se alle Helse-guider →
+                  {t('seeAllHealthGuides')} →
                 </Link>
               </div>
             </div>
@@ -203,35 +186,35 @@ export default function OsloPage() {
         {/* Nyttige lenker */}
         <section className="mb-12">
           <h2 className="text-2xl font-bold mb-6 flex items-center gap-3">
-            <span className="text-3xl">🔗</span> Nyttige lenker for Oslo
+            <span className="text-3xl">🔗</span> {t('usefulLinksFor', { city: 'Oslo' })}
           </h2>
 
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
             <a href="https://www.oslo.kommune.no" target="_blank" rel="noopener noreferrer"
                className="card hover:shadow-md transition-shadow text-center">
               <span className="text-3xl mb-2 block">🏛️</span>
-              <p className="font-semibold">Oslo kommune</p>
+              <p className="font-semibold">{t('municipality', { city: 'Oslo' })}</p>
               <p className="text-sm text-gray-500">oslo.kommune.no</p>
             </a>
             <a href="https://ruter.no" target="_blank" rel="noopener noreferrer"
                className="card hover:shadow-md transition-shadow text-center">
               <span className="text-3xl mb-2 block">🚌</span>
               <p className="font-semibold">Ruter</p>
-              <p className="text-sm text-gray-500">Kollektivtransport</p>
+              <p className="text-sm text-gray-500">{t('publicTransport')}</p>
             </a>
             <a href="https://www.oslo.kommune.no/bolig-og-sosiale-tjenester/finn-ditt-nav-kontor/"
                target="_blank" rel="noopener noreferrer"
                className="card hover:shadow-md transition-shadow text-center">
               <span className="text-3xl mb-2 block">🔍</span>
-              <p className="font-semibold">Finn NAV-kontor</p>
-              <p className="text-sm text-gray-500">Alle bydeler</p>
+              <p className="font-semibold">{t('findNAVOffice')}</p>
+              <p className="text-sm text-gray-500">{t('allDistricts')}</p>
             </a>
           </div>
         </section>
 
         {/* FAQ */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6">❓ Vanlige spørsmål om offentlige tjenester i Oslo</h2>
+          <h2 className="text-2xl font-bold mb-6">❓ {t('faqAbout', { city: 'Oslo' })}</h2>
           <div className="space-y-4">
             {osloFAQs.map((faq, index) => (
               <details key={index} className="card group">
@@ -255,30 +238,30 @@ export default function OsloPage() {
 
         {/* Andre byer */}
         <section className="card bg-gray-50">
-          <h2 className="text-2xl font-bold mb-4">📍 Andre byer</h2>
+          <h2 className="text-2xl font-bold mb-4">📍 {t('otherCities')}</h2>
           <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4">
             <Link href="/byer/bergen" className="p-3 bg-white rounded-lg hover:shadow-md transition-shadow text-center">
               <span className="text-2xl">🏔️</span>
-              <p className="font-semibold">Bergen</p>
+              <p className="font-semibold">{t('bergen.name')}</p>
             </Link>
             <Link href="/byer/trondheim" className="p-3 bg-white rounded-lg hover:shadow-md transition-shadow text-center">
               <span className="text-2xl">⛪</span>
-              <p className="font-semibold">Trondheim</p>
+              <p className="font-semibold">{t('trondheim.name')}</p>
             </Link>
             <Link href="/byer/stavanger" className="p-3 bg-white rounded-lg hover:shadow-md transition-shadow text-center">
               <span className="text-2xl">🛢️</span>
-              <p className="font-semibold">Stavanger</p>
+              <p className="font-semibold">{t('stavanger.name')}</p>
             </Link>
             <Link href="/byer/kristiansand" className="p-3 bg-white rounded-lg hover:shadow-md transition-shadow text-center">
               <span className="text-2xl">⛵</span>
-              <p className="font-semibold">Kristiansand</p>
+              <p className="font-semibold">{t('kristiansand.name')}</p>
             </Link>
           </div>
         </section>
 
         {/* Sist oppdatert */}
         <p className="mt-8 text-sm text-gray-500">
-          <strong>Sist oppdatert:</strong> Januar 2026 | <Link href="/om" className="text-blue-600 hover:underline">Om LettDigital</Link>
+          <strong>{t('lastUpdated')}:</strong> Januar 2026 | <Link href="/om" className="text-blue-600 hover:underline">Om LettDigital</Link>
         </p>
       </div>
     </>
