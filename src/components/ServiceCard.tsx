@@ -11,10 +11,38 @@ interface ServiceCardProps {
   color: string;
   categoryIcon?: string;
   featured?: boolean;
+  compact?: boolean;
 }
 
-export default function ServiceCard({ title, description, icon, href, color, categoryIcon, featured }: ServiceCardProps) {
+export default function ServiceCard({ title, description, icon, href, color, categoryIcon, featured, compact }: ServiceCardProps) {
   const t = useTranslations('common');
+
+  // Compact version for "Andre tjenester"
+  if (compact) {
+    return (
+      <Link href={href} className="no-underline group">
+        <div className="bg-white rounded-xl shadow-md hover:shadow-lg p-4 h-full active:scale-[0.98] transition-all duration-200 cursor-pointer border border-gray-100">
+          <div
+            className={`w-12 h-12 rounded-lg flex items-center justify-center mb-3 ${color}`}
+          >
+            {icon}
+          </div>
+          <h3 className="text-base font-bold text-gray-800 mb-1 group-hover:text-nav-blue transition-colors leading-tight">
+            {title}
+          </h3>
+          <p className="text-gray-500 text-sm leading-snug line-clamp-2">
+            {description}
+          </p>
+          <div className="mt-2 flex items-center text-nav-blue text-sm font-medium">
+            <span>{t('readMore')}</span>
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </div>
+        </div>
+      </Link>
+    );
+  }
 
   return (
     <Link href={href} className="no-underline group">
