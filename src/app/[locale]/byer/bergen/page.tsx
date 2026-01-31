@@ -14,6 +14,7 @@ const navKontorerBergen = [
 export default function BergenPage() {
   const locale = useLocale();
   const t = useTranslations('cities');
+  const tCommon = useTranslations('common');
 
   const bergenFAQs = [
     { question: t('bergen.faq1q'), answer: t('bergen.faq1a') },
@@ -38,104 +39,125 @@ export default function BergenPage() {
         locale={locale}
       />
 
-      <div className="max-w-6xl mx-auto px-4 py-12">
-        <div className="mb-8">
-          <Link href="/" className="text-blue-600 hover:underline mb-4 inline-flex items-center gap-2">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <div className="max-w-4xl mx-auto px-4 py-12 sm:py-16">
+        {/* Header */}
+        <div className="mb-12">
+          <Link href="/" className="text-gray-500 hover:text-nav-blue no-underline mb-6 inline-flex items-center gap-2 text-sm font-medium">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
             </svg>
-            {t('backToHome')}
+            {tCommon('backToHome')}
           </Link>
 
-          <div className="flex items-center gap-4 mb-6">
-            <div className="bg-blue-600 text-white p-4 rounded-xl">
-              <span className="text-4xl">🏔️</span>
+          <div className="flex items-start gap-4 mb-8">
+            <div className="bg-blue-600 text-white p-3 rounded-xl flex-shrink-0">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+              </svg>
             </div>
             <div>
-              <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800">
+              <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-2">
                 {t('publicServicesIn', { city: t('bergen.name') })}
               </h1>
-              <p className="text-xl text-gray-600">{t('navAndServices')}</p>
+              <p className="text-lg text-gray-600">{t('navAndServices')}</p>
             </div>
           </div>
 
-          <div className="prose max-w-none mb-6">
-            <p className="text-lg text-gray-700 leading-relaxed">
+          <div className="bg-gray-50 border border-gray-200 p-4 rounded-xl">
+            <p className="text-gray-700">
               {t('bergen.intro')}
             </p>
           </div>
         </div>
 
         {/* NAV-kontorer */}
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6 flex items-center gap-3">
-            <span className="text-3xl">🏢</span> {t('navOfficesIn', { city: t('bergen.name') })}
-          </h2>
+        <section className="mb-16">
+          <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6">{t('navOfficesIn', { city: t('bergen.name') })}</h2>
 
-          <div className="card bg-blue-50 mb-6">
+          <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mb-6">
             <div className="flex items-center gap-4">
-              <div className="text-4xl">📞</div>
+              <div className="bg-nav-blue text-white p-2 rounded-lg flex-shrink-0">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
+              </div>
               <div>
-                <p className="font-bold text-lg">{t('navContactCenter')}</p>
-                <p className="text-2xl font-bold text-blue-600">55 55 33 33</p>
-                <p className="text-gray-600">{t('openWeekdays')}</p>
+                <p className="font-bold text-gray-900">{t('navContactCenter')}</p>
+                <p className="text-xl font-bold text-nav-blue">55 55 33 33</p>
+                <p className="text-gray-600 text-sm">{t('openWeekdays')}</p>
               </div>
             </div>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-4">
+          <div className="grid sm:grid-cols-2 gap-4">
             {navKontorerBergen.map((kontor, index) => (
-              <div key={index} className="card hover:shadow-md transition-shadow">
-                <h3 className="font-bold text-lg text-gray-800">NAV {kontor.bydel}</h3>
-                <p className="text-gray-600">{kontor.adresse}</p>
+              <div key={index} className="bg-white border border-gray-200 rounded-xl p-4 hover:border-gray-300 hover:bg-gray-50 transition-colors">
+                <h3 className="font-bold text-gray-900">NAV {kontor.bydel}</h3>
+                <p className="text-gray-600 text-sm">{kontor.adresse}</p>
                 <p className="text-gray-500 text-sm">{kontor.postnr}</p>
-                <p className="text-sm text-blue-600 mt-2">{t('open')}: {t('weekdays')} 09:00-15:00</p>
+                <p className="text-sm text-nav-blue mt-2">{t('open')}: {t('weekdays')} 09:00-15:00</p>
               </div>
             ))}
           </div>
 
           <div className="mt-6">
-            <Link href="/nav" className="text-blue-600 hover:underline font-semibold">
-              {t('seeAllNavGuides')} →
+            <Link href="/nav" className="text-nav-blue hover:underline font-medium inline-flex items-center gap-1">
+              {t('seeAllNavGuides')}
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
             </Link>
           </div>
         </section>
 
         {/* Helsetjenester */}
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6 flex items-center gap-3">
-            <span className="text-3xl">🏥</span> {t('healthServicesIn', { city: t('bergen.name') })}
-          </h2>
+        <section className="mb-16">
+          <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6">{t('healthServicesIn', { city: t('bergen.name') })}</h2>
 
-          <div className="grid md:grid-cols-2 gap-6">
-            <div className="card bg-red-50 border-l-4 border-red-500">
-              <h3 className="font-bold text-lg text-red-700">{t('emergencyRoomIn', { city: t('bergen.name') })}</h3>
-              <p className="text-gray-700">{t('bergen.emergencyAddress')}</p>
-              <p className="text-2xl font-bold text-red-600 mt-2">📞 116 117</p>
+          <div className="grid sm:grid-cols-2 gap-4">
+            <div className="bg-gray-50 border border-gray-200 rounded-xl p-5">
+              <h3 className="font-bold text-gray-900 mb-2">{t('emergencyRoomIn', { city: t('bergen.name') })}</h3>
+              <p className="text-gray-700 text-sm">{t('bergen.emergencyAddress')}</p>
+              <p className="text-xl font-bold text-helse-red mt-2">116 117</p>
               <p className="text-gray-600 text-sm">{t('open24h')}</p>
-              <p className="text-red-600 text-sm mt-2">{t('lifeThreateningCall')}</p>
+              <p className="text-helse-red text-sm mt-2">{t('lifeThreateningCall')}</p>
             </div>
 
-            <div className="card">
-              <h3 className="font-bold text-lg">{t('helsenorge')}</h3>
-              <p className="text-gray-600 mb-3">{t('digitalHealthServices')}</p>
-              <ul className="space-y-2 text-gray-700">
+            <div className="bg-white border border-gray-200 rounded-xl p-5">
+              <h3 className="font-bold text-gray-900 mb-2">{t('helsenorge')}</h3>
+              <p className="text-gray-600 text-sm mb-3">{t('digitalHealthServices')}</p>
+              <ul className="space-y-2 text-gray-700 text-sm">
                 <li className="flex items-center gap-2">
-                  <span className="text-green-500">✓</span> {t('bookAppointment')}
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-helse-red flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  {t('bookAppointment')}
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="text-green-500">✓</span> {t('viewPrescriptions')}
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-helse-red flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  {t('viewPrescriptions')}
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="text-green-500">✓</span> {t('readJournal')}
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-helse-red flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  {t('readJournal')}
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="text-green-500">✓</span> {t('changeGP')}
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-helse-red flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  {t('changeGP')}
                 </li>
               </ul>
               <div className="mt-4">
-                <Link href="/helse" className="text-blue-600 hover:underline font-semibold">
-                  {t('seeAllHealthGuides')} →
+                <Link href="/helse" className="text-nav-blue hover:underline font-medium inline-flex items-center gap-1 text-sm">
+                  {t('seeAllHealthGuides')}
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
                 </Link>
               </div>
             </div>
@@ -143,75 +165,112 @@ export default function BergenPage() {
         </section>
 
         {/* Nyttige lenker */}
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6 flex items-center gap-3">
-            <span className="text-3xl">🔗</span> {t('usefulLinksFor', { city: t('bergen.name') })}
-          </h2>
+        <section className="mb-16">
+          <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6">{t('usefulLinksFor', { city: t('bergen.name') })}</h2>
 
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+          <div className="grid sm:grid-cols-3 gap-4">
             <a href="https://www.bergen.kommune.no" target="_blank" rel="noopener noreferrer"
-               className="card hover:shadow-md transition-shadow text-center">
-              <span className="text-3xl mb-2 block">🏛️</span>
-              <p className="font-semibold">{t('municipality', { city: t('bergen.name') })}</p>
+               className="bg-white border border-gray-200 rounded-xl p-4 hover:border-gray-300 hover:bg-gray-50 transition-colors no-underline text-center">
+              <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mx-auto mb-2">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z" />
+                </svg>
+              </div>
+              <p className="font-medium text-gray-900">{t('municipality', { city: t('bergen.name') })}</p>
+              <p className="text-sm text-gray-500">bergen.kommune.no</p>
             </a>
             <a href="https://www.skyss.no" target="_blank" rel="noopener noreferrer"
-               className="card hover:shadow-md transition-shadow text-center">
-              <span className="text-3xl mb-2 block">🚌</span>
-              <p className="font-semibold">Skyss</p>
+               className="bg-white border border-gray-200 rounded-xl p-4 hover:border-gray-300 hover:bg-gray-50 transition-colors no-underline text-center">
+              <div className="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center mx-auto mb-2">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
+                </svg>
+              </div>
+              <p className="font-medium text-gray-900">Skyss</p>
               <p className="text-sm text-gray-500">{t('publicTransport')}</p>
             </a>
             <a href="https://www.nav.no/no/nav-og-samfunn/kontakt-nav/relatert-informasjon/finn-ditt-nav-kontor"
                target="_blank" rel="noopener noreferrer"
-               className="card hover:shadow-md transition-shadow text-center">
-              <span className="text-3xl mb-2 block">🔍</span>
-              <p className="font-semibold">{t('findNAVOffice')}</p>
+               className="bg-white border border-gray-200 rounded-xl p-4 hover:border-gray-300 hover:bg-gray-50 transition-colors no-underline text-center">
+              <div className="w-10 h-10 bg-nav-blue/10 rounded-lg flex items-center justify-center mx-auto mb-2">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-nav-blue" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+              </div>
+              <p className="font-medium text-gray-900">{t('findNAVOffice')}</p>
+              <p className="text-sm text-gray-500">{t('allDistricts')}</p>
             </a>
           </div>
         </section>
 
         {/* FAQ */}
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6">❓ {t('faqAbout', { city: t('bergen.name') })}</h2>
-          <div className="space-y-4">
+        <section className="mb-16">
+          <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6">{t('faqAbout', { city: t('bergen.name') })}</h2>
+          <div className="space-y-3">
             {bergenFAQs.map((faq, index) => (
-              <details key={index} className="card group">
-                <summary className="cursor-pointer list-none flex justify-between items-center">
-                  <h3 className="text-lg font-semibold text-gray-800 pr-4">{faq.question}</h3>
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-blue-500 transform transition-transform group-open:rotate-180 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <details key={index} className="bg-white border border-gray-200 rounded-xl group">
+                <summary className="cursor-pointer list-none flex justify-between items-center p-4">
+                  <h3 className="text-base font-semibold text-gray-900 pr-4">{faq.question}</h3>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-5 w-5 text-gray-400 transform transition-transform group-open:rotate-180 flex-shrink-0"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
                 </summary>
-                <p className="mt-4 text-gray-700 leading-relaxed">{faq.answer}</p>
+                <div className="px-4 pb-4">
+                  <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
+                </div>
               </details>
             ))}
           </div>
         </section>
 
         {/* Andre byer */}
-        <section className="card bg-gray-50">
-          <h2 className="text-2xl font-bold mb-4">📍 {t('otherCities')}</h2>
-          <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4">
-            <Link href="/byer/oslo" className="p-3 bg-white rounded-lg hover:shadow-md transition-shadow text-center">
-              <span className="text-2xl">🏙️</span>
-              <p className="font-semibold">{t('oslo.name')}</p>
+        <section className="bg-gray-50 border border-gray-200 rounded-xl p-6">
+          <h2 className="text-lg font-bold text-gray-900 mb-4">{t('otherCities')}</h2>
+          <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-3">
+            <Link href="/byer/oslo" className="flex items-center gap-3 p-3 bg-white border border-gray-200 rounded-xl hover:border-gray-300 hover:bg-gray-50 transition-colors no-underline">
+              <div className="w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                </svg>
+              </div>
+              <p className="font-medium text-gray-900 text-sm">{t('oslo.name')}</p>
             </Link>
-            <Link href="/byer/trondheim" className="p-3 bg-white rounded-lg hover:shadow-md transition-shadow text-center">
-              <span className="text-2xl">⛪</span>
-              <p className="font-semibold">{t('trondheim.name')}</p>
+            <Link href="/byer/trondheim" className="flex items-center gap-3 p-3 bg-white border border-gray-200 rounded-xl hover:border-gray-300 hover:bg-gray-50 transition-colors no-underline">
+              <div className="w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                </svg>
+              </div>
+              <p className="font-medium text-gray-900 text-sm">{t('trondheim.name')}</p>
             </Link>
-            <Link href="/byer/stavanger" className="p-3 bg-white rounded-lg hover:shadow-md transition-shadow text-center">
-              <span className="text-2xl">🛢️</span>
-              <p className="font-semibold">{t('stavanger.name')}</p>
+            <Link href="/byer/stavanger" className="flex items-center gap-3 p-3 bg-white border border-gray-200 rounded-xl hover:border-gray-300 hover:bg-gray-50 transition-colors no-underline">
+              <div className="w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                </svg>
+              </div>
+              <p className="font-medium text-gray-900 text-sm">{t('stavanger.name')}</p>
             </Link>
-            <Link href="/byer/kristiansand" className="p-3 bg-white rounded-lg hover:shadow-md transition-shadow text-center">
-              <span className="text-2xl">⛵</span>
-              <p className="font-semibold">{t('kristiansand.name')}</p>
+            <Link href="/byer/kristiansand" className="flex items-center gap-3 p-3 bg-white border border-gray-200 rounded-xl hover:border-gray-300 hover:bg-gray-50 transition-colors no-underline">
+              <div className="w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                </svg>
+              </div>
+              <p className="font-medium text-gray-900 text-sm">{t('kristiansand.name')}</p>
             </Link>
           </div>
         </section>
 
-        <p className="mt-8 text-sm text-gray-500">
-          <strong>{t('lastUpdated')}:</strong> Januar 2026 | <Link href="/om" className="text-blue-600 hover:underline">Om LettDigital</Link>
+        {/* Sist oppdatert */}
+        <p className="mt-8 text-sm text-gray-400">
+          Sist oppdatert: Januar 2026
         </p>
       </div>
     </>

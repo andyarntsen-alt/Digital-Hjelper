@@ -62,13 +62,13 @@ export default function FAQPage() {
       {/* FAQ Structured Data for Google Rich Snippets */}
       <FAQSchema questions={faqSchemaData} />
 
-      <div className="max-w-4xl mx-auto px-4 py-6 sm:py-8 md:py-12">
-        <Link href="/" className="text-nav-blue hover:underline mb-6 inline-flex items-center gap-2">
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-        </svg>
-        {tCommon('backToHome')}
-      </Link>
+      <div className="max-w-4xl mx-auto px-4 py-12 sm:py-16">
+        <Link href="/" className="text-gray-500 hover:text-nav-blue no-underline mb-6 inline-flex items-center gap-2 text-sm font-medium">
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+          </svg>
+          {tCommon('backToHome')}
+        </Link>
 
       <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-4">{t('title')}</h1>
       <p className="text-xl text-gray-600 mb-6">
@@ -176,8 +176,8 @@ export default function FAQPage() {
       )}
 
       {/* Didn't find an answer? */}
-      <div className="mt-12 card bg-blue-50">
-        <h2 className="text-xl font-bold mb-4">{t('noAnswer')}</h2>
+      <div className="mt-12 bg-gray-50 border border-gray-200 rounded-xl p-6">
+        <h2 className="text-xl font-bold text-gray-900 mb-4">{t('noAnswer')}</h2>
         <p className="text-gray-700 mb-4">
           {t('contactAgencies')}
         </p>

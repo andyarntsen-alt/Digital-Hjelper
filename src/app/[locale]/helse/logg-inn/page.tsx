@@ -63,27 +63,29 @@ export default function HelseLoggInnPage() {
         <p className="text-xl text-gray-600">{t('longDescription')}</p>
       </div>
 
-      <div className="card bg-yellow-50 mb-8">
-        <h2 className="text-xl font-bold mb-4 text-yellow-800">{t('beforeYouStart')}</h2>
+      <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
+        <h2 className="text-xl font-bold mb-4 text-gray-900">{t('beforeYouStart')}</h2>
         <p className="text-gray-700">{t('beforeYouStartText')}</p>
       </div>
 
       <StepGuide title={t('stepsTitle')} steps={steps} />
 
-      <div className="mt-8 card bg-green-50">
-        <h2 className="text-xl font-bold mb-4 text-green-800">{t('servicesTitle')}</h2>
+      <div className="mt-8 bg-gray-50 border border-gray-200 rounded-xl p-6">
+        <h2 className="text-xl font-bold mb-4 text-gray-900">{t('servicesTitle')}</h2>
         <ul className="space-y-2">
           {servicesRaw.map((service, index) => (
             <li key={index} className="flex items-center gap-3 text-gray-700">
-              <span className="text-green-600">✓</span>
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+              </svg>
               <span>{service}</span>
             </li>
           ))}
         </ul>
       </div>
 
-      <div className="mt-8 card bg-red-50">
-        <h2 className="text-xl font-bold mb-4 text-red-800">{t('problemsTitle')}</h2>
+      <div className="mt-8 bg-gray-50 border border-gray-200 rounded-xl p-6">
+        <h2 className="text-xl font-bold mb-4 text-gray-900">{t('problemsTitle')}</h2>
         <p className="text-gray-700 mb-4">{t('problemsText')}</p>
         <ul className="space-y-2">
           {problemsListRaw.map((problem, index) => (

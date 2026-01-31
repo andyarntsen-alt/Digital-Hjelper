@@ -62,14 +62,14 @@ export default function PassordPage() {
         <p className="text-xl text-gray-600">{t('longDescription')}</p>
       </div>
 
-      <div className="card bg-blue-50 mb-8">
-        <h2 className="text-xl font-bold mb-4 text-blue-800">{t('whyImportantTitle')}</h2>
+      <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
+        <h2 className="text-xl font-bold mb-4 text-gray-900">{t('whyImportantTitle')}</h2>
         <p className="text-gray-700 mb-4">{t('whyImportantText1')}</p>
         <p className="text-gray-700">{t('whyImportantText2')}</p>
       </div>
 
-      <div className="card bg-red-50 mb-8">
-        <h2 className="text-xl font-bold mb-4 text-red-800">{t('badPasswordsTitle')}</h2>
+      <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
+        <h2 className="text-xl font-bold mb-4 text-gray-900">{t('badPasswordsTitle')}</h2>
         <div className="flex flex-wrap gap-2 mb-4">
           {badPasswordsRaw.map((password, index) => (
             <span key={index} className="bg-red-200 text-red-800 px-3 py-1 rounded-full text-sm font-mono">
@@ -77,17 +77,17 @@ export default function PassordPage() {
             </span>
           ))}
         </div>
-        <p className="text-red-700 font-semibold">{t('badPasswordsWarning')}</p>
+        <p className="text-gray-900 font-semibold">{t('badPasswordsWarning')}</p>
       </div>
 
       <StepGuide title={t('stepsTitle')} steps={steps} />
 
-      <div className="mt-8 card bg-yellow-50">
-        <h2 className="text-xl font-bold mb-4 text-yellow-800">{t('tipsTitle')}</h2>
+      <div className="mt-8 bg-gray-50 border border-gray-200 rounded-xl p-4">
+        <h2 className="text-xl font-bold mb-4 text-gray-900">{t('tipsTitle')}</h2>
         <ul className="space-y-2">
           {tipsRaw.map((tip, index) => (
             <li key={index} className="flex items-start gap-3">
-              <span className="text-yellow-600 mt-1">💡</span>
+              <span className="text-gray-500 mt-1">Tip:</span>
               <span className="text-gray-700">{tip}</span>
             </li>
           ))}

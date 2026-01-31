@@ -65,15 +65,15 @@ export default function OrdbokPage() {
   };
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-6 sm:py-8 md:py-12">
-      <Link href="/" className="text-nav-blue hover:underline mb-6 inline-flex items-center gap-2">
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <div className="max-w-4xl mx-auto px-4 py-12 sm:py-16">
+      <Link href="/" className="text-gray-500 hover:text-nav-blue no-underline mb-6 inline-flex items-center gap-2 text-sm font-medium">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
         </svg>
         {tCommon('backToHome')}
       </Link>
 
-      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-4">📖 {t('title')}</h1>
+      <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4">{t('title')}</h1>
       <p className="text-xl text-gray-600 mb-8">
         {t('subtitle')}
       </p>
@@ -204,14 +204,14 @@ export default function OrdbokPage() {
       )}
 
       {/* Tips */}
-      <div className="mt-12 tip-box">
+      <div className="mt-12 bg-gray-50 border border-gray-200 rounded-xl p-4">
         <div className="flex items-start gap-3">
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-600 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
           </svg>
           <div>
-            <p className="font-semibold text-green-800">{t('missingWord')}</p>
-            <p className="text-green-700">
+            <p className="font-semibold text-gray-900">{t('missingWord')}</p>
+            <p className="text-gray-700">
               {t('missingWordText')}
             </p>
           </div>

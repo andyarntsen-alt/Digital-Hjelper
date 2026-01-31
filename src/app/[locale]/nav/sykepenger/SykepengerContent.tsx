@@ -69,14 +69,12 @@ export default function SykepengerContent() {
       </div>
 
       {/* Hvem kan få */}
-      <div className="card bg-blue-50 mb-8">
+      <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
         <h2 className="text-xl font-bold mb-4">{t('whoCanGet')}</h2>
         <ul className="space-y-2 text-gray-700">
           {requirements.map((req, index) => (
             <li key={index} className="flex items-start gap-3">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
               <span>{req}</span>
             </li>
           ))}
@@ -84,8 +82,8 @@ export default function SykepengerContent() {
       </div>
 
       {/* Viktig å vite */}
-      <div className="card mb-8">
-        <h2 className="text-xl font-bold mb-4">💡 {t('importantToKnow')}</h2>
+      <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
+        <h2 className="text-xl font-bold mb-4">{t('importantToKnow')}</h2>
         <div className="space-y-4 text-gray-700">
           <div className="p-4 bg-gray-50 rounded-lg">
             <p className="font-semibold">{t('employerPeriod')}</p>
@@ -109,7 +107,7 @@ export default function SykepengerContent() {
       <StepGuide title={t('stepsTitle')} steps={steps} />
 
       {/* Gradert sykemelding */}
-      <div className="mt-8 card border-l-4 border-nav-blue">
+      <div className="mt-8 bg-gray-50 border border-gray-200 rounded-xl p-6">
         <h2 className="text-xl font-bold mb-4">{t('gradedTitle')}</h2>
         <p className="text-gray-700 mb-4">
           {t('gradedIntro')}

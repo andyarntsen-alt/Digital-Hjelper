@@ -72,8 +72,8 @@ export default function BestilleTimePage() {
         </div>
 
         {/* Benefits */}
-        <div className="card bg-green-50 mb-8">
-          <h2 className="text-xl font-bold mb-4">✅ {t('benefitsTitle')}</h2>
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
+          <h2 className="text-xl font-bold mb-4">{t('benefitsTitle')}</h2>
           <ul className="space-y-2 text-gray-700">
             {benefits.map((benefit, index) => (
               <li key={index} className="flex items-center gap-3">
@@ -89,8 +89,8 @@ export default function BestilleTimePage() {
         <StepGuide title={t('stepsTitle')} steps={steps} />
 
         {/* FAQ */}
-        <div className="mt-8 card">
-          <h2 className="text-xl font-bold mb-4">❓ {t('faqTitle')}</h2>
+        <div className="mt-8 bg-white border border-gray-200 rounded-xl p-6">
+          <h2 className="text-xl font-bold mb-4">{t('faqTitle')}</h2>
           <div className="space-y-4">
             {faq.map((item, index) => (
               <div key={index} className="p-4 bg-gray-50 rounded-lg">

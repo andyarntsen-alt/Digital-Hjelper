@@ -22,22 +22,22 @@ export default function OmPage() {
       />
       <OrganizationSchema locale={locale} />
 
-      <div className="max-w-4xl mx-auto px-4 py-6 sm:py-8 md:py-12">
-        <Link href="/" className="text-nav-blue hover:underline mb-6 inline-flex items-center gap-2">
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <div className="max-w-4xl mx-auto px-4 py-12 sm:py-16">
+        <Link href="/" className="text-gray-500 hover:text-nav-blue no-underline mb-6 inline-flex items-center gap-2 text-sm font-medium">
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
           </svg>
           {tCommon('backToHome')}
         </Link>
 
-        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-6">{t('title')}</h1>
+        <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-6">{t('title')}</h1>
 
         <div className="prose prose-lg max-w-none">
           {/* E-E-A-T: Forfatter-profil seksjon */}
-          <div className="card mb-8 bg-gradient-to-r from-blue-50 to-white border-l-4 border-nav-blue">
+          <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
             <div className="flex flex-col sm:flex-row gap-6 items-start">
-              <div className="bg-nav-blue text-white p-4 rounded-full flex-shrink-0">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <div className="bg-nav-blue text-white p-3 rounded-xl flex-shrink-0">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
               </div>
@@ -125,8 +125,8 @@ export default function OmPage() {
           </div>
 
           {/* E-E-A-T: Kilder og troverdighet */}
-          <div className="card mb-8">
-            <h2 className="text-2xl font-bold mb-4">📚 {t('ourSources')}</h2>
+          <div className="bg-white border border-gray-200 rounded-xl p-6 mb-8">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">{t('ourSources')}</h2>
             <p className="text-gray-700 leading-relaxed mb-4">
               {t('sourcesIntro')}
             </p>
@@ -163,8 +163,8 @@ export default function OmPage() {
             <strong>{t('lastUpdated')}:</strong> {locale === 'no' ? 'Januar 2026' : locale === 'en' ? 'January 2026' : 'Січень 2026'}
           </p>
 
-          <div className="card border-l-4 border-yellow-500 bg-yellow-50">
-            <h2 className="text-xl font-bold mb-3">⚠️ {t('importantInfo')}</h2>
+          <div className="bg-gray-50 border border-gray-200 rounded-xl p-6">
+            <h2 className="text-xl font-bold text-gray-900 mb-3">{t('importantInfo')}</h2>
             <p className="text-gray-700 leading-relaxed">
               {t('importantInfoText')}
             </p>

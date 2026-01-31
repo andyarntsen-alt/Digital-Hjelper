@@ -120,9 +120,9 @@ export default function SvindelPage() {
         </div>
 
         {/* Checklist */}
-        <div className="card bg-yellow-50 border-2 border-yellow-400 mb-8">
-          <h2 className="text-2xl font-bold mb-4 flex items-center gap-2">
-            <span className="text-3xl">🤔</span> {t('checklistTitle')}
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
+          <h2 className="text-2xl font-bold mb-4 text-gray-900">
+            {t('checklistTitle')}
           </h2>
           <p className="text-gray-700 mb-4">{t('checklistIntro')}</p>
 
@@ -158,19 +158,19 @@ export default function SvindelPage() {
           </div>
 
           {/* Result - hide on print */}
-          <div className={`print:hidden mt-4 p-4 rounded-lg ${
+          <div className={`print:hidden mt-4 p-4 rounded-lg border ${
             warningCount === 0
-              ? 'bg-green-100 border border-green-400'
+              ? 'bg-gray-100 border-gray-300'
               : warningCount <= 2
-              ? 'bg-yellow-100 border border-yellow-400'
-              : 'bg-red-100 border border-red-400'
+              ? 'bg-gray-100 border-gray-300'
+              : 'bg-gray-100 border-gray-300'
           }`}>
             {warningCount === 0 ? (
-              <p className="text-green-800 font-semibold">{t('checklistResultSafe')}</p>
+              <p className="text-gray-900 font-semibold">{t('checklistResultSafe')}</p>
             ) : warningCount <= 2 ? (
-              <p className="text-yellow-800 font-semibold">{t('checklistResultCaution').replace('{count}', String(warningCount))}</p>
+              <p className="text-gray-900 font-semibold">{t('checklistResultCaution').replace('{count}', String(warningCount))}</p>
             ) : (
-              <p className="text-red-800 font-semibold text-lg">{t('checklistResultDanger').replace('{count}', String(warningCount))}</p>
+              <p className="text-gray-900 font-semibold text-lg">{t('checklistResultDanger').replace('{count}', String(warningCount))}</p>
             )}
           </div>
           {/* Static message for print */}
@@ -181,8 +181,8 @@ export default function SvindelPage() {
 
         {/* Elder scam types */}
         <div className="mb-8">
-          <h2 className="text-2xl font-bold mb-4 flex items-center gap-2">
-            <span className="text-3xl">⚠️</span> {t('elderScamTitle')}
+          <h2 className="text-2xl font-bold mb-4 text-gray-900">
+            {t('elderScamTitle')}
           </h2>
           <p className="text-gray-600 mb-6">{t('elderScamIntro')}</p>
 
@@ -217,8 +217,8 @@ export default function SvindelPage() {
                     <p className="text-gray-700">{type.howItWorks}</p>
                   </div>
 
-                  <div className="bg-red-50 p-4 rounded-lg">
-                    <p className="font-semibold text-red-800 mb-2">Varseltegn:</p>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <p className="font-semibold text-gray-900 mb-2">Varseltegn:</p>
                     <ul className="space-y-2">
                       {type.redFlags.map((flag, i) => (
                         <li key={i} className="flex items-start gap-2 text-gray-700">
@@ -229,8 +229,8 @@ export default function SvindelPage() {
                     </ul>
                   </div>
 
-                  <div className="bg-green-50 p-4 rounded-lg">
-                    <p className="font-semibold text-green-800 mb-2">Hva du skal gjøre:</p>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <p className="font-semibold text-gray-900 mb-2">Hva du skal gjore:</p>
                     <p className="text-gray-700">{type.whatToDo}</p>
                   </div>
                 </div>
@@ -240,8 +240,8 @@ export default function SvindelPage() {
         </div>
 
         {/* Other scam types */}
-        <div className="card bg-red-50 mb-8">
-          <h2 className="text-xl font-bold mb-4 text-red-800">{t('otherScamTitle')}</h2>
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
+          <h2 className="text-xl font-bold mb-4 text-gray-900">{t('otherScamTitle')}</h2>
           <div className="space-y-4">
             {otherScamTypes.map((type, index) => (
               <div key={index} className="bg-white p-4 rounded-lg">
@@ -255,12 +255,12 @@ export default function SvindelPage() {
         <StepGuide title={t('stepsTitle')} steps={steps} />
 
         {/* Never ask */}
-        <div className="mt-8 card bg-green-50">
-          <h2 className="text-xl font-bold mb-4">{t('neverAskTitle')}</h2>
+        <div className="mt-8 bg-gray-50 border border-gray-200 rounded-xl p-6">
+          <h2 className="text-xl font-bold mb-4 text-gray-900">{t('neverAskTitle')}</h2>
           <ul className="space-y-2 text-gray-700">
             {neverAskList.map((item, index) => (
               <li key={index} className="flex items-center gap-3">
-                <span className="text-red-600 font-bold">✕</span>
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-red-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
                 <span>{item}</span>
               </li>
             ))}
@@ -282,9 +282,9 @@ export default function SvindelPage() {
         </div>
 
         {/* Emergency contacts */}
-        <div className="mt-8 card bg-blue-50 border-2 border-blue-400">
-          <h2 className="text-2xl font-bold mb-4 flex items-center gap-2">
-            <span className="text-3xl">📞</span> {t('contactsTitle')}
+        <div className="mt-8 bg-gray-50 border border-gray-200 rounded-xl p-6">
+          <h2 className="text-2xl font-bold mb-4 text-gray-900">
+            {t('contactsTitle')}
           </h2>
           <div className="grid md:grid-cols-2 gap-4">
             {contacts.map((contact, index) => (
@@ -295,7 +295,7 @@ export default function SvindelPage() {
               </div>
             ))}
           </div>
-          <div className="mt-4 p-3 bg-yellow-100 rounded-lg">
+          <div className="mt-4 p-3 bg-gray-100 rounded-lg">
             <p className="text-gray-800 text-sm"><strong>Tips:</strong> {t('contactsTip')}</p>
           </div>
         </div>

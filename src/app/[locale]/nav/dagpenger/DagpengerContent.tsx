@@ -73,15 +73,13 @@ export default function DagpengerContent() {
       </div>
 
       {/* Krav-boks */}
-      <div className="card bg-blue-50 mb-8">
+      <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
         <h2 className="text-xl font-bold mb-4">{t('whoCanGet')}</h2>
         <p className="text-gray-700 mb-4">{t('whoCanGetIntro')}</p>
         <ul className="space-y-2 text-gray-700">
           {requirements.map((req, index) => (
             <li key={index} className="flex items-start gap-3">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
               <span>{req}</span>
             </li>
           ))}
@@ -89,8 +87,8 @@ export default function DagpengerContent() {
       </div>
 
       {/* Dokumenter du trenger */}
-      <div className="card mb-8">
-        <h2 className="text-xl font-bold mb-4">📄 {t('documentsTitle')}</h2>
+      <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
+        <h2 className="text-xl font-bold mb-4">{t('documentsTitle')}</h2>
         <ul className="space-y-3 text-gray-700">
           {documents.map((doc, index) => (
             <li key={index} className="flex items-start gap-3">
@@ -104,7 +102,7 @@ export default function DagpengerContent() {
       <StepGuide title={t('stepsTitle')} steps={steps} />
 
       {/* Viktig informasjon */}
-      <div className="mt-8 card border-l-4 border-nav-blue">
+      <div className="mt-8 bg-gray-50 border border-gray-200 rounded-xl p-6">
         <h2 className="text-xl font-bold mb-4">{t('importantTitle')}</h2>
         <div className="space-y-4 text-gray-700">
           <div className="flex items-start gap-3">

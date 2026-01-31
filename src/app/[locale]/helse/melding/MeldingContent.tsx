@@ -73,8 +73,8 @@ export default function MeldingPage() {
         </div>
 
         {/* When to use - Good */}
-        <div className="card bg-green-50 mb-8">
-          <h2 className="text-xl font-bold mb-4">✅ {t('whenToUseGood')}</h2>
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
+          <h2 className="text-xl font-bold mb-4">{t('whenToUseGood')}</h2>
           <ul className="space-y-2 text-gray-700">
             {whenToUseGoodList.map((item, index) => (
               <li key={index} className="flex items-center gap-3">
@@ -88,12 +88,14 @@ export default function MeldingPage() {
         </div>
 
         {/* When NOT to use */}
-        <div className="card bg-red-50 mb-8">
-          <h2 className="text-xl font-bold mb-4 text-red-800">⚠️ {t('whenToUseBad')}</h2>
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
+          <h2 className="text-xl font-bold mb-4 text-gray-900">{t('whenToUseBad')}</h2>
           <ul className="space-y-2 text-gray-700">
             {whenToUseBadList.map((item, index) => (
               <li key={index} className="flex items-center gap-3">
-                <span className="text-red-600 font-bold">✕</span>
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-red-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
                 <span>{item}</span>
               </li>
             ))}
@@ -103,8 +105,8 @@ export default function MeldingPage() {
         <StepGuide title={t('stepsTitle')} steps={steps} />
 
         {/* FAQ */}
-        <div className="mt-8 card">
-          <h2 className="text-xl font-bold mb-4">❓ {t('faqTitle')}</h2>
+        <div className="mt-8 bg-white border border-gray-200 rounded-xl p-6">
+          <h2 className="text-xl font-bold mb-4">{t('faqTitle')}</h2>
           <div className="space-y-4">
             {faq.map((item, index) => (
               <div key={index} className="p-4 bg-gray-50 rounded-lg">

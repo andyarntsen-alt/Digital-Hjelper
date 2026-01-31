@@ -69,8 +69,8 @@ export default function ForeldrepengerPage() {
       </div>
 
       {/* Oversikt */}
-      <div className="card bg-pink-50 mb-8">
-        <h2 className="text-xl font-bold mb-4">👶 {t('overview')}</h2>
+      <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
+        <h2 className="text-xl font-bold mb-4">{t('overview')}</h2>
         <div className="grid md:grid-cols-3 gap-4">
           <div className="bg-white p-4 rounded-lg text-center">
             <p className="text-3xl font-bold text-nav-blue">49</p>
@@ -94,20 +94,23 @@ export default function ForeldrepengerPage() {
       </div>
 
       {/* Hvem kan få */}
-      <div className="card mb-8">
+      <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
         <h2 className="text-xl font-bold mb-4">{t('whoCanGet')}</h2>
         <div className="space-y-4">
-          <div className="p-4 bg-green-50 rounded-lg border-l-4 border-green-500">
-            <p className="font-semibold text-green-800">{t('youHaveRight')}</p>
-            <ul className="mt-2 space-y-1 text-green-700">
+          <div className="p-4 bg-gray-50 rounded-lg border border-gray-200">
+            <p className="font-semibold text-gray-900">{t('youHaveRight')}</p>
+            <ul className="mt-2 space-y-1 text-gray-700">
               {rightConditions.map((condition, index) => (
-                <li key={index}>✓ {condition}</li>
+                <li key={index} className="flex items-start gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+                  <span>{condition}</span>
+                </li>
               ))}
             </ul>
           </div>
-          <div className="p-4 bg-yellow-50 rounded-lg border-l-4 border-yellow-500">
-            <p className="font-semibold text-yellow-800">{t('noRightTitle')}</p>
-            <p className="text-yellow-700 mt-1">
+          <div className="p-4 bg-gray-50 rounded-lg border border-gray-200">
+            <p className="font-semibold text-gray-900">{t('noRightTitle')}</p>
+            <p className="text-gray-700 mt-1">
               {t('noRightText')}
             </p>
           </div>
@@ -117,8 +120,8 @@ export default function ForeldrepengerPage() {
       <StepGuide title={t('stepsTitle')} steps={steps} />
 
       {/* Viktige datoer */}
-      <div className="mt-8 card border-l-4 border-nav-blue">
-        <h2 className="text-xl font-bold mb-4">📅 {t('importantDates')}</h2>
+      <div className="mt-8 bg-gray-50 border border-gray-200 rounded-xl p-6">
+        <h2 className="text-xl font-bold mb-4">{t('importantDates')}</h2>
         <div className="space-y-4 text-gray-700">
           <div className="flex items-start gap-3">
             <div className="bg-nav-blue text-white px-3 py-1 rounded text-sm font-bold">4</div>
@@ -140,14 +143,14 @@ export default function ForeldrepengerPage() {
       </div>
 
       {/* Kalkulator-lenke */}
-      <div className="mt-8 tip-box">
+      <div className="mt-8 bg-gray-50 border border-gray-200 rounded-xl p-4">
         <div className="flex items-start gap-3">
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-600 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-nav-blue flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
           </svg>
           <div>
-            <p className="font-semibold text-green-800">{t('calculatorTitle')}</p>
-            <p className="text-green-700">
+            <p className="font-semibold text-gray-900">{t('calculatorTitle')}</p>
+            <p className="text-gray-700">
               {t('calculatorText')}
             </p>
           </div>

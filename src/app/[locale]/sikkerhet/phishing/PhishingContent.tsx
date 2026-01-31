@@ -61,14 +61,14 @@ export default function PhishingPage() {
         <p className="text-xl text-gray-600">{t('longDescription')}</p>
       </div>
 
-      <div className="card bg-blue-50 mb-8">
-        <h2 className="text-xl font-bold mb-4 text-blue-800">{t('whatIsTitle')}</h2>
+      <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
+        <h2 className="text-xl font-bold mb-4 text-gray-900">{t('whatIsTitle')}</h2>
         <p className="text-gray-700 mb-4">{t('whatIsText1')}</p>
         <p className="text-gray-700">{t('whatIsText2')}</p>
       </div>
 
-      <div className="card bg-red-50 mb-8">
-        <h2 className="text-xl font-bold mb-4 text-red-800">{t('examplesTitle')}</h2>
+      <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
+        <h2 className="text-xl font-bold mb-4 text-gray-900">{t('examplesTitle')}</h2>
         <div className="space-y-4">
           <div className="p-4 bg-white rounded-lg border-l-4 border-red-500">
             <p className="text-sm text-gray-500 mb-1">{t('examplePostTitle')}</p>
@@ -90,20 +90,20 @@ export default function PhishingPage() {
 
       <StepGuide title={t('stepsTitle')} steps={steps} />
 
-      <div className="mt-8 card bg-yellow-50">
-        <h2 className="text-xl font-bold mb-4 text-yellow-800">{t('warningSignsTitle')}</h2>
+      <div className="mt-8 bg-gray-50 border border-gray-200 rounded-xl p-4">
+        <h2 className="text-xl font-bold mb-4 text-gray-900">{t('warningSignsTitle')}</h2>
         <ul className="space-y-2">
           {warningSignsRaw.map((sign, index) => (
             <li key={index} className="flex items-start gap-3">
-              <span className="text-yellow-600 font-bold mt-1">⚠</span>
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-yellow-500 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>
               <span className="text-gray-700">{sign}</span>
             </li>
           ))}
         </ul>
       </div>
 
-      <div className="mt-8 card bg-green-50">
-        <h2 className="text-xl font-bold mb-4 text-green-800">{t('ifClickedTitle')}</h2>
+      <div className="mt-8 bg-gray-50 border border-gray-200 rounded-xl p-6">
+        <h2 className="text-xl font-bold mb-4 text-gray-900">{t('ifClickedTitle')}</h2>
         <p className="text-gray-700 mb-4">{t('ifClickedText')}</p>
         <ol className="list-decimal list-inside space-y-2 text-gray-700 ml-4">
           <li>{t('ifClicked1')}</li>

@@ -61,18 +61,18 @@ export default function VippsPage() {
         <p className="text-xl text-gray-600">{t('longDescription')}</p>
       </div>
 
-      <div className="card bg-orange-50 mb-8">
-        <h2 className="text-xl font-bold mb-4 text-orange-800">{t('whatIsTitle')}</h2>
+      <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
+        <h2 className="text-xl font-bold mb-4 text-gray-900">{t('whatIsTitle')}</h2>
         <p className="text-gray-700 mb-4">{t('whatIsText1')}</p>
         <p className="text-gray-700">{t('whatIsText2')}</p>
       </div>
 
-      <div className="card bg-yellow-50 mb-8">
-        <h2 className="text-xl font-bold mb-4 text-yellow-800">{t('whatYouNeedTitle')}</h2>
+      <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
+        <h2 className="text-xl font-bold mb-4 text-gray-900">{t('whatYouNeedTitle')}</h2>
         <ul className="space-y-2">
           {whatYouNeedRaw.map((item, index) => (
             <li key={index} className="flex items-center gap-3 text-gray-700">
-              <span className="text-yellow-600">✓</span>
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
               <span>{item}</span>
             </li>
           ))}
@@ -81,8 +81,8 @@ export default function VippsPage() {
 
       <StepGuide title={t('stepsTitle')} steps={steps} />
 
-      <div className="mt-8 card bg-blue-50">
-        <h2 className="text-xl font-bold mb-4 text-blue-800">{t('featuresTitle')}</h2>
+      <div className="mt-8 bg-gray-50 border border-gray-200 rounded-xl p-6">
+        <h2 className="text-xl font-bold mb-4 text-gray-900">{t('featuresTitle')}</h2>
         <div className="space-y-4">
           <div className="bg-white p-4 rounded-lg">
             <p className="font-semibold text-gray-800">{t('featureInvoice')}</p>
@@ -99,8 +99,8 @@ export default function VippsPage() {
         </div>
       </div>
 
-      <div className="mt-8 card bg-green-50">
-        <h2 className="text-xl font-bold mb-4 text-green-800">{t('securityTitle')}</h2>
+      <div className="mt-8 bg-gray-50 border border-gray-200 rounded-xl p-6">
+        <h2 className="text-xl font-bold mb-4 text-gray-900">{t('securityTitle')}</h2>
         <p className="text-gray-700">{t('securityText')}</p>
       </div>
     </div>

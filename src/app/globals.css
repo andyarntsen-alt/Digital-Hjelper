@@ -173,11 +173,11 @@ html.high-contrast .skip-link {
   }
 
   a {
-    @apply text-nav-blue underline hover:text-nav-dark focus:outline-none focus:ring-4 focus:ring-yellow-400;
+    @apply text-nav-blue underline hover:text-nav-dark focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-yellow-400;
   }
 
   button {
-    @apply focus:outline-none focus:ring-4 focus:ring-yellow-400;
+    @apply focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-yellow-400;
   }
 }
 
@@ -185,21 +185,21 @@ html.high-contrast .skip-link {
   .btn-primary {
     @apply bg-nav-blue text-white px-5 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold
            hover:bg-nav-dark active:bg-nav-dark transition-colors duration-200
-           focus:outline-none focus:ring-4 focus:ring-yellow-400;
+           focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-yellow-400;
   }
 
   .btn-secondary {
     @apply bg-white text-nav-blue border-2 border-nav-blue px-5 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold
            hover:bg-blue-50 active:bg-blue-100 transition-colors duration-200
-           focus:outline-none focus:ring-4 focus:ring-yellow-400;
+           focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-yellow-400;
   }
 
   .card {
-    @apply bg-white rounded-lg sm:rounded-xl shadow-lg p-4 sm:p-6 md:p-8 border border-gray-200;
+    @apply bg-white rounded-lg sm:rounded-xl p-4 sm:p-6 md:p-8 border border-gray-100;
   }
 
   .service-card {
-    @apply card hover:shadow-xl transition-shadow duration-200 cursor-pointer;
+    @apply card hover:bg-gray-50 transition-colors duration-200 cursor-pointer;
   }
 
   .step-card {
@@ -215,8 +215,8 @@ html.high-contrast .skip-link {
   }
 }
 
-/* Ekstra god fokus-synlighet for tilgjengelighet */
-*:focus {
+/* Ekstra god fokus-synlighet for tilgjengelighet - kun ved tastaturnavigasjon */
+*:focus-visible {
   outline: 3px solid #fbbf24;
   outline-offset: 2px;
 }
@@ -337,7 +337,7 @@ select {
   z-index: 9999;
 }
 
-.skip-link:focus {
+.skip-link:focus-visible {
   position: fixed;
   top: 0;
   left: 50%;
