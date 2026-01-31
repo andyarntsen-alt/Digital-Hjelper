@@ -3505,7 +3505,7 @@
         "difficulty": "Easy",
         "whatIsTitle": "About driver's license",
         "whatIsText1": "Driver's license is both proof that you're allowed to drive and a valid ID card. It must be renewed regularly.",
-        "whatIsText2": "Driver's license for car (class B) is valid for 15 years, but must be renewed more often after turning 75.",
+        "whatIsText2": "Driver's license for car (class B) is valid for 10 years if you're under 65, 5 years if you're 65-74, and 2 years if you're over 75.",
         "requirementsTitle": "What you need",
         "requirements": [
           "Valid ID",
