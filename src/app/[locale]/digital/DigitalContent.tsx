@@ -107,22 +107,22 @@ export default function DigitalContent() {
         <div className="mt-16">
           <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6">{t('importantServicesTitle')}</h2>
           <div className="grid sm:grid-cols-2 gap-3">
-            <div className="p-4 bg-white border border-gray-200 rounded-xl">
-              <p className="font-medium text-gray-900">{t('serviceDigipost')}</p>
+            <Link href="/digital/digipost" className="group p-4 bg-white border border-gray-200 rounded-xl hover:border-gray-300 hover:bg-gray-50 transition-colors no-underline block">
+              <p className="font-medium text-gray-900 group-hover:text-teal-600 transition-colors">{t('serviceDigipost')}</p>
               <p className="text-gray-600 text-sm">{t('serviceDigipostDesc')}</p>
-            </div>
-            <div className="p-4 bg-white border border-gray-200 rounded-xl">
-              <p className="font-medium text-gray-900">{t('serviceAltinn')}</p>
+            </Link>
+            <Link href="/digital/altinn" className="group p-4 bg-white border border-gray-200 rounded-xl hover:border-gray-300 hover:bg-gray-50 transition-colors no-underline block">
+              <p className="font-medium text-gray-900 group-hover:text-teal-600 transition-colors">{t('serviceAltinn')}</p>
               <p className="text-gray-600 text-sm">{t('serviceAltinnDesc')}</p>
-            </div>
-            <div className="p-4 bg-white border border-gray-200 rounded-xl">
-              <p className="font-medium text-gray-900">{t('serviceIdPorten')}</p>
+            </Link>
+            <Link href="/sikkerhet/bankid" className="group p-4 bg-white border border-gray-200 rounded-xl hover:border-gray-300 hover:bg-gray-50 transition-colors no-underline block">
+              <p className="font-medium text-gray-900 group-hover:text-teal-600 transition-colors">{t('serviceIdPorten')}</p>
               <p className="text-gray-600 text-sm">{t('serviceIdPortenDesc')}</p>
-            </div>
-            <div className="p-4 bg-white border border-gray-200 rounded-xl">
-              <p className="font-medium text-gray-900">{t('serviceBankId')}</p>
+            </Link>
+            <Link href="/sikkerhet/bankid" className="group p-4 bg-white border border-gray-200 rounded-xl hover:border-gray-300 hover:bg-gray-50 transition-colors no-underline block">
+              <p className="font-medium text-gray-900 group-hover:text-teal-600 transition-colors">{t('serviceBankId')}</p>
               <p className="text-gray-600 text-sm">{t('serviceBankIdDesc')}</p>
-            </div>
+            </Link>
           </div>
         </div>
 
