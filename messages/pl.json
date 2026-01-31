@@ -62,6 +62,7 @@
         "utdanning": "Edukacja",
         "id": "ID og pass",
         "grunnleggende": "Podstawy",
+        "nyINorge": "Nowi w Norwegii",
         "more": "Więcej"
     },
     "footer": {
@@ -406,6 +407,34 @@
             "libraryDesc": "Wiele bibliotek oferuje bezpłatną pomoc komputerową i kursy",
             "dataHjelpen": "Wolontariusze",
             "dataHjelpenDesc": "Poproś o pomoc rodzinę, przyjaciół lub sąsiadów"
+        },
+        "nyINorge": {
+            "title": "New to Norway",
+            "shortDesc": "Get started with life in Norway",
+            "description": "Everything you need to know to get started when you're new to Norway - registration, mobile number, bank account and more.",
+            "welcomeTitle": "Welcome to Norway!",
+            "welcomeText": "Moving to a new country can be overwhelming. Here we've gathered the most important things you need to do when you arrive in Norway, explained in a simple way.",
+            "guidesTitle": "What do you need to do first?",
+            "tipTitle": "Tips for newcomers",
+            "tipText": "The order is important! You often need a personal number before you can open a bank account, and a bank account before you can get a mobile subscription. Start with the Population Registry.",
+            "guides": {
+                "folkeregisteret": {
+                    "title": "Register with the Population Registry",
+                    "description": "Get a Norwegian personal number or D-number - the first thing you need to do"
+                },
+                "mobilnummer": {
+                    "title": "Get a Norwegian mobile number",
+                    "description": "Buy a SIM card and choose a mobile subscription"
+                },
+                "bankkonto": {
+                    "title": "Open a bank account",
+                    "description": "Create a bank account in a Norwegian bank"
+                },
+                "epost": {
+                    "title": "Set up email",
+                    "description": "Create a free email account to use Norwegian services"
+                }
+            }
         }
     },
     "guides": {
@@ -3079,6 +3108,46 @@
                     "Oppdater kontaktinformasjonen din hvis den endres",
                     "Logg alltid ut når du bruker delt datamaskin"
                 ]
+            },
+            "posten": {
+                "title": "Mail and Packages",
+                "description": "Track packages, pick up at post office and handle customs",
+                "longDescription": "Learn to use Norwegian postal services - track packages, change address, pick up at post office and handle customs for international shipments.",
+                "backToGuides": "Back to Digital Tools",
+                "time": "About 10 minutes",
+                "difficulty": "Easy",
+                "whatIsTitle": "Posten's digital services",
+                "whatIsText": "Posten has several useful digital services. You can track packages, change delivery address, find the nearest post office, and receive notifications when packages arrive.",
+                "servicesTitle": "What you can do with Posten",
+                "services": [
+                    {"name": "Track packages", "description": "Follow your package from sender to delivery with tracking number"},
+                    {"name": "Change delivery address", "description": "Send the package to another address or a post office"},
+                    {"name": "Find post office", "description": "Find the nearest post office or parcel locker"},
+                    {"name": "Temporary address change", "description": "Forward your mail to another address while traveling"}
+                ],
+                "trackingTitle": "How to track a package",
+                "trackingSteps": [
+                    {"title": "Find the tracking number", "description": "The tracking number is in the order confirmation from the store. It's usually a long code with letters and numbers.", "tip": "Check the email from the store where you shopped."},
+                    {"title": "Go to posten.no", "description": "Open your browser and go to posten.no. You can also use the Posten app on your phone.", "tip": "The app sends you notifications when the package arrives."},
+                    {"title": "Enter the tracking number", "description": "On the front page of posten.no there's a tracking field. Enter the tracking number and click Track.", "tip": "You can paste the number if you copied it from the email."},
+                    {"title": "See package status", "description": "Now you can see where the package is and when it's expected to arrive. You can also see previous events.", "tip": "Click \"Notify me\" to get a message when the package is ready for pickup."}
+                ],
+                "customsTitle": "Customs on packages from abroad",
+                "customsText": "When ordering from abroad (outside EU/EEA), there may be customs and fees. Here's what you need to know:",
+                "customsTips": [
+                    "Goods over 350 NOK may have VAT (25%)",
+                    "Some goods also have customs duty in addition to VAT",
+                    "Posten charges a fee for handling customs clearance",
+                    "You can declare yourself on toll.no to save the fee",
+                    "Food, alcohol and tobacco have strict rules"
+                ],
+                "digipostTitle": "Connection to Digipost",
+                "digipostText": "Posten is behind Digipost, the digital mailbox. There you can receive letters from public agencies and companies digitally instead of on paper.",
+                "digipostLink": "Read more about Digipost",
+                "pickupTitle": "Picking up packages at post office",
+                "pickupText": "When the package is ready for pickup, you'll get a notification by SMS or in the Posten app. Pick up the package at the nearest post office or parcel locker.",
+                "pickupRemember": "Remember:",
+                "pickupRememberText": "Bring valid ID (passport, driver's license or bank card with photo) when picking up packages."
             }
         },
         "bolig": {
@@ -3918,6 +3987,106 @@
                     "Spør om du kan ringe hvis du glemmer hvordan du gjør det"
                 ]
             }
+        },
+        "nyINorge": {
+            "folkeregisteret": {
+                "title": "Register with the Population Registry",
+                "description": "Learn how to register with the Population Registry and get a Norwegian personal number or D-number",
+                "longDescription": "A personal number or D-number is the key to everything in Norway. You need it to open a bank account, get a job, and use public services.",
+                "time": "About 10-15 minutes to read",
+                "difficulty": "Medium",
+                "whatIsTitle": "What is the Population Registry?",
+                "whatIsText": "The Population Registry is Norway's official register of everyone living in the country. When you register, you get a unique number used to identify you.",
+                "typesTitle": "Personal number or D-number?",
+                "typesText": "There are two types of personal numbers in Norway:",
+                "types": [
+                    {"type": "Personal number (11 digits)", "description": "For those staying in Norway for at least 6 months. This is the standard personal number."},
+                    {"type": "D-number (11 digits)", "description": "For those staying in Norway less than 6 months, or who need identification without living here permanently."}
+                ],
+                "stepsTitle": "How to register",
+                "steps": [
+                    {"title": "Gather required documents", "description": "You need a valid passport, employment contract or student enrollment proof, and possibly a visa. Bring originals, not copies.", "tip": "Check udi.no for an updated list of required documents for your situation."},
+                    {"title": "Book an appointment with police or tax office", "description": "EEA citizens register with the police (politiet.no). Others register with the Tax Administration (skatteetaten.no).", "tip": "Book your appointment online well in advance - there can be long waiting times."},
+                    {"title": "Attend your appointment", "description": "Bring all documents. They will take a photo and fingerprints. The process usually takes 30-60 minutes.", "warning": "If you miss your appointment, you'll need to book a new one."},
+                    {"title": "Wait for confirmation", "description": "You'll receive a letter in the post with your personal number or D-number. This usually takes 1-3 weeks.", "tip": "You can also check status on skatteetaten.no once you have access."}
+                ],
+                "tipTitle": "Important to know",
+                "tipText": "Your personal number is private and sensitive. Only share it with public authorities, employers and banks. Don't post it online or give it to strangers."
+            },
+            "mobilnummer": {
+                "title": "Get a Norwegian mobile number",
+                "description": "Learn how to buy a SIM card and choose a mobile subscription in Norway",
+                "longDescription": "A Norwegian mobile number is important for receiving SMS codes, using BankID, and staying in contact with employers and authorities.",
+                "time": "About 10 minutes to read",
+                "difficulty": "Easy",
+                "optionsTitle": "Prepaid or subscription?",
+                "optionsText": "In Norway you have two main options for mobile phones:",
+                "options": [
+                    {"type": "Prepaid (kontantkort)", "pros": "Easy to buy, no commitment, good for short stays", "cons": "Need to top up regularly, often more expensive per call/data"},
+                    {"type": "Subscription (fixed monthly price)", "pros": "More data and call time for your money, predictable bills", "cons": "Often requires a Norwegian bank account, may have binding period"}
+                ],
+                "stepsTitle": "How to get a Norwegian mobile number",
+                "steps": [
+                    {"title": "Choose an operator", "description": "The largest operators in Norway are Telenor, Telia and Ice. There are also many cheaper alternatives like Fjordkraft, Happybytes and MyCall.", "tip": "Compare prices on telepriser.no or tek.no."},
+                    {"title": "Buy a SIM card", "description": "For prepaid: Buy in grocery stores (Kiwi, Rema, Coop) or at gas stations. For subscription: Go to the operator's store or order online.", "warning": "You must show valid ID (passport) when buying a SIM card in Norway."},
+                    {"title": "Activate the SIM card", "description": "Follow the instructions that come with the SIM card. You usually need to send an SMS or visit the operator's website.", "tip": "Have WiFi available in case you need internet to activate."},
+                    {"title": "Top up (prepaid) or pay (subscription)", "description": "Prepaid can be topped up in stores or online. Subscriptions are paid by invoice or direct debit from your bank account.", "tip": "Many operators have apps where you can easily top up or check usage."}
+                ],
+                "tipTitle": "Tips for newcomers",
+                "tipText": "Start with a prepaid card when you first arrive in Norway. Once you have a bank account and personal number, you can easily switch to a subscription with better prices."
+            },
+            "bankkonto": {
+                "title": "Open a bank account in Norway",
+                "description": "Learn how to open a bank account in a Norwegian bank",
+                "longDescription": "A Norwegian bank account is necessary to receive salary, pay bills, and use online banking and Vipps.",
+                "time": "About 10 minutes to read",
+                "difficulty": "Medium",
+                "requirementsTitle": "What do you need?",
+                "requirements": ["Personal number or D-number (from the Population Registry)", "Valid passport or other ID", "Documentation of where you live (rental contract or similar)", "Some banks also require an employment contract"],
+                "banksTitle": "Popular banks in Norway",
+                "banks": [
+                    {"name": "DNB", "description": "Norway's largest bank. Has many branches and good online banking. Can be slightly more expensive."},
+                    {"name": "Nordea", "description": "Large Nordic bank with good customer service. Often offers good terms for newcomers."},
+                    {"name": "SpareBank 1", "description": "Cooperation between local savings banks. Good prices and local presence."},
+                    {"name": "Sbanken", "description": "Online bank without branches. Often lower prices, everything is done digitally."}
+                ],
+                "stepsTitle": "How to open a bank account",
+                "steps": [
+                    {"title": "Choose a bank", "description": "Compare banks on finansportalen.no. Look at prices for accounts, cards and transfers. Also check if they have a branch nearby if you prefer personal help.", "tip": "Ask your employer - some companies have agreements with specific banks."},
+                    {"title": "Book an appointment or apply online", "description": "Most banks let you start the process online. Some require you to visit in person to verify your identity.", "warning": "Not all banks accept D-numbers. Check in advance."},
+                    {"title": "Submit documents", "description": "Bring your passport, proof of Norwegian personal number, and address proof. The bank will copy these and verify your identity.", "tip": "Original documents are always best. Bring everything you have."},
+                    {"title": "Wait for bank card and codes", "description": "The bank card is sent by post, usually within 1-2 weeks. PIN code and online banking codes are sent separately.", "tip": "Activate the card as soon as you receive it, either online or at the bank."},
+                    {"title": "Set up online banking and BankID", "description": "Download the bank's app and log in. You'll get help setting up BankID which is used for secure login everywhere in Norway.", "tip": "BankID is important! It's used to log in to NAV, Tax Administration, and many other services."}
+                ],
+                "tipTitle": "Important about BankID",
+                "tipText": "BankID is Norway's most used digital ID. With BankID you can log in to public services, sign documents digitally, and use Vipps. Make sure to set this up when you open your bank account."
+            },
+            "epost": {
+                "title": "Set up email",
+                "description": "Learn how to create a free email account to use Norwegian services",
+                "longDescription": "Email is important for receiving confirmations, communicating with authorities, and keeping track of appointments and documents.",
+                "time": "About 10 minutes to read",
+                "difficulty": "Easy",
+                "whyTitle": "Why do you need email?",
+                "whyText": "In Norway, many companies and authorities send information by email. You need email to:",
+                "whyList": ["Receive confirmations from employers and authorities", "Create accounts on Norwegian websites", "Get receipts from online shopping", "Communicate with doctors, schools and others"],
+                "providersTitle": "Free email services",
+                "providers": [
+                    {"name": "Gmail (Google)", "description": "Most popular. Easy to use, good search function, integrated with Google services.", "url": "gmail.com"},
+                    {"name": "Outlook (Microsoft)", "description": "From Microsoft. Good integration with Windows and Office.", "url": "outlook.com"},
+                    {"name": "Yahoo Mail", "description": "A good alternative with lots of storage space.", "url": "mail.yahoo.com"}
+                ],
+                "stepsTitle": "How to create a Gmail account",
+                "steps": [
+                    {"title": "Go to gmail.com", "description": "Open your browser and type gmail.com in the address bar. Click on 'Create account'.", "tip": "You can choose Norwegian language at the bottom of the page."},
+                    {"title": "Fill out the form", "description": "Enter your first name, last name, and choose a username. The username becomes your email address (e.g., yourname@gmail.com).", "warning": "Choose a professional username - you'll use it with employers and authorities."},
+                    {"title": "Create a strong password", "description": "The password should have at least 8 characters, including upper and lowercase letters, numbers and special characters.", "tip": "Write down the password and keep it safe. Don't use the same password as elsewhere."},
+                    {"title": "Add phone number", "description": "This is used to recover the account if you forget the password. You can use your Norwegian mobile number.", "tip": "Phone number is also useful for extra security (two-factor authentication)."},
+                    {"title": "Accept terms and finish", "description": "Read through the terms and click 'Accept'. Your email account is now ready to use!", "tip": "Download the Gmail app on your phone for easy access to email."}
+                ],
+                "tipTitle": "Tips for safe email",
+                "tipText": "Don't open attachments or links from unknown senders. Norwegian authorities never ask for passwords by email. If you're unsure, contact the sender directly through official channels."
+            }
         }
     },
     "ordbok": {
@@ -3932,6 +4101,21 @@
         "tryAnother": "Spróbuj innego wyszukiwania",
         "missingWord": "Brakuje słowa?",
         "missingWordText": "Wyślij nam e-mail na kontakt@lettdigital.no, jeśli jest słowo, które chciałbyś wyjaśnić, a my je dodamy!",
+        "clickLetter": "Kliknij literę, aby przejść",
+        "words": "słów",
+        "categories": {
+          "NAV": "NAV",
+          "Digital": "Cyfrowe",
+          "Helse": "Zdrowie",
+          "Skatt": "Podatki",
+          "Bank": "Bank",
+          "Sikkerhet": "Bezpieczeństwo",
+          "Bolig": "Mieszkanie",
+          "Utdanning": "Edukacja",
+          "ID": "ID",
+          "Pensjon": "Emerytura",
+          "Teknologi": "Technologia"
+        },
         "terms": [
             {
                 "term": "BankID",
@@ -3962,6 +4146,7 @@
     },
     "faq": {
         "title": "Często zadawane pytania",
+        "description": "Znajdź odpowiedzi na najczęstsze pytania dotyczące NAV, Urzędu Skarbowego, Helsenorge i innych publicznych usług cyfrowych.",
         "subtitle": "Tutaj znajdziesz odpowiedzi na najczęstsze pytania dotyczące publicznych usług cyfrowych.",
         "categories": {
             "all": "Wszystkie",
@@ -4003,6 +4188,7 @@
     },
     "favorites": {
         "title": "Moje ulubione",
+        "description": "Zapisz swoje ulubione przewodniki do szybkiego dostępu. Twoja spersonalizowana kolekcja poradników.",
         "subtitle": "Tutaj znajdziesz przewodniki, które zapisałeś jako ulubione.",
         "empty": "Nie masz jeszcze ulubionych",
         "emptyText": "Kliknij gwiazdkę przy przewodniku, aby zapisać go tutaj.",

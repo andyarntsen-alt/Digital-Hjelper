@@ -1,8 +1,45 @@
+import { Metadata } from 'next';
 import ServiceCard from '@/components/ServiceCard';
 import RecentlyVisited from '@/components/RecentlyVisited';
 import HeroSection from '@/components/HeroSection';
 import { Link } from '@/i18n/navigation';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
+
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'home' });
+  const title = 'LettDigital - Digital inkludering for alle';
+  const description = t('whatIsText');
+
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      url: `https://www.lettdigital.no/${locale}`,
+      siteName: 'LettDigital',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+    },
+    alternates: {
+      canonical: `https://www.lettdigital.no/${locale}`,
+      languages: {
+        'nb': 'https://www.lettdigital.no/no',
+        'en': 'https://www.lettdigital.no/en',
+        'uk': 'https://www.lettdigital.no/uk',
+      },
+    },
+  };
+}
 
 export default async function Home({
   params,
@@ -47,7 +84,7 @@ export default async function Home({
           </div>
 
           {/* Featured services */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-16">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 mb-16">
             <ServiceCard
               title={tServices('nav.title')}
               description={tServices('nav.description')}
@@ -81,6 +118,18 @@ export default async function Home({
               icon={
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                </svg>
+              }
+            />
+            <ServiceCard
+              title={tServices('nyINorge.title')}
+              description={tServices('nyINorge.description')}
+              href="/ny-i-norge"
+              color="bg-emerald-600 text-white"
+              featured
+              icon={
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               }
             />

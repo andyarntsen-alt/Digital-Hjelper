@@ -123,6 +123,9 @@ export default function Header() {
                     <Link href="/grunnleggende" className="flex items-center gap-3 px-4 py-2.5 hover:bg-gray-50 no-underline text-gray-700" role="menuitem" tabIndex={0}>
                       {t('grunnleggende')}
                     </Link>
+                    <Link href="/ny-i-norge" className="flex items-center gap-3 px-4 py-2.5 hover:bg-gray-50 no-underline text-gray-700" role="menuitem" tabIndex={0}>
+                      {t('nyINorge')}
+                    </Link>
                     <hr className="my-2 border-gray-100" />
                     <Link href="/ordbok" className="flex items-center gap-3 px-4 py-2.5 hover:bg-gray-50 no-underline text-gray-600" role="menuitem" tabIndex={0}>
                       {t('ordbok')}
@@ -184,6 +187,9 @@ export default function Header() {
               </Link>
               <Link href="/digital" className="py-3 px-2 text-gray-700 hover:text-nav-blue no-underline" onClick={() => setMenuOpen(false)}>
                 {t('digital')}
+              </Link>
+              <Link href="/ny-i-norge" className="py-3 px-2 text-gray-700 hover:text-nav-blue no-underline" onClick={() => setMenuOpen(false)}>
+                {t('nyINorge')}
               </Link>
               <hr className="my-2 border-gray-100" />
               <Link href="/ordbok" className="py-3 px-2 text-gray-600 hover:text-nav-blue no-underline" onClick={() => setMenuOpen(false)}>

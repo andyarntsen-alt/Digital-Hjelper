@@ -58,6 +58,7 @@
     "utdanning": "Utdanning",
     "id": "ID og pass",
     "grunnleggende": "Grunnleggende",
+    "nyINorge": "Ny i Norge",
     "ordbok": "Ordbok",
     "faq": "FAQ",
     "about": "Om oss",
@@ -554,6 +555,34 @@
       "libraryDesc": "Mange bibliotek har gratis datahjelp og kurs",
       "dataHjelpen": "Frivillige hjelpere",
       "dataHjelpenDesc": "Spør familie, venner eller naboer om hjelp"
+    },
+    "nyINorge": {
+      "title": "Ny i Norge",
+      "shortDesc": "Kom i gang med livet i Norge",
+      "description": "Alt du trenger å vite for å komme i gang når du er ny i Norge - registrering, mobilnummer, bankkonto og mer.",
+      "welcomeTitle": "Velkommen til Norge!",
+      "welcomeText": "Å flytte til et nytt land kan være overveldende. Her har vi samlet de viktigste tingene du må ordne når du kommer til Norge, forklart på en enkel måte.",
+      "guidesTitle": "Hva må du gjøre først?",
+      "tipTitle": "Tips til nykommere",
+      "tipText": "Rekkefølgen er viktig! Du trenger ofte fødselsnummer før du kan få bankkonto, og bankkonto før du kan få mobilabonnement. Start med Folkeregisteret.",
+      "guides": {
+        "folkeregisteret": {
+          "title": "Registrere deg i Folkeregisteret",
+          "description": "Få norsk fødselsnummer eller D-nummer - det første du må gjøre"
+        },
+        "mobilnummer": {
+          "title": "Få norsk mobilnummer",
+          "description": "Kjøpe SIM-kort og velge mobilabonnement"
+        },
+        "bankkonto": {
+          "title": "Åpne bankkonto",
+          "description": "Opprette bankkonto i norsk bank"
+        },
+        "epost": {
+          "title": "Sette opp e-post",
+          "description": "Opprette gratis e-postkonto for å bruke norske tjenester"
+        }
+      }
     }
   },
   "guides": {
@@ -2943,6 +2972,46 @@
           "Oppdater kontaktinformasjonen din hvis den endres",
           "Logg alltid ut når du bruker delt datamaskin"
         ]
+      },
+      "posten": {
+        "title": "Posten og pakker",
+        "description": "Spor pakker, hent på postkontor og håndter toll",
+        "longDescription": "Lær å bruke Postens tjenester - spore pakker, endre adresse, hente på postkontor og håndtere tollbehandling for pakker fra utlandet.",
+        "backToGuides": "Tilbake til Digitale verktøy",
+        "time": "Ca. 10 minutter",
+        "difficulty": "Enkel",
+        "whatIsTitle": "Postens digitale tjenester",
+        "whatIsText": "Posten har flere nyttige digitale tjenester. Du kan spore pakker, endre leveringsadresse, finne nærmeste postkontor, og motta varsel når pakker kommer.",
+        "servicesTitle": "Dette kan du gjøre hos Posten",
+        "services": [
+          {"name": "Spore pakker", "description": "Følg pakken din fra avsender til levering med sporingsnummer"},
+          {"name": "Endre leveringsadresse", "description": "Send pakken til en annen adresse eller et postkontor"},
+          {"name": "Finne postkontor", "description": "Finn nærmeste postkontor eller pakkeboks"},
+          {"name": "Midlertidig adresseendring", "description": "Send posten til en annen adresse mens du er bortreist"}
+        ],
+        "trackingTitle": "Slik sporer du en pakke",
+        "trackingSteps": [
+          {"title": "Finn sporingsnummeret", "description": "Sporingsnummeret finner du i ordrebekreftelsen fra butikken. Det er vanligvis en lang kode med bokstaver og tall.", "tip": "Sjekk e-posten fra butikken der du handlet."},
+          {"title": "Gå til posten.no", "description": "Åpne nettleseren og gå til posten.no. Du kan også bruke Posten-appen på mobilen.", "tip": "Appen gir deg varsler når pakken er framme."},
+          {"title": "Skriv inn sporingsnummeret", "description": "På forsiden av posten.no er det et felt for sporing. Skriv inn sporingsnummeret og trykk Spor.", "tip": "Du kan lime inn nummeret hvis du kopierte det fra e-posten."},
+          {"title": "Se pakkens status", "description": "Nå ser du hvor pakken er og når den forventes å komme fram. Du kan også se tidligere hendelser.", "tip": "Trykk på \"Varsle meg\" for å få beskjed når pakken er klar for henting."}
+        ],
+        "customsTitle": "Toll på pakker fra utlandet",
+        "customsText": "Når du bestiller fra utlandet (utenfor EU/EØS), kan det komme toll og avgifter. Her er det du bør vite:",
+        "customsTips": [
+          "Varer over 350 kr kan få moms (25%)",
+          "Noen varer har også toll i tillegg til moms",
+          "Posten tar et gebyr for å håndtere tollbehandlingen",
+          "Du kan deklarere selv på toll.no for å spare gebyret",
+          "Mat, alkohol og tobakk har strenge regler"
+        ],
+        "digipostTitle": "Kobling til Digipost",
+        "digipostText": "Posten står bak Digipost, den digitale postkassen. Der kan du motta brev fra offentlige etater og bedrifter digitalt i stedet for på papir.",
+        "digipostLink": "Les mer om Digipost",
+        "pickupTitle": "Hente pakker på postkontor",
+        "pickupText": "Når pakken er klar for henting, får du varsel på SMS eller i Posten-appen. Du henter pakken på nærmeste postkontor eller pakkeboks.",
+        "pickupRemember": "Husk:",
+        "pickupRememberText": "Ta med gyldig legitimasjon (pass, førerkort eller bankkort med bilde) når du henter pakker."
       }
     },
     "bolig": {
@@ -3758,6 +3827,226 @@
           "Spør om du kan ringe hvis du glemmer hvordan du gjør det"
         ]
       }
+    },
+    "nyINorge": {
+      "folkeregisteret": {
+        "title": "Registrere deg i Folkeregisteret",
+        "description": "Lær hvordan du registrerer deg i Folkeregisteret og får norsk fødselsnummer eller D-nummer",
+        "longDescription": "Fødselsnummer eller D-nummer er nøkkelen til alt i Norge. Du trenger det for å åpne bankkonto, få jobb, og bruke offentlige tjenester.",
+        "time": "Ca. 10-15 minutter å lese",
+        "difficulty": "Middels",
+        "whatIsTitle": "Hva er Folkeregisteret?",
+        "whatIsText": "Folkeregisteret er Norges offisielle register over alle som bor i landet. Når du registrerer deg, får du et unikt nummer som brukes til å identifisere deg.",
+        "typesTitle": "Fødselsnummer eller D-nummer?",
+        "typesText": "Det finnes to typer personnummer i Norge:",
+        "types": [
+          {
+            "type": "Fødselsnummer (11 siffer)",
+            "description": "For deg som skal bo i Norge i minst 6 måneder. Dette er det vanlige personnummeret."
+          },
+          {
+            "type": "D-nummer (11 siffer)",
+            "description": "For deg som skal være i Norge kortere enn 6 måneder, eller som trenger identifikasjon uten å bo her permanent."
+          }
+        ],
+        "stepsTitle": "Slik registrerer du deg",
+        "steps": [
+          {
+            "title": "Samle nødvendige dokumenter",
+            "description": "Du trenger gyldig pass, arbeidskontrakt eller studieplass-bevis, og eventuelt visum. Ta med originaler, ikke kopier.",
+            "tip": "Sjekk udi.no for oppdatert liste over nødvendige dokumenter for din situasjon."
+          },
+          {
+            "title": "Bestill time hos politiet eller skattekontoret",
+            "description": "EØS-borgere registrerer seg hos politiet (politiet.no). Andre registrerer seg hos Skatteetaten (skatteetaten.no).",
+            "tip": "Bestill time på nett i god tid - det kan være lang ventetid."
+          },
+          {
+            "title": "Møt opp til avtalt tid",
+            "description": "Ta med alle dokumenter. De vil ta bilde og fingeravtrykk. Prosessen tar vanligvis 30-60 minutter.",
+            "warning": "Hvis du ikke møter til avtalt time, må du bestille ny time."
+          },
+          {
+            "title": "Vent på bekreftelse",
+            "description": "Du får brev i posten med ditt fødselsnummer eller D-nummer. Dette tar vanligvis 1-3 uker.",
+            "tip": "Du kan også sjekke status på skatteetaten.no når du har fått tilgang."
+          }
+        ],
+        "tipTitle": "Viktig å vite",
+        "tipText": "Fødselsnummeret ditt er personlig og sensitivt. Del det bare med offentlige myndigheter, arbeidsgivere og banker. Ikke legg det ut på internett eller gi det til fremmede."
+      },
+      "mobilnummer": {
+        "title": "Få norsk mobilnummer",
+        "description": "Lær hvordan du kjøper SIM-kort og velger mobilabonnement i Norge",
+        "longDescription": "Et norsk mobilnummer er viktig for å motta SMS-koder, bruke BankID, og holde kontakt med arbeidsgivere og myndigheter.",
+        "time": "Ca. 10 minutter å lese",
+        "difficulty": "Enkel",
+        "optionsTitle": "Kontantkort eller abonnement?",
+        "optionsText": "I Norge har du to hovedvalg for mobiltelefon:",
+        "options": [
+          {
+            "type": "Kontantkort (prepaid)",
+            "pros": "Enkelt å kjøpe, ingen binding, god for korte opphold",
+            "cons": "Må fylle på regelmessig, ofte dyrere per samtale/data"
+          },
+          {
+            "type": "Abonnement (fast pris per måned)",
+            "pros": "Mer data og ringetid for pengene, forutsigbar regning",
+            "cons": "Krever ofte norsk bankkonto, kan ha bindingstid"
+          }
+        ],
+        "stepsTitle": "Slik får du norsk mobilnummer",
+        "steps": [
+          {
+            "title": "Velg operatør",
+            "description": "De største operatørene i Norge er Telenor, Telia og Ice. Det finnes også mange rimelige alternativer som Fjordkraft, Happybytes og MyCall.",
+            "tip": "Sammenlign priser på telepriser.no eller tek.no."
+          },
+          {
+            "title": "Kjøp SIM-kort",
+            "description": "For kontantkort: Kjøp i matbutikker (Kiwi, Rema, Coop) eller på bensinstasjoner. For abonnement: Gå til operatørens butikk eller bestill på nett.",
+            "warning": "Du må vise gyldig ID (pass) når du kjøper SIM-kort i Norge."
+          },
+          {
+            "title": "Aktiver SIM-kortet",
+            "description": "Følg instruksjonene som følger med SIM-kortet. Du må vanligvis sende en SMS eller gå til operatørens nettside.",
+            "tip": "Ha WiFi tilgjengelig i tilfelle du trenger internett for å aktivere."
+          },
+          {
+            "title": "Fyll på (kontantkort) eller betal (abonnement)",
+            "description": "Kontantkort fylles på i butikker eller på nett. Abonnement betales med faktura eller trekkes fra bankkonto.",
+            "tip": "Mange operatører har app der du enkelt kan fylle på eller se forbruk."
+          }
+        ],
+        "tipTitle": "Tips for nykommere",
+        "tipText": "Start med et kontantkort når du først kommer til Norge. Når du har fått bankkonto og fødselsnummer, kan du enkelt bytte til et abonnement med bedre priser."
+      },
+      "bankkonto": {
+        "title": "Åpne bankkonto i Norge",
+        "description": "Lær hvordan du oppretter bankkonto i norsk bank",
+        "longDescription": "En norsk bankkonto er nødvendig for å motta lønn, betale regninger, og bruke nettbank og Vipps.",
+        "time": "Ca. 10 minutter å lese",
+        "difficulty": "Middels",
+        "requirementsTitle": "Hva trenger du?",
+        "requirements": [
+          "Fødselsnummer eller D-nummer (fra Folkeregisteret)",
+          "Gyldig pass eller annen ID",
+          "Dokumentasjon på hvor du bor (leiekontrakt eller lignende)",
+          "Noen banker krever også arbeidskontrakt"
+        ],
+        "banksTitle": "Populære banker i Norge",
+        "banks": [
+          {
+            "name": "DNB",
+            "description": "Norges største bank. Har mange filialer og god nettbank. Kan være litt dyrere."
+          },
+          {
+            "name": "Nordea",
+            "description": "Stor nordisk bank med god kundeservice. Tilbyr ofte gode vilkår for nykommere."
+          },
+          {
+            "name": "SpareBank 1",
+            "description": "Samarbeid mellom lokale sparebanker. Gode priser og lokal tilstedeværelse."
+          },
+          {
+            "name": "Sbanken",
+            "description": "Nettbank uten filialer. Ofte lavere priser, alt gjøres digitalt."
+          }
+        ],
+        "stepsTitle": "Slik åpner du bankkonto",
+        "steps": [
+          {
+            "title": "Velg bank",
+            "description": "Sammenlign banker på finansportalen.no. Se på priser for konto, kort og overføringer. Sjekk også om de har filial i nærheten hvis du foretrekker personlig hjelp.",
+            "tip": "Spør arbeidsgiveren din - noen bedrifter har avtaler med spesifikke banker."
+          },
+          {
+            "title": "Bestill time eller søk på nett",
+            "description": "De fleste banker lar deg starte prosessen på nett. Noen krever at du møter opp fysisk for å bekrefte identiteten din.",
+            "warning": "Ikke alle banker godtar D-nummer. Sjekk på forhånd."
+          },
+          {
+            "title": "Lever dokumenter",
+            "description": "Ta med pass, bevis på norsk personnummer, og adressebevis. Banken vil kopiere disse og sjekke identiteten din.",
+            "tip": "Originale dokumenter er alltid best. Ta med alt du har."
+          },
+          {
+            "title": "Vent på bankkort og koder",
+            "description": "Bankkortet sendes i posten, vanligvis innen 1-2 uker. PIN-kode og nettbankkoder sendes separat.",
+            "tip": "Aktiver kortet så snart du får det, enten på nett eller i banken."
+          },
+          {
+            "title": "Sett opp nettbank og BankID",
+            "description": "Last ned bankens app og logg inn. Du får hjelp til å sette opp BankID som brukes for sikker innlogging overalt i Norge.",
+            "tip": "BankID er viktig! Det brukes til å logge inn på NAV, Skatteetaten, og mange andre tjenester."
+          }
+        ],
+        "tipTitle": "Viktig om BankID",
+        "tipText": "BankID er Norges mest brukte digitale ID. Med BankID kan du logge inn på offentlige tjenester, signere dokumenter digitalt, og bruke Vipps. Sørg for å sette dette opp når du åpner bankkonto."
+      },
+      "epost": {
+        "title": "Sette opp e-post",
+        "description": "Lær hvordan du oppretter gratis e-postkonto for å bruke norske tjenester",
+        "longDescription": "E-post er viktig for å motta bekreftelser, kommunisere med myndigheter, og holde oversikt over avtaler og dokumenter.",
+        "time": "Ca. 10 minutter å lese",
+        "difficulty": "Enkel",
+        "whyTitle": "Hvorfor trenger du e-post?",
+        "whyText": "I Norge sender mange bedrifter og myndigheter informasjon på e-post. Du trenger e-post for å:",
+        "whyList": [
+          "Motta bekreftelser fra arbeidsgivere og myndigheter",
+          "Opprette kontoer på norske nettsider",
+          "Få kvitteringer fra netthandel",
+          "Kommunisere med lege, skole og andre"
+        ],
+        "providersTitle": "Gratis e-post-tjenester",
+        "providers": [
+          {
+            "name": "Gmail (Google)",
+            "description": "Mest populær. Enkel å bruke, god søkefunksjon, integrert med Google-tjenester.",
+            "url": "gmail.com"
+          },
+          {
+            "name": "Outlook (Microsoft)",
+            "description": "Fra Microsoft. God integrering med Windows og Office.",
+            "url": "outlook.com"
+          },
+          {
+            "name": "Yahoo Mail",
+            "description": "Et godt alternativ med mye lagringsplass.",
+            "url": "mail.yahoo.com"
+          }
+        ],
+        "stepsTitle": "Slik oppretter du Gmail-konto",
+        "steps": [
+          {
+            "title": "Gå til gmail.com",
+            "description": "Åpne nettleseren og skriv gmail.com i adressefeltet. Klikk på \"Opprett konto\" eller \"Create account\".",
+            "tip": "Du kan velge norsk språk nederst på siden."
+          },
+          {
+            "title": "Fyll ut skjemaet",
+            "description": "Skriv inn fornavn, etternavn, og velg et brukernavn. Brukernavnet blir din e-postadresse (f.eks. dittnavn@gmail.com).",
+            "warning": "Velg et profesjonelt brukernavn - du kommer til å bruke det med arbeidsgivere og myndigheter."
+          },
+          {
+            "title": "Lag et sterkt passord",
+            "description": "Passordet bør ha minst 8 tegn, inkludert store og små bokstaver, tall og spesialtegn.",
+            "tip": "Skriv ned passordet og oppbevar det trygt. Ikke bruk samme passord som andre steder."
+          },
+          {
+            "title": "Legg til telefonnummer",
+            "description": "Dette brukes for å gjenopprette kontoen hvis du glemmer passordet. Du kan bruke ditt norske mobilnummer.",
+            "tip": "Telefonnummer er også nyttig for ekstra sikkerhet (tofaktor-autentisering)."
+          },
+          {
+            "title": "Godta vilkår og fullfør",
+            "description": "Les gjennom vilkårene og klikk \"Godta\". Din e-postkonto er nå klar til bruk!",
+            "tip": "Last ned Gmail-appen på telefonen for enkel tilgang til e-post."
+          }
+        ],
+        "tipTitle": "Tips for sikker e-post",
+        "tipText": "Ikke åpne vedlegg eller lenker fra ukjente avsendere. Norske myndigheter ber aldri om passord på e-post. Hvis du er usikker, kontakt avsenderen direkte via offisielle kanaler."
+      }
     }
   },
   "ordbok": {
@@ -3772,6 +4061,21 @@
     "tryAnother": "Prøv et annet søkeord",
     "missingWord": "Savner du et ord?",
     "missingWordText": "Send oss en e-post på kontakt@lettdigital.no hvis det er et ord du ønsker forklart, så legger vi det til!",
+    "clickLetter": "Klikk på en bokstav for å hoppe dit",
+    "words": "ord",
+    "categories": {
+      "NAV": "NAV",
+      "Digital": "Digital",
+      "Helse": "Helse",
+      "Skatt": "Skatt",
+      "Bank": "Bank",
+      "Sikkerhet": "Sikkerhet",
+      "Bolig": "Bolig",
+      "Utdanning": "Utdanning",
+      "ID": "ID",
+      "Pensjon": "Pensjon",
+      "Teknologi": "Teknologi"
+    },
     "terms": [
       {
         "term": "Arbeidsavklaringspenger (AAP)",
@@ -4251,6 +4555,7 @@
   },
   "faq": {
     "title": "Vanlige spørsmål",
+    "description": "Finn svar på de vanligste spørsmålene om NAV, Skatteetaten, Helsenorge og andre offentlige digitale tjenester.",
     "subtitle": "Her finner du svar på de vanligste spørsmålene om offentlige digitale tjenester.",
     "categories": {
       "all": "Alle",
@@ -4447,6 +4752,7 @@
   },
   "favorites": {
     "title": "Mine favoritter",
+    "description": "Her finner du veiledningene du har lagret som favoritter for rask tilgang.",
     "subtitle": "Her finner du veiledningene du har lagret som favoritter.",
     "empty": "Du har ingen favoritter ennå",
     "emptyText": "Klikk på stjernen i veiledningene for å lagre dem her for rask tilgang.",
