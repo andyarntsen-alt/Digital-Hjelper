@@ -2291,7 +2291,7 @@
             "howItWorks": "Svindleren ringer og sier \"Hei bestemor/bestefar, det er meg!\" og håper du sier navnet på barnebarnet ditt. Da later de som de er den personen.",
             "redFlags": ["De ber deg IKKE fortelle foreldrene deres", "De trenger pengene VELDIG fort", "De vil ha kontanter eller gavekort", "Stemmen høres \"annerledes\" ut - de sier de er forkjølet"],
             "whatToDo": "Legg på og ring barnebarnet ditt på nummeret du har lagret. Spør om noe bare dere to vet.",
-            "icon": "👴"
+            "icon": "grandparent"
           },
           {
             "title": "Microsoft/Apple-svindel",
@@ -2299,7 +2299,7 @@
             "howItWorks": "De får deg til å installere et program som gir dem kontroll over datamaskinen din. Så \"finner\" de problemer og krever betaling.",
             "redFlags": ["Microsoft og Apple ringer ALDRI uoppfordret", "De ber om fjerntilgang til datamaskinen", "De vil ha betaling i gavekort eller kryptovaluta", "De truer med at datamaskinen vil slutte å virke"],
             "whatToDo": "Legg på med en gang. Ekte teknisk support ringer aldri deg først.",
-            "icon": "💻"
+            "icon": "computer"
           },
           {
             "title": "Romantikksvindel",
@@ -2307,7 +2307,7 @@
             "howItWorks": "De bygger opp et forhold over uker eller måneder. Så oppstår det en \"krise\" - de trenger penger til flybillett, medisinsk behandling eller toll.",
             "redFlags": ["De kan aldri møtes ansikt til ansikt", "De erklærer kjærlighet veldig raskt", "De har alltid unnskyldninger for å ikke ringe med video", "De ber om penger - uansett grunn"],
             "whatToDo": "Aldri send penger til noen du bare kjenner fra nettet. Snakk med familie eller venner om forholdet.",
-            "icon": "💔"
+            "icon": "heart"
           },
           {
             "title": "Lotterisvindel",
@@ -2315,7 +2315,7 @@
             "howItWorks": "De sender e-post eller ringer med \"gode nyheter\". For å få milliongevinsten må du bare betale et lite beløp først.",
             "redFlags": ["Du har ikke kjøpt lodd eller deltatt i konkurransen", "Du må betale for å motta gevinsten", "De ber om bankinformasjon for å \"overføre gevinsten\"", "Gevinsten er i utenlandsk valuta"],
             "whatToDo": "Ignorer det. Du kan ikke vinne i lotterier du ikke har deltatt i.",
-            "icon": "🎰"
+            "icon": "gift"
           },
           {
             "title": "Investeringssvindel",
@@ -2323,7 +2323,7 @@
             "howItWorks": "De kontakter deg med en \"unik mulighet\". Ofte viser de falske nettsider som ser ut som investeringene dine vokser.",
             "redFlags": ["Avkastningen er for god til å være sann (20-50% eller mer)", "De presser deg til å investere raskt", "Du har aldri hørt om selskapet før", "De ringer fra utlandet eller har utenlandsk aksent"],
             "whatToDo": "Snakk med banken din før du investerer. Sjekk Finanstilsynets liste over advarsler.",
-            "icon": "📈"
+            "icon": "chart"
           },
           {
             "title": "Håndverkersvindel",
@@ -2331,7 +2331,7 @@
             "howItWorks": "De gjør en dårlig eller unødvendig jobb og krever høy betaling kontant. Noen ganger forsvinner de med forskuddsbetalingen.",
             "redFlags": ["De \"tilfeldigvis\" var i nabolaget", "De vil ha betaling på forskudd eller kontant", "De har ikke skriftlig tilbud eller kontrakt", "De presser deg til å bestemme deg med en gang"],
             "whatToDo": "Si nei til uoppfordrede tilbud. Bruk håndverkere du kjenner eller som er anbefalt av noen du stoler på.",
-            "icon": "🔧"
+            "icon": "wrench"
           }
         ],
         "otherScamTitle": "Andre vanlige svindeltyper",

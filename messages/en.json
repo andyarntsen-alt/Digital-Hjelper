@@ -2339,7 +2339,7 @@
             "howItWorks": "The scammer calls and says \"Hi grandma/grandpa, it's me!\" and hopes you say your grandchild's name. Then they pretend to be that person.",
             "redFlags": ["They ask you NOT to tell their parents", "They need the money VERY fast", "They want cash or gift cards", "The voice sounds \"different\" - they say they have a cold"],
             "whatToDo": "Hang up and call your grandchild on the number you have saved. Ask about something only the two of you know.",
-            "icon": "👴"
+            "icon": "grandparent"
           },
           {
             "title": "Microsoft/Apple scam",
@@ -2347,7 +2347,7 @@
             "howItWorks": "They get you to install a program that gives them control over your computer. Then they \"find\" problems and demand payment.",
             "redFlags": ["Microsoft and Apple NEVER call unsolicited", "They ask for remote access to your computer", "They want payment in gift cards or cryptocurrency", "They threaten that your computer will stop working"],
             "whatToDo": "Hang up immediately. Real tech support never calls you first.",
-            "icon": "💻"
+            "icon": "computer"
           },
           {
             "title": "Romance scam",
@@ -2355,7 +2355,7 @@
             "howItWorks": "They build a relationship over weeks or months. Then a \"crisis\" occurs - they need money for plane ticket, medical treatment or customs.",
             "redFlags": ["They can never meet face to face", "They declare love very quickly", "They always have excuses for not video calling", "They ask for money - for any reason"],
             "whatToDo": "Never send money to someone you only know from the internet. Talk to family or friends about the relationship.",
-            "icon": "💔"
+            "icon": "heart"
           },
           {
             "title": "Lottery scam",
@@ -2363,7 +2363,7 @@
             "howItWorks": "They send email or call with \"good news\". To get the million prize you just have to pay a small amount first.",
             "redFlags": ["You haven't bought a ticket or entered the competition", "You have to pay to receive the prize", "They ask for bank information to \"transfer the prize\"", "The prize is in foreign currency"],
             "whatToDo": "Ignore it. You can't win lotteries you haven't entered.",
-            "icon": "🎰"
+            "icon": "gift"
           },
           {
             "title": "Investment scam",
@@ -2371,7 +2371,7 @@
             "howItWorks": "They contact you with a \"unique opportunity\". Often they show fake websites that look like your investments are growing.",
             "redFlags": ["The returns are too good to be true (20-50% or more)", "They pressure you to invest quickly", "You've never heard of the company before", "They call from abroad or have a foreign accent"],
             "whatToDo": "Talk to your bank before investing. Check the Financial Supervisory Authority's list of warnings.",
-            "icon": "📈"
+            "icon": "chart"
           },
           {
             "title": "Contractor scam",
@@ -2379,7 +2379,7 @@
             "howItWorks": "They do a poor or unnecessary job and demand high payment in cash. Sometimes they disappear with the advance payment.",
             "redFlags": ["They \"happened\" to be in the neighborhood", "They want payment in advance or cash", "They have no written quote or contract", "They pressure you to decide immediately"],
             "whatToDo": "Say no to unsolicited offers. Use contractors you know or who are recommended by someone you trust.",
-            "icon": "🔧"
+            "icon": "wrench"
           }
         ],
         "otherScamTitle": "Other common fraud types",
