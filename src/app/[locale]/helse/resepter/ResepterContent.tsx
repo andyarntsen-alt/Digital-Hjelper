@@ -33,12 +33,6 @@ export default function ResepterPage() {
   const prescriptionTypes = t.raw('prescriptionTypes') as { type: string; desc: string; color: string }[];
   const faq = t.raw('faq') as { q: string; a: string }[];
 
-  const colorMap: Record<string, string> = {
-    blue: 'bg-blue-50 border-blue-500',
-    green: 'bg-green-50 border-green-500',
-    purple: 'bg-purple-50 border-purple-500'
-  };
-
   return (
     <>
       <GuideTracker />

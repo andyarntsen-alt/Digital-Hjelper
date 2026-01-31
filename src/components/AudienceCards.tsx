@@ -22,7 +22,7 @@ export default function AudienceCards() {
   const cards: AudienceCard[] = [
     {
       key: 'elderly',
-      bgColor: 'bg-blue-50 hover:bg-blue-100',
+      bgColor: 'bg-gray-50 hover:bg-gray-100',
       iconBgColor: 'bg-blue-100 group-hover:bg-blue-200',
       icon: (
         <svg className="h-6 w-6 text-nav-blue" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -32,7 +32,7 @@ export default function AudienceCards() {
     },
     {
       key: 'newToNorway',
-      bgColor: 'bg-emerald-50 hover:bg-emerald-100',
+      bgColor: 'bg-gray-50 hover:bg-gray-100',
       iconBgColor: 'bg-emerald-100 group-hover:bg-emerald-200',
       icon: (
         <svg className="h-6 w-6 text-emerald-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -42,7 +42,7 @@ export default function AudienceCards() {
     },
     {
       key: 'helpers',
-      bgColor: 'bg-purple-50 hover:bg-purple-100',
+      bgColor: 'bg-gray-50 hover:bg-gray-100',
       iconBgColor: 'bg-purple-100 group-hover:bg-purple-200',
       icon: (
         <svg className="h-6 w-6 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -67,7 +67,6 @@ export default function AudienceCards() {
             p-4 sm:p-5
             ${card.bgColor}
             rounded-xl
-            shadow-sm hover:shadow-md
             transition-all duration-300 ease-out
             transform hover:-translate-y-1
             cursor-pointer

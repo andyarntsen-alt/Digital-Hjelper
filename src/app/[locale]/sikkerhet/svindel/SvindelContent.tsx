@@ -188,7 +188,7 @@ export default function SvindelPage() {
 
           <div className="space-y-4">
             {elderScamTypes.map((type, index) => (
-              <div key={index} className="card border-l-4 border-red-500">
+              <div key={index} className="card border border-gray-200 rounded-xl">
                 <button
                   onClick={() => setExpandedType(expandedType === index ? null : index)}
                   className="w-full text-left flex items-center justify-between"
@@ -272,7 +272,7 @@ export default function SvindelPage() {
           <h2 className="text-xl font-bold mb-4">{t('examplesTitle')}</h2>
           <div className="space-y-4">
             {examples.map((example, index) => (
-              <div key={index} className="p-4 bg-gray-100 rounded-lg border-l-4 border-red-500">
+              <div key={index} className="p-4 bg-gray-100 rounded-lg border border-gray-200 rounded-xl">
                 <p className="text-sm text-gray-500 mb-1">{example.type}</p>
                 <p className="italic">&quot;{example.message}&quot;</p>
                 <p className="text-red-600 text-sm mt-2">{example.warning}</p>

@@ -66,7 +66,7 @@ export default function SmartelefonPage() {
       </div>
 
       {/* Hva er en smarttelefon */}
-      <div className="card bg-purple-50 mb-8">
+      <div className="card bg-gray-50 border border-gray-200 mb-8">
         <h2 className="text-xl font-bold mb-2">{t('beforeYouStart')}</h2>
         <p className="text-gray-700">{t('beforeYouStartText')}</p>
       </div>

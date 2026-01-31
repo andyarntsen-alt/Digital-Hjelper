@@ -66,7 +66,7 @@ export default function NettleserPage() {
       </div>
 
       {/* Hva er nettleser */}
-      <div className="card bg-blue-50 mb-8">
+      <div className="card bg-gray-50 border border-gray-200 mb-8">
         <h2 className="text-xl font-bold mb-2">{t('whatIsTitle')}</h2>
         <p className="text-gray-700">{t('whatIsText')}</p>
       </div>
@@ -74,7 +74,7 @@ export default function NettleserPage() {
       <StepGuide title={t('stepsTitle')} steps={steps} />
 
       {/* Sikkerhet */}
-      <div className="mt-8 card border-l-4 border-yellow-500">
+      <div className="mt-8 card border border-gray-200 rounded-xl">
         <h2 className="text-xl font-bold mb-4">{t('safetyTitle')}</h2>
         <ul className="space-y-3 text-gray-700">
           {safetyTips.map((tip, index) => (

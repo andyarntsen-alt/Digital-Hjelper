@@ -80,7 +80,7 @@ export default function RecentlyVisited() {
           {recentGuides.map((guide) => (
             <div
               key={guide.href}
-              className="flex-shrink-0 relative group bg-white border-2 border-gray-200 rounded-lg hover:border-nav-blue active:border-nav-blue hover:shadow-md transition-all duration-200 min-w-[200px] sm:min-w-0 sm:flex-1 sm:max-w-[250px]"
+              className="flex-shrink-0 relative group bg-white border-2 border-gray-200 rounded-lg hover:border-nav-blue active:border-nav-blue transition-all duration-200 min-w-[200px] sm:min-w-0 sm:flex-1 sm:max-w-[250px]"
             >
               <Link
                 href={guide.href}

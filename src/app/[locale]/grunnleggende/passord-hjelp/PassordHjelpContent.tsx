@@ -66,7 +66,7 @@ export default function PassordHjelpPage() {
       </div>
 
       {/* Hvorfor viktig */}
-      <div className="card bg-red-50 mb-8">
+      <div className="card bg-gray-50 border border-gray-200 mb-8">
         <h2 className="text-xl font-bold mb-2">{t('whyImportantTitle')}</h2>
         <p className="text-gray-700">{t('whyImportantText')}</p>
       </div>
@@ -89,7 +89,7 @@ export default function PassordHjelpPage() {
       <StepGuide title={t('forgotPasswordTitle')} steps={steps} />
 
       {/* BankID merknad */}
-      <div className="mt-8 card border-l-4 border-nav-blue">
+      <div className="mt-8 card border border-gray-200 rounded-xl">
         <h2 className="text-xl font-bold mb-2">{t('bankidNoteTitle')}</h2>
         <p className="text-gray-700">{t('bankidNoteText')}</p>
       </div>

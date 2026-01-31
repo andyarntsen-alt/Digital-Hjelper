@@ -58,13 +58,13 @@ export default function EpostPage() {
         <p className="text-xl text-gray-600">{t('longDescription')}</p>
       </div>
 
-      <div className="card bg-blue-50 mb-8">
+      <div className="card bg-gray-50 border border-gray-200 mb-8">
         <h2 className="text-xl font-bold mb-4 text-blue-800">{t('whatIsTitle')}</h2>
         <p className="text-gray-700 mb-4">{t('whatIsText1')}</p>
         <p className="text-gray-700">{t('whatIsText2')}</p>
       </div>
 
-      <div className="card bg-yellow-50 mb-8">
+      <div className="card bg-gray-50 border border-gray-200 mb-8">
         <h2 className="text-xl font-bold mb-4 text-yellow-800">{t('providersTitle')}</h2>
         <div className="space-y-4">
           <div className="bg-white p-4 rounded-lg">
@@ -117,7 +117,7 @@ export default function EpostPage() {
         </div>
       </div>
 
-      <div className="mt-8 card bg-red-50">
+      <div className="mt-8 card bg-gray-50 border border-gray-200">
         <h2 className="text-xl font-bold mb-4 text-red-800">{t('spamTitle')}</h2>
         <p className="text-gray-700">{t('spamText')}</p>
       </div>

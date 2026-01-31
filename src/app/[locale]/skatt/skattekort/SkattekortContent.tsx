@@ -106,7 +106,7 @@ export default function SkattekortPage() {
 
         {/* Too much/little tax */}
         <div className="mt-8 grid md:grid-cols-2 gap-6">
-          <div className="card border-l-4 border-green-500">
+          <div className="card border border-gray-200 rounded-xl">
             <h3 className="text-lg font-bold mb-3">{t('tooMuchTaxTitle')}</h3>
             <p className="text-gray-700 mb-3">
               {t('tooMuchTaxText')}
@@ -115,7 +115,7 @@ export default function SkattekortPage() {
               <strong>Løsning:</strong> {t('tooMuchTaxSolution')}
             </p>
           </div>
-          <div className="card border-l-4 border-red-500">
+          <div className="card border border-gray-200 rounded-xl">
             <h3 className="text-lg font-bold mb-3">{t('tooLittleTaxTitle')}</h3>
             <p className="text-gray-700 mb-3">
               {t('tooLittleTaxText')}

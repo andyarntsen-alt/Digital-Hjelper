@@ -70,17 +70,17 @@ export default function PhishingPage() {
       <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
         <h2 className="text-xl font-bold mb-4 text-gray-900">{t('examplesTitle')}</h2>
         <div className="space-y-4">
-          <div className="p-4 bg-white rounded-lg border-l-4 border-red-500">
+          <div className="p-4 bg-white rounded-lg border border-gray-200 rounded-xl">
             <p className="text-sm text-gray-500 mb-1">{t('examplePostTitle')}</p>
             <p className="italic text-gray-700">{t('examplePostText')}</p>
             <p className="text-red-600 text-sm mt-2">{t('examplePostWarning')}</p>
           </div>
-          <div className="p-4 bg-white rounded-lg border-l-4 border-red-500">
+          <div className="p-4 bg-white rounded-lg border border-gray-200 rounded-xl">
             <p className="text-sm text-gray-500 mb-1">{t('exampleBankTitle')}</p>
             <p className="italic text-gray-700">{t('exampleBankText')}</p>
             <p className="text-red-600 text-sm mt-2">{t('exampleBankWarning')}</p>
           </div>
-          <div className="p-4 bg-white rounded-lg border-l-4 border-red-500">
+          <div className="p-4 bg-white rounded-lg border border-gray-200 rounded-xl">
             <p className="text-sm text-gray-500 mb-1">{t('exampleNavTitle')}</p>
             <p className="italic text-gray-700">{t('exampleNavText')}</p>
             <p className="text-red-600 text-sm mt-2">{t('exampleNavWarning')}</p>

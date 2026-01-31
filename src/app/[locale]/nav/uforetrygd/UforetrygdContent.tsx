@@ -89,7 +89,7 @@ export default function UforetrygdPage() {
       </div>
 
       {/* Før du søker */}
-      <div className="card mb-8 border-l-4 border-yellow-500">
+      <div className="card mb-8 border border-gray-200 rounded-xl">
         <h2 className="text-xl font-bold mb-4">{t('beforeApplyingTitle')}</h2>
         <p className="text-gray-700 mb-4">{t('beforeApplyingText')}</p>
         <ul className="space-y-2 text-gray-700">
@@ -139,7 +139,7 @@ export default function UforetrygdPage() {
       </div>
 
       {/* Viktig å vite */}
-      <div className="mt-8 card border-l-4 border-nav-blue">
+      <div className="mt-8 card border border-gray-200 rounded-xl">
         <h2 className="text-xl font-bold mb-4">{t('importantTitle')}</h2>
         <ul className="space-y-3 text-gray-700">
           {important.map((item, index) => (

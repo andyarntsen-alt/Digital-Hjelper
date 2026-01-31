@@ -33,7 +33,7 @@ export default function RelatedGuides({ currentPath, category }: RelatedGuidesPr
           <Link
             key={guide.href}
             href={`/${locale}${guide.href}`}
-            className="group bg-white border-2 border-gray-200 rounded-lg p-3 sm:p-4 hover:border-nav-blue active:border-nav-blue hover:shadow-md transition-all duration-200 no-underline"
+            className="group bg-white border-2 border-gray-200 rounded-lg p-3 sm:p-4 hover:border-nav-blue active:border-nav-blue transition-all duration-200 no-underline"
           >
             <div className="flex items-center justify-between gap-2">
               <div className="min-w-0">

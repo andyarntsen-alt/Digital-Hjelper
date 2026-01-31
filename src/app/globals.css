@@ -203,15 +203,15 @@ html.high-contrast .skip-link {
   }
 
   .step-card {
-    @apply bg-blue-50 rounded-lg sm:rounded-xl p-4 sm:p-6 border-l-4 border-nav-blue;
+    @apply bg-gray-50 rounded-xl p-4 sm:p-6 border border-gray-200;
   }
 
   .warning-box {
-    @apply bg-yellow-50 border-l-4 border-yellow-500 p-3 sm:p-4 rounded-r-lg;
+    @apply bg-gray-50 border border-gray-200 p-3 sm:p-4 rounded-xl;
   }
 
   .tip-box {
-    @apply bg-green-50 border-l-4 border-green-500 p-3 sm:p-4 rounded-r-lg;
+    @apply bg-gray-50 border border-gray-200 p-3 sm:p-4 rounded-xl;
   }
 }
 

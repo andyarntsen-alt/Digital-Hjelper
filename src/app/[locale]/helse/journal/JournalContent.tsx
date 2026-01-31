@@ -72,7 +72,7 @@ export default function JournalPage() {
         </div>
 
         {/* What you'll find */}
-        <div className="card bg-green-50 mb-8">
+        <div className="card bg-gray-50 border border-gray-200 mb-8">
           <h2 className="text-xl font-bold mb-4">{t('whatYouFindTitle')}</h2>
           <ul className="space-y-2 text-gray-700">
             {whatYouFind.map((item, index) => (
