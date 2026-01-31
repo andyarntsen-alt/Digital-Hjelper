@@ -280,7 +280,30 @@
                 "police": "U sheeg booliska politiet.no",
                 "password": "Beddel furaha sirta dhammaan koontoyinkaaga muhiimka ah",
                 "idTheft": "La xiriir caawinta xatooyadda aqoonsiga 21 05 32 00"
-            }
+            },
+            "metaTitle": "Amniga Dhijitaalka - Iska ilaali khiyaanada iyo phishing-ka",
+            "metaDescription": "Baro sida aad isaga ilaalin karto khiyaanada, phishing-ka iyo xatooyo aqoonsiga internetka.",
+            "faqTitle": "Su'aalaha inta badan la isweydiiyo ee amniga",
+            "faq": {
+                "q1": "Waa maxay BankID sidee bay u shaqeysaa?",
+                "a1": "BankID waa aqoonsi elektaroonig ah oo loo isticmaalo si loo galo adeegyada dawladda iyo bangiyada internetka Norway.",
+                "q2": "Sideen u aqoonsadaa fariimaha khiyaanada?",
+                "a2": "Fariimaha khiyaanada waxay ku tilmaaman yihiin weydiin macluumaad shakhsi, abuurista degdegnaan, khaladaad qoraal iyo xiriirinno yaab leh.",
+                "q3": "Waa maxay phishing-ka?",
+                "a3": "Phishing-ka waa khiyaano ay dambiileyaal iska dhigaan shirkado sharci ah si ay kuu khiyaaneeyaan inaad bixiso macluumaadkaaga.",
+                "q4": "Sideen u abuuraa furaha sirta ee ammaan ah?",
+                "a4": "Furaha sirta ee ammaan ah waa in ugu yaraan 12 xaraf leh oo leh xarfo waaweyn iyo yaryar, tiro iyo calaamado gaar ah.",
+                "q5": "Maxaan sameeyaa haddii la i khiyaaneeyay?",
+                "a5": "Wac bangigaaga, u sheeg booliska, beddel furaha sirta oo la xiriir caawimaada xatooyada aqoonsiga.",
+                "q6": "Ma ammaan baa in la isticmaalo WiFi-ga dadweynaha?",
+                "a6": "Ka fogow bangiyada WiFi-ga dadweynaha. Isticmaal xogta mobilka hawlaha xasaasiga ah."
+            },
+            "relatedTitle": "Hagayaal la xiriira",
+            "relatedText": "Adeegyo kale oo u baahan gelitaan ammaan ah",
+            "relatedNav": "Gal si ammaan ah",
+            "relatedHelse": "Gelitaan ammaan ah",
+            "relatedBank": "Amniga bangiga",
+            "lastUpdated": "Markii ugu dambeysay la cusbooneysiiyay: Janaayo 2026"
         },
         "bank": {
             "title": "Bangiga iyo Maaliyadda",

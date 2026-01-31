@@ -4,38 +4,20 @@ import { Link } from '@/i18n/navigation';
 import { useTranslations, useLocale } from 'next-intl';
 import { FAQSchema, BreadcrumbSchema, ArticleSchema } from '@/components/StructuredData';
 
-const sikkerhetFAQs = [
-  {
-    question: "Hva er BankID og hvordan fungerer det?",
-    answer: "BankID er en elektronisk legitimasjon som brukes til å logge inn på offentlige tjenester og nettbanker i Norge. Du får BankID gjennom banken din. BankID på mobil fungerer ved at du godkjenner innlogging via en app på telefonen. BankID med kodebrikke bruker en fysisk brikke som genererer engangskoder."
-  },
-  {
-    question: "Hvordan gjenkjenner jeg svindel-meldinger?",
-    answer: "Svindel-meldinger kjennetegnes ved: 1) De ber om personlig informasjon som passord eller BankID. 2) De skaper hastverk med trusler om stengte kontoer. 3) De inneholder skrivefeil og dårlig språk. 4) Avsenderadressen ser merkelig ut. 5) Lenker fører til falske nettsider. NAV, banker og offentlige etater vil aldri be om BankID-koder eller passord via SMS eller e-post."
-  },
-  {
-    question: "Hva er phishing?",
-    answer: "Phishing er en type svindel der kriminelle utgir seg for å være legitime virksomheter (som banker eller NAV) for å lure deg til å oppgi personlig informasjon. De bruker ofte e-post, SMS eller falske nettsider som ser ekte ut. Aldri klikk på lenker i meldinger som ber om pålogging - gå heller direkte til den offisielle nettsiden."
-  },
-  {
-    question: "Hvordan lager jeg et sikkert passord?",
-    answer: "Et sikkert passord er minst 12 tegn langt og inneholder en blanding av store og små bokstaver, tall og spesialtegn. Bruk gjerne en setning du husker, for eksempel 'MinKattHeter3Puser!'. Ikke bruk samme passord flere steder. Vurder å bruke en passordmanager som husker passordene for deg."
-  },
-  {
-    question: "Hva gjør jeg hvis jeg har blitt svindlet?",
-    answer: "1) Ring banken din umiddelbart og be dem sperre kortet/kontoen. 2) Anmeld svindelen til politiet på politiet.no eller 02800. 3) Endre passord på alle kontoer, spesielt e-post og nettbank. 4) Kontakt ID-tyveriregisteret hvis du har gitt fra deg personnummer. 5) Dokumenter alt med skjermbilder."
-  },
-  {
-    question: "Er det trygt å bruke offentlig WiFi?",
-    answer: "Offentlig WiFi kan være usikkert. Unngå å logge inn på nettbank eller oppgi sensitiv informasjon på offentlig WiFi. Hvis du må bruke det, sørg for at nettsiden bruker HTTPS (hengelås-ikon i nettleseren). Vurder å bruke mobildata for sensitive oppgaver i stedet."
-  }
-];
-
 export default function SikkerhetContent() {
   const t = useTranslations('services.sikkerhet');
   const tCommon = useTranslations('common');
   const tGuides = useTranslations('guides.sikkerhet');
   const locale = useLocale();
+
+  const sikkerhetFAQs = [
+    { question: t('faq.q1'), answer: t('faq.a1') },
+    { question: t('faq.q2'), answer: t('faq.a2') },
+    { question: t('faq.q3'), answer: t('faq.a3') },
+    { question: t('faq.q4'), answer: t('faq.a4') },
+    { question: t('faq.q5'), answer: t('faq.a5') },
+    { question: t('faq.q6'), answer: t('faq.a6') },
+  ];
 
   const sikkerhetsGuider = [
     { guideKey: 'bankid', href: '/sikkerhet/bankid', time: '10 min' },
@@ -48,12 +30,12 @@ export default function SikkerhetContent() {
     <>
       <FAQSchema questions={sikkerhetFAQs} />
       <BreadcrumbSchema items={[
-        { name: 'Hjem', url: `/${locale}` },
-        { name: 'Sikkerhet', url: `/${locale}/sikkerhet` }
+        { name: tCommon('backToHome').replace('Tilbake til ', '').replace('Back to ', ''), url: `/${locale}` },
+        { name: t('title'), url: `/${locale}/sikkerhet` }
       ]} />
       <ArticleSchema
-        title="Digital Sikkerhet - Beskytt deg mot svindel og phishing"
-        description="Lær hvordan du beskytter deg mot svindel, phishing og ID-tyveri på nett. Guider om BankID, sikre passord og hvordan du gjenkjenner falske meldinger."
+        title={t('metaTitle')}
+        description={t('metaDescription')}
         url={`/${locale}/sikkerhet`}
         datePublished="2024-01-01"
         dateModified="2026-01-30"
@@ -149,7 +131,7 @@ export default function SikkerhetContent() {
 
         {/* FAQ */}
         <div className="mt-16">
-          <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6">Vanlige spørsmål om sikkerhet</h2>
+          <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6">{t('faqTitle')}</h2>
           <div className="space-y-3">
             {sikkerhetFAQs.map((faq, index) => (
               <details key={index} className="bg-white border border-gray-200 rounded-xl group">
@@ -192,10 +174,8 @@ export default function SikkerhetContent() {
 
         {/* Related guides */}
         <div className="mt-16">
-          <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">Relaterte guider</h2>
-          <p className="text-gray-600 mb-6">
-            Andre tjenester som krever sikker innlogging
-          </p>
+          <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">{t('relatedTitle')}</h2>
+          <p className="text-gray-600 mb-6">{t('relatedText')}</p>
           <div className="grid sm:grid-cols-3 gap-4">
             <Link href="/nav" className="group flex items-center gap-3 p-4 bg-white border border-gray-200 rounded-xl hover:border-gray-300 hover:bg-gray-50 transition-colors no-underline">
               <div className="w-10 h-10 bg-nav-blue/10 rounded-lg flex items-center justify-center flex-shrink-0">
@@ -205,7 +185,7 @@ export default function SikkerhetContent() {
               </div>
               <div>
                 <p className="font-medium text-gray-900 group-hover:text-nav-blue transition-colors">NAV</p>
-                <p className="text-sm text-gray-500">Logg inn trygt</p>
+                <p className="text-sm text-gray-500">{t('relatedNav')}</p>
               </div>
             </Link>
             <Link href="/helse" className="group flex items-center gap-3 p-4 bg-white border border-gray-200 rounded-xl hover:border-gray-300 hover:bg-gray-50 transition-colors no-underline">
@@ -216,7 +196,7 @@ export default function SikkerhetContent() {
               </div>
               <div>
                 <p className="font-medium text-gray-900 group-hover:text-nav-blue transition-colors">Helsenorge</p>
-                <p className="text-sm text-gray-500">Sikker innlogging</p>
+                <p className="text-sm text-gray-500">{t('relatedHelse')}</p>
               </div>
             </Link>
             <Link href="/bank" className="group flex items-center gap-3 p-4 bg-white border border-gray-200 rounded-xl hover:border-gray-300 hover:bg-gray-50 transition-colors no-underline">
@@ -227,16 +207,14 @@ export default function SikkerhetContent() {
               </div>
               <div>
                 <p className="font-medium text-gray-900 group-hover:text-nav-blue transition-colors">Bank</p>
-                <p className="text-sm text-gray-500">Nettbank-sikkerhet</p>
+                <p className="text-sm text-gray-500">{t('relatedBank')}</p>
               </div>
             </Link>
           </div>
         </div>
 
         {/* Last updated */}
-        <p className="mt-8 text-sm text-gray-400">
-          Sist oppdatert: Januar 2026
-        </p>
+        <p className="mt-8 text-sm text-gray-400">{t('lastUpdated')}</p>
       </div>
     </>
   );

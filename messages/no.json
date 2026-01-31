@@ -416,7 +416,30 @@
         "police": "Anmeld til politiet på politiet.no",
         "password": "Endre passord på alle viktige kontoer",
         "idTheft": "Kontakt ID-tyveri hjelpen på 21 05 32 00"
-      }
+      },
+      "metaTitle": "Digital Sikkerhet - Beskytt deg mot svindel og phishing",
+      "metaDescription": "Lær hvordan du beskytter deg mot svindel, phishing og ID-tyveri på nett. Guider om BankID, sikre passord og hvordan du gjenkjenner falske meldinger.",
+      "faqTitle": "Vanlige spørsmål om sikkerhet",
+      "faq": {
+        "q1": "Hva er BankID og hvordan fungerer det?",
+        "a1": "BankID er en elektronisk legitimasjon som brukes til å logge inn på offentlige tjenester og nettbanker i Norge. Du får BankID gjennom banken din.",
+        "q2": "Hvordan gjenkjenner jeg svindel-meldinger?",
+        "a2": "Svindel-meldinger kjennetegnes ved at de ber om personlig informasjon, skaper hastverk, inneholder skrivefeil, og har merkelige lenker.",
+        "q3": "Hva er phishing?",
+        "a3": "Phishing er svindel der kriminelle utgir seg for å være legitime virksomheter for å lure deg til å oppgi personlig informasjon.",
+        "q4": "Hvordan lager jeg et sikkert passord?",
+        "a4": "Et sikkert passord er minst 12 tegn langt med store og små bokstaver, tall og spesialtegn. Ikke bruk samme passord flere steder.",
+        "q5": "Hva gjør jeg hvis jeg har blitt svindlet?",
+        "a5": "Ring banken din, anmeld til politiet, endre passord og kontakt ID-tyveri hjelpen.",
+        "q6": "Er det trygt å bruke offentlig WiFi?",
+        "a6": "Unngå nettbank på offentlig WiFi. Bruk mobildata for sensitive oppgaver."
+      },
+      "relatedTitle": "Relaterte guider",
+      "relatedText": "Andre tjenester som krever sikker innlogging",
+      "relatedNav": "Logg inn trygt",
+      "relatedHelse": "Sikker innlogging",
+      "relatedBank": "Nettbank-sikkerhet",
+      "lastUpdated": "Sist oppdatert: Januar 2026"
     },
     "bank": {
       "title": "Bank og økonomi",

@@ -416,7 +416,30 @@
         "police": "Report to police at politiet.no",
         "password": "Change passwords on all important accounts",
         "idTheft": "Contact ID theft help at 21 05 32 00"
-      }
+      },
+      "metaTitle": "Digital Security - Protect yourself from fraud and phishing",
+      "metaDescription": "Learn how to protect yourself from fraud, phishing and identity theft online. Guides on BankID, secure passwords and how to recognize fake messages.",
+      "faqTitle": "Frequently asked questions about security",
+      "faq": {
+        "q1": "What is BankID and how does it work?",
+        "a1": "BankID is an electronic ID used to log in to public services and online banking in Norway. You get BankID through your bank.",
+        "q2": "How do I recognize scam messages?",
+        "a2": "Scam messages are characterized by asking for personal information, creating urgency, containing spelling errors, and having strange links.",
+        "q3": "What is phishing?",
+        "a3": "Phishing is fraud where criminals pretend to be legitimate businesses to trick you into giving up personal information.",
+        "q4": "How do I create a secure password?",
+        "a4": "A secure password is at least 12 characters with upper and lowercase letters, numbers and special characters. Don't use the same password multiple places.",
+        "q5": "What do I do if I've been scammed?",
+        "a5": "Call your bank, report to police, change passwords and contact ID theft help.",
+        "q6": "Is it safe to use public WiFi?",
+        "a6": "Avoid online banking on public WiFi. Use mobile data for sensitive tasks."
+      },
+      "relatedTitle": "Related guides",
+      "relatedText": "Other services that require secure login",
+      "relatedNav": "Log in safely",
+      "relatedHelse": "Secure login",
+      "relatedBank": "Online banking security",
+      "lastUpdated": "Last updated: January 2026"
     },
     "bank": {
       "title": "Banking and Finance",

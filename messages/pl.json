@@ -278,7 +278,30 @@
                 "police": "Zgłoś na policję na politiet.no",
                 "password": "Zmień hasła do wszystkich ważnych kont",
                 "idTheft": "Skontaktuj się z pomocą ds. kradzieży tożsamości pod numerem 21 05 32 00"
-            }
+            },
+            "metaTitle": "Bezpieczeństwo cyfrowe - Chroń się przed oszustwami i phishingiem",
+            "metaDescription": "Dowiedz się, jak chronić się przed oszustwami, phishingiem i kradzieżą tożsamości online.",
+            "faqTitle": "Często zadawane pytania o bezpieczeństwo",
+            "faq": {
+                "q1": "Co to jest BankID i jak działa?",
+                "a1": "BankID to elektroniczny identyfikator używany do logowania się do usług publicznych i bankowości internetowej w Norwegii.",
+                "q2": "Jak rozpoznać wiadomości oszustów?",
+                "a2": "Wiadomości oszustów charakteryzują się prośbą o dane osobowe, tworzeniem presji, błędami ortograficznymi i dziwnymi linkami.",
+                "q3": "Co to jest phishing?",
+                "a3": "Phishing to oszustwo, w którym przestępcy podszywają się pod legalne firmy, aby nakłonić cię do podania danych osobowych.",
+                "q4": "Jak utworzyć bezpieczne hasło?",
+                "a4": "Bezpieczne hasło ma co najmniej 12 znaków z wielkimi i małymi literami, cyframi i znakami specjalnymi.",
+                "q5": "Co zrobić, jeśli zostałem oszukany?",
+                "a5": "Zadzwoń do banku, zgłoś na policję, zmień hasła i skontaktuj się z pomocą ds. kradzieży tożsamości.",
+                "q6": "Czy korzystanie z publicznego WiFi jest bezpieczne?",
+                "a6": "Unikaj bankowości na publicznym WiFi. Używaj danych mobilnych do wrażliwych zadań."
+            },
+            "relatedTitle": "Powiązane przewodniki",
+            "relatedText": "Inne usługi wymagające bezpiecznego logowania",
+            "relatedNav": "Bezpieczne logowanie",
+            "relatedHelse": "Bezpieczne logowanie",
+            "relatedBank": "Bezpieczeństwo bankowości",
+            "lastUpdated": "Ostatnia aktualizacja: Styczeń 2026"
         },
         "bank": {
             "title": "Bankowość i finanse",
