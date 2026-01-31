@@ -68,6 +68,30 @@ export default async function Home({
           <p className="text-xl sm:text-2xl text-gray-600 leading-relaxed">
             {t('whatIsText')}
           </p>
+          {/* Target audiences - minimal with gray icons and descriptions */}
+          <div className="grid grid-cols-3 gap-8 mt-10 max-w-2xl mx-auto text-gray-500">
+            <div className="flex flex-col items-center text-center">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197" />
+              </svg>
+              <span className="font-medium mb-1">{t('elderly')}</span>
+              <span className="text-sm text-gray-400">{t('elderlyDesc')}</span>
+            </div>
+            <div className="flex flex-col items-center text-center">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <span className="font-medium mb-1">{t('newToNorway')}</span>
+              <span className="text-sm text-gray-400">{t('newToNorwayDesc')}</span>
+            </div>
+            <div className="flex flex-col items-center text-center">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+              </svg>
+              <span className="font-medium mb-1">{t('helpers')}</span>
+              <span className="text-sm text-gray-400">{t('helpersDesc')}</span>
+            </div>
+          </div>
         </div>
       </section>
 

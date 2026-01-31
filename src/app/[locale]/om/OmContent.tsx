@@ -65,6 +65,40 @@ export default function OmContent() {
             </div>
           </div>
 
+          {/* Who is this for? */}
+          <div className="mb-10">
+            <h2 className="text-2xl font-bold mb-6 text-center">{t('whoIsItFor')}</h2>
+            <div className="grid sm:grid-cols-3 gap-4">
+              <div className="bg-white border border-gray-200 rounded-xl p-6 text-center">
+                <div className="bg-amber-100 text-amber-600 w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z" />
+                  </svg>
+                </div>
+                <h3 className="font-bold text-gray-900 mb-2">{t('forElderly')}</h3>
+                <p className="text-gray-600 text-sm">{t('forElderlyDesc')}</p>
+              </div>
+              <div className="bg-white border border-gray-200 rounded-xl p-6 text-center">
+                <div className="bg-emerald-100 text-emerald-600 w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+                <h3 className="font-bold text-gray-900 mb-2">{t('forNewcomers')}</h3>
+                <p className="text-gray-600 text-sm">{t('forNewcomersDesc')}</p>
+              </div>
+              <div className="bg-white border border-gray-200 rounded-xl p-6 text-center">
+                <div className="bg-blue-100 text-nav-blue w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                  </svg>
+                </div>
+                <h3 className="font-bold text-gray-900 mb-2">{t('forHelpers')}</h3>
+                <p className="text-gray-600 text-sm">{t('forHelpersDesc')}</p>
+              </div>
+            </div>
+          </div>
+
           <div className="card mb-8">
             <h2 className="text-2xl font-bold mb-4">{t('mission')}</h2>
             <p className="text-gray-700 leading-relaxed mb-4">
