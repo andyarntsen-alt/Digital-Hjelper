@@ -83,9 +83,7 @@ export default function SikkerhetContent() {
           </div>
 
           <p className="text-lg text-gray-600 leading-relaxed mb-6">
-            <strong className="text-gray-900">Digital sikkerhet</strong> handler om å beskytte deg selv og din informasjon på nett.
-            Her finner du guider om hvordan du bruker BankID trygt, gjenkjenner svindel og phishing,
-            og lager sikre passord.
+            <strong className="text-gray-900">{t('introStrong')}</strong> {t('introText')}
           </p>
 
           <div className="bg-gray-50 border border-gray-200 p-4 rounded-xl">

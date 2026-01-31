@@ -106,6 +106,16 @@
         "necessary": "Niezbędne",
         "accept": "Akceptuj"
     },
+    "hero": {
+        "headline": "Usługi cyfrowe łatwo.",
+        "subheadline": "NAV, podatki, zdrowie, bank i więcej – pomagamy ci ze wszystkim cyfrowym. Krok po kroku, prostym językiem.",
+        "badges": {
+            "free": "Bezpłatnie",
+            "simpleLanguage": "Prosty język",
+            "stepByStep": "Krok po kroku",
+            "multiLanguage": "W twoim języku"
+        }
+    },
     "home": {
         "heroTitle": "Potrzebujesz pomocy z",
         "heroTitleBreak": "cyfrowymi usługami publicznymi?",
@@ -247,6 +257,8 @@
             "description": "Naucz się chronić przed oszustwami, phishingiem i innymi zagrożeniami cyfrowymi.",
             "hubTitle": "Bezpieczeństwo cyfrowe",
             "hubSubtitle": "Chroń się przed oszustwami i zagrożeniami online",
+            "introStrong": "Bezpieczeństwo cyfrowe",
+            "introText": "dotyczy ochrony siebie i swoich informacji w internecie. Tutaj znajdziesz przewodniki o bezpiecznym korzystaniu z BankID, rozpoznawaniu oszustw i phishingu oraz tworzeniu bezpiecznych haseł.",
             "didYouKnow": "Czy wiesz?",
             "didYouKnowText": "Codziennie Norwegowie są oszukiwani na miliony koron w internecie. Większość prób oszustwa łatwo wykryć, jeśli wiesz, na co zwracać uwagę.",
             "selectGuide": "Wybierz, czego chcesz się dowiedzieć",
