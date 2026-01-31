@@ -49,7 +49,7 @@ export default function Header() {
             </div>
             <div className="flex flex-col">
               <span className="text-lg sm:text-xl font-bold text-gray-900 leading-tight">{t('siteName')}</span>
-              <span className="hidden sm:block text-[10px] text-gray-400 font-medium tracking-wide">{t('tagline')}</span>
+              <span className="text-[11px] sm:text-xs text-gray-500 font-medium">{t('tagline')}</span>
             </div>
           </Link>
 
