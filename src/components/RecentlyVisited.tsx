@@ -4,7 +4,8 @@ import { useState, useEffect } from 'react';
 import { Link } from '@/i18n/navigation';
 import { useTranslations } from 'next-intl';
 import { getStorageItem, setStorageItem } from '@/utils/storage';
-import { getGuideByHref, CATEGORY_COLORS, CATEGORY_ICONS, type GuideData } from '@/data/guides';
+import { getGuideByHref, CATEGORY_COLORS, type GuideData } from '@/data/guides';
+import CategoryIcon from './CategoryIcon';
 
 const STORAGE_KEY = 'recently-visited';
 const MAX_RECENT = 5;
@@ -87,8 +88,8 @@ export default function RecentlyVisited() {
                 className="block p-3 no-underline"
               >
                 <div className="flex items-center gap-3">
-                  <span className={`w-8 h-8 rounded-full flex items-center justify-center text-sm ${CATEGORY_COLORS[guide.category]}`}>
-                    {CATEGORY_ICONS[guide.category]}
+                  <span className={`w-8 h-8 rounded-full flex items-center justify-center ${CATEGORY_COLORS[guide.category]}`}>
+                    <CategoryIcon category={guide.category} className="h-4 w-4" />
                   </span>
                   <div className="min-w-0 pr-4">
                     <h3 className="text-sm font-semibold text-gray-900 group-hover:text-nav-blue truncate">
