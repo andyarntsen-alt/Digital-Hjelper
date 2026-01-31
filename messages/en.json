@@ -124,6 +124,16 @@
     "necessary": "Necessary only",
     "accept": "Accept"
   },
+  "hero": {
+    "headline": "Digital services made simple.",
+    "subheadline": "NAV, tax, health, banking and more \u2013 we help you with all things digital. Step by step, with clear language.",
+    "badges": {
+      "free": "Free",
+      "simpleLanguage": "Simple language",
+      "stepByStep": "Step by step",
+      "multiLanguage": "In your language"
+    }
+  },
   "home": {
     "heroTitle": "Do you need help with",
     "heroTitleBreak": "digital public services?",
@@ -158,9 +168,12 @@
     "disclaimerTitle": "Important to know",
     "disclaimerText": "LettDigital is not part of NAV, the Tax Office, Health Norway or other public agencies. We are an independent help service that explains how the services work. All official information can be found on the agencies' own websites. Our guides are for guidance only and do not replace official information.",
     "mostUsed": "Most used services",
+    "selectService": "Choose a service to get started",
     "mostUsedDesc": "Start here if you're unsure. These are the services most people need help with.",
     "otherServices": "Other services",
-    "forHelpersTitle": "Are you a helper?",
+    "seeAllServices": "See all services",
+    "forHelpersTitle": "For helpers",
+    "forHelpersHeadline": "Make it easy to help others",
     "forHelpersDesc": "Helping someone with digital services? Here are some tips to make it easier.",
     "helperTip1Title": "Print the guides",
     "helperTip1Desc": "All our guides can be printed. Click the print button at the top of the guide.",

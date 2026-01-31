@@ -2,83 +2,48 @@
 
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
-import FeedbackForm from './FeedbackForm';
 
 export default function Footer() {
   const t = useTranslations('footer');
   const tHeader = useTranslations('header');
-  const tCities = useTranslations('cities');
+
   return (
-    <footer className="bg-gray-800 text-white mt-16 safe-area-bottom">
-      <div className="max-w-6xl mx-auto px-4 py-6">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-          <div>
-            <h3 className="text-lg font-bold mb-2">{t('about')}</h3>
-            <p className="text-gray-300 text-sm leading-relaxed">
-              {t('aboutText')}
-            </p>
-          </div>
+    <footer className="bg-gray-950 text-gray-400 mt-16 safe-area-bottom">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        {/* Navigation links - single centered line */}
+        <nav className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm mb-6">
+          <Link href="/nav" className="hover:text-white transition-colors no-underline">
+            {tHeader('nav')}
+          </Link>
+          <Link href="/skatt" className="hover:text-white transition-colors no-underline">
+            {tHeader('skatt')}
+          </Link>
+          <Link href="/helse" className="hover:text-white transition-colors no-underline">
+            {tHeader('helse')}
+          </Link>
+          <Link href="/ordbok" className="hover:text-white transition-colors no-underline">
+            {tHeader('ordbok')}
+          </Link>
+          <Link href="/om" className="hover:text-white transition-colors no-underline">
+            {t('about')}
+          </Link>
+          <a href="mailto:kontakt@lettdigital.no" className="hover:text-white transition-colors no-underline">
+            {t('contact')}
+          </a>
+        </nav>
 
-          <div>
-            <h3 className="text-lg font-bold mb-2">{t('quickLinks')}</h3>
-            <ul className="space-y-1 text-sm">
-              <li>
-                <Link href="/nav" className="text-gray-300 hover:text-white no-underline">
-                  {tHeader('nav')}
-                </Link>
-              </li>
-              <li>
-                <Link href="/skatt" className="text-gray-300 hover:text-white no-underline">
-                  {tHeader('skatt')}
-                </Link>
-              </li>
-              <li>
-                <Link href="/helse" className="text-gray-300 hover:text-white no-underline">
-                  {tHeader('helse')}
-                </Link>
-              </li>
-              <li>
-                <Link href="/byer" className="text-gray-300 hover:text-white no-underline">
-                  📍 {tCities('viewAll')}
-                </Link>
-              </li>
-              <li>
-                <Link href="/om" className="text-gray-300 hover:text-white no-underline">
-                  {t('about')}
-                </Link>
-              </li>
-            </ul>
-          </div>
+        {/* Disclaimer - compact */}
+        <p className="text-xs text-gray-500 text-center max-w-2xl mx-auto mb-6 leading-relaxed">
+          <span className="text-gray-400">{t('disclaimerTitle')}:</span> {t('disclaimerText')}
+        </p>
 
-          <div>
-            <h3 className="text-lg font-bold mb-2">{t('contact')}</h3>
-            <a
-              href="mailto:kontakt@lettdigital.no"
-              className="text-gray-300 hover:text-white no-underline text-sm"
-            >
-              kontakt@lettdigital.no
-            </a>
-            <div className="mt-2">
-              <Link href="/personvern" className="text-gray-400 hover:text-white no-underline text-sm">
-                {t('privacy')}
-              </Link>
-            </div>
-          </div>
-
-          <div className="md:col-span-2 lg:col-span-1">
-            <FeedbackForm />
-          </div>
-        </div>
-
-        {/* Disclaimer */}
-        <div className="border-t border-gray-700 mt-5 pt-4">
-          <p className="text-gray-400 text-xs text-center max-w-3xl mx-auto">
-            <strong>{t('disclaimerTitle')}:</strong> {t('disclaimerText')}
-          </p>
-        </div>
-
-        <div className="border-t border-gray-700 mt-4 pt-4 text-center text-gray-400 text-sm">
-          <p>© {new Date().getFullYear()} {t('copyright')}</p>
+        {/* Copyright line */}
+        <div className="flex flex-wrap justify-center items-center gap-x-4 gap-y-1 text-xs text-gray-500">
+          <span>© {new Date().getFullYear()} {t('copyright')}</span>
+          <span className="hidden sm:inline">·</span>
+          <Link href="/personvern" className="hover:text-gray-300 transition-colors no-underline">
+            {t('privacy')}
+          </Link>
         </div>
       </div>
     </footer>

@@ -5,7 +5,11 @@ import { useLocale, useTranslations } from 'next-intl';
 import { useRouter, usePathname } from '@/i18n/navigation';
 import { allLocales, localeNames, localeFlags, isLocaleActive, type Locale } from '@/i18n/routing';
 
-export default function LanguageSelector() {
+interface LanguageSelectorProps {
+  compact?: boolean;
+}
+
+export default function LanguageSelector({ compact = false }: LanguageSelectorProps) {
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
@@ -35,22 +39,28 @@ export default function LanguageSelector() {
     <div className="relative" ref={dropdownRef}>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="h-9 px-3 flex items-center gap-2 rounded-lg hover:bg-gray-100 transition-colors"
+        className={`flex items-center rounded-lg hover:bg-gray-100 transition-colors ${
+          compact ? 'h-9 w-9 justify-center' : 'h-9 px-3 gap-2'
+        }`}
         aria-expanded={isOpen}
         aria-haspopup="listbox"
         aria-label={t('aria.selectLanguage')}
       >
         <span className="text-lg">{localeFlags[locale]}</span>
-        <span className="hidden sm:block text-gray-700">{localeNames[locale]}</span>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className={`h-4 w-4 text-gray-500 transition-transform ${isOpen ? 'rotate-180' : ''}`}
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-        </svg>
+        {!compact && (
+          <>
+            <span className="hidden sm:block text-gray-700">{localeNames[locale]}</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className={`h-4 w-4 text-gray-500 transition-transform ${isOpen ? 'rotate-180' : ''}`}
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+            </svg>
+          </>
+        )}
       </button>
 
       {isOpen && (

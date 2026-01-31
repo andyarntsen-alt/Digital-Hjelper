@@ -47,7 +47,7 @@
   },
   "header": {
     "siteName": "LettDigital",
-    "tagline": "Digital hjelp for alle",
+    "tagline": "Digital inkludering for alle",
     "nav": "NAV",
     "skatt": "Skatteetaten",
     "helse": "Helsenorge",
@@ -124,6 +124,16 @@
     "necessary": "Nødvendige",
     "accept": "Godta"
   },
+  "hero": {
+    "headline": "Digitale tjenester gjort enkelt.",
+    "subheadline": "NAV, skatt, helse, bank og mer \u2013 vi hjelper deg med alt det digitale. Steg for steg, med klart spr\u00e5k.",
+    "badges": {
+      "free": "Gratis",
+      "simpleLanguage": "Enkelt språk",
+      "stepByStep": "Steg for steg",
+      "multiLanguage": "På ditt språk"
+    }
+  },
   "home": {
     "heroTitle": "Trenger du hjelp med",
     "heroTitleBreak": "digitale offentlige tjenester?",
@@ -158,10 +168,13 @@
     "ctaTitle": "Klar til å komme i gang?",
     "ctaSubtitle": "Velg tjenesten du trenger hjelp med, så guider vi deg gjennom prosessen.",
     "mostUsed": "Mest brukte tjenester",
+    "selectService": "Velg en tjeneste for \u00e5 komme i gang",
     "mostUsedDesc": "Start her hvis du er usikker. Dette er tjenestene flest trenger hjelp med.",
     "otherServices": "Andre tjenester",
-    "forHelpersTitle": "Er du hjelper?",
-    "forHelpersDesc": "Hjelper du noen med digitale tjenester? Her er noen tips som gjør det enklere.",
+    "seeAllServices": "Se alle tjenester",
+    "forHelpersTitle": "For hjelpere",
+    "forHelpersHeadline": "Gj\u00f8r det enkelt \u00e5 hjelpe andre",
+    "forHelpersDesc": "Hjelper du noen med digitale tjenester? Her er noen tips som gj\u00f8r det enklere.",
     "helperTip1Title": "Skriv ut guidene",
     "helperTip1Desc": "Alle våre guider kan skrives ut. Trykk på skriv ut-knappen øverst i guiden.",
     "helperTip2Title": "Søk etter det du trenger",
