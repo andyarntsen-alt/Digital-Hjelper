@@ -655,7 +655,7 @@
                 "difficulty": "Średni",
                 "overview": "Zasiłek rodzicielski w pigułce",
                 "weeksWithFull": "tygodni ze 100% wynagrodzeniem",
-                "weeksWithReduced": "lub 59 tygodni z 80%",
+                "weeksWithReduced": "lub 61 tygodni z 80%",
                 "weeksFather": "tygodni dla ojca/współmatki",
                 "fatherQuota": "(kwota ojcowska)",
                 "weeksMother": "tygodni dla matki",
@@ -3585,7 +3585,7 @@
                 "difficulty": "Enkel",
                 "whatIsTitle": "Om førerkort",
                 "whatIsText1": "Førerkort er både et bevis på at du har lov til å kjøre og et gyldig ID-kort. Det må fornyes regelmessig.",
-                "whatIsText2": "Førerkort for personbil (klasse B) er gyldig i 15 år, men må fornyes oftere etter fylte 75 år.",
+                "whatIsText2": "Førerkort for personbil (klasse B) er gyldig i 10 år for de under 65 år, 5 år for de mellom 65-74 år, og 2 år for de over 75 år.",
                 "requirementsTitle": "Dette trenger du",
                 "requirements": [
                     "Gyldig legitimasjon",
@@ -4092,6 +4092,7 @@
     },
     "ordbok": {
         "title": "Słownik",
+        "description": "Słownik z wyjaśnieniami trudnych słów i wyrażeń z norweskich stron publicznych. Zrozum NAV, podatki, zdrowie i usługi cyfrowe.",
         "subtitle": "Tutaj wyjaśniamy trudne słowa i wyrażenia, które spotykasz na stronach publicznych.",
         "searchLabel": "Szukaj słów",
         "searchPlaceholder": "Wpisz słowo, o które się zastanawiasz...",

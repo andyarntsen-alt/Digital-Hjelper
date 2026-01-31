@@ -2,6 +2,7 @@
 
 import Breadcrumbs from '@/components/Breadcrumbs';
 import PrintButton from '@/components/PrintButton';
+import RelatedGuides from '@/components/RelatedGuides';
 import StepGuide from '@/components/StepGuide';
 import { HowToSchema } from '@/components/StructuredData';
 import { useTranslations } from 'next-intl';
@@ -126,6 +127,8 @@ export default function EpostContent() {
         <h2 className="text-xl font-bold mb-4 text-gray-900">{t('spamTitle')}</h2>
         <p className="text-gray-700">{t('spamText')}</p>
       </div>
+
+      <RelatedGuides currentPath="/digital/epost" category="digital" />
     </div>
     </>
   );

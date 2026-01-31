@@ -655,7 +655,7 @@
                 "difficulty": "متوسط",
                 "overview": "إعانات الوالدين باختصار",
                 "weeksWithFull": "أسبوع براتب 100%",
-                "weeksWithReduced": "أو 59 أسبوع بـ 80%",
+                "weeksWithReduced": "أو 61 أسبوع بـ 80%",
                 "weeksFather": "أسبوع للأب/الأم الثانية",
                 "fatherQuota": "(حصة الأبوة)",
                 "weeksMother": "أسبوع للأم",
@@ -3585,7 +3585,7 @@
                 "difficulty": "Enkel",
                 "whatIsTitle": "Om førerkort",
                 "whatIsText1": "Førerkort er både et bevis på at du har lov til å kjøre og et gyldig ID-kort. Det må fornyes regelmessig.",
-                "whatIsText2": "Førerkort for personbil (klasse B) er gyldig i 15 år, men må fornyes oftere etter fylte 75 år.",
+                "whatIsText2": "Førerkort for personbil (klasse B) er gyldig i 10 år for de under 65 år, 5 år for de mellom 65-74 år, og 2 år for de over 75 år.",
                 "requirementsTitle": "Dette trenger du",
                 "requirements": [
                     "Gyldig legitimasjon",
@@ -4092,6 +4092,7 @@
     },
     "ordbok": {
         "title": "القاموس",
+        "description": "قاموس مع شرح للكلمات والتعبيرات الصعبة من المواقع الحكومية النرويجية. افهم NAV والضرائب والصحة والخدمات الرقمية.",
         "subtitle": "هنا نشرح الكلمات والتعبيرات الصعبة التي تواجهها على المواقع الحكومية.",
         "searchLabel": "ابحث عن كلمات",
         "searchPlaceholder": "اكتب كلمة تتساءل عنها...",

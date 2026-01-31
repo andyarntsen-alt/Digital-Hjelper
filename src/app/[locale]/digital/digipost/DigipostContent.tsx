@@ -2,6 +2,7 @@
 
 import Breadcrumbs from '@/components/Breadcrumbs';
 import PrintButton from '@/components/PrintButton';
+import RelatedGuides from '@/components/RelatedGuides';
 import StepGuide from '@/components/StepGuide';
 import { HowToSchema } from '@/components/StructuredData';
 import { useTranslations } from 'next-intl';
@@ -93,6 +94,8 @@ export default function DigipostContent() {
           ))}
         </ul>
       </div>
+
+      <RelatedGuides currentPath="/digital/digipost" category="digital" />
     </div>
     </>
   );

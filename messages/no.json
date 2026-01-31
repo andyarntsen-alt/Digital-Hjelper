@@ -650,7 +650,7 @@
         "whoCanGet": "Hvem kan få dagpenger?",
         "whoCanGetIntro": "For å få dagpenger må du vanligvis:",
         "requirements": [
-          "Ha tjent minst 186 042 kroner siste 12 måneder, eller 372 084 kroner siste 36 måneder (2024-satser)",
+          "Ha tjent minst 1,5 G (grunnbeløpet) siste 12 måneder, eller 3 G siste 36 måneder. G oppdateres årlig - sjekk nav.no for gjeldende beløp",
           "Ha fått redusert arbeidstiden din med minst 50%",
           "Være registrert som arbeidssøker og aktivt søke jobb",
           "Bo i Norge og ha rett til å jobbe her"
@@ -803,7 +803,7 @@
         "difficulty": "Middels",
         "overview": "Foreldrepenger på 1-2-3",
         "weeksWithFull": "uker med 100% lønn",
-        "weeksWithReduced": "eller 59 uker med 80%",
+        "weeksWithReduced": "eller 61 uker med 80%",
         "weeksFather": "uker til far/medmor",
         "fatherQuota": "(fedrekvoten)",
         "weeksMother": "uker til mor",
@@ -851,7 +851,7 @@
           },
           {
             "title": "Velg dekningsgrad",
-            "description": "Du kan velge mellom 100% dekning i 49 uker eller 80% dekning i 59 uker. Totalbeløpet er likt, men fordelingen er annerledes.",
+            "description": "Du kan velge mellom 100% dekning i 49 uker eller 80% dekning i 61 uker. Totalbeløpet er likt, men fordelingen er annerledes.",
             "tip": "100% gir høyere månedlig utbetaling men kortere permisjon. 80% gir lavere månedlig men lengre permisjon."
           },
           {
@@ -1401,8 +1401,8 @@
           {
             "category": "Jobb og reise",
             "items": [
-              { "name": "Reise til jobb", "description": "Hvis du har mer enn 37 km én vei til jobb, kan du få fradrag", "amount": "Ca. 1,76 kr per km over 37 km" },
-              { "name": "Fagforeningskontingent", "description": "Medlemskap i fagforening gir automatisk fradrag", "amount": "Opp til ca. 7 700 kr" },
+              { "name": "Reise til jobb", "description": "Hvis du har mer enn 37 km én vei til jobb, kan du få fradrag", "amount": "Ca. 1,83 kr per km over 37 km (2025)" },
+              { "name": "Fagforeningskontingent", "description": "Medlemskap i fagforening gir automatisk fradrag", "amount": "Opp til 8 250 kr (2025)" },
               { "name": "Hjemmekontor", "description": "Hvis du jobber hjemmefra fast, kan du få fradrag", "amount": "Ca. 2 050 kr per år (standardfradrag)" },
               { "name": "Verktøy og utstyr", "description": "Utstyr du må ha til jobben som arbeidsgiver ikke dekker", "amount": "Faktiske utgifter" }
             ]
@@ -3309,7 +3309,7 @@
           {
             "title": "Hold deg under inntektsgrensen",
             "description": "Du kan jobbe ved siden av studiene, men ikke tjene over grensen. Sjekk gjeldende grenser på lanekassen.no.",
-            "tip": "Grensen er ca. 200 000 kr per år (sjekk oppdatert beløp)."
+            "tip": "Grensen er ca. 235 000 kr per år for 2026 (sjekk lanekassen.no for oppdatert beløp)."
           },
           {
             "title": "Omgjøring skjer automatisk",
@@ -3449,7 +3449,7 @@
         "difficulty": "Enkel",
         "whatIsTitle": "Om førerkort",
         "whatIsText1": "Førerkort er både et bevis på at du har lov til å kjøre og et gyldig ID-kort. Det må fornyes regelmessig.",
-        "whatIsText2": "Førerkort for personbil (klasse B) er gyldig i 15 år, men må fornyes oftere etter fylte 75 år.",
+        "whatIsText2": "Førerkort for personbil (klasse B) er gyldig i 10 år for de under 65 år, 5 år for de mellom 65-74 år, og 2 år for de over 75 år.",
         "requirementsTitle": "Dette trenger du",
         "requirements": [
           "Gyldig legitimasjon",
@@ -3859,7 +3859,7 @@
           },
           {
             "title": "Bestill time hos politiet eller skattekontoret",
-            "description": "EØS-borgere registrerer seg hos politiet (politiet.no). Andre registrerer seg hos Skatteetaten (skatteetaten.no).",
+            "description": "Alle som skal bo i Norge må registrere seg i Folkeregisteret via Skatteetaten (skatteetaten.no). EØS-borgere må i tillegg registrere opphold hos politiet.",
             "tip": "Bestill time på nett i god tid - det kan være lang ventetid."
           },
           {
@@ -4052,6 +4052,7 @@
   },
   "ordbok": {
     "title": "Ordbok",
+    "description": "Ordbok med forklaringer på vanskelige ord og uttrykk fra offentlige nettsider i Norge. Forstå NAV, skatt, helse og digitale tjenester.",
     "subtitle": "Her forklarer vi vanskelige ord og uttrykk du møter på offentlige nettsider.",
     "searchLabel": "Søk etter ord",
     "searchPlaceholder": "Skriv et ord du lurer på...",
@@ -4571,7 +4572,7 @@
     "items": [
       {
         "question": "Hva gjør jeg hvis jeg har mistet jobben?",
-        "answer": "Først må du registrere deg som arbeidssøker på nav.no. Deretter kan du søke om dagpenger hvis du oppfyller kravene. Du må ha tjent minst 186 042 kr siste år eller 372 084 kr siste 3 år. Se våre veiledninger for steg-for-steg hjelp.",
+        "answer": "Først må du registrere deg som arbeidssøker på nav.no. Deretter kan du søke om dagpenger hvis du oppfyller kravene. Du må ha tjent minst 1,5 G (grunnbeløpet) siste år eller 3 G siste 3 år. Sjekk nav.no for gjeldende satser. Se våre veiledninger for steg-for-steg hjelp.",
         "category": "NAV"
       },
       {

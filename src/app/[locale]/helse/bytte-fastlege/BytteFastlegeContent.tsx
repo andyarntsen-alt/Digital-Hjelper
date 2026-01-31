@@ -3,6 +3,7 @@
 import Breadcrumbs from '@/components/Breadcrumbs';
 import FavoriteButton from '@/components/FavoriteButton';
 import PrintButton from '@/components/PrintButton';
+import RelatedGuides from '@/components/RelatedGuides';
 import StepGuide from '@/components/StepGuide';
 import GuideTracker from '@/components/GuideTracker';
 import { HowToSchema } from '@/components/StructuredData';
@@ -98,6 +99,8 @@ export default function BytteFastlegePage() {
             ))}
           </div>
         </div>
+
+        <RelatedGuides currentPath="/helse/bytte-fastlege" category="helse" />
       </div>
     </>
   );

@@ -2,6 +2,7 @@
 
 import Breadcrumbs from '@/components/Breadcrumbs';
 import PrintButton from '@/components/PrintButton';
+import RelatedGuides from '@/components/RelatedGuides';
 import StepGuide from '@/components/StepGuide';
 import { HowToSchema } from '@/components/StructuredData';
 import { useTranslations } from 'next-intl';
@@ -103,6 +104,8 @@ export default function VippsPage() {
         <h2 className="text-xl font-bold mb-4 text-gray-900">{t('securityTitle')}</h2>
         <p className="text-gray-700">{t('securityText')}</p>
       </div>
+
+      <RelatedGuides currentPath="/bank/vipps" category="bank" />
     </div>
     </>
   );

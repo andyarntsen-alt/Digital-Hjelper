@@ -2,6 +2,7 @@
 
 import Breadcrumbs from '@/components/Breadcrumbs';
 import PrintButton from '@/components/PrintButton';
+import RelatedGuides from '@/components/RelatedGuides';
 import StepGuide from '@/components/StepGuide';
 import { HowToSchema } from '@/components/StructuredData';
 import { useTranslations } from 'next-intl';
@@ -120,6 +121,8 @@ export default function PostenContent() {
             </p>
           </div>
         </div>
+
+        <RelatedGuides currentPath="/digital/posten" category="digital" />
       </div>
     </>
   );

@@ -803,7 +803,7 @@
         "difficulty": "Medium",
         "overview": "Parental benefits in a nutshell",
         "weeksWithFull": "weeks with 100% pay",
-        "weeksWithReduced": "or 59 weeks with 80%",
+        "weeksWithReduced": "or 61 weeks with 80%",
         "weeksFather": "weeks for father/co-mother",
         "fatherQuota": "(paternity quota)",
         "weeksMother": "weeks for mother",
@@ -3939,7 +3939,7 @@
           },
           {
             "title": "Book an appointment with police or tax office",
-            "description": "EEA citizens register with the police (politiet.no). Others register with the Tax Administration (skatteetaten.no).",
+            "description": "Everyone who will live in Norway must register with the National Registry via the Tax Administration (skatteetaten.no). EEA citizens must also register their residence with the police.",
             "tip": "Book your appointment online well in advance - there can be long waiting times."
           },
           {
@@ -4132,6 +4132,7 @@
   },
   "ordbok": {
     "title": "Dictionary",
+    "description": "Dictionary with explanations of difficult words and expressions from Norwegian public websites. Understand NAV, taxes, health and digital services.",
     "subtitle": "Here we explain difficult words and expressions you encounter on public websites.",
     "searchLabel": "Search for words",
     "searchPlaceholder": "Type a word you're wondering about...",
