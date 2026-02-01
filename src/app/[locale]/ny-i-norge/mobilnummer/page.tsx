@@ -27,9 +27,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
     },
     alternates: {
-      canonical: `https://www.lettdigital.no/${locale}/ny-i-norge/mobilnummer`,
+      canonical: locale === 'no' ? 'https://www.lettdigital.no/ny-i-norge/mobilnummer' : `https://www.lettdigital.no/${locale}/ny-i-norge/mobilnummer`,
       languages: {
-        'nb': 'https://www.lettdigital.no/no/ny-i-norge/mobilnummer',
+        'nb': 'https://www.lettdigital.no/ny-i-norge/mobilnummer',
         'en': 'https://www.lettdigital.no/en/ny-i-norge/mobilnummer',
         'uk': 'https://www.lettdigital.no/uk/ny-i-norge/mobilnummer',
       },

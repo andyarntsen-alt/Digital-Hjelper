@@ -28,9 +28,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
     },
     alternates: {
-      canonical: `https://www.lettdigital.no/${locale}/skatt/skattemelding`,
+      canonical: locale === 'no' ? 'https://www.lettdigital.no/skatt/skattemelding' : `https://www.lettdigital.no/${locale}/skatt/skattemelding`,
       languages: {
-        'nb': 'https://www.lettdigital.no/no/skatt/skattemelding',
+        'nb': 'https://www.lettdigital.no/skatt/skattemelding',
         'en': 'https://www.lettdigital.no/en/skatt/skattemelding',
         'uk': 'https://www.lettdigital.no/uk/skatt/skattemelding',
       },

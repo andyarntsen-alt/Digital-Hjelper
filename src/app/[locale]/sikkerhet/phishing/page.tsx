@@ -28,9 +28,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
     },
     alternates: {
-      canonical: `https://www.lettdigital.no/${locale}/sikkerhet/phishing`,
+      canonical: locale === 'no' ? 'https://www.lettdigital.no/sikkerhet/phishing' : `https://www.lettdigital.no/${locale}/sikkerhet/phishing`,
       languages: {
-        'nb': 'https://www.lettdigital.no/no/sikkerhet/phishing',
+        'nb': 'https://www.lettdigital.no/sikkerhet/phishing',
         'en': 'https://www.lettdigital.no/en/sikkerhet/phishing',
         'uk': 'https://www.lettdigital.no/uk/sikkerhet/phishing',
       },

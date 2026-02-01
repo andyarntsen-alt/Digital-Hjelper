@@ -28,9 +28,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
     },
     alternates: {
-      canonical: `https://www.lettdigital.no/${locale}/grunnleggende/smarttelefon`,
+      canonical: locale === 'no' ? 'https://www.lettdigital.no/grunnleggende/smarttelefon' : `https://www.lettdigital.no/${locale}/grunnleggende/smarttelefon`,
       languages: {
-        'nb': 'https://www.lettdigital.no/no/grunnleggende/smarttelefon',
+        'nb': 'https://www.lettdigital.no/grunnleggende/smarttelefon',
         'en': 'https://www.lettdigital.no/en/grunnleggende/smarttelefon',
         'uk': 'https://www.lettdigital.no/uk/grunnleggende/smarttelefon',
       },

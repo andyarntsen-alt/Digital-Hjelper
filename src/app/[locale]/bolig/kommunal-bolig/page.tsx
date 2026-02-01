@@ -28,9 +28,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
     },
     alternates: {
-      canonical: `https://www.lettdigital.no/${locale}/bolig/kommunal-bolig`,
+      canonical: locale === 'no' ? 'https://www.lettdigital.no/bolig/kommunal-bolig' : `https://www.lettdigital.no/${locale}/bolig/kommunal-bolig`,
       languages: {
-        'nb': 'https://www.lettdigital.no/no/bolig/kommunal-bolig',
+        'nb': 'https://www.lettdigital.no/bolig/kommunal-bolig',
         'en': 'https://www.lettdigital.no/en/bolig/kommunal-bolig',
         'uk': 'https://www.lettdigital.no/uk/bolig/kommunal-bolig',
       },

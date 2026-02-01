@@ -28,9 +28,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
     },
     alternates: {
-      canonical: `https://www.lettdigital.no/${locale}/grunnleggende/passord-hjelp`,
+      canonical: locale === 'no' ? 'https://www.lettdigital.no/grunnleggende/passord-hjelp' : `https://www.lettdigital.no/${locale}/grunnleggende/passord-hjelp`,
       languages: {
-        'nb': 'https://www.lettdigital.no/no/grunnleggende/passord-hjelp',
+        'nb': 'https://www.lettdigital.no/grunnleggende/passord-hjelp',
         'en': 'https://www.lettdigital.no/en/grunnleggende/passord-hjelp',
         'uk': 'https://www.lettdigital.no/uk/grunnleggende/passord-hjelp',
       },

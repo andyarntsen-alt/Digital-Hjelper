@@ -27,9 +27,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
     },
     alternates: {
-      canonical: `https://www.lettdigital.no/${locale}/digital/minside`,
+      canonical: locale === 'no' ? 'https://www.lettdigital.no/digital/minside' : `https://www.lettdigital.no/${locale}/digital/minside`,
       languages: {
-        'nb': 'https://www.lettdigital.no/no/digital/minside',
+        'nb': 'https://www.lettdigital.no/digital/minside',
         'en': 'https://www.lettdigital.no/en/digital/minside',
         'uk': 'https://www.lettdigital.no/uk/digital/minside',
       },

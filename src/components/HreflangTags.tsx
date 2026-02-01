@@ -17,33 +17,39 @@ const localeToLangCode: Record<string, string> = {
 export default function HreflangTags() {
   const pathname = usePathname();
 
-  // Ekstraher path uten locale-prefix
-  const pathWithoutLocale = pathname.replace(/^\/(no|en|uk|pl|so|ar)/, '') || '/';
+  // Ekstraher path uten locale-prefix (as-needed: Norwegian has no prefix)
+  const pathWithoutLocale = pathname.replace(/^\/(en|uk|pl|so|ar)/, '') || '/';
 
-  // Hent current locale fra pathname
-  const currentLocale = pathname.match(/^\/(no|en|uk|pl|so|ar)/)?.[1] || 'no';
+  // Hent current locale fra pathname (no prefix = Norwegian)
+  const currentLocale = pathname.match(/^\/(en|uk|pl|so|ar)/)?.[1] || 'no';
 
-  // Canonical URL for denne siden
-  const canonicalUrl = `${baseUrl}/${currentLocale}${pathWithoutLocale === '/' ? '' : pathWithoutLocale}`;
+  // Helper: build URL for locale (Norwegian = no prefix)
+  const getUrl = (locale: string, path: string) => {
+    const cleanPath = path === '/' ? '' : path;
+    return locale === 'no' ? `${baseUrl}${cleanPath}` : `${baseUrl}/${locale}${cleanPath}`;
+  };
+
+  // Canonical URL
+  const canonicalUrl = getUrl(currentLocale, pathWithoutLocale);
 
   return (
     <>
-      {/* Canonical tag - forteller Google hvilken URL som er "hovedversjonen" */}
+      {/* Canonical tag */}
       <link rel="canonical" href={canonicalUrl} />
 
-      {/* Hreflang tags - forteller Google om alle språkversjoner */}
+      {/* Hreflang tags */}
       {locales.map((locale) => (
         <link
           key={locale}
           rel="alternate"
           hrefLang={localeToLangCode[locale]}
-          href={`${baseUrl}/${locale}${pathWithoutLocale === '/' ? '' : pathWithoutLocale}`}
+          href={getUrl(locale, pathWithoutLocale)}
         />
       ))}
       <link
         rel="alternate"
         hrefLang="x-default"
-        href={`${baseUrl}/no${pathWithoutLocale === '/' ? '' : pathWithoutLocale}`}
+        href={getUrl('no', pathWithoutLocale)}
       />
     </>
   );

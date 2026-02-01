@@ -29,9 +29,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
     },
     alternates: {
-      canonical: `https://www.lettdigital.no/${locale}/byer/trondheim`,
+      canonical: locale === 'no' ? 'https://www.lettdigital.no/byer/trondheim' : `https://www.lettdigital.no/${locale}/byer/trondheim`,
       languages: {
-        'nb': 'https://www.lettdigital.no/no/byer/trondheim',
+        'nb': 'https://www.lettdigital.no/byer/trondheim',
         'en': 'https://www.lettdigital.no/en/byer/trondheim',
         'uk': 'https://www.lettdigital.no/uk/byer/trondheim',
       },
