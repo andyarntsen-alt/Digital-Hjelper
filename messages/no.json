@@ -121,10 +121,10 @@
   },
   "cookieBanner": {
     "title": "Vi bruker informasjonskapsler (cookies)",
-    "description": "Vi bruker kun nødvendige informasjonskapsler for å huske dine innstillinger.",
+    "description": "Vi bruker nødvendige cookies for innstillinger. \"Godta alle\" aktiverer også Google Analytics for å forbedre nettsiden.",
     "readMore": "Les mer",
-    "necessary": "Nødvendige",
-    "accept": "Godta"
+    "necessary": "Kun nødvendige",
+    "accept": "Godta alle"
   },
   "hero": {
     "headline": "Digitale tjenester gjort enkelt.",
@@ -5021,7 +5021,9 @@
     },
     "cookies": {
       "title": "Informasjonskapsler (cookies)",
-      "intro": "Vi bruker kun nødvendige informasjonskapsler som lagres lokalt i din nettleser:",
+      "intro": "Vi bruker følgende informasjonskapsler:",
+      "necessaryTitle": "Nødvendige cookies (alltid aktive)",
+      "analyticsTitle": "Analyse-cookies (krever samtykke)",
       "tableHeaders": {
         "name": "Navn",
         "purpose": "Formål",
@@ -5042,13 +5044,26 @@
         "purpose": "Tekststørrelse og kontrast",
         "duration": "Permanent"
       },
-      "noAnalytics": "Vi bruker ikke analyse-cookies (som Google Analytics) eller reklame-cookies."
+      "ga": {
+        "name": "_ga",
+        "purpose": "Google Analytics - skiller mellom brukere",
+        "duration": "2 år"
+      },
+      "gid": {
+        "name": "_gid",
+        "purpose": "Google Analytics - skiller mellom brukere",
+        "duration": "24 timer"
+      },
+      "analyticsInfo": "Google Analytics brukes kun hvis du godtar analyse-cookies. Vi bruker IP-anonymisering, så din fulle IP-adresse lagres aldri. Vi bruker ikke reklame-cookies."
     },
     "thirdParties": {
-      "title": "Deling med tredjeparter",
-      "noSharing": "Vi deler ingen data med tredjeparter. All informasjon forblir i din nettleser.",
-      "hosting": "Nettsiden hostes av Vercel, som kan logge teknisk informasjon (IP-adresse, nettlesertype) for sikkerhetsformål.",
-      "vercelLink": "Se Vercels personvernerklæring for mer informasjon."
+      "title": "Tredjeparter og analyse",
+      "intro": "Vi bruker følgende tredjepartstjenester:",
+      "googleAnalytics": "Google Analytics: Hvis du godtar analyse-cookies, bruker vi Google Analytics for å forstå hvordan nettsiden brukes. Data anonymiseres (IP-maskering) og brukes kun til å forbedre tjenesten.",
+      "vercelAnalytics": "Vercel Analytics: Vi bruker Vercel sin innebygde analyse som er personvernvennlig og ikke bruker cookies.",
+      "hosting": "Vercel Hosting: Nettsiden hostes av Vercel, som kan logge teknisk informasjon (IP-adresse, nettlesertype) for sikkerhetsformål.",
+      "vercelLink": "Se Vercels personvernerklæring for mer informasjon.",
+      "noAds": "Vi deler aldri data med reklametjenester."
     },
     "yourRights": {
       "title": "Dine rettigheter",

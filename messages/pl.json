@@ -102,10 +102,10 @@
     },
     "cookieBanner": {
         "title": "Używamy plików cookie",
-        "description": "Używamy tylko niezbędnych plików cookie do zapamiętania twoich ustawień.",
+        "description": "Używamy niezbędnych plików cookie do ustawień. \"Akceptuj wszystko\" włącza również Google Analytics do ulepszania strony.",
         "readMore": "Czytaj więcej",
-        "necessary": "Niezbędne",
-        "accept": "Akceptuj"
+        "necessary": "Tylko niezbędne",
+        "accept": "Akceptuj wszystko"
     },
     "hero": {
         "headline": "Usługi cyfrowe łatwo.",

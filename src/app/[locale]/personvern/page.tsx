@@ -62,7 +62,9 @@ export default async function PersonvernPage({
           <p className="text-gray-700 mb-4">
             {t('cookies.intro')}
           </p>
-          <div className="bg-gray-50 rounded-lg p-4 mb-4">
+
+          <h3 className="text-lg font-semibold text-gray-800 mb-3">{t('cookies.necessaryTitle')}</h3>
+          <div className="bg-gray-50 rounded-lg p-4 mb-6">
             <table className="w-full text-left">
               <thead>
                 <tr className="border-b">
@@ -90,21 +92,53 @@ export default async function PersonvernPage({
               </tbody>
             </table>
           </div>
+
+          <h3 className="text-lg font-semibold text-gray-800 mb-3">{t('cookies.analyticsTitle')}</h3>
+          <div className="bg-gray-50 rounded-lg p-4 mb-4">
+            <table className="w-full text-left">
+              <thead>
+                <tr className="border-b">
+                  <th className="pb-2 font-semibold">{t('cookies.tableHeaders.name')}</th>
+                  <th className="pb-2 font-semibold">{t('cookies.tableHeaders.purpose')}</th>
+                  <th className="pb-2 font-semibold">{t('cookies.tableHeaders.duration')}</th>
+                </tr>
+              </thead>
+              <tbody className="text-gray-700">
+                <tr className="border-b">
+                  <td className="py-2">{t('cookies.ga.name')}</td>
+                  <td className="py-2">{t('cookies.ga.purpose')}</td>
+                  <td className="py-2">{t('cookies.ga.duration')}</td>
+                </tr>
+                <tr>
+                  <td className="py-2">{t('cookies.gid.name')}</td>
+                  <td className="py-2">{t('cookies.gid.purpose')}</td>
+                  <td className="py-2">{t('cookies.gid.duration')}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
           <p className="text-gray-700">
-            {t('cookies.noAnalytics')}
+            {t('cookies.analyticsInfo')}
           </p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-2xl font-bold text-gray-800 mb-4">{t('thirdParties.title')}</h2>
           <p className="text-gray-700 mb-4">
-            {t('thirdParties.noSharing')}
+            {t('thirdParties.intro')}
           </p>
-          <p className="text-gray-700">
-            {t('thirdParties.hosting')}{' '}
+          <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4 mb-4">
+            <li>{t('thirdParties.googleAnalytics')}</li>
+            <li>{t('thirdParties.vercelAnalytics')}</li>
+            <li>{t('thirdParties.hosting')}</li>
+          </ul>
+          <p className="text-gray-700 mb-4">
             <a href="https://vercel.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer" className="text-nav-blue hover:underline">
               {t('thirdParties.vercelLink')}
             </a>
+          </p>
+          <p className="text-gray-700 font-medium">
+            {t('thirdParties.noAds')}
           </p>
         </section>
 

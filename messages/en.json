@@ -121,10 +121,10 @@
   },
   "cookieBanner": {
     "title": "We use cookies",
-    "description": "We only use necessary cookies to remember your settings.",
+    "description": "We use necessary cookies for settings. \"Accept all\" also enables Google Analytics to improve the website.",
     "readMore": "Read more",
     "necessary": "Necessary only",
-    "accept": "Accept"
+    "accept": "Accept all"
   },
   "hero": {
     "headline": "Digital services made simple.",
@@ -5392,7 +5392,9 @@
     },
     "cookies": {
       "title": "Cookies",
-      "intro": "We only use necessary cookies that are stored locally in your browser:",
+      "intro": "We use the following cookies:",
+      "necessaryTitle": "Necessary cookies (always active)",
+      "analyticsTitle": "Analytics cookies (requires consent)",
       "tableHeaders": {
         "name": "Name",
         "purpose": "Purpose",
@@ -5413,13 +5415,26 @@
         "purpose": "Text size and contrast",
         "duration": "Permanent"
       },
-      "noAnalytics": "We do not use analytics cookies (like Google Analytics) or advertising cookies."
+      "ga": {
+        "name": "_ga",
+        "purpose": "Google Analytics - distinguishes users",
+        "duration": "2 years"
+      },
+      "gid": {
+        "name": "_gid",
+        "purpose": "Google Analytics - distinguishes users",
+        "duration": "24 hours"
+      },
+      "analyticsInfo": "Google Analytics is only used if you accept analytics cookies. We use IP anonymization, so your full IP address is never stored. We do not use advertising cookies."
     },
     "thirdParties": {
-      "title": "Sharing with third parties",
-      "noSharing": "We share no data with third parties. All information remains in your browser.",
-      "hosting": "The website is hosted by Vercel, which may log technical information (IP address, browser type) for security purposes.",
-      "vercelLink": "See Vercel's privacy policy for more information."
+      "title": "Third parties and analytics",
+      "intro": "We use the following third-party services:",
+      "googleAnalytics": "Google Analytics: If you accept analytics cookies, we use Google Analytics to understand how the website is used. Data is anonymized (IP masking) and only used to improve the service.",
+      "vercelAnalytics": "Vercel Analytics: We use Vercel's built-in analytics which is privacy-friendly and does not use cookies.",
+      "hosting": "Vercel Hosting: The website is hosted by Vercel, which may log technical information (IP address, browser type) for security purposes.",
+      "vercelLink": "See Vercel's privacy policy for more information.",
+      "noAds": "We never share data with advertising services."
     },
     "yourRights": {
       "title": "Your rights",

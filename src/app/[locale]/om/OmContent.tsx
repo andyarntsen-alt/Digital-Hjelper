@@ -3,6 +3,7 @@
 import { Link } from '@/i18n/navigation';
 import { useTranslations, useLocale } from 'next-intl';
 import { PersonSchema, OrganizationSchema } from '@/components/StructuredData';
+import FeedbackFormLight from '@/components/FeedbackFormLight';
 
 export default function OmContent() {
   const t = useTranslations('about');
@@ -194,6 +195,11 @@ export default function OmContent() {
                 </a>
               </li>
             </ul>
+          </div>
+
+          {/* Tilbakemeldingsskjema */}
+          <div className="mb-8">
+            <FeedbackFormLight />
           </div>
 
           {/* Sist oppdatert - E-E-A-T signal */}
