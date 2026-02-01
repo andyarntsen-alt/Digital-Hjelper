@@ -4656,8 +4656,16 @@
       "necessaryTitle": "Niezbędne pliki cookie",
       "analyticsTitle": "Analityczne pliki cookie",
       "analyticsInfo": "Pomagają nam zrozumieć, jak korzystasz z witryny, abyśmy mogli ją ulepszyć.",
-      "ga": "_ga (Google Analytics) - używany do rozróżniania użytkowników",
-      "gid": "_gid (Google Analytics) - używany do rozróżniania użytkowników"
+      "ga": {
+        "name": "_ga",
+        "purpose": "Google Analytics - rozróżnianie użytkowników",
+        "duration": "2 lata"
+      },
+      "gid": {
+        "name": "_gid",
+        "purpose": "Google Analytics - rozróżnianie użytkowników",
+        "duration": "24 godziny"
+      }
     },
     "thirdParties": {
       "title": "Udostępnianie danych stronom trzecim",

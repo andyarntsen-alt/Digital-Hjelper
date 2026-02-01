@@ -619,27 +619,27 @@
           "description": "Samee akoon email bilaash ah si aad u isticmaasho adeegyada Norweyjiyan"
         }
       }
+    },
+    "byer": {
+      "hubTitle": "Adeegyada dawladda magaaladaada",
+      "hubSubtitle": "Ka hel xafiisyada NAV ee degaankaaga, adeegyada caafimaadka iyo wax badan",
+      "introText": "Dooro magaaladaada si aad u hesho xafiisyada NAV, isbitaallada degdegga iyo adeegyada kale ee dawladda oo leh cinwaanno, saacadaha shaqada iyo macluumaadka xiriirka.",
+      "selectCity": "Dooro magaaladaada",
+      "inhabitants": "dadweyne",
+      "navOffices": "xafiis(yada) NAV",
+      "osloDesc": "Magaalada madaxda oo leh inta badan dadweyne. Halkan waxaad ka heli kartaa xafiis badan oo NAV, isbitaal degdeg iyo adeegyo kale oo dawladda.",
+      "bergenDesc": "Magaalada labaad ee weyn ee Norwey, oo ku taal Vestlandet. Adeegyo caafimaad iyo bulsheed oo wanaagsan.",
+      "trondheimDesc": "Xarunta Trondelag oo leh helitaan wanaagsan oo adeegyada dawladda iyo daryeelka caafimaadka.",
+      "stavangerDesc": "Magaalada ugu weyn ee Rogaland oo leh bixinta adeegyo dawladda oo casri.",
+      "kristiansandDesc": "Xarunta ugu weyn ee Sørlandet oo leh adeegyo dawladda buuxa.",
+      "didYouKnow": "Ma ogtahay?",
+      "didYouKnowText": "Waxaad u codsadaa wax badan oo nav.no lala isticmaali karaa bilaan ka xafiiska. Laakiin haddii aad u baahantahay caawin wajaha ku jira, halkan waxaad ka heli kartaa cinwaan ee xafiiska NAV oo kuu dhawayn.",
+      "seeAllNavGuides": "Arag dhammaan hagayaasha NAV",
+      "nationalServices": "Adeegyada dhijitaalka qaranka",
+      "nationalServicesText": "Adeegyadan waxay u shaqeeyaan si isku mid ah meel kasta oo aad ku nooshahay:",
+      "metaTitle": "Adeegyada dawladda magaaladaada - Xafiisyada NAV iyo adeegyada caafimaadka",
+      "metaDescription": "Ka hel xafiisyada NAV, isbitaallada degdegga, iyo adeegyada kale ee dawladda magaaladaada oo leh cinwaanno iyo saacadaha shaqada."
     }
-  },
-  "byer": {
-    "hubTitle": "Adeegyada dawladda magaaladaada",
-    "hubSubtitle": "Ka hel xafiisyada NAV ee degaankaaga, adeegyada caafimaadka iyo wax badan",
-    "introText": "Dooro magaaladaada si aad u hesho xafiisyada NAV, isbitaallada degdegga iyo adeegyada kale ee dawladda oo leh cinwaanno, saacadaha shaqada iyo macluumaadka xiriirka.",
-    "selectCity": "Dooro magaaladaada",
-    "inhabitants": "dadweyne",
-    "navOffices": "xafiis(yada) NAV",
-    "osloDesc": "Magaalada madaxda oo leh inta badan dadweyne. Halkan waxaad ka heli kartaa xafiis badan oo NAV, isbitaal degdeg iyo adeegyo kale oo dawladda.",
-    "bergenDesc": "Magaalada labaad ee weyn ee Norwey, oo ku taal Vestlandet. Adeegyo caafimaad iyo bulsheed oo wanaagsan.",
-    "trondheimDesc": "Xarunta Trondelag oo leh helitaan wanaagsan oo adeegyada dawladda iyo daryeelka caafimaadka.",
-    "stavangerDesc": "Magaalada ugu weyn ee Rogaland oo leh bixinta adeegyo dawladda oo casri.",
-    "kristiansandDesc": "Xarunta ugu weyn ee Sørlandet oo leh adeegyo dawladda buuxa.",
-    "didYouKnow": "Ma ogtahay?",
-    "didYouKnowText": "Waxaad u codsadaa wax badan oo nav.no lala isticmaali karaa bilaan ka xafiiska. Laakiin haddii aad u baahantahay caawin wajaha ku jira, halkan waxaad ka heli kartaa cinwaan ee xafiiska NAV oo kuu dhawayn.",
-    "seeAllNavGuides": "Arag dhammaan hagayaasha NAV",
-    "nationalServices": "Adeegyada dhijitaalka qaranka",
-    "nationalServicesText": "Adeegyadan waxay u shaqeeyaan si isku mid ah meel kasta oo aad ku nooshahay:",
-    "metaTitle": "Adeegyada dawladda magaaladaada - Xafiisyada NAV iyo adeegyada caafimaadka",
-    "metaDescription": "Ka hel xafiisyada NAV, isbitaallada degdegga, iyo adeegyada kale ee dawladda magaaladaada oo leh cinwaanno iyo saacadaha shaqada."
   },
   "guides": {
     "nav": {
@@ -4656,8 +4656,16 @@
       "necessaryTitle": "Cookies-ka lagama maarmaan",
       "analyticsTitle": "Cookies-ka falanqaynta",
       "analyticsInfo": "Waxay naga caawiyaan inaan fahano sida aad u isticmaasho websaytka si aan u hagaajino.",
-      "ga": "_ga (Google Analytics) - loo isticmaalo in lagu kala saaro isticmaalayaasha",
-      "gid": "_gid (Google Analytics) - loo isticmaalo in lagu kala saaro isticmaalayaasha"
+      "ga": {
+        "name": "_ga",
+        "purpose": "Google Analytics - kala ku tilmaamaan istikdaameyaasha",
+        "duration": "2 sanado"
+      },
+      "gid": {
+        "name": "_gid",
+        "purpose": "Google Analytics - kala ku tilmaamaan istikdaameyaasha",
+        "duration": "24 saac"
+      }
     },
     "thirdParties": {
       "title": "Wadaagista dhinacyada saddexaad",

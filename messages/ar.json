@@ -4656,8 +4656,16 @@
       "necessaryTitle": "ملفات تعريف الارتباط الضرورية",
       "analyticsTitle": "ملفات تعريف الارتباط التحليلية",
       "analyticsInfo": "تساعدنا على فهم كيفية استخدامك للموقع حتى نتمكن من تحسينه.",
-      "ga": "_ga (Google Analytics) - يُستخدم للتمييز بين المستخدمين",
-      "gid": "_gid (Google Analytics) - يُستخدم للتمييز بين المستخدمين"
+      "ga": {
+        "name": "_ga",
+        "purpose": "Google Analytics - تمييز المستخدمين",
+        "duration": "سنتان"
+      },
+      "gid": {
+        "name": "_gid",
+        "purpose": "Google Analytics - تمييز المستخدمين",
+        "duration": "24 ساعة"
+      }
     },
     "thirdParties": {
       "title": "المشاركة مع أطراف ثالثة",
