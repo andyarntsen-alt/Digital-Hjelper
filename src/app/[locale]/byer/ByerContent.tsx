@@ -6,7 +6,7 @@ import { BreadcrumbSchema, ArticleSchema } from '@/components/StructuredData';
 
 export default function ByerContent() {
   const locale = useLocale();
-  const t = useTranslations('services.byer');
+  const t = useTranslations('byer');
   const tCommon = useTranslations('common');
 
   const byer = [

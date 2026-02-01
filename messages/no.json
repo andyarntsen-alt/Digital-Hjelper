@@ -1,5 +1,6 @@
 {
   "common": {
+    "home": "Hjem",
     "back": "Tilbake",
     "backToHome": "Tilbake til forsiden",
     "search": "Søk",
@@ -139,7 +140,7 @@
   },
   "hero": {
     "headline": "Digitale tjenester gjort enkelt.",
-    "subheadline": "NAV, skatt, helse, bank og mer \u2013 vi hjelper deg med alt det digitale. Steg for steg, med klart spr\u00e5k.",
+    "subheadline": "NAV, skatt, helse, bank og mer – vi hjelper deg med alt det digitale. Steg for steg, med klart språk.",
     "badges": {
       "free": "Gratis",
       "simpleLanguage": "Enkelt språk",
@@ -182,13 +183,13 @@
     "ctaTitle": "Klar til å komme i gang?",
     "ctaSubtitle": "Velg tjenesten du trenger hjelp med, så guider vi deg gjennom prosessen.",
     "mostUsed": "Mest brukte tjenester",
-    "selectService": "Velg en tjeneste for \u00e5 komme i gang",
+    "selectService": "Velg en tjeneste for å komme i gang",
     "mostUsedDesc": "Start her hvis du er usikker. Dette er tjenestene flest trenger hjelp med.",
     "otherServices": "Andre tjenester",
     "seeAllServices": "Se alle tjenester",
     "forHelpersTitle": "For hjelpere",
-    "forHelpersHeadline": "Gj\u00f8r det enkelt \u00e5 hjelpe andre",
-    "forHelpersDesc": "Hjelper du noen med digitale tjenester? Her er noen tips som gj\u00f8r det enklere.",
+    "forHelpersHeadline": "Gjør det enkelt å hjelpe andre",
+    "forHelpersDesc": "Hjelper du noen med digitale tjenester? Her er noen tips som gjør det enklere.",
     "helperTip1Title": "Skriv ut guidene",
     "helperTip1Desc": "Alle våre guider kan skrives ut. Trykk på skriv ut-knappen øverst i guiden.",
     "helperTip2Title": "Søk etter det du trenger",
@@ -1649,43 +1650,91 @@
           {
             "category": "Jobb og reise",
             "items": [
-              { "name": "Reise til jobb", "description": "Hvis du har mer enn 37 km én vei til jobb, kan du få fradrag", "amount": "Ca. 1,83 kr per km over 37 km (2025)" },
-              { "name": "Fagforeningskontingent", "description": "Medlemskap i fagforening gir automatisk fradrag", "amount": "Opp til 8 250 kr (2025)" },
-              { "name": "Hjemmekontor", "description": "Hvis du jobber hjemmefra fast, kan du få fradrag", "amount": "Ca. 2 050 kr per år (standardfradrag)" },
-              { "name": "Verktøy og utstyr", "description": "Utstyr du må ha til jobben som arbeidsgiver ikke dekker", "amount": "Faktiske utgifter" }
+              {
+                "name": "Reise til jobb",
+                "description": "Hvis du har mer enn 37 km én vei til jobb, kan du få fradrag",
+                "amount": "Ca. 1,83 kr per km over 37 km (2025)"
+              },
+              {
+                "name": "Fagforeningskontingent",
+                "description": "Medlemskap i fagforening gir automatisk fradrag",
+                "amount": "Opp til 8 250 kr (2025)"
+              },
+              {
+                "name": "Hjemmekontor",
+                "description": "Hvis du jobber hjemmefra fast, kan du få fradrag",
+                "amount": "Ca. 2 050 kr per år (standardfradrag)"
+              },
+              {
+                "name": "Verktøy og utstyr",
+                "description": "Utstyr du må ha til jobben som arbeidsgiver ikke dekker",
+                "amount": "Faktiske utgifter"
+              }
             ]
           },
           {
             "category": "Bolig og lån",
             "items": [
-              { "name": "Renteutgifter", "description": "Renter på boliglån, billån, studielån osv.", "amount": "Alle renter du har betalt" },
-              { "name": "BSU (Boligsparing for ungdom)", "description": "Sparing til bolig for de under 34 år", "amount": "20% av innskudd, maks 5 500 kr" },
-              { "name": "Vedlikehold av utleiebolig", "description": "Utgifter til vedlikehold hvis du leier ut", "amount": "Faktiske utgifter" }
+              {
+                "name": "Renteutgifter",
+                "description": "Renter på boliglån, billån, studielån osv.",
+                "amount": "Alle renter du har betalt"
+              },
+              {
+                "name": "BSU (Boligsparing for ungdom)",
+                "description": "Sparing til bolig for de under 34 år",
+                "amount": "20% av innskudd, maks 5 500 kr"
+              },
+              {
+                "name": "Vedlikehold av utleiebolig",
+                "description": "Utgifter til vedlikehold hvis du leier ut",
+                "amount": "Faktiske utgifter"
+              }
             ]
           },
           {
             "category": "Gaver og donasjoner",
             "items": [
-              { "name": "Gaver til frivillige organisasjoner", "description": "Gaver til godkjente organisasjoner (Røde Kors, Leger Uten Grenser osv.)", "amount": "500-25 000 kr per år" }
+              {
+                "name": "Gaver til frivillige organisasjoner",
+                "description": "Gaver til godkjente organisasjoner (Røde Kors, Leger Uten Grenser osv.)",
+                "amount": "500-25 000 kr per år"
+              }
             ]
           },
           {
             "category": "Familie",
             "items": [
-              { "name": "Foreldrefradrag", "description": "Utgifter til barnehage, SFO, dagmamma", "amount": "Opp til 25 000 kr for ett barn, +15 000 per barn til" },
-              { "name": "Særfradrag for enslig forsørger", "description": "Hvis du bor alene med barn", "amount": "Automatisk hvis du kvalifiserer" }
+              {
+                "name": "Foreldrefradrag",
+                "description": "Utgifter til barnehage, SFO, dagmamma",
+                "amount": "Opp til 25 000 kr for ett barn, +15 000 per barn til"
+              },
+              {
+                "name": "Særfradrag for enslig forsørger",
+                "description": "Hvis du bor alene med barn",
+                "amount": "Automatisk hvis du kvalifiserer"
+              }
             ]
           },
           {
             "category": "Helse",
             "items": [
-              { "name": "Særfradrag for store sykdomsutgifter", "description": "Utgifter over 9 180 kr til sykdom som ikke dekkes", "amount": "Utgifter over grensen" }
+              {
+                "name": "Særfradrag for store sykdomsutgifter",
+                "description": "Utgifter over 9 180 kr til sykdom som ikke dekkes",
+                "amount": "Utgifter over grensen"
+              }
             ]
           },
           {
             "category": "Utdanning",
             "items": [
-              { "name": "Renter på studielån", "description": "Renter du betaler på studielånet", "amount": "Alle renter (fylles ofte ut automatisk)" }
+              {
+                "name": "Renter på studielån",
+                "description": "Renter du betaler på studielånet",
+                "amount": "Alle renter (fylles ofte ut automatisk)"
+              }
             ]
           }
         ],
@@ -1732,8 +1781,14 @@
         "whatIsTitle": "Hva er et skattekort?",
         "whatIsText": "Skattekortet forteller arbeidsgiveren din hvor mye skatt som skal trekkes fra lønnen din. Det er basert på forventet inntekt og fradrag.",
         "cardTypes": [
-          {"type": "Tabellnummer", "desc": "Brukes for fast månedlig trekk. Vanligst for lønnsmottakere."},
-          {"type": "Prosentkort", "desc": "Fast prosent trekkes uansett beløp. Vanlig for bijobber."}
+          {
+            "type": "Tabellnummer",
+            "desc": "Brukes for fast månedlig trekk. Vanligst for lønnsmottakere."
+          },
+          {
+            "type": "Prosentkort",
+            "desc": "Fast prosent trekkes uansett beløp. Vanlig for bijobber."
+          }
         ],
         "whenToChangeTitle": "Når bør du endre skattekort?",
         "whenToChangeList": [
@@ -1800,9 +1855,18 @@
         "difficulty": "Enkel",
         "whenTitle": "Når kommer skatteoppgjøret?",
         "whenList": [
-          {"label": "Leverte i mars", "text": "Skatteoppgjør i juni"},
-          {"label": "Leverte i april", "text": "Skatteoppgjør i august"},
-          {"label": "Leverte senere", "text": "Skatteoppgjør i oktober-november"}
+          {
+            "label": "Leverte i mars",
+            "text": "Skatteoppgjør i juni"
+          },
+          {
+            "label": "Leverte i april",
+            "text": "Skatteoppgjør i august"
+          },
+          {
+            "label": "Leverte senere",
+            "text": "Skatteoppgjør i oktober-november"
+          }
         ],
         "whenNote": "Du får SMS eller e-post når skatteoppgjøret er klart.",
         "stepsTitle": "Slik finner du skatteoppgjøret",
@@ -1849,15 +1913,33 @@
         "additionalTaxTitle": "Restskatt?",
         "additionalTaxText": "Hvis du har restskatt, må du betale innen forfallsdatoen for å unngå renter.",
         "additionalTaxList": [
-          {"label": "Under 1000 kr", "text": "Betales i én termin"},
-          {"label": "Over 1000 kr", "text": "Deles i to terminer (vanligvis august og oktober)"},
-          {"label": "", "text": "Du kan betale med nettbank - bruk KID-nummeret fra skatteoppgjøret"}
+          {
+            "label": "Under 1000 kr",
+            "text": "Betales i én termin"
+          },
+          {
+            "label": "Over 1000 kr",
+            "text": "Deles i to terminer (vanligvis august og oktober)"
+          },
+          {
+            "label": "",
+            "text": "Du kan betale med nettbank - bruk KID-nummeret fra skatteoppgjøret"
+          }
         ],
         "faqTitle": "Vanlige spørsmål",
         "faq": [
-          {"q": "Jeg tror skatteoppgjøret er feil", "a": "Du kan klage på skatteoppgjøret innen 6 uker. Gå til \"Klage på skatteoppgjøret\" på skatteetaten.no."},
-          {"q": "Kan jeg endre kontonummer for utbetaling?", "a": "Ja, logg inn på skatteetaten.no og oppdater kontonummeret ditt under \"Min profil\"."},
-          {"q": "Jeg har ikke råd til å betale restskatten", "a": "Du kan søke om betalingsavtale hos Skatteetaten. Kontakt dem så snart som mulig."}
+          {
+            "q": "Jeg tror skatteoppgjøret er feil",
+            "a": "Du kan klage på skatteoppgjøret innen 6 uker. Gå til \"Klage på skatteoppgjøret\" på skatteetaten.no."
+          },
+          {
+            "q": "Kan jeg endre kontonummer for utbetaling?",
+            "a": "Ja, logg inn på skatteetaten.no og oppdater kontonummeret ditt under \"Min profil\"."
+          },
+          {
+            "q": "Jeg har ikke råd til å betale restskatten",
+            "a": "Du kan søke om betalingsavtale hos Skatteetaten. Kontakt dem så snart som mulig."
+          }
         ]
       },
       "skatteattest": {
@@ -1911,15 +1993,33 @@
         ],
         "importantTitle": "Viktig å vite",
         "importantList": [
-          {"label": "Gyldighetstid", "text": "Skatteattesten er gyldig i 6 måneder fra utstedelsesdato"},
-          {"label": "Gratis", "text": "Det koster ingenting å bestille skatteattest"},
-          {"label": "Skyldig skatt", "text": "Hvis du skylder skatt, får du ikke utstedt skatteattest før gjelden er betalt"}
+          {
+            "label": "Gyldighetstid",
+            "text": "Skatteattesten er gyldig i 6 måneder fra utstedelsesdato"
+          },
+          {
+            "label": "Gratis",
+            "text": "Det koster ingenting å bestille skatteattest"
+          },
+          {
+            "label": "Skyldig skatt",
+            "text": "Hvis du skylder skatt, får du ikke utstedt skatteattest før gjelden er betalt"
+          }
         ],
         "faqTitle": "Vanlige spørsmål",
         "faq": [
-          {"q": "Jeg får ikke skatteattest fordi jeg skylder skatt", "a": "Du må betale skattegjelden først. Logg inn på skatteetaten.no for å se hva du skylder og betale."},
-          {"q": "Kan jeg bestille skatteattest for min bedrift?", "a": "Ja, men du må ha rettigheter i Altinn for bedriften. Logg inn med BankID og velg bedriften din."},
-          {"q": "Hvordan sender jeg skatteattesten til noen?", "a": "Last ned PDF-filen og send den som vedlegg i e-post, eller skriv den ut og lever fysisk."}
+          {
+            "q": "Jeg får ikke skatteattest fordi jeg skylder skatt",
+            "a": "Du må betale skattegjelden først. Logg inn på skatteetaten.no for å se hva du skylder og betale."
+          },
+          {
+            "q": "Kan jeg bestille skatteattest for min bedrift?",
+            "a": "Ja, men du må ha rettigheter i Altinn for bedriften. Logg inn med BankID og velg bedriften din."
+          },
+          {
+            "q": "Hvordan sender jeg skatteattesten til noen?",
+            "a": "Last ned PDF-filen og send den som vedlegg i e-post, eller skriv den ut og lever fysisk."
+          }
         ]
       },
       "loggInn": {
@@ -2050,10 +2150,22 @@
         ],
         "faqTitle": "Hva gjør jeg hvis...",
         "faq": [
-          {"q": "...det ikke er ledige timer?", "a": "Ring legekontoret direkte. De kan ofte finne løsninger for akutte behov."},
-          {"q": "...fastlegen min ikke har nettbestilling?", "a": "Noen legekontor har ikke aktivert nettbestilling. Da må du ringe for å bestille time."},
-          {"q": "...jeg må avbestille timen?", "a": "Logg inn på Helsenorge, gå til \"Mine timeavtaler\" og klikk \"Avbestill\". Gjør dette minst 24 timer før timen."},
-          {"q": "...jeg er akutt syk?", "a": "Ring legekontoret eller legevakten på 116 117. Bruk ikke nettbestilling ved akutt sykdom."}
+          {
+            "q": "...det ikke er ledige timer?",
+            "a": "Ring legekontoret direkte. De kan ofte finne løsninger for akutte behov."
+          },
+          {
+            "q": "...fastlegen min ikke har nettbestilling?",
+            "a": "Noen legekontor har ikke aktivert nettbestilling. Da må du ringe for å bestille time."
+          },
+          {
+            "q": "...jeg må avbestille timen?",
+            "a": "Logg inn på Helsenorge, gå til \"Mine timeavtaler\" og klikk \"Avbestill\". Gjør dette minst 24 timer før timen."
+          },
+          {
+            "q": "...jeg er akutt syk?",
+            "a": "Ring legekontoret eller legevakten på 116 117. Bruk ikke nettbestilling ved akutt sykdom."
+          }
         ]
       },
       "resepter": {
@@ -2104,25 +2216,67 @@
         ],
         "whatYouFindTitle": "Hva finner du på \"Mine resepter\"?",
         "whatYouFind": [
-          {"label": "Medisinens navn", "desc": "Virkestoff og eventuelt merkenavn"},
-          {"label": "Styrke og form", "desc": "F.eks. \"10 mg tabletter\""},
-          {"label": "Dosering", "desc": "Hvor mye og når du skal ta medisinen"},
-          {"label": "Uttak igjen", "desc": "Hvor mange ganger du kan hente ut"},
-          {"label": "Utløpsdato", "desc": "Når resepten må fornyes"},
-          {"label": "Forskriver", "desc": "Hvilken lege som skrev resepten"}
+          {
+            "label": "Medisinens navn",
+            "desc": "Virkestoff og eventuelt merkenavn"
+          },
+          {
+            "label": "Styrke og form",
+            "desc": "F.eks. \"10 mg tabletter\""
+          },
+          {
+            "label": "Dosering",
+            "desc": "Hvor mye og når du skal ta medisinen"
+          },
+          {
+            "label": "Uttak igjen",
+            "desc": "Hvor mange ganger du kan hente ut"
+          },
+          {
+            "label": "Utløpsdato",
+            "desc": "Når resepten må fornyes"
+          },
+          {
+            "label": "Forskriver",
+            "desc": "Hvilken lege som skrev resepten"
+          }
         ],
         "prescriptionTypesTitle": "Ulike typer resepter",
         "prescriptionTypes": [
-          {"type": "Hvit resept (vanlig)", "desc": "De fleste medisiner. Du betaler full pris eller egenandel.", "color": "blue"},
-          {"type": "Blå resept", "desc": "For kroniske sykdommer. Staten dekker det meste, du betaler liten egenandel.", "color": "green"},
-          {"type": "H-resept", "desc": "Spesielle medisiner som kun brukes på sykehus eller poliklinikk.", "color": "purple"}
+          {
+            "type": "Hvit resept (vanlig)",
+            "desc": "De fleste medisiner. Du betaler full pris eller egenandel.",
+            "color": "blue"
+          },
+          {
+            "type": "Blå resept",
+            "desc": "For kroniske sykdommer. Staten dekker det meste, du betaler liten egenandel.",
+            "color": "green"
+          },
+          {
+            "type": "H-resept",
+            "desc": "Spesielle medisiner som kun brukes på sykehus eller poliklinikk.",
+            "color": "purple"
+          }
         ],
         "faqTitle": "Vanlige spørsmål",
         "faq": [
-          {"q": "Kan alle resepter fornyes uten legetime?", "a": "Nei, noen medisiner (som sterke smertestillende eller sovemedisin) krever ny vurdering. Da må du bestille time."},
-          {"q": "Hvor lang tid tar fornyelse?", "a": "Vanligvis 1-3 virkedager, men det kan variere. Be om fornyelse i god tid før medisinen går tom!"},
-          {"q": "Kan jeg hente medisinen på et annet apotek?", "a": "Ja! Reseptene dine ligger elektronisk og kan hentes på hvilket som helst apotek i Norge."},
-          {"q": "Hva gjør jeg hvis resepten er utgått?", "a": "Kontakt legen din for å få en ny resept. Bruk Helsenorge eller ring legekontoret."}
+          {
+            "q": "Kan alle resepter fornyes uten legetime?",
+            "a": "Nei, noen medisiner (som sterke smertestillende eller sovemedisin) krever ny vurdering. Da må du bestille time."
+          },
+          {
+            "q": "Hvor lang tid tar fornyelse?",
+            "a": "Vanligvis 1-3 virkedager, men det kan variere. Be om fornyelse i god tid før medisinen går tom!"
+          },
+          {
+            "q": "Kan jeg hente medisinen på et annet apotek?",
+            "a": "Ja! Reseptene dine ligger elektronisk og kan hentes på hvilket som helst apotek i Norge."
+          },
+          {
+            "q": "Hva gjør jeg hvis resepten er utgått?",
+            "a": "Kontakt legen din for å få en ny resept. Bruk Helsenorge eller ring legekontoret."
+          }
         ],
         "tipBoxTitle": "Tips: Bruk legemiddelsøk!",
         "tipBoxText": "På felleskatalogen.no kan du søke opp medisinen din og lese om bivirkninger, dosering og hva du bør vite."
@@ -2175,9 +2329,18 @@
         "noSpaceText": "Hvis legen du ønsker er full, kan du sette deg på venteliste. Du får beskjed når det blir ledig plass. Du kan også prøve å ringe legekontoret - noen ganger har de plass som ikke vises på nett.",
         "faqTitle": "Vanlige spørsmål",
         "faq": [
-          {"q": "Hva om jeg ikke finner en lege med ledig plass?", "a": "Du kan sette deg på venteliste hos leger som er fulle. Kommunen må sikre at du har en fastlege."},
-          {"q": "Kan jeg gå til gammel lege mens jeg venter?", "a": "Ja, du kan fortsatt bruke din nåværende fastlege frem til byttet trer i kraft."},
-          {"q": "Hva skjer med journalen min?", "a": "Den nye fastlegen får tilgang til journalen din automatisk. Du trenger ikke gjøre noe."}
+          {
+            "q": "Hva om jeg ikke finner en lege med ledig plass?",
+            "a": "Du kan sette deg på venteliste hos leger som er fulle. Kommunen må sikre at du har en fastlege."
+          },
+          {
+            "q": "Kan jeg gå til gammel lege mens jeg venter?",
+            "a": "Ja, du kan fortsatt bruke din nåværende fastlege frem til byttet trer i kraft."
+          },
+          {
+            "q": "Hva skjer med journalen min?",
+            "a": "Den nye fastlegen får tilgang til journalen din automatisk. Du trenger ikke gjøre noe."
+          }
         ]
       },
       "journal": {
@@ -2228,9 +2391,18 @@
         ],
         "faqTitle": "Vanlige spørsmål",
         "faq": [
-          {"q": "Jeg forstår ikke det som står i journalen", "a": "Journaler er skrevet av helsepersonell og kan inneholde medisinske ord. Spør legen din om å forklare."},
-          {"q": "Noe er feil i journalen min", "a": "Du kan be om retting av feil. Kontakt legekontoret eller sykehuset som har skrevet feil."},
-          {"q": "Jeg finner ikke journal fra sykehuset", "a": "Ikke alle sykehus har koblet seg til Helsenorge ennå. Kontakt sykehuset direkte for å få kopi av journalen."}
+          {
+            "q": "Jeg forstår ikke det som står i journalen",
+            "a": "Journaler er skrevet av helsepersonell og kan inneholde medisinske ord. Spør legen din om å forklare."
+          },
+          {
+            "q": "Noe er feil i journalen min",
+            "a": "Du kan be om retting av feil. Kontakt legekontoret eller sykehuset som har skrevet feil."
+          },
+          {
+            "q": "Jeg finner ikke journal fra sykehuset",
+            "a": "Ikke alle sykehus har koblet seg til Helsenorge ennå. Kontakt sykehuset direkte for å få kopi av journalen."
+          }
         ]
       },
       "melding": {
@@ -2287,9 +2459,18 @@
         ],
         "faqTitle": "Vanlige spørsmål",
         "faq": [
-          {"q": "Hvor lang tid tar det å få svar?", "a": "Vanligvis 1-3 virkedager. Ved ferieavvikling kan det ta lenger tid."},
-          {"q": "Er meldingene mine trygge?", "a": "Ja, alt på Helsenorge er kryptert og sikkert. Bare du og legekontoret kan lese meldingene."},
-          {"q": "Kan jeg legge ved bilder?", "a": "Ja, mange legekontor lar deg legge ved bilder. Dette kan være nyttig for å vise utslett eller sår."}
+          {
+            "q": "Hvor lang tid tar det å få svar?",
+            "a": "Vanligvis 1-3 virkedager. Ved ferieavvikling kan det ta lenger tid."
+          },
+          {
+            "q": "Er meldingene mine trygge?",
+            "a": "Ja, alt på Helsenorge er kryptert og sikkert. Bare du og legekontoret kan lese meldingene."
+          },
+          {
+            "q": "Kan jeg legge ved bilder?",
+            "a": "Ja, mange legekontor lar deg legge ved bilder. Dette kan være nyttig for å vise utslett eller sår."
+          }
         ]
       },
       "loggInn": {
@@ -2518,13 +2699,34 @@
         "checklistTitle": "Er dette ekte? - Sjekkliste",
         "checklistIntro": "Har du fått en telefon, SMS eller e-post du er usikker på? Svar på spørsmålene under:",
         "checklistItems": [
-          {"question": "Kontaktet de DEG først?", "warning": "Ekte banker og myndigheter kontakter deg sjelden uoppfordret."},
-          {"question": "Ber de om passord, BankID eller personnummer?", "warning": "ALDRI gi ut dette - ekte avsendere ber aldri om det!"},
-          {"question": "Haster det veldig?", "warning": "Svindlere skaper alltid hastverk. Ekte saker kan vente til i morgen."},
-          {"question": "Må du betale for å motta noe?", "warning": "Ekte premier og arv krever aldri at du betaler først."},
-          {"question": "Virker det for godt til å være sant?", "warning": "Da er det nesten alltid for godt til å være sant."},
-          {"question": "Skal du holde det hemmelig?", "warning": "Svindlere vil ikke at du snakker med andre som kan avsløre dem."},
-          {"question": "Vil de ha kontanter eller gavekort?", "warning": "Ekte selskaper tar aldri betaling i gavekort."}
+          {
+            "question": "Kontaktet de DEG først?",
+            "warning": "Ekte banker og myndigheter kontakter deg sjelden uoppfordret."
+          },
+          {
+            "question": "Ber de om passord, BankID eller personnummer?",
+            "warning": "ALDRI gi ut dette - ekte avsendere ber aldri om det!"
+          },
+          {
+            "question": "Haster det veldig?",
+            "warning": "Svindlere skaper alltid hastverk. Ekte saker kan vente til i morgen."
+          },
+          {
+            "question": "Må du betale for å motta noe?",
+            "warning": "Ekte premier og arv krever aldri at du betaler først."
+          },
+          {
+            "question": "Virker det for godt til å være sant?",
+            "warning": "Da er det nesten alltid for godt til å være sant."
+          },
+          {
+            "question": "Skal du holde det hemmelig?",
+            "warning": "Svindlere vil ikke at du snakker med andre som kan avsløre dem."
+          },
+          {
+            "question": "Vil de ha kontanter eller gavekort?",
+            "warning": "Ekte selskaper tar aldri betaling i gavekort."
+          }
         ],
         "checklistResultSafe": "Ser trygt ut, men vær alltid på vakt!",
         "checklistResultCaution": "Vær forsiktig! {count} varseltegn. Snakk med noen du stoler på før du gjør noe.",
@@ -2537,7 +2739,12 @@
             "title": "Oldebarnssvindel (Barnebarnsvindel)",
             "description": "Noen ringer og later som de er barnebarnet ditt. De sier de er i trøbbel og trenger penger raskt - ofte til advokat, kausjon eller sykehusregning.",
             "howItWorks": "Svindleren ringer og sier \"Hei bestemor/bestefar, det er meg!\" og håper du sier navnet på barnebarnet ditt. Da later de som de er den personen.",
-            "redFlags": ["De ber deg IKKE fortelle foreldrene deres", "De trenger pengene VELDIG fort", "De vil ha kontanter eller gavekort", "Stemmen høres \"annerledes\" ut - de sier de er forkjølet"],
+            "redFlags": [
+              "De ber deg IKKE fortelle foreldrene deres",
+              "De trenger pengene VELDIG fort",
+              "De vil ha kontanter eller gavekort",
+              "Stemmen høres \"annerledes\" ut - de sier de er forkjølet"
+            ],
             "whatToDo": "Legg på og ring barnebarnet ditt på nummeret du har lagret. Spør om noe bare dere to vet.",
             "icon": "grandparent"
           },
@@ -2545,7 +2752,12 @@
             "title": "Microsoft/Apple-svindel",
             "description": "Noen ringer og sier de er fra Microsoft, Apple eller \"datasupport\". De påstår at datamaskinen din har virus og at de må hjelpe deg fjerne det.",
             "howItWorks": "De får deg til å installere et program som gir dem kontroll over datamaskinen din. Så \"finner\" de problemer og krever betaling.",
-            "redFlags": ["Microsoft og Apple ringer ALDRI uoppfordret", "De ber om fjerntilgang til datamaskinen", "De vil ha betaling i gavekort eller kryptovaluta", "De truer med at datamaskinen vil slutte å virke"],
+            "redFlags": [
+              "Microsoft og Apple ringer ALDRI uoppfordret",
+              "De ber om fjerntilgang til datamaskinen",
+              "De vil ha betaling i gavekort eller kryptovaluta",
+              "De truer med at datamaskinen vil slutte å virke"
+            ],
             "whatToDo": "Legg på med en gang. Ekte teknisk support ringer aldri deg først.",
             "icon": "computer"
           },
@@ -2553,7 +2765,12 @@
             "title": "Romantikksvindel",
             "description": "Noen du har møtt på nettet (ofte på Facebook eller datingsider) sier de er forelsket i deg. Etter hvert ber de om penger.",
             "howItWorks": "De bygger opp et forhold over uker eller måneder. Så oppstår det en \"krise\" - de trenger penger til flybillett, medisinsk behandling eller toll.",
-            "redFlags": ["De kan aldri møtes ansikt til ansikt", "De erklærer kjærlighet veldig raskt", "De har alltid unnskyldninger for å ikke ringe med video", "De ber om penger - uansett grunn"],
+            "redFlags": [
+              "De kan aldri møtes ansikt til ansikt",
+              "De erklærer kjærlighet veldig raskt",
+              "De har alltid unnskyldninger for å ikke ringe med video",
+              "De ber om penger - uansett grunn"
+            ],
             "whatToDo": "Aldri send penger til noen du bare kjenner fra nettet. Snakk med familie eller venner om forholdet.",
             "icon": "heart"
           },
@@ -2561,7 +2778,12 @@
             "title": "Lotterisvindel",
             "description": "Du får beskjed om at du har vunnet i et lotteri du aldri har deltatt i. Men du må betale \"gebyr\" eller \"skatt\" for å få gevinsten.",
             "howItWorks": "De sender e-post eller ringer med \"gode nyheter\". For å få milliongevinsten må du bare betale et lite beløp først.",
-            "redFlags": ["Du har ikke kjøpt lodd eller deltatt i konkurransen", "Du må betale for å motta gevinsten", "De ber om bankinformasjon for å \"overføre gevinsten\"", "Gevinsten er i utenlandsk valuta"],
+            "redFlags": [
+              "Du har ikke kjøpt lodd eller deltatt i konkurransen",
+              "Du må betale for å motta gevinsten",
+              "De ber om bankinformasjon for å \"overføre gevinsten\"",
+              "Gevinsten er i utenlandsk valuta"
+            ],
             "whatToDo": "Ignorer det. Du kan ikke vinne i lotterier du ikke har deltatt i.",
             "icon": "gift"
           },
@@ -2569,7 +2791,12 @@
             "title": "Investeringssvindel",
             "description": "Noen lover deg fantastisk avkastning på investeringer i aksjer, kryptovaluta eller andre \"muligheter\".",
             "howItWorks": "De kontakter deg med en \"unik mulighet\". Ofte viser de falske nettsider som ser ut som investeringene dine vokser.",
-            "redFlags": ["Avkastningen er for god til å være sann (20-50% eller mer)", "De presser deg til å investere raskt", "Du har aldri hørt om selskapet før", "De ringer fra utlandet eller har utenlandsk aksent"],
+            "redFlags": [
+              "Avkastningen er for god til å være sann (20-50% eller mer)",
+              "De presser deg til å investere raskt",
+              "Du har aldri hørt om selskapet før",
+              "De ringer fra utlandet eller har utenlandsk aksent"
+            ],
             "whatToDo": "Snakk med banken din før du investerer. Sjekk Finanstilsynets liste over advarsler.",
             "icon": "chart"
           },
@@ -2577,42 +2804,124 @@
             "title": "Håndverkersvindel",
             "description": "Noen banker på døren og tilbyr å fikse taket, oppkjørselen eller noe annet \"de tilfeldigvis så trengte reparasjon\".",
             "howItWorks": "De gjør en dårlig eller unødvendig jobb og krever høy betaling kontant. Noen ganger forsvinner de med forskuddsbetalingen.",
-            "redFlags": ["De \"tilfeldigvis\" var i nabolaget", "De vil ha betaling på forskudd eller kontant", "De har ikke skriftlig tilbud eller kontrakt", "De presser deg til å bestemme deg med en gang"],
+            "redFlags": [
+              "De \"tilfeldigvis\" var i nabolaget",
+              "De vil ha betaling på forskudd eller kontant",
+              "De har ikke skriftlig tilbud eller kontrakt",
+              "De presser deg til å bestemme deg med en gang"
+            ],
             "whatToDo": "Si nei til uoppfordrede tilbud. Bruk håndverkere du kjenner eller som er anbefalt av noen du stoler på.",
             "icon": "wrench"
           }
         ],
         "otherScamTitle": "Andre vanlige svindeltyper",
         "otherScamTypes": [
-          {"title": "Telefonsvindel", "description": "Noen ringer og utgir seg for å være fra banken, politiet eller Microsoft. De vil ha tilgang til kontoen din."},
-          {"title": "SMS-svindel", "description": "\"Din pakke venter\" eller \"Du har vunnet!\" - meldinger med lenker som leder til falske nettsider."},
-          {"title": "E-postsvindel (phishing)", "description": "E-poster som ser ut som de kommer fra banken eller andre du stoler på, men som vil lure deg."}
+          {
+            "title": "Telefonsvindel",
+            "description": "Noen ringer og utgir seg for å være fra banken, politiet eller Microsoft. De vil ha tilgang til kontoen din."
+          },
+          {
+            "title": "SMS-svindel",
+            "description": "\"Din pakke venter\" eller \"Du har vunnet!\" - meldinger med lenker som leder til falske nettsider."
+          },
+          {
+            "title": "E-postsvindel (phishing)",
+            "description": "E-poster som ser ut som de kommer fra banken eller andre du stoler på, men som vil lure deg."
+          }
         ],
         "stepsTitle": "Slik beskytter du deg mot svindel",
         "steps": [
-          {"title": "Stopp opp og tenk", "description": "Svindlere prøver å stresse deg til å handle raskt. Ta deg tid. Ekte banker og myndigheter gir deg alltid tid til å tenke.", "tip": "Hvis noen sier \"dette haster!\" eller \"du må handle NÅ!\", er det nesten alltid svindel."},
-          {"title": "Sjekk hvem som kontakter deg", "description": "Se nøye på hvem som ringer eller sender meldingen. Svindlere kan forfalske telefonnumre og e-postadresser, men det er ofte små feil.", "warning": "Banken din vil ALDRI ringe og be om passord, BankID-kode eller personnummer!"},
-          {"title": "Se etter skrivefeil", "description": "Ekte meldinger fra banker og myndigheter er alltid skrevet med korrekt norsk. Svindelmeldinger har ofte skrivefeil, rare formuleringer eller dårlig grammatikk.", "tip": "Les meldingen høyt. Høres det rart ut? Da er det trolig svindel."},
-          {"title": "Ikke klikk på lenker i meldinger", "description": "Svindlere sender ofte lenker som ser ekte ut, men som leder til falske nettsider. Gå heller direkte til bankens nettside ved å skrive adressen selv.", "warning": "Aldri logg inn via lenker i e-post eller SMS. Skriv alltid adressen selv i nettleseren."},
-          {"title": "Del aldri personlig informasjon", "description": "Passord, BankID-koder, personnummer og kortinformasjon skal du ALDRI dele med noen som kontakter deg. Ekte selskaper ber aldri om dette."},
-          {"title": "Ring tilbake på offisielt nummer", "description": "Hvis noen ringer og sier de er fra banken, legg på og ring bankens offisielle nummer. Finn nummeret på bankens nettside eller på baksiden av bankkortet.", "tip": "Ikke ring tilbake på nummeret som ringte deg - det kan også være forfalsket."},
-          {"title": "Snakk med noen du stoler på", "description": "Er du usikker? Snakk med familie, venner eller banken din før du gjør noe. Det er bedre å spørre én gang for mye enn å bli lurt."}
+          {
+            "title": "Stopp opp og tenk",
+            "description": "Svindlere prøver å stresse deg til å handle raskt. Ta deg tid. Ekte banker og myndigheter gir deg alltid tid til å tenke.",
+            "tip": "Hvis noen sier \"dette haster!\" eller \"du må handle NÅ!\", er det nesten alltid svindel."
+          },
+          {
+            "title": "Sjekk hvem som kontakter deg",
+            "description": "Se nøye på hvem som ringer eller sender meldingen. Svindlere kan forfalske telefonnumre og e-postadresser, men det er ofte små feil.",
+            "warning": "Banken din vil ALDRI ringe og be om passord, BankID-kode eller personnummer!"
+          },
+          {
+            "title": "Se etter skrivefeil",
+            "description": "Ekte meldinger fra banker og myndigheter er alltid skrevet med korrekt norsk. Svindelmeldinger har ofte skrivefeil, rare formuleringer eller dårlig grammatikk.",
+            "tip": "Les meldingen høyt. Høres det rart ut? Da er det trolig svindel."
+          },
+          {
+            "title": "Ikke klikk på lenker i meldinger",
+            "description": "Svindlere sender ofte lenker som ser ekte ut, men som leder til falske nettsider. Gå heller direkte til bankens nettside ved å skrive adressen selv.",
+            "warning": "Aldri logg inn via lenker i e-post eller SMS. Skriv alltid adressen selv i nettleseren."
+          },
+          {
+            "title": "Del aldri personlig informasjon",
+            "description": "Passord, BankID-koder, personnummer og kortinformasjon skal du ALDRI dele med noen som kontakter deg. Ekte selskaper ber aldri om dette."
+          },
+          {
+            "title": "Ring tilbake på offisielt nummer",
+            "description": "Hvis noen ringer og sier de er fra banken, legg på og ring bankens offisielle nummer. Finn nummeret på bankens nettside eller på baksiden av bankkortet.",
+            "tip": "Ikke ring tilbake på nummeret som ringte deg - det kan også være forfalsket."
+          },
+          {
+            "title": "Snakk med noen du stoler på",
+            "description": "Er du usikker? Snakk med familie, venner eller banken din før du gjør noe. Det er bedre å spørre én gang for mye enn å bli lurt."
+          }
         ],
         "neverAskTitle": "Husk: Ekte avsendere vil ALDRI be deg om...",
-        "neverAskList": ["Passord eller PIN-kode", "BankID-kode på telefon", "Personnummer", "Å installere programmer på datamaskinen", "Å overføre penger til en \"sikker konto\""],
+        "neverAskList": [
+          "Passord eller PIN-kode",
+          "BankID-kode på telefon",
+          "Personnummer",
+          "Å installere programmer på datamaskinen",
+          "Å overføre penger til en \"sikker konto\""
+        ],
         "examplesTitle": "Eksempler på ekte svindelmeldinger",
         "examples": [
-          {"type": "SMS", "message": "Din pakke venter på levering. Betal 29 kr frakt her: [lenke]", "warning": "Posten sender aldri SMS om betaling via lenker!"},
-          {"type": "Telefon", "message": "Hei, dette er fra bankens sikkerhetsavdeling. Vi har oppdaget mistenkelig aktivitet og må verifisere BankID-en din.", "warning": "Banken ringer ALDRI om BankID!"},
-          {"type": "E-post", "message": "Kjære kunde, din konto vil bli stengt hvis du ikke oppdaterer informasjonen din innen 24 timer.", "warning": "Ekte banker truer aldri med kontostengning via e-post!"},
-          {"type": "Telefon (Oldebarnssvindel)", "message": "Hei bestemor, det er meg! Jeg har vært i en ulykke og trenger 50 000 kr til advokat. Kan du hjelpe? Men ikke fortell mamma!", "warning": "Ekte barnebarn ber deg ikke holde ting hemmelig for foreldrene!"}
+          {
+            "type": "SMS",
+            "message": "Din pakke venter på levering. Betal 29 kr frakt her: [lenke]",
+            "warning": "Posten sender aldri SMS om betaling via lenker!"
+          },
+          {
+            "type": "Telefon",
+            "message": "Hei, dette er fra bankens sikkerhetsavdeling. Vi har oppdaget mistenkelig aktivitet og må verifisere BankID-en din.",
+            "warning": "Banken ringer ALDRI om BankID!"
+          },
+          {
+            "type": "E-post",
+            "message": "Kjære kunde, din konto vil bli stengt hvis du ikke oppdaterer informasjonen din innen 24 timer.",
+            "warning": "Ekte banker truer aldri med kontostengning via e-post!"
+          },
+          {
+            "type": "Telefon (Oldebarnssvindel)",
+            "message": "Hei bestemor, det er meg! Jeg har vært i en ulykke og trenger 50 000 kr til advokat. Kan du hjelpe? Men ikke fortell mamma!",
+            "warning": "Ekte barnebarn ber deg ikke holde ting hemmelig for foreldrene!"
+          }
         ],
         "contactsTitle": "Viktige telefonnumre",
         "contacts": [
-          {"number": "112", "title": "Nødnummer - Politi", "description": "Ved akutt fare eller pågående kriminalitet", "color": "red"},
-          {"number": "02800", "title": "Politiets servicenummer", "description": "For å anmelde svindel eller få råd", "color": "blue"},
-          {"number": "21 05 32 00", "title": "ID-tyverihjelpen", "description": "Hvis noen har misbrukt identiteten din", "color": "green"},
-          {"number": "Bankens nummer", "title": "Finn det på baksiden av kortet", "description": "Sperre kort og konto ved svindel", "color": "purple"}
+          {
+            "number": "112",
+            "title": "Nødnummer - Politi",
+            "description": "Ved akutt fare eller pågående kriminalitet",
+            "color": "red"
+          },
+          {
+            "number": "02800",
+            "title": "Politiets servicenummer",
+            "description": "For å anmelde svindel eller få råd",
+            "color": "blue"
+          },
+          {
+            "number": "21 05 32 00",
+            "title": "ID-tyverihjelpen",
+            "description": "Hvis noen har misbrukt identiteten din",
+            "color": "green"
+          },
+          {
+            "number": "Bankens nummer",
+            "title": "Finn det på baksiden av kortet",
+            "description": "Sperre kort og konto ved svindel",
+            "color": "purple"
+          }
         ],
         "contactsTip": "Skriv ned disse numrene og legg lappen ved telefonen!"
       },
@@ -2627,7 +2936,15 @@
         "whyImportantText1": "Et svakt passord kan knekkes på sekunder. Hackere bruker programmer som prøver millioner av kombinasjoner automatisk. Hvis passordet ditt er \"123456\" eller \"passord\", er du ikke beskyttet i det hele tatt.",
         "whyImportantText2": "Med et sterkt passord tar det år å knekke kontoen din, og hackere går videre til enklere mål.",
         "badPasswordsTitle": "De verste passordene",
-        "badPasswords": ["123456", "passord", "qwerty", "111111", "navn+fødselsår", "abc123", "iloveyou"],
+        "badPasswords": [
+          "123456",
+          "passord",
+          "qwerty",
+          "111111",
+          "navn+fødselsår",
+          "abc123",
+          "iloveyou"
+        ],
         "badPasswordsWarning": "Hvis du bruker noen av disse, bytt dem UMIDDELBART!",
         "stepsTitle": "Slik lager du gode passord",
         "steps": [
@@ -3233,17 +3550,45 @@
         "whatIsText": "Posten har flere nyttige digitale tjenester. Du kan spore pakker, endre leveringsadresse, finne nærmeste postkontor, og motta varsel når pakker kommer.",
         "servicesTitle": "Dette kan du gjøre hos Posten",
         "services": [
-          {"name": "Spore pakker", "description": "Følg pakken din fra avsender til levering med sporingsnummer"},
-          {"name": "Endre leveringsadresse", "description": "Send pakken til en annen adresse eller et postkontor"},
-          {"name": "Finne postkontor", "description": "Finn nærmeste postkontor eller pakkeboks"},
-          {"name": "Midlertidig adresseendring", "description": "Send posten til en annen adresse mens du er bortreist"}
+          {
+            "name": "Spore pakker",
+            "description": "Følg pakken din fra avsender til levering med sporingsnummer"
+          },
+          {
+            "name": "Endre leveringsadresse",
+            "description": "Send pakken til en annen adresse eller et postkontor"
+          },
+          {
+            "name": "Finne postkontor",
+            "description": "Finn nærmeste postkontor eller pakkeboks"
+          },
+          {
+            "name": "Midlertidig adresseendring",
+            "description": "Send posten til en annen adresse mens du er bortreist"
+          }
         ],
         "trackingTitle": "Slik sporer du en pakke",
         "trackingSteps": [
-          {"title": "Finn sporingsnummeret", "description": "Sporingsnummeret finner du i ordrebekreftelsen fra butikken. Det er vanligvis en lang kode med bokstaver og tall.", "tip": "Sjekk e-posten fra butikken der du handlet."},
-          {"title": "Gå til posten.no", "description": "Åpne nettleseren og gå til posten.no. Du kan også bruke Posten-appen på mobilen.", "tip": "Appen gir deg varsler når pakken er framme."},
-          {"title": "Skriv inn sporingsnummeret", "description": "På forsiden av posten.no er det et felt for sporing. Skriv inn sporingsnummeret og trykk Spor.", "tip": "Du kan lime inn nummeret hvis du kopierte det fra e-posten."},
-          {"title": "Se pakkens status", "description": "Nå ser du hvor pakken er og når den forventes å komme fram. Du kan også se tidligere hendelser.", "tip": "Trykk på \"Varsle meg\" for å få beskjed når pakken er klar for henting."}
+          {
+            "title": "Finn sporingsnummeret",
+            "description": "Sporingsnummeret finner du i ordrebekreftelsen fra butikken. Det er vanligvis en lang kode med bokstaver og tall.",
+            "tip": "Sjekk e-posten fra butikken der du handlet."
+          },
+          {
+            "title": "Gå til posten.no",
+            "description": "Åpne nettleseren og gå til posten.no. Du kan også bruke Posten-appen på mobilen.",
+            "tip": "Appen gir deg varsler når pakken er framme."
+          },
+          {
+            "title": "Skriv inn sporingsnummeret",
+            "description": "På forsiden av posten.no er det et felt for sporing. Skriv inn sporingsnummeret og trykk Spor.",
+            "tip": "Du kan lime inn nummeret hvis du kopierte det fra e-posten."
+          },
+          {
+            "title": "Se pakkens status",
+            "description": "Nå ser du hvor pakken er og når den forventes å komme fram. Du kan også se tidligere hendelser.",
+            "tip": "Trykk på \"Varsle meg\" for å få beskjed når pakken er klar for henting."
+          }
         ],
         "customsTitle": "Toll på pakker fra utlandet",
         "customsText": "Når du bestiller fra utlandet (utenfor EU/EØS), kan det komme toll og avgifter. Her er det du bør vite:",
@@ -3927,10 +4272,22 @@
         ],
         "appsTitle": "Vanlige videoapper",
         "apps": [
-          { "name": "FaceTime", "desc": "Innebygd på iPhone/iPad. Enklest å bruke med andre Apple-brukere." },
-          { "name": "Zoom", "desc": "Populær app for møter. Brukes av mange kommuner og helsetjenester." },
-          { "name": "Teams", "desc": "Microsofts app. Brukes ofte av NAV og arbeidsplasser." },
-          { "name": "WhatsApp", "desc": "Enkel video for familie og venner. Mange har den allerede." }
+          {
+            "name": "FaceTime",
+            "desc": "Innebygd på iPhone/iPad. Enklest å bruke med andre Apple-brukere."
+          },
+          {
+            "name": "Zoom",
+            "desc": "Populær app for møter. Brukes av mange kommuner og helsetjenester."
+          },
+          {
+            "name": "Teams",
+            "desc": "Microsofts app. Brukes ofte av NAV og arbeidsplasser."
+          },
+          {
+            "name": "WhatsApp",
+            "desc": "Enkel video for familie og venner. Mange har den allerede."
+          }
         ],
         "stepsTitle": "Slik deltar du i en videosamtale",
         "steps": [
@@ -3972,10 +4329,22 @@
         ],
         "troubleshootingTitle": "Vanlige problemer",
         "troubleshooting": [
-          { "problem": "Andre hører meg ikke", "solution": "Sjekk at mikrofonen ikke er avslått (ingen strek over ikonet). Sjekk volumet." },
-          { "problem": "Jeg ser ikke andre", "solution": "Sjekk internettforbindelsen din. Prøv å lukke andre apper." },
-          { "problem": "Bildet hakker", "solution": "Gå nærmere Wi-Fi-ruteren eller skru av eget kamera for bedre flyt." },
-          { "problem": "Jeg kommer ikke inn", "solution": "Prøv å klikke på lenken på nytt. Sjekk at appen er oppdatert." }
+          {
+            "problem": "Andre hører meg ikke",
+            "solution": "Sjekk at mikrofonen ikke er avslått (ingen strek over ikonet). Sjekk volumet."
+          },
+          {
+            "problem": "Jeg ser ikke andre",
+            "solution": "Sjekk internettforbindelsen din. Prøv å lukke andre apper."
+          },
+          {
+            "problem": "Bildet hakker",
+            "solution": "Gå nærmere Wi-Fi-ruteren eller skru av eget kamera for bedre flyt."
+          },
+          {
+            "problem": "Jeg kommer ikke inn",
+            "solution": "Prøv å klikke på lenken på nytt. Sjekk at appen er oppdatert."
+          }
         ]
       },
       "passordHjelp": {
