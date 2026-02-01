@@ -65,7 +65,7 @@ export default function LanguageSelector({ compact = false }: LanguageSelectorPr
 
       {isOpen && (
         <div
-          className="absolute right-0 mt-2 w-56 max-w-[calc(100vw-2rem)] bg-white rounded-xl shadow-lg border border-gray-200 py-2 z-50"
+          className="absolute ltr:right-0 rtl:left-0 mt-2 w-56 max-w-[calc(100vw-2rem)] bg-white rounded-xl shadow-lg border border-gray-200 py-2 z-50"
           role="listbox"
           aria-label={t('aria.availableLanguages')}
         >
