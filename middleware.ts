@@ -7,9 +7,14 @@ export default intlMiddleware;
 
 export const config = {
   matcher: [
-    // Match root path
+    // Match root path for locale redirect
     '/',
-    // Match all pathnames except for static files, api, and _next
-    '/((?!api|_next|_vercel|.*\\.[\\w]+$).*)'
+    // Match all pathnames except for:
+    // - api routes
+    // - _next (Next.js internals)
+    // - _vercel (Vercel internals)
+    // - sitemap.xml, robots.txt, favicon.ico
+    // - static files (files with extensions)
+    '/((?!api|_next|_vercel|sitemap\\.xml|robots\\.txt|favicon\\.ico).*)'
   ]
 };
