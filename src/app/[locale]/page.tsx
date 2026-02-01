@@ -15,18 +15,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const title = 'LettDigital - Digital inkludering for alle';
   const description = t('whatIsText');
 
-  // With localePrefix: 'as-needed', Norwegian has no prefix
-  const canonicalUrl = locale === 'no'
-    ? 'https://www.lettdigital.no'
-    : `https://www.lettdigital.no/${locale}`;
-
   return {
     title,
     description,
     openGraph: {
       title,
       description,
-      url: canonicalUrl,
+      url: `https://www.lettdigital.no/${locale}`,
       siteName: 'LettDigital',
       type: 'website',
     },
@@ -36,9 +31,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
     },
     alternates: {
-      canonical: canonicalUrl,
+      canonical: `https://www.lettdigital.no/${locale}`,
       languages: {
-        'nb': 'https://www.lettdigital.no',
+        'nb': 'https://www.lettdigital.no/no',
         'en': 'https://www.lettdigital.no/en',
         'uk': 'https://www.lettdigital.no/uk',
         'pl': 'https://www.lettdigital.no/pl',

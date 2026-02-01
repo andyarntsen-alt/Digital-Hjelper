@@ -27,9 +27,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
     },
     alternates: {
-      canonical: locale === 'no' ? 'https://www.lettdigital.no/ny-i-norge/folkeregisteret' : `https://www.lettdigital.no/${locale}/ny-i-norge/folkeregisteret`,
+      canonical: `https://www.lettdigital.no/${locale}/ny-i-norge/folkeregisteret`,
       languages: {
-        'nb': 'https://www.lettdigital.no/ny-i-norge/folkeregisteret',
+        'nb': 'https://www.lettdigital.no/no/ny-i-norge/folkeregisteret',
         'en': 'https://www.lettdigital.no/en/ny-i-norge/folkeregisteret',
         'uk': 'https://www.lettdigital.no/uk/ny-i-norge/folkeregisteret',
       },

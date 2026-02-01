@@ -28,9 +28,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
     },
     alternates: {
-      canonical: locale === 'no' ? 'https://www.lettdigital.no/utdanning/tilbakebetaling' : `https://www.lettdigital.no/${locale}/utdanning/tilbakebetaling`,
+      canonical: `https://www.lettdigital.no/${locale}/utdanning/tilbakebetaling`,
       languages: {
-        'nb': 'https://www.lettdigital.no/utdanning/tilbakebetaling',
+        'nb': 'https://www.lettdigital.no/no/utdanning/tilbakebetaling',
         'en': 'https://www.lettdigital.no/en/utdanning/tilbakebetaling',
         'uk': 'https://www.lettdigital.no/uk/utdanning/tilbakebetaling',
       },

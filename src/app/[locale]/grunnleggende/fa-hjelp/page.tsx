@@ -28,9 +28,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
     },
     alternates: {
-      canonical: locale === 'no' ? 'https://www.lettdigital.no/grunnleggende/fa-hjelp' : `https://www.lettdigital.no/${locale}/grunnleggende/fa-hjelp`,
+      canonical: `https://www.lettdigital.no/${locale}/grunnleggende/fa-hjelp`,
       languages: {
-        'nb': 'https://www.lettdigital.no/grunnleggende/fa-hjelp',
+        'nb': 'https://www.lettdigital.no/no/grunnleggende/fa-hjelp',
         'en': 'https://www.lettdigital.no/en/grunnleggende/fa-hjelp',
         'uk': 'https://www.lettdigital.no/uk/grunnleggende/fa-hjelp',
       },

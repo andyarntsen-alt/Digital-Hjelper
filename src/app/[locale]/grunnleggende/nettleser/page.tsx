@@ -28,9 +28,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
     },
     alternates: {
-      canonical: locale === 'no' ? 'https://www.lettdigital.no/grunnleggende/nettleser' : `https://www.lettdigital.no/${locale}/grunnleggende/nettleser`,
+      canonical: `https://www.lettdigital.no/${locale}/grunnleggende/nettleser`,
       languages: {
-        'nb': 'https://www.lettdigital.no/grunnleggende/nettleser',
+        'nb': 'https://www.lettdigital.no/no/grunnleggende/nettleser',
         'en': 'https://www.lettdigital.no/en/grunnleggende/nettleser',
         'uk': 'https://www.lettdigital.no/uk/grunnleggende/nettleser',
       },

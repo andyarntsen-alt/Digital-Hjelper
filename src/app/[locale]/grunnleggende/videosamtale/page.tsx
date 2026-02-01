@@ -28,9 +28,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
     },
     alternates: {
-      canonical: locale === 'no' ? 'https://www.lettdigital.no/grunnleggende/videosamtale' : `https://www.lettdigital.no/${locale}/grunnleggende/videosamtale`,
+      canonical: `https://www.lettdigital.no/${locale}/grunnleggende/videosamtale`,
       languages: {
-        'nb': 'https://www.lettdigital.no/grunnleggende/videosamtale',
+        'nb': 'https://www.lettdigital.no/no/grunnleggende/videosamtale',
         'en': 'https://www.lettdigital.no/en/grunnleggende/videosamtale',
         'uk': 'https://www.lettdigital.no/uk/grunnleggende/videosamtale',
       },

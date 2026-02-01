@@ -28,9 +28,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
     },
     alternates: {
-      canonical: locale === 'no' ? 'https://www.lettdigital.no/utdanning/studielan' : `https://www.lettdigital.no/${locale}/utdanning/studielan`,
+      canonical: `https://www.lettdigital.no/${locale}/utdanning/studielan`,
       languages: {
-        'nb': 'https://www.lettdigital.no/utdanning/studielan',
+        'nb': 'https://www.lettdigital.no/no/utdanning/studielan',
         'en': 'https://www.lettdigital.no/en/utdanning/studielan',
         'uk': 'https://www.lettdigital.no/uk/utdanning/studielan',
       },

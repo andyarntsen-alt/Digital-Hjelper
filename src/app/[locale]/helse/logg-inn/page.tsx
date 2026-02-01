@@ -27,9 +27,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
     },
     alternates: {
-      canonical: locale === 'no' ? 'https://www.lettdigital.no/helse/logg-inn' : `https://www.lettdigital.no/${locale}/helse/logg-inn`,
+      canonical: `https://www.lettdigital.no/${locale}/helse/logg-inn`,
       languages: {
-        'nb': 'https://www.lettdigital.no/helse/logg-inn',
+        'nb': 'https://www.lettdigital.no/no/helse/logg-inn',
         'en': 'https://www.lettdigital.no/en/helse/logg-inn',
         'uk': 'https://www.lettdigital.no/uk/helse/logg-inn',
       },
