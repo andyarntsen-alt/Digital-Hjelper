@@ -28,9 +28,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
     },
     alternates: {
-      canonical: `https://www.lettdigital.no/${locale}/favoritter`,
+      canonical: locale === 'no' ? 'https://www.lettdigital.no/favoritter' : `https://www.lettdigital.no/${locale}/favoritter`,
       languages: {
-        'nb': 'https://www.lettdigital.no/no/favoritter',
+        'nb': 'https://www.lettdigital.no/favoritter',
         'en': 'https://www.lettdigital.no/en/favoritter',
         'uk': 'https://www.lettdigital.no/uk/favoritter',
       },

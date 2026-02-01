@@ -90,7 +90,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   for (const locale of locales) {
     for (const path of guidePaths) {
-      const fullPath = `/${locale}${path}`;
+      // Norwegian uses no prefix (as-needed), other languages use prefix
+      const fullPath = locale === 'no' ? path : `/${locale}${path}`;
       const isHomePage = path === '';
       const isMainCategory = path.split('/').length === 2;
 
@@ -101,9 +102,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
       for (const altLocale of locales) {
         const langCode = altLocale === 'no' ? 'nb' : altLocale;
-        alternates.languages[langCode] = `${baseUrl}/${altLocale}${path}`;
+        // Norwegian = no prefix, others = with prefix
+        const altPath = altLocale === 'no' ? path : `/${altLocale}${path}`;
+        alternates.languages[langCode] = `${baseUrl}${altPath}`;
       }
-      alternates.languages['x-default'] = `${baseUrl}/no${path}`;
+      alternates.languages['x-default'] = `${baseUrl}${path}`; // Default = Norwegian (no prefix)
 
       urls.push({
         url: `${baseUrl}${fullPath}`,

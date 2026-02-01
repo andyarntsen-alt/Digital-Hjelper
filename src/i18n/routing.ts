@@ -3,7 +3,7 @@ import { defineRouting } from 'next-intl/routing';
 export const routing = defineRouting({
   locales: ['no', 'en', 'uk', 'pl', 'so', 'ar'],
   defaultLocale: 'no',
-  localePrefix: 'always'
+  localePrefix: 'as-needed'  // Norwegian = no prefix, other languages = /en/, /uk/, etc.
 });
 
 // Type for locale

@@ -27,9 +27,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
     },
     alternates: {
-      canonical: `https://www.lettdigital.no/${locale}/ny-i-norge/bankkonto`,
+      canonical: locale === 'no' ? 'https://www.lettdigital.no/ny-i-norge/bankkonto' : `https://www.lettdigital.no/${locale}/ny-i-norge/bankkonto`,
       languages: {
-        'nb': 'https://www.lettdigital.no/no/ny-i-norge/bankkonto',
+        'nb': 'https://www.lettdigital.no/ny-i-norge/bankkonto',
         'en': 'https://www.lettdigital.no/en/ny-i-norge/bankkonto',
         'uk': 'https://www.lettdigital.no/uk/ny-i-norge/bankkonto',
       },

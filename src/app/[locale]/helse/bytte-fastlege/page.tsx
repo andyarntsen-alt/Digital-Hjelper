@@ -28,9 +28,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
     },
     alternates: {
-      canonical: `https://www.lettdigital.no/${locale}/helse/bytte-fastlege`,
+      canonical: locale === 'no' ? 'https://www.lettdigital.no/helse/bytte-fastlege' : `https://www.lettdigital.no/${locale}/helse/bytte-fastlege`,
       languages: {
-        'nb': 'https://www.lettdigital.no/no/helse/bytte-fastlege',
+        'nb': 'https://www.lettdigital.no/helse/bytte-fastlege',
         'en': 'https://www.lettdigital.no/en/helse/bytte-fastlege',
         'uk': 'https://www.lettdigital.no/uk/helse/bytte-fastlege',
       },

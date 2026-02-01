@@ -20,11 +20,19 @@ export default function HreflangTags() {
   // Ekstraher path uten locale-prefix
   const pathWithoutLocale = pathname.replace(/^\/(no|en|uk|pl|so|ar)/, '') || '/';
 
-  // Hent current locale fra pathname
-  const currentLocale = pathname.match(/^\/(no|en|uk|pl|so|ar)/)?.[1] || 'no';
+  // Hent current locale fra pathname (no prefix = Norwegian)
+  const currentLocale = pathname.match(/^\/(en|uk|pl|so|ar)/)?.[1] || 'no';
 
-  // Canonical URL for denne siden
-  const canonicalUrl = `${baseUrl}/${currentLocale}${pathWithoutLocale === '/' ? '' : pathWithoutLocale}`;
+  // Canonical URL - Norwegian = no prefix, others = with prefix
+  const canonicalUrl = currentLocale === 'no'
+    ? `${baseUrl}${pathWithoutLocale === '/' ? '' : pathWithoutLocale}`
+    : `${baseUrl}/${currentLocale}${pathWithoutLocale === '/' ? '' : pathWithoutLocale}`;
+
+  // Helper to build URL for a locale
+  const getLocaleUrl = (locale: string) => {
+    const path = pathWithoutLocale === '/' ? '' : pathWithoutLocale;
+    return locale === 'no' ? `${baseUrl}${path}` : `${baseUrl}/${locale}${path}`;
+  };
 
   return (
     <>
@@ -37,13 +45,13 @@ export default function HreflangTags() {
           key={locale}
           rel="alternate"
           hrefLang={localeToLangCode[locale]}
-          href={`${baseUrl}/${locale}${pathWithoutLocale === '/' ? '' : pathWithoutLocale}`}
+          href={getLocaleUrl(locale)}
         />
       ))}
       <link
         rel="alternate"
         hrefLang="x-default"
-        href={`${baseUrl}/no${pathWithoutLocale === '/' ? '' : pathWithoutLocale}`}
+        href={getLocaleUrl('no')}
       />
     </>
   );

@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title,
       description,
-      url: 'https://www.lettdigital.no/no/hjelpere',
+      url: 'https://www.lettdigital.no/hjelpere',
       type: 'website',
     },
     twitter: {
@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
     },
     alternates: {
-      canonical: 'https://www.lettdigital.no/no/hjelpere',
+      canonical: 'https://www.lettdigital.no/hjelpere',
     },
   };
 }

@@ -28,9 +28,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
     },
     alternates: {
-      canonical: `https://www.lettdigital.no/${locale}/sikkerhet/bankid`,
+      canonical: locale === 'no' ? 'https://www.lettdigital.no/sikkerhet/bankid' : `https://www.lettdigital.no/${locale}/sikkerhet/bankid`,
       languages: {
-        'nb': 'https://www.lettdigital.no/no/sikkerhet/bankid',
+        'nb': 'https://www.lettdigital.no/sikkerhet/bankid',
         'en': 'https://www.lettdigital.no/en/sikkerhet/bankid',
         'uk': 'https://www.lettdigital.no/uk/sikkerhet/bankid',
       },
