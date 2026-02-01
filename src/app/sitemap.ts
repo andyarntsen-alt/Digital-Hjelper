@@ -69,11 +69,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/id/pass',
     '/id/id-kort',
     '/id/forerkort',
+    // Digital
+    '/digital',
+    // Byer
+    '/byer',
+    // Ny i Norge
+    '/ny-i-norge',
     // Andre sider
     '',
     '/faq',
     '/ordbok',
     '/om',
+    '/personvern',
+    '/favoritter',
+    '/hjelpere',
   ];
 
   // Generer URL-er for alle språk
