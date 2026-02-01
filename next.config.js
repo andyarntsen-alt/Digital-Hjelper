@@ -23,7 +23,7 @@ const nextConfig = {
         // Rewrite paths without locale prefix to /no/path (for Norwegian default)
         // This catches RSC prefetch requests that bypass middleware
         {
-          source: '/:path((?!no|en|uk|pl|so|ar|api|_next|_vercel|sitemap\\.xml|robots\\.txt|favicon\\.ico).*)',
+          source: '/:path((?!no|en|uk|pl|so|ar|api|_next|_vercel|sitemap\\.xml|robots\\.txt|favicon\\.ico|favicon\\.svg|manifest\\.json).*)',
           destination: '/no/:path',
         },
       ],

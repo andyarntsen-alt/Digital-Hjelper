@@ -13,8 +13,8 @@ export const config = {
     // - api routes
     // - _next (Next.js internals)
     // - _vercel (Vercel internals)
-    // - sitemap.xml, robots.txt, favicon.ico
+    // - sitemap.xml, robots.txt, favicon.ico, favicon.svg, manifest.json
     // - static files (files with extensions)
-    '/((?!api|_next|_vercel|sitemap\\.xml|robots\\.txt|favicon\\.ico).*)'
+    '/((?!api|_next|_vercel|sitemap\\.xml|robots\\.txt|favicon\\.ico|favicon\\.svg|manifest\\.json).*)'
   ]
 };
