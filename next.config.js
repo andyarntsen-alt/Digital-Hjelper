@@ -17,6 +17,19 @@ const nextConfig = {
     ];
   },
 
+  async rewrites() {
+    return {
+      beforeFiles: [
+        // Rewrite paths without locale prefix to /no/path (for Norwegian default)
+        // This catches RSC prefetch requests that bypass middleware
+        {
+          source: '/:path((?!no|en|uk|pl|so|ar|api|_next|_vercel|sitemap\\.xml|robots\\.txt|favicon\\.ico).*)',
+          destination: '/no/:path',
+        },
+      ],
+    };
+  },
+
   async headers() {
     return [
       // Cache static assets for 1 year
