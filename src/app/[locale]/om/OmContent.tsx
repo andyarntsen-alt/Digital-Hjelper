@@ -14,11 +14,11 @@ export default function OmContent() {
     <>
       {/* E-E-A-T: Person Schema for author */}
       <PersonSchema
-        name="Andreas"
+        name="Andreas Arntsen"
         jobTitle={locale === 'no' ? 'Grunnlegger' : locale === 'en' ? 'Founder' : 'Zasnovnyk'}
         description={locale === 'no' ? 'Hjelper nordmenn med a navigere offentlige digitale tjenester' : locale === 'en' ? 'Helps Norwegians navigate public digital services' : 'Dopomahaye norvezhtcyam oriyentuvatysya v derzhavnykh tsyfrovykh posluhakh'}
         url={`/${locale}/om`}
-        sameAs={["https://www.linkedin.com/in/andreas-arntsen-85832929a/"]}
+        sameAs={["https://www.linkedin.com/in/andreas-arntsen-85832929a/", "https://www.facebook.com/profile.php?id=61586644786681"]}
       />
       <OrganizationSchema locale={locale} />
 
@@ -42,9 +42,8 @@ export default function OmContent() {
                 </svg>
               </div>
               <div>
-                <h2 className="text-2xl font-bold mb-2 text-gray-800">{t('whoBehind')}</h2>
-                <p className="text-xl font-semibold text-nav-blue mb-1">Andreas</p>
-                <p className="text-gray-600 mb-3">{t('founder')}</p>
+                <h2 className="text-2xl font-bold mb-2 text-gray-800">{t('founder')}</h2>
+                <p className="text-xl font-semibold text-nav-blue mb-3">Andreas Arntsen</p>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   {t('founderBio')}
                 </p>
@@ -60,6 +59,17 @@ export default function OmContent() {
                     </svg>
                     LinkedIn
                   </a>
+                  <a
+                    href="https://www.facebook.com/profile.php?id=61586644786681"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-nav-blue hover:underline"
+                  >
+                    <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                    </svg>
+                    Facebook
+                  </a>
                 </div>
               </div>
             </div>
@@ -68,33 +78,27 @@ export default function OmContent() {
           {/* Who is this for? */}
           <div className="mb-10">
             <h2 className="text-2xl font-bold mb-6 text-center">{t('whoIsItFor')}</h2>
-            <div className="grid sm:grid-cols-3 gap-4">
-              <div className="bg-white border border-gray-200 rounded-xl p-6 text-center">
-                <div className="bg-amber-100 text-amber-600 w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z" />
-                  </svg>
-                </div>
-                <h3 className="font-bold text-gray-900 mb-2">{t('forElderly')}</h3>
-                <p className="text-gray-600 text-sm">{t('forElderlyDesc')}</p>
+            <div className="grid grid-cols-3 gap-8 max-w-2xl mx-auto text-gray-500">
+              <div className="flex flex-col items-center text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197" />
+                </svg>
+                <span className="font-medium mb-1">{t('forElderly')}</span>
+                <span className="text-sm text-gray-400">{t('forElderlyDesc')}</span>
               </div>
-              <div className="bg-white border border-gray-200 rounded-xl p-6 text-center">
-                <div className="bg-emerald-100 text-emerald-600 w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                </div>
-                <h3 className="font-bold text-gray-900 mb-2">{t('forNewcomers')}</h3>
-                <p className="text-gray-600 text-sm">{t('forNewcomersDesc')}</p>
+              <div className="flex flex-col items-center text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <span className="font-medium mb-1">{t('forNewcomers')}</span>
+                <span className="text-sm text-gray-400">{t('forNewcomersDesc')}</span>
               </div>
-              <div className="bg-white border border-gray-200 rounded-xl p-6 text-center">
-                <div className="bg-blue-100 text-nav-blue w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                  </svg>
-                </div>
-                <h3 className="font-bold text-gray-900 mb-2">{t('forHelpers')}</h3>
-                <p className="text-gray-600 text-sm">{t('forHelpersDesc')}</p>
+              <div className="flex flex-col items-center text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                </svg>
+                <span className="font-medium mb-1">{t('forHelpers')}</span>
+                <span className="text-sm text-gray-400">{t('forHelpersDesc')}</span>
               </div>
             </div>
           </div>
