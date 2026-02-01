@@ -17,7 +17,7 @@ export default function Breadcrumbs({ items }: BreadcrumbsProps) {
 
   return (
     <nav aria-label={t('aria.breadcrumb')} className="mb-6 print:hidden">
-      <ol className="flex flex-wrap items-center gap-2 text-sm text-gray-600">
+      <ol className="flex flex-wrap items-baseline gap-2 text-sm text-gray-600">
         <li className="inline-flex items-center">
           <Link href="/" className="hover:text-nav-blue no-underline flex items-center gap-1">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
