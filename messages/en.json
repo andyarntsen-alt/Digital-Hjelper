@@ -128,7 +128,7 @@
   },
   "hero": {
     "headline": "Digital services made simple.",
-    "subheadline": "NAV, tax, health, banking and more \u2013 we help you with all things digital. Step by step, with clear language.",
+    "subheadline": "NAV, tax, health, banking and more – we help you with all things digital. Step by step, with clear language.",
     "badges": {
       "free": "Free",
       "simpleLanguage": "Simple language",
@@ -375,7 +375,20 @@
       "introStrong": "The Tax Administration",
       "introText": "manages taxes in Norway. Here you will find simple guides showing you step-by-step how to log in, submit your tax return, change your tax card and understand your tax settlement.",
       "faqTitle": "Frequently asked questions about Tax",
-      "faq": {"q1": "How do I log in to Skatteetaten?", "a1": "You log in at skatteetaten.no with BankID.", "q2": "When does the tax return come?", "a2": "The tax return usually comes in March. Deadline is April 30.", "q3": "How do I change my tax card?", "a3": "Log in to skatteetaten.no and go to 'Tax card'.", "q4": "What is the tax settlement?", "a4": "The tax settlement shows if you paid too much or too little tax.", "q5": "How do I get a tax certificate?", "a5": "Log in to skatteetaten.no and go to 'Tax certificate'.", "q6": "What is the phone number?", "a6": "Tax Administration: 800 80 000, weekdays 08:00-15:30."},
+      "faq": {
+        "q1": "How do I log in to Skatteetaten?",
+        "a1": "You log in at skatteetaten.no with BankID.",
+        "q2": "When does the tax return come?",
+        "a2": "The tax return usually comes in March. Deadline is April 30.",
+        "q3": "How do I change my tax card?",
+        "a3": "Log in to skatteetaten.no and go to 'Tax card'.",
+        "q4": "What is the tax settlement?",
+        "a4": "The tax settlement shows if you paid too much or too little tax.",
+        "q5": "How do I get a tax certificate?",
+        "a5": "Log in to skatteetaten.no and go to 'Tax certificate'.",
+        "q6": "What is the phone number?",
+        "a6": "Tax Administration: 800 80 000, weekdays 08:00-15:30."
+      },
       "relatedTitle": "Related guides",
       "relatedText": "Need help with other public services?",
       "relatedNav": "Unemployment benefits",
@@ -577,7 +590,16 @@
       "helpNAV": "NAV office",
       "helpNAVDesc": "helps with public digital services",
       "helpFamily": "Family and friends",
-      "helpFamilyDesc": "ask someone you know for help"
+      "helpFamilyDesc": "ask someone you know for help",
+      "introStrong": "Digital everyday life",
+      "introText": "is about mastering basic digital tools. Here you'll find guides for email, Digipost, Altinn, and other important services that make everyday life easier.",
+      "relatedTitle": "Related guides",
+      "relatedText": "Need help with other services?",
+      "relatedBankID": "Login",
+      "relatedNAV": "Public services",
+      "relatedSkatt": "Tax return",
+      "metaTitle": "Digital Everyday Life - Email, Digipost, and public services",
+      "metaDescription": "Learn to use email, digital mailbox, and other digital services for everyday life."
     },
     "bolig": {
       "title": "Housing and housing support",
@@ -666,7 +688,31 @@
       "library": "Your local library",
       "libraryDesc": "Many libraries have free computer help and courses",
       "dataHjelpen": "Volunteer helpers",
-      "dataHjelpenDesc": "Ask family, friends or neighbors for help"
+      "dataHjelpenDesc": "Ask family, friends or neighbors for help",
+      "introStrong": "Basic digital skills",
+      "introText": "helps you master everyday technology. Here you'll find simple step-by-step guides showing how to use smartphone, web browser, video calls, and other digital tools.",
+      "faqTitle": "Frequently asked questions for beginners",
+      "faq": {
+        "q1": "How do I use a smartphone?",
+        "a1": "A smartphone is a small computer you hold in your hand. The screen is touch-sensitive - tap with your finger to select things. Apps are programs you use. Swipe (move your finger) left or right to switch between screens. The home button takes you back to the main screen.",
+        "q2": "What are apps?",
+        "a2": "Apps are programs on your phone. You tap an icon to open an app. You can have different apps for different things - one for messages, one for photos, etc.",
+        "q3": "How do I connect to WiFi?",
+        "a3": "Go to Settings, look for WiFi, and select your network. Enter the password if you have one.",
+        "q4": "How do I make a video call?",
+        "a4": "You can use apps like WhatsApp or Skype. Open the app, find the person you want to call, tap the video icon, and wait for them to answer.",
+        "q5": "What do I do if I forget my password?",
+        "a5": "Most services have a 'Forgot password' link on the login screen. Click it and follow the instructions to reset your password.",
+        "q6": "How do I get help if I don't understand something?",
+        "a6": "Ask family or friends, visit your local library, contact Seniornett, or visit a NAV office. Many places offer free help with digital skills."
+      },
+      "nextStepsTitle": "Next steps",
+      "nextStepsText": "Once you've learned the basics, you can start using public digital services:",
+      "nextBankID": "Digital login",
+      "nextNAV": "Public services",
+      "nextHelse": "Doctor and prescriptions",
+      "metaTitle": "Basic Digital Skills - Step-by-step guides for beginners",
+      "metaDescription": "Learn to use smartphone, web browser, email, and video calls. Simple guides for complete beginners."
     },
     "nyINorge": {
       "title": "New to Norway",
@@ -695,6 +741,29 @@
           "description": "Create a free email account to use Norwegian services"
         }
       }
+    },
+    "byer": {
+      "title": "Public services in your city",
+      "shortDesc": "Find local services and offices",
+      "description": "Find local NAV offices, health services, and other public services in your city.",
+      "hubTitle": "Public services in your city",
+      "hubSubtitle": "Find local NAV offices, health services and more",
+      "introText": "Select your city to find local NAV offices, emergency rooms, and other public services with addresses, opening hours, and contact information.",
+      "selectCity": "Select your city",
+      "inhabitants": "inhabitants",
+      "navOffices": "NAV office(s)",
+      "osloDesc": "Norway's capital with NAV offices in all districts",
+      "bergenDesc": "Western Norway's capital with four NAV offices",
+      "trondheimDesc": "Technology capital in Central Norway",
+      "stavangerDesc": "Oil capital with five NAV offices",
+      "kristiansandDesc": "Southern Norway's capital with central NAV office",
+      "didYouKnow": "Did you know?",
+      "didYouKnowText": "Most NAV services can be used digitally at nav.no no matter where you live. You can submit meldekort, apply for unemployment benefits, check payments, and communicate with NAV - all from your phone or PC.",
+      "seeAllNavGuides": "See all NAV guides",
+      "nationalServices": "National digital services",
+      "nationalServicesText": "These services work the same regardless of where you live:",
+      "metaTitle": "Public Services in Your City - Find NAV offices and health services",
+      "metaDescription": "Find local NAV offices, emergency rooms, and other public services in your city with addresses and opening hours."
     }
   },
   "guides": {
@@ -1643,8 +1712,14 @@
         "whatIsTitle": "What is a tax card?",
         "whatIsText": "The tax card tells your employer how much tax to deduct from your salary. It is based on expected income and deductions.",
         "cardTypes": [
-          {"type": "Table number", "desc": "Used for fixed monthly deductions. Most common for employees."},
-          {"type": "Percentage card", "desc": "A fixed percentage is deducted regardless of amount. Common for secondary jobs."}
+          {
+            "type": "Table number",
+            "desc": "Used for fixed monthly deductions. Most common for employees."
+          },
+          {
+            "type": "Percentage card",
+            "desc": "A fixed percentage is deducted regardless of amount. Common for secondary jobs."
+          }
         ],
         "whenToChangeTitle": "When should you change your tax card?",
         "whenToChangeList": [
@@ -1711,9 +1786,18 @@
         "difficulty": "Easy",
         "whenTitle": "When does the tax settlement come?",
         "whenList": [
-          {"label": "Submitted in March", "text": "Tax settlement in June"},
-          {"label": "Submitted in April", "text": "Tax settlement in August"},
-          {"label": "Submitted later", "text": "Tax settlement in October-November"}
+          {
+            "label": "Submitted in March",
+            "text": "Tax settlement in June"
+          },
+          {
+            "label": "Submitted in April",
+            "text": "Tax settlement in August"
+          },
+          {
+            "label": "Submitted later",
+            "text": "Tax settlement in October-November"
+          }
         ],
         "whenNote": "You'll receive an SMS or email when the tax settlement is ready.",
         "stepsTitle": "How to find your tax settlement",
@@ -1760,15 +1844,33 @@
         "additionalTaxTitle": "Additional tax?",
         "additionalTaxText": "If you have additional tax, you must pay before the due date to avoid interest.",
         "additionalTaxList": [
-          {"label": "Under 1000 kr", "text": "Paid in one installment"},
-          {"label": "Over 1000 kr", "text": "Divided into two installments (usually August and October)"},
-          {"label": "", "text": "You can pay with online banking - use the KID number from the tax settlement"}
+          {
+            "label": "Under 1000 kr",
+            "text": "Paid in one installment"
+          },
+          {
+            "label": "Over 1000 kr",
+            "text": "Divided into two installments (usually August and October)"
+          },
+          {
+            "label": "",
+            "text": "You can pay with online banking - use the KID number from the tax settlement"
+          }
         ],
         "faqTitle": "Frequently asked questions",
         "faq": [
-          {"q": "I think the tax settlement is wrong", "a": "You can appeal the tax settlement within 6 weeks. Go to \"Klage på skatteoppgjøret\" at skatteetaten.no."},
-          {"q": "Can I change the account number for payment?", "a": "Yes, log in to skatteetaten.no and update your account number under \"Min profil\"."},
-          {"q": "I can't afford to pay the additional tax", "a": "You can apply for a payment plan with the Tax Office. Contact them as soon as possible."}
+          {
+            "q": "I think the tax settlement is wrong",
+            "a": "You can appeal the tax settlement within 6 weeks. Go to \"Klage på skatteoppgjøret\" at skatteetaten.no."
+          },
+          {
+            "q": "Can I change the account number for payment?",
+            "a": "Yes, log in to skatteetaten.no and update your account number under \"Min profil\"."
+          },
+          {
+            "q": "I can't afford to pay the additional tax",
+            "a": "You can apply for a payment plan with the Tax Office. Contact them as soon as possible."
+          }
         ]
       },
       "skatteattest": {
@@ -1822,15 +1924,33 @@
         ],
         "importantTitle": "Important to know",
         "importantList": [
-          {"label": "Validity period", "text": "The tax certificate is valid for 6 months from the date of issue"},
-          {"label": "Free", "text": "It costs nothing to order a tax certificate"},
-          {"label": "Owed taxes", "text": "If you owe taxes, you cannot get a tax certificate until the debt is paid"}
+          {
+            "label": "Validity period",
+            "text": "The tax certificate is valid for 6 months from the date of issue"
+          },
+          {
+            "label": "Free",
+            "text": "It costs nothing to order a tax certificate"
+          },
+          {
+            "label": "Owed taxes",
+            "text": "If you owe taxes, you cannot get a tax certificate until the debt is paid"
+          }
         ],
         "faqTitle": "Frequently asked questions",
         "faq": [
-          {"q": "I can't get a tax certificate because I owe taxes", "a": "You must pay the tax debt first. Log in to skatteetaten.no to see what you owe and pay."},
-          {"q": "Can I order a tax certificate for my company?", "a": "Yes, but you must have access rights in Altinn for the company. Log in with BankID and select your company."},
-          {"q": "How do I send the tax certificate to someone?", "a": "Download the PDF file and send it as an email attachment, or print it and deliver it physically."}
+          {
+            "q": "I can't get a tax certificate because I owe taxes",
+            "a": "You must pay the tax debt first. Log in to skatteetaten.no to see what you owe and pay."
+          },
+          {
+            "q": "Can I order a tax certificate for my company?",
+            "a": "Yes, but you must have access rights in Altinn for the company. Log in with BankID and select your company."
+          },
+          {
+            "q": "How do I send the tax certificate to someone?",
+            "a": "Download the PDF file and send it as an email attachment, or print it and deliver it physically."
+          }
         ]
       },
       "loggInn": {
@@ -1961,10 +2081,22 @@
         ],
         "faqTitle": "What do I do if...",
         "faq": [
-          {"q": "...there are no available times?", "a": "Call the medical office directly. They can often find solutions for urgent needs."},
-          {"q": "...my GP doesn't have online booking?", "a": "Some medical offices haven't activated online booking. Then you must call to book an appointment."},
-          {"q": "...I need to cancel the appointment?", "a": "Log in to Helsenorge, go to \"My appointments\" and click \"Cancel\". Do this at least 24 hours before the appointment."},
-          {"q": "...I'm acutely ill?", "a": "Call the medical office or emergency services at 116 117. Don't use online booking for acute illness."}
+          {
+            "q": "...there are no available times?",
+            "a": "Call the medical office directly. They can often find solutions for urgent needs."
+          },
+          {
+            "q": "...my GP doesn't have online booking?",
+            "a": "Some medical offices haven't activated online booking. Then you must call to book an appointment."
+          },
+          {
+            "q": "...I need to cancel the appointment?",
+            "a": "Log in to Helsenorge, go to \"My appointments\" and click \"Cancel\". Do this at least 24 hours before the appointment."
+          },
+          {
+            "q": "...I'm acutely ill?",
+            "a": "Call the medical office or emergency services at 116 117. Don't use online booking for acute illness."
+          }
         ]
       },
       "resepter": {
@@ -2015,25 +2147,67 @@
         ],
         "whatYouFindTitle": "What you'll find on \"My prescriptions\"",
         "whatYouFind": [
-          {"label": "Medicine name", "desc": "Active ingredient and brand name"},
-          {"label": "Strength and form", "desc": "E.g. \"10 mg tablets\""},
-          {"label": "Dosage", "desc": "How much and when to take the medicine"},
-          {"label": "Refills remaining", "desc": "How many times you can pick up"},
-          {"label": "Expiry date", "desc": "When the prescription needs renewal"},
-          {"label": "Prescriber", "desc": "Which doctor wrote the prescription"}
+          {
+            "label": "Medicine name",
+            "desc": "Active ingredient and brand name"
+          },
+          {
+            "label": "Strength and form",
+            "desc": "E.g. \"10 mg tablets\""
+          },
+          {
+            "label": "Dosage",
+            "desc": "How much and when to take the medicine"
+          },
+          {
+            "label": "Refills remaining",
+            "desc": "How many times you can pick up"
+          },
+          {
+            "label": "Expiry date",
+            "desc": "When the prescription needs renewal"
+          },
+          {
+            "label": "Prescriber",
+            "desc": "Which doctor wrote the prescription"
+          }
         ],
         "prescriptionTypesTitle": "Types of prescriptions",
         "prescriptionTypes": [
-          {"type": "White prescription (regular)", "desc": "Most medicines. You pay full price or co-payment.", "color": "blue"},
-          {"type": "Blue prescription", "desc": "For chronic conditions. The state covers most, you pay small co-payment.", "color": "green"},
-          {"type": "H-prescription", "desc": "Special medicines only used in hospitals or outpatient clinics.", "color": "purple"}
+          {
+            "type": "White prescription (regular)",
+            "desc": "Most medicines. You pay full price or co-payment.",
+            "color": "blue"
+          },
+          {
+            "type": "Blue prescription",
+            "desc": "For chronic conditions. The state covers most, you pay small co-payment.",
+            "color": "green"
+          },
+          {
+            "type": "H-prescription",
+            "desc": "Special medicines only used in hospitals or outpatient clinics.",
+            "color": "purple"
+          }
         ],
         "faqTitle": "Frequently asked questions",
         "faq": [
-          {"q": "Can all prescriptions be renewed without an appointment?", "a": "No, some medicines (like strong painkillers or sleeping pills) require a new evaluation. Then you must book an appointment."},
-          {"q": "How long does renewal take?", "a": "Usually 1-3 business days, but it can vary. Request renewal well before the medicine runs out!"},
-          {"q": "Can I pick up medicine at a different pharmacy?", "a": "Yes! Your prescriptions are stored electronically and can be picked up at any pharmacy in Norway."},
-          {"q": "What do I do if the prescription has expired?", "a": "Contact your doctor to get a new prescription. Use Helsenorge or call the medical office."}
+          {
+            "q": "Can all prescriptions be renewed without an appointment?",
+            "a": "No, some medicines (like strong painkillers or sleeping pills) require a new evaluation. Then you must book an appointment."
+          },
+          {
+            "q": "How long does renewal take?",
+            "a": "Usually 1-3 business days, but it can vary. Request renewal well before the medicine runs out!"
+          },
+          {
+            "q": "Can I pick up medicine at a different pharmacy?",
+            "a": "Yes! Your prescriptions are stored electronically and can be picked up at any pharmacy in Norway."
+          },
+          {
+            "q": "What do I do if the prescription has expired?",
+            "a": "Contact your doctor to get a new prescription. Use Helsenorge or call the medical office."
+          }
         ],
         "tipBoxTitle": "Tip: Use the medicine database!",
         "tipBoxText": "At felleskatalogen.no you can look up your medicine and read about side effects, dosage and what you should know."
@@ -2086,9 +2260,18 @@
         "noSpaceText": "If the doctor you want is full, you can put yourself on a waiting list. You'll be notified when a spot becomes available. You can also try calling the medical office - sometimes they have spots that don't show online.",
         "faqTitle": "Frequently asked questions",
         "faq": [
-          {"q": "What if I can't find a doctor with available spots?", "a": "You can put yourself on the waiting list for doctors who are full. The municipality must ensure you have a GP."},
-          {"q": "Can I use my old doctor while I wait?", "a": "Yes, you can still use your current GP until the switch takes effect."},
-          {"q": "What happens to my medical records?", "a": "The new GP gets access to your records automatically. You don't need to do anything."}
+          {
+            "q": "What if I can't find a doctor with available spots?",
+            "a": "You can put yourself on the waiting list for doctors who are full. The municipality must ensure you have a GP."
+          },
+          {
+            "q": "Can I use my old doctor while I wait?",
+            "a": "Yes, you can still use your current GP until the switch takes effect."
+          },
+          {
+            "q": "What happens to my medical records?",
+            "a": "The new GP gets access to your records automatically. You don't need to do anything."
+          }
         ]
       },
       "journal": {
@@ -2139,9 +2322,18 @@
         ],
         "faqTitle": "Frequently asked questions",
         "faq": [
-          {"q": "I don't understand what's written in the records", "a": "Medical records are written by healthcare professionals and may contain medical terminology. Ask your doctor to explain."},
-          {"q": "Something is wrong in my records", "a": "You can request correction of errors. Contact the doctor's office or hospital that made the error."},
-          {"q": "I can't find records from the hospital", "a": "Not all hospitals have connected to Helsenorge yet. Contact the hospital directly to get a copy of the records."}
+          {
+            "q": "I don't understand what's written in the records",
+            "a": "Medical records are written by healthcare professionals and may contain medical terminology. Ask your doctor to explain."
+          },
+          {
+            "q": "Something is wrong in my records",
+            "a": "You can request correction of errors. Contact the doctor's office or hospital that made the error."
+          },
+          {
+            "q": "I can't find records from the hospital",
+            "a": "Not all hospitals have connected to Helsenorge yet. Contact the hospital directly to get a copy of the records."
+          }
         ]
       },
       "melding": {
@@ -2198,9 +2390,18 @@
         ],
         "faqTitle": "Frequently asked questions",
         "faq": [
-          {"q": "How long does it take to get a response?", "a": "Usually 1-3 business days. During holiday periods it may take longer."},
-          {"q": "Are my messages secure?", "a": "Yes, everything on Helsenorge is encrypted and secure. Only you and the medical office can read the messages."},
-          {"q": "Can I attach images?", "a": "Yes, many medical offices let you attach images. This can be useful for showing rashes or wounds."}
+          {
+            "q": "How long does it take to get a response?",
+            "a": "Usually 1-3 business days. During holiday periods it may take longer."
+          },
+          {
+            "q": "Are my messages secure?",
+            "a": "Yes, everything on Helsenorge is encrypted and secure. Only you and the medical office can read the messages."
+          },
+          {
+            "q": "Can I attach images?",
+            "a": "Yes, many medical offices let you attach images. This can be useful for showing rashes or wounds."
+          }
         ]
       },
       "loggInn": {
@@ -2429,13 +2630,34 @@
         "checklistTitle": "Is this real? - Checklist",
         "checklistIntro": "Did you receive a phone call, SMS or email you're unsure about? Answer the questions below:",
         "checklistItems": [
-          {"question": "Did they contact YOU first?", "warning": "Real banks and authorities rarely contact you unsolicited."},
-          {"question": "Are they asking for password, BankID or national ID number?", "warning": "NEVER give this out - real senders never ask for it!"},
-          {"question": "Is it very urgent?", "warning": "Scammers always create urgency. Real matters can wait until tomorrow."},
-          {"question": "Do you have to pay to receive something?", "warning": "Real prizes and inheritance never require you to pay first."},
-          {"question": "Does it seem too good to be true?", "warning": "Then it's almost always too good to be true."},
-          {"question": "Should you keep it secret?", "warning": "Scammers don't want you talking to others who might expose them."},
-          {"question": "Do they want cash or gift cards?", "warning": "Real companies never take payment in gift cards."}
+          {
+            "question": "Did they contact YOU first?",
+            "warning": "Real banks and authorities rarely contact you unsolicited."
+          },
+          {
+            "question": "Are they asking for password, BankID or national ID number?",
+            "warning": "NEVER give this out - real senders never ask for it!"
+          },
+          {
+            "question": "Is it very urgent?",
+            "warning": "Scammers always create urgency. Real matters can wait until tomorrow."
+          },
+          {
+            "question": "Do you have to pay to receive something?",
+            "warning": "Real prizes and inheritance never require you to pay first."
+          },
+          {
+            "question": "Does it seem too good to be true?",
+            "warning": "Then it's almost always too good to be true."
+          },
+          {
+            "question": "Should you keep it secret?",
+            "warning": "Scammers don't want you talking to others who might expose them."
+          },
+          {
+            "question": "Do they want cash or gift cards?",
+            "warning": "Real companies never take payment in gift cards."
+          }
         ],
         "checklistResultSafe": "Looks safe, but always be vigilant!",
         "checklistResultCaution": "Be careful! {count} warning signs. Talk to someone you trust before doing anything.",
@@ -2448,7 +2670,12 @@
             "title": "Grandchild scam",
             "description": "Someone calls pretending to be your grandchild. They say they're in trouble and need money fast - often for lawyer, bail or hospital bill.",
             "howItWorks": "The scammer calls and says \"Hi grandma/grandpa, it's me!\" and hopes you say your grandchild's name. Then they pretend to be that person.",
-            "redFlags": ["They ask you NOT to tell their parents", "They need the money VERY fast", "They want cash or gift cards", "The voice sounds \"different\" - they say they have a cold"],
+            "redFlags": [
+              "They ask you NOT to tell their parents",
+              "They need the money VERY fast",
+              "They want cash or gift cards",
+              "The voice sounds \"different\" - they say they have a cold"
+            ],
             "whatToDo": "Hang up and call your grandchild on the number you have saved. Ask about something only the two of you know.",
             "icon": "grandparent"
           },
@@ -2456,7 +2683,12 @@
             "title": "Microsoft/Apple scam",
             "description": "Someone calls saying they're from Microsoft, Apple or \"tech support\". They claim your computer has a virus and they need to help you remove it.",
             "howItWorks": "They get you to install a program that gives them control over your computer. Then they \"find\" problems and demand payment.",
-            "redFlags": ["Microsoft and Apple NEVER call unsolicited", "They ask for remote access to your computer", "They want payment in gift cards or cryptocurrency", "They threaten that your computer will stop working"],
+            "redFlags": [
+              "Microsoft and Apple NEVER call unsolicited",
+              "They ask for remote access to your computer",
+              "They want payment in gift cards or cryptocurrency",
+              "They threaten that your computer will stop working"
+            ],
             "whatToDo": "Hang up immediately. Real tech support never calls you first.",
             "icon": "computer"
           },
@@ -2464,7 +2696,12 @@
             "title": "Romance scam",
             "description": "Someone you met online (often on Facebook or dating sites) says they're in love with you. Eventually they ask for money.",
             "howItWorks": "They build a relationship over weeks or months. Then a \"crisis\" occurs - they need money for plane ticket, medical treatment or customs.",
-            "redFlags": ["They can never meet face to face", "They declare love very quickly", "They always have excuses for not video calling", "They ask for money - for any reason"],
+            "redFlags": [
+              "They can never meet face to face",
+              "They declare love very quickly",
+              "They always have excuses for not video calling",
+              "They ask for money - for any reason"
+            ],
             "whatToDo": "Never send money to someone you only know from the internet. Talk to family or friends about the relationship.",
             "icon": "heart"
           },
@@ -2472,7 +2709,12 @@
             "title": "Lottery scam",
             "description": "You're told you've won a lottery you never entered. But you have to pay \"fee\" or \"tax\" to receive the prize.",
             "howItWorks": "They send email or call with \"good news\". To get the million prize you just have to pay a small amount first.",
-            "redFlags": ["You haven't bought a ticket or entered the competition", "You have to pay to receive the prize", "They ask for bank information to \"transfer the prize\"", "The prize is in foreign currency"],
+            "redFlags": [
+              "You haven't bought a ticket or entered the competition",
+              "You have to pay to receive the prize",
+              "They ask for bank information to \"transfer the prize\"",
+              "The prize is in foreign currency"
+            ],
             "whatToDo": "Ignore it. You can't win lotteries you haven't entered.",
             "icon": "gift"
           },
@@ -2480,7 +2722,12 @@
             "title": "Investment scam",
             "description": "Someone promises you fantastic returns on investments in stocks, cryptocurrency or other \"opportunities\".",
             "howItWorks": "They contact you with a \"unique opportunity\". Often they show fake websites that look like your investments are growing.",
-            "redFlags": ["The returns are too good to be true (20-50% or more)", "They pressure you to invest quickly", "You've never heard of the company before", "They call from abroad or have a foreign accent"],
+            "redFlags": [
+              "The returns are too good to be true (20-50% or more)",
+              "They pressure you to invest quickly",
+              "You've never heard of the company before",
+              "They call from abroad or have a foreign accent"
+            ],
             "whatToDo": "Talk to your bank before investing. Check the Financial Supervisory Authority's list of warnings.",
             "icon": "chart"
           },
@@ -2488,42 +2735,124 @@
             "title": "Contractor scam",
             "description": "Someone knocks on your door offering to fix the roof, driveway or something else \"they happened to see needed repair\".",
             "howItWorks": "They do a poor or unnecessary job and demand high payment in cash. Sometimes they disappear with the advance payment.",
-            "redFlags": ["They \"happened\" to be in the neighborhood", "They want payment in advance or cash", "They have no written quote or contract", "They pressure you to decide immediately"],
+            "redFlags": [
+              "They \"happened\" to be in the neighborhood",
+              "They want payment in advance or cash",
+              "They have no written quote or contract",
+              "They pressure you to decide immediately"
+            ],
             "whatToDo": "Say no to unsolicited offers. Use contractors you know or who are recommended by someone you trust.",
             "icon": "wrench"
           }
         ],
         "otherScamTitle": "Other common fraud types",
         "otherScamTypes": [
-          {"title": "Phone scam", "description": "Someone calls pretending to be from the bank, police or Microsoft. They want access to your account."},
-          {"title": "SMS scam", "description": "\"Your package is waiting\" or \"You've won!\" - messages with links leading to fake websites."},
-          {"title": "Email scam (phishing)", "description": "Emails that look like they come from the bank or others you trust, but want to trick you."}
+          {
+            "title": "Phone scam",
+            "description": "Someone calls pretending to be from the bank, police or Microsoft. They want access to your account."
+          },
+          {
+            "title": "SMS scam",
+            "description": "\"Your package is waiting\" or \"You've won!\" - messages with links leading to fake websites."
+          },
+          {
+            "title": "Email scam (phishing)",
+            "description": "Emails that look like they come from the bank or others you trust, but want to trick you."
+          }
         ],
         "stepsTitle": "How to protect yourself from fraud",
         "steps": [
-          {"title": "Stop and think", "description": "Scammers try to stress you into acting fast. Take your time. Real banks and authorities always give you time to think.", "tip": "If someone says \"this is urgent!\" or \"you must act NOW!\", it's almost always fraud."},
-          {"title": "Check who's contacting you", "description": "Look carefully at who's calling or sending the message. Scammers can fake phone numbers and email addresses, but there are often small errors.", "warning": "Your bank will NEVER call and ask for password, BankID code or national ID number!"},
-          {"title": "Look for spelling errors", "description": "Real messages from banks and authorities are always written with correct grammar. Scam messages often have spelling errors, strange phrasing or poor grammar.", "tip": "Read the message out loud. Does it sound strange? Then it's probably fraud."},
-          {"title": "Don't click links in messages", "description": "Scammers often send links that look real but lead to fake websites. Instead, go directly to the bank's website by typing the address yourself.", "warning": "Never log in via links in email or SMS. Always type the address yourself in the browser."},
-          {"title": "Never share personal information", "description": "Passwords, BankID codes, national ID numbers and card information should NEVER be shared with anyone who contacts you. Real companies never ask for this."},
-          {"title": "Call back on official number", "description": "If someone calls saying they're from the bank, hang up and call the bank's official number. Find the number on the bank's website or on the back of your bank card.", "tip": "Don't call back on the number that called you - it can also be faked."},
-          {"title": "Talk to someone you trust", "description": "Are you unsure? Talk to family, friends or your bank before doing anything. It's better to ask once too many than to be tricked."}
+          {
+            "title": "Stop and think",
+            "description": "Scammers try to stress you into acting fast. Take your time. Real banks and authorities always give you time to think.",
+            "tip": "If someone says \"this is urgent!\" or \"you must act NOW!\", it's almost always fraud."
+          },
+          {
+            "title": "Check who's contacting you",
+            "description": "Look carefully at who's calling or sending the message. Scammers can fake phone numbers and email addresses, but there are often small errors.",
+            "warning": "Your bank will NEVER call and ask for password, BankID code or national ID number!"
+          },
+          {
+            "title": "Look for spelling errors",
+            "description": "Real messages from banks and authorities are always written with correct grammar. Scam messages often have spelling errors, strange phrasing or poor grammar.",
+            "tip": "Read the message out loud. Does it sound strange? Then it's probably fraud."
+          },
+          {
+            "title": "Don't click links in messages",
+            "description": "Scammers often send links that look real but lead to fake websites. Instead, go directly to the bank's website by typing the address yourself.",
+            "warning": "Never log in via links in email or SMS. Always type the address yourself in the browser."
+          },
+          {
+            "title": "Never share personal information",
+            "description": "Passwords, BankID codes, national ID numbers and card information should NEVER be shared with anyone who contacts you. Real companies never ask for this."
+          },
+          {
+            "title": "Call back on official number",
+            "description": "If someone calls saying they're from the bank, hang up and call the bank's official number. Find the number on the bank's website or on the back of your bank card.",
+            "tip": "Don't call back on the number that called you - it can also be faked."
+          },
+          {
+            "title": "Talk to someone you trust",
+            "description": "Are you unsure? Talk to family, friends or your bank before doing anything. It's better to ask once too many than to be tricked."
+          }
         ],
         "neverAskTitle": "Remember: Real senders will NEVER ask you for...",
-        "neverAskList": ["Password or PIN code", "BankID code on phone", "National ID number", "To install programs on your computer", "To transfer money to a \"safe account\""],
+        "neverAskList": [
+          "Password or PIN code",
+          "BankID code on phone",
+          "National ID number",
+          "To install programs on your computer",
+          "To transfer money to a \"safe account\""
+        ],
         "examplesTitle": "Examples of real scam messages",
         "examples": [
-          {"type": "SMS", "message": "Your package is waiting for delivery. Pay 29 kr shipping here: [link]", "warning": "Post offices never send SMS about payment via links!"},
-          {"type": "Phone", "message": "Hello, this is from the bank's security department. We've detected suspicious activity and need to verify your BankID.", "warning": "The bank NEVER calls about BankID!"},
-          {"type": "Email", "message": "Dear customer, your account will be closed if you don't update your information within 24 hours.", "warning": "Real banks never threaten account closure via email!"},
-          {"type": "Phone (Grandchild scam)", "message": "Hi grandma, it's me! I've been in an accident and need 50,000 kr for a lawyer. Can you help? But don't tell mom!", "warning": "Real grandchildren don't ask you to keep things secret from parents!"}
+          {
+            "type": "SMS",
+            "message": "Your package is waiting for delivery. Pay 29 kr shipping here: [link]",
+            "warning": "Post offices never send SMS about payment via links!"
+          },
+          {
+            "type": "Phone",
+            "message": "Hello, this is from the bank's security department. We've detected suspicious activity and need to verify your BankID.",
+            "warning": "The bank NEVER calls about BankID!"
+          },
+          {
+            "type": "Email",
+            "message": "Dear customer, your account will be closed if you don't update your information within 24 hours.",
+            "warning": "Real banks never threaten account closure via email!"
+          },
+          {
+            "type": "Phone (Grandchild scam)",
+            "message": "Hi grandma, it's me! I've been in an accident and need 50,000 kr for a lawyer. Can you help? But don't tell mom!",
+            "warning": "Real grandchildren don't ask you to keep things secret from parents!"
+          }
         ],
         "contactsTitle": "Important phone numbers",
         "contacts": [
-          {"number": "112", "title": "Emergency number - Police", "description": "For immediate danger or ongoing crime", "color": "red"},
-          {"number": "02800", "title": "Police service number", "description": "To report fraud or get advice", "color": "blue"},
-          {"number": "21 05 32 00", "title": "ID theft helpline", "description": "If someone has misused your identity", "color": "green"},
-          {"number": "Bank's number", "title": "Find it on the back of your card", "description": "Block card and account in case of fraud", "color": "purple"}
+          {
+            "number": "112",
+            "title": "Emergency number - Police",
+            "description": "For immediate danger or ongoing crime",
+            "color": "red"
+          },
+          {
+            "number": "02800",
+            "title": "Police service number",
+            "description": "To report fraud or get advice",
+            "color": "blue"
+          },
+          {
+            "number": "21 05 32 00",
+            "title": "ID theft helpline",
+            "description": "If someone has misused your identity",
+            "color": "green"
+          },
+          {
+            "number": "Bank's number",
+            "title": "Find it on the back of your card",
+            "description": "Block card and account in case of fraud",
+            "color": "purple"
+          }
         ],
         "contactsTip": "Write down these numbers and keep the note by your phone!"
       },
@@ -3152,17 +3481,45 @@
         "whatIsText": "Posten has several useful digital services. You can track packages, change delivery address, find the nearest post office, and receive notifications when packages arrive.",
         "servicesTitle": "What you can do with Posten",
         "services": [
-          {"name": "Track packages", "description": "Follow your package from sender to delivery with tracking number"},
-          {"name": "Change delivery address", "description": "Send the package to another address or a post office"},
-          {"name": "Find post office", "description": "Find the nearest post office or parcel locker"},
-          {"name": "Temporary address change", "description": "Forward your mail to another address while traveling"}
+          {
+            "name": "Track packages",
+            "description": "Follow your package from sender to delivery with tracking number"
+          },
+          {
+            "name": "Change delivery address",
+            "description": "Send the package to another address or a post office"
+          },
+          {
+            "name": "Find post office",
+            "description": "Find the nearest post office or parcel locker"
+          },
+          {
+            "name": "Temporary address change",
+            "description": "Forward your mail to another address while traveling"
+          }
         ],
         "trackingTitle": "How to track a package",
         "trackingSteps": [
-          {"title": "Find the tracking number", "description": "The tracking number is in the order confirmation from the store. It's usually a long code with letters and numbers.", "tip": "Check the email from the store where you shopped."},
-          {"title": "Go to posten.no", "description": "Open your browser and go to posten.no. You can also use the Posten app on your phone.", "tip": "The app sends you notifications when the package arrives."},
-          {"title": "Enter the tracking number", "description": "On the front page of posten.no there's a tracking field. Enter the tracking number and click Track.", "tip": "You can paste the number if you copied it from the email."},
-          {"title": "See package status", "description": "Now you can see where the package is and when it's expected to arrive. You can also see previous events.", "tip": "Click \"Notify me\" to get a message when the package is ready for pickup."}
+          {
+            "title": "Find the tracking number",
+            "description": "The tracking number is in the order confirmation from the store. It's usually a long code with letters and numbers.",
+            "tip": "Check the email from the store where you shopped."
+          },
+          {
+            "title": "Go to posten.no",
+            "description": "Open your browser and go to posten.no. You can also use the Posten app on your phone.",
+            "tip": "The app sends you notifications when the package arrives."
+          },
+          {
+            "title": "Enter the tracking number",
+            "description": "On the front page of posten.no there's a tracking field. Enter the tracking number and click Track.",
+            "tip": "You can paste the number if you copied it from the email."
+          },
+          {
+            "title": "See package status",
+            "description": "Now you can see where the package is and when it's expected to arrive. You can also see previous events.",
+            "tip": "Click \"Notify me\" to get a message when the package is ready for pickup."
+          }
         ],
         "customsTitle": "Customs on packages from abroad",
         "customsText": "When ordering from abroad (outside EU/EEA), there may be customs and fees. Here's what you need to know:",

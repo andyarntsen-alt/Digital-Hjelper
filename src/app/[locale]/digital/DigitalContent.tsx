@@ -21,12 +21,12 @@ export default function DigitalContent() {
   return (
     <>
       <BreadcrumbSchema items={[
-        { name: 'Hjem', url: `/${locale}` },
-        { name: 'Digital hverdag', url: `/${locale}/digital` }
+        { name: tCommon('home'), url: `/${locale}` },
+        { name: t('hubTitle'), url: `/${locale}/digital` }
       ]} />
       <ArticleSchema
-        title="Digital hverdag - Guider for e-post, Digipost og Altinn"
-        description="Lær å bruke e-post, Digipost, Altinn og andre digitale verktøy. Enkle steg-for-steg guider for nybegynnere."
+        title={t('metaTitle')}
+        description={t('metaDescription')}
         url={`/${locale}/digital`}
         datePublished="2024-01-01"
         dateModified="2026-01-30"
@@ -56,8 +56,7 @@ export default function DigitalContent() {
           </div>
 
           <p className="text-lg text-gray-600 leading-relaxed mb-6">
-            <strong className="text-gray-900">Digital hverdag</strong> handler om å mestre de grunnleggende digitale verktøyene.
-            Her finner du guider for e-post, Digipost, Altinn og andre viktige tjenester som gjør hverdagen enklere.
+            <strong className="text-gray-900">{t('introStrong')}</strong> {t('introText')}
           </p>
 
           <div className="bg-gray-50 border border-gray-200 p-4 rounded-xl">
@@ -139,7 +138,7 @@ export default function DigitalContent() {
               </div>
               <div>
                 <p className="font-medium text-gray-900 group-hover:text-nav-blue transition-colors">BankID</p>
-                <p className="text-sm text-gray-500">Innlogging</p>
+                <p className="text-sm text-gray-500">{t('relatedBankID')}</p>
               </div>
             </Link>
             <Link href="/nav" className="group flex items-center gap-3 p-4 bg-white border border-gray-200 rounded-xl hover:border-gray-300 hover:bg-gray-50 transition-colors no-underline">
@@ -150,7 +149,7 @@ export default function DigitalContent() {
               </div>
               <div>
                 <p className="font-medium text-gray-900 group-hover:text-nav-blue transition-colors">NAV</p>
-                <p className="text-sm text-gray-500">Offentlige tjenester</p>
+                <p className="text-sm text-gray-500">{t('relatedNAV')}</p>
               </div>
             </Link>
             <Link href="/skatt" className="group flex items-center gap-3 p-4 bg-white border border-gray-200 rounded-xl hover:border-gray-300 hover:bg-gray-50 transition-colors no-underline">
@@ -161,7 +160,7 @@ export default function DigitalContent() {
               </div>
               <div>
                 <p className="font-medium text-gray-900 group-hover:text-nav-blue transition-colors">Skatteetaten</p>
-                <p className="text-sm text-gray-500">Skattemelding</p>
+                <p className="text-sm text-gray-500">{t('relatedSkatt')}</p>
               </div>
             </Link>
           </div>

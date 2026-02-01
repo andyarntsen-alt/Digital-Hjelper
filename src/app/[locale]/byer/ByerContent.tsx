@@ -4,57 +4,28 @@ import { Link } from '@/i18n/navigation';
 import { useLocale, useTranslations } from 'next-intl';
 import { BreadcrumbSchema, ArticleSchema } from '@/components/StructuredData';
 
-const byer = [
-  {
-    navn: "Oslo",
-    slug: "oslo",
-    innbyggere: "700 000+",
-    beskrivelse: "Norges hovedstad med NAV-kontorer i alle bydeler",
-    navKontorer: 15
-  },
-  {
-    navn: "Bergen",
-    slug: "bergen",
-    innbyggere: "285 000+",
-    beskrivelse: "Vestlandets hovedstad med fire NAV-kontorer",
-    navKontorer: 4
-  },
-  {
-    navn: "Trondheim",
-    slug: "trondheim",
-    innbyggere: "210 000+",
-    beskrivelse: "Teknologihovedstaden i Midt-Norge",
-    navKontorer: 4
-  },
-  {
-    navn: "Stavanger",
-    slug: "stavanger",
-    innbyggere: "145 000+",
-    beskrivelse: "Oljehovedstaden med fem NAV-kontorer",
-    navKontorer: 5
-  },
-  {
-    navn: "Kristiansand",
-    slug: "kristiansand",
-    innbyggere: "115 000+",
-    beskrivelse: "Sørlandets hovedstad med sentralt NAV-kontor",
-    navKontorer: 1
-  }
-];
-
 export default function ByerContent() {
   const locale = useLocale();
+  const t = useTranslations('services.byer');
   const tCommon = useTranslations('common');
+
+  const byer = [
+    { navn: "Oslo", slug: "oslo", innbyggere: "700 000+", beskrivelse: t('osloDesc'), navKontorer: 15 },
+    { navn: "Bergen", slug: "bergen", innbyggere: "285 000+", beskrivelse: t('bergenDesc'), navKontorer: 4 },
+    { navn: "Trondheim", slug: "trondheim", innbyggere: "210 000+", beskrivelse: t('trondheimDesc'), navKontorer: 4 },
+    { navn: "Stavanger", slug: "stavanger", innbyggere: "145 000+", beskrivelse: t('stavangerDesc'), navKontorer: 5 },
+    { navn: "Kristiansand", slug: "kristiansand", innbyggere: "115 000+", beskrivelse: t('kristiansandDesc'), navKontorer: 1 }
+  ];
 
   return (
     <>
       <BreadcrumbSchema items={[
-        { name: 'Hjem', url: `/${locale}` },
-        { name: 'Byer', url: `/${locale}/byer` }
+        { name: tCommon('home'), url: `/${locale}` },
+        { name: t('hubTitle'), url: `/${locale}/byer` }
       ]} />
       <ArticleSchema
-        title="Offentlige tjenester i Norges største byer"
-        description="Finn NAV-kontorer, Skatteetaten og helsetjenester i Oslo, Bergen, Trondheim, Stavanger og Kristiansand. Lokale adresser og åpningstider."
+        title={t('metaTitle')}
+        description={t('metaDescription')}
         url={`/${locale}/byer`}
         datePublished="2024-01-01"
         dateModified="2026-01-30"
@@ -78,32 +49,27 @@ export default function ByerContent() {
               </svg>
             </div>
             <div>
-              <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-2">
-                Offentlige tjenester i din by
-              </h1>
-              <p className="text-lg text-gray-600">Finn lokale NAV-kontorer, helsetjenester og mer</p>
+              <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-2">{t('hubTitle')}</h1>
+              <p className="text-lg text-gray-600">{t('hubSubtitle')}</p>
             </div>
           </div>
 
           <div className="bg-gray-50 border border-gray-200 p-4 rounded-xl">
-            <p className="text-gray-700">
-              Velg din by for å finne <strong className="text-gray-900">lokale NAV-kontorer</strong>, legevakter,
-              og andre offentlige tjenester med adresser, åpningstider og kontaktinformasjon.
-            </p>
+            <p className="text-gray-700">{t('introText')}</p>
           </div>
         </div>
 
         {/* By-kort */}
-        <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6">Velg din by</h2>
+        <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6">{t('selectCity')}</h2>
         <div className="grid sm:grid-cols-2 gap-4">
           {byer.map((by) => (
             <Link key={by.slug} href={`/byer/${by.slug}`} className="no-underline group">
               <div className="bg-white border border-gray-200 rounded-xl p-5 h-full hover:border-gray-300 hover:bg-gray-50 transition-colors">
                 <h3 className="text-xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors mb-1">{by.navn}</h3>
-                <p className="text-gray-500 text-sm mb-2">{by.innbyggere} innbyggere</p>
+                <p className="text-gray-500 text-sm mb-2">{by.innbyggere} {t('inhabitants')}</p>
                 <p className="text-gray-600 text-sm mb-3">{by.beskrivelse}</p>
                 <span className="inline-block bg-blue-100 text-blue-700 px-2.5 py-1 rounded-full text-xs font-medium">
-                  {by.navKontorer} NAV-kontor{by.navKontorer > 1 ? 'er' : ''}
+                  {by.navKontorer} {t('navOffices', { count: by.navKontorer })}
                 </span>
               </div>
             </Link>
@@ -112,13 +78,10 @@ export default function ByerContent() {
 
         {/* Info-boks */}
         <div className="mt-16 bg-gray-50 border border-gray-200 rounded-xl p-6">
-          <h2 className="text-lg font-bold text-gray-900 mb-3">Visste du?</h2>
-          <p className="text-gray-700 mb-4">
-            De fleste NAV-tjenester kan du bruke <strong className="text-gray-900">digitalt på nav.no</strong> uansett hvor du bor.
-            Du kan sende meldekort, søke dagpenger, sjekke utbetalinger og ha dialog med NAV - alt fra mobilen eller PC-en.
-          </p>
+          <h2 className="text-lg font-bold text-gray-900 mb-3">{t('didYouKnow')}</h2>
+          <p className="text-gray-700 mb-4">{t('didYouKnowText')}</p>
           <Link href="/nav" className="text-nav-blue hover:underline font-medium inline-flex items-center gap-1">
-            Se alle NAV-guider
+            {t('seeAllNavGuides')}
             <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
@@ -127,10 +90,8 @@ export default function ByerContent() {
 
         {/* Andre tjenester */}
         <div className="mt-8">
-          <h2 className="text-lg font-bold text-gray-900 mb-4">Nasjonale digitale tjenester</h2>
-          <p className="text-gray-600 mb-4">
-            Disse tjenestene fungerer likt uansett hvor du bor:
-          </p>
+          <h2 className="text-lg font-bold text-gray-900 mb-4">{t('nationalServices')}</h2>
+          <p className="text-gray-600 mb-4">{t('nationalServicesText')}</p>
           <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4">
             <Link href="/nav" className="group flex items-center gap-3 p-4 bg-white border border-gray-200 rounded-xl hover:border-gray-300 hover:bg-gray-50 transition-colors no-underline">
               <div className="w-10 h-10 bg-nav-blue/10 rounded-lg flex items-center justify-center flex-shrink-0">

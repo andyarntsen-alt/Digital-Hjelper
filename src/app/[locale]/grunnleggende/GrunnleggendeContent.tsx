@@ -4,33 +4,6 @@ import { Link } from '@/i18n/navigation';
 import { useTranslations, useLocale } from 'next-intl';
 import { FAQSchema, BreadcrumbSchema, ArticleSchema } from '@/components/StructuredData';
 
-const grunnleggendeFAQs = [
-  {
-    question: "Hvordan bruker jeg en smarttelefon?",
-    answer: "En smarttelefon har en berøringsskjerm som du trykker på med fingeren. For å åpne en app, trykk én gang på ikonet. For å skrolle, dra fingeren opp eller ned på skjermen. De viktigste knappene er hjem-knappen (tar deg tilbake til startskjermen) og tilbake-knappen. Start med å øve på å ringe, sende SMS og ta bilder."
-  },
-  {
-    question: "Hva er en app og hvordan laster jeg ned apper?",
-    answer: "En app er et program på telefonen din, som Vipps eller Facebook. For å laste ned nye apper, åpne 'App Store' (iPhone) eller 'Google Play' (Android). Søk etter appen du vil ha, trykk på 'Hent' eller 'Installer', og den lastes ned gratis (noen apper koster penger). Appen dukker opp på startskjermen din."
-  },
-  {
-    question: "Hvordan kobler jeg meg til WiFi?",
-    answer: "For å koble til WiFi: 1) Gå til Innstillinger på telefonen. 2) Trykk på 'WiFi' eller 'Trådløst nettverk'. 3) Velg nettverket ditt fra listen. 4) Skriv inn passordet (står ofte på ruteren eller bak på modemet). 5) Trykk 'Koble til'. Du ser et WiFi-symbol øverst på skjermen når du er tilkoblet."
-  },
-  {
-    question: "Hvordan tar jeg en videosamtale?",
-    answer: "For videosamtale trenger du en app som FaceTime (iPhone), WhatsApp, eller Skype. Åpne appen, finn personen du vil ringe, og trykk på kamera-ikonet i stedet for telefon-ikonet. Sørg for godt lys i rommet og hold telefonen slik at ansiktet ditt er synlig. Du kan også bruke datamaskin med Teams eller Zoom."
-  },
-  {
-    question: "Hva gjør jeg hvis jeg har glemt passordet mitt?",
-    answer: "Hvis du har glemt passordet: 1) Klikk på 'Glemt passord?' på innloggingssiden. 2) Skriv inn e-postadressen din. 3) Sjekk e-posten for en lenke til å lage nytt passord. 4) Lag et nytt, sikkert passord. Tips: Skriv ned passordene dine på et trygt sted, eller bruk en passordmanager."
-  },
-  {
-    question: "Hvor kan jeg få hjelp med data og internett?",
-    answer: "Det finnes mange steder du kan få gratis hjelp: 1) Biblioteket - de fleste bibliotek tilbyr datahjelp. 2) Seniornett Norge - frivillige som hjelper eldre med teknologi. 3) NAV - kan hjelpe med digitale tjenester. 4) Frivilligsentralen - mange har datakurs. 5) Familie og venner - spør om de kan vise deg."
-  }
-];
-
 const grunnleggendeGuideKeys = [
   { key: 'smarttelefon', href: '/grunnleggende/smarttelefon', difficulty: 'easy', time: 15 },
   { key: 'nettleser', href: '/grunnleggende/nettleser', difficulty: 'easy', time: 10 },
@@ -45,16 +18,25 @@ export default function GrunnleggendeContent() {
   const tCommon = useTranslations('common');
   const locale = useLocale();
 
+  const grunnleggendeFAQs = [
+    { question: t('faq.q1'), answer: t('faq.a1') },
+    { question: t('faq.q2'), answer: t('faq.a2') },
+    { question: t('faq.q3'), answer: t('faq.a3') },
+    { question: t('faq.q4'), answer: t('faq.a4') },
+    { question: t('faq.q5'), answer: t('faq.a5') },
+    { question: t('faq.q6'), answer: t('faq.a6') },
+  ];
+
   return (
     <>
       <FAQSchema questions={grunnleggendeFAQs} />
       <BreadcrumbSchema items={[
-        { name: 'Hjem', url: `/${locale}` },
-        { name: 'Grunnleggende', url: `/${locale}/grunnleggende` }
+        { name: tCommon('home'), url: `/${locale}` },
+        { name: t('hubTitle'), url: `/${locale}/grunnleggende` }
       ]} />
       <ArticleSchema
-        title="Grunnleggende digital kunnskap - Lær å bruke smarttelefon og internett"
-        description="Enkle guider for nybegynnere som vil lære å bruke smarttelefon, nettleser, videosamtale og internett. Steg-for-steg forklaringer for alle."
+        title={t('metaTitle')}
+        description={t('metaDescription')}
         url={`/${locale}/grunnleggende`}
         datePublished="2024-01-01"
         dateModified="2026-01-30"
@@ -84,9 +66,7 @@ export default function GrunnleggendeContent() {
           </div>
 
           <p className="text-lg text-gray-600 leading-relaxed mb-6">
-            <strong className="text-gray-900">Grunnleggende digital kunnskap</strong> hjelper deg å mestre hverdagens teknologi.
-            Her finner du enkle steg-for-steg guider som viser hvordan du bruker smarttelefon,
-            nettleser, videosamtale og andre digitale verktøy.
+            <strong className="text-gray-900">{t('introStrong')}</strong> {t('introText')}
           </p>
 
           <div className="bg-gray-50 border border-gray-200 p-4 rounded-xl">
@@ -158,10 +138,8 @@ export default function GrunnleggendeContent() {
 
         {/* Next steps */}
         <div className="mt-16">
-          <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">Neste steg</h2>
-          <p className="text-gray-600 mb-6">
-            Når du har lært det grunnleggende, kan du ta i bruk offentlige digitale tjenester:
-          </p>
+          <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">{t('nextStepsTitle')}</h2>
+          <p className="text-gray-600 mb-6">{t('nextStepsText')}</p>
           <div className="grid sm:grid-cols-3 gap-4">
             <Link href="/sikkerhet/bankid" className="group flex items-center gap-3 p-4 bg-white border border-gray-200 rounded-xl hover:border-gray-300 hover:bg-gray-50 transition-colors no-underline">
               <div className="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0">
@@ -171,7 +149,7 @@ export default function GrunnleggendeContent() {
               </div>
               <div>
                 <p className="font-medium text-gray-900 group-hover:text-nav-blue transition-colors">BankID</p>
-                <p className="text-sm text-gray-500">Digital innlogging</p>
+                <p className="text-sm text-gray-500">{t('nextBankID')}</p>
               </div>
             </Link>
             <Link href="/nav" className="group flex items-center gap-3 p-4 bg-white border border-gray-200 rounded-xl hover:border-gray-300 hover:bg-gray-50 transition-colors no-underline">
@@ -182,7 +160,7 @@ export default function GrunnleggendeContent() {
               </div>
               <div>
                 <p className="font-medium text-gray-900 group-hover:text-nav-blue transition-colors">NAV</p>
-                <p className="text-sm text-gray-500">Offentlige tjenester</p>
+                <p className="text-sm text-gray-500">{t('nextNAV')}</p>
               </div>
             </Link>
             <Link href="/helse" className="group flex items-center gap-3 p-4 bg-white border border-gray-200 rounded-xl hover:border-gray-300 hover:bg-gray-50 transition-colors no-underline">
@@ -193,7 +171,7 @@ export default function GrunnleggendeContent() {
               </div>
               <div>
                 <p className="font-medium text-gray-900 group-hover:text-nav-blue transition-colors">Helsenorge</p>
-                <p className="text-sm text-gray-500">Fastlege og resepter</p>
+                <p className="text-sm text-gray-500">{t('nextHelse')}</p>
               </div>
             </Link>
           </div>
