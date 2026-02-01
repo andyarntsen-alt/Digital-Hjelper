@@ -9,13 +9,27 @@ export default function ShareButton() {
   const { showToast } = useToast();
 
   const handleShare = async () => {
+    const url = window.location.href;
+    const title = document.title;
+
+    // Try native share API first (mobile/tablet)
+    if (navigator.share) {
+      try {
+        await navigator.share({ title, url });
+        return; // User shared or cancelled - no toast needed
+      } catch {
+        // User cancelled or error - fall through to copy
+      }
+    }
+
+    // Fallback: copy to clipboard (desktop)
     try {
-      await navigator.clipboard.writeText(window.location.href);
+      await navigator.clipboard.writeText(url);
       showToast(tToast('linkCopied'), 'success');
     } catch {
       // Fallback for older browsers
       const input = document.createElement('input');
-      input.value = window.location.href;
+      input.value = url;
       document.body.appendChild(input);
       input.select();
       document.execCommand('copy');
