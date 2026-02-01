@@ -1,17 +1,17 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
+import { useToast } from '@/contexts/ToastContext';
 
 export default function ShareButton() {
   const t = useTranslations('common');
   const tToast = useTranslations('toast');
+  const { showToast } = useToast();
 
   const handleShare = async () => {
     try {
       await navigator.clipboard.writeText(window.location.href);
-      window.dispatchEvent(new CustomEvent('show-toast', {
-        detail: { message: tToast('linkCopied') }
-      }));
+      showToast(tToast('linkCopied'), 'success');
     } catch {
       // Fallback for older browsers
       const input = document.createElement('input');
@@ -20,9 +20,7 @@ export default function ShareButton() {
       input.select();
       document.execCommand('copy');
       document.body.removeChild(input);
-      window.dispatchEvent(new CustomEvent('show-toast', {
-        detail: { message: tToast('linkCopied') }
-      }));
+      showToast(tToast('linkCopied'), 'success');
     }
   };
 
