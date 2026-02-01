@@ -27,6 +27,7 @@
     "save": "Save",
     "saved": "Saved",
     "favorite": "Favorite",
+    "lastUpdatedJan2026": "Last updated: January 2026",
     "comingSoon": "Coming soon",
     "comingSoonDescription": "We are working on creating this guide.",
     "comingSoonMessage": "In the meantime, you can look at our other guides, or contact the relevant agency directly for help.",
@@ -345,7 +346,19 @@
       "phoneNumber": "800 80 000",
       "phoneHours": "free, weekdays 08:00-15:30",
       "chat": "Chat",
-      "chatAvailable": "Available at skatteetaten.no"
+      "chatAvailable": "Available at skatteetaten.no",
+      "introStrong": "The Tax Administration",
+      "introText": "manages taxes in Norway. Here you will find simple guides showing you step-by-step how to log in, submit your tax return, change your tax card and understand your tax settlement.",
+      "faqTitle": "Frequently asked questions about Tax",
+      "faq": {"q1": "How do I log in to Skatteetaten?", "a1": "You log in at skatteetaten.no with BankID.", "q2": "When does the tax return come?", "a2": "The tax return usually comes in March. Deadline is April 30.", "q3": "How do I change my tax card?", "a3": "Log in to skatteetaten.no and go to 'Tax card'.", "q4": "What is the tax settlement?", "a4": "The tax settlement shows if you paid too much or too little tax.", "q5": "How do I get a tax certificate?", "a5": "Log in to skatteetaten.no and go to 'Tax certificate'.", "q6": "What is the phone number?", "a6": "Tax Administration: 800 80 000, weekdays 08:00-15:30."},
+      "relatedTitle": "Related guides",
+      "relatedText": "Need help with other public services?",
+      "relatedNav": "Unemployment benefits",
+      "relatedHelse": "Doctor, prescriptions",
+      "relatedBankID": "Login and security",
+      "metaTitle": "Tax Administration Guides",
+      "metaDescription": "Learn how to use Skatteetaten services.",
+      "lastUpdated": "Last updated: January 2026"
     },
     "helse": {
       "title": "Health Norway",

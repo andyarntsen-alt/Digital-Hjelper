@@ -269,7 +269,7 @@ export default function KristiansandContent() {
 
         {/* Sist oppdatert */}
         <p className="mt-8 text-sm text-gray-400">
-          Sist oppdatert: Januar 2026
+          {tCommon('lastUpdatedJan2026')}
         </p>
       </div>
     </>

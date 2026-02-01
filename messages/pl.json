@@ -27,6 +27,7 @@
         "save": "Zapisz",
         "saved": "Zapisano",
         "favorite": "Ulubiony",
+        "lastUpdatedJan2026": "Ostatnia aktualizacja: Styczeń 2026",
         "comingSoon": "Wkrótce",
         "comingSoonDescription": "Pracujemy nad stworzeniem tego przewodnika.",
         "comingSoonMessage": "W międzyczasie możesz przejrzeć nasze inne przewodniki lub skontaktować się bezpośrednio z odpowiednią instytucją.",
@@ -151,9 +152,11 @@
         "disclaimerTitle": "Ważne informacje",
         "disclaimerText": "LettDigital nie jest częścią NAV, Urzędu Skarbowego, Helsenorge ani innych agencji publicznych. Jesteśmy niezależną usługą pomocy, która wyjaśnia, jak działają te usługi. Wszystkie oficjalne informacje znajdziesz na stronach internetowych agencji. Nasze przewodniki są orientacyjne i nie zastępują oficjalnych informacji.",
         "mostUsed": "Najczęściej używane usługi",
+        "selectService": "Wybierz usługę, aby zacząć",
         "mostUsedDesc": "Zacznij tutaj, jeśli nie jesteś pewien. To usługi, z którymi najczęściej potrzebna jest pomoc.",
         "otherServices": "Inne usługi",
         "forHelpersTitle": "Jesteś pomocnikiem?",
+        "forHelpersHeadline": "Ułatw sobie pomaganie innym",
         "forHelpersDesc": "Pomagasz komuś z usługami cyfrowymi? Oto kilka wskazówek, które ułatwią sprawę.",
         "helperTip1Title": "Wydrukuj przewodniki",
         "helperTip1Desc": "Wszystkie nasze przewodniki można wydrukować. Kliknij przycisk drukowania u góry przewodnika.",
@@ -161,7 +164,10 @@
         "helperTip2Desc": "Użyj pola wyszukiwania u góry, aby szybko znaleźć przewodniki. Szukaj słów kluczowych, takich jak 'BankID' lub 'zeznanie podatkowe'.",
         "helperTip3Title": "Zapisz ulubione",
         "helperTip3Desc": "Oznacz przewodniki jako ulubione, aby je łatwo znaleźć. Idealne dla przewodników, których często używasz.",
-        "seeAllServices": "Zobacz wszystkie usługi"
+        "seeAllServices": "Zobacz wszystkie usługi",
+        "citiesTitle": "Znajdź usługi w swoim mieście",
+        "citiesDesc": "Lokalne biura NAV, przychodnie i usługi publiczne",
+        "citiesViewAll": "Zobacz wszystkie miasta"
     },
     "services": {
         "nav": {
@@ -207,7 +213,19 @@
             "phoneNumber": "800 80 000",
             "phoneHours": "bezpłatnie, dni robocze 08:00-15:30",
             "chat": "Czat",
-            "chatAvailable": "Dostępny na skatteetaten.no"
+            "chatAvailable": "Dostępny na skatteetaten.no",
+            "introStrong": "Urząd Skarbowy",
+            "introText": "zarządza podatkami w Norwegii. Tutaj znajdziesz proste przewodniki pokazujące krok po kroku jak się zalogować i złożyć zeznanie podatkowe.",
+            "faqTitle": "Często zadawane pytania o podatki",
+            "faq": {"q1": "Jak się zalogować?", "a1": "Zaloguj się na skatteetaten.no używając BankID.", "q2": "Kiedy przychodzi zeznanie podatkowe?", "a2": "Zwykle w marcu. Termin to 30 kwietnia.", "q3": "Jak zmienić kartę podatkową?", "a3": "Zaloguj się i przejdź do 'Karta podatkowa'.", "q4": "Co to jest rozliczenie podatkowe?", "a4": "Pokazuje czy zapłaciłeś za dużo czy za mało podatku.", "q5": "Jak uzyskać zaświadczenie podatkowe?", "a5": "Zaloguj się i przejdź do 'Zaświadczenie podatkowe'.", "q6": "Jaki jest numer telefonu?", "a6": "800 80 000, dni robocze 08:00-15:30."},
+            "relatedTitle": "Powiązane przewodniki",
+            "relatedText": "Potrzebujesz pomocy z innymi usługami?",
+            "relatedNav": "Zasiłek dla bezrobotnych",
+            "relatedHelse": "Lekarz, recepty",
+            "relatedBankID": "Logowanie i bezpieczeństwo",
+            "metaTitle": "Przewodniki Urzędu Skarbowego",
+            "metaDescription": "Naucz się korzystać z usług podatkowych.",
+            "lastUpdated": "Ostatnia aktualizacja: Styczeń 2026"
         },
         "helse": {
             "title": "Zdrowie Norwegia",

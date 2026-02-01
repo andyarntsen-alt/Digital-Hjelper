@@ -4,32 +4,7 @@ import { Link } from '@/i18n/navigation';
 import { useTranslations, useLocale } from 'next-intl';
 import { FAQSchema, BreadcrumbSchema, ArticleSchema } from '@/components/StructuredData';
 
-const bankFAQs = [
-  {
-    question: "Hvordan logger jeg inn på nettbanken?",
-    answer: "Du logger inn på nettbanken med BankID. Gå til bankens nettside, klikk på 'Logg inn', og velg BankID på mobil eller BankID med kodebrikke. Med BankID på mobil får du en melding på telefonen som du godkjenner. Med kodebrikke taster du inn engangskoden som vises."
-  },
-  {
-    question: "Hvordan betaler jeg regninger i nettbanken?",
-    answer: "Logg inn på nettbanken, velg 'Betal' eller 'Overføringer'. Skriv inn kontonummer (eller bruk KID-nummer fra fakturaen), beløp og forfallsdato. Dobbeltsjekk informasjonen og trykk 'Betal'. Du kan også sette opp faste betalinger for regninger som kommer hver måned."
-  },
-  {
-    question: "Hva er Vipps og hvordan fungerer det?",
-    answer: "Vipps er en norsk betalingsapp som lar deg sende og motta penger enkelt via mobilnummeret. Last ned Vipps fra App Store eller Google Play, koble til bankkontoen din via BankID, og du kan betale i butikker, sende penger til venner, og betale regninger."
-  },
-  {
-    question: "Hvordan setter jeg opp AvtaleGiro?",
-    answer: "AvtaleGiro er en avtale om automatisk betaling av faste regninger. Logg inn på nettbanken, finn 'AvtaleGiro' under betalinger, og søk opp leverandøren (f.eks. strøm eller telefon). Godkjenn avtalen, så trekkes beløpet automatisk fra kontoen din på forfallsdato."
-  },
-  {
-    question: "Hva gjør jeg hvis jeg har mistet bankkortet?",
-    answer: "Hvis du har mistet bankkortet, sperr det umiddelbart! Ring bankens sperretelefon (DNB: 915 04800, Nordea: 915 04750, SpareBank 1: 915 04750) eller logg inn på nettbanken og sperr kortet der. Bestill deretter et nytt kort via nettbanken eller kontakt banken."
-  },
-  {
-    question: "Hva er forskjellen på debetkort og kredittkort?",
-    answer: "Med debetkort trekkes pengene direkte fra bankkontoen din når du betaler. Med kredittkort låner du penger fra banken og får en regning i etterkant. Debetkort er tryggere fordi du ikke kan bruke mer enn du har. Kredittkort kan gi reiseforsikring og bonuspoeng, men pass på renten hvis du ikke betaler hele beløpet."
-  }
-];
+// Moved to component to use translations
 
 const bankGuideKeys = [
   { key: 'nettbank', href: '/bank/nettbank', difficulty: 'easy', time: 15 },
@@ -44,16 +19,25 @@ export default function BankContent() {
   const tCommon = useTranslations('common');
   const locale = useLocale();
 
+  const bankFAQs = [
+    { question: t('faq.q1'), answer: t('faq.a1') },
+    { question: t('faq.q2'), answer: t('faq.a2') },
+    { question: t('faq.q3'), answer: t('faq.a3') },
+    { question: t('faq.q4'), answer: t('faq.a4') },
+    { question: t('faq.q5'), answer: t('faq.a5') },
+    { question: t('faq.q6'), answer: t('faq.a6') }
+  ];
+
   return (
     <>
       <FAQSchema questions={bankFAQs} />
       <BreadcrumbSchema items={[
-        { name: 'Hjem', url: `/${locale}` },
-        { name: 'Bank', url: `/${locale}/bank` }
+        { name: tCommon('home'), url: `/${locale}` },
+        { name: t('hubTitle'), url: `/${locale}/bank` }
       ]} />
       <ArticleSchema
-        title="Bank og Nettbank - Guider for trygg digital bankbruk"
-        description="Lær hvordan du bruker nettbank, betaler regninger, setter opp Vipps og AvtaleGiro. Enkle steg-for-steg guider for trygg bankbruk på nett."
+        title={t('metaTitle')}
+        description={t('metaDescription')}
         url={`/${locale}/bank`}
         datePublished="2024-01-01"
         dateModified="2026-01-30"
@@ -83,9 +67,7 @@ export default function BankContent() {
           </div>
 
           <p className="text-lg text-gray-600 leading-relaxed mb-6">
-            <strong className="text-gray-900">Nettbank og digital bankbruk</strong> gjør hverdagen enklere.
-            Her finner du guider som viser deg steg-for-steg hvordan du logger inn på nettbanken,
-            betaler regninger, bruker Vipps, og setter opp AvtaleGiro.
+            <strong className="text-gray-900">{t('introStrong')}</strong> {t('introText')}
           </p>
 
           <div className="bg-gray-50 border border-gray-200 p-4 rounded-xl">
@@ -160,7 +142,7 @@ export default function BankContent() {
 
         {/* FAQ */}
         <div className="mt-16">
-          <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6">Vanlige spørsmål om bank og nettbank</h2>
+          <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6">{t('faqTitle')}</h2>
           <div className="space-y-3">
             {bankFAQs.map((faq, index) => (
               <details key={index} className="bg-white border border-gray-200 rounded-xl group">
@@ -184,9 +166,9 @@ export default function BankContent() {
 
         {/* Related guides */}
         <div className="mt-16">
-          <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">Relaterte guider</h2>
+          <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">{t('relatedTitle')}</h2>
           <p className="text-gray-600 mb-6">
-            Trenger du hjelp med sikkerhet og innlogging?
+            {t('relatedText')}
           </p>
           <div className="grid sm:grid-cols-3 gap-4">
             <Link href="/sikkerhet/bankid" className="group flex items-center gap-3 p-4 bg-white border border-gray-200 rounded-xl hover:border-gray-300 hover:bg-gray-50 transition-colors no-underline">
@@ -197,7 +179,7 @@ export default function BankContent() {
               </div>
               <div>
                 <p className="font-medium text-gray-900 group-hover:text-nav-blue transition-colors">BankID</p>
-                <p className="text-sm text-gray-500">Innlogging og sikkerhet</p>
+                <p className="text-sm text-gray-500">{t('relatedBankIdDesc')}</p>
               </div>
             </Link>
             <Link href="/sikkerhet/svindel" className="group flex items-center gap-3 p-4 bg-white border border-gray-200 rounded-xl hover:border-gray-300 hover:bg-gray-50 transition-colors no-underline">
@@ -207,8 +189,8 @@ export default function BankContent() {
                 </svg>
               </div>
               <div>
-                <p className="font-medium text-gray-900 group-hover:text-nav-blue transition-colors">Unnga svindel</p>
-                <p className="text-sm text-gray-500">Beskytt deg mot svindlere</p>
+                <p className="font-medium text-gray-900 group-hover:text-nav-blue transition-colors">{t('relatedFraudTitle')}</p>
+                <p className="text-sm text-gray-500">{t('relatedFraudDesc')}</p>
               </div>
             </Link>
             <Link href="/nav" className="group flex items-center gap-3 p-4 bg-white border border-gray-200 rounded-xl hover:border-gray-300 hover:bg-gray-50 transition-colors no-underline">
@@ -219,7 +201,7 @@ export default function BankContent() {
               </div>
               <div>
                 <p className="font-medium text-gray-900 group-hover:text-nav-blue transition-colors">NAV</p>
-                <p className="text-sm text-gray-500">Utbetalinger og ytelser</p>
+                <p className="text-sm text-gray-500">{t('relatedNavDesc')}</p>
               </div>
             </Link>
           </div>
@@ -248,7 +230,7 @@ export default function BankContent() {
 
         {/* Last updated */}
         <p className="mt-8 text-sm text-gray-400">
-          Sist oppdatert: Januar 2026
+          {t('lastUpdated')}
         </p>
       </div>
     </>

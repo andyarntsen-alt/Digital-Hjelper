@@ -15,51 +15,32 @@ const navGuideKeys = [
   { key: 'arbeidsledig', href: '/nav/arbeidsledig', difficulty: 'easy', time: 10 },
 ];
 
-// FAQ for SEO - direkte svar som AI kan sitere
-const navFAQs = [
-  {
-    question: "Hvordan logger jeg inn på NAV?",
-    answer: "Du logger inn på nav.no med BankID, BankID på mobil, eller Commfides. Gå til nav.no, klikk på 'Logg inn' øverst til høyre, og velg din innloggingsmetode. Hvis du har BankID på mobil, får du en melding på telefonen din som du må godkjenne."
-  },
-  {
-    question: "Hvordan sender jeg meldekort til NAV?",
-    answer: "Du sender meldekort ved å logge inn på nav.no med BankID. Gå til 'Meldekort' i menyen, fyll ut informasjon om arbeid og aktivitet for de siste 14 dagene, og send inn. Fristen er hver 14. dag, og det tar 2-3 minutter å fylle ut."
-  },
-  {
-    question: "Hvordan søker jeg dagpenger?",
-    answer: "Du søker dagpenger på nav.no. Logg inn med BankID, gå til 'Søknader', velg 'Dagpenger', og fyll ut skjemaet. Du må være registrert som arbeidssøker først. Behandlingstiden er vanligvis 3-4 uker."
-  },
-  {
-    question: "Hva er telefonnummeret til NAV?",
-    answer: "NAV sitt telefonnummer er 55 55 33 33. De er tilgjengelige mandag til fredag kl. 08:00-15:30. Du kan også chatte med NAV sin chatbot Frida på nav.no, som er tilgjengelig hele døgnet."
-  },
-  {
-    question: "Hvordan finner jeg mitt lokale NAV-kontor?",
-    answer: "Du finner ditt lokale NAV-kontor ved å gå til nav.no/sok-nav-kontor og skrive inn postnummeret ditt eller kommunen din. Du får da adresse, åpningstider og kontaktinformasjon til kontoret."
-  },
-  {
-    question: "Kan jeg få hjelp på NAV-kontoret uten avtale?",
-    answer: "De fleste NAV-kontorer tilbyr drop-in tider, men det varierer. Sjekk åpningstidene for ditt kontor på nav.no. For lengre samtaler anbefales det å bestille time på forhånd via nav.no eller telefon 55 55 33 33."
-  }
-];
-
 export default function NavContent() {
   const t = useTranslations('services.nav');
   const tGuides = useTranslations('guides.nav');
   const tCommon = useTranslations('common');
   const locale = useLocale();
 
+  const navFAQs = [
+    { question: t('faq.q1'), answer: t('faq.a1') },
+    { question: t('faq.q2'), answer: t('faq.a2') },
+    { question: t('faq.q3'), answer: t('faq.a3') },
+    { question: t('faq.q4'), answer: t('faq.a4') },
+    { question: t('faq.q5'), answer: t('faq.a5') },
+    { question: t('faq.q6'), answer: t('faq.a6') },
+  ];
+
   return (
     <>
       {/* SEO: Structured Data */}
       <FAQSchema questions={navFAQs} />
       <BreadcrumbSchema items={[
-        { name: 'Hjem', url: `/${locale}` },
-        { name: 'NAV', url: `/${locale}/nav` }
+        { name: tCommon('backToHome').replace('Tilbake til ', '').replace('Back to ', ''), url: `/${locale}` },
+        { name: t('title'), url: `/${locale}/nav` }
       ]} />
       <ArticleSchema
-        title="NAV Guider - Komplett hjelp til NAV sine digitale tjenester"
-        description="Lær hvordan du logger inn på NAV, sender meldekort, søker dagpenger og bruker alle NAV sine digitale tjenester. Enkle steg-for-steg guider."
+        title={t('metaTitle')}
+        description={t('metaDescription')}
         url={`/${locale}/nav`}
         datePublished="2024-01-01"
         dateModified="2026-01-30"
@@ -90,9 +71,7 @@ export default function NavContent() {
 
           {/* Intro text */}
           <p className="text-lg text-gray-600 leading-relaxed mb-6">
-            <strong className="text-gray-900">NAV (Arbeids- og velferdsetaten)</strong> tilbyr mange digitale tjenester som du kan bruke hjemmefra.
-            Her finner du enkle guider som viser deg steg-for-steg hvordan du logger inn på NAV,
-            sender meldekort, søker dagpenger, sykepenger og andre ytelser.
+            <strong className="text-gray-900">{t('introStrong')}</strong> {t('introText')}
           </p>
 
           <div className="bg-gray-50 border border-gray-200 p-4 rounded-xl">
@@ -140,7 +119,7 @@ export default function NavContent() {
 
         {/* FAQ section - clean, no emoji */}
         <div className="mt-16">
-          <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6">Vanlige spørsmål om NAV</h2>
+          <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6">{t('faqTitle')}</h2>
           <div className="space-y-3">
             {navFAQs.map((faq, index) => (
               <details key={index} className="bg-white border border-gray-200 rounded-xl group">
@@ -164,9 +143,9 @@ export default function NavContent() {
 
         {/* Related guides - clean, no emoji */}
         <div className="mt-16">
-          <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">Relaterte guider</h2>
+          <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">{t('relatedTitle')}</h2>
           <p className="text-gray-600 mb-6">
-            Trenger du hjelp med andre offentlige tjenester?
+            {t('relatedText')}
           </p>
           <div className="grid sm:grid-cols-3 gap-4">
             <Link href="/helse" className="group flex items-center gap-3 p-4 bg-white border border-gray-200 rounded-xl hover:border-gray-300 hover:bg-gray-50 transition-colors no-underline">
@@ -177,7 +156,7 @@ export default function NavContent() {
               </div>
               <div>
                 <p className="font-medium text-gray-900 group-hover:text-nav-blue transition-colors">Helsenorge</p>
-                <p className="text-sm text-gray-500">Fastlege, resepter</p>
+                <p className="text-sm text-gray-500">{t('relatedHelse')}</p>
               </div>
             </Link>
             <Link href="/skatt" className="group flex items-center gap-3 p-4 bg-white border border-gray-200 rounded-xl hover:border-gray-300 hover:bg-gray-50 transition-colors no-underline">
@@ -188,7 +167,7 @@ export default function NavContent() {
               </div>
               <div>
                 <p className="font-medium text-gray-900 group-hover:text-nav-blue transition-colors">Skatteetaten</p>
-                <p className="text-sm text-gray-500">Skattemelding, skattekort</p>
+                <p className="text-sm text-gray-500">{t('relatedSkatt')}</p>
               </div>
             </Link>
             <Link href="/sikkerhet/bankid" className="group flex items-center gap-3 p-4 bg-white border border-gray-200 rounded-xl hover:border-gray-300 hover:bg-gray-50 transition-colors no-underline">
@@ -199,7 +178,7 @@ export default function NavContent() {
               </div>
               <div>
                 <p className="font-medium text-gray-900 group-hover:text-nav-blue transition-colors">BankID</p>
-                <p className="text-sm text-gray-500">Innlogging og sikkerhet</p>
+                <p className="text-sm text-gray-500">{t('relatedBankID')}</p>
               </div>
             </Link>
           </div>
@@ -235,9 +214,7 @@ export default function NavContent() {
         </div>
 
         {/* Last updated */}
-        <p className="mt-8 text-sm text-gray-400">
-          Sist oppdatert: Januar 2026
-        </p>
+        <p className="mt-8 text-sm text-gray-400">{t('lastUpdated')}</p>
       </div>
     </>
   );

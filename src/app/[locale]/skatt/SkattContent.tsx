@@ -12,51 +12,32 @@ const skattGuideKeys = [
   { key: 'skatteattest', href: '/skatt/skatteattest', difficulty: 'easy', time: 5 },
 ];
 
-// FAQ for SEO
-const skattFAQs = [
-  {
-    question: "Hvordan logger jeg inn på Skatteetaten?",
-    answer: "Du logger inn på skatteetaten.no med BankID, BankID på mobil, eller Commfides. Gå til skatteetaten.no, klikk på 'Logg inn' øverst til høyre, og velg din innloggingsmetode. Du kommer da til Min side hvor du kan se skattemelding, skattekort og annen informasjon."
-  },
-  {
-    question: "Når kommer skattemeldingen?",
-    answer: "Skattemeldingen kommer vanligvis i mars hvert år. Du får varsel på SMS eller e-post når den er klar. Fristen for å levere skattemeldingen er 30. april. Hvis du ikke gjør endringer, blir skattemeldingen automatisk levert for deg."
-  },
-  {
-    question: "Hvordan endrer jeg skattekort?",
-    answer: "Du endrer skattekort ved å logge inn på skatteetaten.no og gå til 'Skattekort'. Klikk på 'Endre skattekort' og oppgi forventet inntekt, fradrag og andre endringer. Det nye skattekortet sendes automatisk til arbeidsgiveren din."
-  },
-  {
-    question: "Hva er skatteoppgjøret?",
-    answer: "Skatteoppgjøret viser om du har betalt for mye eller for lite skatt i løpet av året. Hvis du har betalt for mye, får du penger tilbake (restskatt til gode). Hvis du har betalt for lite, må du betale restskatt. Skatteoppgjøret kommer vanligvis i juni."
-  },
-  {
-    question: "Hvordan får jeg skatteattest?",
-    answer: "Du får skatteattest ved å logge inn på skatteetaten.no og gå til 'Skatteattest'. Klikk på 'Bestill skatteattest' og velg hvilken type du trenger. Skatteattesten viser at du ikke skylder skatt eller avgifter, og brukes ofte ved anbud og søknader."
-  },
-  {
-    question: "Hva er telefonnummeret til Skatteetaten?",
-    answer: "Skatteetaten har telefonnummer 800 80 000. De er tilgjengelige mandag til fredag kl. 08:00-15:30. Du kan også chatte med Skatteetaten på skatteetaten.no."
-  }
-];
-
 export default function SkattContent() {
   const t = useTranslations('services.skatt');
   const tGuides = useTranslations('guides.skatt');
   const tCommon = useTranslations('common');
   const locale = useLocale();
 
+  const skattFAQs = [
+    { question: t('faq.q1'), answer: t('faq.a1') },
+    { question: t('faq.q2'), answer: t('faq.a2') },
+    { question: t('faq.q3'), answer: t('faq.a3') },
+    { question: t('faq.q4'), answer: t('faq.a4') },
+    { question: t('faq.q5'), answer: t('faq.a5') },
+    { question: t('faq.q6'), answer: t('faq.a6') },
+  ];
+
   return (
     <>
       {/* SEO: Structured Data */}
       <FAQSchema questions={skattFAQs} />
       <BreadcrumbSchema items={[
-        { name: 'Hjem', url: `/${locale}` },
-        { name: 'Skatteetaten', url: `/${locale}/skatt` }
+        { name: tCommon('backToHome').replace('Tilbake til ', '').replace('Back to ', ''), url: `/${locale}` },
+        { name: t('title'), url: `/${locale}/skatt` }
       ]} />
       <ArticleSchema
-        title="Skatteetaten Guider - Komplett hjelp til skatt og skattemelding"
-        description="Lær hvordan du logger inn på Skatteetaten, leverer skattemelding, endrer skattekort og forstår skatteoppgjøret. Enkle steg-for-steg guider."
+        title={t('metaTitle')}
+        description={t('metaDescription')}
         url={`/${locale}/skatt`}
         datePublished="2024-01-01"
         dateModified="2026-01-30"
@@ -87,9 +68,7 @@ export default function SkattContent() {
 
           {/* Intro text */}
           <p className="text-lg text-gray-600 leading-relaxed mb-6">
-            <strong className="text-gray-900">Skatteetaten</strong> administrerer skatt og avgifter i Norge.
-            Her finner du enkle guider som viser deg steg-for-steg hvordan du logger inn på Skatteetaten,
-            leverer skattemeldingen, endrer skattekort og forstår skatteoppgjøret ditt.
+            <strong className="text-gray-900">{t('introStrong')}</strong> {t('introText')}
           </p>
 
           <div className="bg-gray-50 border border-gray-200 p-4 rounded-xl">
@@ -171,7 +150,7 @@ export default function SkattContent() {
 
         {/* FAQ section - clean, no emoji */}
         <div className="mt-16">
-          <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6">Vanlige spørsmål om Skatteetaten</h2>
+          <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6">{t('faqTitle')}</h2>
           <div className="space-y-3">
             {skattFAQs.map((faq, index) => (
               <details key={index} className="bg-white border border-gray-200 rounded-xl group">
@@ -195,10 +174,8 @@ export default function SkattContent() {
 
         {/* Related guides - clean, no emoji */}
         <div className="mt-16">
-          <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">Relaterte guider</h2>
-          <p className="text-gray-600 mb-6">
-            Trenger du hjelp med andre offentlige tjenester?
-          </p>
+          <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">{t('relatedTitle')}</h2>
+          <p className="text-gray-600 mb-6">{t('relatedText')}</p>
           <div className="grid sm:grid-cols-3 gap-4">
             <Link href="/nav" className="group flex items-center gap-3 p-4 bg-white border border-gray-200 rounded-xl hover:border-gray-300 hover:bg-gray-50 transition-colors no-underline">
               <div className="w-10 h-10 bg-nav-blue/10 rounded-lg flex items-center justify-center flex-shrink-0">
@@ -208,7 +185,7 @@ export default function SkattContent() {
               </div>
               <div>
                 <p className="font-medium text-gray-900 group-hover:text-nav-blue transition-colors">NAV</p>
-                <p className="text-sm text-gray-500">Dagpenger, sykepenger</p>
+                <p className="text-sm text-gray-500">{t('relatedNav')}</p>
               </div>
             </Link>
             <Link href="/helse" className="group flex items-center gap-3 p-4 bg-white border border-gray-200 rounded-xl hover:border-gray-300 hover:bg-gray-50 transition-colors no-underline">
@@ -219,7 +196,7 @@ export default function SkattContent() {
               </div>
               <div>
                 <p className="font-medium text-gray-900 group-hover:text-nav-blue transition-colors">Helsenorge</p>
-                <p className="text-sm text-gray-500">Fastlege, resepter</p>
+                <p className="text-sm text-gray-500">{t('relatedHelse')}</p>
               </div>
             </Link>
             <Link href="/sikkerhet/bankid" className="group flex items-center gap-3 p-4 bg-white border border-gray-200 rounded-xl hover:border-gray-300 hover:bg-gray-50 transition-colors no-underline">
@@ -230,7 +207,7 @@ export default function SkattContent() {
               </div>
               <div>
                 <p className="font-medium text-gray-900 group-hover:text-nav-blue transition-colors">BankID</p>
-                <p className="text-sm text-gray-500">Innlogging og sikkerhet</p>
+                <p className="text-sm text-gray-500">{t('relatedBankID')}</p>
               </div>
             </Link>
           </div>
@@ -259,9 +236,7 @@ export default function SkattContent() {
         </div>
 
         {/* Last updated */}
-        <p className="mt-8 text-sm text-gray-400">
-          Sist oppdatert: Januar 2026
-        </p>
+        <p className="mt-8 text-sm text-gray-400">{t('lastUpdated')}</p>
       </div>
     </>
   );

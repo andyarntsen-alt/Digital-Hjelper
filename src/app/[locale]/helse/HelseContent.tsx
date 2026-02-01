@@ -12,49 +12,31 @@ const helseGuideKeys = [
   { key: 'melding', href: '/helse/melding', difficulty: 'easy', time: 5 },
 ];
 
-const helseFAQs = [
-  {
-    question: "Hvordan logger jeg inn på Helsenorge?",
-    answer: "Du logger inn på helsenorge.no med BankID, BankID på mobil, eller Commfides. Gå til helsenorge.no, klikk på 'Logg inn' øverst til høyre, og velg din innloggingsmetode. Første gang må du godkjenne brukervilkårene."
-  },
-  {
-    question: "Hvordan bytter jeg fastlege?",
-    answer: "Du bytter fastlege ved å logge inn på helsenorge.no. Gå til 'Fastlege' i menyen, klikk på 'Bytt fastlege', og søk etter ledige fastleger i din kommune. Du kan bytte inntil to ganger per kalenderår, og byttet trer i kraft fra den 1. i påfølgende måned."
-  },
-  {
-    question: "Hvordan bestiller jeg legetime på Helsenorge?",
-    answer: "Logg inn på helsenorge.no med BankID. Gå til 'Timeavtaler', velg 'Bestill time', og velg fastlegen din eller en ledig time hos annen lege. Du kan også bestille time til blodprøver og andre undersøkelser hvis legekontoret tilbyr dette."
-  },
-  {
-    question: "Hvordan ser jeg mine resepter på Helsenorge?",
-    answer: "Logg inn på helsenorge.no og gå til 'Resepter' i menyen. Der ser du alle dine aktive resepter, hvor mange uttak som gjenstår, og når resepten utløper. Du kan også se historikk over tidligere resepter."
-  },
-  {
-    question: "Hvordan leser jeg journalen min på Helsenorge?",
-    answer: "Logg inn på helsenorge.no og gå til 'Journaldokumenter'. Her finner du notater og dokumenter fra dine legebesøk, sykehusopphold og andre helsetjenester. Det kan ta noen dager før nye dokumenter blir synlige."
-  },
-  {
-    question: "Hva er telefonnummeret til legevakten?",
-    answer: "Legevakten har telefonnummer 116 117. Dette nummeret gjelder i hele Norge. Legevakten er for akutte helseproblemer som ikke kan vente til fastlegen åpner, men som ikke er livstruende. Ved livstruende situasjoner ring 113."
-  }
-];
-
 export default function HelseContent() {
   const t = useTranslations('services.helse');
   const tGuides = useTranslations('guides.helse');
   const tCommon = useTranslations('common');
   const locale = useLocale();
 
+  const helseFAQs = [
+    { question: t('faq.q1'), answer: t('faq.a1') },
+    { question: t('faq.q2'), answer: t('faq.a2') },
+    { question: t('faq.q3'), answer: t('faq.a3') },
+    { question: t('faq.q4'), answer: t('faq.a4') },
+    { question: t('faq.q5'), answer: t('faq.a5') },
+    { question: t('faq.q6'), answer: t('faq.a6') },
+  ];
+
   return (
     <>
       <FAQSchema questions={helseFAQs} />
       <BreadcrumbSchema items={[
-        { name: 'Hjem', url: `/${locale}` },
-        { name: 'Helsenorge', url: `/${locale}/helse` }
+        { name: tCommon('home'), url: `/${locale}` },
+        { name: t('hubTitle'), url: `/${locale}/helse` }
       ]} />
       <ArticleSchema
-        title="Helsenorge Guider - Komplett hjelp til helsetjenester på nett"
-        description="Lær hvordan du logger inn på Helsenorge, bytter fastlege, bestiller legetime og ser reseptene dine. Enkle steg-for-steg guider."
+        title={t('metaTitle')}
+        description={t('metaDescription')}
         url={`/${locale}/helse`}
         datePublished="2024-01-01"
         dateModified="2026-01-30"
@@ -84,9 +66,7 @@ export default function HelseContent() {
           </div>
 
           <p className="text-lg text-gray-600 leading-relaxed mb-6">
-            <strong className="text-gray-900">Helsenorge</strong> er den offentlige helseportalen i Norge hvor du kan administrere din helse digitalt.
-            Her finner du enkle guider som viser deg steg-for-steg hvordan du logger inn på Helsenorge,
-            bytter fastlege, bestiller legetime, ser reseptene dine og leser journalen din.
+            <strong className="text-gray-900">{t('introStrong')}</strong> {t('introText')}
           </p>
 
           <div className="bg-gray-50 border border-gray-200 p-4 rounded-xl">
@@ -196,7 +176,7 @@ export default function HelseContent() {
 
         {/* FAQ section */}
         <div className="mt-16">
-          <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6">Vanlige spørsmål om Helsenorge</h2>
+          <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6">{t('faqTitle')}</h2>
           <div className="space-y-3">
             {helseFAQs.map((faq, index) => (
               <details key={index} className="bg-white border border-gray-200 rounded-xl group">
@@ -220,9 +200,9 @@ export default function HelseContent() {
 
         {/* Related guides */}
         <div className="mt-16">
-          <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">Relaterte guider</h2>
+          <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">{t('relatedTitle')}</h2>
           <p className="text-gray-600 mb-6">
-            Trenger du hjelp med andre offentlige tjenester?
+            {t('relatedText')}
           </p>
           <div className="grid sm:grid-cols-3 gap-4">
             <Link href="/nav" className="group flex items-center gap-3 p-4 bg-white border border-gray-200 rounded-xl hover:border-gray-300 hover:bg-gray-50 transition-colors no-underline">
@@ -285,7 +265,7 @@ export default function HelseContent() {
 
         {/* Last updated */}
         <p className="mt-8 text-sm text-gray-400">
-          Sist oppdatert: Januar 2026
+          {t('lastUpdated')}
         </p>
       </div>
     </>

@@ -134,7 +134,7 @@ export default function GrunnleggendeContent() {
 
         {/* FAQ */}
         <div className="mt-16">
-          <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6">Vanlige spørsmål for nybegynnere</h2>
+          <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6">{t('faqTitle')}</h2>
           <div className="space-y-3">
             {grunnleggendeFAQs.map((faq, index) => (
               <details key={index} className="bg-white border border-gray-200 rounded-xl group">
@@ -221,7 +221,7 @@ export default function GrunnleggendeContent() {
 
         {/* Last updated */}
         <p className="mt-8 text-sm text-gray-400">
-          Sist oppdatert: Januar 2026
+          {tCommon('lastUpdatedJan2026')}
         </p>
       </div>
     </>

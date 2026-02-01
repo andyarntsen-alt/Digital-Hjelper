@@ -27,6 +27,7 @@
         "save": "Kaydi",
         "saved": "La kaydiyay",
         "favorite": "Jeclaahay",
+        "lastUpdatedJan2026": "Markii ugu dambeysay la cusbooneysiiyay: Janaayo 2026",
         "comingSoon": "Dhawaan",
         "comingSoonDescription": "Waxaan ka shaqaynayaa abuurista hagahan.",
         "comingSoonMessage": "Inta aad sugayso, waxaad eegi kartaa hagayaasheena kale ama toos ula xiriir hay'adda khusaysa si aad u hesho caawimo.",
@@ -163,7 +164,10 @@
         "helperTip2Title": "Raadi waxa aad u baahan tahay",
         "helperTip2Desc": "Isticmaal sanduuqa raadinta ee sare si aad si degdeg ah u hesho hagayaasha. Ku raadi erayada muhiimka ah sida 'BankID' ama 'warbixinta canshuurta'.",
         "helperTip3Title": "Kaydi kuwa jeclaahay",
-        "helperTip3Desc": "Calaamadee hagayaasha kuwa aad jeceshahay si aad mar kale u hesho. Waa ku habboon hagayaasha aad badanaa isticmaasho."
+        "helperTip3Desc": "Calaamadee hagayaasha kuwa aad jeceshahay si aad mar kale u hesho. Waa ku habboon hagayaasha aad badanaa isticmaasho.",
+        "citiesTitle": "Ka hel adeegyada magaaladaada",
+        "citiesDesc": "Xafiisyada NAV ee maxalliga ah, dhakhtarrada degdega iyo adeegyada dadweynaha",
+        "citiesViewAll": "Arag dhammaan magaalooyinka"
     },
     "services": {
         "nav": {
@@ -209,7 +213,19 @@
             "phoneNumber": "800 80 000",
             "phoneHours": "bilaash, maalmaha shaqada 08:00-15:30",
             "chat": "Wada hadal",
-            "chatAvailable": "Waa la heli karaa skatteetaten.no"
+            "chatAvailable": "Waa la heli karaa skatteetaten.no",
+            "introStrong": "Hey'adda Canshuurta",
+            "introText": "waxay maamushaa canshuuraha Norway. Halkan waxaad ka heli doontaa hagayaal fudud.",
+            "faqTitle": "Su'aalaha inta badan la isweydiiyo",
+            "faq": {"q1": "Sideen u galaa?", "a1": "Gal skatteetaten.no adiga oo isticmaalaya BankID.", "q2": "Goorma ayuu yimaadaa warbixinta canshuurta?", "a2": "Badiyaa Maarso. Wakhtiga ugu dambeeya waa 30 Abriil.", "q3": "Sideen u beddeli karaa kaadhka canshuurta?", "a3": "Gal oo aad 'Kaadhka canshuurta'.", "q4": "Waa maxay xisaabinta canshuurta?", "a4": "Waxay muujisaa haddii aad bixisay canshuur badan ama yar.", "q5": "Sideen u helaa shahaadada canshuurta?", "a5": "Gal oo aad 'Shahaadada canshuurta'.", "q6": "Waa maxay telefoonka?", "a6": "800 80 000, maalmaha shaqada 08:00-15:30."},
+            "relatedTitle": "Hagayaal la xiriira",
+            "relatedText": "Ma u baahan tahay caawin adeegyo kale?",
+            "relatedNav": "Gunada shaqo la'aanta",
+            "relatedHelse": "Dhakhtarka, e-reseptiga",
+            "relatedBankID": "Galitaan iyo amniga",
+            "metaTitle": "Hagayaasha Hey'adda Canshuurta",
+            "metaDescription": "Baro sida loo isticmaalo adeegyada canshuurta.",
+            "lastUpdated": "Markii ugu dambeysay la cusbooneysiiyay: Janaayo 2026"
         },
         "helse": {
             "title": "Caafimaadka Norway",
