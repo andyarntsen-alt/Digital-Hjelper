@@ -6,6 +6,17 @@ const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
 const nextConfig = {
   reactStrictMode: true,
 
+  async redirects() {
+    return [
+      // Redirect /no to / (Norwegian is default locale, no prefix needed)
+      {
+        source: '/no',
+        destination: '/',
+        permanent: true,
+      },
+    ];
+  },
+
   async headers() {
     return [
       // Cache static assets for 1 year
