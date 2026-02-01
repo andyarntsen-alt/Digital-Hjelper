@@ -2,6 +2,8 @@
 
 import Breadcrumbs from '@/components/Breadcrumbs';
 import PrintButton from '@/components/PrintButton';
+import FavoriteButton from '@/components/FavoriteButton';
+import ShareButton from '@/components/ShareButton';
 import StepGuide from '@/components/StepGuide';
 import { HowToSchema } from '@/components/StructuredData';
 import { useTranslations } from 'next-intl';
@@ -57,7 +59,11 @@ export default function IdKortContent() {
         </div>
         <div className="flex flex-wrap items-start justify-between gap-4">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800">{t('title')}</h1>
-          <PrintButton />
+          <div className="flex items-center gap-2">
+            <PrintButton />
+            <ShareButton />
+            <FavoriteButton guideId="id-id-kort" title={t('title')} />
+          </div>
         </div>
         <p className="text-xl text-gray-600">{t('longDescription')}</p>
       </div>

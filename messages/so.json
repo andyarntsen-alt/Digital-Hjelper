@@ -24,6 +24,7 @@
         "addToFavorites": "Ku dar kuwa jeclaahay",
         "removeFromFavorites": "Ka saar kuwa jeclaahay",
         "print": "Daabac",
+        "share": "La wadaag",
         "save": "Kaydi",
         "saved": "La kaydiyay",
         "favorite": "Jeclaahay",
@@ -44,7 +45,8 @@
     "toast": {
         "addedToFavorites": "Ku daray kuwa jeclaahay",
         "removedFromFavorites": "Ka saaray kuwa jeclaahay",
-        "printStarted": "Daabacaadda bilaabatay"
+        "printStarted": "Daabacaadda bilaabatay",
+        "linkCopied": "Lifaaqa la koobiyay!"
     },
     "header": {
         "siteName": "LettDigital",

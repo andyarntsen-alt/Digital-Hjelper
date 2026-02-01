@@ -24,6 +24,7 @@
         "addToFavorites": "أضف إلى المفضلة",
         "removeFromFavorites": "إزالة من المفضلة",
         "print": "طباعة",
+        "share": "مشاركة",
         "save": "حفظ",
         "saved": "تم الحفظ",
         "favorite": "مفضل",
@@ -44,7 +45,8 @@
     "toast": {
         "addedToFavorites": "تمت الإضافة إلى المفضلة",
         "removedFromFavorites": "تمت الإزالة من المفضلة",
-        "printStarted": "بدأت الطباعة"
+        "printStarted": "بدأت الطباعة",
+        "linkCopied": "تم نسخ الرابط!"
     },
     "header": {
         "siteName": "LettDigital",

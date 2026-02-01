@@ -24,6 +24,7 @@
     "addToFavorites": "Legg til i favoritter",
     "removeFromFavorites": "Fjern fra favoritter",
     "print": "Skriv ut",
+    "share": "Del",
     "save": "Lagre",
     "saved": "Lagret",
     "favorite": "Favoritt",
@@ -44,7 +45,8 @@
   "toast": {
     "addedToFavorites": "Lagt til i favoritter",
     "removedFromFavorites": "Fjernet fra favoritter",
-    "printStarted": "Utskrift startet"
+    "printStarted": "Utskrift startet",
+    "linkCopied": "Lenke kopiert!"
   },
   "header": {
     "siteName": "LettDigital",
@@ -64,7 +66,8 @@
     "faq": "FAQ",
     "about": "Om oss",
     "language": "Språk",
-    "more": "Mer"
+    "more": "Mer",
+    "hjelpere": "For hjelpere"
   },
   "footer": {
     "about": "Om LettDigital",
@@ -769,6 +772,66 @@
           "description": "Opprette gratis e-postkonto for å bruke norske tjenester"
         }
       }
+    },
+    "hjelpere": {
+      "title": "For hjelpere",
+      "description": "Ressurser for deg som hjelper andre med digitale tjenester",
+      "metaTitle": "For hjelpere - LettDigital",
+      "metaDescription": "Ressurser for biblioteker, kommuner og frivillige som hjelper andre med digitale offentlige tjenester.",
+      "heroTitle": "For deg som hjelper andre",
+      "heroSubtitle": "Biblioteker, kommuner, frivillige organisasjoner og alle som bistår med digitale offentlige tjenester",
+      "howToUse": "Hvordan bruke LettDigital",
+      "showOnScreen": "Vis på skjerm",
+      "showOnScreenDesc": "Vis guidene på storskjerm eller delt skjerm mens du veileder",
+      "print": "Skriv ut",
+      "printDesc": "Alle sider kan skrives ut - perfekt for drop-in veiledning",
+      "shareLinks": "Del lenker",
+      "shareLinksDesc": "Kopier lenker til spesifikke guider og send på SMS eller e-post",
+      "useSearch": "Bruk søk",
+      "useSearchDesc": "Finn raskt riktig guide med søkefunksjonen",
+      "targetGroups": "Hvem hjelper du?",
+      "forLibraries": "For biblioteker",
+      "forLibrariesDesc": "Vis guider på publikums-PC-er, skriv ut og legg ved datamaskiner, eller tips brukere om nettstedet.",
+      "forLibrariesTips": [
+        "Sett LettDigital som startside på publikums-PC-er",
+        "Skriv ut populære guider og legg ved datamaskinene",
+        "Tips brukere som trenger hjelp med NAV, skatt eller helse"
+      ],
+      "forMunicipalities": "For kommuner og NAV-kontor",
+      "forMunicipalitiesDesc": "Bruk LettDigital som supplement til egen veiledning i servicetorg og drop-in timer.",
+      "forMunicipalitiesTips": [
+        "Del lenker til spesifikke guider med brukere",
+        "Bruk guidene som støtte under veiledning",
+        "Henvis til nettsiden for selvbetjening"
+      ],
+      "forOrganizations": "For frivillige organisasjoner",
+      "forOrganizationsDesc": "Hjelp brukere med digitale tjenester gjennom kurs og opplæring.",
+      "forOrganizationsTips": [
+        "Bruk guidene i kurs og opplæring",
+        "Tilgjengelig på flere språk for flyktninger",
+        "Perfekt for digital kafé og drop-in hjelp"
+      ],
+      "forFamily": "For familie og venner",
+      "forFamilyDesc": "Hjelper du foreldre, besteforeldre eller andre med digitale tjenester?",
+      "forFamilyTips": [
+        "Gå gjennom guidene sammen",
+        "Lagre favoritter så de finner dem igjen",
+        "Øv på sikker innlogging med BankID"
+      ],
+      "tipsTitle": "Tips for effektiv hjelp",
+      "tip1Title": "Lagre favoritter",
+      "tip1Desc": "Klikk på hjertet for å lagre guider du bruker ofte",
+      "tip2Title": "Skriv ut",
+      "tip2Desc": "Alle sider er optimalisert for utskrift med Ctrl+P",
+      "tip3Title": "Bytt språk",
+      "tip3Desc": "Bytt språk øverst til høyre for brukere som trenger annet språk",
+      "tip4Title": "Bruk søk",
+      "tip4Desc": "Søkefeltet finner raskt det du trenger",
+      "popularGuides": "Populære guider for hjelpere",
+      "popularGuidesDesc": "Disse guidene er mest brukt av hjelpere:",
+      "contactTitle": "Har du forslag?",
+      "contactDesc": "Vi setter stor pris på tilbakemeldinger fra hjelpere. Fortell oss hva som fungerer bra og hva vi kan forbedre.",
+      "feedbackPlaceholder": "Del dine erfaringer eller forslag til nye guider..."
     }
   },
   "guides": {

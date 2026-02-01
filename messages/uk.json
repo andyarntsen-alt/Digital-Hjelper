@@ -24,6 +24,7 @@
     "addToFavorites": "Додати до обраного",
     "removeFromFavorites": "Видалити з обраного",
     "print": "Друкувати",
+    "share": "Поділитися",
     "save": "Зберегти",
     "saved": "Збережено",
     "favorite": "Обране",
@@ -44,7 +45,8 @@
   "toast": {
     "addedToFavorites": "Додано до обраного",
     "removedFromFavorites": "Видалено з обраного",
-    "printStarted": "Друк розпочато"
+    "printStarted": "Друк розпочато",
+    "linkCopied": "Посилання скопійовано!"
   },
   "header": {
     "siteName": "LettDigital",

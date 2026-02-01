@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useRef, useCallback, useEffect } from 'react';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { Link, usePathname } from '@/i18n/navigation';
 import LanguageSelector from './LanguageSelector';
 
@@ -12,6 +12,7 @@ export default function Header() {
   const t = useTranslations('header');
   const tCommon = useTranslations('common');
   const pathname = usePathname();
+  const locale = useLocale();
 
   useEffect(() => {
     setMenuOpen(false);
@@ -54,7 +55,7 @@ export default function Header() {
           </Link>
 
           {/* Desktop nav - ultra minimal */}
-          <nav className="hidden md:flex items-center gap-1">
+          <nav className="hidden lg:flex items-center gap-1">
             <Link href="/nav" className="px-3 py-2 text-gray-600 hover:text-nav-blue transition-colors font-medium no-underline">
               {t('nav')}
             </Link>
@@ -64,6 +65,14 @@ export default function Header() {
             <Link href="/helse" className="px-3 py-2 text-gray-600 hover:text-nav-blue transition-colors font-medium no-underline">
               {t('helse')}
             </Link>
+            {locale === 'no' && (
+              <>
+                <span className="text-gray-300">|</span>
+                <Link href="/hjelpere" className="px-3 py-2 text-gray-600 hover:text-nav-blue transition-colors font-medium no-underline whitespace-nowrap">
+                  {t('hjelpere')}
+                </Link>
+              </>
+            )}
 
             {/* More dropdown */}
             <div
@@ -167,7 +176,7 @@ export default function Header() {
           </nav>
 
           {/* Mobile controls */}
-          <div className="flex items-center gap-2 md:hidden">
+          <div className="flex items-center gap-2 lg:hidden">
             <LanguageSelector compact />
             <button
               onClick={() => setMenuOpen(!menuOpen)}
@@ -188,7 +197,7 @@ export default function Header() {
 
         {/* Mobile menu */}
         {menuOpen && (
-          <nav className="md:hidden py-3 border-t border-gray-100 max-h-[60vh] overflow-y-auto">
+          <nav className="lg:hidden py-3 border-t border-gray-100 max-h-[60vh] overflow-y-auto">
             <div className="flex flex-col">
               <Link href="/nav" className="py-3 px-2 text-gray-700 hover:text-nav-blue no-underline font-medium" onClick={() => setMenuOpen(false)}>
                 {t('nav')}
@@ -199,6 +208,12 @@ export default function Header() {
               <Link href="/helse" className="py-3 px-2 text-gray-700 hover:text-nav-blue no-underline font-medium" onClick={() => setMenuOpen(false)}>
                 {t('helse')}
               </Link>
+              {locale === 'no' && (
+                <Link href="/hjelpere" className="py-3 px-2 text-gray-700 hover:text-nav-blue no-underline font-medium" onClick={() => setMenuOpen(false)}>
+                  {t('hjelpere')}
+                </Link>
+              )}
+              <hr className="my-2 border-gray-100" />
               <Link href="/sikkerhet" className="py-3 px-2 text-gray-700 hover:text-nav-blue no-underline" onClick={() => setMenuOpen(false)}>
                 {t('sikkerhet')}
               </Link>

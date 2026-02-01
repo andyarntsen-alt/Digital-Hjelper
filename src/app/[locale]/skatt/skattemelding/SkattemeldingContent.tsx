@@ -3,6 +3,7 @@
 import Breadcrumbs from '@/components/Breadcrumbs';
 import FavoriteButton from '@/components/FavoriteButton';
 import PrintButton from '@/components/PrintButton';
+import ShareButton from '@/components/ShareButton';
 import RelatedGuides from '@/components/RelatedGuides';
 import StepGuide from '@/components/StepGuide';
 import { HowToSchema } from '@/components/StructuredData';
@@ -61,6 +62,7 @@ export default function SkattemeldingPage() {
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800">{t('title')}</h1>
           <div className="flex items-center gap-2">
             <PrintButton />
+            <ShareButton />
             <FavoriteButton guideId="skatt-skattemelding" title={t('title')} />
           </div>
         </div>

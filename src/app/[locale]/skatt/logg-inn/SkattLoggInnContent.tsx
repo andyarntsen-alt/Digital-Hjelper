@@ -2,6 +2,8 @@
 
 import Breadcrumbs from '@/components/Breadcrumbs';
 import PrintButton from '@/components/PrintButton';
+import FavoriteButton from '@/components/FavoriteButton';
+import ShareButton from '@/components/ShareButton';
 import StepGuide from '@/components/StepGuide';
 import GuideTracker from '@/components/GuideTracker';
 import { HowToSchema } from '@/components/StructuredData';
@@ -58,7 +60,11 @@ export default function SkattLoggInnContent() {
         </div>
         <div className="flex flex-wrap items-start justify-between gap-4">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800">{t('title')}</h1>
-          <PrintButton />
+          <div className="flex items-center gap-2">
+            <PrintButton />
+            <ShareButton />
+            <FavoriteButton guideId="skatt-logg-inn" title={t('title')} />
+          </div>
         </div>
         <p className="text-xl text-gray-600">{t('longDescription')}</p>
       </div>
