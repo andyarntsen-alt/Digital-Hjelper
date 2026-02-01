@@ -105,7 +105,15 @@
         "description": "Waxaan isticmaalnaa cookies-ka lagama maarmaanka ah settings-ka. \"Aqbal dhammaan\" waxay kaloo hawlgelisaa Google Analytics si loo hagaajiyo websaydhka.",
         "readMore": "Akhri wax badan",
         "necessary": "Lagama maarmaanka ah oo keliya",
-        "accept": "Aqbal dhammaan"
+        "accept": "Aqbal dhammaan",
+        "settings": "Settings",
+        "settingsTitle": "Cookie settings",
+        "necessaryCookies": "Cookies-ka lagama maarmaanka ah",
+        "necessaryDesc": "Waxay xasuusataa settings-kaaga iyo favorites-kaaga. Lama dami karo.",
+        "analyticsCookies": "Cookies-ka falanqaynta",
+        "analyticsDesc": "Google Analytics waxay naga caawisaa inaan hagaajino websaydhka.",
+        "alwaysOn": "Had iyo jeer shidan",
+        "saveSettings": "Kaydi doorashooyinka"
     },
     "hero": {
         "headline": "Adeegyada dhijitaalka si fudud.",

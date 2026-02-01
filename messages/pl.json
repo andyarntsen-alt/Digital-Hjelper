@@ -105,7 +105,15 @@
         "description": "Używamy niezbędnych plików cookie do ustawień. \"Akceptuj wszystko\" włącza również Google Analytics do ulepszania strony.",
         "readMore": "Czytaj więcej",
         "necessary": "Tylko niezbędne",
-        "accept": "Akceptuj wszystko"
+        "accept": "Akceptuj wszystko",
+        "settings": "Ustawienia",
+        "settingsTitle": "Ustawienia plików cookie",
+        "necessaryCookies": "Niezbędne pliki cookie",
+        "necessaryDesc": "Zapamiętują twoje ustawienia i ulubione. Nie można ich wyłączyć.",
+        "analyticsCookies": "Analityczne pliki cookie",
+        "analyticsDesc": "Google Analytics pomaga nam ulepszać stronę.",
+        "alwaysOn": "Zawsze włączone",
+        "saveSettings": "Zapisz wybór"
     },
     "hero": {
         "headline": "Usługi cyfrowe łatwo.",

@@ -9,20 +9,39 @@ export default function GoogleAnalytics() {
   const [hasConsent, setHasConsent] = useState(false);
 
   useEffect(() => {
-    const consent = localStorage.getItem('cookie-consent');
-    setHasConsent(consent === 'accepted');
+    const checkConsent = () => {
+      const consent = localStorage.getItem('cookie-consent');
+      if (!consent) return false;
+      try {
+        const parsed = JSON.parse(consent);
+        return parsed.analytics === true;
+      } catch {
+        // Fallback for old format
+        return consent === 'accepted';
+      }
+    };
+
+    setHasConsent(checkConsent());
 
     // Listen for consent changes (when user accepts cookies)
     const handleStorageChange = (e: StorageEvent) => {
       if (e.key === 'cookie-consent') {
-        setHasConsent(e.newValue === 'accepted');
+        if (!e.newValue) {
+          setHasConsent(false);
+          return;
+        }
+        try {
+          const parsed = JSON.parse(e.newValue);
+          setHasConsent(parsed.analytics === true);
+        } catch {
+          setHasConsent(e.newValue === 'accepted');
+        }
       }
     };
 
     // Also listen for custom event from CookieBanner
     const handleConsentChange = () => {
-      const consent = localStorage.getItem('cookie-consent');
-      setHasConsent(consent === 'accepted');
+      setHasConsent(checkConsent());
     };
 
     window.addEventListener('storage', handleStorageChange);

@@ -124,7 +124,15 @@
     "description": "Vi bruker nødvendige cookies for innstillinger. \"Godta alle\" aktiverer også Google Analytics for å forbedre nettsiden.",
     "readMore": "Les mer",
     "necessary": "Kun nødvendige",
-    "accept": "Godta alle"
+    "accept": "Godta alle",
+    "settings": "Innstillinger",
+    "settingsTitle": "Cookie-innstillinger",
+    "necessaryCookies": "Nødvendige cookies",
+    "necessaryDesc": "Husker dine innstillinger og favoritter. Kan ikke slås av.",
+    "analyticsCookies": "Analyse-cookies",
+    "analyticsDesc": "Google Analytics hjelper oss å forbedre nettsiden.",
+    "alwaysOn": "Alltid på",
+    "saveSettings": "Lagre valg"
   },
   "hero": {
     "headline": "Digitale tjenester gjort enkelt.",

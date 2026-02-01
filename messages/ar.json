@@ -105,7 +105,15 @@
         "description": "نستخدم ملفات تعريف الارتباط الضرورية للإعدادات. \"قبول الكل\" يُفعّل أيضاً Google Analytics لتحسين الموقع.",
         "readMore": "اقرأ المزيد",
         "necessary": "الضرورية فقط",
-        "accept": "قبول الكل"
+        "accept": "قبول الكل",
+        "settings": "الإعدادات",
+        "settingsTitle": "إعدادات ملفات تعريف الارتباط",
+        "necessaryCookies": "ملفات تعريف الارتباط الضرورية",
+        "necessaryDesc": "تحفظ إعداداتك والمفضلة. لا يمكن إيقافها.",
+        "analyticsCookies": "ملفات تعريف الارتباط التحليلية",
+        "analyticsDesc": "Google Analytics يساعدنا على تحسين الموقع.",
+        "alwaysOn": "مُفعّلة دائماً",
+        "saveSettings": "حفظ الاختيارات"
     },
     "hero": {
         "headline": "الخدمات الرقمية بسهولة.",

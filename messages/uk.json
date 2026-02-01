@@ -124,7 +124,15 @@
     "description": "Ми використовуємо необхідні cookie для налаштувань. «Прийняти всі» також активує Google Analytics для покращення сайту.",
     "readMore": "Дізнатися більше",
     "necessary": "Лише необхідні",
-    "accept": "Прийняти всі"
+    "accept": "Прийняти всі",
+    "settings": "Налаштування",
+    "settingsTitle": "Налаштування cookie",
+    "necessaryCookies": "Необхідні cookie",
+    "necessaryDesc": "Зберігає ваші налаштування та обране. Не можна вимкнути.",
+    "analyticsCookies": "Аналітичні cookie",
+    "analyticsDesc": "Google Analytics допомагає нам покращувати сайт.",
+    "alwaysOn": "Завжди увімкнено",
+    "saveSettings": "Зберегти вибір"
   },
   "hero": {
     "headline": "Цифрові послуги просто.",

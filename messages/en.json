@@ -124,7 +124,15 @@
     "description": "We use necessary cookies for settings. \"Accept all\" also enables Google Analytics to improve the website.",
     "readMore": "Read more",
     "necessary": "Necessary only",
-    "accept": "Accept all"
+    "accept": "Accept all",
+    "settings": "Settings",
+    "settingsTitle": "Cookie settings",
+    "necessaryCookies": "Necessary cookies",
+    "necessaryDesc": "Remembers your settings and favorites. Cannot be turned off.",
+    "analyticsCookies": "Analytics cookies",
+    "analyticsDesc": "Google Analytics helps us improve the website.",
+    "alwaysOn": "Always on",
+    "saveSettings": "Save settings"
   },
   "hero": {
     "headline": "Digital services made simple.",
