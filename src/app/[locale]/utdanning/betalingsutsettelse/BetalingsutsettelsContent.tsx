@@ -3,8 +3,8 @@
 import { useTranslations } from 'next-intl';
 import GuideLayout, { StepData } from '@/components/layouts/GuideLayout';
 
-export default function NettbankPage() {
-  const t = useTranslations('guides.bank.nettbank');
+export default function BetalingsutsettelsContent() {
+  const t = useTranslations('guides.utdanning.betalingsutsettelse');
 
   // Get steps from translations
   const stepsRaw = t.raw('steps') as { title: string; description: string; tip?: string; warning?: string }[];
@@ -15,16 +15,15 @@ export default function NettbankPage() {
     ...(step.warning && { warning: step.warning }),
   }));
 
-  // Get checklist items from translations
-  const beforeYouStartItems = t.raw('beforeYouStartItems') as string[];
-  const securityTips = t.raw('securityTips') as string[];
+  // Get requirements from translations
+  const requirementsItems = t.raw('requirements') as string[];
 
   return (
     <GuideLayout
-      guideId="bank-nettbank"
-      translationNamespace="guides.bank.nettbank"
-      parentHref="/bank"
-      parentLabelKey="bank"
+      guideId="utdanning-betalingsutsettelse"
+      translationNamespace="guides.utdanning.betalingsutsettelse"
+      parentHref="/utdanning"
+      parentLabelKey="utdanning"
       totalTime="PT10M"
       steps={steps}
       whatIsSection={{
@@ -32,16 +31,9 @@ export default function NettbankPage() {
         textKeys: ['whatIsText1', 'whatIsText2'],
       }}
       preSection={{
-        titleKey: 'beforeYouStartTitle',
-        items: beforeYouStartItems,
+        titleKey: 'requirementsTitle',
+        items: requirementsItems,
       }}
-      postSections={[
-        {
-          titleKey: 'securityTitle',
-          items: securityTips,
-          iconType: 'lock',
-        },
-      ]}
     />
   );
 }

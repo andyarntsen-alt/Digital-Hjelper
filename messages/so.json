@@ -29,7 +29,7 @@
     "save": "Kaydi",
     "saved": "La kaydiyay",
     "favorite": "Jeclaahay",
-    "lastUpdatedJan2026": "Markii ugu dambeysay la cusbooneysiiyay: Janaayo 2026",
+    "lastUpdatedJan2026": "Markii ugu dambeysay la cusbooneysiiyay: Febraayo 2026",
     "comingSoon": "Dhawaan",
     "comingSoonDescription": "Waxaan ka shaqaynayaa abuurista hagahan.",
     "comingSoonMessage": "Inta aad sugayso, waxaad eegi kartaa hagayaasheena kale ama toos ula xiriir hay'adda khusaysa si aad u hesho caawimo.",
@@ -203,13 +203,13 @@
       "faqTitle": "Su'aalaha Inta Badan La Isweydiiyo ee NAV",
       "faq": {
         "q1": "Sideen ugu geli karaa NAV?",
-        "a1": "Ku gal nav.no adoo isticmaalaya BankID, Mobile BankID, ama MinID. Tag nav.no, guji 'Gal' oo dooro qaabka gelitaanka.",
+        "a1": "Ku gal nav.no adoo isticmaalaya BankID, BankID app, ama MinID. Tag nav.no, guji 'Gal' oo dooro qaabka gelitaanka.",
         "q2": "Sideen ugu diri karaa meldekort NAV?",
         "a2": "Dir meldekort adoo ku galaya nav.no BankID. Tag 'Meldekort' menu-ga, buuxi macluumaadka shaqada iyo hawlaha 14-kii maalmood ee la soo dhaafay.",
         "q3": "Sideen u codsadaa kaalmada shaqo la'aanta?",
         "a3": "Codso kaalmada shaqo la'aanta nav.no. Ku gal BankID, tag 'Codsiyada', dooro 'Kaalmada shaqo la'aanta' oo buuxi foomka.",
         "q4": "Waa maxay lambarrada taleefanka NAV?",
-        "a4": "Lambar taleefanka NAV waa 55 55 33 33. Waxay diyaar yihiin Isniinta ilaa Jimcaha 08:00-15:30.",
+        "a4": "Lambar taleefanka NAV waa 55 55 33 33. Waxay diyaar yihiin Isniinta ilaa Jimcaha 09:00-15:00.",
         "q5": "Sideen u helaa xafiiska NAV ee degaankayga?",
         "a5": "Ka hel xafiiskaaga NAV nav.no/sok-nav-kontor adoo gelinaya koodhka boostada ama degmada.",
         "q6": "Ma heli karaa caawimaad xafiiska NAV ballan la'aan?",
@@ -222,7 +222,7 @@
       "relatedBankID": "Gelitaanka iyo amniga",
       "metaTitle": "Hagayaasha NAV - Caawimaad buuxa adeegyada dhijitaalka NAV",
       "metaDescription": "Baro sida loo galo NAV, loo diro meldekort, loo codsado kaalmada shaqo la'aanta.",
-      "lastUpdated": "Cusbooneysiintii ugu dambeysay: Janaayo 2026"
+      "lastUpdated": "Cusbooneysiintii ugu dambeysay: Febraayo 2026"
     },
     "skatt": {
       "title": "Hey'adda Canshuurta",
@@ -247,7 +247,7 @@
       "needMoreHelpText": "Haddii aadan helin waxa aad raadinayso, la xiriir Hey'adda Canshuurta:",
       "phone": "Telefoonka",
       "phoneNumber": "800 80 000",
-      "phoneHours": "bilaash, maalmaha shaqada 08:00-15:30",
+      "phoneHours": "bilaash, maalmaha shaqada 09:00-15:00",
       "chat": "Wada hadal",
       "chatAvailable": "Waa la heli karaa skatteetaten.no",
       "introStrong": "Hey'adda Canshuurta",
@@ -265,7 +265,7 @@
         "q5": "Sideen u helaa shahaadada canshuurta?",
         "a5": "Gal oo aad 'Shahaadada canshuurta'.",
         "q6": "Waa maxay telefoonka?",
-        "a6": "800 80 000, maalmaha shaqada 08:00-15:30."
+        "a6": "800 80 000, maalmaha shaqada 09:00-15:00."
       },
       "relatedTitle": "Hagayaal la xiriira",
       "relatedText": "Ma u baahan tahay caawin adeegyo kale?",
@@ -274,7 +274,7 @@
       "relatedBankID": "Galitaan iyo amniga",
       "metaTitle": "Hagayaasha Hey'adda Canshuurta",
       "metaDescription": "Baro sida loo isticmaalo adeegyada canshuurta.",
-      "lastUpdated": "Markii ugu dambeysay la cusbooneysiiyay: Janaayo 2026"
+      "lastUpdated": "Markii ugu dambeysay la cusbooneysiiyay: Febraayo 2026"
     },
     "helse": {
       "title": "Caafimaadka Norway",
@@ -294,7 +294,7 @@
       "legevaktNumber": "116 117",
       "legevaktDesc": "Markaad u baahan tahay caawin degdeg oo aan degdeg ahayn",
       "poisonControl": "Xakameynta Sunta",
-      "poisonControlNumber": "22 58 00 00",
+      "poisonControlNumber": "22 59 13 00",
       "poisonControlDesc": "Sunta ama sunta la shakiyay",
       "canDoTitle": "Waxa aad ku samayn karto Helsenorge",
       "canDoBooking": "Samee ballan dhakhtar",
@@ -322,7 +322,7 @@
       "faqTitle": "Su'aalaha Inta Badan La Isweydiiyo ee Helsenorge",
       "faq": {
         "q1": "Sideen ugu geli karaa Helsenorge?",
-        "a1": "Ku gal helsenorge.no adoo isticmaalaya BankID, Mobile BankID, ama MinID. Tag helsenorge.no, guji 'Gal' oo dooro qaabka gelitaanka.",
+        "a1": "Ku gal helsenorge.no adoo isticmaalaya BankID ama BankID app. MinID waxay bixisaa gelitaan xaddidan oo keliya (adeegyada caafimaadka dugsiga). Tag helsenorge.no, guji 'Gal' oo dooro qaabka gelitaanka.",
         "q2": "Sideen u ballansadaa ballan dhakhtar?",
         "a2": "Ku gal helsenorge.no, tag 'Ballannada' oo dooro 'Ballanso'. Waxaad la ballansali kartaa dhakhtarkaaga ama takhasuslaha.",
         "q3": "Sideen u arki karaa dawooyinkayga?",
@@ -338,7 +338,7 @@
       "relatedText": "Ma u baahan tahay caawimaad adeegyo kale oo dawladeed?",
       "metaTitle": "Hagayaasha Helsenorge - Caawimaad buuxa adeegyada caafimaadka onlaynka",
       "metaDescription": "Baro sida loo isticmaalo Helsenorge si aad u ballansato, u aragto dawooyinka, u beddesho dhakhtarka.",
-      "lastUpdated": "Cusbooneysiintii ugu dambeysay: Janaayo 2026"
+      "lastUpdated": "Cusbooneysiintii ugu dambeysay: Febraayo 2026"
     },
     "sikkerhet": {
       "title": "Amniga Dhijitaalka",
@@ -366,7 +366,7 @@
         "bank": "Wac bangigaaga oo xir kaarka/koontada",
         "police": "U sheeg booliska politiet.no",
         "password": "Beddel furaha sirta dhammaan koontoyinkaaga muhiimka ah",
-        "idTheft": "La xiriir caawinta xatooyadda aqoonsiga 21 05 32 00"
+        "idTheft": "La xiriir NorSIS talo xadista aqoonsiga 40 00 58 99"
       },
       "metaTitle": "Amniga Dhijitaalka - Iska ilaali khiyaanada iyo phishing-ka",
       "metaDescription": "Baro sida aad isaga ilaalin karto khiyaanada, phishing-ka iyo xatooyo aqoonsiga internetka.",
@@ -390,7 +390,7 @@
       "relatedNav": "Gal si ammaan ah",
       "relatedHelse": "Gelitaan ammaan ah",
       "relatedBank": "Amniga bangiga",
-      "lastUpdated": "Markii ugu dambeysay la cusbooneysiiyay: Janaayo 2026"
+      "lastUpdated": "Markii ugu dambeysay la cusbooneysiiyay: Febraayo 2026"
     },
     "bank": {
       "title": "Bangiga iyo Maaliyadda",
@@ -419,7 +419,7 @@
       "faqTitle": "Su'aalaha Inta Badan La Isweydiiyo ee Bangiga Onlaynka",
       "faq": {
         "q1": "Sideen ugu geli karaa bangiga onlaynka?",
-        "a1": "Ku gal websaydhka bangiga ama app-ka adoo isticmaalaya BankID. Tag websaydhka bangiga, guji 'Gal' oo ku xaqiiji Mobile BankID.",
+        "a1": "Ku gal websaydhka bangiga ama app-ka adoo isticmaalaya BankID. Tag websaydhka bangiga, guji 'Gal' oo ku xaqiiji BankID app.",
         "q2": "Sideen u bixiyaa biil?",
         "a2": "Ku gal bangiga onlaynka, dooro 'Bixinta' ama 'Wareejinta', geli lambar KID, lambar koonto iyo qadarka biilka.",
         "q3": "Waa maxay Vipps sideen u isticmaalaa?",
@@ -439,7 +439,7 @@
       "relatedNavDesc": "Faa'iidooyinka iyo lacagaha",
       "metaTitle": "Hagayaasha Bangiga - Caawimaad buuxa adeegyada bangiga dhijitaalka",
       "metaDescription": "Baro sida loo isticmaalo bangiga onlaynka, loo bixiyo biilasha, loo isticmaalo Vipps.",
-      "lastUpdated": "Cusbooneysiintii ugu dambeysay: Janaayo 2026"
+      "lastUpdated": "Cusbooneysiintii ugu dambeysay: Febraayo 2026"
     },
     "digital": {
       "title": "Qalabka Dhijitaalka",
@@ -501,7 +501,7 @@
       "linkKommune": "Degmadaada",
       "linkKommuneDesc": "Codso guriga degmada",
       "linkPhone": "Telefoonka Husbanken:",
-      "linkPhoneHours": "33 35 70 00 (maalmaha shaqada 08-15:30)"
+      "linkPhoneHours": "22 96 16 00 (maalmaha shaqada 09-15)"
     },
     "utdanning": {
       "title": "Waxbarasho iyo Lånekassen",
@@ -525,7 +525,7 @@
       "linkSamordna": "samordnaopptak.no",
       "linkSamordnaDesc": "Codso waxbarasho sare",
       "linkPhone": "Telefoonka Lånekassen:",
-      "linkPhoneHours": "55 55 44 00 (maalmaha shaqada 09-15)"
+      "linkPhoneHours": "21 49 60 00 (maalmaha shaqada 09-15)"
     },
     "id": {
       "title": "ID iyo dukumeentiyada",
@@ -540,7 +540,7 @@
       "passInfoTitle": "Baasaboor",
       "passInfoDesc": "Safarka ka baxsan Scandinavia. Waxaa shaqaynaya 10 sano (5 sano carruurta). Sidoo kale waxaa loo isticmaali karaa ID Norway.",
       "forerkortInfoTitle": "Shatiga darawalnimada",
-      "forerkortInfoDesc": "In aad waddo gaariga. Waxaa u shaqeeya aqoonsi Norway. Wuxuu ansax yahay 10 sano (ka yar 65), 5 sano (65-74), ama 2 sano (ka weyn 75).",
+      "forerkortInfoDesc": "In aad waddo gaariga. Waxaa u shaqeeya aqoonsi Norway. Waa in la cusbooneysiiyo 15 sano kasta.",
       "idKortInfoTitle": "Kaadhka ID-ga qaranka",
       "idKortInfoDesc": "Bedel baasaboorka. Xaqa safarka waxaad ku safri kartaa EEA. Cabbirka waa ku habboon jeebaaga.",
       "usefulLinksTitle": "Xiriiriyeyaasha faa'iidada leh",
@@ -705,7 +705,7 @@
         "whoCanGet": "Yaa heli kara kaalmada shaqo la'aanta?",
         "whoCanGetIntro": "Si aad u hesho kaalmada shaqo la'aanta waa inaad caadi ahaan:",
         "requirements": [
-          "Ka shaqeysay ugu yaraan 186,042 NOK 12-kii bilood ee ugu dambeeyay, ama 372,084 NOK 36-dii bilood ee ugu dambeeyay (qiimaha 2024)",
+          "Ka shaqeysay ugu yaraan 186,042 NOK 12-kii bilood ee ugu dambeeyay, ama 372,084 NOK 36-dii bilood ee ugu dambeeyay (qiimaha 2026)",
           "Saacadaha shaqadaada lagu dhimay ugu yaraan 50%",
           "Tahay diiwaan gashan oo shaqo raadiye ah oo si firfircoon shaqo u raadinayso",
           "Ku noolaatid Norway oo aad xaq u leedahay inaad halkan ka shaqeyso"
@@ -724,7 +724,7 @@
         "importantJobsearch": "Raadinta shaqada",
         "importantJobsearchText": "Waa inaad si firfircoon shaqo u raadinaysaa oo aad diiwaangelin. NAV waxay ku weydiin karaan inaad tusiso codsigaaga shaqada.",
         "importantAmount": "Intee ayaad heli doontaa?",
-        "importantAmountText": "Kaalmada shaqo la'aanta waa qiyaastii 62.4% dakhliga hore, ilaa 6G (qiyaastii 744,000 NOK). Lacagta waxaa caadi ahaan la bixiyaa dambe.",
+        "importantAmountText": "Kaalmada shaqo la'aanta waa qiyaastii 62.4% dakhliga hore, ilaa 6G (qiyaastii 780,960 NOK). Lacagta waxaa caadi ahaan la bixiyaa dambe.",
         "steps": [
           {
             "title": "Marka hore iska diiwaan geli shaqo raadiye",
@@ -789,7 +789,7 @@
         "whoCanGet": "Yaa heli kara lacagta xanuunka?",
         "requirements": [
           "Shaqo ku jirtay ugu yaraan 4 toddobaad ka hor intaadan jiranin",
-          "Waxaad ka shaqeysaa ugu yaraan 59,310 NOK sanadkii (badh kiisadda aasaasiga)",
+          "Waxaad ka shaqeysaa ugu yaraan 65,080 NOK sanadkii (badh kiisadda aasaasiga)",
           "Waxaad leedahay warqad xanuun oo dhakhtar",
           "Waxaad lumisay dakhli sababtoo ah xanuun"
         ],
@@ -799,7 +799,7 @@
         "navPeriod": "Wakhtiga NAV (maalinta 17 ka dib)",
         "navPeriodText": "Maalinta 17 ka dib, NAV ayaa la wareegta. Ka dib waa inaad codsad.",
         "howMuch": "Intee ayaad heli doontaa?",
-        "howMuchText": "Waxaad helaysaa 100% dakhligaaga, ilaa 6G (qiyaastii 744,000 NOK). Loo shaqeeyahaagu wuxuu daboolaan karaa wax ka badan.",
+        "howMuchText": "Waxaad helaysaa 100% dakhligaaga, ilaa 6G (qiyaastii 780,960 NOK). Loo shaqeeyahaagu wuxuu daboolaan karaa wax ka badan.",
         "howLong": "Intee in le'eg?",
         "howLongText": "Waxaad heli kartaa lacagta xanuunka ilaa 52 toddobaad (1 sano). Ka dib, waxaa laga yaabaa inaad xaq u leedahay AAP.",
         "stepsTitle": "Sida loo codsado lacagta xanuunka",
@@ -868,11 +868,11 @@
         "youHaveRight": "Waxaad xaq u leedahay kaalmada waalidnimada haddii:",
         "rightConditions": [
           "Dakhli aad lahayd ugu yaraan 6 ka mid ah 10-ka bilood ee ugu dambeeyay",
-          "Waxaad ka shaqeysaa ugu yaraan 59,310 NOK sanadkii (0.5G)",
+          "Waxaad ka shaqeysaa ugu yaraan 65,080 NOK sanadkii (0.5G)",
           "Dakhligu wuxuu ka yimaadaa shaqo, shaqo xor ah, ama shaqo gaar"
         ],
         "noRightTitle": "Xaq uma lihid kaalmada waalidnimada?",
-        "noRightText": "Markaas waxaa laga yaabaa inaad xaq u leedahay lacag hal mar ah (qiyaastii 92,000 NOK) beddelkiisa. Tan ka codso si isku mid ah nav.no.",
+        "noRightText": "Markaas waxaa laga yaabaa inaad xaq u leedahay lacag hal mar ah (qiyaastii 92,648 NOK) beddelkiisa. Tan ka codso si isku mid ah nav.no.",
         "stepsTitle": "Sida loo codsado kaalmada waalidnimada",
         "importantDates": "Taariikhaha muhiimka ah ee la xusuusto",
         "date4WeeksBefore": "Ugu horreyn ee aad codsan karto kaalmada waalidnimada",
@@ -884,7 +884,7 @@
         "steps": [
           {
             "title": "Hubi inaad xaq u leedahay kaalmada waalidnimada",
-            "description": "Waa inaad shaqeysay oo aad lahayd dakhli ugu yaraan 6 ka mid ah 10-ka bilood ee ugu dambeeyay ka hor inta aan fasaxa bilaabin. Waa inaad sidoo kale ka shaqeysaa ugu yaraan 59,310 NOK sanadkii.",
+            "description": "Waa inaad shaqeysay oo aad lahayd dakhli ugu yaraan 6 ka mid ah 10-ka bilood ee ugu dambeeyay ka hor inta aan fasaxa bilaabin. Waa inaad sidoo kale ka shaqeysaa ugu yaraan 65,080 NOK sanadkii.",
             "tip": "Ma hubtid? Isticmaal xisaabiyaha nav.no si aad u aragto waxa aad heli karto."
           },
           {
@@ -1351,7 +1351,7 @@
           }
         ],
         "howMuchTitle": "Intee ayaad helaysaa?",
-        "howMuchText": "Naafada caadi ahaan waa 66% dakhligaagii ka hor intaadan jiranin, ilaa 6G (qiyaastii 744,000 kr). Ugu yaraan waa qiyaastii 2.5G kuwa keligood ah. Waxaad sidoo kale shaqeyn kartaa wax yar dhinaca oo aadan lumin naafada oo dhan.",
+        "howMuchText": "Naafada caadi ahaan waa 66% dakhligaagii ka hor intaadan jiranin, ilaa 6G (qiyaastii 780,960 kr). Ugu yaraan waa qiyaastii 2.5G kuwa keligood ah. Waxaad sidoo kale shaqeyn kartaa wax yar dhinaca oo aadan lumin naafada oo dhan.",
         "importantTitle": "Muhiim in la ogaado",
         "important": [
           "Waxaad haysan kartaa naafada qayb ah (tusaale 50%) oo ka shaqeysaa wakhti-qayb dhinaca",
@@ -1459,17 +1459,17 @@
               {
                 "name": "Safar shaqo",
                 "description": "Haddii aad socdid 37 km ama ka badan sidii hal aag ah, waxaad heli kartaa khasaarad",
-                "amount": "Qiyaastii 1.83 kr km kasta oo 37 km ka badan"
+                "amount": "Qiyaastii 1.90 kr km kasta oo 37 km ka badan"
               },
               {
                 "name": "Lacagta xubin urur-shaqaale",
                 "description": "Xusuqaalka urur-shaqaalaha waxa lagu bixiyaa khasaarad si automatic ah",
-                "amount": "Illaa qiyaastii 8,250 kr"
+                "amount": "Illaa qiyaastii 8,700 kr"
               },
               {
                 "name": "Xafiiska guriga",
                 "description": "Haddii aad midig guri ka shaqeynaysid, waxaad heli kartaa khasaarad",
-                "amount": "Qiyaastii 2,050 kr sannadkiiba (khasaarad caadi)"
+                "amount": "Qiyaastii 2,240 kr sannadkiiba (khasaarad caadi)"
               },
               {
                 "name": "Qalabka iyo qalabka",
@@ -1489,7 +1489,7 @@
               {
                 "name": "BSU (Kaydinta Guri ee ay gaarka u leeyihiin)",
                 "description": "Kaydinta guri ee ay gaarka u leeyihiin dad ka yar 34 jir",
-                "amount": "20% kaydiga, deg 5 500 kr"
+                "amount": "10% kaydiga, deg 2 750 kr"
               },
               {
                 "name": "Karaaxida guri oo ay qof kale haysto",
@@ -1514,7 +1514,7 @@
               {
                 "name": "Khasaarada waalidka",
                 "description": "Kharashka xanaanada, SFO, hay'adaha carruurta",
-                "amount": "Illaa 25,000 kr hal caruur, +15,000 kr caruur kasta oo dheeraad ah"
+                "amount": "Illaa 15,000 kr hal caruur, +10,000 kr caruur kasta oo dheeraad ah (2026)"
               },
               {
                 "name": "Khasaarada gaar ah ee ardayga hal-mid",
@@ -2685,9 +2685,9 @@
             "color": "blue"
           },
           {
-            "number": "21 05 32 00",
-            "title": "Caawinta xadista aqoonsiga",
-            "description": "Haddii qof si khaldan u isticmaalay aqoonsigaaga",
+            "number": "40 00 58 99",
+            "title": "NorSIS",
+            "description": "Talo xadista aqoonsiga iyo amniga dhijitaalka",
             "color": "green"
           },
           {
@@ -3750,6 +3750,45 @@
           "Lånekassen way soo dirtaa xusuusin kahor markii lagu baxayo - xaqiiji inbox",
           "Xiriir Lånekassen awal hadii aad dhibaataysantahay bixinta"
         ]
+      },
+      "betalingsutsettelse": {
+        "title": "Codso hakinta lacag bixinta",
+        "description": "Dib u dhig bixinta deyntaada waxbarashada",
+        "longDescription": "Baro sida loo codsado hakinta lacag bixinta ee Lånekassen haddii aad u baahan tahay nasasho bixinta.",
+        "time": "Qiyaastii 10 daqiiqo",
+        "difficulty": "Fudud",
+        "whatIsTitle": "Waa maxay hakinta lacag bixinta?",
+        "whatIsText1": "Hakinta lacag bixinta waxay ka dhigan tahay in aad si ku meel gaar ah aadan u bixin deyntaada waxbarashada. Waxaad heli kartaa hakinta ilaa 36 bilood guud ahaan intii lagu jiray waqtiga bixinta.",
+        "whatIsText2": "Ogsoonow in renta weli ay sii socoto xitaa markaad haysato hakinta lacag bixinta, sidaa darteed deyntaadu way kori doontaa xilligaas. Sidaa darteed, waxay noqon kartaa mid caqli ah in aad bixiso marka aad awood u yeelatid.",
+        "requirementsTitle": "Goorma ayaad heli kartaa hakinta lacag bixinta?",
+        "requirements": [
+          "Waxaad bilaawday inaad ku celiso deyntaada waxbarashada",
+          "Kama isticmaalin dhammaan 36 bilood ee hakinta",
+          "Kuma jirto waxbarasho firfircoon (markaas waxaad haysataa cafis lacag bixin oo toos ah)"
+        ],
+        "stepsTitle": "Sida loo codsado hakinta lacag bixinta",
+        "steps": [
+          {
+            "title": "Ku soo gal lanekassen.no",
+            "description": "Tag lanekassen.no oo ku soo gal adoo isticmaalaya BankID ama MinID. Waxaad sidoo kale isticmaali kartaa app-ka Lånekassen.",
+            "tip": "App-ku waa mid sahlan in loo isticmaalo isbeddelada degdega ah."
+          },
+          {
+            "title": "Tag Bixinta",
+            "description": "Ka hel menu-ga 'Bixinta' menu-ga ugu weyn. Ka dib dooro 'Codso hakinta lacag bixinta'."
+          },
+          {
+            "title": "Dooro xilliga hakinta",
+            "description": "Dooro immisa bilood oo hakinta ah aad rabto. Waxaad codsan kartaa ilaa 12 bilood hal mar.",
+            "tip": "Kaliya codso waqtiga aad u baahan tahay - renta weli way sii socotaa."
+          },
+          {
+            "title": "Soo gudbi codsiga",
+            "description": "Xaqiiji doorashooyinkaaga oo soo gudbi codsiga. Waxaad heli doontaa jawaab isla markiiba, isbeddelkuna wuxuu dhaqan geli doonaa isla markiiba."
+          }
+        ],
+        "helpTitle": "Ma u baahan tahay caawimaad?",
+        "helpText": "Wac Lånekassen 22 00 22 00 (maalmaha shaqada 08-15) ama isticmaal chat-ka lanekassen.no. Waxaad sidoo kale u diri kartaa fariin bogga galitaanka."
       }
     },
     "id": {
@@ -3816,11 +3855,11 @@
         "difficulty": "Fudud",
         "whatIsTitle": "Ku saabsan shatiga darawalnimada",
         "whatIsText1": "Shatiga darawalnimada waa caddeyn in aad xaq u leedahay inaad waddo iyo kaadhka aqoonsiga ee sax ah. Waa in la cusbooneysiiyo si joogto ah.",
-        "whatIsText2": "Shatiga darawalnimada ee gaariiga shakhsiga ah (fasalka B) wuxuu ansax yahay 10 sano kuwa ka yar 65 sano, 5 sano kuwa u dhexeeya 65-74 sano, iyo 2 sano kuwa ka weyn 75 sano.",
+        "whatIsText2": "Shatiga darawalnimada ee gaariiga shakhsiga ah (fasalka B) wuxuu ansax yahay 15 sano kuwa ka yar 65 sano. Kuwa ka weyn 65 sano, wuxuu ansax yahay ilaa maalinta ka horeysa 80 jirka. Ka dib 80 sano, waa inaad ku cusbooneysiisaa caddayn caafimaad (ugu badnaan 3 sano mar kasta).",
         "requirementsTitle": "Waxa aad u baahan tahay",
         "requirements": [
           "Aqoonsi sax ah",
-          "Shahaadada caafimaadka haddii aad ka weyn tahay 75 sano",
+          "Shahaadada caafimaadka haddii aad ka weyn tahay 80 sano",
           "Lacag bixin (qiyaastii 250-400 kr)",
           "Sawir baasaboor cusub (waa la qaadan karaa saldhigga taraafikada)"
         ],
@@ -3855,7 +3894,7 @@
         "tipsTitle": "Talooyin waxtar leh",
         "tips": [
           "Cusbooneysii shatiga ka hor inta uusan dhicin - lama oggola in lagu wado shati dhacay",
-          "Haddii aad ka weyn tahay 75 sano, waxaad u baahan tahay shahaadada caafimaadka ee dhakhtarka",
+          "Haddii aad ka weyn tahay 80 sano, waxaad u baahan tahay shahaadada caafimaadka ee dhakhtarka",
           "Shatiga lumo waxaa lagu beddeli karaa lacag",
           "Waxaad ka hubin kartaa ansaxnimada vegvesen.no",
           "Shatiga darawalnimada EU-da wuxuu ku shaqeeyaa Yurub oo dhan"
@@ -4182,7 +4221,7 @@
           {
             "name": "Seniornett Norway",
             "description": "Wakaarada volunteers oo caawinaya senioro dhijitalka. Waxa ay leedahay kooxo lokal wadamadu oo leh korsiga iyo caawin.",
-            "howToContact": "Tag seniornett.no ama wici 22 42 99 99",
+            "howToContact": "Tag seniornett.no ama wici 22 42 96 26",
             "price": "Bilaash ama raqiiq"
           },
           {
@@ -4519,7 +4558,7 @@
       },
       {
         "question": "Goorma ayay qaadataa jawaab codsiga NAV?",
-        "answer": "Wakhtiga hawlgelinta way beddeli kartaa: Faa'iidooyinka la'aanta badiyaa waxy qaadataa 3-4 toddobaad. Bicnaha xanuunka waxy qaadataa 2-4 toddobaad.",
+        "answer": "Wakhtiga hawlgelinta way beddeli kartaa: Faa'iidooyinka la'aanta badiyaa waxy qaadataa ilaa 5 toddobaad. Bicnaha xanuunka waxy qaadataa 2-4 toddobaad.",
         "category": "NAV"
       },
       {
@@ -4612,7 +4651,7 @@
   "privacy": {
     "title": "Qorshaynta Asturnaanta",
     "backToHome": "Ku laabo bogga hore",
-    "lastUpdated": "Cusbooneysiinta ugu dambeysey: Janaayo 2025",
+    "lastUpdated": "Cusbooneysiinta ugu dambeysey: Febraayo 2026",
     "whoAreWe": {
       "title": "Waa kuwee?",
       "text1": "LettDigital waa adeeg macluumaad oo ka caawiya dadka isticmaalka adeegyada dhijitaalka ee dawladda. Ma ahan qayb ka mid ah NAV, Hey'adda Canshuurta ama Caafimaadka Norway, laakiin waxaan bixinaa hage ku salaysan macluumaadka dadweynaha.",
@@ -4751,7 +4790,7 @@
       "name": "Oslo",
       "description": "Magalooyinka madaxtinimada ay leh xafiisada NAV ee degmada oo dhan",
       "intro": "Oslo waa magalooyinka madaxtinimada leh in ka badan 700 000 oo dadka . Halkaan waad helaysaa faahfaahin ku saabsan adeegga bulshada oo dhan ee Oslo, oo ay ku jiraan xafiisada NAV ee degmada oo dhan, Skatteetaten iyo adeegga caafimaadka. Isticmaal bogga si aad u heliso cinwaannada, wakhtiga furitaanka iyo macluumaadka xiriirka.",
-      "emergencyAddress": "Storgata 40, 0182 Oslo",
+      "emergencyAddress": "Trondheimsveien 233, Aker sykehus",
       "faq1q": "Halkan ayaan ku heli karaa xafiiska NAV ee Oslo?",
       "faq1a": "Oslo waxay leedahay xafiisada NAV ee degmada oo dhan. Waad helaysaa xafiiska halista ah salka meydka aad ku nool tahay: NAV Gamle Oslo, NAV Grünerløkka, NAV Sagene, NAV St. Hanshaugen, NAV Frogner, NAV Ullern, NAV Vestre Aker, NAV Nordre Aker, NAV Bjerke, NAV Grorud, NAV Stovner, NAV Alna, NAV Østensjø, NAV Nordstrand iyo NAV Søndre Nordstrand.",
       "faq2q": "Maxaa yeelay waqtiga furitaanka NAV ee Oslo?",
@@ -4759,7 +4798,7 @@
       "faq3q": "Halkan ayaa Skatteetaten ee Oslo?",
       "faq3a": "Skatteetaten waxay leedahay xafiisada ee labka qalfsanaa. Waad isticmaali kartaa adeegga digital ee skatteetaten.no oo kale si uu u abuuqo hawshaha badan sida wararka canbirta, kaararka canbirta iyo wararka guurka.",
       "faq4q": "Halkan ayaan ku heli karaa xarunta degdega ee Oslo?",
-      "faq4a": "Xarunta degdega ee Oslo waxay ku taal Storgata 40 (Labka qalfsanaa). Furan 24 saac. Telefon: 116 117. Halkii ay jiraan xaalad lagu baladda khatar: wac 113. Waxa jira oo dhan xaruntada degdega ee degmada badan.",
+      "faq4a": "Xarunta degdega ee Oslo waxay ku taal Aker sykehus, Trondheimsveien 233. Furan 24 saac. Telefon: 116 117. Halkii ay jiraan xaalad lagu baladda khatar: wac 113. Waxa jira oo dhan xaruntada degdega ee degmada badan.",
       "faq5q": "Sidee baad booki karta waqti u dhow dhakhtarka ee Oslo?",
       "faq5a": "Waad booki karta waqti u dhow dhakhtarka adiga oo ah Helsenorge.no. Gelid BankID, dooro 'Timeavtaler', hel dhakhtarka. Waad diriri kartaa xafiiska dhakhtarka si toos ah. Ma haysan dhakhtarka? Codsad dhakhtarka Helsenorge.no."
     },
@@ -4803,7 +4842,7 @@
       "name": "Kristiansand",
       "description": "Sørlandets magalooyinka madaxtinimada leh xafiis NAV ee labka",
       "intro": "Kristiansand waa magalooyinka ugu weyn ee Sørlandets leh hu dhow 115 000 oo dadka. Halkaan waad helaysaa macluumaadka ku saabsan xafiisada NAV, Skatteetaten iyo adeegga caafimaadka ee Kristiansand.",
-      "emergencyAddress": "Eg, 4615 Kristiansand",
+      "emergencyAddress": "Egsveien 102, 4615 Kristiansand",
       "faq1q": "Halkan ayaa xafiiska NAV ee Kristiansand?",
       "faq1a": "Kristiansand waxay leedahay xafiis NAV ee labka ee labka oo adeegga u leh dadka oo dhan. Waxa jira oo dhan xafiisada ee baladiyada ku dhow.",
       "faq2q": "Halkan ayaan ku heli karaa xarunta degdega ee Kristiansand?",

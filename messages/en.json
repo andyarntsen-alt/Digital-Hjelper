@@ -29,7 +29,7 @@
     "save": "Save",
     "saved": "Saved",
     "favorite": "Favorite",
-    "lastUpdatedJan2026": "Last updated: January 2026",
+    "lastUpdatedJan2026": "Last updated: February 2026",
     "comingSoon": "Coming soon",
     "comingSoonDescription": "We are working on creating this guide.",
     "comingSoonMessage": "In the meantime, you can look at our other guides, or contact the relevant agency directly for help.",
@@ -252,7 +252,7 @@
       "name": "Oslo",
       "description": "Norway's capital with NAV offices in all districts",
       "intro": "Oslo is Norway's capital with over 700,000 inhabitants. Here you'll find an overview of all public services in Oslo, including NAV offices in all districts, the Tax Administration and health services. Use this page to find addresses, opening hours and contact information.",
-      "emergencyAddress": "Storgata 40, 0182 Oslo",
+      "emergencyAddress": "Trondheimsveien 233, Aker sykehus",
       "faq1q": "Where can I find a NAV office in Oslo?",
       "faq1a": "Oslo has NAV offices in all districts. You can find your local office based on where you live: NAV Gamle Oslo, NAV Grünerløkka, NAV Sagene, NAV St. Hanshaugen, NAV Frogner, NAV Ullern, NAV Vestre Aker, NAV Nordre Aker, NAV Bjerke, NAV Grorud, NAV Stovner, NAV Alna, NAV Østensjø, NAV Nordstrand and NAV Søndre Nordstrand.",
       "faq2q": "What are the opening hours for NAV in Oslo?",
@@ -260,7 +260,7 @@
       "faq3q": "Where is the Tax Administration in Oslo?",
       "faq3a": "The Tax Administration has offices in central Oslo. You can also use the digital services at skatteetaten.no for most tasks such as tax returns, tax cards and moving notices.",
       "faq4q": "Where can I find the emergency room in Oslo?",
-      "faq4a": "Oslo Emergency Room is located at Storgata 40 (City Center). Open 24 hours. Phone: 116 117. For life-threatening situations, call 113. There are also emergency rooms in several districts.",
+      "faq4a": "Oslo Emergency Room is located at Aker Hospital, Trondheimsveien 233. Open 24 hours. Phone: 116 117. For life-threatening situations, call 113. There are also emergency rooms in several districts.",
       "faq5q": "How do I book an appointment with my GP in Oslo?",
       "faq5a": "You book an appointment with your GP via Helsenorge.no. Log in with BankID, select 'Appointments', and find your GP. You can also call the doctor's office directly. Don't have a GP? Apply for one at Helsenorge.no."
     },
@@ -304,7 +304,7 @@
       "name": "Kristiansand",
       "description": "Southern Norway's capital with a central NAV office",
       "intro": "Kristiansand is Southern Norway's largest city with about 115,000 inhabitants. Here you'll find information about NAV offices, the Tax Administration and health services in Kristiansand.",
-      "emergencyAddress": "Eg, 4615 Kristiansand",
+      "emergencyAddress": "Egsveien 102, 4615 Kristiansand",
       "faq1q": "Where is the NAV office in Kristiansand?",
       "faq1a": "Kristiansand has a central NAV office in the city center that serves all inhabitants. There are also offices in the surrounding municipalities.",
       "faq2q": "Where can I find the emergency room in Kristiansand?",
@@ -336,13 +336,13 @@
       "faqTitle": "Frequently Asked Questions about NAV",
       "faq": {
         "q1": "How do I log in to NAV?",
-        "a1": "Log in at nav.no with BankID, Mobile BankID, or MinID. Go to nav.no, click 'Log in' in the top right, and select your login method.",
+        "a1": "Log in at nav.no with BankID, BankID app, or MinID. Go to nav.no, click 'Log in' in the top right, and select your login method.",
         "q2": "How do I submit a reporting card to NAV?",
         "a2": "Submit your reporting card by logging in at nav.no with BankID. Go to 'Reporting card' in the menu, fill in your work and activity information for the past 14 days, and submit.",
         "q3": "How do I apply for unemployment benefits?",
         "a3": "Apply for unemployment benefits at nav.no. Log in with BankID, go to 'Applications', select 'Unemployment benefits', and complete the form.",
         "q4": "What is NAV's phone number?",
-        "a4": "NAV's phone number is 55 55 33 33. They're available Monday to Friday 08:00-15:30.",
+        "a4": "NAV's phone number is 55 55 33 33. They're available Monday to Friday 09:00-15:00.",
         "q5": "How do I find my local NAV office?",
         "a5": "Find your local NAV office at nav.no/sok-nav-kontor by entering your postal code or municipality.",
         "q6": "Can I get help at the NAV office without an appointment?",
@@ -355,7 +355,7 @@
       "relatedBankID": "Login and security",
       "metaTitle": "NAV Guides - Complete help for NAV's digital services",
       "metaDescription": "Learn how to log in to NAV, submit reporting cards, apply for unemployment benefits and use all NAV's digital services.",
-      "lastUpdated": "Last updated: January 2026"
+      "lastUpdated": "Last updated: February 2026"
     },
     "skatt": {
       "title": "Tax Office",
@@ -380,7 +380,7 @@
       "needMoreHelpText": "If you can't find what you're looking for, you can contact the Tax Office:",
       "phone": "Phone",
       "phoneNumber": "800 80 000",
-      "phoneHours": "free, weekdays 08:00-15:30",
+      "phoneHours": "free, weekdays 09:00-15:00",
       "chat": "Chat",
       "chatAvailable": "Available at skatteetaten.no",
       "introStrong": "The Tax Administration",
@@ -398,7 +398,7 @@
         "q5": "How do I get a tax certificate?",
         "a5": "Log in to skatteetaten.no and go to 'Tax certificate'.",
         "q6": "What is the phone number?",
-        "a6": "Tax Administration: 800 80 000, weekdays 08:00-15:30."
+        "a6": "Tax Administration: 800 80 000, weekdays 09:00-15:00."
       },
       "relatedTitle": "Related guides",
       "relatedText": "Need help with other public services?",
@@ -407,7 +407,7 @@
       "relatedBankID": "Login and security",
       "metaTitle": "Tax Administration Guides",
       "metaDescription": "Learn how to use Skatteetaten services.",
-      "lastUpdated": "Last updated: January 2026"
+      "lastUpdated": "Last updated: February 2026"
     },
     "helse": {
       "title": "Health Norway",
@@ -431,7 +431,7 @@
       "legevaktNumber": "116 117",
       "legevaktDesc": "When you need immediate help that is not acute",
       "poisonControl": "Poison Control",
-      "poisonControlNumber": "22 58 00 00",
+      "poisonControlNumber": "22 59 13 00",
       "poisonControlDesc": "For poisoning or suspected poisoning",
       "ambulance": "Ambulance",
       "ambulanceDesc": "For acute, life-threatening illness or injury",
@@ -455,7 +455,7 @@
       "faqTitle": "Frequently Asked Questions about Helsenorge",
       "faq": {
         "q1": "How do I log in to Helsenorge?",
-        "a1": "Log in at helsenorge.no with BankID, Mobile BankID, or MinID. Go to helsenorge.no, click 'Log in' and select your login method.",
+        "a1": "Log in at helsenorge.no with BankID or BankID app. MinID only gives limited access (school health services). Go to helsenorge.no, click 'Log in' and select your login method.",
         "q2": "How do I book a doctor's appointment?",
         "a2": "Log in to helsenorge.no, go to 'Appointments' and select 'Book appointment'. You can book with your GP or specialist.",
         "q3": "How do I see my prescriptions?",
@@ -471,7 +471,7 @@
       "relatedText": "Need help with other public services?",
       "metaTitle": "Helsenorge Guides - Complete help for health services online",
       "metaDescription": "Learn how to use Helsenorge to book appointments, view prescriptions, change your GP and read your medical records.",
-      "lastUpdated": "Last updated: January 2026"
+      "lastUpdated": "Last updated: February 2026"
     },
     "sikkerhet": {
       "title": "Digital Security",
@@ -499,7 +499,7 @@
         "bank": "Call your bank and block card/account",
         "police": "Report to police at politiet.no",
         "password": "Change passwords on all important accounts",
-        "idTheft": "Contact ID theft help at 21 05 32 00"
+        "idTheft": "Contact NorSIS for ID theft advice at 40 00 58 99"
       },
       "metaTitle": "Digital Security - Protect yourself from fraud and phishing",
       "metaDescription": "Learn how to protect yourself from fraud, phishing and identity theft online. Guides on BankID, secure passwords and how to recognize fake messages.",
@@ -523,7 +523,7 @@
       "relatedNav": "Log in safely",
       "relatedHelse": "Secure login",
       "relatedBank": "Online banking security",
-      "lastUpdated": "Last updated: January 2026"
+      "lastUpdated": "Last updated: February 2026"
     },
     "bank": {
       "title": "Banking and Finance",
@@ -552,7 +552,7 @@
       "faqTitle": "Frequently Asked Questions about Online Banking",
       "faq": {
         "q1": "How do I log in to online banking?",
-        "a1": "Log in to your bank's website or app with BankID. Go to the bank's website, click 'Log in' and confirm with Mobile BankID or code device.",
+        "a1": "Log in to your bank's website or app with BankID. Go to the bank's website, click 'Log in' and confirm with BankID app or code device.",
         "q2": "How do I pay a bill?",
         "a2": "Log in to online banking, select 'Pay' or 'Transfers', enter the KID number, account number and amount from the bill.",
         "q3": "What is Vipps and how do I use it?",
@@ -572,7 +572,7 @@
       "relatedNavDesc": "Benefits and payments",
       "metaTitle": "Bank and Online Banking Guides - Complete help for digital banking",
       "metaDescription": "Learn how to use online banking, pay bills, use Vipps and keep track of your finances.",
-      "lastUpdated": "Last updated: January 2026"
+      "lastUpdated": "Last updated: February 2026"
     },
     "digital": {
       "title": "Digital Tools",
@@ -634,7 +634,7 @@
       "linkKommune": "Your municipality",
       "linkKommuneDesc": "Apply for municipal housing on your municipality's website",
       "linkPhone": "Husbanken phone:",
-      "linkPhoneHours": "33 35 70 00 (weekdays 08-15:30)"
+      "linkPhoneHours": "22 96 16 00 (weekdays 09-15)"
     },
     "utdanning": {
       "title": "Education and Student Loans",
@@ -658,7 +658,7 @@
       "linkSamordna": "samordnaopptak.no",
       "linkSamordnaDesc": "Apply for admission to higher education",
       "linkPhone": "Lanekassen phone:",
-      "linkPhoneHours": "55 55 44 00 (weekdays 09-15)"
+      "linkPhoneHours": "21 49 60 00 (weekdays 09-15)"
     },
     "id": {
       "title": "ID and documents",
@@ -841,7 +841,7 @@
         "whoCanGet": "Who can get unemployment benefits?",
         "whoCanGetIntro": "To receive unemployment benefits you usually must:",
         "requirements": [
-          "Have earned at least NOK 186,042 in the last 12 months, or NOK 372,084 in the last 36 months (2024 rates)",
+          "Have earned at least NOK 186,042 in the last 12 months, or NOK 372,084 in the last 36 months (2026 rates)",
           "Have had your working hours reduced by at least 50%",
           "Be registered as a job seeker and actively looking for work",
           "Live in Norway and have the right to work here"
@@ -860,7 +860,7 @@
         "importantJobsearch": "Job searching",
         "importantJobsearchText": "You must actively search for jobs and document this. NAV may ask you to show your job applications.",
         "importantAmount": "How much will you get?",
-        "importantAmountText": "Unemployment benefits are about 62.4% of previous income, up to 6G (approx. NOK 744,000). Money is usually paid in arrears.",
+        "importantAmountText": "Unemployment benefits are about 62.4% of previous income, up to 6G (approx. NOK 780,960). Money is usually paid in arrears.",
         "steps": [
           {
             "title": "Register as a job seeker first",
@@ -925,7 +925,7 @@
         "whoCanGet": "Who can get sick pay?",
         "requirements": [
           "You have been employed for at least 4 weeks before you became ill",
-          "You earn at least NOK 59,310 per year (half of the base amount)",
+          "You earn at least NOK 65,080 per year (half of the base amount)",
           "You have a sick note from a doctor",
           "You have lost income due to illness"
         ],
@@ -935,7 +935,7 @@
         "navPeriod": "NAV period (from day 17)",
         "navPeriodText": "From day 17, NAV takes over. Then you must submit an application.",
         "howMuch": "How much will you get?",
-        "howMuchText": "You get 100% of your income, up to 6G (approx. NOK 744,000). Your employer may cover more.",
+        "howMuchText": "You get 100% of your income, up to 6G (approx. NOK 780,960). Your employer may cover more.",
         "howLong": "How long?",
         "howLongText": "You can receive sick pay for up to 52 weeks (1 year). After that, you may be entitled to AAP.",
         "stepsTitle": "How to apply for sick pay",
@@ -1004,11 +1004,11 @@
         "youHaveRight": "You have the right to parental benefits if:",
         "rightConditions": [
           "You have had income for at least 6 of the last 10 months",
-          "You earn at least NOK 59,310 per year (0.5G)",
+          "You earn at least NOK 65,080 per year (0.5G)",
           "The income comes from employment, freelance work, or self-employment"
         ],
         "noRightTitle": "Don't have the right to parental benefits?",
-        "noRightText": "Then you may be entitled to a lump sum grant (approx. NOK 92,000) instead. Apply for this the same way on nav.no.",
+        "noRightText": "Then you may be entitled to a lump sum grant (approx. NOK 92,648) instead. Apply for this the same way on nav.no.",
         "stepsTitle": "How to apply for parental benefits",
         "importantDates": "Important dates to remember",
         "date4WeeksBefore": "Earliest you can apply for parental benefits",
@@ -1020,7 +1020,7 @@
         "steps": [
           {
             "title": "Check that you are entitled to parental benefits",
-            "description": "You must have worked and had income for at least 6 of the last 10 months before the leave starts. You must also earn at least NOK 59,310 per year.",
+            "description": "You must have worked and had income for at least 6 of the last 10 months before the leave starts. You must also earn at least NOK 65,080 per year.",
             "tip": "Unsure? Use the calculator on nav.no to see what you can get."
           },
           {
@@ -1487,7 +1487,7 @@
           }
         ],
         "howMuchTitle": "How much will you get?",
-        "howMuchText": "Disability benefit is usually 66% of your income before you became ill, up to 6G (approx. NOK 744,000). Minimum is approx. 2.5G for single people. You can also work a little alongside without losing all your disability benefit.",
+        "howMuchText": "Disability benefit is usually 66% of your income before you became ill, up to 6G (approx. NOK 780,960). Minimum is approx. 2.5G for single people. You can also work a little alongside without losing all your disability benefit.",
         "importantTitle": "Important to know",
         "important": [
           "You can have graded disability benefit (e.g. 50%) and work part-time alongside",
@@ -1595,17 +1595,17 @@
               {
                 "name": "Commute to work",
                 "description": "If you have more than 37 km one way to work, you can get a deduction",
-                "amount": "Approx. NOK 1.76 per km over 37 km"
+                "amount": "Approx. NOK 1.90 per km over 37 km"
               },
               {
                 "name": "Union membership fee",
                 "description": "Union membership automatically gives a deduction",
-                "amount": "Up to approx. NOK 7,700"
+                "amount": "Up to approx. NOK 8,700"
               },
               {
                 "name": "Home office",
                 "description": "If you work from home regularly, you can get a deduction",
-                "amount": "Approx. NOK 2,050 per year (standard deduction)"
+                "amount": "Approx. NOK 2,240 per year (standard deduction)"
               },
               {
                 "name": "Tools and equipment",
@@ -1625,7 +1625,7 @@
               {
                 "name": "BSU (Housing savings for young people)",
                 "description": "Savings for housing for those under 34",
-                "amount": "20% of deposit, max NOK 5,500"
+                "amount": "10% of deposit, max NOK 2,750"
               },
               {
                 "name": "Maintenance of rental property",
@@ -1650,7 +1650,7 @@
               {
                 "name": "Childcare deduction",
                 "description": "Expenses for kindergarten, after-school care, childminder",
-                "amount": "Up to NOK 25,000 for one child, +15,000 per additional child"
+                "amount": "Up to NOK 15,000 for one child, +10,000 per additional child (2026)"
               },
               {
                 "name": "Special deduction for single provider",
@@ -2853,9 +2853,9 @@
             "color": "blue"
           },
           {
-            "number": "21 05 32 00",
-            "title": "ID theft helpline",
-            "description": "If someone has misused your identity",
+            "number": "40 00 58 99",
+            "title": "NorSIS",
+            "description": "ID theft and digital security advice",
             "color": "green"
           },
           {
@@ -3610,7 +3610,7 @@
         "tipsTitle": "Useful tips",
         "tips": [
           "Apply as early as possible in the month - the deadline is the 25th of each month",
-          "You get a response around the 10th of the following month",
+          "You get a response around the 20th of the following month",
           "Report changes in income or housing costs",
           "You can apply retroactively if you forgot to apply",
           "The municipality can help you with the application if you need it"
@@ -3918,6 +3918,45 @@
           "Lanekassen sends reminders before due date - check inbox",
           "Contact Lanekassen early if you struggle with payment"
         ]
+      },
+      "betalingsutsettelse": {
+        "title": "Apply for payment deferment",
+        "description": "Postpone repayment of your student loan",
+        "longDescription": "Learn how to apply for payment deferment from Lanekassen if you need a break from repayment.",
+        "time": "About 10 minutes",
+        "difficulty": "Easy",
+        "whatIsTitle": "What is payment deferment?",
+        "whatIsText1": "Payment deferment means you temporarily don't have to pay on your student loan. You can get deferment for up to 36 months total throughout the repayment period.",
+        "whatIsText2": "Note that interest still accrues even when you have payment deferment, so your loan will grow during this period. It may therefore be wise to pay as soon as you can.",
+        "requirementsTitle": "When can you get payment deferment?",
+        "requirements": [
+          "You have started repaying your student loan",
+          "You haven't used up all 36 months of deferment",
+          "You're not in active education (then you have automatic payment exemption)"
+        ],
+        "stepsTitle": "How to apply for payment deferment",
+        "steps": [
+          {
+            "title": "Log in to lanekassen.no",
+            "description": "Go to lanekassen.no and log in with BankID or MinID. You can also use the Lanekassen app.",
+            "tip": "The app is easy to use for quick changes."
+          },
+          {
+            "title": "Go to Repayment",
+            "description": "Find the 'Repayment' menu in the main menu. Then select 'Apply for payment deferment'."
+          },
+          {
+            "title": "Choose deferment period",
+            "description": "Choose how many months of deferment you want. You can apply for up to 12 months at a time.",
+            "tip": "Only apply for the time you need - interest still accrues."
+          },
+          {
+            "title": "Submit the application",
+            "description": "Confirm your choices and submit the application. You get an answer immediately, and the change takes effect right away."
+          }
+        ],
+        "helpTitle": "Need help?",
+        "helpText": "Call Lanekassen at 22 00 22 00 (weekdays 08-15) or use the chat at lanekassen.no. You can also send a message via logged-in page."
       }
     },
     "id": {
@@ -3984,11 +4023,11 @@
         "difficulty": "Easy",
         "whatIsTitle": "About driver's license",
         "whatIsText1": "Driver's license is both proof that you're allowed to drive and a valid ID card. It must be renewed regularly.",
-        "whatIsText2": "Driver's license for car (class B) is valid for 10 years if you're under 65, 5 years if you're 65-74, and 2 years if you're over 75.",
+        "whatIsText2": "Driver's license for car (class B) is valid for 15 years if you're under 65. If you're over 65, it's valid until the day before you turn 80. After 80, you must renew with a health certificate (max 3 years at a time).",
         "requirementsTitle": "What you need",
         "requirements": [
           "Valid ID",
-          "Health certificate if you're over 75",
+          "Health certificate if you're over 80",
           "Payment (approx. NOK 250-400)",
           "New passport photo (can be taken at the traffic station)"
         ],
@@ -4023,7 +4062,7 @@
         "tipsTitle": "Useful tips",
         "tips": [
           "Renew driver's license before it expires - driving with expired license is not allowed",
-          "If you're over 75, you need health certificate from doctor",
+          "If you're over 80, you need health certificate from doctor",
           "Lost driver's license can be replaced for a fee",
           "You can check validity on vegvesen.no",
           "EU driver's license is valid throughout Europe"
@@ -4350,7 +4389,7 @@
           {
             "name": "Seniornett Norge",
             "description": "Volunteer organization that helps seniors with digital things. They have local groups across the country that hold courses and provide help.",
-            "howToContact": "Go to seniornett.no or call 22 42 99 99",
+            "howToContact": "Go to seniornett.no or call 22 42 96 26",
             "price": "Free or affordable"
           },
           {
@@ -4647,7 +4686,7 @@
       {
         "term": "Barnetrygd",
         "definition": "Child benefit - money all parents automatically receive from NAV for children under 18 years old.",
-        "example": "Child benefit is paid on the 10th of each month.",
+        "example": "Child benefit is paid on the last working day of each month.",
         "category": "NAV"
       },
       {
@@ -4665,7 +4704,7 @@
       {
         "term": "Grunnbeløpet (G)",
         "definition": "The National Insurance base amount - an amount used to calculate many benefits from NAV. Adjusted annually.",
-        "example": "In 2024, G is approximately NOK 118,620.",
+        "example": "In 2026, G is approximately NOK 130,160.",
         "category": "NAV"
       },
       {
@@ -4785,7 +4824,7 @@
       {
         "term": "Frikort",
         "definition": "Exemption card - a card that gives you free healthcare services when you have paid enough in co-payments (the exemption limit).",
-        "example": "The exemption limit is approximately NOK 3,040 (2024).",
+        "example": "The exemption limit is approximately NOK 3,278 (2026).",
         "category": "Helse"
       },
       {
@@ -4941,7 +4980,7 @@
       {
         "term": "Bostøtte",
         "definition": "Housing allowance - financial support from Husbanken to pay rent or housing expenses for those with low income.",
-        "example": "Housing allowance is paid around the 10th of each month.",
+        "example": "Housing allowance is paid around the 20th of each month.",
         "category": "Bolig"
       },
       {
@@ -5136,7 +5175,7 @@
       },
       {
         "question": "How long does it take to get a response to a NAV application?",
-        "answer": "Processing time varies: Unemployment benefits usually take 3-4 weeks. Sick pay takes 2-4 weeks. Parental benefits take 4-6 weeks. You can check the status of your application under \"My cases\" at nav.no.",
+        "answer": "Processing time varies: Unemployment benefits usually take up to 5 weeks. Sick pay takes 2-4 weeks. Parental benefits take 4-6 weeks. You can check the status of your application under \"My cases\" at nav.no.",
         "category": "NAV"
       },
       {
@@ -5196,7 +5235,7 @@
       },
       {
         "question": "What is the exemption card limit and how does it work?",
-        "answer": "The exemption card limit is approximately NOK 3,040 (2024). When you've paid this much in co-payments (doctor visits, medicine, etc.), you automatically receive an exemption card. Then you're exempt from co-payments for the rest of the year.",
+        "answer": "The exemption card limit is approximately NOK 3,278 (2026). When you've paid this much in co-payments (doctor visits, medicine, etc.), you automatically receive an exemption card. Then you're exempt from co-payments for the rest of the year.",
         "category": "Helse"
       },
       {
@@ -5261,7 +5300,7 @@
       },
       {
         "question": "I think I've been scammed - what do I do?",
-        "answer": "Act FAST: 1) Contact your bank immediately to block card/account. 2) Change passwords on email and important services. 3) Report to police online or call 02800. 4) Contact ID theft help at 21 05 32 80.",
+        "answer": "Act FAST: 1) Contact your bank immediately to block card/account. 2) Change passwords on email and important services. 3) Report to police online or call 02800. 4) Contact NorSIS for advice at 40 00 58 99.",
         "category": "Sikkerhet"
       },
       {
@@ -5384,7 +5423,7 @@
   "privacy": {
     "title": "Privacy Policy",
     "backToHome": "Back to homepage",
-    "lastUpdated": "Last updated: January 2025",
+    "lastUpdated": "Last updated: February 2026",
     "whoAreWe": {
       "title": "Who are we?",
       "text1": "LettDigital is an information service that helps people use public digital services. We are not part of NAV, the Tax Office, or Health Norway, but provide guidance based on publicly available information.",

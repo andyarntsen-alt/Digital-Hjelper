@@ -29,7 +29,7 @@
     "save": "Lagre",
     "saved": "Lagret",
     "favorite": "Favoritt",
-    "lastUpdatedJan2026": "Sist oppdatert: Januar 2026",
+    "lastUpdatedJan2026": "Sist oppdatert: Februar 2026",
     "comingSoon": "Kommer snart",
     "comingSoonDescription": "Vi jobber med å lage denne veiledningen.",
     "comingSoonMessage": "I mellomtiden kan du se på våre andre veiledninger, eller kontakte den aktuelle etaten direkte for hjelp.",
@@ -253,7 +253,7 @@
       "name": "Oslo",
       "description": "Norges hovedstad med NAV-kontorer i alle bydeler",
       "intro": "Oslo er Norges hovedstad med over 700 000 innbyggere. Her finner du oversikt over alle offentlige tjenester i Oslo, inkludert NAV-kontorer i alle bydeler, Skatteetaten og helsetjenester. Bruk denne siden for å finne adresser, åpningstider og kontaktinformasjon.",
-      "emergencyAddress": "Storgata 40, 0182 Oslo",
+      "emergencyAddress": "Trondheimsveien 233, Aker sykehus",
       "faq1q": "Hvor finner jeg NAV-kontor i Oslo?",
       "faq1a": "Oslo har NAV-kontorer i alle bydeler. Du finner ditt lokale kontor basert på hvor du bor: NAV Gamle Oslo, NAV Grünerløkka, NAV Sagene, NAV St. Hanshaugen, NAV Frogner, NAV Ullern, NAV Vestre Aker, NAV Nordre Aker, NAV Bjerke, NAV Grorud, NAV Stovner, NAV Alna, NAV Østensjø, NAV Nordstrand og NAV Søndre Nordstrand.",
       "faq2q": "Hva er åpningstidene for NAV i Oslo?",
@@ -261,7 +261,7 @@
       "faq3q": "Hvor er Skatteetaten i Oslo?",
       "faq3a": "Skatteetaten har kontorer i Oslo sentrum. Du kan også bruke de digitale tjenestene på skatteetaten.no for de fleste oppgaver som skattemelding, skattekort og flyttemelding.",
       "faq4q": "Hvor finner jeg legevakt i Oslo?",
-      "faq4a": "Oslo legevakt ligger i Storgata 40 (Sentrum). Åpent 24 timer. Telefon: 116 117. For livstruende situasjoner, ring 113. Det finnes også legevakter i flere bydeler.",
+      "faq4a": "Oslo legevakt ligger på Aker sykehus, Trondheimsveien 233. Åpent 24 timer. Telefon: 116 117. For livstruende situasjoner, ring 113. Det finnes også legevakter i flere bydeler.",
       "faq5q": "Hvordan bestiller jeg time hos fastlege i Oslo?",
       "faq5a": "Du bestiller time hos fastlegen din via Helsenorge.no. Logg inn med BankID, velg 'Timeavtaler', og finn din fastlege. Du kan også ringe legekontoret direkte. Mangler du fastlege? Søk om fastlege på Helsenorge.no."
     },
@@ -305,7 +305,7 @@
       "name": "Kristiansand",
       "description": "Sørlandets hovedstad med sentralt NAV-kontor",
       "intro": "Kristiansand er Sørlandets største by med ca. 115 000 innbyggere. Her finner du informasjon om NAV-kontorer, Skatteetaten og helsetjenester i Kristiansand.",
-      "emergencyAddress": "Eg, 4615 Kristiansand",
+      "emergencyAddress": "Egsveien 102, 4615 Kristiansand",
       "faq1q": "Hvor er NAV-kontoret i Kristiansand?",
       "faq1a": "Kristiansand har et sentralt NAV-kontor i sentrum som betjener alle innbyggere. Det finnes også kontorer i omliggende kommuner.",
       "faq2q": "Hvor finner jeg legevakt i Kristiansand?",
@@ -329,13 +329,13 @@
       "faqTitle": "Vanlige spørsmål om NAV",
       "faq": {
         "q1": "Hvordan logger jeg inn på NAV?",
-        "a1": "Du logger inn på nav.no med BankID, BankID på mobil, eller MinID. Gå til nav.no, klikk på 'Logg inn' øverst til høyre, og velg din innloggingsmetode. Hvis du har BankID på mobil, får du en melding på telefonen din som du må godkjenne.",
+        "a1": "Du logger inn på nav.no med BankID, BankID-appen, eller MinID. Gå til nav.no, klikk på 'Logg inn' øverst til høyre, og velg din innloggingsmetode. Hvis du har BankID-appen, får du en melding på telefonen din som du må godkjenne.",
         "q2": "Hvordan sender jeg meldekort til NAV?",
         "a2": "Du sender meldekort ved å logge inn på nav.no med BankID. Gå til 'Meldekort' i menyen, fyll ut informasjon om arbeid og aktivitet for de siste 14 dagene, og send inn. Fristen er hver 14. dag, og det tar 2-3 minutter å fylle ut.",
         "q3": "Hvordan søker jeg dagpenger?",
-        "a3": "Du søker dagpenger på nav.no. Logg inn med BankID, gå til 'Søknader', velg 'Dagpenger', og fyll ut skjemaet. Du må være registrert som arbeidssøker først. Behandlingstiden er vanligvis 3-4 uker.",
+        "a3": "Du søker dagpenger på nav.no. Logg inn med BankID, gå til 'Søknader', velg 'Dagpenger', og fyll ut skjemaet. Du må være registrert som arbeidssøker først. Behandlingstiden er inntil 5 uker.",
         "q4": "Hva er telefonnummeret til NAV?",
-        "a4": "NAV sitt telefonnummer er 55 55 33 33. De er tilgjengelige mandag til fredag kl. 08:00-15:30. Du kan også chatte med NAV sin chatbot Frida på nav.no, som er tilgjengelig hele døgnet.",
+        "a4": "NAV sitt telefonnummer er 55 55 33 33. De er tilgjengelige mandag til fredag kl. 09:00-15:00. Du kan også chatte med NAV sin chatbot Frida på nav.no, som er tilgjengelig hele døgnet.",
         "q5": "Hvordan finner jeg mitt lokale NAV-kontor?",
         "a5": "Du finner ditt lokale NAV-kontor ved å gå til nav.no/sok-nav-kontor og skrive inn postnummeret ditt eller kommunen din. Du får da adresse, åpningstider og kontaktinformasjon til kontoret.",
         "q6": "Kan jeg få hjelp på NAV-kontoret uten avtale?",
@@ -356,7 +356,13 @@
       "findOffice": "Finn ditt lokale kontor på nav.no",
       "metaTitle": "NAV Guider - Komplett hjelp til NAV sine digitale tjenester",
       "metaDescription": "Lær hvordan du logger inn på NAV, sender meldekort, søker dagpenger og bruker alle NAV sine digitale tjenester. Enkle steg-for-steg guider.",
-      "lastUpdated": "Sist oppdatert: Januar 2026"
+      "needHelpTitle": "Trenger du mer hjelp?",
+      "needHelpText": "Hvis du ikke finner det du leter etter, kan du kontakte NAV direkte.",
+      "helpPhone": "Ring NAV",
+      "helpPhoneDesc": "55 55 33 33 hverdager 09-15",
+      "helpVisit": "Besøk NAV-kontoret",
+      "helpVisitDesc": "finn ditt lokale kontor på nav.no",
+      "lastUpdated": "Sist oppdatert: Februar 2026"
     },
     "skatt": {
       "title": "Skatteetaten",
@@ -381,7 +387,7 @@
       "needMoreHelpText": "Hvis du ikke finner det du leter etter, kan du kontakte Skatteetaten:",
       "phone": "Telefon",
       "phoneNumber": "800 80 000",
-      "phoneHours": "gratis, hverdager 08:00-15:30",
+      "phoneHours": "gratis, hverdager 09:00-15:00",
       "chat": "Chat",
       "chatAvailable": "Tilgjengelig på skatteetaten.no",
       "introStrong": "Skatteetaten",
@@ -389,7 +395,7 @@
       "faqTitle": "Vanlige spørsmål om Skatteetaten",
       "faq": {
         "q1": "Hvordan logger jeg inn på Skatteetaten?",
-        "a1": "Du logger inn på skatteetaten.no med BankID, BankID på mobil, eller Commfides.",
+        "a1": "Du logger inn på skatteetaten.no med BankID, BankID-appen, eller Commfides.",
         "q2": "Når kommer skattemeldingen?",
         "a2": "Skattemeldingen kommer vanligvis i mars. Fristen er 30. april.",
         "q3": "Hvordan endrer jeg skattekort?",
@@ -399,7 +405,7 @@
         "q5": "Hvordan får jeg skatteattest?",
         "a5": "Logg inn på skatteetaten.no og gå til 'Skatteattest'. Klikk 'Bestill skatteattest'.",
         "q6": "Hva er telefonnummeret til Skatteetaten?",
-        "a6": "Skatteetaten har telefonnummer 800 80 000, hverdager 08:00-15:30."
+        "a6": "Skatteetaten har telefonnummer 800 80 000, hverdager 09:00-15:00."
       },
       "relatedTitle": "Relaterte guider",
       "relatedText": "Trenger du hjelp med andre offentlige tjenester?",
@@ -408,7 +414,13 @@
       "relatedBankID": "Innlogging og sikkerhet",
       "metaTitle": "Skatteetaten Guider - Komplett hjelp til skatt og skattemelding",
       "metaDescription": "Lær hvordan du logger inn på Skatteetaten, leverer skattemelding, endrer skattekort og forstår skatteoppgjøret.",
-      "lastUpdated": "Sist oppdatert: Januar 2026"
+      "needHelpTitle": "Trenger du mer hjelp?",
+      "needHelpText": "Hvis du ikke finner det du leter etter, kan du kontakte Skatteetaten.",
+      "helpPhone": "Ring Skatteetaten",
+      "helpPhoneDesc": "800 80 000 gratis, hverdager 09-15",
+      "helpVisit": "Chat på skatteetaten.no",
+      "helpVisitDesc": "få rask hjelp på nett",
+      "lastUpdated": "Sist oppdatert: Februar 2026"
     },
     "helse": {
       "title": "Helsenorge",
@@ -432,7 +444,7 @@
       "legevaktNumber": "116 117",
       "legevaktDesc": "Ved behov for øyeblikkelig hjelp som ikke er akutt",
       "poisonControl": "Giftinformasjon",
-      "poisonControlNumber": "22 58 00 00",
+      "poisonControlNumber": "22 59 13 00",
       "poisonControlDesc": "Ved forgiftning eller mistanke om forgiftning",
       "ambulance": "Ambulanse",
       "ambulanceDesc": "Ved akutt, livstruende sykdom eller skade",
@@ -456,7 +468,7 @@
       "faqTitle": "Vanlige spørsmål om Helsenorge",
       "faq": {
         "q1": "Hvordan logger jeg inn på Helsenorge?",
-        "a1": "Du logger inn på helsenorge.no med BankID, BankID på mobil, eller MinID. Gå til helsenorge.no, klikk på 'Logg inn' og velg din innloggingsmetode.",
+        "a1": "Du logger inn på helsenorge.no med BankID eller BankID-appen. MinID gir kun begrenset tilgang (skolehelsetjeneste). Gå til helsenorge.no, klikk på 'Logg inn' og velg din innloggingsmetode.",
         "q2": "Hvordan bestiller jeg legetime?",
         "a2": "Logg inn på helsenorge.no, gå til 'Timeavtaler' og velg 'Bestill time'. Du kan bestille time hos fastlegen eller spesialist.",
         "q3": "Hvordan ser jeg reseptene mine?",
@@ -470,9 +482,18 @@
       },
       "relatedTitle": "Relaterte guider",
       "relatedText": "Trenger du hjelp med andre offentlige tjenester?",
+      "relatedNavDesc": "Dagpenger og ytelser",
+      "relatedSkattDesc": "Skattemelding og fradrag",
+      "relatedBankIdDesc": "Innlogging og sikkerhet",
       "metaTitle": "Helsenorge Guider - Komplett hjelp til helsetjenester på nett",
       "metaDescription": "Lær hvordan du bruker Helsenorge til å bestille legetime, se resepter, bytte fastlege og lese journalen din.",
-      "lastUpdated": "Sist oppdatert: Januar 2026"
+      "needHelpTitle": "Trenger du mer hjelp?",
+      "needHelpText": "Hvis du har spørsmål om helsetjenester, kan du kontakte legevakten eller fastlegen din.",
+      "helpPhone": "Ring legevakten",
+      "helpPhoneDesc": "116 117 ved behov for hjelp",
+      "helpVisit": "Kontakt fastlegen",
+      "helpVisitDesc": "bestill time på helsenorge.no",
+      "lastUpdated": "Sist oppdatert: Februar 2026"
     },
     "sikkerhet": {
       "title": "Digital sikkerhet",
@@ -500,7 +521,7 @@
         "bank": "Ring banken din og sperre kort/konto",
         "police": "Anmeld til politiet på politiet.no",
         "password": "Endre passord på alle viktige kontoer",
-        "idTheft": "Kontakt ID-tyveri hjelpen på 21 05 32 00"
+        "idTheft": "Kontakt NorSIS for råd om ID-tyveri på 40 00 58 99"
       },
       "metaTitle": "Digital Sikkerhet - Beskytt deg mot svindel og phishing",
       "metaDescription": "Lær hvordan du beskytter deg mot svindel, phishing og ID-tyveri på nett. Guider om BankID, sikre passord og hvordan du gjenkjenner falske meldinger.",
@@ -524,7 +545,13 @@
       "relatedNav": "Logg inn trygt",
       "relatedHelse": "Sikker innlogging",
       "relatedBank": "Nettbank-sikkerhet",
-      "lastUpdated": "Sist oppdatert: Januar 2026"
+      "needHelpTitle": "Har du blitt svindlet?",
+      "needHelpText": "Hvis du tror du har blitt utsatt for svindel, gjør dette med en gang.",
+      "helpPhone": "Ring banken",
+      "helpPhoneDesc": "sperre kort og kontoer umiddelbart",
+      "helpVisit": "Anmeld til politiet",
+      "helpVisitDesc": "meld fra på politiet.no",
+      "lastUpdated": "Sist oppdatert: Februar 2026"
     },
     "bank": {
       "title": "Bank og økonomi",
@@ -553,7 +580,7 @@
       "faqTitle": "Vanlige spørsmål om nettbank",
       "faq": {
         "q1": "Hvordan logger jeg inn på nettbanken?",
-        "a1": "Du logger inn på bankens nettside eller app med BankID. Gå til bankens nettside, klikk 'Logg inn' og bekreft med BankID på mobil eller kodebrikke.",
+        "a1": "Du logger inn på bankens nettside eller app med BankID. Gå til bankens nettside, klikk 'Logg inn' og bekreft med BankID-appen eller kodebrikke.",
         "q2": "Hvordan betaler jeg en regning?",
         "a2": "Logg inn på nettbanken, velg 'Betal' eller 'Overføringer', tast inn KID-nummer, kontonummer og beløp fra regningen.",
         "q3": "Hva er Vipps og hvordan bruker jeg det?",
@@ -573,7 +600,7 @@
       "relatedNavDesc": "Dagpenger og ytelser",
       "metaTitle": "Bank og Nettbank Guider - Komplett hjelp til digitale banktjenester",
       "metaDescription": "Lær hvordan du bruker nettbank, betaler regninger, bruker Vipps og holder styr på økonomien din.",
-      "lastUpdated": "Sist oppdatert: Januar 2026"
+      "lastUpdated": "Sist oppdatert: Februar 2026"
     },
     "digital": {
       "title": "Digitale verktøy",
@@ -611,14 +638,25 @@
       "helpNAV": "NAV-kontoret",
       "helpNAVDesc": "hjelper med offentlige digitale tjenester",
       "helpFamily": "Familie og venner",
-      "helpFamilyDesc": "spør noen du kjenner om hjelp"
+      "helpFamilyDesc": "spør noen du kjenner om hjelp",
+      "needHelpTitle": "Trenger du hjelp med det digitale?",
+      "needHelpText": "Det finnes mange steder du kan få gratis hjelp.",
+      "helpPhone": "Ring Seniornett",
+      "helpPhoneDesc": "22 42 96 26 for datahjelp",
+      "helpVisit": "Besøk biblioteket",
+      "helpVisitDesc": "mange har kurs og drop-in hjelp",
+      "lastUpdated": "Sist oppdatert februar 2026"
     },
     "bolig": {
       "title": "Bolig og boligstøtte",
       "shortDesc": "Bostøtte og startlån",
       "description": "Søke bostøtte, startlån fra Husbanken og kommunal bolig.",
+      "metaTitle": "Bolig og boligstøtte - Guider for bostøtte, startlån og kommunal bolig",
+      "metaDescription": "Lær hvordan du søker bostøtte, startlån og kommunal bolig. Enkle steg-for-steg guider for boligstøtte i Norge.",
       "hubTitle": "Bolig og boligstøtte",
       "hubSubtitle": "Hjelp til å skaffe og beholde bolig",
+      "introStrong": "Trenger du hjelp med bolig?",
+      "introText": "Husbanken og kommunen har flere ordninger som kan hjelpe deg med å skaffe eller beholde bolig. Her finner du guider for bostøtte, startlån og kommunal bolig.",
       "didYouKnow": "Visste du?",
       "didYouKnowText": "Husbanken og kommunen har flere ordninger som kan hjelpe deg med å skaffe eller beholde bolig. Bostøtte, startlån og kommunale boliger er tilgjengelig for de som trenger det.",
       "selectGuide": "Velg hva du trenger hjelp med",
@@ -635,14 +673,30 @@
       "linkKommune": "Din kommune",
       "linkKommuneDesc": "Søk kommunal bolig på kommunens nettside",
       "linkPhone": "Husbanken telefon:",
-      "linkPhoneHours": "33 35 70 00 (hverdager 08-15:30)"
+      "linkPhoneHours": "22 96 16 00 (hverdager 09-15)",
+      "relatedTitle": "Relaterte tjenester",
+      "relatedText": "Andre tjenester som kan være nyttige for deg.",
+      "relatedNav": "Økonomisk støtte",
+      "relatedSkatt": "Skattefradrag for bolig",
+      "relatedBankID": "Innlogging på tjenester",
+      "needHelpTitle": "Trenger du hjelp?",
+      "needHelpText": "Ta kontakt med Husbanken eller kommunen din for personlig veiledning.",
+      "helpPhone": "Ring Husbanken",
+      "helpPhoneDesc": "22 96 16 00 hverdager 09-15",
+      "helpVisit": "Besøk kommunen",
+      "helpVisitDesc": "for hjelp med kommunal bolig",
+      "lastUpdated": "Sist oppdatert februar 2026"
     },
     "utdanning": {
       "title": "Utdanning og Lånekassen",
       "shortDesc": "Studielån og stipend",
       "description": "Søke studielån, stipend og håndtere tilbakebetaling hos Lånekassen.",
+      "metaTitle": "Utdanning og Lånekassen - Guider for studielån, stipend og tilbakebetaling",
+      "metaDescription": "Lær hvordan du søker studielån, stipend og håndterer tilbakebetaling hos Lånekassen. Enkle steg-for-steg guider.",
       "hubTitle": "Utdanning og Lånekassen",
       "hubSubtitle": "Studielån, stipend og tilbakebetaling",
+      "introStrong": "Trenger du hjelp med Lånekassen?",
+      "introText": "Lånekassen gir lån og stipend til studenter i Norge. Her finner du guider for å søke studielån, stipend og håndtere tilbakebetaling.",
       "didYouKnow": "Visste du?",
       "didYouKnowText": "Lånekassen gir lån og stipend til de som tar utdanning. Deler av lånet kan bli omgjort til stipend hvis du fullfører utdanningen og ikke tjener for mye.",
       "selectGuide": "Velg hva du trenger hjelp med",
@@ -659,14 +713,30 @@
       "linkSamordna": "samordnaopptak.no",
       "linkSamordnaDesc": "Søk opptak til høyere utdanning",
       "linkPhone": "Lånekassen telefon:",
-      "linkPhoneHours": "55 55 44 00 (hverdager 09-15)"
+      "linkPhoneHours": "21 49 60 00 (hverdager 09-15)",
+      "relatedTitle": "Relaterte tjenester",
+      "relatedText": "Andre tjenester som kan være nyttige for deg.",
+      "relatedNav": "Støtte under studier",
+      "relatedSkatt": "Skattefradrag for lån",
+      "relatedBankID": "Logg inn på Lånekassen",
+      "needHelpTitle": "Trenger du hjelp?",
+      "needHelpText": "Ring Lånekassen på 21 49 60 00 eller chat med dem på lanekassen.no.",
+      "helpPhone": "Ring Lånekassen",
+      "helpPhoneDesc": "21 49 60 00 hverdager 09-15",
+      "helpVisit": "Chat på lanekassen.no",
+      "helpVisitDesc": "rask hjelp på nett",
+      "lastUpdated": "Sist oppdatert februar 2026"
     },
     "id": {
       "title": "ID og dokumenter",
       "shortDesc": "Pass og førerkort",
       "description": "Bestille pass, fornye førerkort og få nasjonalt ID-kort.",
+      "metaTitle": "ID og dokumenter - Guider for pass, førerkort og ID-kort",
+      "metaDescription": "Lær hvordan du bestiller pass, fornyer førerkort og får nasjonalt ID-kort. Enkle steg-for-steg guider.",
       "hubTitle": "ID og dokumenter",
       "hubSubtitle": "Pass, førerkort og ID-kort",
+      "introStrong": "Trenger du legitimasjon?",
+      "introText": "Her finner du guider for å bestille pass, fornye førerkort og få nasjonalt ID-kort. Alt du trenger for å dokumentere hvem du er.",
       "didYouKnow": "Visste du?",
       "didYouKnowText": "Du trenger gyldig legitimasjon for mange ting i Norge - fra å logge inn på offentlige tjenester til å reise. Her hjelper vi deg med å bestille og fornye dokumentene dine.",
       "selectGuide": "Velg hva du trenger hjelp med",
@@ -682,7 +752,19 @@
       "linkPoliceDesc": "Bestill time for pass og ID-kort",
       "linkVegvesen": "vegvesen.no",
       "linkVegvesenDesc": "Bestill time for førerkort",
-      "linkPhones": "Politiet: 02800 | Vegvesen: 22 07 30 00"
+      "linkPhones": "Politiet: 02800 | Vegvesen: 22 07 30 00",
+      "relatedTitle": "Relaterte tjenester",
+      "relatedText": "Andre tjenester som kan være nyttige for deg.",
+      "relatedBankID": "Digital identitet",
+      "relatedNav": "Trenger du legitimasjon for NAV",
+      "relatedSkatt": "Skattemessige forhold",
+      "needHelpTitle": "Trenger du hjelp?",
+      "needHelpText": "Ring politiet på 02800 for pass/ID-kort eller Vegvesenet på 22 07 30 00 for førerkort.",
+      "helpPhone": "Ring politiet",
+      "helpPhoneDesc": "02800 for pass og ID-kort",
+      "helpVisit": "Ring Vegvesenet",
+      "helpVisitDesc": "22 07 30 00 for førerkort",
+      "lastUpdated": "Sist oppdatert februar 2026"
     },
     "grunnleggende": {
       "title": "Grunnleggende teknologi",
@@ -724,7 +806,16 @@
       "library": "Ditt lokale bibliotek",
       "libraryDesc": "Mange bibliotek har gratis datahjelp og kurs",
       "dataHjelpen": "Frivillige hjelpere",
-      "dataHjelpenDesc": "Spør familie, venner eller naboer om hjelp"
+      "dataHjelpenDesc": "Spør familie, venner eller naboer om hjelp",
+      "relatedTitle": "Neste steg",
+      "relatedText": "Når du har lært det grunnleggende, kan du ta i bruk offentlige digitale tjenester.",
+      "needHelpTitle": "Trenger du personlig hjelp?",
+      "needHelpText": "Mange bibliotek og frivillige organisasjoner tilbyr gratis datahjelp.",
+      "helpPhone": "Ring Seniornett",
+      "helpPhoneDesc": "22 42 96 26 for datahjelp til eldre",
+      "helpVisit": "Besøk biblioteket",
+      "helpVisitDesc": "gratis datakurs og hjelp",
+      "lastUpdated": "Sist oppdatert februar 2026"
     },
     "byer": {
       "hubTitle": "Offentlige tjenester i din by",
@@ -869,11 +960,11 @@
           },
           {
             "title": "Velg innloggingsmetode",
-            "description": "Du får nå valget mellom flere måter å logge inn på. De vanligste er BankID på mobil, BankID med kodebrikke, eller MinID. Velg den du har tilgang til.",
+            "description": "Du får nå valget mellom flere måter å logge inn på. De vanligste er BankID-appen, BankID med kodebrikke, eller MinID. Velg den du har tilgang til.",
             "warning": "Hvis du ikke har BankID eller MinID, må du kontakte banken din eller besøke et NAV-kontor for å få hjelp."
           },
           {
-            "title": "Hvis du velger BankID på mobil",
+            "title": "Hvis du velger BankID-appen",
             "description": "Skriv inn fødselsnummeret ditt (11 siffer) og telefonnummeret ditt. Du vil få en melding på mobilen din. Åpne BankID-appen og bekreft innloggingen med fingeravtrykk eller kode.",
             "tip": "Sørg for at BankID-appen er installert på telefonen din før du starter."
           },
@@ -918,7 +1009,7 @@
         "importantJobsearch": "Jobbsøking",
         "importantJobsearchText": "Du må aktivt søke jobber og dokumentere dette. NAV kan be deg vise jobbsøknadene dine.",
         "importantAmount": "Hvor mye får du?",
-        "importantAmountText": "Dagpenger er ca. 62,4% av tidligere inntekt, opp til 6G (ca. 744 000 kr). Pengene utbetales vanligvis etterskuddsvis.",
+        "importantAmountText": "Dagpenger er ca. 62,4% av tidligere inntekt, opp til 6G (ca. 780 960 kr). Pengene utbetales vanligvis etterskuddsvis.",
         "steps": [
           {
             "title": "Registrer deg som arbeidssøker først",
@@ -983,7 +1074,7 @@
         "whoCanGet": "Hvem kan få sykepenger?",
         "requirements": [
           "Du har vært i jobb i minst 4 uker før du ble syk",
-          "Du tjener minst 59 310 kr i året (halvparten av grunnbeløpet)",
+          "Du tjener minst 65 080 kr i året (halvparten av grunnbeløpet)",
           "Du har sykemelding fra lege",
           "Du har tapt inntekt på grunn av sykdom"
         ],
@@ -993,7 +1084,7 @@
         "navPeriod": "NAV-perioden (fra dag 17)",
         "navPeriodText": "Fra dag 17 overtar NAV. Da må du sende inn søknad.",
         "howMuch": "Hvor mye får du?",
-        "howMuchText": "Du får 100% av inntekten din, opp til 6G (ca. 744 000 kr). Arbeidsgiveren kan dekke mer.",
+        "howMuchText": "Du får 100% av inntekten din, opp til 6G (ca. 780 960 kr). Arbeidsgiveren kan dekke mer.",
         "howLong": "Hvor lenge?",
         "howLongText": "Du kan få sykepenger i opptil 52 uker (1 år). Etter det kan du ha rett på AAP.",
         "stepsTitle": "Slik søker du om sykepenger",
@@ -1062,11 +1153,11 @@
         "youHaveRight": "Du har rett til foreldrepenger hvis:",
         "rightConditions": [
           "Du har hatt inntekt i minst 6 av de siste 10 månedene",
-          "Du tjener minst 59 310 kr i året (0,5G)",
+          "Du tjener minst 65 080 kr i året (0,5G)",
           "Inntekten kommer fra jobb, frilansarbeid eller selvstendig næring"
         ],
         "noRightTitle": "Har du ikke rett til foreldrepenger?",
-        "noRightText": "Da kan du ha rett til engangsstønad (ca. 92 000 kr) i stedet. Søk om dette på samme måte på nav.no.",
+        "noRightText": "Da kan du ha rett til engangsstønad (ca. 92 648 kr) i stedet. Søk om dette på samme måte på nav.no.",
         "stepsTitle": "Slik søker du om foreldrepenger",
         "importantDates": "Viktige datoer å huske",
         "date4WeeksBefore": "Tidligst du kan søke om foreldrepenger",
@@ -1078,7 +1169,7 @@
         "steps": [
           {
             "title": "Sjekk at du har rett til foreldrepenger",
-            "description": "Du må ha jobbet og hatt inntekt i minst 6 av de siste 10 månedene før permisjonen starter. Du må også tjene minst 59 310 kr i året.",
+            "description": "Du må ha jobbet og hatt inntekt i minst 6 av de siste 10 månedene før permisjonen starter. Du må også tjene minst 65 080 kr i året.",
             "tip": "Usikker? Bruk kalkulatoren på nav.no for å se hva du kan få."
           },
           {
@@ -1545,7 +1636,7 @@
           }
         ],
         "howMuchTitle": "Hvor mye får du?",
-        "howMuchText": "Uføretrygd er vanligvis 66% av inntekten din før du ble syk, opp til 6G (ca. 744 000 kr). Minimum er ca. 2,5G for enslige. Du kan også jobbe litt ved siden av uten å miste hele uføretrygden.",
+        "howMuchText": "Uføretrygd er vanligvis 66% av inntekten din før du ble syk, opp til 6G (ca. 780 960 kr). Minimum er ca. 2,5G for enslige. Du kan også jobbe litt ved siden av uten å miste hele uføretrygden.",
         "importantTitle": "Viktig å vite",
         "important": [
           "Du kan ha gradert uføretrygd (f.eks. 50%) og jobbe deltid ved siden av",
@@ -1653,17 +1744,17 @@
               {
                 "name": "Reise til jobb",
                 "description": "Hvis du har mer enn 37 km én vei til jobb, kan du få fradrag",
-                "amount": "Ca. 1,83 kr per km over 37 km (2025)"
+                "amount": "Ca. 1,90 kr per km over 37 km (2026)"
               },
               {
                 "name": "Fagforeningskontingent",
                 "description": "Medlemskap i fagforening gir automatisk fradrag",
-                "amount": "Opp til 8 250 kr (2025)"
+                "amount": "Opp til 8 700 kr (2026)"
               },
               {
                 "name": "Hjemmekontor",
                 "description": "Hvis du jobber hjemmefra fast, kan du få fradrag",
-                "amount": "Ca. 2 050 kr per år (standardfradrag)"
+                "amount": "Ca. 2 240 kr per år (standardfradrag, 2026)"
               },
               {
                 "name": "Verktøy og utstyr",
@@ -1683,7 +1774,7 @@
               {
                 "name": "BSU (Boligsparing for ungdom)",
                 "description": "Sparing til bolig for de under 34 år",
-                "amount": "20% av innskudd, maks 5 500 kr"
+                "amount": "10% av innskudd, maks 2 750 kr (2026)"
               },
               {
                 "name": "Vedlikehold av utleiebolig",
@@ -1708,7 +1799,7 @@
               {
                 "name": "Foreldrefradrag",
                 "description": "Utgifter til barnehage, SFO, dagmamma",
-                "amount": "Opp til 25 000 kr for ett barn, +15 000 per barn til"
+                "amount": "Opp til 15 000 kr for ett barn, +10 000 per barn til (2026)"
               },
               {
                 "name": "Særfradrag for enslig forsørger",
@@ -2061,11 +2152,11 @@
           },
           {
             "title": "Velg BankID",
-            "description": "Du får valget mellom BankID på mobil eller BankID med kodebrikke. Velg den du bruker.",
+            "description": "Du får valget mellom BankID-appen eller BankID med kodebrikke. Velg den du bruker.",
             "warning": "Skatteetaten krever BankID for full tilgang. MinID gir begrenset tilgang."
           },
           {
-            "title": "BankID på mobil",
+            "title": "BankID-appen",
             "description": "Skriv inn fødselsnummeret ditt (11 siffer). Du får en melding på mobilen - åpne BankID-appen og godkjenn innloggingen.",
             "tip": "Sjekk at BankID-appen er installert og oppdatert."
           },
@@ -2513,11 +2604,11 @@
           },
           {
             "title": "Velg innloggingsmetode",
-            "description": "Du kan velge mellom BankID på mobil, BankID med kodebrikke, eller MinID. BankID gir tilgang til alle tjenester.",
+            "description": "Du kan velge mellom BankID-appen, BankID med kodebrikke, eller MinID. BankID gir tilgang til alle tjenester.",
             "warning": "MinID gir begrenset tilgang på Helsenorge. BankID anbefales."
           },
           {
-            "title": "BankID på mobil",
+            "title": "BankID-appen",
             "description": "Skriv inn fødselsnummeret ditt (11 siffer). Du får en melding på mobilen - åpne BankID-appen og godkjenn innloggingen.",
             "tip": "Sjekk at BankID-appen er installert og oppdatert."
           },
@@ -2546,7 +2637,7 @@
         "whatIsText1": "BankID er en elektronisk legitimasjon som bekrefter hvem du er på internett. Det er som et digitalt pass som lar deg logge inn på offentlige tjenester, nettbanken og signere dokumenter.",
         "whatIsText2": "BankID utstedes av banken din og er koblet til ditt personnummer. Når du bruker BankID, bekrefter du at det virkelig er deg som logger inn eller signerer.",
         "typesTitle": "Ulike typer BankID",
-        "typeMobile": "BankID på mobil",
+        "typeMobile": "BankID-appen",
         "typeMobileDesc": "Den vanligste typen. Du får en melding på telefonen og godkjenner med fingeravtrykk, ansikt eller kode.",
         "typeCodeDevice": "BankID med kodebrikke",
         "typeCodeDeviceDesc": "En liten brikke som viser engangskoder. Brukes sammen med et personlig passord.",
@@ -2911,9 +3002,9 @@
             "color": "blue"
           },
           {
-            "number": "21 05 32 00",
-            "title": "ID-tyverihjelpen",
-            "description": "Hvis noen har misbrukt identiteten din",
+            "number": "40 00 58 99",
+            "title": "NorSIS",
+            "description": "Råd om ID-tyveri og digital sikkerhet",
             "color": "green"
           },
           {
@@ -3031,11 +3122,11 @@
           },
           {
             "title": "Velg innloggingsmetode",
-            "description": "Du kan logge inn med BankID på mobil eller BankID med kodebrikke. Velg den metoden du har tilgang til.",
+            "description": "Du kan logge inn med BankID-appen eller BankID med kodebrikke. Velg den metoden du har tilgang til.",
             "warning": "Hvis du ikke har BankID, må du kontakte banken din for å få det."
           },
           {
-            "title": "Logg inn med BankID på mobil",
+            "title": "Logg inn med BankID-appen",
             "description": "Skriv inn fødselsnummeret ditt og telefonnummeret. Du får en melding på mobilen. Åpne BankID-appen og godkjenn med fingeravtrykk, ansikt eller kode.",
             "tip": "Sørg for at BankID-appen er oppdatert til siste versjon."
           },
@@ -3153,7 +3244,7 @@
         "whatYouNeedTitle": "Dette trenger du",
         "whatYouNeed": [
           "Smarttelefon (iPhone eller Android)",
-          "BankID på mobil",
+          "BankID-appen",
           "Norsk bankkonto",
           "Norsk mobilnummer"
         ],
@@ -3385,7 +3476,7 @@
           },
           {
             "title": "Logg inn med BankID",
-            "description": "Du registrerer deg med BankID. Velg BankID på mobil eller kodebrikke og følg instruksjonene.",
+            "description": "Du registrerer deg med BankID. Velg BankID-appen eller kodebrikke og følg instruksjonene.",
             "warning": "Du må ha BankID for å bruke Digipost."
           },
           {
@@ -3517,12 +3608,12 @@
           },
           {
             "title": "Velg innloggingsmetode",
-            "description": "Du får velge mellom ulike innloggingsmetoder. De vanligste er BankID på mobil, BankID med kodebrikke, eller MinID.",
+            "description": "Du får velge mellom ulike innloggingsmetoder. De vanligste er BankID-appen, BankID med kodebrikke, eller MinID.",
             "tip": "BankID gir tilgang til flest tjenester. MinID fungerer på noen."
           },
           {
             "title": "Bekreft identiteten din",
-            "description": "Følg instruksjonene for valgt innloggingsmetode. Med BankID på mobil får du en melding du må godkjenne.",
+            "description": "Følg instruksjonene for valgt innloggingsmetode. Med BankID-appen får du en melding du må godkjenne.",
             "warning": "Les alltid hva du godkjenner før du bekrefter!"
           },
           {
@@ -3641,7 +3732,7 @@
           },
           {
             "title": "Logg inn med BankID",
-            "description": "Du må logge inn for å søke. Bruk BankID på mobil eller kodebrikke. Følg instruksjonene på skjermen.",
+            "description": "Du må logge inn for å søke. Bruk BankID-appen eller kodebrikke. Følg instruksjonene på skjermen.",
             "warning": "Har du ikke BankID? Du kan få hjelp på kommunens servicetorg."
           },
           {
@@ -3668,7 +3759,7 @@
         "tipsTitle": "Nyttige tips",
         "tips": [
           "Søk så tidlig som mulig i måneden - fristen er den 25. hver måned",
-          "Du får svar rundt den 10. i måneden etter",
+          "Du får svar rundt den 20. i måneden etter",
           "Meld fra om endringer i inntekt eller boutgifter",
           "Du kan søke tilbake i tid hvis du glemte å søke",
           "Kommunen kan hjelpe deg med søknaden hvis du trenger det"
@@ -3832,7 +3923,7 @@
           },
           {
             "title": "Logg inn med BankID",
-            "description": "Velg BankID på mobil eller kodebrikke. Følg instruksjonene for å logge inn.",
+            "description": "Velg BankID-appen eller kodebrikke. Følg instruksjonene for å logge inn.",
             "warning": "Har du ikke BankID? Du kan bestille det på banken din."
           },
           {
@@ -3976,6 +4067,45 @@
           "Lånekassen sender påminnelser før forfall - sjekk innboksen",
           "Ta kontakt med Lånekassen tidlig hvis du sliter med betalingen"
         ]
+      },
+      "betalingsutsettelse": {
+        "title": "Søke om betalingsutsettelse",
+        "description": "Utsett nedbetalingen av studielånet",
+        "longDescription": "Lær hvordan du søker om betalingsutsettelse hos Lånekassen hvis du trenger pause fra nedbetalingen.",
+        "time": "Ca. 10 minutter",
+        "difficulty": "Lett",
+        "whatIsTitle": "Hva er betalingsutsettelse?",
+        "whatIsText1": "Betalingsutsettelse betyr at du midlertidig slipper å betale på studielånet ditt. Du kan få utsettelse i opptil 36 måneder totalt gjennom hele nedbetalingsperioden.",
+        "whatIsText2": "Merk at renter fortsatt løper selv om du har betalingsutsettelse, så lånet ditt vil vokse i denne perioden. Det kan derfor lønne seg å betale så snart du har mulighet.",
+        "requirementsTitle": "Når kan du få betalingsutsettelse?",
+        "requirements": [
+          "Du har begynt å betale tilbake studielånet",
+          "Du har ikke brukt opp alle 36 månedene med utsettelse",
+          "Du er ikke i aktiv utdanning (da har du automatisk betalingsfritak)"
+        ],
+        "stepsTitle": "Slik søker du om betalingsutsettelse",
+        "steps": [
+          {
+            "title": "Logg inn på lanekassen.no",
+            "description": "Gå til lanekassen.no og logg inn med BankID eller MinID. Du kan også bruke Lånekassen-appen.",
+            "tip": "Appen er enkel å bruke hvis du skal gjøre raske endringer."
+          },
+          {
+            "title": "Gå til Nedbetaling",
+            "description": "Finn menyen 'Nedbetaling' i hovedmenyen. Velg deretter 'Søk om betalingsutsettelse'."
+          },
+          {
+            "title": "Velg periode for utsettelse",
+            "description": "Velg hvor mange måneder du ønsker utsettelse. Du kan søke om opptil 12 måneder om gangen.",
+            "tip": "Søk bare om den tiden du trenger - rentene løper fortsatt."
+          },
+          {
+            "title": "Send søknaden",
+            "description": "Bekreft valgene dine og send inn søknaden. Du får svar med en gang, og endringen trer i kraft umiddelbart."
+          }
+        ],
+        "helpTitle": "Trenger du hjelp?",
+        "helpText": "Ring Lånekassen på 21 49 60 00 (hverdager 09-15) eller bruk chatten på lanekassen.no. Du kan også sende melding via innlogget side."
       }
     },
     "id": {
@@ -4042,11 +4172,11 @@
         "difficulty": "Enkel",
         "whatIsTitle": "Om førerkort",
         "whatIsText1": "Førerkort er både et bevis på at du har lov til å kjøre og et gyldig ID-kort. Det må fornyes regelmessig.",
-        "whatIsText2": "Førerkort for personbil (klasse B) er gyldig i 10 år for de under 65 år, 5 år for de mellom 65-74 år, og 2 år for de over 75 år.",
+        "whatIsText2": "Førerkort for personbil (klasse B) er gyldig i 15 år for de under 65 år. Er du over 65, gjelder det til dagen før du fyller 80 år. Etter 80 år må du fornye med helseattest (maks 3 år av gangen).",
         "requirementsTitle": "Dette trenger du",
         "requirements": [
           "Gyldig legitimasjon",
-          "Helseattest hvis du er over 75 år",
+          "Helseattest hvis du er over 80 år",
           "Betaling (ca. 250-400 kr)",
           "Nytt passfoto (kan tas på trafikkstasjonen)"
         ],
@@ -4081,7 +4211,7 @@
         "tipsTitle": "Nyttige tips",
         "tips": [
           "Forny førerkortet før det går ut - det er ikke lov å kjøre med utgått førerkort",
-          "Er du over 75 år, trenger du helseattest fra lege",
+          "Er du over 80 år, trenger du helseattest fra lege",
           "Mistet førerkort kan erstattes mot gebyr",
           "Du kan sjekke gyldigheten på vegvesen.no",
           "EU-førerkort gjelder i hele Europa"
@@ -4408,7 +4538,7 @@
           {
             "name": "Seniornett Norge",
             "description": "Frivillig organisasjon som hjelper seniorer med det digitale. De har lokale grupper over hele landet som holder kurs og gir hjelp.",
-            "howToContact": "Gå til seniornett.no eller ring 22 42 99 99",
+            "howToContact": "Gå til seniornett.no eller ring 22 42 96 26",
             "price": "Gratis eller rimelig"
           },
           {
@@ -4705,7 +4835,7 @@
       {
         "term": "Barnetrygd",
         "definition": "Penger alle foreldre får automatisk fra NAV for barn under 18 år.",
-        "example": "Barnetrygd utbetales den 10. hver måned.",
+        "example": "Barnetrygd utbetales siste virkedag hver måned.",
         "category": "NAV"
       },
       {
@@ -4723,7 +4853,7 @@
       {
         "term": "Grunnbeløpet (G)",
         "definition": "Et beløp som brukes til å beregne mange ytelser fra NAV. Justeres hvert år.",
-        "example": "I 2024 er G ca. 118 620 kr.",
+        "example": "I 2026 er G ca. 130 160 kr.",
         "category": "NAV"
       },
       {
@@ -4843,7 +4973,7 @@
       {
         "term": "Frikort",
         "definition": "Kort som gir deg gratis helsetjenester når du har betalt nok i egenandeler (frikortgrensen).",
-        "example": "Frikortgrensen er ca. 3 040 kr (2024).",
+        "example": "Frikortgrensen er ca. 3 278 kr (2026).",
         "category": "Helse"
       },
       {
@@ -4897,7 +5027,7 @@
       {
         "term": "BankID",
         "definition": "En digital identitet du bruker til å logge inn på nettsider og signere dokumenter. Du får BankID fra banken din.",
-        "example": "Logg inn med BankID på mobilen.",
+        "example": "Logg inn med BankID-appenen.",
         "category": "Digital"
       },
       {
@@ -4999,7 +5129,7 @@
       {
         "term": "Bostøtte",
         "definition": "Økonomisk støtte fra Husbanken til å betale husleie eller boutgifter for de med lav inntekt.",
-        "example": "Bostøtte utbetales rundt den 10. hver måned.",
+        "example": "Bostøtte utbetales den 20. hver måned.",
         "category": "Bolig"
       },
       {
@@ -5194,7 +5324,7 @@
       },
       {
         "question": "Hvor lang tid tar det å få svar på NAV-søknad?",
-        "answer": "Behandlingstiden varierer: Dagpenger tar vanligvis 3-4 uker. Sykepenger tar 2-4 uker. Foreldrepenger tar 4-6 uker. Du kan sjekke status på søknaden din under \"Mine saker\" på nav.no.",
+        "answer": "Behandlingstiden varierer: Dagpenger tar inntil 5 uker. Sykepenger tar 2-4 uker. Foreldrepenger tar 4-6 uker. Du kan sjekke status på søknaden din under \"Mine saker\" på nav.no.",
         "category": "NAV"
       },
       {
@@ -5254,7 +5384,7 @@
       },
       {
         "question": "Hva er frikortgrensen og hvordan fungerer det?",
-        "answer": "Frikortgrensen er ca. 3 040 kr (2024). Når du har betalt dette i egenandeler (legetime, medisin osv.), får du automatisk frikort. Da slipper du egenandeler resten av året.",
+        "answer": "Frikortgrensen er ca. 3 278 kr (2026). Når du har betalt dette i egenandeler (legetime, medisin osv.), får du automatisk frikort. Da slipper du egenandeler resten av året.",
         "category": "Helse"
       },
       {
@@ -5319,7 +5449,7 @@
       },
       {
         "question": "Jeg tror jeg har blitt svindlet - hva gjør jeg?",
-        "answer": "Handler RASKT: 1) Kontakt banken din umiddelbart for å sperre kort/konto. 2) Bytt passord på e-post og viktige tjenester. 3) Anmeld til politiet på nett eller ring 02800. 4) Kontakt ID-tyverihjelpen på 21 05 32 80.",
+        "answer": "Handler RASKT: 1) Kontakt banken din umiddelbart for å sperre kort/konto. 2) Bytt passord på e-post og viktige tjenester. 3) Anmeld til politiet på nett eller ring 02800. 4) Kontakt NorSIS for råd på 40 00 58 99.",
         "category": "Sikkerhet"
       },
       {
@@ -5442,7 +5572,7 @@
   "privacy": {
     "title": "Personvernerklæring",
     "backToHome": "Tilbake til forsiden",
-    "lastUpdated": "Sist oppdatert: Januar 2025",
+    "lastUpdated": "Sist oppdatert: Februar 2026",
     "whoAreWe": {
       "title": "Hvem er vi?",
       "text1": "LettDigital er en informasjonstjeneste som hjelper folk med å bruke offentlige digitale tjenester. Vi er ikke en del av NAV, Skatteetaten eller Helsenorge, men gir veiledning basert på offentlig tilgjengelig informasjon.",

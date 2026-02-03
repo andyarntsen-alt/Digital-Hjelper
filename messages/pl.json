@@ -29,7 +29,7 @@
     "save": "Zapisz",
     "saved": "Zapisano",
     "favorite": "Ulubiony",
-    "lastUpdatedJan2026": "Ostatnia aktualizacja: Styczeń 2026",
+    "lastUpdatedJan2026": "Ostatnia aktualizacja: Luty 2026",
     "comingSoon": "Wkrótce",
     "comingSoonDescription": "Pracujemy nad stworzeniem tego przewodnika.",
     "comingSoonMessage": "W międzyczasie możesz przejrzeć nasze inne przewodniki lub skontaktować się bezpośrednio z odpowiednią instytucją.",
@@ -203,13 +203,13 @@
       "faqTitle": "Często zadawane pytania o NAV",
       "faq": {
         "q1": "Jak zalogować się do NAV?",
-        "a1": "Zaloguj się na nav.no za pomocą BankID, Mobile BankID lub MinID. Przejdź na nav.no, kliknij 'Zaloguj się' i wybierz metodę logowania.",
+        "a1": "Zaloguj się na nav.no za pomocą BankID, BankID app lub MinID. Przejdź na nav.no, kliknij 'Zaloguj się' i wybierz metodę logowania.",
         "q2": "Jak wysłać meldekort do NAV?",
         "a2": "Wyślij meldekort logując się na nav.no za pomocą BankID. Przejdź do 'Meldekort' w menu, wypełnij informacje o pracy i aktywności z ostatnich 14 dni i wyślij.",
         "q3": "Jak złożyć wniosek o zasiłek dla bezrobotnych?",
         "a3": "Złóż wniosek o zasiłek dla bezrobotnych na nav.no. Zaloguj się za pomocą BankID, przejdź do 'Wnioski', wybierz 'Zasiłek dla bezrobotnych' i wypełnij formularz.",
         "q4": "Jaki jest numer telefonu NAV?",
-        "a4": "Numer telefonu NAV to 55 55 33 33. Dostępni są od poniedziałku do piątku w godzinach 08:00-15:30.",
+        "a4": "Numer telefonu NAV to 55 55 33 33. Dostępni są od poniedziałku do piątku w godzinach 09:00-15:00.",
         "q5": "Jak znaleźć lokalne biuro NAV?",
         "a5": "Znajdź lokalne biuro NAV na nav.no/sok-nav-kontor wpisując swój kod pocztowy lub gminę.",
         "q6": "Czy mogę uzyskać pomoc w biurze NAV bez umówionej wizyty?",
@@ -222,7 +222,7 @@
       "relatedBankID": "Logowanie i bezpieczeństwo",
       "metaTitle": "Przewodniki NAV - Kompleksowa pomoc w usługach cyfrowych NAV",
       "metaDescription": "Dowiedz się, jak zalogować się do NAV, wysłać meldekort, złożyć wniosek o zasiłek dla bezrobotnych.",
-      "lastUpdated": "Ostatnia aktualizacja: Styczeń 2026"
+      "lastUpdated": "Ostatnia aktualizacja: Luty 2026"
     },
     "skatt": {
       "title": "Urząd Skarbowy",
@@ -247,7 +247,7 @@
       "needMoreHelpText": "Jeśli nie możesz znaleźć tego, czego szukasz, skontaktuj się z Urzędem Skarbowym:",
       "phone": "Telefon",
       "phoneNumber": "800 80 000",
-      "phoneHours": "bezpłatnie, dni robocze 08:00-15:30",
+      "phoneHours": "bezpłatnie, dni robocze 09:00-15:00",
       "chat": "Czat",
       "chatAvailable": "Dostępny na skatteetaten.no",
       "introStrong": "Urząd Skarbowy",
@@ -265,7 +265,7 @@
         "q5": "Jak uzyskać zaświadczenie podatkowe?",
         "a5": "Zaloguj się i przejdź do 'Zaświadczenie podatkowe'.",
         "q6": "Jaki jest numer telefonu?",
-        "a6": "800 80 000, dni robocze 08:00-15:30."
+        "a6": "800 80 000, dni robocze 09:00-15:00."
       },
       "relatedTitle": "Powiązane przewodniki",
       "relatedText": "Potrzebujesz pomocy z innymi usługami?",
@@ -274,7 +274,7 @@
       "relatedBankID": "Logowanie i bezpieczeństwo",
       "metaTitle": "Przewodniki Urzędu Skarbowego",
       "metaDescription": "Naucz się korzystać z usług podatkowych.",
-      "lastUpdated": "Ostatnia aktualizacja: Styczeń 2026"
+      "lastUpdated": "Ostatnia aktualizacja: Luty 2026"
     },
     "helse": {
       "title": "Zdrowie Norwegia",
@@ -294,7 +294,7 @@
       "legevaktNumber": "116 117",
       "legevaktDesc": "Gdy potrzebujesz natychmiastowej pomocy, która nie jest nagła",
       "poisonControl": "Informacja toksykologiczna",
-      "poisonControlNumber": "22 58 00 00",
+      "poisonControlNumber": "22 59 13 00",
       "poisonControlDesc": "W przypadku zatrucia lub podejrzenia zatrucia",
       "canDoTitle": "Co możesz zrobić na Helsenorge",
       "canDoBooking": "Umów wizytę u lekarza",
@@ -322,7 +322,7 @@
       "faqTitle": "Często zadawane pytania o Helsenorge",
       "faq": {
         "q1": "Jak zalogować się do Helsenorge?",
-        "a1": "Zaloguj się na helsenorge.no za pomocą BankID, Mobile BankID lub MinID. Przejdź na helsenorge.no, kliknij 'Zaloguj się' i wybierz metodę logowania.",
+        "a1": "Zaloguj się na helsenorge.no za pomocą BankID lub BankID app. MinID daje tylko ograniczony dostęp (usługi zdrowia szkolnego). Przejdź na helsenorge.no, kliknij 'Zaloguj się' i wybierz metodę logowania.",
         "q2": "Jak umówić wizytę u lekarza?",
         "a2": "Zaloguj się na helsenorge.no, przejdź do 'Wizyty' i wybierz 'Umów wizytę'. Możesz umówić się do lekarza pierwszego kontaktu lub specjalisty.",
         "q3": "Jak zobaczyć moje recepty?",
@@ -338,7 +338,7 @@
       "relatedText": "Potrzebujesz pomocy z innymi usługami publicznymi?",
       "metaTitle": "Przewodniki Helsenorge - Kompleksowa pomoc w usługach zdrowotnych online",
       "metaDescription": "Dowiedz się, jak korzystać z Helsenorge do umawiania wizyt, sprawdzania recept i czytania dokumentacji medycznej.",
-      "lastUpdated": "Ostatnia aktualizacja: Styczeń 2026"
+      "lastUpdated": "Ostatnia aktualizacja: Luty 2026"
     },
     "sikkerhet": {
       "title": "Bezpieczeństwo cyfrowe",
@@ -366,7 +366,7 @@
         "bank": "Zadzwoń do banku i zablokuj kartę/konto",
         "police": "Zgłoś na policję na politiet.no",
         "password": "Zmień hasła do wszystkich ważnych kont",
-        "idTheft": "Skontaktuj się z pomocą ds. kradzieży tożsamości pod numerem 21 05 32 00"
+        "idTheft": "Skontaktuj się z NorSIS w sprawie kradzieży tożsamości pod numerem 40 00 58 99"
       },
       "metaTitle": "Bezpieczeństwo cyfrowe - Chroń się przed oszustwami i phishingiem",
       "metaDescription": "Dowiedz się, jak chronić się przed oszustwami, phishingiem i kradzieżą tożsamości online.",
@@ -390,7 +390,7 @@
       "relatedNav": "Bezpieczne logowanie",
       "relatedHelse": "Bezpieczne logowanie",
       "relatedBank": "Bezpieczeństwo bankowości",
-      "lastUpdated": "Ostatnia aktualizacja: Styczeń 2026"
+      "lastUpdated": "Ostatnia aktualizacja: Luty 2026"
     },
     "bank": {
       "title": "Bankowość i finanse",
@@ -419,7 +419,7 @@
       "faqTitle": "Często zadawane pytania o bankowość internetową",
       "faq": {
         "q1": "Jak zalogować się do bankowości internetowej?",
-        "a1": "Zaloguj się na stronie banku lub w aplikacji za pomocą BankID. Przejdź na stronę banku, kliknij 'Zaloguj się' i potwierdź za pomocą Mobile BankID.",
+        "a1": "Zaloguj się na stronie banku lub w aplikacji za pomocą BankID. Przejdź na stronę banku, kliknij 'Zaloguj się' i potwierdź za pomocą BankID app.",
         "q2": "Jak zapłacić rachunek?",
         "a2": "Zaloguj się do bankowości internetowej, wybierz 'Płatności' lub 'Przelewy', wprowadź numer KID, numer konta i kwotę z rachunku.",
         "q3": "Co to jest Vipps i jak go używać?",
@@ -439,7 +439,7 @@
       "relatedNavDesc": "Zasiłki i świadczenia",
       "metaTitle": "Przewodniki bankowe - Kompleksowa pomoc w bankowości cyfrowej",
       "metaDescription": "Dowiedz się, jak korzystać z bankowości internetowej, płacić rachunki, używać Vipps i kontrolować finanse.",
-      "lastUpdated": "Ostatnia aktualizacja: Styczeń 2026"
+      "lastUpdated": "Ostatnia aktualizacja: Luty 2026"
     },
     "digital": {
       "title": "Narzędzia cyfrowe",
@@ -501,7 +501,7 @@
       "linkKommune": "Twoja gmina",
       "linkKommuneDesc": "Złóż wniosek o mieszkanie komunalne",
       "linkPhone": "Telefon do Husbanken:",
-      "linkPhoneHours": "33 35 70 00 (dni robocze 08-15:30)"
+      "linkPhoneHours": "22 96 16 00 (dni robocze 09-15)"
     },
     "utdanning": {
       "title": "Edukacja i Lånekassen",
@@ -525,7 +525,7 @@
       "linkSamordna": "samordnaopptak.no",
       "linkSamordnaDesc": "Złóż wniosek na studia wyższe",
       "linkPhone": "Telefon do Lånekassen:",
-      "linkPhoneHours": "55 55 44 00 (dni robocze 09-15)"
+      "linkPhoneHours": "21 49 60 00 (dni robocze 09-15)"
     },
     "id": {
       "title": "Dokumenty tożsamości",
@@ -540,7 +540,7 @@
       "passInfoTitle": "Paszport",
       "passInfoDesc": "Na podróże poza Skandynawię. Ważny 10 lat (5 lat dla dzieci). Może być również używany jako ID w Norwegii.",
       "forerkortInfoTitle": "Prawo jazdy",
-      "forerkortInfoDesc": "Do prowadzenia samochodu. Ważne jako dokument tożsamości w Norwegii. Ważne 10 lat (poniżej 65 lat), 5 lat (65-74 lat) lub 2 lata (powyżej 75 lat).",
+      "forerkortInfoDesc": "Do prowadzenia samochodu. Ważne jako dokument tożsamości w Norwegii. Wymaga odnowienia co 15 lat.",
       "idKortInfoTitle": "Krajowy dowód osobisty",
       "idKortInfoDesc": "Alternatywa dla paszportu. Z prawem do podróży można jeździć po EOG. Praktyczny rozmiar do portfela.",
       "usefulLinksTitle": "Przydatne linki",
@@ -705,7 +705,7 @@
         "whoCanGet": "Kto może otrzymać zasiłek dla bezrobotnych?",
         "whoCanGetIntro": "Aby otrzymać zasiłek dla bezrobotnych, musisz zwykle:",
         "requirements": [
-          "Zarobić co najmniej 186 042 NOK w ciągu ostatnich 12 miesięcy lub 372 084 NOK w ciągu ostatnich 36 miesięcy (stawki 2024)",
+          "Zarobić co najmniej 186 042 NOK w ciągu ostatnich 12 miesięcy lub 372 084 NOK w ciągu ostatnich 36 miesięcy (stawki 2026)",
           "Mieć skrócony czas pracy o co najmniej 50%",
           "Być zarejestrowanym jako osoba poszukująca pracy i aktywnie szukać pracy",
           "Mieszkać w Norwegii i mieć prawo do pracy tutaj"
@@ -724,7 +724,7 @@
         "importantJobsearch": "Poszukiwanie pracy",
         "importantJobsearchText": "Musisz aktywnie szukać pracy i to dokumentować. NAV może poprosić cię o pokazanie twoich aplikacji o pracę.",
         "importantAmount": "Ile otrzymasz?",
-        "importantAmountText": "Zasiłek dla bezrobotnych wynosi około 62,4% poprzedniego dochodu, do 6G (ok. 744 000 NOK). Pieniądze są zwykle wypłacane z dołu.",
+        "importantAmountText": "Zasiłek dla bezrobotnych wynosi około 62,4% poprzedniego dochodu, do 6G (ok. 780 960 NOK). Pieniądze są zwykle wypłacane z dołu.",
         "steps": [
           {
             "title": "Najpierw zarejestruj się jako osoba poszukująca pracy",
@@ -789,7 +789,7 @@
         "whoCanGet": "Kto może otrzymać zasiłek chorobowy?",
         "requirements": [
           "Byłeś zatrudniony przez co najmniej 4 tygodnie przed zachorowaniem",
-          "Zarabiasz co najmniej 59 310 NOK rocznie (połowa kwoty bazowej)",
+          "Zarabiasz co najmniej 65 080 NOK rocznie (połowa kwoty bazowej)",
           "Masz zwolnienie lekarskie od lekarza",
           "Straciłeś dochód z powodu choroby"
         ],
@@ -799,7 +799,7 @@
         "navPeriod": "Okres NAV (od dnia 17)",
         "navPeriodText": "Od dnia 17 przejmuje NAV. Wtedy musisz złożyć wniosek.",
         "howMuch": "Ile otrzymasz?",
-        "howMuchText": "Otrzymujesz 100% swojego dochodu, do 6G (ok. 744 000 NOK). Pracodawca może pokryć więcej.",
+        "howMuchText": "Otrzymujesz 100% swojego dochodu, do 6G (ok. 780 960 NOK). Pracodawca może pokryć więcej.",
         "howLong": "Jak długo?",
         "howLongText": "Możesz otrzymywać zasiłek chorobowy przez maksymalnie 52 tygodnie (1 rok). Po tym możesz mieć prawo do AAP.",
         "stepsTitle": "Jak złożyć wniosek o zasiłek chorobowy",
@@ -868,11 +868,11 @@
         "youHaveRight": "Masz prawo do zasiłku rodzicielskiego, jeśli:",
         "rightConditions": [
           "Miałeś dochód przez co najmniej 6 z ostatnich 10 miesięcy",
-          "Zarabiasz co najmniej 59 310 NOK rocznie (0,5G)",
+          "Zarabiasz co najmniej 65 080 NOK rocznie (0,5G)",
           "Dochód pochodzi z pracy, freelance lub samozatrudnienia"
         ],
         "noRightTitle": "Nie masz prawa do zasiłku rodzicielskiego?",
-        "noRightText": "Wtedy możesz mieć prawo do jednorazowego świadczenia (ok. 92 000 NOK). Złóż o nie wniosek w ten sam sposób na nav.no.",
+        "noRightText": "Wtedy możesz mieć prawo do jednorazowego świadczenia (ok. 92 648 NOK). Złóż o nie wniosek w ten sam sposób na nav.no.",
         "stepsTitle": "Jak złożyć wniosek o zasiłek rodzicielski",
         "importantDates": "Ważne daty do zapamiętania",
         "date4WeeksBefore": "Najwcześniej możesz złożyć wniosek o zasiłek rodzicielski",
@@ -884,7 +884,7 @@
         "steps": [
           {
             "title": "Sprawdź, czy masz prawo do zasiłku rodzicielskiego",
-            "description": "Musisz pracować i mieć dochód przez co najmniej 6 z ostatnich 10 miesięcy przed rozpoczęciem urlopu. Musisz też zarabiać co najmniej 59 310 NOK rocznie.",
+            "description": "Musisz pracować i mieć dochód przez co najmniej 6 z ostatnich 10 miesięcy przed rozpoczęciem urlopu. Musisz też zarabiać co najmniej 65 080 NOK rocznie.",
             "tip": "Nie jesteś pewien? Użyj kalkulatora na nav.no, aby zobaczyć, co możesz otrzymać."
           },
           {
@@ -1351,7 +1351,7 @@
           }
         ],
         "howMuchTitle": "Ile otrzymasz?",
-        "howMuchText": "Renta inwalidzka wynosi zwykle 66% twojego dochodu przed zachorowaniem, do 6G (ok. 744 000 koron). Minimum to ok. 2,5G dla osób samotnych. Możesz również trochę pracować bez utraty całej renty.",
+        "howMuchText": "Renta inwalidzka wynosi zwykle 66% twojego dochodu przed zachorowaniem, do 6G (ok. 780 960 koron). Minimum to ok. 2,5G dla osób samotnych. Możesz również trochę pracować bez utraty całej renty.",
         "importantTitle": "Ważne informacje",
         "important": [
           "Możesz mieć częściową rentę inwalidzką (np. 50%) i pracować na część etatu",
@@ -1459,17 +1459,17 @@
               {
                 "name": "Dojazd do pracy",
                 "description": "Jeśli masz więcej niż 37 km w jedną stronę do pracy, możesz otrzymać odliczenie",
-                "amount": "Ok. 1,76 korony za km powyżej 37 km"
+                "amount": "Ok. 1,90 korony za km powyżej 37 km"
               },
               {
                 "name": "Składka związkowa",
                 "description": "Członkostwo w związku zawodowym daje automatyczne odliczenie",
-                "amount": "Do ok. 7 700 koron"
+                "amount": "Do ok. 8 700 koron"
               },
               {
                 "name": "Biuro domowe",
                 "description": "Jeśli pracujesz stale z domu, możesz otrzymać odliczenie",
-                "amount": "Ok. 2 050 koron rocznie (odliczenie standardowe)"
+                "amount": "Ok. 2 240 koron rocznie (odliczenie standardowe)"
               },
               {
                 "name": "Narzędzia i sprzęt",
@@ -1489,7 +1489,7 @@
               {
                 "name": "BSU (Oszczędności mieszkaniowe dla młodych)",
                 "description": "Oszczędności na mieszkanie dla osób poniżej 34 lat",
-                "amount": "20% wpłaty, maks. 5 500 koron"
+                "amount": "10% wpłaty, maks. 2 750 koron"
               },
               {
                 "name": "Utrzymanie mieszkania pod wynajem",
@@ -1514,7 +1514,7 @@
               {
                 "name": "Odliczenie rodzicielskie",
                 "description": "Wydatki na przedszkole, świetlicę, opiekunkę do dzieci",
-                "amount": "Do 25 000 koron za jedno dziecko, +15 000 za każde kolejne"
+                "amount": "Do 15 000 koron za jedno dziecko, +10 000 za każde kolejne (2026)"
               },
               {
                 "name": "Specjalne odliczenie dla samotnego rodzica",
@@ -2685,9 +2685,9 @@
             "color": "blue"
           },
           {
-            "number": "21 05 32 00",
-            "title": "Pomoc przy kradzieży tożsamości",
-            "description": "Jeśli ktoś nadużył twojej tożsamości",
+            "number": "40 00 58 99",
+            "title": "NorSIS",
+            "description": "Porady dotyczące kradzieży tożsamości i bezpieczeństwa cyfrowego",
             "color": "green"
           },
           {
@@ -3442,7 +3442,7 @@
         "tipsTitle": "Przydatne porady",
         "tips": [
           "Ubiegaj się jak najwcześniej w miesiącu - termin to 25. każdego miesiąca",
-          "Odpowiedź otrzymujesz około 10. dnia następnego miesiąca",
+          "Odpowiedź otrzymujesz około 20. dnia następnego miesiąca",
           "Zgłoś zmianę dochodu lub kosztów mieszkania",
           "Możesz ubiegać się wstecz, jeśli zapomniałeś złożyć wniosek",
           "Gmina może ci pomóc w wypełnieniu wniosku, jeśli tego potrzebujesz"
@@ -3750,6 +3750,45 @@
           "Lånekassen wysyła przypomnienia przed terminem - sprawdzaj skrzynkę odbiorczą",
           "Skontaktuj się z Lånekassen wcześnie, jeśli masz problemy ze spłatą"
         ]
+      },
+      "betalingsutsettelse": {
+        "title": "Ubieganie się o odroczenie płatności",
+        "description": "Odłóż spłatę kredytu studenckiego",
+        "longDescription": "Dowiedz się, jak ubiegać się o odroczenie płatności w Lånekassen, jeśli potrzebujesz przerwy od spłaty.",
+        "time": "Ok. 10 minut",
+        "difficulty": "Łatwy",
+        "whatIsTitle": "Czym jest odroczenie płatności?",
+        "whatIsText1": "Odroczenie płatności oznacza, że tymczasowo nie musisz spłacać kredytu studenckiego. Możesz uzyskać odroczenie na łącznie do 36 miesięcy w całym okresie spłaty.",
+        "whatIsText2": "Zauważ, że odsetki nadal narastają nawet podczas odroczenia płatności, więc Twój dług będzie rosnąć w tym okresie. Dlatego może być rozsądne płacić, gdy tylko będziesz mógł.",
+        "requirementsTitle": "Kiedy można uzyskać odroczenie płatności?",
+        "requirements": [
+          "Rozpocząłeś spłatę kredytu studenckiego",
+          "Nie wykorzystałeś wszystkich 36 miesięcy odroczenia",
+          "Nie uczysz się aktywnie (wtedy masz automatyczne zwolnienie z płatności)"
+        ],
+        "stepsTitle": "Jak ubiegać się o odroczenie płatności",
+        "steps": [
+          {
+            "title": "Zaloguj się na lanekassen.no",
+            "description": "Przejdź do lanekassen.no i zaloguj się za pomocą BankID lub MinID. Możesz także użyć aplikacji Lånekassen.",
+            "tip": "Aplikacja jest łatwa w użyciu do szybkich zmian."
+          },
+          {
+            "title": "Przejdź do Spłaty",
+            "description": "Znajdź menu 'Spłata' w głównym menu. Następnie wybierz 'Ubiegaj się o odroczenie płatności'."
+          },
+          {
+            "title": "Wybierz okres odroczenia",
+            "description": "Wybierz, ile miesięcy odroczenia chcesz. Możesz ubiegać się o maksymalnie 12 miesięcy na raz.",
+            "tip": "Ubiegaj się tylko o potrzebny czas - odsetki nadal narastają."
+          },
+          {
+            "title": "Wyślij wniosek",
+            "description": "Potwierdź swoje wybory i wyślij wniosek. Otrzymasz odpowiedź natychmiast, a zmiana wejdzie w życie od razu."
+          }
+        ],
+        "helpTitle": "Potrzebujesz pomocy?",
+        "helpText": "Zadzwoń do Lånekassen pod numer 22 00 22 00 (dni robocze 08-15) lub użyj czatu na lanekassen.no. Możesz także wysłać wiadomość przez stronę po zalogowaniu."
       }
     },
     "id": {
@@ -3816,11 +3855,11 @@
         "difficulty": "Łatwy",
         "whatIsTitle": "O prawie jazdy",
         "whatIsText1": "Prawo jazdy jest zarówno dowodem na to, że możesz prowadzić pojazd, jak i ważnym dokumentem tożsamości. Musi być regularnie odnawiane.",
-        "whatIsText2": "Prawo jazdy na samochód osobowy (kategoria B) jest ważne 10 lat dla osób poniżej 65 lat, 5 lat dla osób w wieku 65-74 lat i 2 lata dla osób powyżej 75 lat.",
+        "whatIsText2": "Prawo jazdy na samochód osobowy (kategoria B) jest ważne 15 lat dla osób poniżej 65 lat. Dla osób powyżej 65 lat jest ważne do dnia przed ukończeniem 80 lat. Po 80 latach należy odnawiać z zaświadczeniem lekarskim (maksymalnie 3 lata na raz).",
         "requirementsTitle": "Co potrzebujesz",
         "requirements": [
           "Ważny dokument tożsamości",
-          "Zaświadczenie lekarskie, jeśli masz powyżej 75 lat",
+          "Zaświadczenie lekarskie, jeśli masz powyżej 80 lat",
           "Opłata (ok. 250-400 NOK)",
           "Nowe zdjęcie paszportowe (można zrobić na stacji drogowej)"
         ],
@@ -3855,7 +3894,7 @@
         "tipsTitle": "Przydatne wskazówki",
         "tips": [
           "Odnów prawo jazdy przed jego wygaśnięciem - nie wolno jeździć z wygasłym prawem jazdy",
-          "Jeśli masz powyżej 75 lat, potrzebujesz zaświadczenia lekarskiego",
+          "Jeśli masz powyżej 80 lat, potrzebujesz zaświadczenia lekarskiego",
           "Zgubione prawo jazdy można zastąpić za opłatą",
           "Możesz sprawdzić ważność na vegvesen.no",
           "Europejskie prawo jazdy jest ważne w całej Europie"
@@ -4182,7 +4221,7 @@
           {
             "name": "Seniornett Norge",
             "description": "Organizacja wolontariacka, która pomaga seniorom w kwestiach cyfrowych. Mają lokalne grupy na całym kraju, które prowadzą kursy i udzielają pomocy.",
-            "howToContact": "Przejdź do seniornett.no lub zadzwoń 22 42 99 99",
+            "howToContact": "Przejdź do seniornett.no lub zadzwoń 22 42 96 26",
             "price": "Bezpłatne lub niedrogie"
           },
           {
@@ -4519,7 +4558,7 @@
       },
       {
         "question": "Jak długo trwa udzielenie odpowiedzi na wniosek do NAV?",
-        "answer": "Czas przetwarzania jest różny: Zasiłek dla bezrobotnych zwykle zajmuje 3-4 tygodnie. Zasiłek chorobowy zajmuje 2-4 tygodnie.",
+        "answer": "Czas przetwarzania jest różny: Zasiłek dla bezrobotnych zwykle zajmuje do 5 tygodni. Zasiłek chorobowy zajmuje 2-4 tygodnie.",
         "category": "NAV"
       },
       {
@@ -4528,7 +4567,7 @@
         "category": "Skatt"
       },
       {
-        "question": "How do I change my GP?",
+        "question": "Jak zmienić lekarza pierwszego kontaktu?",
         "answer": "Zaloguj się na helsenorge.no, przejdź do GP i wybierz Zmień GP. Możesz zmienić maksymalnie 2 razy w roku.",
         "category": "Helse"
       },
@@ -4612,7 +4651,7 @@
   "privacy": {
     "title": "Polityka prywatności",
     "backToHome": "Powrót do strony głównej",
-    "lastUpdated": "Ostatnia aktualizacja: styczeń 2025",
+    "lastUpdated": "Ostatnia aktualizacja: luty 2026",
     "whoAreWe": {
       "title": "Kim jesteśmy?",
       "text1": "LettDigital to serwis informacyjny, który pomaga ludziom korzystać z publicznych usług cyfrowych. Nie jesteśmy częścią NAV, Urzędu Skarbowego ani Helsenorge, ale udzielamy wskazówek na podstawie publicznie dostępnych informacji.",
@@ -4751,7 +4790,7 @@
       "name": "Oslo",
       "description": "Stolica Norwegii z biurami NAV we wszystkich dzielnicach",
       "intro": "Oslo jest stolicą Norwegii z ponad 700 000 mieszkańcami. Tutaj znajdziesz przegląd wszystkich usług publicznych w Oslo, w tym biura NAV we wszystkich dzielnicach, Skatteverket i usługi zdrowotne. Użyj tej strony, aby znaleźć adresy, godziny otwarcia i informacje kontaktowe.",
-      "emergencyAddress": "Storgata 40, 0182 Oslo",
+      "emergencyAddress": "Trondheimsveien 233, Aker sykehus",
       "faq1q": "Gdzie mogę znaleźć biuro NAV w Oslo?",
       "faq1a": "Oslo posiada biura NAV we wszystkich dzielnicach. Swoje lokalne biuro znajdziesz na podstawie tego, gdzie mieszkasz: NAV Gamle Oslo, NAV Grünerløkka, NAV Sagene, NAV St. Hanshaugen, NAV Frogner, NAV Ullern, NAV Vestre Aker, NAV Nordre Aker, NAV Bjerke, NAV Grorud, NAV Stovner, NAV Alna, NAV Østensjø, NAV Nordstrand i NAV Søndre Nordstrand.",
       "faq2q": "Jakie są godziny otwarcia NAV w Oslo?",
@@ -4759,7 +4798,7 @@
       "faq3q": "Gdzie jest Skatteverket w Oslo?",
       "faq3a": "Skatteverket posiada biura w centrum Oslo. Możesz również korzystać z usług cyfrowych na stronie skatteverket.no dla większości zadań, takich jak zeznanie podatkowe, karta podatkowa i zawiadomienie o przeprowadzce.",
       "faq4q": "Gdzie mogę znaleźć pogotowie lekarskie w Oslo?",
-      "faq4a": "Pogotowie lekarskie Oslo znajduje się na Storgata 40 (Centrum). Otwarte 24 godziny. Telefon: 116 117. W sytuacjach zagrażających życiu zadzwoń 113. W kilku dzielnicach znajdują się również inne pogotowia.",
+      "faq4a": "Pogotowie lekarskie Oslo znajduje się w Aker sykehus, Trondheimsveien 233. Otwarte 24 godziny. Telefon: 116 117. W sytuacjach zagrażających życiu zadzwoń 113. W kilku dzielnicach znajdują się również inne pogotowia.",
       "faq5q": "Jak zarezerwować wizytę u lekarza podstawowej opieki w Oslo?",
       "faq5a": "Rezerwujesz wizytę u swojego lekarza podstawowej opieki przez Helsenorge.no. Zaloguj się za pomocą BankID, wybierz 'Umowy wizyt' i znajdź swojego lekarza. Możesz również zadzwonić bezpośrednio do gabinetu lekarskiego. Nie masz lekarza? Złóż wniosek o lekarza na Helsenorge.no."
     },
@@ -4803,7 +4842,7 @@
       "name": "Kristiansand",
       "description": "Stolica południa z centralnym biurem NAV",
       "intro": "Kristiansand jest największym miastem na południu z ok. 115 000 mieszkańcami. Tutaj znajdziesz informacje o biurach NAV, Skatteverku i usługach zdrowotnych w Kristiansand.",
-      "emergencyAddress": "Eg, 4615 Kristiansand",
+      "emergencyAddress": "Egsveien 102, 4615 Kristiansand",
       "faq1q": "Gdzie jest biuro NAV w Kristiansand?",
       "faq1a": "Kristiansand posiada jedno biuro NAV w centrum obsługujące wszystkich mieszkańców. W sąsiadujących gminach znajdują się również biura.",
       "faq2q": "Gdzie mogę znaleźć pogotowie lekarskie w Kristiansand?",
