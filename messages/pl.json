@@ -120,12 +120,11 @@
   },
   "hero": {
     "headline": "Usługi cyfrowe łatwo.",
-    "subheadline": "NAV, podatki, zdrowie, bank i więcej – pomagamy ci ze wszystkim cyfrowym. Krok po kroku, prostym językiem.",
+    "subheadline": "NAV, podatki, zdrowie, bank i więcej – pomagamy ci ze wszystkim cyfrowym. Krok po kroku.",
     "badges": {
-      "free": "Bezpłatnie",
-      "simpleLanguage": "Prosty język",
-      "stepByStep": "Krok po kroku",
-      "multiLanguage": "W twoim języku"
+      "guidesCount": "50+ poradników",
+      "languagesCount": "6 języków",
+      "alwaysFree": "Zawsze bezpłatnie"
     }
   },
   "home": {
@@ -157,6 +156,13 @@
     "freeDesc": "Nasza usługa jest bezpłatna.",
     "ctaTitle": "Gotowy, aby zacząć?",
     "ctaSubtitle": "Wybierz usługę, z którą potrzebujesz pomocy, a przeprowadzimy cię przez proces.",
+    "howItWorksTitle": "Jak to działa",
+    "howItWorksStep1Title": "Znajdź swój poradnik",
+    "howItWorksStep1Desc": "Wybierz usługę, z którą potrzebujesz pomocy, na przykład NAV lub Urząd Skarbowy.",
+    "howItWorksStep2Title": "Postępuj zgodnie z krokami",
+    "howItWorksStep2Desc": "Każdy poradnik pokazuje dokładnie, co robić, krok po kroku.",
+    "howItWorksStep3Title": "Gotowe!",
+    "howItWorksStep3Desc": "Opanowałeś usługę cyfrową. To było proste!",
     "whatIsTitle": "Czym jest LettDigital?",
     "whatIsText": "LettDigital to bezpłatna, niezależna strona internetowa, która pomaga korzystać z publicznych usług cyfrowych w Norwegii. Wyjaśniamy trudne rzeczy w prosty sposób, tak aby każdy mógł opanować cyfrowy świat.",
     "forWho": "Dla seniorów · Nowych w Norwegii · Pomocników",
@@ -693,7 +699,9 @@
             "description": "Gratulacje! Jesteś teraz zalogowany do NAV. Możesz zobaczyć swoją skrzynkę odbiorczą, swoje wnioski i wysyłać wiadomości do NAV. Menu po lewej stronie pokazuje wszystkie usługi, do których masz dostęp.",
             "tip": "Pamiętaj, aby się wylogować, gdy skończysz, szczególnie jeśli korzystasz ze wspólnego komputera."
           }
-        ]
+        ],
+        "helpTitle": "Potrzebujesz pomocy?",
+        "helpText": "Zadzwoń do NAV pod numer 55 55 33 33 (dni powszednie 09:00-15:00) lub odwiedź lokalne biuro NAV."
       },
       "dagpenger": {
         "title": "Złóż wniosek o zasiłek dla bezrobotnych",
@@ -1885,7 +1893,9 @@
             "description": "Teraz jesteś na \"Mojej stronie\" w Urzędzie Skarbowym. Tutaj możesz zobaczyć zeznanie podatkowe, rozliczenie i zmienić kartę podatkową.",
             "tip": "Pamiętaj, aby się wylogować, gdy skończysz, szczególnie na wspólnym komputerze."
           }
-        ]
+        ],
+        "helpTitle": "Potrzebujesz pomocy?",
+        "helpText": "Zadzwoń do Urzędu Skarbowego pod numer 800 80 000 (dni powszednie 09:00-15:00) lub skorzystaj z czatu na skatteetaten.no."
       }
     },
     "helse": {
@@ -2305,7 +2315,9 @@
             "description": "Teraz jesteś w sekcji \"Moje zdrowie\" na Helsenorge. Tutaj możesz zobaczyć recepty, umówić wizytę u lekarza i przeczytać dokumentację.",
             "tip": "Pamiętaj, aby się wylogować, gdy skończysz, szczególnie na wspólnym komputerze."
           }
-        ]
+        ],
+        "helpTitle": "Potrzebujesz pomocy?",
+        "helpText": "Zadzwoń do Helsenorge pod numer 23 32 70 00 (dni powszednie 08:00-15:30) lub odwiedź helsenorge.no/kontakt."
       }
     },
     "sikkerhet": {
@@ -3446,7 +3458,9 @@
           "Zgłoś zmianę dochodu lub kosztów mieszkania",
           "Możesz ubiegać się wstecz, jeśli zapomniałeś złożyć wniosek",
           "Gmina może ci pomóc w wypełnieniu wniosku, jeśli tego potrzebujesz"
-        ]
+        ],
+        "helpTitle": "Potrzebujesz pomocy?",
+        "helpText": "Zadzwoń do Husbanken pod numer 22 96 16 00 lub skontaktuj się z biurem mieszkaniowym gminy."
       },
       "startlan": {
         "title": "Ubiegaj się o pożyczkę startową",
@@ -3511,7 +3525,9 @@
           "W niektórych przypadkach możesz uzyskać pożyczkę startową wraz z dotacją",
           "Gmina może ci pomóc znaleźć odpowiedni dom",
           "Możesz ubiegać się o odroczenie płatności, jeśli twoja sytuacja finansowa się zmieni"
-        ]
+        ],
+        "helpTitle": "Potrzebujesz pomocy?",
+        "helpText": "Skontaktuj się z biurem mieszkaniowym gminy w sprawie pożyczki startowej. Możesz też zadzwonić do Husbanken pod numer 22 96 16 00."
       },
       "kommunalBolig": {
         "title": "Ubiegaj się o mieszkanie komunalne",
@@ -3576,7 +3592,9 @@
           "Możesz wnieść sprzeciw na odmowę do apelacyjnej komisji gminy",
           "NAV może pomóc w tymczasowym mieszkaniu, gdy czekasz",
           "Możesz ubiegać się o świadczenie mieszkaniowe, aby uzyskać pomoc w opłacaniu czynszu"
-        ]
+        ],
+        "helpTitle": "Potrzebujesz pomocy?",
+        "helpText": "Skontaktuj się z biurem mieszkaniowym lub centrum obsługi gminy, aby uzyskać pomoc przy składaniu wniosku o mieszkanie komunalne."
       }
     },
     "utdanning": {
@@ -3642,7 +3660,9 @@
           "Sprawdzaj terminy konwersji na stypendium",
           "Możesz ubiegać się o wsparcie podróży, jeśli studiujesz daleko od domu",
           "Jeśli mieszkasz z innymi studentami, możesz dzielić koszty mieszkania"
-        ]
+        ],
+        "helpTitle": "Potrzebujesz pomocy?",
+        "helpText": "Zadzwoń do Lånekassen pod numer 21 49 60 00 (dni powszednie 08:00-15:00) lub skorzystaj z czatu na lanekassen.no."
       },
       "stipend": {
         "title": "Ubiegaj się o stypendium",
@@ -3695,7 +3715,9 @@
           "Jeśli zarabiasz zbyt wiele w jednym roku, możesz ubiegać się o wyjątek w szczególnych okolicznościach",
           "Stypendium na mieszkanie możesz uzyskać niezależnie od dochodu, jeśli mieszkasz daleko od rodziców",
           "Jeśli ukończysz w normalnym czasie, możesz uzyskać ostateczną pożyczkę skonwertowaną na stypendium"
-        ]
+        ],
+        "helpTitle": "Potrzebujesz pomocy?",
+        "helpText": "Zadzwoń do Lånekassen pod numer 21 49 60 00 (dni powszednie 08:00-15:00) lub skorzystaj z czatu na lanekassen.no."
       },
       "tilbakebetaling": {
         "title": "Spłata pożyczki studenckiej",
@@ -3749,7 +3771,9 @@
           "Możesz spłacać dodatkowe kwoty, gdy masz na to stać",
           "Lånekassen wysyła przypomnienia przed terminem - sprawdzaj skrzynkę odbiorczą",
           "Skontaktuj się z Lånekassen wcześnie, jeśli masz problemy ze spłatą"
-        ]
+        ],
+        "helpTitle": "Potrzebujesz pomocy?",
+        "helpText": "Zadzwoń do Lånekassen pod numer 21 49 60 00 (dni powszednie 08:00-15:00) lub skorzystaj z czatu na lanekassen.no."
       },
       "betalingsutsettelse": {
         "title": "Ubieganie się o odroczenie płatności",
@@ -3844,7 +3868,9 @@
           "Paszport musi być ważny przez co najmniej 6 miesięcy dla wielu destynacji",
           "Zgubiony paszport należy zgłosić na policji przed uzyskaniem nowego",
           "Możesz otrzymać paszport tymczasowy tego samego dnia w wyjątkowych przypadkach"
-        ]
+        ],
+        "helpTitle": "Potrzebujesz pomocy?",
+        "helpText": "Zadzwoń na Policję pod numer 02800 lub odwiedź politiet.no, aby uzyskać informacje o paszportach."
       },
       "forerkort": {
         "title": "Odnowienie prawa jazdy",
@@ -3898,7 +3924,9 @@
           "Zgubione prawo jazdy można zastąpić za opłatą",
           "Możesz sprawdzić ważność na vegvesen.no",
           "Europejskie prawo jazdy jest ważne w całej Europie"
-        ]
+        ],
+        "helpTitle": "Potrzebujesz pomocy?",
+        "helpText": "Zadzwoń do Vegvesen pod numer 22 07 30 00 (dni powszednie 08:00-15:30) lub odwiedź vegvesen.no."
       },
       "idKort": {
         "title": "Krajowy dowód osobisty",
@@ -3950,7 +3978,9 @@
           "Dowód z prawem do podróży jest akceptowany jako dokument tożsamości wszędzie w Norwegii",
           "Dzieci również mogą otrzymać dowód osobisty",
           "W przypadku utraty musisz zgłosić to na policji"
-        ]
+        ],
+        "helpTitle": "Potrzebujesz pomocy?",
+        "helpText": "Zadzwoń na Policję pod numer 02800 lub odwiedź politiet.no, aby uzyskać informacje o kartach ID."
       }
     },
     "grunnleggende": {
@@ -4013,7 +4043,9 @@
           "Nie bój się próbować - rzadko możesz coś zepsuć",
           "Poproś rodzinę lub przyjaciół o pomoc w skonfiguracji telefonu po raz pierwszy",
           "Ustaw duży rozmiar czcionki w ustawieniach, jeśli tekst jest dla Ciebie za mały"
-        ]
+        ],
+        "helpTitle": "Potrzebujesz pomocy?",
+        "helpText": "Zadzwoń do Seniornett pod numer 22 42 96 26, aby uzyskać bezpłatną pomoc z telefonami, lub odwiedź bibliotekę."
       },
       "nettleser": {
         "title": "Korzystanie z przeglądarki internetowej",
@@ -4067,7 +4099,9 @@
           "Wpisz adresy sam zamiast klikać na linki w email",
           "Szukaj ikonki kłódki przy adresie - oznacza to, że strona jest bezpieczna",
           "Jeśli coś wydaje się dziwne lub zbyt dobre, aby być prawdziwe, bądź ostrożny"
-        ]
+        ],
+        "helpTitle": "Potrzebujesz pomocy?",
+        "helpText": "Zadzwoń do Seniornett pod numer 22 42 96 26, aby uzyskać bezpłatną pomoc z przeglądarką, lub odwiedź bibliotekę."
       },
       "videosamtale": {
         "title": "Korzystanie z rozmów wideo",

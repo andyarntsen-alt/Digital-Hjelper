@@ -3,49 +3,11 @@
 import { useEffect, useState } from 'react';
 import { useTranslations } from 'next-intl';
 
-interface Badge {
-  key: string;
-  icon: React.ReactNode;
-}
-
 export default function TrustBadges() {
   const t = useTranslations('hero');
   const [visibleCount, setVisibleCount] = useState(0);
 
-  const badges: Badge[] = [
-    {
-      key: 'free',
-      icon: (
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
-        </svg>
-      ),
-    },
-    {
-      key: 'simpleLanguage',
-      icon: (
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
-        </svg>
-      ),
-    },
-    {
-      key: 'stepByStep',
-      icon: (
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
-        </svg>
-      ),
-    },
-    {
-      key: 'multiLanguage',
-      icon: (
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
-        </svg>
-      ),
-    },
-  ];
+  const badges = ['guidesCount', 'languagesCount', 'alwaysFree'];
 
   useEffect(() => {
     // Check for reduced motion preference
@@ -72,9 +34,9 @@ export default function TrustBadges() {
     <div className="flex flex-wrap gap-3 sm:gap-4 justify-center">
       {badges.map((badge, index) => (
         <div
-          key={badge.key}
+          key={badge}
           className={`
-            flex items-center gap-2
+            flex items-center
             px-3 py-2
             bg-white/15 backdrop-blur-sm
             rounded-full
@@ -85,8 +47,7 @@ export default function TrustBadges() {
               : 'opacity-0 translate-y-2'}
           `}
         >
-          <span className="text-emerald-300 flex-shrink-0">{badge.icon}</span>
-          <span>{t(`badges.${badge.key}`)}</span>
+          <span>{t(`badges.${badge}`)}</span>
         </div>
       ))}
     </div>

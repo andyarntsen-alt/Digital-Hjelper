@@ -139,12 +139,11 @@
   },
   "hero": {
     "headline": "Digital services made simple.",
-    "subheadline": "NAV, tax, health, banking and more – we help you with all things digital. Step by step, with clear language.",
+    "subheadline": "NAV, tax, health, banking and more – we help you with all things digital. Step by step.",
     "badges": {
-      "free": "Free",
-      "simpleLanguage": "Simple language",
-      "stepByStep": "Step by step",
-      "multiLanguage": "In your language"
+      "guidesCount": "50+ guides",
+      "languagesCount": "6 languages",
+      "alwaysFree": "Always free"
     }
   },
   "home": {
@@ -176,6 +175,13 @@
     "freeDesc": "Our service costs nothing to use.",
     "ctaTitle": "Ready to get started?",
     "ctaSubtitle": "Choose the service you need help with, and we'll guide you through the process.",
+    "howItWorksTitle": "How it works",
+    "howItWorksStep1Title": "Find your guide",
+    "howItWorksStep1Desc": "Choose the service you need help with, for example NAV or the Tax Office.",
+    "howItWorksStep2Title": "Follow the steps",
+    "howItWorksStep2Desc": "Each guide shows you exactly what to do, step by step.",
+    "howItWorksStep3Title": "Done!",
+    "howItWorksStep3Desc": "You've mastered the digital service. That was easy!",
     "whatIsTitle": "What is LettDigital?",
     "whatIsText": "LettDigital is a free, independent website that helps you use public digital services in Norway. We explain difficult things in a simple way, so everyone can master the digital world.",
     "forWho": "For seniors · Newcomers to Norway · Helpers",
@@ -829,7 +835,9 @@
             "description": "Congratulations! You are now logged in to NAV. You can see your inbox, your applications, and send messages to NAV. The menu on the left side shows all the services you have access to.",
             "tip": "Remember to log out when you are done, especially if you are using a shared computer."
           }
-        ]
+        ],
+        "helpTitle": "Need help?",
+        "helpText": "Call NAV at 55 55 33 33 (weekdays 09:00-15:00) or visit your local NAV office for assistance with logging in."
       },
       "dagpenger": {
         "title": "Apply for unemployment benefits",
@@ -2021,7 +2029,9 @@
             "description": "You are now on \"Min side\" at the Tax Office. Here you can see the tax return, tax settlement, and change tax card.",
             "tip": "Remember to log out when you are done, especially on a shared computer."
           }
-        ]
+        ],
+        "helpTitle": "Need help?",
+        "helpText": "Call the Tax Administration at 800 80 000 (weekdays 09:00-15:00) or use their chat at skatteetaten.no."
       }
     },
     "helse": {
@@ -2473,7 +2483,9 @@
             "description": "You are now on \"My health\" at Health Norway. Here you can see prescriptions, book doctor's appointments, and read records.",
             "tip": "Remember to log out when you are done, especially on a shared computer."
           }
-        ]
+        ],
+        "helpTitle": "Need help?",
+        "helpText": "Call Helsenorge at 23 32 70 00 (weekdays 08:00-15:30) or visit helsenorge.no/kontakt for more information."
       }
     },
     "sikkerhet": {
@@ -3614,7 +3626,9 @@
           "Report changes in income or housing costs",
           "You can apply retroactively if you forgot to apply",
           "The municipality can help you with the application if you need it"
-        ]
+        ],
+        "helpTitle": "Need help?",
+        "helpText": "Call Husbanken at 22 96 16 00 or contact your municipality's housing office for guidance with housing benefit applications."
       },
       "startlan": {
         "title": "Apply for starter loan",
@@ -3679,7 +3693,9 @@
           "You may get starter loan together with grants in some cases",
           "The municipality can help you find a suitable home",
           "You can apply for payment deferral if your finances change"
-        ]
+        ],
+        "helpTitle": "Need help?",
+        "helpText": "Contact your municipality's housing office for guidance on start loans. You can also call Husbanken at 22 96 16 00."
       },
       "kommunalBolig": {
         "title": "Apply for municipal housing",
@@ -3744,7 +3760,9 @@
           "You can appeal rejection to the municipality's appeals board",
           "NAV can help with temporary housing while you wait",
           "You can apply for housing allowance to help with rent"
-        ]
+        ],
+        "helpTitle": "Need help?",
+        "helpText": "Contact your municipality's housing office or service center for help with municipal housing applications."
       }
     },
     "utdanning": {
@@ -3810,7 +3828,9 @@
           "Check deadlines for conversion to grant",
           "You can apply for travel support if you study far from home",
           "If you live with other students you can share housing costs"
-        ]
+        ],
+        "helpTitle": "Need help?",
+        "helpText": "Call Lånekassen at 21 49 60 00 (weekdays 08:00-15:00) or use their chat at lanekassen.no."
       },
       "stipend": {
         "title": "Apply for grant",
@@ -3863,7 +3883,9 @@
           "If you earn too much one year, you can apply for exception in special circumstances",
           "Housing grant you can get regardless of income if you live away from parents",
           "If you complete on time, you can get final loan converted to grant"
-        ]
+        ],
+        "helpTitle": "Need help?",
+        "helpText": "Call Lånekassen at 21 49 60 00 (weekdays 08:00-15:00) or use their chat at lanekassen.no."
       },
       "tilbakebetaling": {
         "title": "Repaying student loan",
@@ -3917,7 +3939,9 @@
           "You can pay extra when you can afford it",
           "Lanekassen sends reminders before due date - check inbox",
           "Contact Lanekassen early if you struggle with payment"
-        ]
+        ],
+        "helpTitle": "Need help?",
+        "helpText": "Call Lånekassen at 21 49 60 00 (weekdays 08:00-15:00) or use their chat at lanekassen.no."
       },
       "betalingsutsettelse": {
         "title": "Apply for payment deferment",
@@ -4012,7 +4036,9 @@
           "The passport must be valid for at least 6 months for many destinations",
           "Lost passport must be reported to police before you can get a new one",
           "You can get emergency passport same day in special cases"
-        ]
+        ],
+        "helpTitle": "Need help?",
+        "helpText": "Call the Police at 02800 or visit politiet.no for more information about passports and appointments."
       },
       "forerkort": {
         "title": "Renew driver's license",
@@ -4066,7 +4092,9 @@
           "Lost driver's license can be replaced for a fee",
           "You can check validity on vegvesen.no",
           "EU driver's license is valid throughout Europe"
-        ]
+        ],
+        "helpTitle": "Need help?",
+        "helpText": "Call the Road Administration at 22 07 30 00 (weekdays 08:00-15:30) or visit vegvesen.no for more information."
       },
       "idKort": {
         "title": "National ID card",
@@ -4118,7 +4146,9 @@
           "ID card with travel rights is accepted as ID everywhere in Norway",
           "Children can also get ID card",
           "In case of loss you must report to police"
-        ]
+        ],
+        "helpTitle": "Need help?",
+        "helpText": "Call the Police at 02800 or visit politiet.no for more information about national ID cards."
       }
     },
     "grunnleggende": {
@@ -4181,7 +4211,9 @@
           "Don't be afraid to try - you can rarely break anything",
           "Ask family or friends for help setting up the phone first time",
           "Set large text in settings if you find the text too small"
-        ]
+        ],
+        "helpTitle": "Need help?",
+        "helpText": "Call Seniornett at 22 42 96 26 for free help with phones and technology, or visit a local library."
       },
       "nettleser": {
         "title": "Using web browser",
@@ -4235,7 +4267,9 @@
           "Type addresses yourself instead of clicking links in email",
           "Look for the padlock icon by the address - it means the site is secure",
           "If something seems strange or too good to be true, be careful"
-        ]
+        ],
+        "helpTitle": "Need help?",
+        "helpText": "Call Seniornett at 22 42 96 26 for free help with browsers and the internet, or visit a local library."
       },
       "videosamtale": {
         "title": "Using video calls",

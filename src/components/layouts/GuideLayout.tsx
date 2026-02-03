@@ -67,7 +67,7 @@ export default function GuideLayout({
   whatIsSection,
   preSection,
   postSections,
-  showHelpSection = true,
+  showHelpSection = false,
 }: GuideLayoutProps) {
   const t = useTranslations(translationNamespace);
   const tNav = useTranslations('header');

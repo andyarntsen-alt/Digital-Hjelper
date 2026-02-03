@@ -140,12 +140,11 @@
   },
   "hero": {
     "headline": "Digitale tjenester gjort enkelt.",
-    "subheadline": "NAV, skatt, helse, bank og mer – vi hjelper deg med alt det digitale. Steg for steg, med klart språk.",
+    "subheadline": "NAV, skatt, helse, bank og mer – vi hjelper deg med alt det digitale. Steg for steg.",
     "badges": {
-      "free": "Gratis",
-      "simpleLanguage": "Enkelt språk",
-      "stepByStep": "Steg for steg",
-      "multiLanguage": "På ditt språk"
+      "guidesCount": "50+ guider",
+      "languagesCount": "6 språk",
+      "alwaysFree": "Alltid gratis"
     }
   },
   "home": {
@@ -157,6 +156,13 @@
     "quickLinks": "Hurtiglenker",
     "faqLink": "Vanlige spørsmål",
     "favoritesLink": "Mine favoritter",
+    "howItWorksTitle": "Slik fungerer det",
+    "howItWorksStep1Title": "Finn din guide",
+    "howItWorksStep1Desc": "Velg tjenesten du trenger hjelp med, for eksempel NAV eller Skatteetaten.",
+    "howItWorksStep2Title": "Følg stegene",
+    "howItWorksStep2Desc": "Hver guide viser deg nøyaktig hva du skal gjøre, steg for steg.",
+    "howItWorksStep3Title": "Ferdig!",
+    "howItWorksStep3Desc": "Du har mestret den digitale tjenesten. Så enkelt var det!",
     "whatIsTitle": "Hva er LettDigital?",
     "whatIsText": "LettDigital er en gratis, uavhengig nettside som hjelper deg å bruke offentlige digitale tjenester i Norge. Vi forklarer vanskelige ting på en enkel måte, slik at alle kan mestre det digitale.",
     "forWho": "For eldre · Nye i Norge · Hjelpere",
@@ -978,7 +984,9 @@
             "description": "Gratulerer! Du er nå logget inn på NAV. Du kan se din innboks, dine søknader, og sende meldinger til NAV. Menyen på venstre side viser alle tjenestene du har tilgang til.",
             "tip": "Husk å logge ut når du er ferdig, spesielt hvis du bruker en felles datamaskin."
           }
-        ]
+        ],
+        "helpTitle": "Trenger du hjelp?",
+        "helpText": "Ring NAV på 55 55 33 33 (hverdager 09:00-15:00) eller besøk ditt lokale NAV-kontor for personlig hjelp med innlogging."
       },
       "dagpenger": {
         "title": "Søke om dagpenger",
@@ -2170,7 +2178,9 @@
             "description": "Nå er du på \"Min side\" hos Skatteetaten. Her kan du se skattemeldingen, skatteoppgjøret, og endre skattekort.",
             "tip": "Husk å logge ut når du er ferdig, spesielt på delt datamaskin."
           }
-        ]
+        ],
+        "helpTitle": "Trenger du hjelp?",
+        "helpText": "Ring Skatteetaten på 800 80 000 (hverdager 09:00-15:00) eller chat med dem på skatteetaten.no."
       }
     },
     "helse": {
@@ -2622,7 +2632,9 @@
             "description": "Nå er du på \"Min helse\" hos Helsenorge. Her kan du se resepter, bestille legetime, og lese journal.",
             "tip": "Husk å logge ut når du er ferdig, spesielt på delt datamaskin."
           }
-        ]
+        ],
+        "helpTitle": "Trenger du hjelp?",
+        "helpText": "Ring Helsenorge på 23 32 70 00 (hverdager 08:00-15:30) eller besøk helsenorge.no/kontakt for mer informasjon."
       }
     },
     "sikkerhet": {
@@ -3763,7 +3775,9 @@
           "Meld fra om endringer i inntekt eller boutgifter",
           "Du kan søke tilbake i tid hvis du glemte å søke",
           "Kommunen kan hjelpe deg med søknaden hvis du trenger det"
-        ]
+        ],
+        "helpTitle": "Trenger du hjelp?",
+        "helpText": "Ring Husbanken på 22 96 16 00 eller kontakt kommunens boligkontor for veiledning med bostøtte-søknaden."
       },
       "startlan": {
         "title": "Søke startlån",
@@ -3828,7 +3842,9 @@
           "Du kan få startlån sammen med tilskudd i noen tilfeller",
           "Kommunen kan hjelpe deg med å finne egnet bolig",
           "Du kan søke om betalingsutsettelse hvis økonomien endrer seg"
-        ]
+        ],
+        "helpTitle": "Trenger du hjelp?",
+        "helpText": "Kontakt kommunens boligkontor for veiledning om startlån. Du kan også ringe Husbanken på 22 96 16 00."
       },
       "kommunalBolig": {
         "title": "Søke kommunal bolig",
@@ -3893,7 +3909,9 @@
           "Du kan klage på avslag til kommunens klagenemnd",
           "NAV kan hjelpe med midlertidig bolig mens du venter",
           "Du kan søke bostøtte for å få hjelp til husleien"
-        ]
+        ],
+        "helpTitle": "Trenger du hjelp?",
+        "helpText": "Kontakt kommunens boligkontor eller servicetorg for hjelp med søknad om kommunal bolig."
       }
     },
     "utdanning": {
@@ -3959,7 +3977,9 @@
           "Sjekk frister for omgjøring til stipend",
           "Du kan søke om reisestøtte hvis du studerer langt hjemmefra",
           "Bor du sammen med andre studenter kan du dele boutgifter"
-        ]
+        ],
+        "helpTitle": "Trenger du hjelp?",
+        "helpText": "Ring Lånekassen på 21 49 60 00 (hverdager 08:00-15:00) eller chat med dem på lanekassen.no."
       },
       "stipend": {
         "title": "Søke stipend",
@@ -4012,7 +4032,9 @@
           "Tjener du for mye ett år, kan du søke om unntak ved spesielle forhold",
           "Bostipend kan du få uansett inntekt hvis du bor borte fra foreldrene",
           "Fullfører du på normert tid, kan du få sluttlån omgjort til stipend"
-        ]
+        ],
+        "helpTitle": "Trenger du hjelp?",
+        "helpText": "Ring Lånekassen på 21 49 60 00 (hverdager 08:00-15:00) eller chat med dem på lanekassen.no."
       },
       "tilbakebetaling": {
         "title": "Tilbakebetaling av studielån",
@@ -4066,7 +4088,9 @@
           "Du kan betale ned ekstra når du har råd",
           "Lånekassen sender påminnelser før forfall - sjekk innboksen",
           "Ta kontakt med Lånekassen tidlig hvis du sliter med betalingen"
-        ]
+        ],
+        "helpTitle": "Trenger du hjelp?",
+        "helpText": "Ring Lånekassen på 21 49 60 00 (hverdager 08:00-15:00) eller chat med dem på lanekassen.no."
       },
       "betalingsutsettelse": {
         "title": "Søke om betalingsutsettelse",
@@ -4161,7 +4185,9 @@
           "Passet må være gyldig i minst 6 måneder for mange reisemål",
           "Mistet pass må meldes til politiet før du kan få nytt",
           "Du kan få nødpass samme dag i spesielle tilfeller"
-        ]
+        ],
+        "helpTitle": "Trenger du hjelp?",
+        "helpText": "Ring Politiet på 02800 eller besøk politiet.no for mer informasjon om pass og timebestilling."
       },
       "forerkort": {
         "title": "Fornye førerkort",
@@ -4215,7 +4241,9 @@
           "Mistet førerkort kan erstattes mot gebyr",
           "Du kan sjekke gyldigheten på vegvesen.no",
           "EU-førerkort gjelder i hele Europa"
-        ]
+        ],
+        "helpTitle": "Trenger du hjelp?",
+        "helpText": "Ring Statens vegvesen på 22 07 30 00 (hverdager 08:00-15:30) eller besøk vegvesen.no for mer informasjon."
       },
       "idKort": {
         "title": "Nasjonalt ID-kort",
@@ -4267,7 +4295,9 @@
           "ID-kort med reiserett godtas som legitimasjon overalt i Norge",
           "Barn kan også få ID-kort",
           "Ved tap må du melde fra til politiet"
-        ]
+        ],
+        "helpTitle": "Trenger du hjelp?",
+        "helpText": "Ring Politiet på 02800 eller besøk politiet.no for mer informasjon om nasjonalt ID-kort."
       }
     },
     "grunnleggende": {
@@ -4330,7 +4360,9 @@
           "Ikke vær redd for å prøve - du kan sjelden ødelegge noe",
           "Be familie eller venner om hjelp til å sette opp telefonen første gang",
           "Sett stor skrift i innstillinger hvis du synes teksten er liten"
-        ]
+        ],
+        "helpTitle": "Trenger du hjelp?",
+        "helpText": "Ring Seniornett på 22 42 96 26 for gratis hjelp med telefon og teknologi, eller besøk et lokalt bibliotek."
       },
       "nettleser": {
         "title": "Bruke nettleser",
@@ -4384,7 +4416,9 @@
           "Skriv inn adresser selv i stedet for å klikke på lenker i e-post",
           "Se etter hengelåsikonet ved adressen - det betyr at siden er sikker",
           "Hvis noe virker rart eller for godt til å være sant, vær forsiktig"
-        ]
+        ],
+        "helpTitle": "Trenger du hjelp?",
+        "helpText": "Ring Seniornett på 22 42 96 26 for gratis hjelp med nettleser og internett, eller besøk et lokalt bibliotek."
       },
       "videosamtale": {
         "title": "Bruke videosamtaler",

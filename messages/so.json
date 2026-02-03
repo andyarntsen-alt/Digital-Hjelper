@@ -120,12 +120,11 @@
   },
   "hero": {
     "headline": "Adeegyada dhijitaalka si fudud.",
-    "subheadline": "NAV, canshuur, caafimaad, bangiga iyo wax badan – waxaan kugu caawinnaa wax kasta oo dhijitaal ah. Tallaabo tallaabo, luuqad cad.",
+    "subheadline": "NAV, canshuur, caafimaad, bangiga iyo wax badan – waxaan kugu caawinnaa wax kasta oo dhijitaal ah. Tallaabo tallaabo.",
     "badges": {
-      "free": "Bilaash",
-      "simpleLanguage": "Luuqad fudud",
-      "stepByStep": "Tallaabo tallaabo",
-      "multiLanguage": "Luuqadaada"
+      "guidesCount": "50+ hagaha",
+      "languagesCount": "6 luuqadood",
+      "alwaysFree": "Had iyo jeer bilaash"
     }
   },
   "home": {
@@ -157,6 +156,13 @@
     "freeDesc": "Adeeggeena wax lacag ah ma qaado.",
     "ctaTitle": "Diyaar ma u tahay inaad bilowdo?",
     "ctaSubtitle": "Dooro adeegga aad u baahan tahay caawin, waxaanan ku hagi doonaa habka.",
+    "howItWorksTitle": "Sida ay u shaqeyso",
+    "howItWorksStep1Title": "Hel hagahaaga",
+    "howItWorksStep1Desc": "Dooro adeegga aad u baahan tahay caawin, tusaale ahaan NAV ama Hey'adda Canshuurta.",
+    "howItWorksStep2Title": "Raac tallaabooyinka",
+    "howItWorksStep2Desc": "Hagaha kasta wuxuu ku tusayaa si sax ah waxa aad sameyn lahayd, tallaabo tallaabo.",
+    "howItWorksStep3Title": "Dhammaatay!",
+    "howItWorksStep3Desc": "Waxaad baratay adeegga dhijitaalka. Sidaas ayay fududeyd!",
     "whatIsTitle": "Waa maxay LettDigital?",
     "whatIsText": "LettDigital waa websaydh bilaash ah oo madax-bannaan oo kaa caawiya inaad isticmaasho adeegyada dhijitaalka ee dawladda Norway. Waxaan ku sharaxnaa waxyaabaha adag si fudud, si qof walba u gacan qaadi karo dhijitaalka.",
     "forWho": "Dadka waayeelka ah · Kuwa cusub Norway · Caawiyayaasha",
@@ -693,7 +699,9 @@
             "description": "Hambalyo! Hadda waad gashay NAV. Waxaad arki kartaa sanduuqaaga, codsigaaga, oo u diri kartaa fariimo NAV. Liiska geeska bidix wuxuu muujinayaa dhammaan adeegyada aad gelitaan u leedahay.",
             "tip": "Xusuusnow inaad ka baxdo markaad dhamaysato, gaar ahaan haddii aad isticmaalayso kombuyuutar wadaag ah."
           }
-        ]
+        ],
+        "helpTitle": "Ma u baahan tahay caawimaad?",
+        "helpText": "Wac NAV lambarka 55 55 33 33 (maalmaha shaqada 09:00-15:00) ama booqo xafiiska NAV ee deegaankaaga."
       },
       "dagpenger": {
         "title": "Codso kaalmada shaqo la'aanta",
@@ -1885,7 +1893,9 @@
             "description": "Hadda waxaad joogtaa \"Min side\" Hey'adda Canshuurta. Halkan waxaad ka arki kartaa warbixinta canshuurta, xisaabinta canshuurta, oo beddeli kartaa kaadhka canshuurta.",
             "tip": "Xusuusnow inaad ka baxdo markaad dhamaysto, gaar ahaan kombuyuutar wadaag ah."
           }
-        ]
+        ],
+        "helpTitle": "Ma u baahan tahay caawimaad?",
+        "helpText": "Wac Hey'adda Canshuuraha lambarka 800 80 000 (maalmaha shaqada 09:00-15:00) ama isticmaal chat-ka skatteetaten.no."
       }
     },
     "helse": {
@@ -2305,7 +2315,9 @@
             "description": "Hadda waxaad joogtaa \"Caafimaadkayga\" Caafimaadka Norway. Halkan waxaad ka arki kartaa dawooyinka, sameysan kartaa ballan dhakhtar, oo akhrin kartaa diiwaanka.",
             "tip": "Xusuusnow inaad ka baxdo markaad dhamaysto, gaar ahaan kombuyuutar wadaag ah."
           }
-        ]
+        ],
+        "helpTitle": "Ma u baahan tahay caawimaad?",
+        "helpText": "Wac Helsenorge lambarka 23 32 70 00 (maalmaha shaqada 08:00-15:30) ama booqo helsenorge.no/kontakt."
       }
     },
     "sikkerhet": {
@@ -3446,7 +3458,9 @@
           "War geli isbeddelada dakhliga ama kharashyada gurigaaga",
           "Waad codsan kartaa waqti hore haddii aad illoobay inaad codsato",
           "Degmadu waad caawin kartaa codsashada haddii aad u baahan tahay"
-        ]
+        ],
+        "helpTitle": "Ma u baahan tahay caawimaad?",
+        "helpText": "Wac Husbanken lambarka 22 96 16 00 ama la xiriir xafiiska guryaha ee degmadaada."
       },
       "startlan": {
         "title": "Codso amaahda bilowga",
@@ -3511,7 +3525,9 @@
           "Waad heli kartaa amaahda bilowga iyo taageero qaar-qaarka",
           "Degmadu waad caawin kartaa helista guri gaar ah",
           "Waad codsan kartaa jidha bixinta haddii dhaqaalaha ay beddeshay"
-        ]
+        ],
+        "helpTitle": "Ma u baahan tahay caawimaad?",
+        "helpText": "La xiriir xafiiska guryaha ee degmadaada oo ku saabsan amaahda bilowga. Waad awoodi kartaa sidoo kale inaad wacdo Husbanken lambarka 22 96 16 00."
       },
       "kommunalBolig": {
         "title": "Codso guriga degmada",
@@ -3576,7 +3592,9 @@
           "Waad carcas kartaa colkaansaha magalooshiida carcaska",
           "NAV way gacan qaadi kartaa guriga ku jira habka waaqta waad egsantahay",
           "Waad codsan kartaa taageerada guriga si aad caawinta u hesho kirey"
-        ]
+        ],
+        "helpTitle": "Ma u baahan tahay caawimaad?",
+        "helpText": "La xiriir xafiiska guryaha ama xarunta adeegga ee degmadaada si aad u hesho caawimaad codsiga guryaha degmada."
       }
     },
     "utdanning": {
@@ -3642,7 +3660,9 @@
           "Xaqiiji waqtiga dhammaada beddelka deeq",
           "Waad codsan kartaa taageero safarka aadna waxbarasho ka fog",
           "Haddii aad degto ardayska kale waad wada-qaybsan kartaa kharashyada guri"
-        ]
+        ],
+        "helpTitle": "Ma u baahan tahay caawimaad?",
+        "helpText": "Wac Lånekassen lambarka 21 49 60 00 (maalmaha shaqada 08:00-15:00) ama isticmaal chat-ka lanekassen.no."
       },
       "stipend": {
         "title": "Codso deeqda",
@@ -3695,7 +3715,9 @@
           "Hadii aad kasbaad wax badan sannad qof, waad codsan kartaa beddel xaalado gaar ah",
           "Deeq-guriga waad heli kartaa aanad la egin dakhligaaga hadii aad degsatid walaalooyinka",
           "Hadii aad buufiso waqti nidaam ah, waad heli kartaa amaah xataa oo beddeli deeq"
-        ]
+        ],
+        "helpTitle": "Ma u baahan tahay caawimaad?",
+        "helpText": "Wac Lånekassen lambarka 21 49 60 00 (maalmaha shaqada 08:00-15:00) ama isticmaal chat-ka lanekassen.no."
       },
       "tilbakebetaling": {
         "title": "Dib u bixinta amaahda waxbarasho",
@@ -3749,7 +3771,9 @@
           "Waad bixin kartaa badan waad heshaa lacag",
           "Lånekassen way soo dirtaa xusuusin kahor markii lagu baxayo - xaqiiji inbox",
           "Xiriir Lånekassen awal hadii aad dhibaataysantahay bixinta"
-        ]
+        ],
+        "helpTitle": "Ma u baahan tahay caawimaad?",
+        "helpText": "Wac Lånekassen lambarka 21 49 60 00 (maalmaha shaqada 08:00-15:00) ama isticmaal chat-ka lanekassen.no."
       },
       "betalingsutsettelse": {
         "title": "Codso hakinta lacag bixinta",
@@ -3844,7 +3868,9 @@
           "Baasaboorku waa inuu ansax yahay ugu yaraan 6 bilood meelo badan",
           "Baasaboorka lumo waa in loo war geliyaa booliiska ka hor inta aadan helin mid cusub",
           "Waxaad heli kartaa baasaboor degdeg ah maalintaas kiisaska gaarka ah"
-        ]
+        ],
+        "helpTitle": "Ma u baahan tahay caawimaad?",
+        "helpText": "Wac Booliska lambarka 02800 ama booqo politiet.no si aad u hesho macluumaad ku saabsan baasaboorka."
       },
       "forerkort": {
         "title": "Cusbooneysii shatiga darawalnimada",
@@ -3898,7 +3924,9 @@
           "Shatiga lumo waxaa lagu beddeli karaa lacag",
           "Waxaad ka hubin kartaa ansaxnimada vegvesen.no",
           "Shatiga darawalnimada EU-da wuxuu ku shaqeeyaa Yurub oo dhan"
-        ]
+        ],
+        "helpTitle": "Ma u baahan tahay caawimaad?",
+        "helpText": "Wac Vegvesen lambarka 22 07 30 00 (maalmaha shaqada 08:00-15:30) ama booqo vegvesen.no."
       },
       "idKort": {
         "title": "Kaadhka ID-ga qaranka",
@@ -3950,7 +3978,9 @@
           "Kaadhka ID-ga leh xaqa safarka waxaa loo aqbalaa aqoonsi meel kasta Norway",
           "Carruurta ayaa sidoo kale heli kara kaadhka ID-ga",
           "Lumitaanka waa in loo war geliyaa booliiska"
-        ]
+        ],
+        "helpTitle": "Ma u baahan tahay caawimaad?",
+        "helpText": "Wac Booliska lambarka 02800 ama booqo politiet.no si aad u hesho macluumaad ku saabsan kaararka aqoonsiga."
       }
     },
     "grunnleggende": {
@@ -4013,7 +4043,9 @@
           "Ha cabsan inaad provo - waad yareye kahaar karto",
           "Ka codsada qoyska ama saaxiibo si ay caawin kuugu diyaarinaan telefoonka",
           "Setto xarfo weyn settings haddii aad fikirto xarfu yar yar"
-        ]
+        ],
+        "helpTitle": "Ma u baahan tahay caawimaad?",
+        "helpText": "Wac Seniornett lambarka 22 42 96 26 si aad u hesho caawimaad bilaash ah oo ku saabsan taleefanada, ama booqo maktabada deegaanka."
       },
       "nettleser": {
         "title": "Isticmaalka browserka",
@@ -4067,7 +4099,9 @@
           "Gal cinwaan adigu adigu iska hadii guji links e-postkaa",
           "Raadi padlock-icon cinwaana - macneyduhu boggu badbaad yahay",
           "Haddii wax aad arag oo khalad ama waax jiro, jees"
-        ]
+        ],
+        "helpTitle": "Ma u baahan tahay caawimaad?",
+        "helpText": "Wac Seniornett lambarka 22 42 96 26 si aad u hesho caawimaad bilaash ah oo ku saabsan browser-ka, ama booqo maktabada deegaanka."
       },
       "videosamtale": {
         "title": "Isticmaalka wicitaanka fiidiyowga",
