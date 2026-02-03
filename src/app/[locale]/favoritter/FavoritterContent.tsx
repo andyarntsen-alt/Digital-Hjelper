@@ -10,11 +10,34 @@ interface Favorite {
   addedAt: string;
 }
 
+// Alle kategorier som brukes i appen (inkludert de med bindestreker)
+const CATEGORIES = [
+  'ny-i-norge',  // Må sjekkes først (lengre match)
+  'nav',
+  'skatt',
+  'helse',
+  'bolig',
+  'digital',
+  'sikkerhet',
+  'grunnleggende',
+  'utdanning',
+  'id',
+  'bank',
+  'byer',
+];
+
 // Konverterer guideId (f.eks. "nav-logg-inn") til URL (f.eks. "/nav/logg-inn")
 function guideIdToHref(guideId: string): string {
-  const firstDash = guideId.indexOf('-');
-  if (firstDash === -1) return `/${guideId}`;
-  return `/${guideId.substring(0, firstDash)}/${guideId.substring(firstDash + 1)}`;
+  // Finn riktig kategori fra starten av guideId
+  for (const category of CATEGORIES) {
+    if (guideId.startsWith(category + '-')) {
+      const subPath = guideId.substring(category.length + 1);
+      return `/${category}/${subPath}`;
+    }
+  }
+
+  // Fallback: hvis ingen kategori matcher, returner guideId som sti
+  return `/${guideId}`;
 }
 
 export default function FavoritterContent() {
