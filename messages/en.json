@@ -67,7 +67,8 @@
     "id": "ID and passport",
     "grunnleggende": "Basic technology",
     "nyINorge": "New to Norway",
-    "more": "More"
+    "more": "More",
+    "organizations": "For organizations"
   },
   "footer": {
     "about": "About LettDigital",
@@ -145,6 +146,41 @@
       "languagesCount": "6 languages",
       "alwaysFree": "Always free"
     }
+  },
+  "organizations": {
+    "metaTitle": "For Organizations – LettDigital",
+    "metaDescription": "Help your citizens with digital services. LettDigital offers free, accessible guides for NAV, tax, health and more.",
+    "heroTitle": "For Organizations",
+    "heroSubtitle": "Help your citizens with digital public services. LettDigital offers free, accessible guides that can be used by libraries, NAV offices, municipalities and volunteer organizations.",
+    "guides": "guides",
+    "languages": "languages",
+    "alwaysFree": "Always free",
+    "benefitsTitle": "Why use LettDigital?",
+    "benefit1Title": "Save time",
+    "benefit1Desc": "Ready-made guides that explain complex processes step by step.",
+    "benefit2Title": "Increase mastery",
+    "benefit2Desc": "Users become independent and need less help over time.",
+    "benefit3Title": "Reach everyone",
+    "benefit3Desc": "Accessible design and 6 languages include more citizens.",
+    "useCasesTitle": "Who is LettDigital for?",
+    "librariesTitle": "Libraries",
+    "librariesDesc": "Use the guides for digital guidance, print for visitors, or display on screens.",
+    "navTitle": "NAV offices",
+    "navDesc": "Help users with login, reporting cards and applications directly at the office.",
+    "municipalitiesTitle": "Municipalities",
+    "municipalitiesDesc": "Integrate guides into citizen services and introduction programs for new residents.",
+    "volunteersTitle": "Volunteer centers",
+    "volunteersDesc": "Give volunteers a tool to help elderly and others with digital challenges.",
+    "featuresTitle": "What do you get?",
+    "feature1": "50+ step-by-step guides",
+    "feature2": "Accessible for all (WCAG-friendly)",
+    "feature3": "6 languages including Ukrainian and Arabic",
+    "feature4": "Print-friendly guides",
+    "feature5": "Regularly updated content",
+    "feature6": "Completely free, no ads",
+    "ctaTitle": "Interested in collaboration?",
+    "ctaDesc": "Contact us to hear how LettDigital can help your organization.",
+    "ctaButton": "Contact us"
   },
   "testimonials": {
     "title": "What users say",

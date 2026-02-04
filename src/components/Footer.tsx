@@ -8,7 +8,7 @@ export default function Footer() {
   const tHeader = useTranslations('header');
 
   return (
-    <footer className="bg-gray-950 text-gray-400 mt-16 safe-area-bottom">
+    <footer className="print:hidden bg-gray-950 text-gray-400 mt-16 safe-area-bottom">
       <div className="max-w-4xl mx-auto px-4 py-8">
         {/* Navigation links - single centered line */}
         <nav className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm mb-6">

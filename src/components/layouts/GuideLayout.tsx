@@ -90,6 +90,13 @@ export default function GuideLayout({
       />
 
       <div className="max-w-4xl mx-auto px-4 py-6 sm:py-8 md:py-12">
+        {/* Print-only header med URL */}
+        <div className="hidden print:block mb-4 pb-4 border-b border-gray-300 text-center">
+          <p className="text-sm text-gray-600">
+            Skrevet ut fra lettdigital.no/{locale}{parentHref}
+          </p>
+        </div>
+
         {/* Breadcrumbs */}
         <Breadcrumbs
           items={[
@@ -100,7 +107,7 @@ export default function GuideLayout({
 
         {/* Header */}
         <div className="mb-8">
-          <div className="flex items-center gap-2 text-gray-500 mb-2">
+          <div className="print:hidden flex items-center gap-2 text-gray-500 mb-2">
             <ClockIcon className="h-5 w-5" />
             <span>{t('time')}</span>
             <span className="mx-2">•</span>
@@ -112,7 +119,7 @@ export default function GuideLayout({
             <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800">
               {t('title')}
             </h1>
-            <div className="flex items-center gap-2">
+            <div className="print:hidden flex items-center gap-2">
               <PrintButton />
               <ShareButton />
               <FavoriteButton guideId={guideId} title={t('title')} />

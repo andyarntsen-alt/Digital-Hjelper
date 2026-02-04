@@ -464,7 +464,8 @@ select {
   }
 
   /* Vis alle collapsed/hidden seksjoner ved utskrift */
-  [class*="hidden"],
+  /* NB: Bruk .hidden (eksakt match), IKKE [class*="hidden"] som matcher print:hidden */
+  .hidden,
   .collapse,
   [data-state="closed"] > *,
   details:not([open]) > *:not(summary) {
@@ -492,6 +493,64 @@ select {
   input[type="checkbox"] + div p:last-child,
   label > div > p:last-child {
     display: block !important;
+  }
+
+  /* === StepGuide-spesifikk styling === */
+
+  /* Vis alle steg-innhold ved utskrift */
+  .space-y-3 > div > div:last-child,
+  .space-y-4 > div > div:last-child {
+    display: block !important;
+  }
+
+  /* Steg-kort med kant */
+  .space-y-3 > div,
+  .space-y-4 > div {
+    border: 1px solid #ddd !important;
+    margin-bottom: 12px !important;
+    page-break-inside: avoid;
+    border-radius: 8px !important;
+  }
+
+  /* Steg-nummer sirkel - svart/hvitt */
+  .rounded-full {
+    background-color: #333 !important;
+    color: #fff !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Fullførte steg - samme stil */
+  .bg-green-500,
+  .bg-nav-blue {
+    background-color: #333 !important;
+    color: #fff !important;
+  }
+
+  /* Tips og advarsler - synlig kant */
+  .bg-gray-50.border {
+    border: 1px solid #999 !important;
+    background-color: #f9f9f9 !important;
+  }
+
+  /* Knapper skjult */
+  button {
+    display: none !important;
+  }
+
+  /* Men behold steg-tittel (som er en button) */
+  .space-y-3 > div > button,
+  .space-y-4 > div > button {
+    display: flex !important;
+    padding: 12px !important;
+    border: none !important;
+    background: transparent !important;
+  }
+
+  /* Skjul chevron-pil */
+  .space-y-3 > div > button > svg:last-child,
+  .space-y-4 > div > button > svg:last-child {
+    display: none !important;
   }
 }
 

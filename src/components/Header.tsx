@@ -65,14 +65,10 @@ export default function Header() {
             <Link href="/helse" className="px-3 py-2 text-gray-600 hover:text-nav-blue transition-colors font-medium no-underline">
               {t('helse')}
             </Link>
-            {locale === 'no' && (
-              <>
-                <span className="text-gray-300">|</span>
-                <Link href="/hjelpere" className="px-3 py-2 text-gray-600 hover:text-nav-blue transition-colors font-medium no-underline whitespace-nowrap">
-                  {t('hjelpere')}
-                </Link>
-              </>
-            )}
+            <span className="text-gray-300">|</span>
+            <Link href="/for-organisasjoner" className="px-3 py-2 text-gray-600 hover:text-nav-blue transition-colors font-medium no-underline whitespace-nowrap">
+              {t('organizations')}
+            </Link>
 
             {/* More dropdown */}
             <div
@@ -208,11 +204,9 @@ export default function Header() {
               <Link href="/helse" className="py-3 px-2 text-gray-700 hover:text-nav-blue no-underline font-medium" onClick={() => setMenuOpen(false)}>
                 {t('helse')}
               </Link>
-              {locale === 'no' && (
-                <Link href="/hjelpere" className="py-3 px-2 text-gray-700 hover:text-nav-blue no-underline font-medium" onClick={() => setMenuOpen(false)}>
-                  {t('hjelpere')}
-                </Link>
-              )}
+              <Link href="/for-organisasjoner" className="py-3 px-2 text-gray-700 hover:text-nav-blue no-underline font-medium" onClick={() => setMenuOpen(false)}>
+                {t('organizations')}
+              </Link>
               <hr className="my-2 border-gray-100" />
               <Link href="/sikkerhet" className="py-3 px-2 text-gray-700 hover:text-nav-blue no-underline" onClick={() => setMenuOpen(false)}>
                 {t('sikkerhet')}

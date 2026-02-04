@@ -67,7 +67,8 @@
     "id": "Tożsamość i paszport",
     "grunnleggende": "Podstawy",
     "nyINorge": "Nowi w Norwegii",
-    "more": "Więcej"
+    "more": "Więcej",
+    "organizations": "Dla organizacji"
   },
   "footer": {
     "about": "O LettDigital",
@@ -126,6 +127,41 @@
       "languagesCount": "6 języków",
       "alwaysFree": "Zawsze bezpłatnie"
     }
+  },
+  "organizations": {
+    "metaTitle": "Dla organizacji – LettDigital",
+    "metaDescription": "Pomóż swoim mieszkańcom w usługach cyfrowych. LettDigital oferuje bezpłatne, dostępne poradniki dotyczące NAV, podatków, zdrowia i innych.",
+    "heroTitle": "Dla organizacji",
+    "heroSubtitle": "Pomóż swoim mieszkańcom w cyfrowych usługach publicznych. LettDigital oferuje bezpłatne, dostępne poradniki dla bibliotek, biur NAV, gmin i organizacji wolontariackich.",
+    "guides": "poradników",
+    "languages": "języków",
+    "alwaysFree": "Zawsze bezpłatnie",
+    "benefitsTitle": "Dlaczego warto używać LettDigital?",
+    "benefit1Title": "Oszczędzaj czas",
+    "benefit1Desc": "Gotowe poradniki wyjaśniające złożone procesy krok po kroku.",
+    "benefit2Title": "Zwiększ samodzielność",
+    "benefit2Desc": "Użytkownicy stają się niezależni i potrzebują mniej pomocy z czasem.",
+    "benefit3Title": "Docieraj do wszystkich",
+    "benefit3Desc": "Dostępny design i 6 języków obejmuje więcej mieszkańców.",
+    "useCasesTitle": "Dla kogo jest LettDigital?",
+    "librariesTitle": "Biblioteki",
+    "librariesDesc": "Używaj poradników do pomocy cyfrowej, drukuj dla odwiedzających lub wyświetlaj na ekranach.",
+    "navTitle": "Biura NAV",
+    "navDesc": "Pomagaj użytkownikom z logowaniem, kartami meldunkowymi i wnioskami bezpośrednio w biurze.",
+    "municipalitiesTitle": "Gminy",
+    "municipalitiesDesc": "Integruj poradniki w usługach dla mieszkańców i programach wprowadzających dla nowych mieszkańców.",
+    "volunteersTitle": "Centra wolontariatu",
+    "volunteersDesc": "Daj wolontariuszom narzędzie do pomocy osobom starszym i innym z wyzwaniami cyfrowymi.",
+    "featuresTitle": "Co otrzymujesz?",
+    "feature1": "50+ poradników krok po kroku",
+    "feature2": "Dostępne dla wszystkich (zgodne z WCAG)",
+    "feature3": "6 języków w tym ukraiński i arabski",
+    "feature4": "Poradniki przyjazne do druku",
+    "feature5": "Regularnie aktualizowana treść",
+    "feature6": "Całkowicie bezpłatne, bez reklam",
+    "ctaTitle": "Zainteresowany współpracą?",
+    "ctaDesc": "Skontaktuj się, aby dowiedzieć się, jak LettDigital może pomóc Twojej organizacji.",
+    "ctaButton": "Skontaktuj się"
   },
   "testimonials": {
     "title": "Co mówią użytkownicy",

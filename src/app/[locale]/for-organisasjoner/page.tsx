@@ -1,7 +1,6 @@
 import { Metadata } from 'next';
-import { getTranslations } from 'next-intl/server';
-import { redirect } from 'next/navigation';
-import HjelpereContent from './HjelpereContent';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
+import OrganisasjonerContent from './OrganisasjonerContent';
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -9,13 +8,7 @@ type Props = {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
-
-  // Only available in Norwegian
-  if (locale !== 'no') {
-    return {};
-  }
-
-  const t = await getTranslations({ locale, namespace: 'services.hjelpere' });
+  const t = await getTranslations({ locale, namespace: 'organizations' });
 
   const title = t('metaTitle');
   const description = t('metaDescription');
@@ -26,7 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title,
       description,
-      url: 'https://www.lettdigital.no/hjelpere',
+      url: `https://www.lettdigital.no/${locale}/for-organisasjoner`,
       type: 'website',
     },
     twitter: {
@@ -35,18 +28,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
     },
     alternates: {
-      canonical: 'https://www.lettdigital.no/hjelpere',
+      canonical: locale === 'no' ? 'https://www.lettdigital.no/for-organisasjoner' : `https://www.lettdigital.no/${locale}/for-organisasjoner`,
     },
   };
 }
 
 export default async function Page({ params }: Props) {
   const { locale } = await params;
+  setRequestLocale(locale);
 
-  // Redirect non-Norwegian locales to homepage
-  if (locale !== 'no') {
-    redirect(`/${locale}`);
-  }
-
-  return <HjelpereContent />;
+  return <OrganisasjonerContent />;
 }

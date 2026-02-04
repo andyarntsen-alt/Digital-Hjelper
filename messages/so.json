@@ -67,7 +67,8 @@
     "id": "ID og pass",
     "grunnleggende": "Aasaaska",
     "nyINorge": "Cusub Norway",
-    "more": "Wax dheeraad ah"
+    "more": "Wax dheeraad ah",
+    "organizations": "Ururo"
   },
   "footer": {
     "about": "Ku saabsan LettDigital",
@@ -126,6 +127,41 @@
       "languagesCount": "6 luuqadood",
       "alwaysFree": "Had iyo jeer bilaash"
     }
+  },
+  "organizations": {
+    "metaTitle": "Ururo – LettDigital",
+    "metaDescription": "Ku caawi muwaadiniintaada adeegyada dhijitaalka. LettDigital waxay bixisaa hageyaal bilaash ah, oo la heli karo ee NAV, canshuur, caafimaad iyo wax kale.",
+    "heroTitle": "Ururo",
+    "heroSubtitle": "Ku caawi muwaadiniintaada adeegyada dhijitaalka ee dawladda. LettDigital waxay bixisaa hageyaal bilaash ah oo la heli karo oo ay isticmaali karaan maktabadaha, xafiisyada NAV, degmooyinka iyo ururada tabarucaadka.",
+    "guides": "hagaha",
+    "languages": "luuqadood",
+    "alwaysFree": "Had iyo jeer bilaash",
+    "benefitsTitle": "Maxay waxtar u leedahay LettDigital?",
+    "benefit1Title": "Keydi waqti",
+    "benefit1Desc": "Hageyaal diyaarsan oo sharaxaya hab-raacyada adag tallaabo tallaabo.",
+    "benefit2Title": "Kobci madax-bannaanida",
+    "benefit2Desc": "Isticmaalayaashu waxay noqdaan madax-banaan oo waxay u baahan yihiin caawimaad yar waqti ka dib.",
+    "benefit3Title": "Gaar qof walba",
+    "benefit3Desc": "Naqshad la heli karo iyo 6 luuqadood waxay ku daraan muwaadiin badan.",
+    "useCasesTitle": "Yaa LettDigital uu ku haboon yahay?",
+    "librariesTitle": "Maktabadaha",
+    "librariesDesc": "Isticmaal hageyaasha hagitaanka dhijitaalka, daabac martida, ama ku muuji shaashadaha.",
+    "navTitle": "Xafiisyada NAV",
+    "navDesc": "Ku caawi isticmaalayaasha gelitaanka, kaararka warbixinta iyo codsiyada xafiiska.",
+    "municipalitiesTitle": "Degmooyinka",
+    "municipalitiesDesc": "Ku dar hageyaasha adeegyada muwaadiniinta iyo barnaamijyada hordhaca ee dadka cusub.",
+    "volunteersTitle": "Xarumaha tabarucaadka",
+    "volunteersDesc": "Sii tabaruceyaasha qalab ay ku caawiyaan waayeelka iyo kuwa kale caqabadaha dhijitaalka.",
+    "featuresTitle": "Maxaad heli doontaa?",
+    "feature1": "50+ hagaha tallaabo-tallaabo",
+    "feature2": "La heli karo qof walba (WCAG-saaxiib)",
+    "feature3": "6 luuqadood oo ay ku jiraan Yukreeniyaan iyo Carabi",
+    "feature4": "Hagaha daabacaad-saaxiibka ah",
+    "feature5": "Nuxurka waqti walba la cusbooneysiiyo",
+    "feature6": "Bilaash buuxa, xayeysiis la'aan",
+    "ctaTitle": "Xiisaynaysaa iskaashiga?",
+    "ctaDesc": "Nala soo xiriir si aad u ogaato sida LettDigital ay ugu caawin karto ururtaada.",
+    "ctaButton": "Nala soo xiriir"
   },
   "testimonials": {
     "title": "Waxay yidhaahdaan isticmaalayaashu",

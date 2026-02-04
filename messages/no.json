@@ -68,7 +68,7 @@
     "about": "Om oss",
     "language": "Språk",
     "more": "Mer",
-    "hjelpere": "For hjelpere"
+    "organizations": "For organisasjoner"
   },
   "footer": {
     "about": "Om LettDigital",
@@ -146,6 +146,41 @@
       "languagesCount": "6 språk",
       "alwaysFree": "Alltid gratis"
     }
+  },
+  "organizations": {
+    "metaTitle": "For organisasjoner – LettDigital",
+    "metaDescription": "Hjelp innbyggerne dine med digitale tjenester. LettDigital tilbyr gratis, tilgjengelige guider for NAV, skatt, helse og mer.",
+    "heroTitle": "For organisasjoner",
+    "heroSubtitle": "Hjelp innbyggerne dine med digitale offentlige tjenester. LettDigital tilbyr gratis, tilgjengelige veiledninger som kan brukes av biblioteker, NAV-kontor, kommuner og frivillige organisasjoner.",
+    "guides": "veiledninger",
+    "languages": "språk",
+    "alwaysFree": "Alltid gratis",
+    "benefitsTitle": "Hvorfor bruke LettDigital?",
+    "benefit1Title": "Spar tid",
+    "benefit1Desc": "Ferdiglagde guider som forklarer kompliserte prosesser steg for steg.",
+    "benefit2Title": "Øk mestring",
+    "benefit2Desc": "Brukerne blir selvstendige og trenger mindre hjelp over tid.",
+    "benefit3Title": "Nå alle",
+    "benefit3Desc": "Tilgjengelig design og 6 språk inkluderer flere innbyggere.",
+    "useCasesTitle": "Hvem passer LettDigital for?",
+    "librariesTitle": "Biblioteker",
+    "librariesDesc": "Bruk guidene i digital veiledning, skriv ut til besøkende, eller vis på skjermer.",
+    "navTitle": "NAV-kontor",
+    "navDesc": "Hjelp brukere med innlogging, meldekort og søknader direkte på kontoret.",
+    "municipalitiesTitle": "Kommuner",
+    "municipalitiesDesc": "Integrer guidene i innbyggertjenester og introduksjonsprogram for nye innbyggere.",
+    "volunteersTitle": "Frivilligsentraler",
+    "volunteersDesc": "Gi frivillige et verktøy for å hjelpe eldre og andre med digitale utfordringer.",
+    "featuresTitle": "Hva får du?",
+    "feature1": "50+ steg-for-steg veiledninger",
+    "feature2": "Tilgjengelig for alle (WCAG-vennlig)",
+    "feature3": "6 språk inkludert ukrainsk og arabisk",
+    "feature4": "Utskriftsvennlige guider",
+    "feature5": "Regelmessig oppdatert innhold",
+    "feature6": "Helt gratis, ingen annonser",
+    "ctaTitle": "Interessert i samarbeid?",
+    "ctaDesc": "Ta kontakt for å høre hvordan LettDigital kan hjelpe din organisasjon.",
+    "ctaButton": "Ta kontakt"
   },
   "testimonials": {
     "title": "Hva brukerne sier",
