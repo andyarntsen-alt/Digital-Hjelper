@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import ServiceCard from '@/components/ServiceCard';
 import RecentlyVisited from '@/components/RecentlyVisited';
 import HeroSection from '@/components/HeroSection';
+import Testimonials from '@/components/Testimonials';
 import { Link } from '@/i18n/navigation';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 
@@ -97,6 +98,9 @@ export default async function Home({
           </div>
         </div>
       </section>
+
+      {/* Brukeromtaler */}
+      <Testimonials />
 
       {/* Tjenester - clean header, generous whitespace */}
       <section id="tjenester" className="py-24 sm:py-32 bg-gray-50">

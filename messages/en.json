@@ -146,6 +146,23 @@
       "alwaysFree": "Always free"
     }
   },
+  "testimonials": {
+    "title": "What users say",
+    "elderly": "Senior user",
+    "newToNorway": "New to Norway",
+    "helper": "Family helper",
+    "items": [
+      {
+        "quote": "I go through endless frustration EVERY time I need to figure something out. Thank you for everything that helps simplify things."
+      },
+      {
+        "quote": "This will be a welcome addition to simplifying the information that's out there."
+      },
+      {
+        "quote": "Thank you so much. It was helpful to try."
+      }
+    ]
+  },
   "home": {
     "heroTitle": "Do you need help with",
     "heroTitleBreak": "digital public services?",

@@ -127,6 +127,23 @@
       "alwaysFree": "Had iyo jeer bilaash"
     }
   },
+  "testimonials": {
+    "title": "Waxay yidhaahdaan isticmaalayaashu",
+    "elderly": "Isticmaale da' weyn",
+    "newToNorway": "Cusub Norway",
+    "helper": "Caawiye qoys",
+    "items": [
+      {
+        "quote": "Waxaan soo maray niyad-jab aad u badan MAR KASTA markii aan u baahnaa inaan wax ogaado. Mahadsanid wax kasta oo fududeeya arrimaha."
+      },
+      {
+        "quote": "Tani waxay noqon doontaa kulan la soo dhaweynayo oo fududeynaya macluumaadka halkaas ku jira."
+      },
+      {
+        "quote": "Aad baad u mahadsantahay. Waxay ahayd mid wax ku ool ah in la isku dayo."
+      }
+    ]
+  },
   "home": {
     "heroTitle": "Ma u baahan tahay caawin",
     "heroTitleBreak": "adeegyada dhijitaalka ee dawladda?",

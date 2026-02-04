@@ -147,6 +147,23 @@
       "alwaysFree": "Alltid gratis"
     }
   },
+  "testimonials": {
+    "title": "Hva brukerne sier",
+    "elderly": "Eldre bruker",
+    "newToNorway": "Ny i Norge",
+    "helper": "Pårørende",
+    "items": [
+      {
+        "quote": "Går gjennom en uendelig stor frustrasjon HVER gang det er behov for å finne ut av noe. Tusen takk for alt som kan bidra til forenkling."
+      },
+      {
+        "quote": "Dette vil være et kjærkommen tilskudd til forenkling av informasjonen som er der ute."
+      },
+      {
+        "quote": "Tusen takk. Det ble nyttig å prøve."
+      }
+    ]
+  },
   "home": {
     "heroTitle": "Trenger du hjelp med",
     "heroTitleBreak": "digitale offentlige tjenester?",

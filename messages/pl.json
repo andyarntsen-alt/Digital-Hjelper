@@ -127,6 +127,23 @@
       "alwaysFree": "Zawsze bezpłatnie"
     }
   },
+  "testimonials": {
+    "title": "Co mówią użytkownicy",
+    "elderly": "Starszy użytkownik",
+    "newToNorway": "Nowy w Norwegii",
+    "helper": "Pomocnik rodziny",
+    "items": [
+      {
+        "quote": "Przeżywam nieskończoną frustrację ZA KAŻDYM razem, gdy muszę coś ustalić. Dziękuję za wszystko, co pomaga uprościć sprawy."
+      },
+      {
+        "quote": "To będzie mile widziane uzupełnienie upraszczające dostępne informacje."
+      },
+      {
+        "quote": "Bardzo dziękuję. Było pomocne, żeby spróbować."
+      }
+    ]
+  },
   "home": {
     "heroTitle": "Potrzebujesz pomocy z",
     "heroTitleBreak": "cyfrowymi usługami publicznymi?",
