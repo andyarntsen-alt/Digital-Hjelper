@@ -6,11 +6,13 @@ import PrintButton from '@/components/PrintButton';
 import ShareButton from '@/components/ShareButton';
 import StepGuide from '@/components/StepGuide';
 import { HowToSchema } from '@/components/StructuredData';
+import { ChevronDownIcon } from '@/components/icons';
 import { useTranslations, useLocale } from 'next-intl';
 
 export default function UforetrygdPage() {
   const t = useTranslations('guides.nav.uforetrygd');
   const tNav = useTranslations('header');
+  const tCommon = useTranslations('common');
   const locale = useLocale();
 
   // Build steps array from translations
@@ -74,86 +76,132 @@ export default function UforetrygdPage() {
         </p>
       </div>
 
-      {/* Hvem kan få */}
-      <div className="card bg-blue-50 mb-8">
-        <h2 className="text-xl font-bold mb-4">{t('whoCanGet')}</h2>
-        <p className="text-gray-700 mb-4">{t('whoCanGetIntro')}</p>
-        <ul className="space-y-2 text-gray-700">
-          {requirements.map((req, index) => (
-            <li key={index} className="flex items-start gap-3">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-              </svg>
-              <span>{req}</span>
-            </li>
-          ))}
-        </ul>
+      {/* Quick Start Button */}
+      <div className="print:hidden mb-6">
+        <a
+          href="#guide-steps"
+          className="inline-flex items-center gap-3 bg-nav-blue text-white px-6 py-4 rounded-xl hover:bg-blue-700 transition-colors no-underline text-lg font-semibold shadow-md hover:shadow-lg"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          {tCommon('startGuideNow')}
+        </a>
       </div>
+
+      {/* Hvem kan få */}
+      <details className="bg-gray-50 border border-gray-200 rounded-xl mb-4 group">
+        <summary className="cursor-pointer list-none flex justify-between items-center p-4 sm:p-5 select-none">
+          <h2 className="text-lg font-semibold text-gray-900">{t('whoCanGet')}</h2>
+          <ChevronDownIcon className="h-5 w-5 text-gray-400 transform transition-transform group-open:rotate-180 flex-shrink-0" />
+        </summary>
+        <div className="px-4 sm:px-5 pb-4 sm:pb-5">
+          <p className="text-gray-700 mb-4">{t('whoCanGetIntro')}</p>
+          <ul className="space-y-2 text-gray-700">
+            {requirements.map((req, index) => (
+              <li key={index} className="flex items-start gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+                <span>{req}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </details>
 
       {/* Før du søker */}
-      <div className="card mb-8 border border-gray-200 rounded-xl">
-        <h2 className="text-xl font-bold mb-4">{t('beforeApplyingTitle')}</h2>
-        <p className="text-gray-700 mb-4">{t('beforeApplyingText')}</p>
-        <ul className="space-y-2 text-gray-700">
-          {beforeApplying.map((item, index) => (
-            <li key={index} className="flex items-start gap-3">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-yellow-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
-              </svg>
-              <span>{item}</span>
-            </li>
-          ))}
-        </ul>
-      </div>
+      <details className="bg-gray-50 border border-gray-200 rounded-xl mb-4 group">
+        <summary className="cursor-pointer list-none flex justify-between items-center p-4 sm:p-5 select-none">
+          <h2 className="text-lg font-semibold text-gray-900">{t('beforeApplyingTitle')}</h2>
+          <ChevronDownIcon className="h-5 w-5 text-gray-400 transform transition-transform group-open:rotate-180 flex-shrink-0" />
+        </summary>
+        <div className="px-4 sm:px-5 pb-4 sm:pb-5">
+          <p className="text-gray-700 mb-4">{t('beforeApplyingText')}</p>
+          <ul className="space-y-2 text-gray-700">
+            {beforeApplying.map((item, index) => (
+              <li key={index} className="flex items-start gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-yellow-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                </svg>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </details>
 
       {/* Dokumenter du trenger */}
-      <div className="card mb-8">
-        <h2 className="text-xl font-bold mb-4">{t('documentsTitle')}</h2>
-        <ul className="space-y-3 text-gray-700">
-          {documents.map((doc, index) => (
-            <li key={index} className="flex items-start gap-3">
-              <span className="bg-nav-blue text-white rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 text-sm">{index + 1}</span>
-              <span>{doc}</span>
-            </li>
-          ))}
-        </ul>
-      </div>
+      <details className="bg-gray-50 border border-gray-200 rounded-xl mb-4 group">
+        <summary className="cursor-pointer list-none flex justify-between items-center p-4 sm:p-5 select-none">
+          <h2 className="text-lg font-semibold text-gray-900">{t('documentsTitle')}</h2>
+          <ChevronDownIcon className="h-5 w-5 text-gray-400 transform transition-transform group-open:rotate-180 flex-shrink-0" />
+        </summary>
+        <div className="px-4 sm:px-5 pb-4 sm:pb-5">
+          <ul className="space-y-3 text-gray-700">
+            {documents.map((doc, index) => (
+              <li key={index} className="flex items-start gap-3">
+                <span className="bg-nav-blue text-white rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 text-sm">{index + 1}</span>
+                <span>{doc}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </details>
 
-      <StepGuide title={t('stepsTitle')} steps={steps} />
+      <div id="guide-steps" className="scroll-mt-4">
+        <StepGuide title={t('stepsTitle')} steps={steps} />
+      </div>
 
       {/* Etter du har søkt */}
-      <div className="mt-8 card">
-        <h2 className="text-xl font-bold mb-4">{t('afterApplyingTitle')}</h2>
-        <div className="space-y-4">
-          {afterApplying.map((item, index) => (
-            <div key={index} className="p-4 bg-gray-50 rounded-lg">
-              <p className="font-semibold text-gray-800">{item.title}</p>
-              <p className="text-gray-600 mt-1">{item.description}</p>
-            </div>
-          ))}
+      <details className="mt-8 bg-gray-50 border border-gray-200 rounded-xl group">
+        <summary className="cursor-pointer list-none flex justify-between items-center p-4 sm:p-5 select-none">
+          <h2 className="text-lg font-semibold text-gray-900">{t('afterApplyingTitle')}</h2>
+          <ChevronDownIcon className="h-5 w-5 text-gray-400 transform transition-transform group-open:rotate-180 flex-shrink-0" />
+        </summary>
+        <div className="px-4 sm:px-5 pb-4 sm:pb-5">
+          <div className="space-y-4">
+            {afterApplying.map((item, index) => (
+              <div key={index} className="p-4 bg-white rounded-lg border border-gray-200">
+                <p className="font-semibold text-gray-800">{item.title}</p>
+                <p className="text-gray-600 mt-1">{item.description}</p>
+              </div>
+            ))}
+          </div>
         </div>
-      </div>
+      </details>
 
       {/* Hvor mye får du */}
-      <div className="mt-8 card bg-green-50">
-        <h2 className="text-xl font-bold mb-4">{t('howMuchTitle')}</h2>
-        <p className="text-gray-700">{t('howMuchText')}</p>
-      </div>
+      <details className="mt-8 bg-gray-50 border border-gray-200 rounded-xl group">
+        <summary className="cursor-pointer list-none flex justify-between items-center p-4 sm:p-5 select-none">
+          <h2 className="text-lg font-semibold text-gray-900">{t('howMuchTitle')}</h2>
+          <ChevronDownIcon className="h-5 w-5 text-gray-400 transform transition-transform group-open:rotate-180 flex-shrink-0" />
+        </summary>
+        <div className="px-4 sm:px-5 pb-4 sm:pb-5">
+          <p className="text-gray-700">{t('howMuchText')}</p>
+        </div>
+      </details>
 
       {/* Viktig å vite */}
-      <div className="mt-8 card border border-gray-200 rounded-xl">
-        <h2 className="text-xl font-bold mb-4">{t('importantTitle')}</h2>
-        <ul className="space-y-3 text-gray-700">
-          {important.map((item, index) => (
-            <li key={index} className="flex items-start gap-3">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-nav-blue flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-              <span>{item}</span>
-            </li>
-          ))}
-        </ul>
-      </div>
+      <details className="mt-8 bg-gray-50 border border-gray-200 rounded-xl group">
+        <summary className="cursor-pointer list-none flex justify-between items-center p-4 sm:p-5 select-none">
+          <h2 className="text-lg font-semibold text-gray-900">{t('importantTitle')}</h2>
+          <ChevronDownIcon className="h-5 w-5 text-gray-400 transform transition-transform group-open:rotate-180 flex-shrink-0" />
+        </summary>
+        <div className="px-4 sm:px-5 pb-4 sm:pb-5">
+          <ul className="space-y-3 text-gray-700">
+            {important.map((item, index) => (
+              <li key={index} className="flex items-start gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-nav-blue flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </details>
 
       {/* Kontakt NAV */}
       <div className="mt-8 tip-box">

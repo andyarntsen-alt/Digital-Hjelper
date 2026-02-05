@@ -7,11 +7,13 @@ import ShareButton from '@/components/ShareButton';
 import StepGuide from '@/components/StepGuide';
 import GuideTracker from '@/components/GuideTracker';
 import { HowToSchema } from '@/components/StructuredData';
+import { ChevronDownIcon } from '@/components/icons';
 import { useTranslations, useLocale } from 'next-intl';
 
 export default function SkatteoppgjoerPage() {
   const t = useTranslations('guides.skatt.skatteoppgjoer');
   const tNav = useTranslations('header');
+  const tCommon = useTranslations('common');
   const locale = useLocale();
 
   // Build steps array from translations
@@ -75,68 +77,104 @@ export default function SkatteoppgjoerPage() {
           </p>
         </div>
 
-        {/* When does it come */}
-        <div className="card bg-blue-50 mb-8">
-          <h2 className="text-xl font-bold mb-4">{t('whenTitle')}</h2>
-          <ul className="space-y-2 text-gray-700">
-            {whenList.map((item, index) => (
-              <li key={index} className="flex items-start gap-3">
-                <span className="text-blue-600 font-bold">•</span>
-                <span><strong>{item.label}:</strong> {item.text}</span>
-              </li>
-            ))}
-          </ul>
-          <p className="mt-4 text-gray-600">{t('whenNote')}</p>
+        {/* Quick Start Button */}
+        <div className="print:hidden mb-6">
+          <a
+            href="#guide-steps"
+            className="inline-flex items-center gap-3 bg-skatt-green text-white px-6 py-4 rounded-xl hover:bg-green-700 transition-colors no-underline text-lg font-semibold shadow-md hover:shadow-lg"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            {tCommon('startGuideNow')}
+          </a>
         </div>
 
-        <StepGuide title={t('stepsTitle')} steps={steps} />
+        {/* When does it come */}
+        <details className="card bg-blue-50 mb-8 group">
+          <summary className="cursor-pointer list-none flex justify-between items-center p-4 sm:p-5 select-none">
+            <h2 className="text-lg font-semibold text-gray-900">{t('whenTitle')}</h2>
+            <ChevronDownIcon className="h-5 w-5 text-gray-400 transform transition-transform group-open:rotate-180 flex-shrink-0" />
+          </summary>
+          <div className="px-4 sm:px-5 pb-4 sm:pb-5">
+            <ul className="space-y-2 text-gray-700">
+              {whenList.map((item, index) => (
+                <li key={index} className="flex items-start gap-3">
+                  <span className="text-blue-600 font-bold">•</span>
+                  <span><strong>{item.label}:</strong> {item.text}</span>
+                </li>
+              ))}
+            </ul>
+            <p className="mt-4 text-gray-600">{t('whenNote')}</p>
+          </div>
+        </details>
+
+        <div id="guide-steps" className="scroll-mt-4">
+          <StepGuide title={t('stepsTitle')} steps={steps} />
+        </div>
 
         {/* Money back */}
-        <div className="mt-8 card bg-green-50">
-          <h2 className="text-xl font-bold mb-4">{t('moneyBackTitle')}</h2>
-          <p className="text-gray-700 mb-4">
-            {t('moneyBackText')}
-          </p>
-          <ul className="space-y-2 text-gray-700">
-            {moneyBackList.map((item, index) => (
-              <li key={index} className="flex items-center gap-3">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                </svg>
-                <span>{item}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
+        <details className="mt-8 card bg-green-50 group">
+          <summary className="cursor-pointer list-none flex justify-between items-center p-4 sm:p-5 select-none">
+            <h2 className="text-lg font-semibold text-gray-900">{t('moneyBackTitle')}</h2>
+            <ChevronDownIcon className="h-5 w-5 text-gray-400 transform transition-transform group-open:rotate-180 flex-shrink-0" />
+          </summary>
+          <div className="px-4 sm:px-5 pb-4 sm:pb-5">
+            <p className="text-gray-700 mb-4">
+              {t('moneyBackText')}
+            </p>
+            <ul className="space-y-2 text-gray-700">
+              {moneyBackList.map((item, index) => (
+                <li key={index} className="flex items-center gap-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </details>
 
         {/* Additional tax */}
-        <div className="mt-8 card bg-yellow-50">
-          <h2 className="text-xl font-bold mb-4">{t('additionalTaxTitle')}</h2>
-          <p className="text-gray-700 mb-4">
-            {t('additionalTaxText')}
-          </p>
-          <ul className="space-y-2 text-gray-700">
-            {additionalTaxList.map((item, index) => (
-              <li key={index} className="flex items-start gap-3">
-                <span className="text-yellow-600 font-bold">•</span>
-                <span>{item.label ? <><strong>{item.label}:</strong> {item.text}</> : item.text}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
+        <details className="mt-8 card bg-yellow-50 group">
+          <summary className="cursor-pointer list-none flex justify-between items-center p-4 sm:p-5 select-none">
+            <h2 className="text-lg font-semibold text-gray-900">{t('additionalTaxTitle')}</h2>
+            <ChevronDownIcon className="h-5 w-5 text-gray-400 transform transition-transform group-open:rotate-180 flex-shrink-0" />
+          </summary>
+          <div className="px-4 sm:px-5 pb-4 sm:pb-5">
+            <p className="text-gray-700 mb-4">
+              {t('additionalTaxText')}
+            </p>
+            <ul className="space-y-2 text-gray-700">
+              {additionalTaxList.map((item, index) => (
+                <li key={index} className="flex items-start gap-3">
+                  <span className="text-yellow-600 font-bold">•</span>
+                  <span>{item.label ? <><strong>{item.label}:</strong> {item.text}</> : item.text}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </details>
 
         {/* FAQ */}
-        <div className="mt-8 card">
-          <h2 className="text-xl font-bold mb-4">{t('faqTitle')}</h2>
-          <div className="space-y-4">
-            {faq.map((item, index) => (
-              <div key={index} className="p-4 bg-gray-50 rounded-lg">
-                <p className="font-semibold mb-1">{item.q}</p>
-                <p className="text-gray-600">{item.a}</p>
-              </div>
-            ))}
+        <details className="mt-8 card group">
+          <summary className="cursor-pointer list-none flex justify-between items-center p-4 sm:p-5 select-none">
+            <h2 className="text-lg font-semibold text-gray-900">{t('faqTitle')}</h2>
+            <ChevronDownIcon className="h-5 w-5 text-gray-400 transform transition-transform group-open:rotate-180 flex-shrink-0" />
+          </summary>
+          <div className="px-4 sm:px-5 pb-4 sm:pb-5">
+            <div className="space-y-4">
+              {faq.map((item, index) => (
+                <div key={index} className="p-4 bg-gray-50 rounded-lg">
+                  <p className="font-semibold mb-1">{item.q}</p>
+                  <p className="text-gray-600">{item.a}</p>
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
+        </details>
       </div>
     </>
   );

@@ -7,6 +7,7 @@
     "searchPlaceholder": "Søk etter veiledninger...",
     "readMore": "Les mer",
     "startGuide": "Start guide",
+    "startGuideNow": "Start guiden nå",
     "minutes": "min",
     "easy": "Enkel",
     "medium": "Middels",
@@ -118,7 +119,8 @@
     "stopReading": "Stopp lesing"
   },
   "relatedGuides": {
-    "title": "Andre guider du kanskje trenger"
+    "title": "Andre guider du kanskje trenger",
+    "relatedServices": "Relatert fra andre tjenester"
   },
   "recentlyVisited": {
     "title": "Fortsett der du slapp"
@@ -356,7 +358,7 @@
     },
     "stavanger": {
       "name": "Stavanger",
-      "description": "Oljehovedstaden med fem NAV-kontorer",
+      "description": "Oljehovedstaden med NAV-kontorer i regionen",
       "intro": "Stavanger er Norges fjerde største by med ca. 145 000 innbyggere og er kjent som oljehovedstaden. Her finner du informasjon om NAV-kontorer, Skatteetaten og helsetjenester i Stavanger og omegn.",
       "emergencyAddress": "Armauer Hansens vei 30, 4011 Stavanger",
       "faq1q": "Hvor er NAV-kontorene i Stavanger?",
@@ -374,7 +376,7 @@
       "faq1q": "Hvor er NAV-kontoret i Kristiansand?",
       "faq1a": "Kristiansand har et sentralt NAV-kontor i sentrum som betjener alle innbyggere. Det finnes også kontorer i omliggende kommuner.",
       "faq2q": "Hvor finner jeg legevakt i Kristiansand?",
-      "faq2a": "Kristiansand legevakt ligger på Eg. Åpent 24 timer. Telefon: 116 117. For livstruende situasjoner, ring 113.",
+      "faq2a": "Kristiansand legevakt ligger på Egsveien 102. Åpent 24 timer. Telefon: 116 117. For livstruende situasjoner, ring 113.",
       "faq3q": "Hvilken kollektivtransport finnes i Kristiansand?",
       "faq3a": "Kristiansand har busser som drives av AKT. Du kan planlegge reisen din på akt.no eller i AKT-appen."
     }
@@ -419,14 +421,20 @@
       "chatAvailable": "Tilgjengelig på nav.no",
       "office": "NAV-kontor",
       "findOffice": "Finn ditt lokale kontor på nav.no",
-      "metaTitle": "NAV Guider - Komplett hjelp til NAV sine digitale tjenester",
-      "metaDescription": "Lær hvordan du logger inn på NAV, sender meldekort, søker dagpenger og bruker alle NAV sine digitale tjenester. Enkle steg-for-steg guider.",
+      "metaTitle": "NAV Hjelp: Meldekort, Dagpenger, Sykepenger - Steg for steg guider",
+      "metaDescription": "Trenger du hjelp med NAV? Enkle steg-for-steg guider for meldekort, dagpenger, sykepenger og innlogging. Forklart på en enkel måte.",
       "needHelpTitle": "Trenger du mer hjelp?",
       "needHelpText": "Hvis du ikke finner det du leter etter, kan du kontakte NAV direkte.",
       "helpPhone": "Ring NAV",
       "helpPhoneDesc": "55 55 33 33 hverdager 09-15",
       "helpVisit": "Besøk NAV-kontoret",
       "helpVisitDesc": "finn ditt lokale kontor på nav.no",
+      "paymentDates": {
+        "title": "Utbetalingsdatoer fra NAV",
+        "description": "Lurer du på når pengene fra NAV kommer? NAV utbetaler ytelser som dagpenger, sykepenger, arbeidsavklaringspenger og andre stønader på faste datoer hver måned.",
+        "generalRule": "Hovedregelen er at utbetalingen skjer rundt den 20. i hver måned, men noen ytelser har andre datoer. Sjekk de offisielle datoene for din ytelse.",
+        "linkText": "Se utbetalingsdatoer på nav.no"
+      },
       "lastUpdated": "Sist oppdatert: Februar 2026"
     },
     "skatt": {
@@ -470,15 +478,15 @@
         "q5": "Hvordan får jeg skatteattest?",
         "a5": "Logg inn på skatteetaten.no og gå til 'Skatteattest'. Klikk 'Bestill skatteattest'.",
         "q6": "Hva er telefonnummeret til Skatteetaten?",
-        "a6": "Skatteetaten har telefonnummer 800 80 000, hverdager 09:00-15:00."
+        "a6": "Skatteetaten har gratis telefonnummer 800 80 000, hverdager 09:00-15:00."
       },
       "relatedTitle": "Relaterte guider",
       "relatedText": "Trenger du hjelp med andre offentlige tjenester?",
       "relatedNav": "Dagpenger, sykepenger",
       "relatedHelse": "Fastlege, resepter",
       "relatedBankID": "Innlogging og sikkerhet",
-      "metaTitle": "Skatteetaten Guider - Komplett hjelp til skatt og skattemelding",
-      "metaDescription": "Lær hvordan du logger inn på Skatteetaten, leverer skattemelding, endrer skattekort og forstår skatteoppgjøret.",
+      "metaTitle": "Skattemelding 2026: Slik leverer du - Enkel steg for steg guide",
+      "metaDescription": "Trenger du hjelp med skattemeldingen? Lær hvordan du logger inn, leverer skattemelding, endrer skattekort og forstår skatteoppgjøret. Frist 30. april.",
       "needHelpTitle": "Trenger du mer hjelp?",
       "needHelpText": "Hvis du ikke finner det du leter etter, kan du kontakte Skatteetaten.",
       "helpPhone": "Ring Skatteetaten",
@@ -550,8 +558,8 @@
       "relatedNavDesc": "Dagpenger og ytelser",
       "relatedSkattDesc": "Skattemelding og fradrag",
       "relatedBankIdDesc": "Innlogging og sikkerhet",
-      "metaTitle": "Helsenorge Guider - Komplett hjelp til helsetjenester på nett",
-      "metaDescription": "Lær hvordan du bruker Helsenorge til å bestille legetime, se resepter, bytte fastlege og lese journalen din.",
+      "metaTitle": "Helsenorge: Bestill legetime, se resepter, bytt fastlege - Enkel guide",
+      "metaDescription": "Slik bruker du Helsenorge.no: Bestill legetime, se dine resepter, bytt fastlege og les journalen din. Steg for steg med bilder.",
       "needHelpTitle": "Trenger du mer hjelp?",
       "needHelpText": "Hvis du har spørsmål om helsetjenester, kan du kontakte legevakten eller fastlegen din.",
       "helpPhone": "Ring legevakten",
@@ -588,8 +596,8 @@
         "password": "Endre passord på alle viktige kontoer",
         "idTheft": "Kontakt NorSIS for råd om ID-tyveri på 40 00 58 99"
       },
-      "metaTitle": "Digital Sikkerhet - Beskytt deg mot svindel og phishing",
-      "metaDescription": "Lær hvordan du beskytter deg mot svindel, phishing og ID-tyveri på nett. Guider om BankID, sikre passord og hvordan du gjenkjenner falske meldinger.",
+      "metaTitle": "BankID hjelp og svindelbeskyttelse - Slik beskytter du deg på nett",
+      "metaDescription": "Lær å bruke BankID trygt, gjenkjenne svindel og phishing, og lage sikre passord. Enkle tips som beskytter deg mot ID-tyveri.",
       "faqTitle": "Vanlige spørsmål om sikkerhet",
       "faq": {
         "q1": "Hva er BankID og hvordan fungerer det?",
@@ -663,8 +671,8 @@
       "relatedFraudTitle": "Unngå svindel",
       "relatedFraudDesc": "Beskytt deg på nett",
       "relatedNavDesc": "Dagpenger og ytelser",
-      "metaTitle": "Bank og Nettbank Guider - Komplett hjelp til digitale banktjenester",
-      "metaDescription": "Lær hvordan du bruker nettbank, betaler regninger, bruker Vipps og holder styr på økonomien din.",
+      "metaTitle": "Nettbank og Vipps hjelp - Slik bruker du digitale banktjenester",
+      "metaDescription": "Trenger du hjelp med nettbank? Lær å logge inn, betale regninger, bruke Vipps og sette opp AvtaleGiro. Enkle steg for steg guider.",
       "lastUpdated": "Sist oppdatert: Februar 2026"
     },
     "digital": {
@@ -859,8 +867,8 @@
       "nextBankID": "Digital innlogging",
       "nextNAV": "Offentlige tjenester",
       "nextHelse": "Fastlege og resepter",
-      "metaTitle": "Grunnleggende digital kunnskap - Lær teknologi fra bunnen av",
-      "metaDescription": "Lær hvordan du bruker smarttelefon, nettleser, videosamtale og andre digitale verktøy. Enkle guider for nybegynnere.",
+      "metaTitle": "Lær data fra bunnen av - Smarttelefon, nettleser og videosamtale",
+      "metaDescription": "Helt ny med data? Lær å bruke smarttelefon, nettleser, WiFi og videosamtale steg for steg. Enkle guider for nybegynnere og eldre.",
       "didYouKnow": "Visste du?",
       "didYouKnowText": "Det er aldri for sent å lære det digitale! Her finner du enkle guider som forklarer alt fra bunnen av - uten vanskelige ord.",
       "selectGuide": "Velg hva du vil lære",

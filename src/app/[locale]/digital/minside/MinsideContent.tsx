@@ -8,10 +8,12 @@ import StepGuide from '@/components/StepGuide';
 import { HowToSchema } from '@/components/StructuredData';
 import { useTranslations } from 'next-intl';
 import { useLocale } from 'next-intl';
+import { ChevronDownIcon } from '@/components/icons';
 
 export default function MinsideContent() {
   const t = useTranslations('guides.digital.minside');
   const tNav = useTranslations('header');
+  const tCommon = useTranslations('common');
   const locale = useLocale();
 
   const stepsRaw = t.raw('steps') as { title: string; description: string; tip?: string; warning?: string }[];
@@ -67,43 +69,69 @@ export default function MinsideContent() {
         <p className="text-xl text-gray-600">{t('longDescription')}</p>
       </div>
 
-      <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
-        <h2 className="text-xl font-bold mb-4 text-gray-900">{t('introTitle')}</h2>
-        <p className="text-gray-700">{t('introText')}</p>
+      {/* Quick Start Button */}
+      <div className="print:hidden mb-6">
+        <a
+          href="#guide-steps"
+          className="inline-flex items-center gap-3 bg-nav-blue text-white px-6 py-4 rounded-xl hover:bg-blue-700 transition-colors no-underline text-lg font-semibold shadow-md hover:shadow-lg"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          {tCommon('startGuideNow')}
+        </a>
       </div>
 
-      <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
-        <h2 className="text-xl font-bold mb-4 text-gray-900">{t('servicesTitle')}</h2>
-        <div className="space-y-4">
-          <div className="bg-white p-4 rounded-lg">
-            <p className="font-semibold text-gray-800">{t('serviceNAV')}</p>
-            <p className="text-gray-600">{t('serviceNAVDesc')}</p>
-            <p className="text-blue-600 text-sm mt-1">{t('serviceNAVUrl')}</p>
-          </div>
-          <div className="bg-white p-4 rounded-lg">
-            <p className="font-semibold text-gray-800">{t('serviceSkatt')}</p>
-            <p className="text-gray-600">{t('serviceSkattDesc')}</p>
-            <p className="text-blue-600 text-sm mt-1">{t('serviceSkattUrl')}</p>
-          </div>
-          <div className="bg-white p-4 rounded-lg">
-            <p className="font-semibold text-gray-800">{t('serviceHelse')}</p>
-            <p className="text-gray-600">{t('serviceHelseDesc')}</p>
-            <p className="text-blue-600 text-sm mt-1">{t('serviceHelseUrl')}</p>
-          </div>
-          <div className="bg-white p-4 rounded-lg">
-            <p className="font-semibold text-gray-800">{t('serviceAltinn')}</p>
-            <p className="text-gray-600">{t('serviceAltinnDesc')}</p>
-            <p className="text-blue-600 text-sm mt-1">{t('serviceAltinnUrl')}</p>
-          </div>
-          <div className="bg-white p-4 rounded-lg">
-            <p className="font-semibold text-gray-800">{t('serviceDigipost')}</p>
-            <p className="text-gray-600">{t('serviceDigipostDesc')}</p>
-            <p className="text-blue-600 text-sm mt-1">{t('serviceDigipostUrl')}</p>
+      <details className="bg-gray-50 border border-gray-200 rounded-xl mb-4 group">
+        <summary className="cursor-pointer list-none flex justify-between items-center p-4 sm:p-5 select-none">
+          <h2 className="text-lg font-semibold text-gray-900">{t('introTitle')}</h2>
+          <ChevronDownIcon className="h-5 w-5 text-gray-400 transform transition-transform group-open:rotate-180 flex-shrink-0" />
+        </summary>
+        <div className="px-4 sm:px-5 pb-4 sm:pb-5">
+          <p className="text-gray-700">{t('introText')}</p>
+        </div>
+      </details>
+
+      <details className="bg-gray-50 border border-gray-200 rounded-xl mb-4 group">
+        <summary className="cursor-pointer list-none flex justify-between items-center p-4 sm:p-5 select-none">
+          <h2 className="text-lg font-semibold text-gray-900">{t('servicesTitle')}</h2>
+          <ChevronDownIcon className="h-5 w-5 text-gray-400 transform transition-transform group-open:rotate-180 flex-shrink-0" />
+        </summary>
+        <div className="px-4 sm:px-5 pb-4 sm:pb-5">
+          <div className="space-y-4">
+            <div className="bg-white p-4 rounded-lg">
+              <p className="font-semibold text-gray-800">{t('serviceNAV')}</p>
+              <p className="text-gray-600">{t('serviceNAVDesc')}</p>
+              <p className="text-blue-600 text-sm mt-1">{t('serviceNAVUrl')}</p>
+            </div>
+            <div className="bg-white p-4 rounded-lg">
+              <p className="font-semibold text-gray-800">{t('serviceSkatt')}</p>
+              <p className="text-gray-600">{t('serviceSkattDesc')}</p>
+              <p className="text-blue-600 text-sm mt-1">{t('serviceSkattUrl')}</p>
+            </div>
+            <div className="bg-white p-4 rounded-lg">
+              <p className="font-semibold text-gray-800">{t('serviceHelse')}</p>
+              <p className="text-gray-600">{t('serviceHelseDesc')}</p>
+              <p className="text-blue-600 text-sm mt-1">{t('serviceHelseUrl')}</p>
+            </div>
+            <div className="bg-white p-4 rounded-lg">
+              <p className="font-semibold text-gray-800">{t('serviceAltinn')}</p>
+              <p className="text-gray-600">{t('serviceAltinnDesc')}</p>
+              <p className="text-blue-600 text-sm mt-1">{t('serviceAltinnUrl')}</p>
+            </div>
+            <div className="bg-white p-4 rounded-lg">
+              <p className="font-semibold text-gray-800">{t('serviceDigipost')}</p>
+              <p className="text-gray-600">{t('serviceDigipostDesc')}</p>
+              <p className="text-blue-600 text-sm mt-1">{t('serviceDigipostUrl')}</p>
+            </div>
           </div>
         </div>
-      </div>
+      </details>
 
-      <StepGuide title={t('stepsTitle')} steps={steps} />
+      <div id="guide-steps" className="scroll-mt-4">
+        <StepGuide title={t('stepsTitle')} steps={steps} />
+      </div>
 
       <div className="mt-8 bg-gray-50 border border-gray-200 rounded-xl p-4">
         <h2 className="text-xl font-bold mb-4 text-gray-900">{t('tipsTitle')}</h2>

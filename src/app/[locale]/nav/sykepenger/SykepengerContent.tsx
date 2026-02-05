@@ -6,11 +6,13 @@ import PrintButton from '@/components/PrintButton';
 import ShareButton from '@/components/ShareButton';
 import StepGuide from '@/components/StepGuide';
 import { HowToSchema } from '@/components/StructuredData';
+import { ChevronDownIcon } from '@/components/icons';
 import { useTranslations, useLocale } from 'next-intl';
 
 export default function SykepengerContent() {
   const t = useTranslations('guides.nav.sykepenger');
   const tNav = useTranslations('header');
+  const tCommon = useTranslations('common');
   const locale = useLocale();
 
   // Build steps array from translations
@@ -70,58 +72,89 @@ export default function SykepengerContent() {
         </p>
       </div>
 
-      {/* Hvem kan få */}
-      <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
-        <h2 className="text-xl font-bold mb-4">{t('whoCanGet')}</h2>
-        <ul className="space-y-2 text-gray-700">
-          {requirements.map((req, index) => (
-            <li key={index} className="flex items-start gap-3">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
-              <span>{req}</span>
-            </li>
-          ))}
-        </ul>
+      {/* Quick Start Button */}
+      <div className="print:hidden mb-6">
+        <a
+          href="#guide-steps"
+          className="inline-flex items-center gap-3 bg-nav-blue text-white px-6 py-4 rounded-xl hover:bg-blue-700 transition-colors no-underline text-lg font-semibold shadow-md hover:shadow-lg"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          {tCommon('startGuideNow')}
+        </a>
       </div>
+
+      {/* Hvem kan få */}
+      <details className="bg-gray-50 border border-gray-200 rounded-xl mb-4 group">
+        <summary className="cursor-pointer list-none flex justify-between items-center p-4 sm:p-5 select-none">
+          <h2 className="text-lg font-semibold text-gray-900">{t('whoCanGet')}</h2>
+          <ChevronDownIcon className="h-5 w-5 text-gray-400 transform transition-transform group-open:rotate-180 flex-shrink-0" />
+        </summary>
+        <div className="px-4 sm:px-5 pb-4 sm:pb-5">
+          <ul className="space-y-2 text-gray-700">
+            {requirements.map((req, index) => (
+              <li key={index} className="flex items-start gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+                <span>{req}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </details>
 
       {/* Viktig å vite */}
-      <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
-        <h2 className="text-xl font-bold mb-4">{t('importantToKnow')}</h2>
-        <div className="space-y-4 text-gray-700">
-          <div className="p-4 bg-gray-50 rounded-lg">
-            <p className="font-semibold">{t('employerPeriod')}</p>
-            <p>{t('employerPeriodText')}</p>
-          </div>
-          <div className="p-4 bg-gray-50 rounded-lg">
-            <p className="font-semibold">{t('navPeriod')}</p>
-            <p>{t('navPeriodText')}</p>
-          </div>
-          <div className="p-4 bg-gray-50 rounded-lg">
-            <p className="font-semibold">{t('howMuch')}</p>
-            <p>{t('howMuchText')}</p>
-          </div>
-          <div className="p-4 bg-gray-50 rounded-lg">
-            <p className="font-semibold">{t('howLong')}</p>
-            <p>{t('howLongText')}</p>
+      <details className="bg-gray-50 border border-gray-200 rounded-xl mb-4 group">
+        <summary className="cursor-pointer list-none flex justify-between items-center p-4 sm:p-5 select-none">
+          <h2 className="text-lg font-semibold text-gray-900">{t('importantToKnow')}</h2>
+          <ChevronDownIcon className="h-5 w-5 text-gray-400 transform transition-transform group-open:rotate-180 flex-shrink-0" />
+        </summary>
+        <div className="px-4 sm:px-5 pb-4 sm:pb-5">
+          <div className="space-y-4 text-gray-700">
+            <div className="p-4 bg-white rounded-lg border border-gray-200">
+              <p className="font-semibold">{t('employerPeriod')}</p>
+              <p>{t('employerPeriodText')}</p>
+            </div>
+            <div className="p-4 bg-white rounded-lg border border-gray-200">
+              <p className="font-semibold">{t('navPeriod')}</p>
+              <p>{t('navPeriodText')}</p>
+            </div>
+            <div className="p-4 bg-white rounded-lg border border-gray-200">
+              <p className="font-semibold">{t('howMuch')}</p>
+              <p>{t('howMuchText')}</p>
+            </div>
+            <div className="p-4 bg-white rounded-lg border border-gray-200">
+              <p className="font-semibold">{t('howLong')}</p>
+              <p>{t('howLongText')}</p>
+            </div>
           </div>
         </div>
-      </div>
+      </details>
 
-      <StepGuide title={t('stepsTitle')} steps={steps} />
+      <div id="guide-steps" className="scroll-mt-4">
+        <StepGuide title={t('stepsTitle')} steps={steps} />
+      </div>
 
       {/* Gradert sykemelding */}
-      <div className="mt-8 bg-gray-50 border border-gray-200 rounded-xl p-6">
-        <h2 className="text-xl font-bold mb-4">{t('gradedTitle')}</h2>
-        <p className="text-gray-700 mb-4">
-          {t('gradedIntro')}
-        </p>
-        <ul className="space-y-2 text-gray-700">
-          <li>• <strong>{t('graded50')}</strong></li>
-          <li>• <strong>{t('graded80')}</strong></li>
-        </ul>
-        <p className="text-gray-700 mt-4">
-          {t('gradedBenefit')}
-        </p>
-      </div>
+      <details className="mt-8 bg-gray-50 border border-gray-200 rounded-xl group">
+        <summary className="cursor-pointer list-none flex justify-between items-center p-4 sm:p-5 select-none">
+          <h2 className="text-lg font-semibold text-gray-900">{t('gradedTitle')}</h2>
+          <ChevronDownIcon className="h-5 w-5 text-gray-400 transform transition-transform group-open:rotate-180 flex-shrink-0" />
+        </summary>
+        <div className="px-4 sm:px-5 pb-4 sm:pb-5">
+          <p className="text-gray-700 mb-4">
+            {t('gradedIntro')}
+          </p>
+          <ul className="space-y-2 text-gray-700 mb-4">
+            <li>• <strong>{t('graded50')}</strong></li>
+            <li>• <strong>{t('graded80')}</strong></li>
+          </ul>
+          <p className="text-gray-700">
+            {t('gradedBenefit')}
+          </p>
+        </div>
+      </details>
       </div>
     </>
   );

@@ -7,7 +7,7 @@ import ShareButton from '@/components/ShareButton';
 import StepGuide from '@/components/StepGuide';
 import { HowToSchema } from '@/components/StructuredData';
 import { useTranslations, useLocale } from 'next-intl';
-import { ClockIcon, CheckIcon, LockIcon } from '@/components/icons';
+import { ClockIcon, CheckIcon, LockIcon, ChevronDownIcon } from '@/components/icons';
 import React from 'react';
 
 // Types
@@ -55,6 +55,9 @@ export interface GuideLayoutProps {
 
   // Help section
   showHelpSection?: boolean;
+
+  // SEO - dates for E-E-A-T
+  dateModified?: string; // e.g. "2026-02-01"
 }
 
 export default function GuideLayout({
@@ -68,9 +71,11 @@ export default function GuideLayout({
   preSection,
   postSections,
   showHelpSection = false,
+  dateModified,
 }: GuideLayoutProps) {
   const t = useTranslations(translationNamespace);
   const tNav = useTranslations('header');
+  const tCommon = useTranslations('common');
   const locale = useLocale();
 
   // Helper for locale-aware paths (no prefix for Norwegian)
@@ -110,7 +115,7 @@ export default function GuideLayout({
         />
 
         {/* Header */}
-        <div className="mb-8">
+        <div className="mb-6">
           <div className="print:hidden flex items-center gap-2 text-gray-500 mb-2">
             <ClockIcon className="h-5 w-5" />
             <span>{t('time')}</span>
@@ -129,38 +134,69 @@ export default function GuideLayout({
               <FavoriteButton guideId={guideId} title={t('title')} />
             </div>
           </div>
-          <p className="text-xl text-gray-600">{t('longDescription')}</p>
+          <p className="text-lg text-gray-600 mt-2">{t('longDescription')}</p>
         </div>
 
-        {/* What Is Section */}
+        {/* Quick Start Button - Prominent CTA for elderly/newcomers */}
+        <div className="print:hidden mb-6">
+          <a
+            href="#guide-steps"
+            className="inline-flex items-center gap-3 bg-nav-blue text-white px-6 py-4 rounded-xl hover:bg-blue-700 transition-colors no-underline text-lg font-semibold shadow-md hover:shadow-lg"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            {tCommon('startGuideNow')}
+          </a>
+        </div>
+
+        {/* Collapsible: What Is Section */}
         {whatIsSection && (
-          <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
-            <h2 className="text-xl font-bold mb-4 text-gray-900">{t(whatIsSection.titleKey)}</h2>
-            {whatIsSection.textKeys.map((key, index) => (
-              <p key={index} className={`text-gray-700 ${index < whatIsSection.textKeys.length - 1 ? 'mb-4' : ''}`}>
-                {t(key)}
-              </p>
-            ))}
-          </div>
-        )}
-
-        {/* Pre Section (Before You Start) */}
-        {preSection && (
-          <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
-            <h2 className="text-xl font-bold mb-4 text-gray-900">{t(preSection.titleKey)}</h2>
-            <ul className="space-y-2">
-              {preSection.items.map((item, index) => (
-                <li key={index} className="flex items-center gap-3 text-gray-700">
-                  <CheckIcon className="h-5 w-5 text-green-600 flex-shrink-0" />
-                  <span>{item}</span>
-                </li>
+          <details className="bg-gray-50 border border-gray-200 rounded-xl mb-4 group">
+            <summary className="cursor-pointer list-none flex justify-between items-center p-4 sm:p-5 select-none">
+              <h2 className="text-lg font-semibold text-gray-900">{t(whatIsSection.titleKey)}</h2>
+              <ChevronDownIcon className="h-5 w-5 text-gray-400 transform transition-transform group-open:rotate-180 flex-shrink-0" />
+            </summary>
+            <div className="px-4 sm:px-5 pb-4 sm:pb-5">
+              {whatIsSection.textKeys.map((key, index) => (
+                <p key={index} className={`text-gray-700 ${index < whatIsSection.textKeys.length - 1 ? 'mb-3' : ''}`}>
+                  {t(key)}
+                </p>
               ))}
-            </ul>
-          </div>
+            </div>
+          </details>
         )}
 
-        {/* Step Guide */}
-        <StepGuide title={t('stepsTitle')} steps={steps} />
+        {/* Collapsible: Pre Section (Before You Start) */}
+        {preSection && (
+          <details className="bg-amber-50 border border-amber-200 rounded-xl mb-6 group">
+            <summary className="cursor-pointer list-none flex justify-between items-center p-4 sm:p-5 select-none">
+              <h2 className="text-lg font-semibold text-amber-900 flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-amber-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                </svg>
+                {t(preSection.titleKey)}
+              </h2>
+              <ChevronDownIcon className="h-5 w-5 text-amber-600 transform transition-transform group-open:rotate-180 flex-shrink-0" />
+            </summary>
+            <div className="px-4 sm:px-5 pb-4 sm:pb-5">
+              <ul className="space-y-2">
+                {preSection.items.map((item, index) => (
+                  <li key={index} className="flex items-center gap-3 text-amber-900">
+                    <CheckIcon className="h-5 w-5 text-amber-600 flex-shrink-0" />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </details>
+        )}
+
+        {/* Step Guide - with anchor for quick navigation */}
+        <div id="guide-steps" className="scroll-mt-4">
+          <StepGuide title={t('stepsTitle')} steps={steps} />
+        </div>
 
         {/* Post Sections */}
         {postSections?.map((section, sectionIndex) => (
@@ -186,6 +222,23 @@ export default function GuideLayout({
           <div className="mt-8 bg-gray-50 border border-gray-200 rounded-xl p-6">
             <h2 className="text-xl font-bold mb-4 text-gray-900">{t('helpTitle')}</h2>
             <p className="text-gray-700">{t('helpText')}</p>
+          </div>
+        )}
+
+        {/* Last Updated - E-E-A-T signal */}
+        {dateModified && (
+          <div className="mt-8 pt-4 border-t border-gray-200 flex items-center gap-2 text-sm text-gray-500">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span>
+              {locale === 'no' ? 'Sist oppdatert: ' : 'Last updated: '}
+              {new Date(dateModified).toLocaleDateString(locale === 'no' ? 'nb-NO' : 'en-GB', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+              })}
+            </span>
           </div>
         )}
       </div>

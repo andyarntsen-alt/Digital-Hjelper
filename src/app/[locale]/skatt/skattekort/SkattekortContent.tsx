@@ -7,11 +7,13 @@ import ShareButton from '@/components/ShareButton';
 import StepGuide from '@/components/StepGuide';
 import GuideTracker from '@/components/GuideTracker';
 import { HowToSchema } from '@/components/StructuredData';
+import { ChevronDownIcon } from '@/components/icons';
 import { useTranslations, useLocale } from 'next-intl';
 
 export default function SkattekortPage() {
   const t = useTranslations('guides.skatt.skattekort');
   const tNav = useTranslations('header');
+  const tCommon = useTranslations('common');
   const locale = useLocale();
 
   // Build steps array from translations
@@ -73,38 +75,64 @@ export default function SkattekortPage() {
           </p>
         </div>
 
-        {/* What is a tax card */}
-        <div className="card bg-green-50 mb-8">
-          <h2 className="text-xl font-bold mb-4">{t('whatIsTitle')}</h2>
-          <p className="text-gray-700 mb-4">
-            {t('whatIsText')}
-          </p>
-          <div className="grid md:grid-cols-2 gap-4">
-            {cardTypes.map((item, index) => (
-              <div key={index} className="bg-white p-4 rounded-lg">
-                <p className="font-semibold text-skatt-green">{item.type}</p>
-                <p className="text-gray-600 text-sm">{item.desc}</p>
-              </div>
-            ))}
-          </div>
+        {/* Quick Start Button */}
+        <div className="print:hidden mb-6">
+          <a
+            href="#guide-steps"
+            className="inline-flex items-center gap-3 bg-skatt-green text-white px-6 py-4 rounded-xl hover:bg-green-700 transition-colors no-underline text-lg font-semibold shadow-md hover:shadow-lg"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            {tCommon('startGuideNow')}
+          </a>
         </div>
+
+        {/* What is a tax card */}
+        <details className="card bg-green-50 mb-8 group">
+          <summary className="cursor-pointer list-none flex justify-between items-center p-4 sm:p-5 select-none">
+            <h2 className="text-lg font-semibold text-gray-900">{t('whatIsTitle')}</h2>
+            <ChevronDownIcon className="h-5 w-5 text-gray-400 transform transition-transform group-open:rotate-180 flex-shrink-0" />
+          </summary>
+          <div className="px-4 sm:px-5 pb-4 sm:pb-5">
+            <p className="text-gray-700 mb-4">
+              {t('whatIsText')}
+            </p>
+            <div className="grid md:grid-cols-2 gap-4">
+              {cardTypes.map((item, index) => (
+                <div key={index} className="bg-white p-4 rounded-lg">
+                  <p className="font-semibold text-skatt-green">{item.type}</p>
+                  <p className="text-gray-600 text-sm">{item.desc}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </details>
 
         {/* When to change */}
-        <div className="card mb-8">
-          <h2 className="text-xl font-bold mb-4">{t('whenToChangeTitle')}</h2>
-          <div className="space-y-3">
-            {whenToChangeList.map((item, index) => (
-              <div key={index} className="flex items-start gap-3 p-3 bg-yellow-50 rounded-lg">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-yellow-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
-                </svg>
-                <span>{item}</span>
-              </div>
-            ))}
+        <details className="card mb-8 group">
+          <summary className="cursor-pointer list-none flex justify-between items-center p-4 sm:p-5 select-none">
+            <h2 className="text-lg font-semibold text-gray-900">{t('whenToChangeTitle')}</h2>
+            <ChevronDownIcon className="h-5 w-5 text-gray-400 transform transition-transform group-open:rotate-180 flex-shrink-0" />
+          </summary>
+          <div className="px-4 sm:px-5 pb-4 sm:pb-5">
+            <div className="space-y-3">
+              {whenToChangeList.map((item, index) => (
+                <div key={index} className="flex items-start gap-3 p-3 bg-yellow-50 rounded-lg">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-yellow-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                  </svg>
+                  <span>{item}</span>
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
+        </details>
 
-        <StepGuide title={t('stepsTitle')} steps={steps} />
+        <div id="guide-steps" className="scroll-mt-4">
+          <StepGuide title={t('stepsTitle')} steps={steps} />
+        </div>
 
         {/* Too much/little tax */}
         <div className="mt-8 grid md:grid-cols-2 gap-6">

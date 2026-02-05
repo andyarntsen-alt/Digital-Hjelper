@@ -6,11 +6,13 @@ import PrintButton from '@/components/PrintButton';
 import ShareButton from '@/components/ShareButton';
 import StepGuide from '@/components/StepGuide';
 import { HowToSchema } from '@/components/StructuredData';
+import { ChevronDownIcon } from '@/components/icons';
 import { useTranslations, useLocale } from 'next-intl';
 
 export default function FradragPage() {
   const t = useTranslations('guides.skatt.fradrag');
   const tNav = useTranslations('header');
+  const tCommon = useTranslations('common');
   const locale = useLocale();
 
   // Build steps array from translations
@@ -72,21 +74,42 @@ export default function FradragPage() {
         </p>
       </div>
 
-      {/* Hva er fradrag */}
-      <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
-        <h2 className="text-xl font-bold mb-4">{t('whatIsTitle')}</h2>
-        <p className="text-gray-700 mb-4">
-          {t('whatIsText')}
-        </p>
-        <div className="bg-white p-4 rounded-lg">
-          <p className="font-semibold mb-2">{t('exampleTitle')}</p>
-          <p className="text-gray-700">
-            {t('exampleText')}
-          </p>
-        </div>
+      {/* Quick Start Button */}
+      <div className="print:hidden mb-6">
+        <a
+          href="#guide-steps"
+          className="inline-flex items-center gap-3 bg-skatt-green text-white px-6 py-4 rounded-xl hover:bg-green-700 transition-colors no-underline text-lg font-semibold shadow-md hover:shadow-lg"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          {tCommon('startGuideNow')}
+        </a>
       </div>
 
-      <StepGuide title={t('stepsTitle')} steps={steps} />
+      {/* Hva er fradrag */}
+      <details className="bg-gray-50 border border-gray-200 rounded-xl mb-8 group">
+        <summary className="cursor-pointer list-none flex justify-between items-center p-6 select-none">
+          <h2 className="text-lg font-semibold text-gray-900">{t('whatIsTitle')}</h2>
+          <ChevronDownIcon className="h-5 w-5 text-gray-400 transform transition-transform group-open:rotate-180 flex-shrink-0" />
+        </summary>
+        <div className="px-6 pb-6">
+          <p className="text-gray-700 mb-4">
+            {t('whatIsText')}
+          </p>
+          <div className="bg-white p-4 rounded-lg">
+            <p className="font-semibold mb-2">{t('exampleTitle')}</p>
+            <p className="text-gray-700">
+              {t('exampleText')}
+            </p>
+          </div>
+        </div>
+      </details>
+
+      <div id="guide-steps" className="scroll-mt-4">
+        <StepGuide title={t('stepsTitle')} steps={steps} />
+      </div>
 
       {/* Alle fradrag */}
       <div className="mt-12">

@@ -8,6 +8,7 @@ import StepGuide from '@/components/StepGuide';
 import GuideTracker from '@/components/GuideTracker';
 import { HowToSchema } from '@/components/StructuredData';
 import { useTranslations, useLocale } from 'next-intl';
+import { ChevronDownIcon } from '@/components/icons';
 import { useState } from 'react';
 
 interface ChecklistItem {
@@ -45,6 +46,7 @@ interface Contact {
 export default function SvindelPage() {
   const t = useTranslations('guides.sikkerhet.svindel');
   const tNav = useTranslations('header');
+  const tCommon = useTranslations('common');
   const locale = useLocale();
 
   // Get arrays from translations
@@ -154,6 +156,20 @@ export default function SvindelPage() {
           <p className="text-base sm:text-lg md:text-xl text-gray-600 mt-3 sm:mt-4">
             {t('longDescription')}
           </p>
+        </div>
+
+        {/* Quick Start Button */}
+        <div className="print:hidden mb-6">
+          <a
+            href="#guide-steps"
+            className="inline-flex items-center gap-3 bg-nav-blue text-white px-6 py-4 rounded-xl hover:bg-blue-700 transition-colors no-underline text-lg font-semibold shadow-md hover:shadow-lg"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            {tCommon('startGuideNow')}
+          </a>
         </div>
 
         {/* Checklist */}
@@ -289,7 +305,9 @@ export default function SvindelPage() {
           </div>
         </div>
 
-        <StepGuide title={t('stepsTitle')} steps={steps} />
+        <div id="guide-steps" className="scroll-mt-4">
+          <StepGuide title={t('stepsTitle')} steps={steps} />
+        </div>
 
         {/* Never ask */}
         <div className="mt-8 bg-gray-50 border border-gray-200 rounded-xl p-6">

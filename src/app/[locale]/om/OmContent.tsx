@@ -163,6 +163,21 @@ export default function OmContent() {
             </ul>
           </div>
 
+          {/* E-E-A-T: Kontaktinformasjon */}
+          <div className="bg-nav-blue/5 border border-nav-blue/20 rounded-xl p-6 mb-8">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">{t('contactUs')}</h2>
+            <p className="text-gray-700 leading-relaxed mb-4">{t('contactText')}</p>
+            <a
+              href="mailto:kontakt@lettdigital.no"
+              className="inline-flex items-center gap-2 bg-nav-blue text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors no-underline"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+              kontakt@lettdigital.no
+            </a>
+          </div>
+
           {/* E-E-A-T: Kilder og troverdighet */}
           <div className="bg-white border border-gray-200 rounded-xl p-6 mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">{t('ourSources')}</h2>
