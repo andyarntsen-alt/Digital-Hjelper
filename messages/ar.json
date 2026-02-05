@@ -237,7 +237,14 @@
     "seeAllServices": "عرض جميع الخدمات",
     "citiesTitle": "ابحث عن الخدمات في مدينتك",
     "citiesDesc": "مكاتب NAV المحلية والعيادات والخدمات العامة",
-    "citiesViewAll": "عرض جميع المدن"
+    "citiesViewAll": "عرض جميع المدن",
+    "forOrganizationsButton": "للمتطوعين والمنظمات",
+    "usefulResourcesTitle": "موارد مفيدة",
+    "dictionaryDesc": "شرح المصطلحات الصعبة",
+    "faqTitle": "الأسئلة الشائعة",
+    "faqDesc": "إجابات على الأسئلة الشائعة",
+    "favoritesTitle": "المفضلة",
+    "favoritesDesc": "الأدلة المحفوظة"
   },
   "services": {
     "nav": {

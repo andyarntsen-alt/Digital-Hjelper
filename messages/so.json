@@ -237,7 +237,14 @@
     "helperTip3Desc": "Calaamadee hagayaasha kuwa aad jeceshahay si aad mar kale u hesho. Waa ku habboon hagayaasha aad badanaa isticmaasho.",
     "citiesTitle": "Ka hel adeegyada magaaladaada",
     "citiesDesc": "Xafiisyada NAV ee maxalliga ah, dhakhtarrada degdega iyo adeegyada dadweynaha",
-    "citiesViewAll": "Arag dhammaan magaalooyinka"
+    "citiesViewAll": "Arag dhammaan magaalooyinka",
+    "forOrganizationsButton": "Mutadawiciinta iyo ururada",
+    "usefulResourcesTitle": "Ilo waxtar leh",
+    "dictionaryDesc": "Sharaxaadda ereyada adag",
+    "faqTitle": "Su'aalaha badanaa la isweydiiyo",
+    "faqDesc": "Jawaabaha su'aalaha caadiga ah",
+    "favoritesTitle": "Kuwa aan jeclaahay",
+    "favoritesDesc": "Hagayaashaada la keydiyay"
   },
   "services": {
     "nav": {

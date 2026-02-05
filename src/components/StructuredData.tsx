@@ -8,7 +8,8 @@ export function OrganizationSchema({ locale }: OrganizationSchemaProps) {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'LettDigital',
+    name: 'Lett Digital',
+    alternateName: ['LettDigital', 'lettdigital.no'],
     url: 'https://www.lettdigital.no',
     logo: 'https://www.lettdigital.no/icons/icon-512x512.png',
     description: locale === 'no'
@@ -38,8 +39,8 @@ export function WebSiteSchema({ locale }: WebSiteSchemaProps) {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'LettDigital',
-    alternateName: 'Lett Digital',
+    name: 'Lett Digital',
+    alternateName: ['LettDigital', 'lettdigital.no'],
     url: 'https://www.lettdigital.no',
     potentialAction: {
       '@type': 'SearchAction',
@@ -182,12 +183,12 @@ export function ArticleSchema({
       jobTitle: author.jobTitle
     } : {
       '@type': 'Organization',
-      name: 'LettDigital',
+      name: 'Lett Digital',
       url: 'https://www.lettdigital.no'
     },
     publisher: {
       '@type': 'Organization',
-      name: 'LettDigital',
+      name: 'Lett Digital',
       url: 'https://www.lettdigital.no',
       logo: {
         '@type': 'ImageObject',
@@ -227,7 +228,7 @@ export function PersonSchema({ name, jobTitle, description, url, sameAs }: Perso
     url: `https://www.lettdigital.no${url}`,
     worksFor: {
       '@type': 'Organization',
-      name: 'LettDigital',
+      name: 'Lett Digital',
       url: 'https://www.lettdigital.no'
     },
     sameAs: sameAs || []

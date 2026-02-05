@@ -237,7 +237,14 @@
     "seeAllServices": "Zobacz wszystkie usługi",
     "citiesTitle": "Znajdź usługi w swoim mieście",
     "citiesDesc": "Lokalne biura NAV, przychodnie i usługi publiczne",
-    "citiesViewAll": "Zobacz wszystkie miasta"
+    "citiesViewAll": "Zobacz wszystkie miasta",
+    "forOrganizationsButton": "Dla wolontariuszy i organizacji",
+    "usefulResourcesTitle": "Przydatne zasoby",
+    "dictionaryDesc": "Wyjaśnienie trudnych terminów",
+    "faqTitle": "Często zadawane pytania",
+    "faqDesc": "Odpowiedzi na częste pytania",
+    "favoritesTitle": "Moje ulubione",
+    "favoritesDesc": "Twoje zapisane przewodniki"
   },
   "services": {
     "nav": {

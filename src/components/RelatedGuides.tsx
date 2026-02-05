@@ -16,6 +16,12 @@ export default function RelatedGuides({ currentPath, category }: RelatedGuidesPr
 
   const guides = getGuidesByCategory(category);
 
+  // Helper for locale-aware paths (no prefix for Norwegian)
+  const getLocalizedHref = (href: string) => {
+    const cleanHref = href.replace(/^\/no/, '');
+    return locale === 'no' ? cleanHref : `/${locale}${cleanHref}`;
+  };
+
   // Filtrer ut gjeldende side og vis maks 4 relaterte guider
   const relatedGuides = guides
     .filter(guide => !currentPath.endsWith(guide.href))
@@ -32,7 +38,7 @@ export default function RelatedGuides({ currentPath, category }: RelatedGuidesPr
         {relatedGuides.map((guide) => (
           <Link
             key={guide.href}
-            href={`/${locale}${guide.href}`}
+            href={getLocalizedHref(guide.href)}
             className="group bg-white border-2 border-gray-200 rounded-lg p-3 sm:p-4 hover:border-nav-blue active:border-nav-blue transition-all duration-200 no-underline"
           >
             <div className="flex items-center justify-between gap-2">

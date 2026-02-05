@@ -9,6 +9,10 @@ export default function ByerContent() {
   const t = useTranslations('services.byer');
   const tCommon = useTranslations('common');
 
+  // Helper for locale-aware paths (no prefix for Norwegian)
+  const getLocalizedPath = (path: string) =>
+    locale === 'no' ? path : `/${locale}${path}`;
+
   const byer = [
     { navn: "Oslo", slug: "oslo", innbyggere: "700 000+", beskrivelse: t('osloDesc'), navKontorer: 15 },
     { navn: "Bergen", slug: "bergen", innbyggere: "285 000+", beskrivelse: t('bergenDesc'), navKontorer: 4 },
@@ -20,13 +24,13 @@ export default function ByerContent() {
   return (
     <>
       <BreadcrumbSchema items={[
-        { name: tCommon('home'), url: `/${locale}` },
-        { name: t('hubTitle'), url: `/${locale}/byer` }
+        { name: tCommon('home'), url: getLocalizedPath('/') },
+        { name: t('hubTitle'), url: getLocalizedPath('/byer') }
       ]} />
       <ArticleSchema
         title={t('metaTitle')}
         description={t('metaDescription')}
-        url={`/${locale}/byer`}
+        url={getLocalizedPath('/byer')}
         datePublished="2024-01-01"
         dateModified="2026-01-30"
         locale={locale}

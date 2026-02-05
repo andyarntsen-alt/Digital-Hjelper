@@ -64,6 +64,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/utdanning/studielan',
     '/utdanning/stipend',
     '/utdanning/tilbakebetaling',
+    '/utdanning/betalingsutsettelse',
     // ID
     '/id',
     '/id/pass',
@@ -82,7 +83,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/om',
     '/personvern',
     '/favoritter',
-    '/hjelpere',
+    '/for-organisasjoner',
   ];
 
   // Generer URL-er for alle språk

@@ -14,6 +14,12 @@ const nextConfig = {
         destination: '/',
         permanent: true,
       },
+      // Redirect /no/* to /* (fixes duplicate content issue)
+      {
+        source: '/no/:path*',
+        destination: '/:path*',
+        permanent: true,
+      },
     ];
   },
 

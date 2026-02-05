@@ -73,6 +73,10 @@ export default function GuideLayout({
   const tNav = useTranslations('header');
   const locale = useLocale();
 
+  // Helper for locale-aware paths (no prefix for Norwegian)
+  const getLocalizedPath = (path: string) =>
+    locale === 'no' ? path : `/${locale}${path}`;
+
   const howToSteps = steps.map(step => ({
     name: step.title,
     text: step.description,
@@ -93,7 +97,7 @@ export default function GuideLayout({
         {/* Print-only header med URL */}
         <div className="hidden print:block mb-4 pb-4 border-b border-gray-300 text-center">
           <p className="text-sm text-gray-600">
-            Skrevet ut fra lettdigital.no/{locale}{parentHref}
+            Skrevet ut fra lettdigital.no{getLocalizedPath(parentHref)}
           </p>
         </div>
 

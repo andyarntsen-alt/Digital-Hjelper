@@ -13,7 +13,7 @@ type Props = {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'home' });
-  const title = 'LettDigital - Digital inkludering for alle';
+  const title = 'Lett Digital - Digital inkludering for alle';
   const description = t('whatIsText');
 
   return {
@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title,
       description,
       url: `https://www.lettdigital.no/${locale}`,
-      siteName: 'LettDigital',
+      siteName: 'Lett Digital',
       type: 'website',
     },
     twitter: {
@@ -360,6 +360,50 @@ export default async function Home({
               <h3 className="font-bold text-gray-900 text-lg mb-3">{t('helperTip3Title')}</h3>
               <p className="text-gray-600 leading-relaxed">{t('helperTip3Desc')}</p>
             </div>
+          </div>
+
+          <div className="text-center mt-12">
+            <Link
+              href="/for-organisasjoner"
+              className="inline-flex items-center gap-2 bg-nav-blue text-white px-8 py-4 rounded-xl font-semibold hover:bg-blue-700 transition-colors no-underline"
+            >
+              {t('forOrganizationsButton')}
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Nyttige ressurser */}
+      <section className="py-16 sm:py-20 bg-white">
+        <div className="max-w-3xl mx-auto px-4 text-center">
+          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-10">
+            {t('usefulResourcesTitle')}
+          </h2>
+          <div className="grid grid-cols-3 gap-8 max-w-2xl mx-auto text-gray-500">
+            <Link href="/ordbok" className="flex flex-col items-center text-center no-underline hover:text-nav-blue transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+              </svg>
+              <span className="font-medium mb-1">{t('dictionary')}</span>
+              <span className="text-sm text-gray-400">{t('dictionaryDesc')}</span>
+            </Link>
+            <Link href="/faq" className="flex flex-col items-center text-center no-underline hover:text-nav-blue transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <span className="font-medium mb-1">{t('faqTitle')}</span>
+              <span className="text-sm text-gray-400">{t('faqDesc')}</span>
+            </Link>
+            <Link href="/favoritter" className="flex flex-col items-center text-center no-underline hover:text-nav-blue transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+              </svg>
+              <span className="font-medium mb-1">{t('favoritesTitle')}</span>
+              <span className="text-sm text-gray-400">{t('favoritesDesc')}</span>
+            </Link>
           </div>
         </div>
       </section>

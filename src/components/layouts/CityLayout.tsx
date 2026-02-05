@@ -72,6 +72,10 @@ export default function CityLayout({
   const cityName = t(`${citySlug}.name`);
   const otherCities = getOtherCities(citySlug);
 
+  // Helper for locale-aware paths (no prefix for Norwegian)
+  const getLocalizedPath = (path: string) =>
+    locale === 'no' ? path : `/${locale}${path}`;
+
   // Helper to get icon for useful links
   const getLinkIcon = (iconType: string) => {
     switch (iconType) {
@@ -105,15 +109,15 @@ export default function CityLayout({
       <FAQSchema questions={faqs} />
       <BreadcrumbSchema
         items={[
-          { name: tCommon('home'), url: `/${locale}` },
-          { name: t('title'), url: `/${locale}/byer` },
-          { name: cityName, url: `/${locale}/byer/${citySlug}` },
+          { name: tCommon('home'), url: getLocalizedPath('/') },
+          { name: t('title'), url: getLocalizedPath('/byer') },
+          { name: cityName, url: getLocalizedPath(`/byer/${citySlug}`) },
         ]}
       />
       <ArticleSchema
         title={t('publicServicesIn', { city: cityName })}
         description={t(`${citySlug}.intro`)}
-        url={`/${locale}/byer/${citySlug}`}
+        url={getLocalizedPath(`/byer/${citySlug}`)}
         datePublished={datePublished}
         dateModified={dateModified}
         locale={locale}

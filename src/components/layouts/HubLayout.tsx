@@ -78,20 +78,24 @@ export default function HubLayout({
   const tCommon = useTranslations('common');
   const locale = useLocale();
 
+  // Helper for locale-aware paths (no prefix for Norwegian)
+  const getLocalizedPath = (path: string) =>
+    locale === 'no' ? path : `/${locale}${path}`;
+
   return (
     <>
       {/* Structured Data */}
       {faqs && faqs.length > 0 && <FAQSchema questions={faqs} />}
       <BreadcrumbSchema
         items={[
-          { name: tCommon('home'), url: `/${locale}` },
-          { name: t('hubTitle'), url: `/${locale}/${hubKey}` },
+          { name: tCommon('home'), url: getLocalizedPath('/') },
+          { name: t('hubTitle'), url: getLocalizedPath(`/${hubKey}`) },
         ]}
       />
       <ArticleSchema
         title={t('metaTitle')}
         description={t('metaDescription')}
-        url={`/${locale}/${hubKey}`}
+        url={getLocalizedPath(`/${hubKey}`)}
         datePublished={datePublished}
         dateModified={dateModified}
         locale={locale}

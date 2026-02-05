@@ -256,7 +256,14 @@
     "helperTip3Desc": "Mark guides as favorites to find them again. Perfect for guides you use often.",
     "citiesTitle": "Find services in your city",
     "citiesDesc": "Local NAV offices, emergency rooms and public services",
-    "citiesViewAll": "View all cities"
+    "citiesViewAll": "View all cities",
+    "forOrganizationsButton": "For volunteers and organizations",
+    "usefulResourcesTitle": "Useful resources",
+    "dictionaryDesc": "Explanation of difficult terms",
+    "faqTitle": "Frequently asked questions",
+    "faqDesc": "Answers to common questions",
+    "favoritesTitle": "My favorites",
+    "favoritesDesc": "Your saved guides"
   },
   "cities": {
     "title": "Public services in your city",

@@ -256,7 +256,14 @@
     "helperTip3Desc": "Marker guider som favoritter så du finner dem igjen. Perfekt for guider du bruker ofte.",
     "citiesTitle": "Finn tjenester i din by",
     "citiesDesc": "Lokale NAV-kontorer, legevakter og offentlige tjenester",
-    "citiesViewAll": "Se alle byer"
+    "citiesViewAll": "Se alle byer",
+    "forOrganizationsButton": "For frivillige og organisasjoner",
+    "usefulResourcesTitle": "Nyttige ressurser",
+    "dictionaryDesc": "Forklaring av vanskelige ord",
+    "faqTitle": "Vanlige spørsmål",
+    "faqDesc": "Svar på ofte stilte spørsmål",
+    "favoritesTitle": "Mine favoritter",
+    "favoritesDesc": "Dine lagrede guider"
   },
   "cities": {
     "title": "Offentlige tjenester i din by",
