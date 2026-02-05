@@ -8,10 +8,12 @@ import StepGuide from '@/components/StepGuide';
 import { HowToSchema } from '@/components/StructuredData';
 import { useTranslations } from 'next-intl';
 import { useLocale } from 'next-intl';
+import { ChevronDownIcon } from '@/components/icons';
 
 export default function VideosamtalePage() {
   const t = useTranslations('guides.grunnleggende.videosamtale');
   const tNav = useTranslations('header');
+  const tCommon = useTranslations('common');
   const locale = useLocale();
 
   const stepsRaw = t.raw('steps') as { title: string; description: string; tip?: string; warning?: string }[];
@@ -66,38 +68,65 @@ export default function VideosamtalePage() {
             <FavoriteButton guideId="grunnleggende-videosamtale" title={t('title')} />
           </div>
         </div>
-        <p className="text-base sm:text-lg md:text-xl text-gray-600 mt-3 sm:mt-4">{t('longDescription')}</p>
+        <p className="text-lg text-gray-600 mt-2">{t('longDescription')}</p>
       </div>
 
-      {/* Hvorfor */}
-      <div className="card bg-green-50 mb-8">
-        <h2 className="text-xl font-bold mb-4">{t('whyUseTitle')}</h2>
-        <ul className="space-y-2 text-gray-700">
-          {whyUseList.map((item, index) => (
-            <li key={index} className="flex items-start gap-3">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-              </svg>
-              <span>{item}</span>
-            </li>
-          ))}
-        </ul>
+      {/* Quick Start Button */}
+      <div className="print:hidden mb-6">
+        <a
+          href="#guide-steps"
+          className="inline-flex items-center gap-3 bg-grunnleggende-purple text-white px-6 py-4 rounded-xl hover:bg-purple-700 transition-colors no-underline text-lg font-semibold shadow-md hover:shadow-lg"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          {tCommon('startGuideNow')}
+        </a>
       </div>
 
-      {/* Apper */}
-      <div className="card mb-8">
-        <h2 className="text-xl font-bold mb-4">{t('appsTitle')}</h2>
-        <div className="grid md:grid-cols-2 gap-4">
-          {apps.map((app, index) => (
-            <div key={index} className="p-4 bg-gray-50 rounded-lg">
-              <p className="font-semibold text-grunnleggende-purple">{app.name}</p>
-              <p className="text-gray-600 text-sm">{app.desc}</p>
-            </div>
-          ))}
+      {/* Collapsible: Hvorfor */}
+      <details className="bg-green-50 border border-green-200 rounded-xl mb-4 group">
+        <summary className="cursor-pointer list-none flex justify-between items-center p-4 sm:p-5 select-none">
+          <h2 className="text-lg font-semibold text-green-900">{t('whyUseTitle')}</h2>
+          <ChevronDownIcon className="h-5 w-5 text-green-600 transform transition-transform group-open:rotate-180 flex-shrink-0" />
+        </summary>
+        <div className="px-4 sm:px-5 pb-4 sm:pb-5">
+          <ul className="space-y-2 text-gray-700">
+            {whyUseList.map((item, index) => (
+              <li key={index} className="flex items-start gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
         </div>
-      </div>
+      </details>
 
-      <StepGuide title={t('stepsTitle')} steps={steps} />
+      {/* Collapsible: Apper */}
+      <details className="bg-gray-50 border border-gray-200 rounded-xl mb-6 group">
+        <summary className="cursor-pointer list-none flex justify-between items-center p-4 sm:p-5 select-none">
+          <h2 className="text-lg font-semibold text-gray-900">{t('appsTitle')}</h2>
+          <ChevronDownIcon className="h-5 w-5 text-gray-400 transform transition-transform group-open:rotate-180 flex-shrink-0" />
+        </summary>
+        <div className="px-4 sm:px-5 pb-4 sm:pb-5">
+          <div className="grid md:grid-cols-2 gap-4">
+            {apps.map((app, index) => (
+              <div key={index} className="p-4 bg-white rounded-lg border border-gray-100">
+                <p className="font-semibold text-grunnleggende-purple">{app.name}</p>
+                <p className="text-gray-600 text-sm">{app.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </details>
+
+      {/* Step Guide */}
+      <div id="guide-steps" className="scroll-mt-4">
+        <StepGuide title={t('stepsTitle')} steps={steps} />
+      </div>
 
       {/* Feilsøking */}
       <div className="mt-8 card">
