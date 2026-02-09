@@ -29,6 +29,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     alternates: {
       canonical: locale === 'no' ? 'https://www.lettdigital.no/for-organisasjoner' : `https://www.lettdigital.no/${locale}/for-organisasjoner`,
+      languages: {
+        'nb': 'https://www.lettdigital.no/for-organisasjoner',
+        'en': 'https://www.lettdigital.no/en/for-organisasjoner',
+        'uk': 'https://www.lettdigital.no/uk/for-organisasjoner',
+      },
     },
   };
 }

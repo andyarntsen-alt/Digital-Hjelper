@@ -13,32 +13,6 @@ const grunnleggendeGuides: GuideCardData[] = [
   { key: 'faHjelp', href: '/grunnleggende/fa-hjelp', difficulty: 'easy', time: 5 },
 ];
 
-// Help cards section
-function HelpCardsSection() {
-  const t = useTranslations('services.grunnleggende');
-
-  const helpItems = [
-    { title: t('seniornett'), desc: t('seniornettDesc') },
-    { title: t('library'), desc: t('libraryDesc') },
-    { title: t('dataHjelpen'), desc: t('dataHjelpenDesc') },
-  ];
-
-  return (
-    <>
-      <h2 className="text-lg font-bold text-gray-900 mb-3">{t('needMoreHelp')}</h2>
-      <p className="text-gray-600 mb-4">{t('needMoreHelpText')}</p>
-      <div className="grid sm:grid-cols-3 gap-3">
-        {helpItems.map((item, index) => (
-          <div key={index} className="p-4 bg-white border border-gray-200 rounded-lg">
-            <p className="font-medium text-gray-900">{item.title}</p>
-            <p className="text-gray-600 text-sm">{item.desc}</p>
-          </div>
-        ))}
-      </div>
-    </>
-  );
-}
-
 export default function GrunnleggendeContent() {
   const t = useTranslations('services.grunnleggende');
 

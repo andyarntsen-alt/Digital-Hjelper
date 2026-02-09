@@ -23,6 +23,7 @@ export default function SkattLoggInnContent() {
       translationNamespace="guides.skatt.loggInn"
       parentHref="/skatt"
       parentLabelKey="skatt"
+      categoryColor="bg-skatt-green hover:bg-green-700"
       totalTime="PT10M"
       steps={steps}
       whatIsSection={{

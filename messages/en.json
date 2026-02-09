@@ -30,6 +30,7 @@
     "save": "Save",
     "saved": "Saved",
     "favorite": "Favorite",
+    "lastUpdated": "Last updated:",
     "lastUpdatedJan2026": "Last updated: February 2026",
     "comingSoon": "Coming soon",
     "comingSoonDescription": "We are working on creating this guide.",
@@ -119,7 +120,8 @@
     "stopReading": "Stop reading"
   },
   "relatedGuides": {
-    "title": "Other guides you might need"
+    "title": "Other guides you might need",
+    "relatedServices": "Related from other services"
   },
   "recentlyVisited": {
     "title": "Continue where you left off"
@@ -141,7 +143,7 @@
   },
   "hero": {
     "headline": "Digital services made simple.",
-    "subheadline": "NAV, tax, health, banking and more – we help you with all things digital. Step by step.",
+    "subheadline": "NAV, tax, health, banking and more. We help you with all things digital. Step by step.",
     "badges": {
       "guidesCount": "50+ guides",
       "languagesCount": "6 languages",
@@ -149,7 +151,7 @@
     }
   },
   "organizations": {
-    "metaTitle": "For Organizations – LettDigital",
+    "metaTitle": "For Organizations | LettDigital",
     "metaDescription": "Help your citizens with digital services. LettDigital offers free, accessible guides for NAV, tax, health and more.",
     "heroTitle": "For Organizations",
     "heroSubtitle": "Help your citizens with digital public services. LettDigital offers free, accessible guides that can be used by libraries, NAV offices, municipalities and volunteer organizations.",
@@ -199,6 +201,14 @@
         "quote": "What a job you're doing, thank you from those who need it!"
       }
     ]
+  },
+  "errors": {
+    "notFound": "Page not found",
+    "notFoundText": "Sorry, we can't find the page you're looking for.",
+    "backToHome": "Go to homepage",
+    "somethingWentWrong": "Something went wrong",
+    "errorText": "Sorry, an error occurred. Please try again or go back to the homepage.",
+    "tryAgain": "Try again"
   },
   "home": {
     "heroTitle": "Do you need help with",
@@ -518,7 +528,7 @@
       "canDoVaccines": "View vaccinations",
       "canDoVaccinesDesc": "Overview of all vaccines you have received",
       "introStrong": "Helsenorge",
-      "introText": "is your gateway to health information and digital health services in Norway. Here you can book appointments, view prescriptions, change your GP and read your medical records – all in one place.",
+      "introText": "is your gateway to health information and digital health services in Norway. Here you can book appointments, view prescriptions, change your GP and read your medical records. All in one place.",
       "faqTitle": "Frequently Asked Questions about Helsenorge",
       "faq": {
         "q1": "How do I log in to Helsenorge?",
@@ -3582,6 +3592,7 @@
             "description": "Forward your mail to another address while traveling"
           }
         ],
+        "stepsTitle": "How to track a package",
         "trackingTitle": "How to track a package",
         "trackingSteps": [
           {
@@ -4440,8 +4451,8 @@
           "Feel free to use a sentence you remember: \"MyCatIsNamedFluffy2!\"",
           "Use different passwords on important services (bank, NAV, email)"
         ],
-        "forgotPasswordTitle": "Forgot password?",
-        "forgotPasswordSteps": [
+        "stepsTitle": "Forgot password?",
+        "steps": [
           {
             "title": "Find the \"Forgot password\" link",
             "description": "On the login page you often find a link that says \"Forgot password?\", \"Reset password\" or \"Need help?\". Click on it.",
@@ -5517,6 +5528,7 @@
   },
   "privacy": {
     "title": "Privacy Policy",
+    "description": "Learn how LettDigital handles your data, cookies, and privacy. We collect minimal data.",
     "backToHome": "Back to homepage",
     "lastUpdated": "Last updated: February 2026",
     "whoAreWe": {

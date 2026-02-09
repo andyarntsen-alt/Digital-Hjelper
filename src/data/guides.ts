@@ -79,6 +79,7 @@ export const ALL_GUIDES: GuideData[] = [
   { titleKey: 'skatt.fradrag.title', descriptionKey: 'skatt.fradrag.description', href: '/skatt/fradrag', category: 'skatt', keywords: ['spare', 'renter', 'boliglån', 'reise', 'jobb', 'deduction'] },
   { titleKey: 'skatt.skattekort.title', descriptionKey: 'skatt.skattekort.description', href: '/skatt/skattekort', category: 'skatt', keywords: ['trekk', 'lønn', 'prosent', 'tabell', 'card'] },
   { titleKey: 'skatt.skatteoppgjoer.title', descriptionKey: 'skatt.skatteoppgjoer.description', href: '/skatt/skatteoppgjoer', category: 'skatt', keywords: ['tilbake', 'restskatt', 'penger', 'settlement'] },
+  { titleKey: 'skatt.skatteattest.title', descriptionKey: 'skatt.skatteattest.description', href: '/skatt/skatteattest', category: 'skatt', keywords: ['skatteattest', 'attest', 'anbud', 'firma', 'bedrift', 'tax certificate'] },
 
   // Helsenorge
   { titleKey: 'helse.loggInn.title', descriptionKey: 'helse.loggInn.description', href: '/helse/logg-inn', category: 'helse', keywords: ['helse', 'innlogging', 'helsenorge', 'login', 'bankid'] },
@@ -105,6 +106,7 @@ export const ALL_GUIDES: GuideData[] = [
   { titleKey: 'digital.digipost.title', descriptionKey: 'digital.digipost.description', href: '/digital/digipost', category: 'digital', keywords: ['digipost', 'digital', 'post', 'brev', 'postkasse', 'eboks'] },
   { titleKey: 'digital.altinn.title', descriptionKey: 'digital.altinn.description', href: '/digital/altinn', category: 'digital', keywords: ['altinn', 'skjema', 'offentlig', 'public', 'form', 'søknad'] },
   { titleKey: 'digital.minside.title', descriptionKey: 'digital.minside.description', href: '/digital/minside', category: 'digital', keywords: ['minside', 'profil', 'offentlig', 'portal', 'profile', 'kommune'] },
+  { titleKey: 'digital.posten.title', descriptionKey: 'digital.posten.description', href: '/digital/posten', category: 'digital', keywords: ['posten', 'pakke', 'sporing', 'post', 'toll', 'hente', 'package', 'tracking'] },
 
   // Bolig
   { titleKey: 'bolig.bostotte.title', descriptionKey: 'bolig.bostotte.description', href: '/bolig/bostotte', category: 'bolig', keywords: ['bostøtte', 'husleie', 'støtte', 'husbanken', 'housing', 'support', 'leie'] },
@@ -115,6 +117,7 @@ export const ALL_GUIDES: GuideData[] = [
   { titleKey: 'utdanning.studielan.title', descriptionKey: 'utdanning.studielan.description', href: '/utdanning/studielan', category: 'utdanning', keywords: ['studielån', 'stipend', 'lånekassen', 'skole', 'student', 'loan', 'utdanning'] },
   { titleKey: 'utdanning.stipend.title', descriptionKey: 'utdanning.stipend.description', href: '/utdanning/stipend', category: 'utdanning', keywords: ['stipend', 'penger', 'lånekassen', 'gratis', 'student', 'grant'] },
   { titleKey: 'utdanning.tilbakebetaling.title', descriptionKey: 'utdanning.tilbakebetaling.description', href: '/utdanning/tilbakebetaling', category: 'utdanning', keywords: ['tilbakebetaling', 'lån', 'nedbetaling', 'renter', 'repayment'] },
+  { titleKey: 'utdanning.betalingsutsettelse.title', descriptionKey: 'utdanning.betalingsutsettelse.description', href: '/utdanning/betalingsutsettelse', category: 'utdanning', keywords: ['betalingsutsettelse', 'utsettelse', 'lån', 'lånekassen', 'pause', 'deferment'] },
 
   // ID
   { titleKey: 'id.pass.title', descriptionKey: 'id.pass.description', href: '/id/pass', category: 'id', keywords: ['pass', 'reise', 'id', 'passport', 'travel', 'utland'] },

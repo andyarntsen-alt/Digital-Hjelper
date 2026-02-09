@@ -22,6 +22,7 @@ export default function SmarttelefonContent() {
       translationNamespace="guides.grunnleggende.smarttelefon"
       parentHref="/grunnleggende"
       parentLabelKey="grunnleggende"
+      categoryColor="bg-grunnleggende-purple hover:bg-purple-700"
       totalTime="PT10M"
       steps={steps}
       whatIsSection={{

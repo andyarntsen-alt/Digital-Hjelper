@@ -30,6 +30,7 @@
     "save": "Lagre",
     "saved": "Lagret",
     "favorite": "Favoritt",
+    "lastUpdated": "Sist oppdatert:",
     "lastUpdatedJan2026": "Sist oppdatert: Februar 2026",
     "comingSoon": "Kommer snart",
     "comingSoonDescription": "Vi jobber med å lage denne veiledningen.",
@@ -142,7 +143,7 @@
   },
   "hero": {
     "headline": "Digitale tjenester gjort enkelt.",
-    "subheadline": "NAV, skatt, helse, bank og mer – vi hjelper deg med alt det digitale. Steg for steg.",
+    "subheadline": "NAV, skatt, helse, bank og mer. Vi hjelper deg med alt det digitale. Steg for steg.",
     "badges": {
       "guidesCount": "50+ guider",
       "languagesCount": "6 språk",
@@ -150,7 +151,7 @@
     }
   },
   "organizations": {
-    "metaTitle": "For organisasjoner – LettDigital",
+    "metaTitle": "For organisasjoner | LettDigital",
     "metaDescription": "Hjelp innbyggerne dine med digitale tjenester. LettDigital tilbyr gratis, tilgjengelige guider for NAV, skatt, helse og mer.",
     "heroTitle": "For organisasjoner",
     "heroSubtitle": "Hjelp innbyggerne dine med digitale offentlige tjenester. LettDigital tilbyr gratis, tilgjengelige veiledninger som kan brukes av biblioteker, NAV-kontor, kommuner og frivillige organisasjoner.",
@@ -200,6 +201,14 @@
         "quote": "For en jobb du gjør, tusen takk fra de som trenger det!"
       }
     ]
+  },
+  "errors": {
+    "notFound": "Siden ble ikke funnet",
+    "notFoundText": "Beklager, vi finner ikke siden du leter etter.",
+    "backToHome": "Gå til forsiden",
+    "somethingWentWrong": "Noe gikk galt",
+    "errorText": "Beklager, det oppstod en feil. Prøv igjen eller gå tilbake til forsiden.",
+    "tryAgain": "Prøv igjen"
   },
   "home": {
     "heroTitle": "Trenger du hjelp med",
@@ -537,7 +546,7 @@
       "canDoVaccines": "Se vaksinasjoner",
       "canDoVaccinesDesc": "Oversikt over alle vaksiner du har tatt",
       "introStrong": "Helsenorge",
-      "introText": "er din inngang til helseopplysninger og digitale helsetjenester i Norge. Her kan du bestille legetime, se resepter, bytte fastlege og lese din journal – alt på ett sted.",
+      "introText": "er din inngang til helseopplysninger og digitale helsetjenester i Norge. Her kan du bestille legetime, se resepter, bytte fastlege og lese din journal. Alt på ett sted.",
       "faqTitle": "Vanlige spørsmål om Helsenorge",
       "faq": {
         "q1": "Hvordan logger jeg inn på Helsenorge?",
@@ -937,66 +946,6 @@
           "description": "Opprette gratis e-postkonto for å bruke norske tjenester"
         }
       }
-    },
-    "hjelpere": {
-      "title": "For hjelpere",
-      "description": "Ressurser for deg som hjelper andre med digitale tjenester",
-      "metaTitle": "For hjelpere - LettDigital",
-      "metaDescription": "Ressurser for biblioteker, kommuner og frivillige som hjelper andre med digitale offentlige tjenester.",
-      "heroTitle": "For deg som hjelper andre",
-      "heroSubtitle": "Biblioteker, kommuner, frivillige organisasjoner og alle som bistår med digitale offentlige tjenester",
-      "howToUse": "Hvordan bruke LettDigital",
-      "showOnScreen": "Vis på skjerm",
-      "showOnScreenDesc": "Vis guidene på storskjerm eller delt skjerm mens du veileder",
-      "print": "Skriv ut",
-      "printDesc": "Alle sider kan skrives ut - perfekt for drop-in veiledning",
-      "shareLinks": "Del lenker",
-      "shareLinksDesc": "Kopier lenker til spesifikke guider og send på SMS eller e-post",
-      "useSearch": "Bruk søk",
-      "useSearchDesc": "Finn raskt riktig guide med søkefunksjonen",
-      "targetGroups": "Hvem hjelper du?",
-      "forLibraries": "For biblioteker",
-      "forLibrariesDesc": "Vis guider på publikums-PC-er, skriv ut og legg ved datamaskiner, eller tips brukere om nettstedet.",
-      "forLibrariesTips": [
-        "Sett LettDigital som startside på publikums-PC-er",
-        "Skriv ut populære guider og legg ved datamaskinene",
-        "Tips brukere som trenger hjelp med NAV, skatt eller helse"
-      ],
-      "forMunicipalities": "For kommuner og NAV-kontor",
-      "forMunicipalitiesDesc": "Bruk LettDigital som supplement til egen veiledning i servicetorg og drop-in timer.",
-      "forMunicipalitiesTips": [
-        "Del lenker til spesifikke guider med brukere",
-        "Bruk guidene som støtte under veiledning",
-        "Henvis til nettsiden for selvbetjening"
-      ],
-      "forOrganizations": "For frivillige organisasjoner",
-      "forOrganizationsDesc": "Hjelp brukere med digitale tjenester gjennom kurs og opplæring.",
-      "forOrganizationsTips": [
-        "Bruk guidene i kurs og opplæring",
-        "Tilgjengelig på flere språk for flyktninger",
-        "Perfekt for digital kafé og drop-in hjelp"
-      ],
-      "forFamily": "For familie og venner",
-      "forFamilyDesc": "Hjelper du foreldre, besteforeldre eller andre med digitale tjenester?",
-      "forFamilyTips": [
-        "Gå gjennom guidene sammen",
-        "Lagre favoritter så de finner dem igjen",
-        "Øv på sikker innlogging med BankID"
-      ],
-      "tipsTitle": "Tips for effektiv hjelp",
-      "tip1Title": "Lagre favoritter",
-      "tip1Desc": "Klikk på hjertet for å lagre guider du bruker ofte",
-      "tip2Title": "Skriv ut",
-      "tip2Desc": "Alle sider er optimalisert for utskrift med Ctrl+P",
-      "tip3Title": "Bytt språk",
-      "tip3Desc": "Bytt språk øverst til høyre for brukere som trenger annet språk",
-      "tip4Title": "Bruk søk",
-      "tip4Desc": "Søkefeltet finner raskt det du trenger",
-      "popularGuides": "Populære guider for hjelpere",
-      "popularGuidesDesc": "Disse guidene er mest brukt av hjelpere:",
-      "contactTitle": "Har du forslag?",
-      "contactDesc": "Vi setter stor pris på tilbakemeldinger fra hjelpere. Fortell oss hva som fungerer bra og hva vi kan forbedre.",
-      "feedbackPlaceholder": "Del dine erfaringer eller forslag til nye guider..."
     }
   },
   "guides": {
@@ -3737,6 +3686,7 @@
             "description": "Send posten til en annen adresse mens du er bortreist"
           }
         ],
+        "stepsTitle": "Slik sporer du en pakke",
         "trackingTitle": "Slik sporer du en pakke",
         "trackingSteps": [
           {
@@ -4595,8 +4545,8 @@
           "Bruk gjerne en setning du husker: \"MinKattHeter2Fansen!\"",
           "Bruk forskjellige passord på viktige tjenester (bank, NAV, e-post)"
         ],
-        "forgotPasswordTitle": "Glemt passordet?",
-        "forgotPasswordSteps": [
+        "stepsTitle": "Glemt passordet?",
+        "steps": [
           {
             "title": "Finn \"Glemt passord\"-lenken",
             "description": "På innloggingssiden finner du ofte en lenke som sier \"Glemt passord?\", \"Reset password\" eller \"Trenger du hjelp?\". Klikk på den.",
@@ -5672,6 +5622,7 @@
   },
   "privacy": {
     "title": "Personvernerklæring",
+    "description": "Les om hvordan LettDigital håndterer dine data, informasjonskapsler og personvern. Vi samler inn minimalt med data.",
     "backToHome": "Tilbake til forsiden",
     "lastUpdated": "Sist oppdatert: Februar 2026",
     "whoAreWe": {

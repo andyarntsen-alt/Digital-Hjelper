@@ -30,6 +30,7 @@
     "save": "Zapisz",
     "saved": "Zapisano",
     "favorite": "Ulubiony",
+    "lastUpdated": "Ostatnia aktualizacja:",
     "lastUpdatedJan2026": "Ostatnia aktualizacja: Luty 2026",
     "comingSoon": "Wkrótce",
     "comingSoonDescription": "Pracujemy nad stworzeniem tego przewodnika.",
@@ -100,7 +101,8 @@
     "stopReading": "Zatrzymaj czytanie"
   },
   "relatedGuides": {
-    "title": "Inne przewodniki, które mogą ci się przydać"
+    "title": "Inne przewodniki, które mogą ci się przydać",
+    "relatedServices": "Powiązane z innych usług"
   },
   "recentlyVisited": {
     "title": "Kontynuuj od miejsca, w którym skończyłeś"
@@ -122,7 +124,7 @@
   },
   "hero": {
     "headline": "Usługi cyfrowe łatwo.",
-    "subheadline": "NAV, podatki, zdrowie, bank i więcej – pomagamy ci ze wszystkim cyfrowym. Krok po kroku.",
+    "subheadline": "NAV, podatki, zdrowie, bank i więcej. Pomagamy ci ze wszystkim cyfrowym. Krok po kroku.",
     "badges": {
       "guidesCount": "50+ poradników",
       "languagesCount": "6 języków",
@@ -130,7 +132,7 @@
     }
   },
   "organizations": {
-    "metaTitle": "Dla organizacji – LettDigital",
+    "metaTitle": "Dla organizacji | LettDigital",
     "metaDescription": "Pomóż swoim mieszkańcom w usługach cyfrowych. LettDigital oferuje bezpłatne, dostępne poradniki dotyczące NAV, podatków, zdrowia i innych.",
     "heroTitle": "Dla organizacji",
     "heroSubtitle": "Pomóż swoim mieszkańcom w cyfrowych usługach publicznych. LettDigital oferuje bezpłatne, dostępne poradniki dla bibliotek, biur NAV, gmin i organizacji wolontariackich.",
@@ -180,6 +182,14 @@
         "quote": "Co za robota, dziękuję od tych, którzy tego potrzebują!"
       }
     ]
+  },
+  "errors": {
+    "notFound": "Nie znaleziono strony",
+    "notFoundText": "Przepraszamy, nie możemy znaleźć strony, której szukasz.",
+    "backToHome": "Przejdź do strony głównej",
+    "somethingWentWrong": "Coś poszło nie tak",
+    "errorText": "Przepraszamy, wystąpił błąd. Spróbuj ponownie lub wróć do strony głównej.",
+    "tryAgain": "Spróbuj ponownie"
   },
   "home": {
     "heroTitle": "Potrzebujesz pomocy z",
@@ -3414,6 +3424,7 @@
             "description": "Prześlij swoją pocztę na inny adres podczas podróży"
           }
         ],
+        "stepsTitle": "Jak śledzić paczkę",
         "trackingTitle": "Jak śledzić paczkę",
         "trackingSteps": [
           {
@@ -4272,8 +4283,8 @@
           "Chętnie używaj zdania, które pamiętasz: \"MójKotMa2Ogrodzenia!\"",
           "Używaj różnych haseł do ważnych usług (bank, NAV, email)"
         ],
-        "forgotPasswordTitle": "Zapomniane hasło?",
-        "forgotPasswordSteps": [
+        "stepsTitle": "Zapomniane hasło?",
+        "steps": [
           {
             "title": "Znajdź link \"Zapomniane hasło\"",
             "description": "Na stronie logowania zwykle znajdziesz link, który mówi \"Zapomniane hasło?\", \"Reset hasła\" lub \"Potrzebujesz pomocy?\". Kliknij na niego.",
@@ -4745,6 +4756,7 @@
   },
   "privacy": {
     "title": "Polityka prywatności",
+    "description": "Dowiedz się, jak LettDigital obsługuje Twoje dane, pliki cookie i prywatność. Zbieramy minimalne dane.",
     "backToHome": "Powrót do strony głównej",
     "lastUpdated": "Ostatnia aktualizacja: luty 2026",
     "whoAreWe": {

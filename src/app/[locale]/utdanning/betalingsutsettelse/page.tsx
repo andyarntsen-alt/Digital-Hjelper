@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
-import BetalingsutsettelsContent from './BetalingsutsettelsContent';
+import BetalingsutsettelsesContent from './BetalingsutsettelsesContent';
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -39,5 +39,5 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default function Page() {
-  return <BetalingsutsettelsContent />;
+  return <BetalingsutsettelsesContent />;
 }

@@ -3,7 +3,7 @@
 import { Link } from '@/i18n/navigation';
 import { useTranslations, useLocale } from 'next-intl';
 import { FAQSchema, BreadcrumbSchema, ArticleSchema } from '@/components/StructuredData';
-import { ArrowLeftIcon, ArrowRightIcon, ClockIcon, ChevronDownIcon, CheckIcon, PhoneIcon, LocationIcon } from '@/components/icons';
+import { ArrowLeftIcon, ArrowRightIcon, ClockIcon, ChevronDownIcon, PhoneIcon, LocationIcon } from '@/components/icons';
 import React from 'react';
 
 // Types

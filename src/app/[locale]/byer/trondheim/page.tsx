@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: `${title} | LettDigital`,
       description,
       url: `https://www.lettdigital.no/${locale}/byer/trondheim`,
-      type: 'website',
+      type: 'article',
     },
     twitter: {
       card: 'summary_large_image',

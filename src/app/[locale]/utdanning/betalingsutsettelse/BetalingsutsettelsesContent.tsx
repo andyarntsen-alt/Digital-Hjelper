@@ -3,7 +3,7 @@
 import { useTranslations } from 'next-intl';
 import GuideLayout, { StepData } from '@/components/layouts/GuideLayout';
 
-export default function BetalingsutsettelsContent() {
+export default function BetalingsutsettelsesContent() {
   const t = useTranslations('guides.utdanning.betalingsutsettelse');
 
   // Get steps from translations

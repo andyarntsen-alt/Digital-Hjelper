@@ -9,7 +9,7 @@ export default function ServiceWorkerRegistration() {
         navigator.serviceWorker
           .register('/sw.js')
           .then((registration) => {
-            console.log('LettDigital: Service Worker registrert', registration.scope);
+            // Service Worker registered successfully
 
             // Sjekk for oppdateringer
             registration.addEventListener('updatefound', () => {
@@ -17,8 +17,7 @@ export default function ServiceWorkerRegistration() {
               if (newWorker) {
                 newWorker.addEventListener('statechange', () => {
                   if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
-                    // Ny versjon tilgjengelig
-                    console.log('LettDigital: Ny versjon tilgjengelig');
+                    // New version available
                   }
                 });
               }

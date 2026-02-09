@@ -8,7 +8,6 @@ import FeedbackFormLight from '@/components/FeedbackFormLight';
 export default function OmContent() {
   const t = useTranslations('about');
   const tCommon = useTranslations('common');
-  const tFooter = useTranslations('footer');
   const locale = useLocale();
 
   return (

@@ -94,7 +94,7 @@ export async function GET() {
               color: 'white',
             }}
           >
-            NAV • Skatteetaten • Helsenorge – steg for steg
+            NAV • Skatteetaten • Helsenorge • Steg for steg
           </div>
         </div>
       </div>

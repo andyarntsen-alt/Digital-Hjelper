@@ -28,7 +28,8 @@ export default function TrustBadges() {
     });
 
     return () => timers.forEach(clearTimeout);
-  }, [badges.length]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps -- badges is a static array, stable after mount
+  }, []);
 
   return (
     <div className="flex flex-wrap gap-3 sm:gap-4 justify-center">

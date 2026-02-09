@@ -153,11 +153,6 @@ html.high-contrast .tip-box {
   border-left-color: #00ff00 !important;
 }
 
-html.high-contrast .warning-box {
-  background-color: #3a3a1a !important;
-  border-left-color: #ffff00 !important;
-}
-
 html.high-contrast .skip-link {
   background: #ffff00 !important;
   color: #000 !important;
@@ -188,26 +183,8 @@ html.high-contrast .skip-link {
            focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-yellow-400;
   }
 
-  .btn-secondary {
-    @apply bg-white text-nav-blue border-2 border-nav-blue px-5 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold
-           hover:bg-blue-50 active:bg-blue-100 transition-colors duration-200
-           focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-yellow-400;
-  }
-
   .card {
     @apply bg-white rounded-lg sm:rounded-xl p-4 sm:p-6 md:p-8 border border-gray-100;
-  }
-
-  .service-card {
-    @apply card hover:bg-gray-50 transition-colors duration-200 cursor-pointer;
-  }
-
-  .step-card {
-    @apply bg-gray-50 rounded-xl p-4 sm:p-6 border border-gray-200;
-  }
-
-  .warning-box {
-    @apply bg-gray-50 border border-gray-200 p-3 sm:p-4 rounded-xl;
   }
 
   .tip-box {
@@ -253,9 +230,7 @@ select {
   padding-bottom: var(--safe-area-inset-bottom);
 }
 
-.safe-area-left {
-  padding-left: var(--safe-area-inset-left);
-}
+
 
 .safe-area-right {
   padding-right: var(--safe-area-inset-right);
@@ -385,9 +360,7 @@ select {
 
   /* Behold viktige farger for lesbarhet */
   .card,
-  .step-card,
-  .tip-box,
-  .warning-box {
+  .tip-box {
     border: 1px solid #ccc !important;
     padding: 12px !important;
     margin-bottom: 12px !important;
@@ -396,10 +369,6 @@ select {
 
   .tip-box {
     border-left: 4px solid #22c55e !important;
-  }
-
-  .warning-box {
-    border-left: 4px solid #f59e0b !important;
   }
 
   /* Lenker - vis URL */
@@ -445,11 +414,6 @@ select {
   /* Vis elementer som skal være synlige ved utskrift */
   .print\\:block {
     display: block !important;
-  }
-
-  /* Steg-guider */
-  .step-card {
-    border-left: 4px solid #1e40af !important;
   }
 
   /* Maksimer bredde */

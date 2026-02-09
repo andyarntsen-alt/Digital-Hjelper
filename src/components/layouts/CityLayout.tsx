@@ -9,7 +9,6 @@ import {
   ChevronDownIcon,
   CheckIcon,
   PhoneIcon,
-  LocationIcon,
 } from '@/components/icons';
 import { type CityDataType, getOtherCities, type CitySlug } from '@/data/cityData';
 import React from 'react';

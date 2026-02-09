@@ -54,20 +54,3 @@ export function setStorageItem<T>(key: string, value: T): boolean {
     return false;
   }
 }
-
-/**
- * Fjerner en verdi fra localStorage
- */
-export function removeStorageItem(key: string): boolean {
-  if (typeof window === 'undefined') {
-    return false;
-  }
-
-  try {
-    localStorage.removeItem(key);
-    return true;
-  } catch (error) {
-    console.warn(`Failed to remove localStorage item "${key}":`, error);
-    return false;
-  }
-}

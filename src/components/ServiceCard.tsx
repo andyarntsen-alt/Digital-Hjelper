@@ -14,7 +14,7 @@ interface ServiceCardProps {
   compact?: boolean;
 }
 
-export default function ServiceCard({ title, description, icon, href, color, featured, compact }: ServiceCardProps) {
+export default function ServiceCard({ title, description, icon, href, color, compact }: ServiceCardProps) {
   const t = useTranslations('common');
 
   // Compact version for "Andre tjenester"

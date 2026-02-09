@@ -30,7 +30,8 @@ export default function Testimonials() {
     });
 
     return () => timers.forEach(clearTimeout);
-  }, [quotes.length]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps -- quotes is derived from translations, stable after mount
+  }, []);
 
   return (
     <section className="py-10 sm:py-12 bg-gray-50">

@@ -23,6 +23,7 @@ export default function HelseLoggInnContent() {
       translationNamespace="guides.helse.loggInn"
       parentHref="/helse"
       parentLabelKey="helse"
+      categoryColor="bg-helse-red hover:bg-red-700"
       totalTime="PT10M"
       steps={steps}
       whatIsSection={{

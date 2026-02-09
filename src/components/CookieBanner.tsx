@@ -15,6 +15,7 @@ export default function CookieBanner() {
   const [showSettings, setShowSettings] = useState(false);
   const [analyticsEnabled, setAnalyticsEnabled] = useState(false);
   const t = useTranslations('cookieBanner');
+  const tCommon = useTranslations('common');
 
   useEffect(() => {
     setMounted(true);
@@ -60,7 +61,7 @@ export default function CookieBanner() {
             <button
               onClick={() => setShowSettings(false)}
               className="p-1 text-gray-400 hover:text-gray-600 rounded-lg hover:bg-gray-100 transition-colors"
-              aria-label="Lukk"
+              aria-label={tCommon('close')}
             >
               <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />

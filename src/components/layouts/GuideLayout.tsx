@@ -5,9 +5,12 @@ import PrintButton from '@/components/PrintButton';
 import FavoriteButton from '@/components/FavoriteButton';
 import ShareButton from '@/components/ShareButton';
 import StepGuide from '@/components/StepGuide';
+import RelatedGuides from '@/components/RelatedGuides';
+import GuideTracker from '@/components/GuideTracker';
 import { HowToSchema } from '@/components/StructuredData';
 import { useTranslations, useLocale } from 'next-intl';
 import { ClockIcon, CheckIcon, LockIcon, ChevronDownIcon } from '@/components/icons';
+import { GuideCategory } from '@/data/guides';
 import React from 'react';
 
 // Types
@@ -29,6 +32,17 @@ export interface ChecklistSection {
   iconType?: 'check' | 'lock';
 }
 
+export interface FaqItem {
+  q: string;
+  a: string;
+}
+
+export interface RelatedGuidesConfig {
+  currentPath: string;
+  category: GuideCategory;
+  crossCategoryLinks?: { href: string; titleKey: string; descriptionKey: string }[];
+}
+
 export interface GuideLayoutProps {
   // Identification
   guideId: string;
@@ -44,6 +58,9 @@ export interface GuideLayoutProps {
   // Content from translations
   steps: StepData[];
 
+  // Category color for Quick Start button
+  categoryColor?: string; // e.g. 'bg-skatt-green hover:bg-green-700'
+
   // Optional sections
   whatIsSection?: {
     titleKey: string;
@@ -53,8 +70,23 @@ export interface GuideLayoutProps {
   preSection?: ChecklistSection;
   postSections?: ChecklistSection[];
 
+  // FAQ section
+  faqSection?: {
+    titleKey: string;
+    items: FaqItem[];
+  };
+
+  // Related guides
+  relatedGuides?: RelatedGuidesConfig;
+
+  // GuideTracker
+  showGuideTracker?: boolean;
+
   // Help section
   showHelpSection?: boolean;
+
+  // Custom content (rendered between steps and postSections)
+  children?: React.ReactNode;
 
   // SEO - dates for E-E-A-T
   dateModified?: string; // e.g. "2026-02-01"
@@ -67,10 +99,15 @@ export default function GuideLayout({
   parentLabelKey,
   totalTime,
   steps,
+  categoryColor = 'bg-nav-blue hover:bg-blue-700',
   whatIsSection,
   preSection,
   postSections,
+  faqSection,
+  relatedGuides,
+  showGuideTracker = false,
   showHelpSection = false,
+  children,
   dateModified,
 }: GuideLayoutProps) {
   const t = useTranslations(translationNamespace);
@@ -89,6 +126,9 @@ export default function GuideLayout({
 
   return (
     <>
+      {/* GuideTracker */}
+      {showGuideTracker && <GuideTracker />}
+
       {/* Structured Data */}
       <HowToSchema
         name={t('title')}
@@ -141,7 +181,7 @@ export default function GuideLayout({
         <div className="print:hidden mb-6">
           <a
             href="#guide-steps"
-            className="inline-flex items-center gap-3 bg-nav-blue text-white px-6 py-4 rounded-xl hover:bg-blue-700 transition-colors no-underline text-lg font-semibold shadow-md hover:shadow-lg"
+            className={`inline-flex items-center gap-3 ${categoryColor} text-white px-6 py-4 rounded-xl transition-colors no-underline text-lg font-semibold shadow-md hover:shadow-lg`}
           >
             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
@@ -198,6 +238,9 @@ export default function GuideLayout({
           <StepGuide title={t('stepsTitle')} steps={steps} />
         </div>
 
+        {/* Custom Content */}
+        {children}
+
         {/* Post Sections */}
         {postSections?.map((section, sectionIndex) => (
           <div key={sectionIndex} className="mt-8 bg-gray-50 border border-gray-200 rounded-xl p-6">
@@ -217,12 +260,36 @@ export default function GuideLayout({
           </div>
         ))}
 
+        {/* FAQ Section */}
+        {faqSection && (
+          <div className="mt-8 bg-white border border-gray-200 rounded-xl p-6">
+            <h2 className="text-xl font-bold mb-4">{t(faqSection.titleKey)}</h2>
+            <div className="space-y-4">
+              {faqSection.items.map((item, index) => (
+                <div key={index} className="p-4 bg-gray-50 rounded-lg">
+                  <p className="font-semibold mb-1">{item.q}</p>
+                  <p className="text-gray-600">{item.a}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
         {/* Help Section */}
         {showHelpSection && (
           <div className="mt-8 bg-gray-50 border border-gray-200 rounded-xl p-6">
             <h2 className="text-xl font-bold mb-4 text-gray-900">{t('helpTitle')}</h2>
             <p className="text-gray-700">{t('helpText')}</p>
           </div>
+        )}
+
+        {/* Related Guides */}
+        {relatedGuides && (
+          <RelatedGuides
+            currentPath={relatedGuides.currentPath}
+            category={relatedGuides.category}
+            crossCategoryLinks={relatedGuides.crossCategoryLinks}
+          />
         )}
 
         {/* Last Updated - E-E-A-T signal */}
@@ -232,12 +299,11 @@ export default function GuideLayout({
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
             <span>
-              {locale === 'no' ? 'Sist oppdatert: ' : 'Last updated: '}
-              {new Date(dateModified).toLocaleDateString(locale === 'no' ? 'nb-NO' : 'en-GB', {
-                year: 'numeric',
-                month: 'long',
-                day: 'numeric'
-              })}
+              {tCommon('lastUpdated')}{' '}
+              {new Date(dateModified).toLocaleDateString(
+                { no: 'nb-NO', en: 'en-GB', uk: 'uk-UA', pl: 'pl-PL', ar: 'ar-SA', so: 'so-SO' }[locale] || 'en-GB',
+                { year: 'numeric', month: 'long', day: 'numeric' }
+              )}
             </span>
           </div>
         )}

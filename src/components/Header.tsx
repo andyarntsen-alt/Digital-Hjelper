@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useRef, useCallback, useEffect } from 'react';
-import { useTranslations, useLocale } from 'next-intl';
+import { useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/i18n/navigation';
 import LanguageSelector from './LanguageSelector';
 
@@ -12,7 +12,6 @@ export default function Header() {
   const t = useTranslations('header');
   const tCommon = useTranslations('common');
   const pathname = usePathname();
-  const locale = useLocale();
 
   useEffect(() => {
     setMenuOpen(false);
